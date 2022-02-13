@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "commander": "^9.0.0",
+    "csv-stringify": "^6.0.5",
     "json-stringify-pretty-compact": "^3.0.0",
     "lodash": "^4.17.21",
     "node-fetch": "^3.2.0",

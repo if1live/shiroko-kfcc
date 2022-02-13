@@ -12,7 +12,7 @@ export interface InterestRateEntry {
 	rate: string;
 }
 
-export interface InteresetRateModel {
+export interface Product {
 	title: string;
 	entries_normal: InterestRateEntry[];
 }
@@ -20,5 +20,5 @@ export interface InteresetRateModel {
 export interface BankModel {
 	gmgoCd: string;
 	baseDate: string;
-	models: InteresetRateModel[];
+	products: Product[];
 }

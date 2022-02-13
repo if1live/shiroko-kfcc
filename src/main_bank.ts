@@ -8,7 +8,7 @@ import { NodeType, parse as parseHtml } from 'node-html-parser';
 import {
 	BankDefinition,
 	BankModel,
-	InteresetRateModel,
+	Product,
 	InterestRateEntry,
 } from './types';
 
@@ -38,11 +38,11 @@ async function stage_parse(ids: string[]) {
 		const text = await fs.readFile(fp, 'utf-8');
 		const root = parseHtml(text);
 
-		const models: InteresetRateModel[] = [];
+		const products: Product[] = [];
 
 		// 조회 기준일
 		const elem_baseDate = root.querySelector('.base-date');
-		const baseDate_text = elem_baseDate?.textContent ?? '<blank>';
+		const baseDate = elem_baseDate?.textContent ?? '<blank>';
 		// "조회기준일(2022/02/13)"
 		// console.log(baseDate_text);
 
@@ -68,17 +68,17 @@ async function stage_parse(ids: string[]) {
 				entries_normal.push(entry);
 			}
 
-			const interest: InteresetRateModel = {
+			const product: Product = {
 				title,
 				entries_normal,
 			};
-			models.push(interest);
+			products.push(product);
 		}
 
 		const bank: BankModel = {
 			gmgoCd: id,
-			baseDate: baseDate_text,
-			models,
+			baseDate,
+			products,
 		};
 
 		const fp_output = path.resolve(process.cwd(), 'data_bank', `rate_${id}.json`);
