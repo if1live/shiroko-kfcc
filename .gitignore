@@ -147,3 +147,5 @@ dist
 ## custom
 _cache*/*.html
 data_bank/rate_*.json
+data/*.json
+*.csv
