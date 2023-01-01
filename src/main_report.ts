@@ -35,7 +35,7 @@ async function main() {
 
 	// MG더뱅킹정기예금 금리만 뽑아보고 싶다
 	const mat: string[][] = [
-		['gmgoCd', 'gmgoNm', 'rate'],
+		['gmgoCd', 'gmgoNm', 'location', 'rate'],
 	];
 
 	for (const def of definitions) {
@@ -49,9 +49,12 @@ async function main() {
 		const rate = rate_text.replace('연', '').replace('%', '');
 
 		// csv로 보낼값
+		// "부평"은 인천, 부산에 있다. 검색할떄는 지역정보가 유용하다.
+		// 비슷하게 이름이 같은 동네가 더 있을수 있다.
 		const values: string[] = [
 			gmgoCd,
 			def.gmgoNm,
+			`${def.r1} ${def.r2}`,
 			rate,
 		];
 		mat.push(values);
