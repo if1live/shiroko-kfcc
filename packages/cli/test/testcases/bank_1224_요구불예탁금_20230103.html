@@ -1,0 +1,1325 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>새마을금고위치안내</title>
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<link rel="shortcut icon" href="../../static/images/kfcc.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta property="og:image" content="../static/images/og_img.jpg">
+<meta property="og:title" content="새마을금고 ">
+<meta property="og:url" content="https://www.kfcc.co.kr">
+<link href="../../static/css/reset.css" rel="stylesheet">
+<link href="../../static/css/common.css" rel="stylesheet">
+<link href="../../static/css/main.css" rel="stylesheet">
+<link href="../../static/css/board.css" rel="stylesheet">
+<link href="../../static/css/popup.css" rel="stylesheet">
+<link href="../../static/css/sub-layout.css" rel="stylesheet">
+<link href="../../static/css/swiper.min.css" rel="stylesheet">
+<link href="../../static/css/jquery-ui.min.css" rel="stylesheet">
+<link href="../../static/css/jquery.mCustomScrollbar.css" rel="stylesheet">
+<script src="../../static/js/common.js"></script>
+<script src="../../static/js/jquery-ui.min.js"></script>
+<script src="../../static/js/front.js"></script>
+<script src="../../static/js/swiper.min.js"></script>
+<script src="../../static/js/jquery.mousewheel.min.js"></script>
+<script src="../../static/js/jquery.mCustomScrollbar.js"></script>
+
+<script type="text/javascript">
+
+	function onSelectTab(num) {
+
+		jQuery("#loading_bar_sec").show();
+
+		var obj = document.gubunTab;
+
+		obj.gubuncode.value = num;
+
+		obj.submit();
+
+	}
+
+
+
+	function onSelectTab2(num) {
+
+		jQuery("#loading_bar_sec").show();
+
+		var obj = document.gubunTab2;
+
+		obj.gubuncode.value = num;
+
+		obj.submit();
+
+	}
+
+
+
+	var tcount = 1;
+
+
+
+	function onsubTab(val) {
+
+		// 		var subcount = 0;
+
+		var subcount1 = 0;
+
+		var subcount2 = 0;
+
+		var subcount3 = 0;
+
+		var obj1;
+
+		var obj2;
+
+		var obj3;
+
+
+
+		obj1 = document.getElementsByName("divTmp1");
+
+		subcount1 = obj1.length;
+
+		obj2 = document.getElementsByName("divTmp2");
+
+		subcount2 = obj2.length;
+
+		obj3 = document.getElementsByName("divTmp4");
+
+		subcount3 = obj3.length;
+
+
+
+		//alert(subcount1+"/"+subcount2+"/"+subcount3);
+
+
+
+		if (val == 2) {
+
+
+
+			for (var i = 0; i < subcount1; i++) {
+
+				obj1[i].style.display = "none";
+
+			}
+
+
+
+			for (var j = 0; j < subcount2; j++) {
+
+				obj2[j].style.display = "block";
+
+			}
+
+
+
+			for (var k = 0; k < subcount3; k++) {
+
+				obj3[k].style.display = "none";
+
+			}
+
+
+
+			document.getElementById("subtitle1").style.display = "block";
+
+			document.getElementById("subtitle2").style.display = "none";
+
+
+
+		} else if (val == 3) {
+
+
+
+			for (var i = 0; i < subcount1; i++) {
+
+				obj1[i].style.display = "none";
+
+			}
+
+
+
+			for (var j = 0; j < subcount2; j++) {
+
+				obj2[j].style.display = "none";
+
+			}
+
+
+
+			for (var k = 0; k < subcount3; k++) {
+
+				obj3[k].style.display = "block";
+
+			}
+
+
+
+			document.getElementById("subtitle1").style.display = "none";
+
+			document.getElementById("subtitle2").style.display = "block";
+
+
+
+		} else {
+
+
+
+			for (var i = 0; i < subcount1; i++) {
+
+				obj1[i].style.display = "block";
+
+			}
+
+
+
+			for (var j = 0; j < subcount2; j++) {
+
+				obj2[j].style.display = "none";
+
+			}
+
+
+
+			for (var k = 0; k < subcount3; k++) {
+
+				obj3[k].style.display = "none";
+
+			}
+
+
+
+			document.getElementById("subtitle1").style.display = "none";
+
+			document.getElementById("subtitle2").style.display = "none";
+
+			$(".scroll-box").mCustomScrollbar("scrollTo", "top");
+		}
+
+
+
+		tcount = val;
+
+
+
+		$("#sub_tab_1").removeClass("on");
+
+		$("#sub_tab_2").removeClass("on");
+
+		$("#sub_tab_3").removeClass("on");
+
+		$("#sub_tab_" + val).addClass("on");
+
+		$("#sub_tab_link_1").attr("title", $("#sub_tab_link_1").text());
+		$("#sub_tab_link_2").attr("title", $("#sub_tab_link_2").text());
+		$("#sub_tab_link_3").attr("title", $("#sub_tab_link_3").text());
+		$("#sub_tab_link_" + val).attr("title", $("#sub_tab_link_" + val).text()+" 선택됨");
+
+	}
+
+</script>
+
+</head>
+
+<body id="location" style="min-width: auto;">
+
+	<!-- 요구불예금 조회 내용 시작 -->
+
+	<div class="guidance" style="display: block; height: auto; padding: 0;">
+
+		<h1 class="blind">새마을금고 금리 조회</h1>
+
+		<div class="tabWrap">
+
+			<ul class="list">
+
+				<li class="on">
+
+					<a href="#tab_01" class="tabw80" onclick="onSelectTab('12');" title="요구불예탁금 선택됨">요구불예탁금</a>
+
+				</li>
+
+				<li >
+
+					<a href="#tab_02" onclick="onSelectTab('13');" class="tabw80" title="거치식예탁금">거치식예탁금</a>
+
+
+				</li>
+
+				<li >
+
+					<a href="#tab_03" onclick="onSelectTab('14');" class="tabw80" title="적립식예탁금">적립식예탁금</a>
+
+				</li>
+
+				<li >
+
+					<a href="/creditLoan/creditLoanList.do" target="_blank" title="새 창 열림" class="tabw43" title="대출">대출</a>
+					<!-- <a href="#tab_04" onclick="onSelectTab(20);" class="tabw43">대출</a> -->
+
+				</li>
+
+				<li >
+
+					<a href="#tab_05" onclick="onSelectTab2('21');" class="tabw102" title="수신관련수수료">수신관련수수료</a>
+
+				</li>
+
+			</ul>
+
+		</div>
+
+		<!-- <div> -->
+
+		<div id="tab_01" class="scroll-box" style="display: block;">
+
+			<h3 class="blind">요구불예탁금<span class="eleHidden2">기본이율</span></h3>
+
+			<p class="base-date">조회기준일(2023/01/03)</p>
+			<div class="table-box">
+
+
+
+
+
+
+
+
+
+
+
+					<div class="tblWrap">
+
+
+
+
+
+								<div class="tbl-tit">온라인보통예탁금</div>
+
+								<table class="rowTbl2" summary="온라인보통예탁금에 대한 상품명, 이율 등의 정보를 나타낸 표">
+
+									<caption>온라인보통예탁금</caption>
+
+									<colgroup>
+										<col style="width: 50%;">
+										<col style="width: 50%;">
+									</colgroup>
+
+									<thead>
+
+										<tr>
+
+											<th scope="col">상품명</th>
+
+											<th scope="col">이율</th>
+
+										</tr>
+
+									</thead>
+
+									<tbody>
+
+										<tr>
+
+											<td scope="row">온라인보통예탁금</td>
+
+											<td>연0.1%</td>
+
+										</tr>
+
+									</tbody>
+
+								</table>
+
+
+
+
+
+									<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+
+
+
+
+
+
+					<div class="tblWrap">
+
+
+
+
+
+
+
+
+
+
+
+
+
+								<!-- 출력되지 않는 상품입니다. [ / 12]-->
+
+
+
+
+
+
+
+					</div>
+
+
+
+
+
+
+
+					<div class="tblWrap">
+
+
+
+
+
+								<div class="tbl-tit">온라인자립예탁금</div>
+
+								<table class="rowTbl2" summary="온라인자립예탁금에 대한 상품명, 이율 등의 정보를 나타낸 표">
+
+									<caption>온라인자립예탁금</caption>
+
+									<colgroup>
+										<col style="width: 50%;">
+										<col style="width: 50%;">
+									</colgroup>
+
+									<thead>
+
+										<tr>
+
+											<th scope="col">상품명</th>
+
+											<th scope="col">이율</th>
+
+										</tr>
+
+									</thead>
+
+									<tbody>
+
+										<tr>
+
+											<td scope="row">온라인자립예탁금</td>
+
+											<td>연0.1%</td>
+
+										</tr>
+
+									</tbody>
+
+								</table>
+
+
+
+
+
+									<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+
+
+
+
+
+
+					<div class="tblWrap">
+
+
+
+
+
+
+
+								<div class="tbl-tit">MG행복지킴이통장</div>
+
+								<table class="rowTbl2" summary="MG행복지킴이통장에 대한 상품명, 단계금액, 이율 등의 정보를 나타낸 표">
+
+									<caption>MG행복지킴이통장</caption>
+
+									<colgroup>
+										<col style="width: 33.33%;">
+										<col style="width: 33.33%;">
+										<col style="width: 33.33%;">
+									</colgroup>
+
+									<thead>
+
+										<tr>
+
+											<th scope="col">상품명</th>
+
+											<th scope="col">단계금액</th>
+
+											<th scope="col">이율</th>
+
+										</tr>
+
+									</thead>
+
+									<tbody>
+
+
+
+											<tr>
+
+
+
+													<td rowspan="2" scope="row">MG행복지킴이통장</td>
+
+
+
+												<td>300,000
+												<!--//화수분코드&& 행복지킴이//자신만만//행복지킴이//국민연금안심//연금우대//사업자우대//20비타민예금//MG주거래우대통장//MG호국보훈지킴이통장-->
+
+													미만
+
+												<!-- //듬뿍기업 자유예탁금 -->
+
+												</td>
+
+												<td>0.1</td>
+
+											</tr>
+
+
+
+											<tr>
+
+
+
+												<td>300,000
+												<!--//화수분코드&& 행복지킴이//자신만만//행복지킴이//국민연금안심//연금우대//사업자우대//20비타민예금//MG주거래우대통장//MG호국보훈지킴이통장-->
+
+													이상
+
+												<!-- //듬뿍기업 자유예탁금 -->
+
+												</td>
+
+												<td>0.1</td>
+
+											</tr>
+
+
+
+									</tbody>
+
+								</table>
+
+
+
+
+
+									<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+
+
+
+
+
+
+					<div class="tblWrap">
+
+
+
+
+
+
+
+								<div class="tbl-tit">MG국민연금안심통장</div>
+
+								<table class="rowTbl2" summary="MG국민연금안심통장에 대한 상품명, 단계금액, 이율 등의 정보를 나타낸 표">
+
+									<caption>MG국민연금안심통장</caption>
+
+									<colgroup>
+										<col style="width: 33.33%;">
+										<col style="width: 33.33%;">
+										<col style="width: 33.33%;">
+									</colgroup>
+
+									<thead>
+
+										<tr>
+
+											<th scope="col">상품명</th>
+
+											<th scope="col">단계금액</th>
+
+											<th scope="col">이율</th>
+
+										</tr>
+
+									</thead>
+
+									<tbody>
+
+
+
+											<tr>
+
+
+
+													<td rowspan="2" scope="row">MG국민연금안심통장</td>
+
+
+
+												<td>300,000
+												<!--//화수분코드&& 행복지킴이//자신만만//행복지킴이//국민연금안심//연금우대//사업자우대//20비타민예금//MG주거래우대통장//MG호국보훈지킴이통장-->
+
+													미만
+
+												<!-- //듬뿍기업 자유예탁금 -->
+
+												</td>
+
+												<td>0.1</td>
+
+											</tr>
+
+
+
+											<tr>
+
+
+
+												<td>300,000
+												<!--//화수분코드&& 행복지킴이//자신만만//행복지킴이//국민연금안심//연금우대//사업자우대//20비타민예금//MG주거래우대통장//MG호국보훈지킴이통장-->
+
+													이상
+
+												<!-- //듬뿍기업 자유예탁금 -->
+
+												</td>
+
+												<td>0.1</td>
+
+											</tr>
+
+
+
+									</tbody>
+
+								</table>
+
+
+
+
+
+									<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+
+
+
+
+
+
+					<div class="tblWrap">
+
+
+
+
+
+								<div class="tbl-tit">MG여성만세예금</div>
+
+								<table class="rowTbl2" summary="MG여성만세예금에 대한 상품명, 이율 등의 정보를 나타낸 표">
+
+									<caption>MG여성만세예금</caption>
+
+									<colgroup>
+										<col style="width: 50%;">
+										<col style="width: 50%;">
+									</colgroup>
+
+									<thead>
+
+										<tr>
+
+											<th scope="col">상품명</th>
+
+											<th scope="col">이율</th>
+
+										</tr>
+
+									</thead>
+
+									<tbody>
+
+										<tr>
+
+											<td scope="row">MG여성만세예금</td>
+
+											<td>연0.2%</td>
+
+										</tr>
+
+									</tbody>
+
+								</table>
+
+
+
+
+
+									<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+
+
+
+
+
+
+					<div class="tblWrap">
+
+
+
+
+
+
+
+								<div class="tbl-tit">MG주거래우대통장</div>
+
+								<table class="rowTbl2" summary="MG주거래우대통장에 대한 상품명, 단계금액, 이율 등의 정보를 나타낸 표">
+
+									<caption>MG주거래우대통장</caption>
+
+									<colgroup>
+										<col style="width: 33.33%;">
+										<col style="width: 33.33%;">
+										<col style="width: 33.33%;">
+									</colgroup>
+
+									<thead>
+
+										<tr>
+
+											<th scope="col">상품명</th>
+
+											<th scope="col">단계금액</th>
+
+											<th scope="col">이율</th>
+
+										</tr>
+
+									</thead>
+
+									<tbody>
+
+
+
+											<tr>
+
+
+
+													<td rowspan="3" scope="row">MG주거래우대통장</td>
+
+
+
+												<td>1,000,000
+												<!--//화수분코드&& 행복지킴이//자신만만//행복지킴이//국민연금안심//연금우대//사업자우대//20비타민예금//MG주거래우대통장//MG호국보훈지킴이통장-->
+
+													이하
+
+												<!-- //듬뿍기업 자유예탁금 -->
+
+												</td>
+
+												<td>0.1</td>
+
+											</tr>
+
+
+
+											<tr>
+
+
+
+												<td>1,000,000
+												<!--//화수분코드&& 행복지킴이//자신만만//행복지킴이//국민연금안심//연금우대//사업자우대//20비타민예금//MG주거래우대통장//MG호국보훈지킴이통장-->
+
+													초과
+
+												<!-- //듬뿍기업 자유예탁금 -->
+
+												</td>
+
+												<td>0.2</td>
+
+											</tr>
+
+
+
+											<tr>
+
+
+
+												<td>3,000,000
+												<!--//화수분코드&& 행복지킴이//자신만만//행복지킴이//국민연금안심//연금우대//사업자우대//20비타민예금//MG주거래우대통장//MG호국보훈지킴이통장-->
+
+													초과
+
+												<!-- //듬뿍기업 자유예탁금 -->
+
+												</td>
+
+												<td>0.3</td>
+
+											</tr>
+
+
+
+									</tbody>
+
+								</table>
+
+
+
+
+
+									<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+
+
+
+
+
+
+					<div class="tblWrap">
+
+
+
+
+
+
+
+								<div class="tbl-tit">MG호국보훈지킴이통장</div>
+
+								<table class="rowTbl2" summary="MG호국보훈지킴이통장에 대한 상품명, 단계금액, 이율 등의 정보를 나타낸 표">
+
+									<caption>MG호국보훈지킴이통장</caption>
+
+									<colgroup>
+										<col style="width: 33.33%;">
+										<col style="width: 33.33%;">
+										<col style="width: 33.33%;">
+									</colgroup>
+
+									<thead>
+
+										<tr>
+
+											<th scope="col">상품명</th>
+
+											<th scope="col">단계금액</th>
+
+											<th scope="col">이율</th>
+
+										</tr>
+
+									</thead>
+
+									<tbody>
+
+
+
+											<tr>
+
+
+
+													<td rowspan="2" scope="row">MG호국보훈지킴이통장</td>
+
+
+
+												<td>300,000
+												<!--//화수분코드&& 행복지킴이//자신만만//행복지킴이//국민연금안심//연금우대//사업자우대//20비타민예금//MG주거래우대통장//MG호국보훈지킴이통장-->
+
+													미만
+
+												<!-- //듬뿍기업 자유예탁금 -->
+
+												</td>
+
+												<td>0.1</td>
+
+											</tr>
+
+
+
+											<tr>
+
+
+
+												<td>300,000
+												<!--//화수분코드&& 행복지킴이//자신만만//행복지킴이//국민연금안심//연금우대//사업자우대//20비타민예금//MG주거래우대통장//MG호국보훈지킴이통장-->
+
+													이상
+
+												<!-- //듬뿍기업 자유예탁금 -->
+
+												</td>
+
+												<td>0.1</td>
+
+											</tr>
+
+
+
+									</tbody>
+
+								</table>
+
+
+
+
+
+									<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+
+
+
+
+
+
+					<div class="tblWrap">
+
+
+
+
+
+								<div class="tbl-tit">상상모바일통장</div>
+
+								<table class="rowTbl2" summary="상상모바일통장에 대한 상품명, 이율 등의 정보를 나타낸 표">
+
+									<caption>상상모바일통장</caption>
+
+									<colgroup>
+										<col style="width: 50%;">
+										<col style="width: 50%;">
+									</colgroup>
+
+									<thead>
+
+										<tr>
+
+											<th scope="col">상품명</th>
+
+											<th scope="col">이율</th>
+
+										</tr>
+
+									</thead>
+
+									<tbody>
+
+										<tr>
+
+											<td scope="row">상상모바일통장</td>
+
+											<td>연0.1%</td>
+
+										</tr>
+
+									</tbody>
+
+								</table>
+
+
+
+
+
+									<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+
+
+
+
+
+
+					<div class="tblWrap">
+
+
+
+
+
+
+
+								<div class="tbl-tit">자신만만자유예탁금</div>
+
+								<table class="rowTbl2" summary="자신만만자유예탁금에 대한 상품명, 단계금액, 이율 등의 정보를 나타낸 표">
+
+									<caption>자신만만자유예탁금</caption>
+
+									<colgroup>
+										<col style="width: 33.33%;">
+										<col style="width: 33.33%;">
+										<col style="width: 33.33%;">
+									</colgroup>
+
+									<thead>
+
+										<tr>
+
+											<th scope="col">상품명</th>
+
+											<th scope="col">단계금액</th>
+
+											<th scope="col">이율</th>
+
+										</tr>
+
+									</thead>
+
+									<tbody>
+
+
+
+											<tr>
+
+
+
+													<td rowspan="6" scope="row">자신만만자유예탁금</td>
+
+
+
+												<td>3,000,000
+												<!--//화수분코드&& 행복지킴이//자신만만//행복지킴이//국민연금안심//연금우대//사업자우대//20비타민예금//MG주거래우대통장//MG호국보훈지킴이통장-->
+
+													미만
+
+												<!-- //듬뿍기업 자유예탁금 -->
+
+												</td>
+
+												<td>0.0</td>
+
+											</tr>
+
+
+
+											<tr>
+
+
+
+												<td>3,000,000
+												<!--//화수분코드&& 행복지킴이//자신만만//행복지킴이//국민연금안심//연금우대//사업자우대//20비타민예금//MG주거래우대통장//MG호국보훈지킴이통장-->
+
+													이상
+
+												<!-- //듬뿍기업 자유예탁금 -->
+
+												</td>
+
+												<td>0.3</td>
+
+											</tr>
+
+
+
+											<tr>
+
+
+
+												<td>10,000,000
+												<!--//화수분코드&& 행복지킴이//자신만만//행복지킴이//국민연금안심//연금우대//사업자우대//20비타민예금//MG주거래우대통장//MG호국보훈지킴이통장-->
+
+													이상
+
+												<!-- //듬뿍기업 자유예탁금 -->
+
+												</td>
+
+												<td>0.5</td>
+
+											</tr>
+
+
+
+											<tr>
+
+
+
+												<td>30,000,000
+												<!--//화수분코드&& 행복지킴이//자신만만//행복지킴이//국민연금안심//연금우대//사업자우대//20비타민예금//MG주거래우대통장//MG호국보훈지킴이통장-->
+
+													이상
+
+												<!-- //듬뿍기업 자유예탁금 -->
+
+												</td>
+
+												<td>0.6</td>
+
+											</tr>
+
+
+
+											<tr>
+
+
+
+												<td>50,000,000
+												<!--//화수분코드&& 행복지킴이//자신만만//행복지킴이//국민연금안심//연금우대//사업자우대//20비타민예금//MG주거래우대통장//MG호국보훈지킴이통장-->
+
+													이상
+
+												<!-- //듬뿍기업 자유예탁금 -->
+
+												</td>
+
+												<td>2.0</td>
+
+											</tr>
+
+
+
+											<tr>
+
+
+
+												<td>100,000,000
+												<!--//화수분코드&& 행복지킴이//자신만만//행복지킴이//국민연금안심//연금우대//사업자우대//20비타민예금//MG주거래우대통장//MG호국보훈지킴이통장-->
+
+													이상
+
+												<!-- //듬뿍기업 자유예탁금 -->
+
+												</td>
+
+												<td>2.5</td>
+
+											</tr>
+
+
+
+									</tbody>
+
+								</table>
+
+
+
+
+
+									<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+
+
+
+
+				<div id="subtitle1" name="subtitle1" class="lineboxType2" style="display: none;">
+
+					<!--<p>중도해지이율 = 기본이율 × 경과기간별 적용비율 (소수점 둘째자리 미만 버림)</p>-->
+					<p>1년 만기 기본이율 2.5% 정기예탁금을 가입 후, 8개월 10일째 되는 날 해지하는 경우<br/>
+					- 중도해지이율 = 2.5% × 60% × 9/12 = 1.12%</p>
+
+				</div>
+
+				<div id="subtitle2" name="subtitle2" class="lineboxType2" style="display: none;">
+
+					<p>만기 후 이율 = 기본이율 × 경과기간별 적용비율 (소수점 둘째자리 미만 버림)</p>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- </div> -->
+
+	<!-- 요구불예금 조회 내용 끝 -->
+
+	<form method="POST" name="gubunTab" action="goods_19.do">
+
+		<input type="hidden" name="tabInfo" />
+		<input type="hidden" name="OPEN_TRMID" value="1224" />
+		<input type="hidden" name="gubuncode" value="12" />
+
+	</form>
+
+	<form method="POST" name="gubunTab2" action="goods_23.do">
+		<input type="hidden" name="tabInfo" />
+		<input type="hidden" name="OPEN_TRMID" value="1224" />
+		<input type="hidden" name="gubuncode" value="12" />
+	</form>
+
+	<!--2016-11-22 로딩 마크업 추가 -->
+
+	<div class="dim" id="loading_bar_sec" style="display: none;">
+
+		<div class="process">
+
+			<div class="proImg">
+
+				<img src="/images/content/loading.gif" alt="loading bar">
+
+			</div>
+
+			<span>처리중입니다</span>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>
+

@@ -1,0 +1,2093 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>새마을금고위치안내</title>
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<link rel="shortcut icon" href="../../static/images/kfcc.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta property="og:image" content="../static/images/og_img.jpg">
+<meta property="og:title" content="새마을금고 ">
+<meta property="og:url" content="https://www.kfcc.co.kr">
+<link href="../../static/css/reset.css" rel="stylesheet">
+<link href="../../static/css/common.css" rel="stylesheet">
+<link href="../../static/css/main.css" rel="stylesheet">
+<link href="../../static/css/board.css" rel="stylesheet">
+<link href="../../static/css/popup.css" rel="stylesheet">
+<link href="../../static/css/sub-layout.css" rel="stylesheet">
+<link href="../../static/css/swiper.min.css" rel="stylesheet">
+<link href="../../static/css/jquery-ui.min.css" rel="stylesheet">
+<link href="../../static/css/jquery.mCustomScrollbar.css" rel="stylesheet">
+<script src="../../static/js/common.js"></script>
+<script src="../../static/js/jquery-ui.min.js"></script>
+<script src="../../static/js/front.js"></script>
+<script src="../../static/js/swiper.min.js"></script>
+<script src="../../static/js/jquery.mousewheel.min.js"></script>
+<script src="../../static/js/jquery.mCustomScrollbar.js"></script>
+
+<script type="text/javascript">
+
+	function onSelectTab(num) {
+
+		jQuery("#loading_bar_sec").show();
+
+		var obj = document.gubunTab;
+
+		obj.gubuncode.value = num;
+
+		obj.submit();
+
+	}
+
+
+
+	function onSelectTab2(num) {
+
+		jQuery("#loading_bar_sec").show();
+
+		var obj = document.gubunTab2;
+
+		obj.gubuncode.value = num;
+
+		obj.submit();
+
+	}
+
+
+
+	var tcount = 1;
+
+
+
+	function onsubTab(val) {
+
+		// 		var subcount = 0;
+
+		var subcount1 = 0;
+
+		var subcount2 = 0;
+
+		var subcount3 = 0;
+
+		var obj1;
+
+		var obj2;
+
+		var obj3;
+
+
+
+		obj1 = document.getElementsByName("divTmp1");
+
+		subcount1 = obj1.length;
+
+		obj2 = document.getElementsByName("divTmp2");
+
+		subcount2 = obj2.length;
+
+		obj3 = document.getElementsByName("divTmp4");
+
+		subcount3 = obj3.length;
+
+
+
+		//alert(subcount1+"/"+subcount2+"/"+subcount3);
+
+
+
+		if (val == 2) {
+
+
+
+			for (var i = 0; i < subcount1; i++) {
+
+				obj1[i].style.display = "none";
+
+			}
+
+
+
+			for (var j = 0; j < subcount2; j++) {
+
+				obj2[j].style.display = "block";
+
+			}
+
+
+
+			for (var k = 0; k < subcount3; k++) {
+
+				obj3[k].style.display = "none";
+
+			}
+
+
+
+			document.getElementById("subtitle1").style.display = "block";
+
+			document.getElementById("subtitle2").style.display = "none";
+
+
+
+		} else if (val == 3) {
+
+
+
+			for (var i = 0; i < subcount1; i++) {
+
+				obj1[i].style.display = "none";
+
+			}
+
+
+
+			for (var j = 0; j < subcount2; j++) {
+
+				obj2[j].style.display = "none";
+
+			}
+
+
+
+			for (var k = 0; k < subcount3; k++) {
+
+				obj3[k].style.display = "block";
+
+			}
+
+
+
+			document.getElementById("subtitle1").style.display = "none";
+
+			document.getElementById("subtitle2").style.display = "block";
+
+
+
+		} else {
+
+
+
+			for (var i = 0; i < subcount1; i++) {
+
+				obj1[i].style.display = "block";
+
+			}
+
+
+
+			for (var j = 0; j < subcount2; j++) {
+
+				obj2[j].style.display = "none";
+
+			}
+
+
+
+			for (var k = 0; k < subcount3; k++) {
+
+				obj3[k].style.display = "none";
+
+			}
+
+
+
+			document.getElementById("subtitle1").style.display = "none";
+
+			document.getElementById("subtitle2").style.display = "none";
+
+			$(".scroll-box").mCustomScrollbar("scrollTo", "top");
+		}
+
+
+
+		tcount = val;
+
+
+
+		$("#sub_tab_1").removeClass("on");
+
+		$("#sub_tab_2").removeClass("on");
+
+		$("#sub_tab_3").removeClass("on");
+
+		$("#sub_tab_" + val).addClass("on");
+
+		$("#sub_tab_link_1").attr("title", $("#sub_tab_link_1").text());
+		$("#sub_tab_link_2").attr("title", $("#sub_tab_link_2").text());
+		$("#sub_tab_link_3").attr("title", $("#sub_tab_link_3").text());
+		$("#sub_tab_link_" + val).attr("title", $("#sub_tab_link_" + val).text()+" 선택됨");
+
+	}
+
+</script>
+
+</head>
+
+<body id="location" style="min-width: auto;">
+
+	<!-- 요구불예금 조회 내용 시작 -->
+
+	<div class="guidance" style="display: block; height: auto; padding: 0;">
+
+		<h1 class="blind">새마을금고 금리 조회</h1>
+
+		<div class="tabWrap">
+
+			<ul class="list">
+
+				<li >
+
+					<a href="#tab_01" class="tabw80" onclick="onSelectTab('12');" title="요구불예탁금">요구불예탁금</a>
+
+				</li>
+
+				<li >
+
+					<a href="#tab_02" onclick="onSelectTab('13');" class="tabw80" title="거치식예탁금">거치식예탁금</a>
+
+
+				</li>
+
+				<li class="on">
+
+					<a href="#tab_03" onclick="onSelectTab('14');" class="tabw80" title="적립식예탁금 선택됨">적립식예탁금</a>
+
+						<ul class="subTab">
+
+							<li id="sub_tab_1" class="on">
+
+								<a href="#none" onclick="onsubTab('1');" title="기본이율 선택됨" id="sub_tab_link_1">기본이율</a>
+
+							</li>
+
+							<li id="sub_tab_2">
+
+								<a href="#none" onclick="onsubTab('2');" title="중도해지이율" id="sub_tab_link_2">중도해지이율</a>
+
+							</li>
+
+							<li id="sub_tab_3">
+
+								<a href="#none" onclick="onsubTab('3');" title="만기후 해지이율" id="sub_tab_link_3">만기후 해지이율</a>
+
+							</li>
+
+						</ul>
+
+				</li>
+
+				<li >
+
+					<a href="/creditLoan/creditLoanList.do" target="_blank" title="새 창 열림" class="tabw43" title="대출">대출</a>
+					<!-- <a href="#tab_04" onclick="onSelectTab(20);" class="tabw43">대출</a> -->
+
+				</li>
+
+				<li >
+
+					<a href="#tab_05" onclick="onSelectTab2('21');" class="tabw102" title="수신관련수수료">수신관련수수료</a>
+
+				</li>
+
+			</ul>
+
+		</div>
+
+		<!-- <div> -->
+
+		<div id="tab_03" class="scroll-box" style="display: block;">
+
+			<h3 class="blind">적립식예탁금<span class="eleHidden2">기본이율</span></h3>
+
+			<p class="base-date">조회기준일(2023/01/03)</p>
+			<div class="table-box">
+
+
+
+
+
+
+
+
+
+
+
+					<div class="tblWrap">
+
+
+
+
+
+
+
+
+
+
+
+
+
+								<div id="divTmp1" name="divTmp1" style="display: block">
+
+									<div class="tbl-tit">정기적금</div>
+
+									<table class="rowTbl2" summary="정기적금에 대한 상품명, 계약기간, 기본이율 등의 정보를 나타낸 표">
+
+										<caption>정기적금</caption>
+
+										<colgroup>
+											<col style="width: 33.33%;">
+											<col style="width: 33.33%;">
+											<col style="width: 33.33%;">
+										</colgroup>
+
+										<thead>
+
+											<tr>
+
+												<th scope="col">상품명</th>
+
+												<th scope="col">계약기간</th>
+
+												<th scope="col">기본이율</th>
+
+											</tr>
+
+										</thead>
+
+										<tbody>
+
+
+
+												<tr>
+
+
+
+														<td rowspan="5" scope="row">정기적금</td>
+
+
+
+													<td>12월 이상</td>
+
+													<td>연4.5%</td>
+
+												</tr>
+
+
+
+												<tr>
+
+
+
+													<td>24월 이상</td>
+
+													<td>연4.0%</td>
+
+												</tr>
+
+
+
+												<tr>
+
+
+
+													<td>36월 이상</td>
+
+													<td>연4.0%</td>
+
+												</tr>
+
+
+
+												<tr>
+
+
+
+													<td>48월 이상</td>
+
+													<td>연0.0%</td>
+
+												</tr>
+
+
+
+												<tr>
+
+
+
+													<td>60월 이상</td>
+
+													<td>연0.0%</td>
+
+												</tr>
+
+
+
+										</tbody>
+
+									</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+										<!-- <br /> -->
+
+
+
+								</div>
+
+
+
+									<div id="divTmp2" name="divTmp2" style="display: none">
+
+										<div class="tbl-tit">정기적금  </div>
+
+										<table class="rowTbl2" summary="정기적금에 대한 상품명, 경과기간, 적용이율 등의 정보를 나타낸 표">
+
+											<caption>정기적금  </caption>
+
+											<colgroup>
+
+												<col style="width: 50%" />
+
+												<col style="width: 30%" />
+
+												<col style="width: 20%" />
+
+											</colgroup>
+
+											<thead>
+
+												<tr>
+
+													<th scope="col">경과기간</th>
+
+													<th scope="col">적용비율</th>
+
+													<th scope="col">최소이율</th>
+
+												</tr>
+
+											</thead>
+
+											<tbody>
+
+
+
+													<tr>
+
+														<td>1개월 미만</td>
+
+														<td>0%</td>
+
+														<td>0.1%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>1개월 이상 ~ 3개월 미만</td>
+
+														<td>40%</td>
+
+														<td>0.1%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>3개월 이상 ~ 6개월 미만</td>
+
+														<td>50%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>6개월 이상 ~ 9개월 미만</td>
+
+														<td>60%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>9개월 이상 ~ 11개월 미만</td>
+
+														<td>70%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>11개월 이상</td>
+
+														<td>80%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+											</tbody>
+
+										</table>
+
+										<br />
+
+									</div>
+
+
+
+
+
+									<div id="divTmp4" name="divTmp4" style="display: none">
+
+										<div class="tbl-tit">정기적금  </div>
+
+										<table class="rowTbl2" summary="정기적금에 대한 상품명, 계약기간, 기본이율 등의 정보를 나타낸 표">
+
+											<caption>정기적금  </caption>
+
+											<colgroup>
+
+												<col style="width: 50%" />
+
+												<col style="width: 50%" />
+
+											</colgroup>
+
+											<thead>
+
+												<tr>
+
+													<th scope="col" class="fw2">경과기간</th>
+
+													<th scope="col">최소적용비율</th>
+
+												</tr>
+
+											</thead>
+
+											<tbody>
+
+
+
+													<tr>
+
+
+															<td>1개월 미만</td>
+
+															<td>50%</td>
+
+													</tr>
+
+
+
+													<tr>
+
+
+															<td>6개월 미만</td>
+
+															<td>30%</td>
+
+													</tr>
+
+
+
+													<tr>
+
+
+															<td>12개월 미만</td>
+
+															<td>20%</td>
+
+													</tr>
+
+
+
+													<tr>
+
+
+															<td>12개월 이상</td>
+
+															<td>10%</td>
+
+													</tr>
+
+
+													<!--<tr>
+
+
+															<td>12개월 이상</td>
+
+															<td>각 금고별 온라인자립예탁금</td>
+
+
+
+													</tr>-->
+											</tbody>
+
+										</table>
+
+										<br />
+
+									</div>
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+
+
+
+
+
+
+					<div class="tblWrap">
+
+
+
+
+
+
+
+
+
+
+
+
+
+								<div id="divTmp1" name="divTmp1" style="display: block">
+
+									<div class="tbl-tit">MG더뱅킹정기적금</div>
+
+									<table class="rowTbl2" summary="MG더뱅킹정기적금에 대한 상품명, 계약기간, 기본이율 등의 정보를 나타낸 표">
+
+										<caption>MG더뱅킹정기적금</caption>
+
+										<colgroup>
+											<col style="width: 33.33%;">
+											<col style="width: 33.33%;">
+											<col style="width: 33.33%;">
+										</colgroup>
+
+										<thead>
+
+											<tr>
+
+												<th scope="col">상품명</th>
+
+												<th scope="col">계약기간</th>
+
+												<th scope="col">기본이율</th>
+
+											</tr>
+
+										</thead>
+
+										<tbody>
+
+
+
+												<tr>
+
+
+
+														<td rowspan="2" scope="row">MG더뱅킹정기적금</td>
+
+
+
+													<td>6월 이상</td>
+
+													<td>연2.0%</td>
+
+												</tr>
+
+
+
+												<tr>
+
+
+
+													<td>12월 이상</td>
+
+													<td>연4.5%</td>
+
+												</tr>
+
+
+
+										</tbody>
+
+									</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+										<!-- <br /> -->
+
+
+
+								</div>
+
+
+
+									<div id="divTmp2" name="divTmp2" style="display: none">
+
+										<div class="tbl-tit">MG더뱅킹정기적금  </div>
+
+										<table class="rowTbl2" summary="MG더뱅킹정기적금에 대한 상품명, 경과기간, 적용이율 등의 정보를 나타낸 표">
+
+											<caption>MG더뱅킹정기적금  </caption>
+
+											<colgroup>
+
+												<col style="width: 50%" />
+
+												<col style="width: 30%" />
+
+												<col style="width: 20%" />
+
+											</colgroup>
+
+											<thead>
+
+												<tr>
+
+													<th scope="col">경과기간</th>
+
+													<th scope="col">적용비율</th>
+
+													<th scope="col">최소이율</th>
+
+												</tr>
+
+											</thead>
+
+											<tbody>
+
+
+
+													<tr>
+
+														<td>1개월 미만</td>
+
+														<td>0%</td>
+
+														<td>0.1%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>1개월 이상 ~ 3개월 미만</td>
+
+														<td>40%</td>
+
+														<td>0.1%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>3개월 이상 ~ 6개월 미만</td>
+
+														<td>50%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>6개월 이상 ~ 9개월 미만</td>
+
+														<td>60%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>9개월 이상 ~ 11개월 미만</td>
+
+														<td>70%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>11개월 이상</td>
+
+														<td>80%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+											</tbody>
+
+										</table>
+
+										<br />
+
+									</div>
+
+
+
+
+
+									<div id="divTmp4" name="divTmp4" style="display: none">
+
+										<div class="tbl-tit">MG더뱅킹정기적금  </div>
+
+										<table class="rowTbl2" summary="MG더뱅킹정기적금에 대한 상품명, 계약기간, 기본이율 등의 정보를 나타낸 표">
+
+											<caption>MG더뱅킹정기적금  </caption>
+
+											<colgroup>
+
+												<col style="width: 50%" />
+
+												<col style="width: 50%" />
+
+											</colgroup>
+
+											<thead>
+
+												<tr>
+
+													<th scope="col" class="fw2">경과기간</th>
+
+													<th scope="col">최소적용비율</th>
+
+												</tr>
+
+											</thead>
+
+											<tbody>
+
+
+
+													<tr>
+
+
+															<td>1개월 미만</td>
+
+															<td>50%</td>
+
+													</tr>
+
+
+
+													<tr>
+
+
+															<td>6개월 미만</td>
+
+															<td>30%</td>
+
+													</tr>
+
+
+
+													<tr>
+
+
+															<td>12개월 미만</td>
+
+															<td>20%</td>
+
+													</tr>
+
+
+
+													<tr>
+
+
+															<td>12개월 이상</td>
+
+															<td>10%</td>
+
+													</tr>
+
+
+													<!--<tr>
+
+
+															<td>12개월 이상</td>
+
+															<td>각 금고별 온라인자립예탁금</td>
+
+
+
+													</tr>-->
+											</tbody>
+
+										</table>
+
+										<br />
+
+									</div>
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+
+
+
+
+
+
+					<div class="tblWrap">
+
+
+
+
+
+
+
+
+
+
+
+
+
+								<div id="divTmp1" name="divTmp1" style="display: block">
+
+									<div class="tbl-tit">자유적립적금</div>
+
+									<table class="rowTbl2" summary="자유적립적금에 대한 상품명, 계약기간, 기본이율 등의 정보를 나타낸 표">
+
+										<caption>자유적립적금</caption>
+
+										<colgroup>
+											<col style="width: 33.33%;">
+											<col style="width: 33.33%;">
+											<col style="width: 33.33%;">
+										</colgroup>
+
+										<thead>
+
+											<tr>
+
+												<th scope="col">상품명</th>
+
+												<th scope="col">계약기간</th>
+
+												<th scope="col">기본이율</th>
+
+											</tr>
+
+										</thead>
+
+										<tbody>
+
+
+
+												<tr>
+
+
+
+														<td rowspan="6" scope="row">자유적립적금</td>
+
+
+
+													<td>1월 이상</td>
+
+													<td>연1.0%</td>
+
+												</tr>
+
+
+
+												<tr>
+
+
+
+													<td>3월 이상</td>
+
+													<td>연1.4%</td>
+
+												</tr>
+
+
+
+												<tr>
+
+
+
+													<td>6월 이상</td>
+
+													<td>연1.6%</td>
+
+												</tr>
+
+
+
+												<tr>
+
+
+
+													<td>12월 이상</td>
+
+													<td>연4.5%</td>
+
+												</tr>
+
+
+
+												<tr>
+
+
+
+													<td>24월 이상</td>
+
+													<td>연4.3%</td>
+
+												</tr>
+
+
+
+												<tr>
+
+
+
+													<td>36월 이상</td>
+
+													<td>연4.3%</td>
+
+												</tr>
+
+
+
+										</tbody>
+
+									</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+										<!-- <br /> -->
+
+
+
+								</div>
+
+
+
+									<div id="divTmp2" name="divTmp2" style="display: none">
+
+										<div class="tbl-tit">자유적립적금  </div>
+
+										<table class="rowTbl2" summary="자유적립적금에 대한 상품명, 경과기간, 적용이율 등의 정보를 나타낸 표">
+
+											<caption>자유적립적금  </caption>
+
+											<colgroup>
+
+												<col style="width: 50%" />
+
+												<col style="width: 30%" />
+
+												<col style="width: 20%" />
+
+											</colgroup>
+
+											<thead>
+
+												<tr>
+
+													<th scope="col">경과기간</th>
+
+													<th scope="col">적용비율</th>
+
+													<th scope="col">최소이율</th>
+
+												</tr>
+
+											</thead>
+
+											<tbody>
+
+
+
+													<tr>
+
+														<td>1개월 미만</td>
+
+														<td>0%</td>
+
+														<td>0.1%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>1개월 이상 ~ 3개월 미만</td>
+
+														<td>40%</td>
+
+														<td>0.1%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>3개월 이상 ~ 6개월 미만</td>
+
+														<td>50%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>6개월 이상 ~ 9개월 미만</td>
+
+														<td>60%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>9개월 이상 ~ 11개월 미만</td>
+
+														<td>70%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>11개월 이상</td>
+
+														<td>80%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+											</tbody>
+
+										</table>
+
+										<br />
+
+									</div>
+
+
+
+
+
+									<div id="divTmp4" name="divTmp4" style="display: none">
+
+										<div class="tbl-tit">자유적립적금  </div>
+
+										<table class="rowTbl2" summary="자유적립적금에 대한 상품명, 계약기간, 기본이율 등의 정보를 나타낸 표">
+
+											<caption>자유적립적금  </caption>
+
+											<colgroup>
+
+												<col style="width: 50%" />
+
+												<col style="width: 50%" />
+
+											</colgroup>
+
+											<thead>
+
+												<tr>
+
+													<th scope="col" class="fw2">경과기간</th>
+
+													<th scope="col">최소적용비율</th>
+
+												</tr>
+
+											</thead>
+
+											<tbody>
+
+
+
+													<tr>
+
+
+															<td>1개월 미만</td>
+
+															<td>50%</td>
+
+													</tr>
+
+
+
+													<tr>
+
+
+															<td>6개월 미만</td>
+
+															<td>30%</td>
+
+													</tr>
+
+
+
+													<tr>
+
+
+															<td>12개월 미만</td>
+
+															<td>20%</td>
+
+													</tr>
+
+
+
+													<tr>
+
+
+															<td>12개월 이상</td>
+
+															<td>10%</td>
+
+													</tr>
+
+
+													<!--<tr>
+
+
+															<td>12개월 이상</td>
+
+															<td>각 금고별 온라인자립예탁금</td>
+
+
+
+													</tr>-->
+											</tbody>
+
+										</table>
+
+										<br />
+
+									</div>
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+
+
+
+
+
+
+					<div class="tblWrap">
+
+
+
+
+
+
+
+
+
+
+
+
+
+								<div id="divTmp1" name="divTmp1" style="display: block">
+
+									<div class="tbl-tit">MG주거래우대자유적금</div>
+
+									<table class="rowTbl2" summary="MG주거래우대자유적금에 대한 상품명, 계약기간, 기본이율 등의 정보를 나타낸 표">
+
+										<caption>MG주거래우대자유적금</caption>
+
+										<colgroup>
+											<col style="width: 33.33%;">
+											<col style="width: 33.33%;">
+											<col style="width: 33.33%;">
+										</colgroup>
+
+										<thead>
+
+											<tr>
+
+												<th scope="col">상품명</th>
+
+												<th scope="col">계약기간</th>
+
+												<th scope="col">기본이율</th>
+
+											</tr>
+
+										</thead>
+
+										<tbody>
+
+
+
+												<tr>
+
+
+
+														<td rowspan="1" scope="row">MG주거래우대자유적금</td>
+
+
+
+													<td>12월 이상</td>
+
+													<td>연4.5%</td>
+
+												</tr>
+
+
+
+										</tbody>
+
+									</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+										<!-- <br /> -->
+
+
+
+								</div>
+
+
+
+									<div id="divTmp2" name="divTmp2" style="display: none">
+
+										<div class="tbl-tit">MG주거래우대자유적금  </div>
+
+										<table class="rowTbl2" summary="MG주거래우대자유적금에 대한 상품명, 경과기간, 적용이율 등의 정보를 나타낸 표">
+
+											<caption>MG주거래우대자유적금  </caption>
+
+											<colgroup>
+
+												<col style="width: 50%" />
+
+												<col style="width: 30%" />
+
+												<col style="width: 20%" />
+
+											</colgroup>
+
+											<thead>
+
+												<tr>
+
+													<th scope="col">경과기간</th>
+
+													<th scope="col">적용비율</th>
+
+													<th scope="col">최소이율</th>
+
+												</tr>
+
+											</thead>
+
+											<tbody>
+
+
+
+													<tr>
+
+														<td>1개월 미만</td>
+
+														<td>0%</td>
+
+														<td>0.1%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>1개월 이상 ~ 3개월 미만</td>
+
+														<td>40%</td>
+
+														<td>0.1%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>3개월 이상 ~ 6개월 미만</td>
+
+														<td>50%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>6개월 이상 ~ 9개월 미만</td>
+
+														<td>60%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>9개월 이상 ~ 11개월 미만</td>
+
+														<td>70%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>11개월 이상</td>
+
+														<td>80%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+											</tbody>
+
+										</table>
+
+										<br />
+
+									</div>
+
+
+
+
+
+									<div id="divTmp4" name="divTmp4" style="display: none">
+
+										<div class="tbl-tit">MG주거래우대자유적금  </div>
+
+										<table class="rowTbl2" summary="MG주거래우대자유적금에 대한 상품명, 계약기간, 기본이율 등의 정보를 나타낸 표">
+
+											<caption>MG주거래우대자유적금  </caption>
+
+											<colgroup>
+
+												<col style="width: 50%" />
+
+												<col style="width: 50%" />
+
+											</colgroup>
+
+											<thead>
+
+												<tr>
+
+													<th scope="col" class="fw2">경과기간</th>
+
+													<th scope="col">최소적용비율</th>
+
+												</tr>
+
+											</thead>
+
+											<tbody>
+
+
+
+													<tr>
+
+
+															<td>1개월 미만</td>
+
+															<td>50%</td>
+
+													</tr>
+
+
+
+													<tr>
+
+
+															<td>6개월 미만</td>
+
+															<td>30%</td>
+
+													</tr>
+
+
+
+													<tr>
+
+
+															<td>12개월 미만</td>
+
+															<td>20%</td>
+
+													</tr>
+
+
+
+													<tr>
+
+
+															<td>12개월 이상</td>
+
+															<td>10%</td>
+
+													</tr>
+
+
+													<!--<tr>
+
+
+															<td>12개월 이상</td>
+
+															<td>각 금고별 온라인자립예탁금</td>
+
+
+
+													</tr>-->
+											</tbody>
+
+										</table>
+
+										<br />
+
+									</div>
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+
+
+
+
+
+
+					<div class="tblWrap">
+
+
+
+
+
+
+
+
+
+
+
+
+
+								<div id="divTmp1" name="divTmp1" style="display: block">
+
+									<div class="tbl-tit">MG더뱅킹자유적금</div>
+
+									<table class="rowTbl2" summary="MG더뱅킹자유적금에 대한 상품명, 계약기간, 기본이율 등의 정보를 나타낸 표">
+
+										<caption>MG더뱅킹자유적금</caption>
+
+										<colgroup>
+											<col style="width: 33.33%;">
+											<col style="width: 33.33%;">
+											<col style="width: 33.33%;">
+										</colgroup>
+
+										<thead>
+
+											<tr>
+
+												<th scope="col">상품명</th>
+
+												<th scope="col">계약기간</th>
+
+												<th scope="col">기본이율</th>
+
+											</tr>
+
+										</thead>
+
+										<tbody>
+
+
+
+												<tr>
+
+
+
+														<td rowspan="1" scope="row">MG더뱅킹자유적금</td>
+
+
+
+													<td>12월 이상</td>
+
+													<td>연3.7%</td>
+
+												</tr>
+
+
+
+										</tbody>
+
+									</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+										<!-- <br /> -->
+
+
+
+								</div>
+
+
+
+									<div id="divTmp2" name="divTmp2" style="display: none">
+
+										<div class="tbl-tit">MG더뱅킹자유적금  </div>
+
+										<table class="rowTbl2" summary="MG더뱅킹자유적금에 대한 상품명, 경과기간, 적용이율 등의 정보를 나타낸 표">
+
+											<caption>MG더뱅킹자유적금  </caption>
+
+											<colgroup>
+
+												<col style="width: 50%" />
+
+												<col style="width: 30%" />
+
+												<col style="width: 20%" />
+
+											</colgroup>
+
+											<thead>
+
+												<tr>
+
+													<th scope="col">경과기간</th>
+
+													<th scope="col">적용비율</th>
+
+													<th scope="col">최소이율</th>
+
+												</tr>
+
+											</thead>
+
+											<tbody>
+
+
+
+													<tr>
+
+														<td>1개월 미만</td>
+
+														<td>0%</td>
+
+														<td>0.1%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>1개월 이상 ~ 3개월 미만</td>
+
+														<td>40%</td>
+
+														<td>0.1%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>3개월 이상 ~ 6개월 미만</td>
+
+														<td>50%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>6개월 이상 ~ 9개월 미만</td>
+
+														<td>60%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>9개월 이상 ~ 11개월 미만</td>
+
+														<td>70%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+													<tr>
+
+														<td>11개월 이상</td>
+
+														<td>80%</td>
+
+														<td>0.5%</td>
+													</tr>
+
+
+
+											</tbody>
+
+										</table>
+
+										<br />
+
+									</div>
+
+
+
+
+
+									<div id="divTmp4" name="divTmp4" style="display: none">
+
+										<div class="tbl-tit">MG더뱅킹자유적금  </div>
+
+										<table class="rowTbl2" summary="MG더뱅킹자유적금에 대한 상품명, 계약기간, 기본이율 등의 정보를 나타낸 표">
+
+											<caption>MG더뱅킹자유적금  </caption>
+
+											<colgroup>
+
+												<col style="width: 50%" />
+
+												<col style="width: 50%" />
+
+											</colgroup>
+
+											<thead>
+
+												<tr>
+
+													<th scope="col" class="fw2">경과기간</th>
+
+													<th scope="col">최소적용비율</th>
+
+												</tr>
+
+											</thead>
+
+											<tbody>
+
+
+
+													<tr>
+
+
+															<td>1개월 미만</td>
+
+															<td>50%</td>
+
+													</tr>
+
+
+
+													<tr>
+
+
+															<td>6개월 미만</td>
+
+															<td>30%</td>
+
+													</tr>
+
+
+
+													<tr>
+
+
+															<td>12개월 미만</td>
+
+															<td>20%</td>
+
+													</tr>
+
+
+
+													<tr>
+
+
+															<td>12개월 이상</td>
+
+															<td>10%</td>
+
+													</tr>
+
+
+													<!--<tr>
+
+
+															<td>12개월 이상</td>
+
+															<td>각 금고별 온라인자립예탁금</td>
+
+
+
+													</tr>-->
+											</tbody>
+
+										</table>
+
+										<br />
+
+									</div>
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+
+
+
+
+
+				<div id="subtitle1" name="subtitle1" class="lineboxType2" style="display: none;">
+
+					<!--<p>중도해지이율 = 기본이율 × 경과기간별 적용비율 (소수점 둘째자리 미만 버림)</p>-->
+					<p>1년 만기 기본이율 2.5% 정기예탁금을 가입 후, 8개월 10일째 되는 날 해지하는 경우<br/>
+					- 중도해지이율 = 2.5% × 60% × 9/12 = 1.12%</p>
+
+				</div>
+
+				<div id="subtitle2" name="subtitle2" class="lineboxType2" style="display: none;">
+
+					<p>만기 후 이율 = 기본이율 × 경과기간별 적용비율 (소수점 둘째자리 미만 버림)</p>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- </div> -->
+
+	<!-- 요구불예금 조회 내용 끝 -->
+
+	<form method="POST" name="gubunTab" action="goods_19.do">
+
+		<input type="hidden" name="tabInfo" />
+		<input type="hidden" name="OPEN_TRMID" value="1224" />
+		<input type="hidden" name="gubuncode" value="14" />
+
+	</form>
+
+	<form method="POST" name="gubunTab2" action="goods_23.do">
+		<input type="hidden" name="tabInfo" />
+		<input type="hidden" name="OPEN_TRMID" value="1224" />
+		<input type="hidden" name="gubuncode" value="14" />
+	</form>
+
+	<!--2016-11-22 로딩 마크업 추가 -->
+
+	<div class="dim" id="loading_bar_sec" style="display: none;">
+
+		<div class="process">
+
+			<div class="proImg">
+
+				<img src="/images/content/loading.gif" alt="loading bar">
+
+			</div>
+
+			<span>처리중입니다</span>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>
+

@@ -1,0 +1,451 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>MG새마을금고</title>
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<link rel="shortcut icon" href="/static/images/kfcc.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta property="og:image" content="/static/images/og_img.jpg">
+<meta property="og:title" content="새마을금고 ">
+<meta property="og:url" content="https://www.kfcc.co.kr">
+<link href="/static/css/reset.css" rel="stylesheet">
+<link href="/static/css/common.css" rel="stylesheet">
+<link href="/static/css/main.css" rel="stylesheet">
+<link href="/static/css/board.css" rel="stylesheet">
+<link href="/static/css/popup.css" rel="stylesheet">
+<link href="/static/css/sub-layout.css" rel="stylesheet">
+<link href="/static/css/swiper.min.css" rel="stylesheet">
+<link href="/static/css/jquery-ui.min.css" rel="stylesheet">
+<link href="/static/css/jquery.mCustomScrollbar.css" rel="stylesheet">
+<script src="/static/js/common.js"></script>
+<script src="/inc/javascript/jquery.form.min.js"></script>
+<script src="/static/js/jquery-ui.min.js"></script>
+<script src="/static/js/front.js"></script>
+<script src="/static/js/swiper.min.js"></script>
+<script src="/static/js/jquery.mousewheel.min.js"></script>
+<script src="/static/js/jquery.mCustomScrollbar.js"></script>
+<script src="/inc/javascript/tools.js"></script>
+<script src="/static/js/user.func.js"></script>
+</head>
+
+<script type="text/javascript">
+	function MM_preloadImages() {
+		var d = document;
+		if (d.images) {
+			if (!d.MM_p)
+				d.MM_p = new Array();
+			var i, j = d.MM_p.length, a = MM_preloadImages.arguments;
+			for (i = 0; i < a.length; i++)
+				if (a[i].indexOf("#") != 0) {
+					d.MM_p[j] = new Image;
+					d.MM_p[j++].src = a[i];
+				}
+		}
+	}
+
+	function start_page(np) {
+		document.as_form.now_page.value = np;
+		document.as_form.submit();
+	}
+
+	function checkIt() {
+		var key = $("#searchword").val();
+		var sel = $("#sltSrchOption").val();
+
+		if (key.length < 1) {
+			alert("검색창에 키워드를 입력해주세요.");
+			return;
+		}
+
+		switch (sel) {
+			case "1":
+				document.location.href = "./list.do?sel=" + sel + "&key=" + key;
+				break;
+			case "2":
+				document.location.href = "./list.do?sel=" + sel + "&key=" + key;
+				break;
+		}
+	}
+
+	function key_zchk(keyevent) {
+		if (keyevent.keyCode == 13)
+			checkIt();
+	}
+
+	function view_rate(elm) {
+		_view(elm, "sub_tab_rate");
+	}
+
+	function view(elm) {
+		_view(elm, "sub_tab_map");
+	}
+
+	function _view(elm, tabId) {
+		var trElm = M4Dom.findParentTag(elm, "tr");
+		var param = M4Dom.loadSpanSection(trElm);
+		param.tab = tabId;
+
+		M4Ajax.actionForm("view.do", param, {
+			method : "get"
+		});
+	}
+
+	function MM_openBrWindow(theURL, winName, features) {
+		window.open(theURL, winName, features);
+	}
+</script>
+
+	<script type="text/javascript">
+		function showPage(page) {
+			var startElement = 1;
+			var endElement = parseInt("4");
+			var size = parseInt("10");
+			var row = document.getElementById(page);
+			var pageLink = document.getElementById('page' + page);
+
+			var pages = size / 10;
+
+			var startPage = parseInt("1");
+			var endPage = parseInt("1");
+
+			if (size % 10 > 0) {
+				pages += 1;
+			}
+
+			for (var i = startPage; i <= endPage; i++) {
+				pageLink = document.getElementById('page' + i);
+				if (i == page) {
+					pageLink.classList.add('active');
+				} else {
+					pageLink.classList.remove('active');
+				}
+			}
+
+			for (var i = startElement; i <= endElement; i++) {
+				if (i > (page * 10) - 10 && i <= page * 10) {
+					document.getElementById(i).style.display = "";
+					$('#pageNo'+i).text(page);
+				} else {
+					document.getElementById(i).style.display = "none";
+				}
+			}
+			/*
+			$('.list-item > a').each(function(){
+				if($(this).hasClass('active')){
+					alert($(this).text());
+				}
+			});*/
+		}
+
+		$(document).ready(function() {
+			document.title = "금고위치안내 | 새마을금고위치안내 | 홈";
+			var pageNo = parseInt("");
+			if(isNaN(pageNo)){
+				showPage(1);
+			}else{
+				showPage(pageNo);
+			}
+
+		});
+	</script>
+
+	<body>
+		<div id="location" class="popWrap" style="display: block;">
+			<div class="layer-pop">
+
+				<div class="pop-header">
+					<button type="button" class="prev" onclick="location.href='/map/main.do'" >목록으로</button>
+					<div class="title">새마을금고위치안내</div>
+					<button type="button" class="close2" title="팝업닫기"></button>
+					<ul class="text-tab">
+						<li role="tab" aria-selected="true" class="on"><a href="/map/main.do">금고위치안내</a></li>
+						<li role="tab" aria-selected="false"><a href="/map/locationOfKFCC.do">중앙회위치안내</a></li>
+						<li role="tab" aria-selected="false"><a href="/map/locationOfMainBranche.do">지역본부안내</a></li>
+					</ul>
+				</div>
+
+				<!-- s : search -->
+				<div class="nfoTopdArea ac">
+					<form name="as_form" method="post" action="#" onsubmit="return false">
+						<input type='hidden' name='now_page' value="1" />
+						<input type="hidden" name="r1" value="서울" />
+						<input type="hidden" name="r2" value="도봉구" />
+						<input type="hidden" name="count" value="" />
+						<div class="select-box">
+							<select name="searchType" id="sltSrchOption">
+								<option value="1" >금고명</option>
+								<option value="2" >주소</option>
+							</select>
+						</div>
+						<div class="srch-input">
+							<input type="text" title="검색조건" class="text" name="key" id="searchword" value=""
+								onkeydown="javascript:key_zchk(window.event);" />
+							<button type="button" onclick="javascript:checkIt();" class="btn-search" title="검색버튼"></button>
+						</div>
+					</form>
+				</div>
+				<!-- e : search -->
+
+				<div class="guidance list" style="display: block; height: 614px;">
+					<div class="scroll-box" style="height: 553px;">
+
+
+							<div class="mapLoc">
+								<a href="main.do">새마을금고 위치안내</a>
+								&gt;
+								<a href="list.do?r1=서울&r2=도봉구">서울</a>
+								&gt;
+								<a href="list.do?r1=서울&r2=도봉구">도봉구</a>
+							</div>
+
+
+
+						<div class="base-date brown" >※ 직장금고는 해당 직장소속 임직원만 이용이 가능하며 일반회원은 이용할 수 없습니다.<br>※ 금리 및 해지 이율 등은 금고별로 상이할 수 있음.</div>
+
+						<div class="table-box">
+							<!-- s : list -->
+							<div class="tblWrap">
+								<table class="rowTbl2">
+									<caption>마을금고정보 및 위치 검색결과 목록으로 금고명, 분류, 주소, 전화번호, 금리정보 나타낸 표</caption>
+									<colgroup>
+										<col style="width: 8%" class="no">
+										<col style="width: 18%">
+										<col style="width: 10%">
+										<col style="width: 30%">
+										<col style="width: 17%">
+										<col style="width: 17%">
+									</colgroup>
+									<thead>
+										<tr>
+											<th scope="col" class="no">번호</th>
+											<th scope="col">금고명</th>
+											<th scope="col">분류</th>
+											<th scope="col">주소</th>
+											<th scope="col">전화번호</th>
+											<th scope="col">이동</th>
+										</tr>
+									</thead>
+									<tbody>
+
+											<tr class="ac" id="1" style="display: none;">
+												<td class="no">
+													<em>1 </em>
+													<span hidden="true" style="display: none;" title="gmgoCd">0651</span>
+													<span hidden="true" style="display: none;" title="name">도봉</span>
+													<span hidden="true" style="display: none;" title="gmgoNm">도봉</span>
+													<span hidden="true" style="display: none;" title="divCd">001</span>
+													<span hidden="true" style="display: none;" title="divNm">본점</span>
+													<span hidden="true" style="display: none;" title="gmgoType">지역</span>
+													<span hidden="true" style="display: none;" title="telephone">02-3494-4114</span>
+													<span hidden="true" style="display: none;" title="fax">02-3494-4117</span>
+													<span hidden="true" style="display: none;" title="addr">서울 도봉구 도당로 134</span>
+													<span hidden="true" style="display: none;" title="r1">서울</span>
+													<span hidden="true" style="display: none;" title="r2">도봉구</span>
+													<span hidden="true" style="display: none;" title="code1">0651</span>
+													<span hidden="true" style="display: none;" title="code2">001</span>
+													<span hidden="true" style="display: none;" title="sel"></span>
+													<span hidden="true" style="display: none;" title="key"></span>
+													<span hidden="true" style="display: none;" title="pageNo" id="pageNo1">1</span>
+												</td>
+												<td>
+													<a href="#" onclick="javascript:view(this);">
+														도봉
+
+
+															<br>(본점)
+
+
+
+
+
+													</a>
+												</td>
+												<td>지역</td>
+												<td class="tl">
+													서울 도봉구 도당로 134
+												</td>
+												<td>
+													<em>02-3494-4114</em>
+												</td>
+												<td>
+													<a href="javascript:void(0);" class="btn small blueBtn02" onclick="javascript:view(this);">위치</a>
+													<a href="javascript:void(0);" class="btn small blueBtn03" onclick="view_rate(this);">금리</a>
+												</td>
+											</tr>
+
+											<tr class="ac" id="2" style="display: none;">
+												<td class="no">
+													<em>2 </em>
+													<span hidden="true" style="display: none;" title="gmgoCd">0651</span>
+													<span hidden="true" style="display: none;" title="name">도봉</span>
+													<span hidden="true" style="display: none;" title="gmgoNm">도봉</span>
+													<span hidden="true" style="display: none;" title="divCd">002</span>
+													<span hidden="true" style="display: none;" title="divNm">창동</span>
+													<span hidden="true" style="display: none;" title="gmgoType">지역</span>
+													<span hidden="true" style="display: none;" title="telephone">02-900-5722</span>
+													<span hidden="true" style="display: none;" title="fax">02-996-2746</span>
+													<span hidden="true" style="display: none;" title="addr">서울 도봉구 노해로63가길 36</span>
+													<span hidden="true" style="display: none;" title="r1">서울</span>
+													<span hidden="true" style="display: none;" title="r2">도봉구</span>
+													<span hidden="true" style="display: none;" title="code1">0651</span>
+													<span hidden="true" style="display: none;" title="code2">002</span>
+													<span hidden="true" style="display: none;" title="sel"></span>
+													<span hidden="true" style="display: none;" title="key"></span>
+													<span hidden="true" style="display: none;" title="pageNo" id="pageNo2">1</span>
+												</td>
+												<td>
+													<a href="#" onclick="javascript:view(this);">
+														도봉
+
+
+															<br>(창동)
+
+
+
+
+
+													</a>
+												</td>
+												<td>지역</td>
+												<td class="tl">
+													서울 도봉구 노해로63가길 36
+												</td>
+												<td>
+													<em>02-900-5722</em>
+												</td>
+												<td>
+													<a href="javascript:void(0);" class="btn small blueBtn02" onclick="javascript:view(this);">위치</a>
+													<a href="javascript:void(0);" class="btn small blueBtn03" onclick="view_rate(this);">금리</a>
+												</td>
+											</tr>
+
+											<tr class="ac" id="3" style="display: none;">
+												<td class="no">
+													<em>3 </em>
+													<span hidden="true" style="display: none;" title="gmgoCd">0651</span>
+													<span hidden="true" style="display: none;" title="name">도봉</span>
+													<span hidden="true" style="display: none;" title="gmgoNm">도봉</span>
+													<span hidden="true" style="display: none;" title="divCd">003</span>
+													<span hidden="true" style="display: none;" title="divNm">신창</span>
+													<span hidden="true" style="display: none;" title="gmgoType">지역</span>
+													<span hidden="true" style="display: none;" title="telephone">02-992-8100</span>
+													<span hidden="true" style="display: none;" title="fax">02-997-4443</span>
+													<span hidden="true" style="display: none;" title="addr">서울 도봉구 덕릉로 249</span>
+													<span hidden="true" style="display: none;" title="r1">서울</span>
+													<span hidden="true" style="display: none;" title="r2">도봉구</span>
+													<span hidden="true" style="display: none;" title="code1">0651</span>
+													<span hidden="true" style="display: none;" title="code2">003</span>
+													<span hidden="true" style="display: none;" title="sel"></span>
+													<span hidden="true" style="display: none;" title="key"></span>
+													<span hidden="true" style="display: none;" title="pageNo" id="pageNo3">1</span>
+												</td>
+												<td>
+													<a href="#" onclick="javascript:view(this);">
+														도봉
+
+
+															<br>(신창)
+
+
+
+
+
+													</a>
+												</td>
+												<td>지역</td>
+												<td class="tl">
+													서울 도봉구 덕릉로 249
+												</td>
+												<td>
+													<em>02-992-8100</em>
+												</td>
+												<td>
+													<a href="javascript:void(0);" class="btn small blueBtn02" onclick="javascript:view(this);">위치</a>
+													<a href="javascript:void(0);" class="btn small blueBtn03" onclick="view_rate(this);">금리</a>
+												</td>
+											</tr>
+
+											<tr class="ac" id="4" style="display: none;">
+												<td class="no">
+													<em>4 </em>
+													<span hidden="true" style="display: none;" title="gmgoCd">1039</span>
+													<span hidden="true" style="display: none;" title="name">서울개인택시조합</span>
+													<span hidden="true" style="display: none;" title="gmgoNm">서울개인택시조합</span>
+													<span hidden="true" style="display: none;" title="divCd">009</span>
+													<span hidden="true" style="display: none;" title="divNm">도봉</span>
+													<span hidden="true" style="display: none;" title="gmgoType">지역</span>
+													<span hidden="true" style="display: none;" title="telephone">02-955-0746</span>
+													<span hidden="true" style="display: none;" title="fax">02-955-1316</span>
+													<span hidden="true" style="display: none;" title="addr">서울 도봉구 해등로32길 76</span>
+													<span hidden="true" style="display: none;" title="r1">서울</span>
+													<span hidden="true" style="display: none;" title="r2">도봉구</span>
+													<span hidden="true" style="display: none;" title="code1">1039</span>
+													<span hidden="true" style="display: none;" title="code2">009</span>
+													<span hidden="true" style="display: none;" title="sel"></span>
+													<span hidden="true" style="display: none;" title="key"></span>
+													<span hidden="true" style="display: none;" title="pageNo" id="pageNo4">1</span>
+												</td>
+												<td>
+													<a href="#" onclick="javascript:view(this);">
+														서울개인택시조합
+
+
+															<br>(도봉)
+
+
+
+
+
+													</a>
+												</td>
+												<td>지역</td>
+												<td class="tl">
+													서울 도봉구 해등로32길 76
+												</td>
+												<td>
+													<em>02-955-0746</em>
+												</td>
+												<td>
+													<a href="javascript:void(0);" class="btn small blueBtn02" onclick="javascript:view(this);">위치</a>
+													<a href="javascript:void(0);" class="btn small blueBtn03" onclick="view_rate(this);">금리</a>
+												</td>
+											</tr>
+
+
+									</tbody>
+								</table>
+							</div>
+							<!-- e : list -->
+
+								<div class="pagination" style="width: 100%;">
+									<ul class="paging-list">
+
+										<li class="list-item">
+											<a href="javascript:void(0);" id="page1" onclick="javascript:showPage('1');">1</a>
+										</li>
+
+									</ul>
+								</div>
+
+							<!-- e : contents -->
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</body>
+</html>
