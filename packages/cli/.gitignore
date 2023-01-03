@@ -1,2 +1,3 @@
 _cache_*/*.html
 data_*/*.json
+data_*/*.csv

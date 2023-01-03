@@ -75,9 +75,29 @@ export interface BankSnapshot {
    */
   bank: Pick<BankDefinition, "gmgoCd" | "gmgoNm" | "r1" | "r2">;
 
+  baseDate: string | null;
+
   /** @summary 거치식예탁금 */
   deferredDeposit: InterestRateSnapshot | null;
 
   /** @summary 적립식예탁금 */
   installmentSavings: InterestRateSnapshot | null;
 }
+
+// 데이터 크기를 줄이려고 깡배열로 다룸
+export type InterestRateRow = [
+  // 금고 코드
+  string,
+  // 금고 이름
+  string,
+  // 지역
+  string,
+  // MG더뱅킹정기예금
+  string | null,
+  // MG더뱅킹정기적금
+  string | null,
+  // MG더뱅킹자유적금
+  string | null,
+  // 기준일
+  string | null
+];

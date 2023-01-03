@@ -12,14 +12,8 @@ import {
 import { fetchRates, fetchRegions } from "./fetcher.js";
 import { parseListHtml, parseInterestRateHtml } from "./parser.js";
 import { BankDefinition, BankSnapshot } from "./types.js";
-
-/*
-usage:
-pnpm cli -- fetch_region
-pnpm cli -- parse_region
-pnpm cli -- fetch_rate
-pnpm cli -- parse_rate
-*/
+import pLimit from "p-limit";
+import { buildReportRows, writeReportCsv, writeReportJson } from "./report.js";
 
 const regionCacheDir = path.resolve(process.cwd(), "_cache_region");
 const rateCacheDir = path.resolve(process.cwd(), "_cache_rate");
@@ -35,22 +29,30 @@ async function main() {
   const action = process.argv[process.argv.length - 1];
 
   switch (action) {
-    case "fetch_region": {
+    case "region:fetch": {
       await fetchRegions(targets, 10, regionCacheDir);
       break;
     }
-    case "parse_region": {
+    case "region:parse": {
       await parseRegion();
       break;
     }
-    case "fetch_rate": {
+    case "rate:fetch": {
       const banks = await loadBanks();
       await fetchRates(banks, 20, rateCacheDir);
       break;
     }
-    case "parse_rate": {
+    case "rate:parse": {
       const banks = await loadBanks();
       await parseRate(banks);
+      break;
+    }
+    case "report:write": {
+      const banks = await loadBanks();
+      const snapshots = await loadSnapshots(banks);
+      const rows = await buildReportRows(snapshots);
+      await writeReportJson(rows, regionDataDir);
+      await writeReportCsv(rows, regionDataDir);
       break;
     }
     default:
@@ -64,6 +66,23 @@ async function loadBanks(): Promise<BankDefinition[]> {
   const text = await fs.readFile(fp, "utf-8");
   const banks = JSON.parse(text) as BankDefinition[];
   return banks;
+}
+
+async function loadSnapshots(banks: BankDefinition[]): Promise<BankSnapshot[]> {
+  const ids = _.uniqBy(banks, (x) => x.gmgoCd).map((x) => x.gmgoCd);
+  const limit = pLimit(10);
+
+  const tasks = ids.map((id) =>
+    limit(async () => {
+      const filename = `rate_${id}.json`;
+      const fp = path.resolve(rateDataDir, filename);
+      const text = await fs.readFile(fp, "utf-8");
+      const snapshot = JSON.parse(text) as BankSnapshot;
+      return snapshot;
+    })
+  );
+  const snapshots = await Promise.all(tasks);
+  return snapshots;
 }
 
 async function parseRegion() {
@@ -142,6 +161,7 @@ async function parseRateInner(bank: BankDefinition) {
     },
     deferredDeposit,
     installmentSavings,
+    baseDate: deferredDeposit?.baseDate ?? installmentSavings?.baseDate ?? null,
   };
 
   const filename = `rate_${id}.json`;
