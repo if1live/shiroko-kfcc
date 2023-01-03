@@ -19,12 +19,15 @@ function App(props: { tableData: InterestRateEntry[] }) {
 
   const baseDate = tableData[0].baseDate;
 
-  const topRange = 100;
+  const topRange = 200;
   const filterByCategory = (key: keyof InterestRateEntry) => {
-    // 데이터를 많이 줘도 어차피 안볼거다
+    // 데이터를 많이 줘도 로딩만 느릴뿐. 어차피 안볼거다
     return tableData
       .filter((x) => x[key] != null)
-      .map((x) => ({ ...x, rate: x[key]! }))
+      .map((x) => {
+        const { rateA, rateB, rateC, ...rest } = x;
+        return { ...rest, rate: x[key]! };
+      })
       .sort((a, b) => b.rate.localeCompare(a.rate))
       .slice(0, topRange);
   };

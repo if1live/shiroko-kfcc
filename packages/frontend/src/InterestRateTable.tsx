@@ -66,12 +66,7 @@ export function InteresetRateTable(props: { tableData: BankEntry[] }) {
             <Table.HeaderCell>금고ID</Table.HeaderCell>
             <Table.HeaderCell>이름</Table.HeaderCell>
             <Table.HeaderCell>지역</Table.HeaderCell>
-            <Table.HeaderCell
-              sorted={column === "rateA" ? direction : undefined}
-              onClick={() => dispatch({ type: "CHANGE_SORT", column: "rateA" })}
-            >
-              금리 (1년)
-            </Table.HeaderCell>
+            <Table.HeaderCell>금리 (1년)</Table.HeaderCell>
           </Table.Row>
         </Table.Header>
         <Table.Body>
@@ -88,7 +83,9 @@ export function InteresetRateTable(props: { tableData: BankEntry[] }) {
             return (
               <Table.Row key={entry.id}>
                 <Table.Cell>
-                  <a href={url} target="_blank">{entry.id}</a>
+                  <a href={url} target="_blank">
+                    {entry.id}
+                  </a>
                 </Table.Cell>
                 <Table.Cell>{entry.name}</Table.Cell>
                 <Table.Cell>{entry.location}</Table.Cell>
