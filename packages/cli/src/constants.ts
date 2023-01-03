@@ -275,7 +275,7 @@ const jejudo: RegionSet = ["제주", "제주시", "서귀포시"];
 
 const sejong: RegionSet = ["세종", "세종시"];
 
-export const groups: RegionSet[] = [
+export const allRegions: RegionSet[] = [
   seoul,
   incheon,
   kyeonggido,
@@ -303,3 +303,29 @@ export const gubuncode_deferredDeposit = 13;
 
 /** @summary 적립식예탁금 */
 export const gubuncode_installmentSavings = 14;
+
+export interface ProductCategory {
+  code: number;
+  hangul: string;
+}
+
+export const category_demandDeposit: ProductCategory = {
+  code: gubuncode_demandDeposit,
+  hangul: "요구불예탁금",
+};
+
+export const category_deferredDeposit: ProductCategory = {
+  code: gubuncode_deferredDeposit,
+  hangul: "거치식예탁금",
+};
+
+export const category_installmentSavings: ProductCategory = {
+  code: gubuncode_installmentSavings,
+  hangul: "적립식예탁금",
+};
+
+export const productCategories = [
+  category_demandDeposit,
+  category_deferredDeposit,
+  category_installmentSavings,
+] as const;
