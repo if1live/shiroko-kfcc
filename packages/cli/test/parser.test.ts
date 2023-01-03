@@ -39,7 +39,6 @@ describe("parseInterestRateHtml - 요구불예탁금", () => {
   });
 
   it("baesDate", () => {
-    expect(subject.baseDateRaw).toBe("조회기준일(2023/01/03)");
     expect(subject.baseDate).toBe("2023/01/03");
   });
 });
@@ -58,9 +57,6 @@ describe("parseInterestRateHtml - 거치식예탁금", () => {
 
     expect(found.entries).toHaveLength(1);
     const entry = found.entries[0]!;
-
-    expect(entry.durationStr).toBe("12월 이상");
-    expect(entry.rateStr).toBe("연4.0%");
 
     expect(entry.duration).toBe(12);
     expect(entry.rate).toBe("4.00");
@@ -82,9 +78,6 @@ describe("parseInterestRateHtml - 적립식예탁금", () => {
     expect(found?.entries).toHaveLength(2);
     const entry = found?.entries[0]!;
 
-    expect(entry.durationStr).toBe("6월 이상");
-    expect(entry.rateStr).toBe("연2.0%");
-
     expect(entry.duration).toBe(6);
     expect(entry.rate).toBe("2.00");
   });
@@ -94,9 +87,6 @@ describe("parseInterestRateHtml - 적립식예탁금", () => {
 
     expect(found.entries).toHaveLength(1);
     const entry = found?.entries[0]!;
-
-    expect(entry.durationStr).toBe("12월 이상");
-    expect(entry.rateStr).toBe("연3.7%");
 
     expect(entry.duration).toBe(12);
     expect(entry.rate).toBe("3.70");

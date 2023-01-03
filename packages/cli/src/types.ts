@@ -37,26 +37,13 @@ export interface BankDefinition {
 
 export interface InterestRateEntry {
   /**
-   * 파싱하지 않고 원본 데이터 유지.
-   * 규격에 벗어난 데이터가 있을지 몰라서?
-   * @example 12월 이상
-   */
-  durationStr: string;
-
-  /**
+   * @summary "12월 이상"
    * @example 12
    */
   duration: number | null;
 
   /**
-   * 파싱하지 않고 원본 데이터 유지.
-   * 규격에 벗어난 데이터가 있을지 몰라서?
-   * @example 연5.69%, 연2.4%
-   */
-  rateStr: string;
-
-  /**
-   * @summary 소수점 2자리로 고정
+   * @summary "연2.4%", 소수점 2자리로 고정
    * @example 5.69, 2.40
    */
   rate: string | null;
@@ -70,9 +57,6 @@ export interface Product {
 }
 
 export interface InterestRateSnapshot {
-  /** @example "조회기준일(2023/01/03)" */
-  baseDateRaw: string;
-
   /**
    * @summary 조회기준일
    * @example 2023/01/03
@@ -90,9 +74,6 @@ export interface BankSnapshot {
    * 부평은 인천에도 있고 부산에도 있다. 금고 이름과 지역 이름이 동시에 필요하다
    */
   bank: Pick<BankDefinition, "gmgoCd" | "gmgoNm" | "r1" | "r2">;
-
-  /** @summary 요구불예탁금 */
-  demandDeposit: InterestRateSnapshot | null;
 
   /** @summary 거치식예탁금 */
   deferredDeposit: InterestRateSnapshot | null;

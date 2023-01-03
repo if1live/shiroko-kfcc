@@ -8,7 +8,6 @@ import {
   productCategories,
   category_deferredDeposit,
   category_installmentSavings,
-  category_demandDeposit,
 } from "./constants.js";
 import { fetchRates, fetchRegions } from "./fetcher.js";
 import { parseListHtml, parseInterestRateHtml } from "./parser.js";
@@ -117,10 +116,6 @@ async function parseRateInner(bank: BankDefinition) {
   const results = await Promise.all(tasks);
 
   // 크롤링 실패할 경우 html이 없을수 있다. 적당히 막아두기
-  const text_demandDeposit = results.find(
-    (x) => x.code === category_demandDeposit.code && x.ok
-  )?.text;
-
   const text_deferredDeposit = results.find(
     (x) => x.code === category_deferredDeposit.code && x.ok
   )?.text;
@@ -128,10 +123,6 @@ async function parseRateInner(bank: BankDefinition) {
   const text_installmentSavings = results.find(
     (x) => x.code === category_installmentSavings.code && x.ok
   )?.text;
-
-  const demandDeposit = text_demandDeposit
-    ? parseInterestRateHtml(text_demandDeposit)
-    : null;
 
   const deferredDeposit = text_deferredDeposit
     ? parseInterestRateHtml(text_deferredDeposit)
@@ -145,11 +136,10 @@ async function parseRateInner(bank: BankDefinition) {
     id,
     bank: {
       gmgoCd: bank.gmgoCd,
-      gmgoNm: bank.divNm,
+      gmgoNm: bank.gmgoNm,
       r1: bank.r1,
       r2: bank.r2,
     },
-    demandDeposit,
     deferredDeposit,
     installmentSavings,
   };

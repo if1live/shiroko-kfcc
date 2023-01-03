@@ -295,8 +295,11 @@ export const allRegions: RegionSet[] = [
   sejong,
 ];
 
-/** @summary 요구불예탁금 */
-export const gubuncode_demandDeposit = 12;
+/**
+ * @summary 요구불예탁금
+ * 요구불예탁금은 관심범위 밖이 아니라서 버림
+ */
+// export const gubuncode_demandDeposit = 12;
 
 /** @summary 거치식예탁금 */
 export const gubuncode_deferredDeposit = 13;
@@ -309,11 +312,6 @@ export interface ProductCategory {
   hangul: string;
 }
 
-export const category_demandDeposit: ProductCategory = {
-  code: gubuncode_demandDeposit,
-  hangul: "요구불예탁금",
-};
-
 export const category_deferredDeposit: ProductCategory = {
   code: gubuncode_deferredDeposit,
   hangul: "거치식예탁금",
@@ -325,7 +323,6 @@ export const category_installmentSavings: ProductCategory = {
 };
 
 export const productCategories = [
-  category_demandDeposit,
   category_deferredDeposit,
   category_installmentSavings,
 ] as const;

@@ -71,9 +71,7 @@ export function parseInterestRateHtml(text: string): InterestRateSnapshot {
       const key = td_key.innerText;
       const value = td_value.innerText;
       const entry: InterestRateEntry = {
-        durationStr: key,
         duration: parseDuration(key),
-        rateStr: value,
         rate: parseRate(value),
       };
       entries.push(entry);
@@ -88,7 +86,6 @@ export function parseInterestRateHtml(text: string): InterestRateSnapshot {
 
   return {
     baseDate: parseBaseDate(baseDateRaw),
-    baseDateRaw: baseDateRaw,
     products,
   };
 }
