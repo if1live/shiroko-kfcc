@@ -1,4 +1,5 @@
 import { default as _ } from "lodash-es";
+import { setTimeout } from "node:timers/promises";
 import fs from "node:fs/promises";
 import path from "node:path";
 import pLimit from "p-limit";
@@ -95,13 +96,15 @@ export async function fetchRates(
 
   const tasks = entries.map((entry) => {
     limit(async () => {
-      await fetchInterestRate(entry.gmgoCd, destDir);
+      await fetchInterestRate(entry, destDir);
     });
   });
   await Promise.all(tasks);
 }
 
-async function fetchInterestRate(id: string, destDir: string) {
+async function fetchInterestRate(bank: BankDefinition, destDir: string) {
+  const id = bank.gmgoCd;
+
   const execute = async (category: ProductCategory) => {
     const filename = `${id}_${category.hangul}.html`;
     const text = await fetchInterestRateByGubun(id, category.code);
@@ -110,12 +113,30 @@ async function fetchInterestRate(id: string, destDir: string) {
     console.log(`fetch ${filename}`);
   };
 
-  try {
-    const tasks = productCategories.map(execute);
-    await Promise.all(tasks);
-  } catch (e) {
-    if (e instanceof Error) {
-      console.error(e.message);
+  // TODO: 멀쩡한 재시도? http 요청을 너무 많이 보내니까 가끔 실패한다
+  // 무시한 방식으로 재시도 구현
+  for (const cateogry of productCategories) {
+    const maxRetry = 3;
+    let ok = false;
+    for (let attempt = 1; attempt <= maxRetry; attempt++) {
+      try {
+        await execute(cateogry);
+        ok = true;
+        break;
+      } catch (e) {
+        if (e instanceof Error) {
+          console.error(e.message);
+          console.log(`[${attempt}/${maxRetry}] retry after waiting....`);
+          await setTimeout(3_000);
+        }
+      }
+    }
+
+    // 재시도로 복구할수 없을떄
+    if (!ok) {
+      console.error(
+        `ERROR: ${bank.gmgoCd}, ${bank.r1} ${bank.r2}, ${cateogry.hangul}`
+      );
     }
   }
 }
