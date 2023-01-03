@@ -27,7 +27,7 @@ async function main() {
 	const banks = JSON.parse(text) as BankDefinition[];
 	const ids = _.uniq(banks.map(x => x.gmgoCd));
 
-	// await stage_fetch(banks);
+	// await stage_fetch(ids);
 	await stage_parse(ids);
 }
 
