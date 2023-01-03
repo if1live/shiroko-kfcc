@@ -81,3 +81,22 @@ export interface InterestRateSnapshot {
 
   products: Product[];
 }
+
+export interface BankSnapshot {
+  id: string;
+
+  /**
+   * 분점 정보는 필요 없어서 생략
+   * 부평은 인천에도 있고 부산에도 있다. 금고 이름과 지역 이름이 동시에 필요하다
+   */
+  bank: Pick<BankDefinition, "gmgoCd" | "gmgoNm" | "r1" | "r2">;
+
+  /** @summary 요구불예탁금 */
+  demandDeposit: InterestRateSnapshot | null;
+
+  /** @summary 거치식예탁금 */
+  deferredDeposit: InterestRateSnapshot | null;
+
+  /** @summary 적립식예탁금 */
+  installmentSavings: InterestRateSnapshot | null;
+}

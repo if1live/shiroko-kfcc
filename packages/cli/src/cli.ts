@@ -8,10 +8,11 @@ import {
   productCategories,
   category_deferredDeposit,
   category_installmentSavings,
+  category_demandDeposit,
 } from "./constants.js";
 import { fetchRates, fetchRegions } from "./fetcher.js";
 import { parseListHtml, parseInterestRateHtml } from "./parser.js";
-import { BankDefinition } from "./types.js";
+import { BankDefinition, BankSnapshot } from "./types.js";
 
 /*
 usage:
@@ -45,7 +46,7 @@ async function main() {
     }
     case "fetch_rate": {
       const banks = await loadBanks();
-      await fetchRates(banks, 10, rateCacheDir);
+      await fetchRates(banks, 20, rateCacheDir);
       break;
     }
     case "parse_rate": {
@@ -104,30 +105,50 @@ async function parseRateInner(bank: BankDefinition) {
   const id = bank.gmgoCd;
 
   const tasks = productCategories.map(async (x) => {
-    const fp = path.resolve(rateCacheDir, `${id}_${x.hangul}.html`);
-    const text = await fs.readFile(fp, "utf-8");
-    return { code: x.code, text };
+    try {
+      const fp = path.resolve(rateCacheDir, `${id}_${x.hangul}.html`);
+      const text = await fs.readFile(fp, "utf-8");
+      return { ok: true, code: x.code, text };
+    } catch (e) {
+      console.error(e);
+      return { ok: false, code: x.code, text: "" };
+    }
   });
   const results = await Promise.all(tasks);
 
+  // 크롤링 실패할 경우 html이 없을수 있다. 적당히 막아두기
   const text_demandDeposit = results.find(
-    (x) => x.code === category_deferredDeposit.code
+    (x) => x.code === category_demandDeposit.code && x.ok
   )?.text;
 
   const text_deferredDeposit = results.find(
-    (x) => x.code === category_deferredDeposit.code
+    (x) => x.code === category_deferredDeposit.code && x.ok
   )?.text;
 
   const text_installmentSavings = results.find(
-    (x) => x.code === category_installmentSavings.code
+    (x) => x.code === category_installmentSavings.code && x.ok
   )?.text;
 
-  const demandDeposit = parseInterestRateHtml(text_demandDeposit!);
-  const deferredDeposit = parseInterestRateHtml(text_deferredDeposit!);
-  const installmentSavings = parseInterestRateHtml(text_installmentSavings!);
+  const demandDeposit = text_demandDeposit
+    ? parseInterestRateHtml(text_demandDeposit)
+    : null;
 
-  const data = {
-    gmgoCd: id,
+  const deferredDeposit = text_deferredDeposit
+    ? parseInterestRateHtml(text_deferredDeposit)
+    : null;
+
+  const installmentSavings = text_installmentSavings
+    ? parseInterestRateHtml(text_installmentSavings)
+    : null;
+
+  const data: BankSnapshot = {
+    id,
+    bank: {
+      gmgoCd: bank.gmgoCd,
+      gmgoNm: bank.divNm,
+      r1: bank.r1,
+      r2: bank.r2,
+    },
     demandDeposit,
     deferredDeposit,
     installmentSavings,
