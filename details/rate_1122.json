@@ -1,0 +1,48 @@
+{
+  "id": "1122",
+  "bank": {
+    "gmgoCd": "1122",
+    "gmgoNm": "유한킴벌리",
+    "r1": "서울",
+    "r2": "송파구"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 3, "rate": "1.80"},
+          {"duration": 6, "rate": "1.90"},
+          {"duration": 12, "rate": "2.05"},
+          {"duration": 24, "rate": "2.05"}
+        ]
+      }
+    ]
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기적금",
+        "entries": [
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 12, "rate": "2.60"},
+          {"duration": 24, "rate": "2.70"},
+          {"duration": 36, "rate": "2.80"}
+        ]
+      },
+      {
+        "title": "자유적립적금",
+        "entries": [
+          {"duration": 1, "rate": "0.10"},
+          {"duration": 6, "rate": "0.10"},
+          {"duration": 12, "rate": "2.40"},
+          {"duration": 24, "rate": "2.60"},
+          {"duration": 36, "rate": "2.60"}
+        ]
+      }
+    ]
+  },
+  "baseDate": "2023/01/04"
+}

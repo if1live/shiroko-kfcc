@@ -1,0 +1,18 @@
+{
+  "id": "3568",
+  "bank": {
+    "gmgoCd": "3568",
+    "gmgoNm": "LH",
+    "r1": "경남",
+    "r2": "진주시"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": []
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": []
+  },
+  "baseDate": "2023/01/04"
+}

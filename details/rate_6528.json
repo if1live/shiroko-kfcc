@@ -1,0 +1,75 @@
+{
+  "id": "6528",
+  "bank": {
+    "gmgoCd": "6528",
+    "gmgoNm": "고성",
+    "r1": "경남",
+    "r2": "고성군"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 1, "rate": "0.40"},
+          {"duration": 3, "rate": "1.50"},
+          {"duration": 6, "rate": "3.50"},
+          {"duration": 12, "rate": "4.70"},
+          {"duration": 24, "rate": "3.83"},
+          {"duration": 36, "rate": "3.83"}
+        ]
+      }
+    ]
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기적금",
+        "entries": [
+          {"duration": 6, "rate": "2.70"},
+          {"duration": 12, "rate": "6.00"},
+          {"duration": 24, "rate": "4.30"},
+          {"duration": 36, "rate": "4.30"},
+          {"duration": 48, "rate": "4.30"},
+          {"duration": 60, "rate": "4.30"}
+        ]
+      },
+      {
+        "title": "우리아기첫걸음정기적금",
+        "entries": [{"duration": 12, "rate": "2.00"}]
+      },
+      {
+        "title": "자유적립적금",
+        "entries": [
+          {"duration": 1, "rate": "0.00"},
+          {"duration": 6, "rate": "2.40"},
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 24, "rate": "3.60"},
+          {"duration": 36, "rate": "3.60"},
+          {"duration": 48, "rate": "3.60"},
+          {"duration": 60, "rate": "3.60"}
+        ]
+      },
+      {
+        "title": "MG월복리자유적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
+      },
+      {
+        "title": "꿈모아상호부금",
+        "entries": [
+          {"duration": 6, "rate": "2.40"},
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 24, "rate": "3.60"},
+          {"duration": 36, "rate": "3.60"}
+        ]
+      },
+      {
+        "title": "My꿈모아자유적금",
+        "entries": [{"duration": 12, "rate": "3.60"}]
+      }
+    ]
+  },
+  "baseDate": "2023/01/04"
+}

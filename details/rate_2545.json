@@ -1,0 +1,131 @@
+{
+  "id": "2545",
+  "bank": {
+    "gmgoCd": "2545",
+    "gmgoNm": "양동",
+    "r1": "광주",
+    "r2": "서구"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 1, "rate": "3.10"},
+          {"duration": 3, "rate": "3.60"},
+          {"duration": 6, "rate": "5.10"},
+          {"duration": 12, "rate": "5.50"},
+          {"duration": 24, "rate": "4.80"},
+          {"duration": 36, "rate": "4.90"}
+        ]
+      },
+      {
+        "title": "자유자재정기예금Ⅱ",
+        "entries": [
+          {"duration": 1, "rate": "3.10"},
+          {"duration": 3, "rate": "3.10"},
+          {"duration": 6, "rate": "4.40"},
+          {"duration": 9, "rate": "4.40"},
+          {"duration": 12, "rate": "4.80"},
+          {"duration": 18, "rate": "4.80"},
+          {"duration": 24, "rate": "4.80"},
+          {"duration": 30, "rate": "4.80"},
+          {"duration": 36, "rate": "4.80"}
+        ]
+      },
+      {
+        "title": "MG더뱅킹정기예금",
+        "entries": [{"duration": 12, "rate": "5.69"}]
+      },
+      {
+        "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 1, "rate": "3.10"},
+          {"duration": 2, "rate": "3.10"},
+          {"duration": 3, "rate": "3.60"},
+          {"duration": 4, "rate": "3.60"},
+          {"duration": 5, "rate": "3.60"},
+          {"duration": 6, "rate": "4.10"},
+          {"duration": 7, "rate": "4.10"},
+          {"duration": 8, "rate": "4.10"},
+          {"duration": 9, "rate": "4.10"},
+          {"duration": 10, "rate": "4.10"},
+          {"duration": 11, "rate": "4.10"},
+          {"duration": 12, "rate": "4.60"}
+        ]
+      }
+    ]
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기적금",
+        "entries": [
+          {"duration": 6, "rate": "4.70"},
+          {"duration": 12, "rate": "5.50"},
+          {"duration": 24, "rate": "4.80"},
+          {"duration": 36, "rate": "4.90"},
+          {"duration": 48, "rate": "4.90"},
+          {"duration": 60, "rate": "4.90"}
+        ]
+      },
+      {
+        "title": "우리아기첫걸음정기적금",
+        "entries": [{"duration": 12, "rate": "3.30"}]
+      },
+      {
+        "title": "MG뛰어라정기적금",
+        "entries": [{"duration": 12, "rate": "5.80"}]
+      },
+      {
+        "title": "MG더뱅킹정기적금",
+        "entries": [
+          {"duration": 6, "rate": "0.00"},
+          {"duration": 12, "rate": "5.80"}
+        ]
+      },
+      {
+        "title": "자유적립적금",
+        "entries": [
+          {"duration": 1, "rate": "3.70"},
+          {"duration": 3, "rate": "3.80"},
+          {"duration": 6, "rate": "4.00"},
+          {"duration": 12, "rate": "4.60"},
+          {"duration": 24, "rate": "4.80"},
+          {"duration": 36, "rate": "4.90"},
+          {"duration": 48, "rate": "4.90"},
+          {"duration": 60, "rate": "4.90"}
+        ]
+      },
+      {
+        "title": "MG더뱅킹자유적금",
+        "entries": [{"duration": 12, "rate": "5.40"}]
+      },
+      {
+        "title": "일일자유적금",
+        "entries": [
+          {"duration": 0, "rate": "0.10"},
+          {"duration": 1, "rate": "0.10"},
+          {"duration": 2, "rate": "0.10"},
+          {"duration": 3, "rate": "0.10"},
+          {"duration": 4, "rate": "0.10"},
+          {"duration": 5, "rate": "0.10"},
+          {"duration": 6, "rate": "0.10"}
+        ]
+      },
+      {
+        "title": "꿈모아상호부금",
+        "entries": [
+          {"duration": 6, "rate": "1.20"},
+          {"duration": 11, "rate": "1.70"},
+          {"duration": 12, "rate": "1.90"},
+          {"duration": 24, "rate": "2.00"},
+          {"duration": 36, "rate": "2.10"}
+        ]
+      }
+    ]
+  },
+  "baseDate": "2023/01/04"
+}

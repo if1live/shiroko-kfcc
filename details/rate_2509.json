@@ -1,0 +1,71 @@
+{
+  "id": "2509",
+  "bank": {
+    "gmgoCd": "2509",
+    "gmgoNm": "송원",
+    "r1": "광주",
+    "r2": "남구"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 1, "rate": "2.10"},
+          {"duration": 3, "rate": "2.40"},
+          {"duration": 6, "rate": "2.80"},
+          {"duration": 12, "rate": "4.80"}
+        ]
+      },
+      {
+        "title": "자유자재정기예금Ⅱ",
+        "entries": [
+          {"duration": 1, "rate": "0.00"},
+          {"duration": 3, "rate": "0.00"},
+          {"duration": 6, "rate": "0.00"},
+          {"duration": 9, "rate": "0.00"},
+          {"duration": 12, "rate": "5.50"},
+          {"duration": 18, "rate": "0.00"},
+          {"duration": 24, "rate": "0.00"},
+          {"duration": 30, "rate": "0.00"},
+          {"duration": 36, "rate": "0.00"}
+        ]
+      }
+    ]
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기적금",
+        "entries": [
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 24, "rate": "3.80"},
+          {"duration": 36, "rate": "3.80"}
+        ]
+      },
+      {
+        "title": "자유적립적금",
+        "entries": [
+          {"duration": 1, "rate": "0.10"},
+          {"duration": 6, "rate": "0.10"},
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 24, "rate": "3.80"},
+          {"duration": 36, "rate": "3.80"}
+        ]
+      },
+      {
+        "title": "꿈모아상호부금",
+        "entries": [
+          {"duration": 6, "rate": "1.50"},
+          {"duration": 12, "rate": "1.50"},
+          {"duration": 24, "rate": "1.50"},
+          {"duration": 32, "rate": "1.50"},
+          {"duration": 36, "rate": "1.50"}
+        ]
+      }
+    ]
+  },
+  "baseDate": "2023/01/04"
+}

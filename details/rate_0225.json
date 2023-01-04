@@ -1,0 +1,18 @@
+{
+  "id": "0225",
+  "bank": {
+    "gmgoCd": "0225",
+    "gmgoNm": "호텔롯데",
+    "r1": "서울",
+    "r2": "중구"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": []
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": []
+  },
+  "baseDate": "2023/01/04"
+}

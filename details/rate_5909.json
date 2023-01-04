@@ -1,0 +1,82 @@
+{
+  "id": "5909",
+  "bank": {
+    "gmgoCd": "5909",
+    "gmgoNm": "화전",
+    "r1": "경북",
+    "r2": "의성군"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 3, "rate": "1.10"},
+          {"duration": 6, "rate": "1.30"},
+          {"duration": 12, "rate": "5.60"},
+          {"duration": 13, "rate": "4.40"},
+          {"duration": 36, "rate": "4.50"}
+        ]
+      },
+      {
+        "title": "Block예금",
+        "entries": [
+          {"duration": 0, "rate": "0.40"},
+          {"duration": 3, "rate": "1.10"},
+          {"duration": 6, "rate": "1.30"},
+          {"duration": 12, "rate": "4.30"},
+          {"duration": 24, "rate": "4.40"},
+          {"duration": 36, "rate": "4.50"}
+        ]
+      },
+      {
+        "title": "자유자재정기예금Ⅱ",
+        "entries": [
+          {"duration": 1, "rate": "0.40"},
+          {"duration": 3, "rate": "1.10"},
+          {"duration": 6, "rate": "1.30"},
+          {"duration": 9, "rate": "1.30"},
+          {"duration": 12, "rate": "4.30"},
+          {"duration": 18, "rate": "4.30"},
+          {"duration": 24, "rate": "4.40"},
+          {"duration": 30, "rate": "4.40"},
+          {"duration": 36, "rate": "4.50"}
+        ]
+      }
+    ]
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기적금",
+        "entries": [
+          {"duration": 12, "rate": "5.20"},
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 36, "rate": "4.60"}
+        ]
+      },
+      {
+        "title": "자유적립적금",
+        "entries": [
+          {"duration": 1, "rate": "0.00"},
+          {"duration": 3, "rate": "0.00"},
+          {"duration": 6, "rate": "1.30"},
+          {"duration": 12, "rate": "4.30"},
+          {"duration": 24, "rate": "4.40"},
+          {"duration": 36, "rate": "4.50"}
+        ]
+      },
+      {
+        "title": "MG주거래우대자유적금",
+        "entries": [{"duration": 12, "rate": "4.30"}]
+      },
+      {
+        "title": "My꿈모아자유적금",
+        "entries": [{"duration": 12, "rate": "4.30"}]
+      }
+    ]
+  },
+  "baseDate": "2023/01/04"
+}

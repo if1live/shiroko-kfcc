@@ -1,0 +1,87 @@
+{
+  "id": "4919",
+  "bank": {
+    "gmgoCd": "4919",
+    "gmgoNm": "설천",
+    "r1": "전북",
+    "r2": "무주군"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 1, "rate": "2.50"},
+          {"duration": 3, "rate": "2.60"},
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 9, "rate": "3.20"},
+          {"duration": 12, "rate": "4.50"},
+          {"duration": 18, "rate": "4.50"},
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 36, "rate": "4.50"}
+        ]
+      },
+      {
+        "title": "Block예금",
+        "entries": [
+          {"duration": 0, "rate": "1.00"},
+          {"duration": 3, "rate": "1.20"},
+          {"duration": 6, "rate": "1.50"},
+          {"duration": 12, "rate": "2.20"},
+          {"duration": 24, "rate": "2.20"},
+          {"duration": 36, "rate": "2.20"}
+        ]
+      },
+      {
+        "title": "MG주거래우대정기예금",
+        "entries": [{"duration": 12, "rate": "1.40"}]
+      }
+    ]
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기적금",
+        "entries": [
+          {"duration": 12, "rate": "4.20"},
+          {"duration": 24, "rate": "4.30"},
+          {"duration": 36, "rate": "4.40"},
+          {"duration": 48, "rate": "4.50"},
+          {"duration": 60, "rate": "4.50"}
+        ]
+      },
+      {
+        "title": "자유적립적금",
+        "entries": [
+          {"duration": 1, "rate": "2.50"},
+          {"duration": 3, "rate": "2.50"},
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 12, "rate": "4.00"},
+          {"duration": 24, "rate": "4.10"},
+          {"duration": 36, "rate": "4.20"},
+          {"duration": 48, "rate": "4.20"},
+          {"duration": 60, "rate": "4.20"}
+        ]
+      },
+      {
+        "title": "MG주거래우대자유적금",
+        "entries": [{"duration": 12, "rate": "1.50"}]
+      },
+      {
+        "title": "일일자유적금",
+        "entries": [
+          {"duration": 0, "rate": "1.00"},
+          {"duration": 1, "rate": "1.00"},
+          {"duration": 2, "rate": "1.00"},
+          {"duration": 3, "rate": "1.00"},
+          {"duration": 4, "rate": "1.20"},
+          {"duration": 5, "rate": "1.20"},
+          {"duration": 6, "rate": "1.50"}
+        ]
+      }
+    ]
+  },
+  "baseDate": "2023/01/04"
+}

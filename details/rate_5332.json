@@ -1,0 +1,88 @@
+{
+  "id": "5332",
+  "bank": {
+    "gmgoCd": "5332",
+    "gmgoNm": "죽변",
+    "r1": "경북",
+    "r2": "울진군"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 1, "rate": "1.00"},
+          {"duration": 3, "rate": "1.80"},
+          {"duration": 6, "rate": "2.80"},
+          {"duration": 12, "rate": "5.00"},
+          {"duration": 18, "rate": "4.80"},
+          {"duration": 24, "rate": "4.60"},
+          {"duration": 36, "rate": "4.40"}
+        ]
+      },
+      {
+        "title": "MG더뱅킹정기예금",
+        "entries": [{"duration": 12, "rate": "4.70"}]
+      },
+      {
+        "title": "MG주거래우대정기예금",
+        "entries": [{"duration": 12, "rate": "5.00"}]
+      }
+    ]
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기적금",
+        "entries": [
+          {"duration": 6, "rate": "2.80"},
+          {"duration": 12, "rate": "5.20"},
+          {"duration": 18, "rate": "5.00"},
+          {"duration": 24, "rate": "4.80"},
+          {"duration": 36, "rate": "4.50"},
+          {"duration": 60, "rate": "4.50"}
+        ]
+      },
+      {
+        "title": "MG더뱅킹정기적금",
+        "entries": [
+          {"duration": 6, "rate": "2.00"},
+          {"duration": 12, "rate": "4.70"}
+        ]
+      },
+      {
+        "title": "자유적립적금",
+        "entries": [
+          {"duration": 1, "rate": "0.40"},
+          {"duration": 6, "rate": "2.80"},
+          {"duration": 12, "rate": "4.50"},
+          {"duration": 18, "rate": "4.30"},
+          {"duration": 24, "rate": "4.10"},
+          {"duration": 36, "rate": "4.10"},
+          {"duration": 60, "rate": "4.10"}
+        ]
+      },
+      {
+        "title": "MG주거래우대자유적금",
+        "entries": [{"duration": 12, "rate": "1.20"}]
+      },
+      {
+        "title": "MG더뱅킹자유적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
+      },
+      {
+        "title": "꿈모아상호부금",
+        "entries": [
+          {"duration": 6, "rate": "0.60"},
+          {"duration": 12, "rate": "1.20"},
+          {"duration": 18, "rate": "1.25"},
+          {"duration": 24, "rate": "1.25"},
+          {"duration": 36, "rate": "1.25"}
+        ]
+      }
+    ]
+  },
+  "baseDate": "2023/01/04"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "5322",
+  "bank": {
+    "gmgoCd": "5322",
+    "gmgoNm": "(주)풍산안강공장",
+    "r1": "경북",
+    "r2": "경주시"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 3, "rate": "1.00"},
+          {"duration": 6, "rate": "1.50"},
+          {"duration": 12, "rate": "4.00"},
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"}
+        ]
+      }
+    ]
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기적금",
+        "entries": [
+          {"duration": 12, "rate": "4.00"},
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"}
+        ]
+      }
+    ]
+  },
+  "baseDate": "2023/01/04"
+}

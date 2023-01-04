@@ -1,0 +1,38 @@
+{
+  "id": "0122",
+  "bank": {
+    "gmgoCd": "0122",
+    "gmgoNm": "강북삼성병원",
+    "r1": "서울",
+    "r2": "종로구"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 3, "rate": "0.00"},
+          {"duration": 6, "rate": "0.00"},
+          {"duration": 12, "rate": "3.00"},
+          {"duration": 24, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"}
+        ]
+      }
+    ]
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기적금",
+        "entries": [
+          {"duration": 12, "rate": "3.25"},
+          {"duration": 24, "rate": "3.25"},
+          {"duration": 36, "rate": "3.25"}
+        ]
+      }
+    ]
+  },
+  "baseDate": "2023/01/04"
+}

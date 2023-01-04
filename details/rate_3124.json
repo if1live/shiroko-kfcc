@@ -1,0 +1,18 @@
+{
+  "id": "3124",
+  "bank": {
+    "gmgoCd": "3124",
+    "gmgoNm": "대전광역시청",
+    "r1": "대전",
+    "r2": "서구"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": []
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": []
+  },
+  "baseDate": "2023/01/04"
+}

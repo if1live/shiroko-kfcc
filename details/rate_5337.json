@@ -1,0 +1,94 @@
+{
+  "id": "5337",
+  "bank": {
+    "gmgoCd": "5337",
+    "gmgoNm": "울릉",
+    "r1": "경북",
+    "r2": "울릉군"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 1, "rate": "3.50"},
+          {"duration": 3, "rate": "3.80"},
+          {"duration": 6, "rate": "4.00"},
+          {"duration": 12, "rate": "4.50"},
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 36, "rate": "4.50"},
+          {"duration": 48, "rate": "4.50"},
+          {"duration": 60, "rate": "2.20"}
+        ]
+      },
+      {
+        "title": "자유자재정기예금Ⅱ",
+        "entries": [
+          {"duration": 1, "rate": "3.50"},
+          {"duration": 3, "rate": "3.50"},
+          {"duration": 6, "rate": "4.50"},
+          {"duration": 9, "rate": "4.00"},
+          {"duration": 12, "rate": "4.50"},
+          {"duration": 18, "rate": "4.50"},
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 30, "rate": "0.00"},
+          {"duration": 36, "rate": "0.00"}
+        ]
+      }
+    ]
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기적금",
+        "entries": [
+          {"duration": 6, "rate": "4.00"},
+          {"duration": 12, "rate": "4.50"},
+          {"duration": 24, "rate": "4.60"},
+          {"duration": 36, "rate": "4.60"},
+          {"duration": 48, "rate": "4.60"},
+          {"duration": 60, "rate": "4.60"}
+        ]
+      },
+      {
+        "title": "자유적립적금",
+        "entries": [
+          {"duration": 1, "rate": "0.00"},
+          {"duration": 3, "rate": "3.50"},
+          {"duration": 6, "rate": "3.80"},
+          {"duration": 12, "rate": "4.20"},
+          {"duration": 24, "rate": "4.40"},
+          {"duration": 36, "rate": "4.50"}
+        ]
+      },
+      {
+        "title": "MG주거래우대자유적금",
+        "entries": [{"duration": 12, "rate": "4.20"}]
+      },
+      {
+        "title": "일일자유적금",
+        "entries": [
+          {"duration": 0, "rate": "3.00"},
+          {"duration": 1, "rate": "3.10"},
+          {"duration": 2, "rate": "3.20"},
+          {"duration": 3, "rate": "3.30"},
+          {"duration": 4, "rate": "3.40"},
+          {"duration": 5, "rate": "3.50"},
+          {"duration": 6, "rate": "3.60"}
+        ]
+      },
+      {
+        "title": "꿈모아상호부금",
+        "entries": [
+          {"duration": 6, "rate": "4.20"},
+          {"duration": 12, "rate": "4.50"},
+          {"duration": 24, "rate": "4.60"},
+          {"duration": 36, "rate": "4.70"}
+        ]
+      }
+    ]
+  },
+  "baseDate": "2023/01/04"
+}

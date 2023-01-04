@@ -1,0 +1,48 @@
+{
+  "id": "0741",
+  "bank": {
+    "gmgoCd": "0741",
+    "gmgoNm": "한국앤컴퍼니",
+    "r1": "대전",
+    "r2": "대덕구"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 3, "rate": "1.80"},
+          {"duration": 6, "rate": "1.90"},
+          {"duration": 12, "rate": "1.30"},
+          {"duration": 24, "rate": "1.40"},
+          {"duration": 36, "rate": "1.50"}
+        ]
+      }
+    ]
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기적금",
+        "entries": [
+          {"duration": 12, "rate": "1.50"},
+          {"duration": 24, "rate": "1.60"},
+          {"duration": 36, "rate": "1.70"}
+        ]
+      },
+      {
+        "title": "자유적립적금",
+        "entries": [
+          {"duration": 1, "rate": "0.10"},
+          {"duration": 6, "rate": "1.00"},
+          {"duration": 12, "rate": "1.50"},
+          {"duration": 24, "rate": "1.60"},
+          {"duration": 36, "rate": "1.70"}
+        ]
+      }
+    ]
+  },
+  "baseDate": "2023/01/04"
+}

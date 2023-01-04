@@ -1,0 +1,49 @@
+{
+  "id": "6115",
+  "bank": {
+    "gmgoCd": "6115",
+    "gmgoNm": "셰플러코리아(유)직장",
+    "r1": "경남",
+    "r2": "창원시"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 3, "rate": "2.30"},
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 12, "rate": "4.60"},
+          {"duration": 24, "rate": "4.70"},
+          {"duration": 36, "rate": "4.80"}
+        ]
+      }
+    ]
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기적금",
+        "entries": [
+          {"duration": 12, "rate": "4.60"},
+          {"duration": 24, "rate": "4.70"},
+          {"duration": 36, "rate": "4.80"}
+        ]
+      },
+      {
+        "title": "자유적립적금",
+        "entries": [
+          {"duration": 1, "rate": "0.10"},
+          {"duration": 3, "rate": "2.30"},
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 12, "rate": "4.60"},
+          {"duration": 24, "rate": "4.70"},
+          {"duration": 36, "rate": "4.80"}
+        ]
+      }
+    ]
+  },
+  "baseDate": "2023/01/04"
+}

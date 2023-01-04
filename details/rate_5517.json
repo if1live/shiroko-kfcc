@@ -1,0 +1,85 @@
+{
+  "id": "5517",
+  "bank": {
+    "gmgoCd": "5517",
+    "gmgoNm": "선산",
+    "r1": "경북",
+    "r2": "구미시"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 3, "rate": "1.00"},
+          {"duration": 6, "rate": "2.00"},
+          {"duration": 12, "rate": "5.30"},
+          {"duration": 24, "rate": "5.30"},
+          {"duration": 36, "rate": "5.30"}
+        ]
+      },
+      {
+        "title": "Block예금",
+        "entries": [
+          {"duration": 0, "rate": "1.00"},
+          {"duration": 3, "rate": "1.00"},
+          {"duration": 6, "rate": "2.00"},
+          {"duration": 12, "rate": "5.30"},
+          {"duration": 24, "rate": "5.30"},
+          {"duration": 36, "rate": "5.30"}
+        ]
+      },
+      {
+        "title": "자유자재정기예금Ⅱ",
+        "entries": [
+          {"duration": 1, "rate": "0.00"},
+          {"duration": 3, "rate": "0.00"},
+          {"duration": 6, "rate": "0.00"},
+          {"duration": 9, "rate": "0.00"},
+          {"duration": 12, "rate": "3.00"},
+          {"duration": 18, "rate": "3.00"},
+          {"duration": 24, "rate": "3.00"},
+          {"duration": 30, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"}
+        ]
+      }
+    ]
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기적금",
+        "entries": [
+          {"duration": 12, "rate": "5.20"},
+          {"duration": 24, "rate": "5.20"},
+          {"duration": 36, "rate": "5.20"}
+        ]
+      },
+      {
+        "title": "우리아기첫걸음정기적금",
+        "entries": [{"duration": 12, "rate": "1.00"}]
+      },
+      {
+        "title": "MG뛰어라정기적금",
+        "entries": [{"duration": 12, "rate": "1.30"}]
+      },
+      {
+        "title": "자유적립적금",
+        "entries": [
+          {"duration": 1, "rate": "0.10"},
+          {"duration": 6, "rate": "0.10"},
+          {"duration": 12, "rate": "5.20"},
+          {"duration": 24, "rate": "5.20"},
+          {"duration": 36, "rate": "5.20"}
+        ]
+      },
+      {
+        "title": "MG주거래우대자유적금",
+        "entries": [{"duration": 12, "rate": "3.00"}]
+      }
+    ]
+  },
+  "baseDate": "2023/01/04"
+}

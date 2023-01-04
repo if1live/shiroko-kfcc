@@ -1,0 +1,18 @@
+{
+  "id": "2415",
+  "bank": {
+    "gmgoCd": "2415",
+    "gmgoNm": "광주광역시청",
+    "r1": "광주",
+    "r2": "서구"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": []
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": []
+  },
+  "baseDate": "2023/01/04"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "1426",
+  "bank": {
+    "gmgoCd": "1426",
+    "gmgoNm": "괴정3동",
+    "r1": "부산",
+    "r2": "사하구"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 3, "rate": "1.50"},
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 12, "rate": "5.30"},
+          {"duration": 13, "rate": "3.10"},
+          {"duration": 24, "rate": "3.10"},
+          {"duration": 36, "rate": "3.10"}
+        ]
+      }
+    ]
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기적금",
+        "entries": [
+          {"duration": 12, "rate": "3.30"},
+          {"duration": 13, "rate": "3.00"},
+          {"duration": 24, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"}
+        ]
+      },
+      {
+        "title": "우리아기첫걸음정기적금",
+        "entries": [{"duration": 12, "rate": "0.10"}]
+      },
+      {
+        "title": "자유적립적금",
+        "entries": [
+          {"duration": 1, "rate": "0.00"},
+          {"duration": 3, "rate": "0.00"},
+          {"duration": 6, "rate": "0.00"},
+          {"duration": 9, "rate": "0.00"},
+          {"duration": 12, "rate": "3.30"},
+          {"duration": 13, "rate": "3.00"},
+          {"duration": 24, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"}
+        ]
+      },
+      {
+        "title": "꿈모아상호부금",
+        "entries": [
+          {"duration": 12, "rate": "3.30"},
+          {"duration": 13, "rate": "3.00"},
+          {"duration": 24, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"}
+        ]
+      }
+    ]
+  },
+  "baseDate": "2023/01/04"
+}

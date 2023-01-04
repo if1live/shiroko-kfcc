@@ -1,0 +1,71 @@
+{
+  "id": "3650",
+  "bank": {
+    "gmgoCd": "3650",
+    "gmgoNm": "온세미컨덕터코리아주식회사",
+    "r1": "경기",
+    "r2": "부천시"
+  },
+  "deferredDeposit": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 1, "rate": "0.50"},
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 6, "rate": "3.10"},
+          {"duration": 12, "rate": "5.10"},
+          {"duration": 24, "rate": "5.20"},
+          {"duration": 36, "rate": "5.30"}
+        ]
+      },
+      {
+        "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
+        "entries": [
+          {"duration": 1, "rate": "0.10"},
+          {"duration": 2, "rate": "0.10"},
+          {"duration": 3, "rate": "1.10"},
+          {"duration": 4, "rate": "1.10"},
+          {"duration": 5, "rate": "1.10"},
+          {"duration": 6, "rate": "1.20"},
+          {"duration": 7, "rate": "1.20"},
+          {"duration": 8, "rate": "1.20"},
+          {"duration": 9, "rate": "1.20"},
+          {"duration": 10, "rate": "1.20"},
+          {"duration": 11, "rate": "1.20"},
+          {"duration": 12, "rate": "5.10"}
+        ]
+      }
+    ]
+  },
+  "installmentSavings": {
+    "baseDate": "2023/01/04",
+    "products": [
+      {
+        "title": "정기적금",
+        "entries": [
+          {"duration": 12, "rate": "5.10"},
+          {"duration": 24, "rate": "5.20"},
+          {"duration": 36, "rate": "5.30"}
+        ]
+      },
+      {
+        "title": "자유적립적금",
+        "entries": [
+          {"duration": 1, "rate": "0.30"},
+          {"duration": 3, "rate": "2.80"},
+          {"duration": 6, "rate": "2.90"},
+          {"duration": 12, "rate": "4.90"},
+          {"duration": 24, "rate": "5.00"},
+          {"duration": 36, "rate": "5.10"}
+        ]
+      },
+      {
+        "title": "Smart 자유적립적금",
+        "entries": [{"duration": 12, "rate": "1.65"}]
+      }
+    ]
+  },
+  "baseDate": "2023/01/04"
+}
