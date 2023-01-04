@@ -7,7 +7,7 @@
     "r2": "서귀포시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/04",
+    "baseDate": "2023/01/05",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -51,13 +51,35 @@
         "entries": [{"duration": 12, "rate": "5.69"}]
       },
       {
+        "title": "MG기업정기예금(A)",
+        "entries": [
+          {"duration": 1, "rate": "2.00"},
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 6, "rate": "4.00"},
+          {"duration": 12, "rate": "5.60"},
+          {"duration": 18, "rate": "4.50"},
+          {"duration": 24, "rate": "4.50"}
+        ]
+      },
+      {
+        "title": "MG기업정기예금(B)",
+        "entries": [
+          {"duration": 1, "rate": "2.00"},
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 6, "rate": "4.00"},
+          {"duration": 12, "rate": "5.60"},
+          {"duration": 18, "rate": "4.50"},
+          {"duration": 24, "rate": "4.50"}
+        ]
+      },
+      {
         "title": "MG주거래우대정기예금",
         "entries": [{"duration": 12, "rate": "5.50"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/04",
+    "baseDate": "2023/01/05",
     "products": [
       {
         "title": "정기적금",
@@ -148,5 +170,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/04"
+  "baseDate": "2023/01/05"
 }
