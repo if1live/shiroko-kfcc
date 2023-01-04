@@ -45,8 +45,7 @@ function formatGmgo(_cell: string, row: Row) {
   const name = row.cells[1].data as string;
   const url = buildDetailUrl(id, name, "sub_tab_rate");
   return html(`<div>
-    ${name}
-    <a href=${url} target="_blank"><small>${id}</small></a>
+    <a href=${url} target="_blank">${name}</a>
   </div>`);
 }
 
@@ -89,6 +88,7 @@ function initializeGrid(entries: CompactEntry[]) {
         id: "label",
         name: "이름",
         sort: false,
+        width: "20%",
         formatter: formatGmgo,
       },
       { id: "location", name: "지역", sort: false, formatter: formatLocation },
