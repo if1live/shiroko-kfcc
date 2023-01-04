@@ -1,0 +1,19 @@
+[
+  {"gmgoCd": "0123", "gmgoNm": "행정안전부", "divCd": "001", "divNm": "본점", "r1": "세종", "r2": ""},
+  {"gmgoCd": "3239", "gmgoNm": "웅진", "divCd": "001", "divNm": "본점", "r1": "세종", "r2": ""},
+  {"gmgoCd": "3239", "gmgoNm": "웅진", "divCd": "003", "divNm": "장기", "r1": "세종", "r2": ""},
+  {"gmgoCd": "3239", "gmgoNm": "웅진", "divCd": "007", "divNm": "새롬", "r1": "세종", "r2": ""},
+  {"gmgoCd": "3239", "gmgoNm": "웅진", "divCd": "008", "divNm": "반곡", "r1": "세종", "r2": ""},
+  {"gmgoCd": "3327", "gmgoNm": "세종", "divCd": "001", "divNm": "본점", "r1": "세종", "r2": ""},
+  {"gmgoCd": "3327", "gmgoNm": "세종", "divCd": "002", "divNm": "금남", "r1": "세종", "r2": ""},
+  {"gmgoCd": "3327", "gmgoNm": "세종", "divCd": "004", "divNm": "종촌", "r1": "세종", "r2": ""},
+  {"gmgoCd": "3327", "gmgoNm": "세종", "divCd": "005", "divNm": "다정", "r1": "세종", "r2": ""},
+  {"gmgoCd": "3327", "gmgoNm": "세종", "divCd": "006", "divNm": "대평", "r1": "세종", "r2": ""},
+  {"gmgoCd": "3327", "gmgoNm": "세종", "divCd": "007", "divNm": "소담", "r1": "세종", "r2": ""},
+  {"gmgoCd": "3327", "gmgoNm": "세종", "divCd": "008", "divNm": "해밀", "r1": "세종", "r2": ""},
+  {"gmgoCd": "3327", "gmgoNm": "세종", "divCd": "009", "divNm": "나성", "r1": "세종", "r2": ""},
+  {"gmgoCd": "3344", "gmgoNm": "행복", "divCd": "001", "divNm": "본점", "r1": "세종", "r2": ""},
+  {"gmgoCd": "3344", "gmgoNm": "행복", "divCd": "005", "divNm": "보람", "r1": "세종", "r2": ""},
+  {"gmgoCd": "3826", "gmgoNm": "삼성전기", "divCd": "003", "divNm": "세종", "r1": "세종", "r2": ""},
+  {"gmgoCd": "4603", "gmgoNm": "금강", "divCd": "002", "divNm": "부강", "r1": "세종", "r2": ""}
+]
