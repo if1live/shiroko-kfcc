@@ -1,4 +1,5 @@
 import { default as _ } from "lodash-es";
+import https from "node:https";
 import { setTimeout } from "node:timers/promises";
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -6,6 +7,8 @@ import pLimit from "p-limit";
 import fetch from "node-fetch";
 import { productCategories, ProductCategory, RegionSet } from "./constants.js";
 import { BankDefinition } from "./types.js";
+
+const agent = new https.Agent({ keepAlive: true });
 
 type RegionCommand = {
   r1: string;
@@ -49,7 +52,9 @@ async function executeRegionCommand(
   const filename = `list_${r1}_${r2}.html`;
 
   try {
-    const resp = await fetch(url);
+    const resp = await fetch(url, {
+      agent,
+    });
     const text = await resp.text();
 
     const fp = path.resolve(destDir, filename);
@@ -152,7 +157,10 @@ async function fetchInterestRateByGubun(
   };
 
   const url = `https://www.kfcc.co.kr/map/goods_19.do?OPEN_TRMID=${trmid}&gubuncode=${gubuncode}`;
-  const resp = await fetch(url, { headers });
+  const resp = await fetch(url, {
+    headers,
+    agent,
+  });
   const text = await resp.text();
 
   if (resp.status >= 400) {
