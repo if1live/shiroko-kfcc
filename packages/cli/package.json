@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "check:watch": "tsc --watch",
-    "cli": "ts-node-esm ./src/cli.ts",
+    "cli": "ts-node-esm --swc ./src/cli.ts",
     "test": "mocha"
   },
   "dependencies": {

@@ -1,8 +1,13 @@
-name: ci
+name: schedule
 
 on:
-  push:
-    branches: ["main"]
+  schedule:
+    # KST 00:00 에 날짜 바뀔떄는 은행 점검 중이라서 제대로 작동하지 않는다.
+    # 적당히 다음날 아침에 보면 새로운 금리가 반영되어있는걸 원한다
+    # https://support.toss.im/faq/129?from=5&page=1 은행 점검시간 적당히 피해서 설정
+    # UTC 16:00 = KST 01:00
+    - cron: '0 16 * * *'
+    - cron: '32 4 * * *'
 
 jobs:
   main:
@@ -37,13 +42,16 @@ jobs:
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
-      - name: cli
+      - name: check
+        working-directory: packages/cli
+        run: pnpm build
+
+      - name: schedule
         working-directory: packages/cli
         run: |
-          pnpm build
-          pnpm test
-
-      - name: frontend
-        working-directory: packages/frontend
-        run: |
-          pnpm build
+          pnpm cli -- region:fetch
+          pnpm cli -- region:parse
+          pnpm cli -- rate:fetch
+          pnpm cli -- rate:parse
+          pnpm cli -- report:write
+          ls -alh data_summary

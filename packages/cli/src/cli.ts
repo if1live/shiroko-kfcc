@@ -1,10 +1,9 @@
 import { default as _ } from "lodash-es";
 import fs from "node:fs/promises";
 import path from "node:path";
+import pLimit from "p-limit";
 import stringifyJson from "json-stringify-pretty-compact";
 import {
-  allRegions,
-  RegionSet,
   productCategories,
   category_deferredDeposit,
   category_installmentSavings,
@@ -12,7 +11,6 @@ import {
 import { fetchRates, fetchRegions } from "./fetcher.js";
 import { parseListHtml, parseInterestRateHtml } from "./parser.js";
 import { BankDefinition, BankSnapshot } from "./types.js";
-import pLimit from "p-limit";
 import { buildReportRows, writeReportCsv, writeReportJson } from "./report.js";
 import {
   bankJsonFilePath,
@@ -20,21 +18,16 @@ import {
   createInterestRateJsonFilePath,
   createListHtmlFilePath,
   rateCachePath,
-  rateDataPath,
-  regionCachePath,
   summaryDataPath,
+  targetRegions,
 } from "./settings.js";
-
-// 테스트 목적으로 범위를 좁게 설정하고 싶을때
-// const targets: RegionSet[] = [allRegions[allRegions.length - 1]];
-const targets: RegionSet[] = allRegions;
 
 async function main() {
   const action = process.argv[process.argv.length - 1];
 
   switch (action) {
     case "region:fetch": {
-      await fetchRegions(targets, 10);
+      await fetchRegions(targetRegions, 10);
       break;
     }
     case "region:parse": {
@@ -94,7 +87,7 @@ async function loadSnapshots(banks: BankDefinition[]): Promise<BankSnapshot[]> {
 async function parseRegion() {
   let banks_tmp: BankDefinition[] = [];
 
-  for (const group of targets) {
+  for (const group of targetRegions) {
     const [r1, ...rest] = group;
     for (const r2 of rest) {
       const fp = createListHtmlFilePath(r1, r2);
