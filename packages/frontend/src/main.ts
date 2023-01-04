@@ -24,24 +24,55 @@ async function fetchReportJson(): Promise<InterestRateEntry[]> {
   return entries;
 }
 
-function formatGmgoId(cell: string, row: Row) {
-  const id = cell;
-  const name = row.cells[1].data as string;
-
+function buildDetailUrl(
+  gmgoCd: string,
+  name: string,
+  tab: "sub_tab_rate" | "sub_tab_map"
+) {
   const params = new URLSearchParams();
-  params.set("gmgoCd", id);
+  params.set("gmgoCd", gmgoCd);
   params.set("name", name);
   params.set("divCd", "001");
-  params.set("code1", id);
+  params.set("code1", gmgoCd);
   params.set("code2", "001");
-  params.set("tab", "sub_tab_rate");
+  params.set("tab", tab);
   const url = `https://www.kfcc.co.kr/map/view.do?${params.toString()}`;
-
-  return html(`<a href=${url} target="_blank">${id}</a>`);
+  return url;
 }
 
-function formatRate(cell: string | null) {
-  return cell ? `${cell} %` : "";
+function formatGmgo(_cell: string, row: Row) {
+  const id = row.cells[0].data as string;
+  const name = row.cells[1].data as string;
+  const url = buildDetailUrl(id, name, "sub_tab_rate");
+  return html(`<div>
+    ${name}
+    <a href=${url} target="_blank"><small>${id}</small></a>
+  </div>`);
+}
+
+function formatLocation(cell: string, row: Row) {
+  const id = row.cells[0].data as string;
+  const name = row.cells[1].data as string;
+  const url = buildDetailUrl(id, name, "sub_tab_map");
+  return html(`<div>
+    <a href=${url} target="_blank">${cell}</a>
+  <div>`);
+}
+
+function formatRate(cell: string | null, _row: Row) {
+  if (!cell) {
+    return "";
+  }
+
+  return `${cell} %`;
+}
+
+function formatBaseDate(cell: string, row: Row) {
+  const id = row.cells[0].data as string;
+  const url = `https://github.com/if1live/shiroko-kfcc/blob/interest-rate/details/rate_${id}.json`;
+  return html(`<div>
+    <a href=${url} target="_blank">${cell}</a>
+  </div>`);
 }
 
 function initializeGrid(entries: CompactEntry[]) {
@@ -52,22 +83,27 @@ function initializeGrid(entries: CompactEntry[]) {
         name: "금고ID",
         sort: false,
         width: "5%",
-        formatter: (cell, row) => formatGmgoId(cell as any, row),
+        hidden: true,
       },
-      { id: "label", name: "이름", sort: false },
-      { id: "location", name: "지역", sort: false },
+      {
+        id: "label",
+        name: "이름",
+        sort: false,
+        formatter: formatGmgo,
+      },
+      { id: "location", name: "지역", sort: false, formatter: formatLocation },
       {
         id: "rate",
         name: "금리 (1년)",
         formatter: formatRate,
         width: "20%",
-        hidden: false,
       },
       {
+        // 크롤링이 고장났으면 과거 데이터가 노출될수 있다.문제 생긴거 잡을떄 쓸수 있을듯?
         id: "baseDate",
         name: "기준일",
+        formatter: formatBaseDate,
         width: "5%",
-        sort: false,
       },
     ],
     sort: true,
