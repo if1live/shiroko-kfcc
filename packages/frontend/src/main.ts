@@ -45,8 +45,9 @@ function formatRate(cell: string | null) {
 }
 
 async function main() {
-  const naiveEntries = await fetchReportJson();
   const grid = initializeGrid([]);
+
+  const naiveEntries = await fetchReportJson();
 
   const renderPage = (key: keyof InterestRateEntry, hangul: string) => {
     const entries = filterByCategory(naiveEntries, key);
