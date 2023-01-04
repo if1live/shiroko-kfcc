@@ -44,55 +44,6 @@ function formatRate(cell: string | null) {
   return cell ? `${cell} %` : "";
 }
 
-async function main() {
-  const grid = initializeGrid([]);
-
-  const naiveEntries = await fetchReportJson();
-
-  const renderPage = (key: keyof InterestRateEntry, hangul: string) => {
-    const entries = filterByCategory(naiveEntries, key);
-    grid.updateConfig({ data: entries as any });
-    grid.forceRender();
-
-    const headerElement = document.querySelector<HTMLElement>("#header-name")!;
-    headerElement.textContent = hangul;
-
-    const menuItemElements = document.querySelectorAll(".menu a.item");
-    for (const elem of Array.from(menuItemElements)) {
-      elem.classList.remove("active");
-    }
-    const activeMenuItem = document.querySelector(`.button-${key}`);
-    activeMenuItem?.classList.add("active");
-  };
-
-  const setupCategoryButton = (
-    element: HTMLElement,
-    key: keyof InterestRateEntry
-  ) => {
-    element.addEventListener("click", () => {
-      renderPage(key, element.textContent ?? "<BLANK>");
-    });
-  };
-
-  setupCategoryButton(
-    document.querySelector<HTMLElement>(".button-rateA")!,
-    "rateA"
-  );
-
-  setupCategoryButton(
-    document.querySelector<HTMLElement>(".button-rateB")!,
-    "rateB"
-  );
-
-  setupCategoryButton(
-    document.querySelector<HTMLElement>(".button-rateC")!,
-    "rateC"
-  );
-
-  // 초기 화면
-  renderPage("rateA", "MG더뱅킹정기예금");
-}
-
 function initializeGrid(entries: CompactEntry[]) {
   const grid = new Grid({
     columns: [
@@ -135,4 +86,56 @@ function initializeGrid(entries: CompactEntry[]) {
   grid.render(document.getElementById("wrapper")!);
   return grid;
 }
+
+// 빈데이터라도 상관없으니 일단 렌더링. 데이터 불러오면 이어서 작업
+const grid = initializeGrid([]);
+
+async function main() {
+  const naiveEntries = await fetchReportJson();
+
+  const renderPage = (key: keyof InterestRateEntry, hangul: string) => {
+    const entries = filterByCategory(naiveEntries, key);
+    grid.updateConfig({ data: entries as any });
+    grid.forceRender();
+
+    const headerElement = document.querySelector<HTMLElement>("#header-name")!;
+    headerElement.textContent = hangul;
+
+    const menuItemElements = document.querySelectorAll(".menu a.item");
+    for (const elem of Array.from(menuItemElements)) {
+      elem.classList.remove("active");
+    }
+    const activeMenuItem = document.querySelector(`.button-${key}`);
+    activeMenuItem?.classList.add("active");
+  };
+
+  const setupCategoryButton = (
+    element: HTMLElement,
+    key: keyof InterestRateEntry
+  ) => {
+    element.addEventListener("click", () => {
+      const label = element.dataset.label ?? "<BLANK>";
+      renderPage(key, label);
+    });
+  };
+
+  setupCategoryButton(
+    document.querySelector<HTMLElement>(".button-rateA")!,
+    "rateA"
+  );
+
+  setupCategoryButton(
+    document.querySelector<HTMLElement>(".button-rateB")!,
+    "rateB"
+  );
+
+  setupCategoryButton(
+    document.querySelector<HTMLElement>(".button-rateC")!,
+    "rateC"
+  );
+
+  // 초기 화면
+  renderPage("rateA", "MG더뱅킹정기예금");
+}
+
 main();
