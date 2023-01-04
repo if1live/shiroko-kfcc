@@ -19,8 +19,8 @@ export type InterestRateRow = [
 export type ReportMatrix = InterestRateRow[];
 
 export interface InterestRateEntry {
-  id: string;
-  name: string;
+  gmgoCd: string;
+  label: string;
   location: string;
   rateA: string | null;
   rateB: string | null;
@@ -28,14 +28,44 @@ export interface InterestRateEntry {
   baseDate: string | null;
 }
 
+export interface CompactEntry {
+  gmgoCd: string;
+  label: string;
+  location: string;
+  rate: string;
+  baseDate: string | null;
+}
+
 export function convertRowToEntry(row: InterestRateRow): InterestRateEntry {
   return {
-    id: row[0],
-    name: row[1],
+    gmgoCd: row[0],
+    label: row[1],
     location: row[2],
     rateA: row[3],
     rateB: row[4],
     rateC: row[5],
     baseDate: row[6],
   };
+}
+
+export function sanitizeEntry(
+  input: InterestRateEntry,
+  key: keyof InterestRateEntry
+): CompactEntry {
+  const { rateA, rateB, rateC, ...rest } = input;
+  return { ...rest, rate: input[key]! };
+}
+
+export function filterByCategory(
+  entries: InterestRateEntry[],
+  key: keyof InterestRateEntry
+): CompactEntry[] {
+  return entries
+    .filter((x) => x[key] != null)
+    .map((x) => sanitizeEntry(x, key))
+    .sort((a, b) => {
+      const x = parseFloat(a.rate!);
+      const y = parseFloat(b.rate!);
+      return y - x;
+    });
 }

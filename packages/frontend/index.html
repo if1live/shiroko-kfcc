@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="utf-8" />
 
-    <title>Shiroko: MG새마을금고를 털?자</title>
+    <title>Shiroko: MG새마을금고를 털!자</title>
 
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <meta property="og:title" content="" />
     <meta property="og:type" content="" />
@@ -21,11 +22,48 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/semantic-ui@2/dist/semantic.min.css"
     />
-    <script src="https://cdn.jsdelivr.net/npm/semantic-ui-react/dist/umd/semantic-ui-react.min.js"></script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- Following Menu -->
+    <div class="ui large top fixed hidden menu">
+      <div class="ui container">
+        <a class="item active">Shiroko</a>
+        <a class="item button-rateA">MG더뱅킹정기예금</a>
+        <a class="item button-rateB">MG더뱅킹정기적금</a>
+        <a class="item button-rateC">MG더뱅킹자유적금</a>
+      </div>
+    </div>
+
+    <div id="app" class="ui container">
+      <h1 class="ui header">
+        <img class="ui image" src="/shiroko-square.jpg" />
+        <div class="content">Shiroko: MG새마을금고 금리 조회</div>
+      </h1>
+
+      <h2 class="ui header" id="header-name">MG더뱅킹어쩌고이름</h2>
+
+      <p>
+        우대 금리가 적용되지 않은 기본값입니다.
+        <a href="https://www.kfcc.co.kr/map/main.do">금고위치안내</a>에서 조회한
+        결과와 MG더뱅킹 앱에서 보이는 것은 다를 수 있습니다.
+      </p>
+
+      <div id="wrapper"></div>
+    </div>
+
+    <div class="ui container">
+      <footer>
+        <a href="https://github.com/if1live/shiroko-kfcc">github</a>
+        |
+        <a href="https://twitter.com/if1live">@if1live</a>
+        |
+        <a href="https://github.com/if1live/shiroko-kfcc/tree/interest-rate">
+          data
+        </a>
+      </footer>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
 
     <!-- Google tag (gtag.js) -->
     <script
