@@ -7,7 +7,7 @@
 
 * `_cache_region`
 * `_cache_rate`
-* `data_region`
+* `data_summary`
 * `data_rate`
 
 ## 새마을금고 목록
@@ -15,14 +15,14 @@
 1. `pnpm cli -- region:fetch`: 새마을금고 목록 HTML 받기
     * `_cache_region/list_강원_강릉시.html` 같은게 잔뜩 생김
 2. `pnpm cli -- region:parse`: 새마을금고 목록을 JSON 하나로 뭉침
-    * `data_region/banks.json` 생성
+    * `data_summary/banks.json` 생성
 3. `pnpm cli -- rate:fetch`: 각각의 새마을금고별 금리 HTML 받기
     * `_cache_rate/0101_요구불예탁금.html` 같은게 잔뜩 생김
 4. `pnpm cli -- rate:parse`: 각각의 새마을금고 금기를 JSON으로 변환
     * `data_rate/rate_0101.json` 같은게 잔뜩 생김
 5. `pnpm cli -- report:write`: 전국의 MG더뱅킹정기예금, MG더뱅킹정기적금, MG더뱅킹자유적금 결과
-    * `data_region/report.csv`
-    * `data_region/report.json`
+    * `data_summary/report.csv`
+    * `data_summary/report.json`
 
 ## 주의
 

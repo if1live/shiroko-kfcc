@@ -14,12 +14,16 @@ import { parseListHtml, parseInterestRateHtml } from "./parser.js";
 import { BankDefinition, BankSnapshot } from "./types.js";
 import pLimit from "p-limit";
 import { buildReportRows, writeReportCsv, writeReportJson } from "./report.js";
-
-const regionCacheDir = path.resolve(process.cwd(), "_cache_region");
-const rateCacheDir = path.resolve(process.cwd(), "_cache_rate");
-
-const regionDataDir = path.resolve(process.cwd(), "data_region");
-const rateDataDir = path.resolve(process.cwd(), "data_rate");
+import {
+  bankJsonFilePath,
+  createInterestRateHtmlFilePath,
+  createInterestRateJsonFilePath,
+  createListHtmlFilePath,
+  rateCachePath,
+  rateDataPath,
+  regionCachePath,
+  summaryDataPath,
+} from "./settings.js";
 
 // 테스트 목적으로 범위를 좁게 설정하고 싶을때
 // const targets: RegionSet[] = [allRegions[allRegions.length - 1]];
@@ -30,7 +34,7 @@ async function main() {
 
   switch (action) {
     case "region:fetch": {
-      await fetchRegions(targets, 10, regionCacheDir);
+      await fetchRegions(targets, 10);
       break;
     }
     case "region:parse": {
@@ -39,7 +43,7 @@ async function main() {
     }
     case "rate:fetch": {
       const banks = await loadBanks();
-      await fetchRates(banks, 20, rateCacheDir);
+      await fetchRates(banks, 20, rateCachePath);
       break;
     }
     case "rate:parse": {
@@ -51,8 +55,12 @@ async function main() {
       const banks = await loadBanks();
       const snapshots = await loadSnapshots(banks);
       const rows = await buildReportRows(snapshots);
-      await writeReportJson(rows, regionDataDir);
-      await writeReportCsv(rows, regionDataDir);
+
+      const fp_json = path.join(summaryDataPath, "report_mat.json");
+      await writeReportJson(rows, fp_json);
+
+      const fp_csv = path.join(summaryDataPath, "report_euckr.csv");
+      await writeReportCsv(rows, fp_csv);
       break;
     }
     default:
@@ -62,8 +70,7 @@ async function main() {
 await main();
 
 async function loadBanks(): Promise<BankDefinition[]> {
-  const fp = path.resolve(regionDataDir, "banks.json");
-  const text = await fs.readFile(fp, "utf-8");
+  const text = await fs.readFile(bankJsonFilePath, "utf-8");
   const banks = JSON.parse(text) as BankDefinition[];
   return banks;
 }
@@ -74,8 +81,7 @@ async function loadSnapshots(banks: BankDefinition[]): Promise<BankSnapshot[]> {
 
   const tasks = ids.map((id) =>
     limit(async () => {
-      const filename = `rate_${id}.json`;
-      const fp = path.resolve(rateDataDir, filename);
+      const fp = createInterestRateJsonFilePath(id);
       const text = await fs.readFile(fp, "utf-8");
       const snapshot = JSON.parse(text) as BankSnapshot;
       return snapshot;
@@ -91,8 +97,7 @@ async function parseRegion() {
   for (const group of targets) {
     const [r1, ...rest] = group;
     for (const r2 of rest) {
-      const filename = `list_${r1}_${r2}.html`;
-      const fp = path.resolve(regionCacheDir, filename);
+      const fp = createListHtmlFilePath(r1, r2);
       const text = await fs.readFile(fp, "utf8");
 
       const results = parseListHtml(text);
@@ -107,8 +112,11 @@ async function parseRegion() {
     return key_a.localeCompare(key_b);
   });
 
-  const fp = path.resolve(regionDataDir, "banks.json");
-  await fs.writeFile(fp, stringifyJson(banks, { maxLength: 120 }), "utf-8");
+  await fs.writeFile(
+    bankJsonFilePath,
+    stringifyJson(banks, { maxLength: 120 }),
+    "utf-8"
+  );
 }
 
 async function parseRate(banks: BankDefinition[]) {
@@ -124,7 +132,7 @@ async function parseRateInner(bank: BankDefinition) {
 
   const tasks = productCategories.map(async (x) => {
     try {
-      const fp = path.resolve(rateCacheDir, `${id}_${x.hangul}.html`);
+      const fp = createInterestRateHtmlFilePath(id, x.hangul);
       const text = await fs.readFile(fp, "utf-8");
       return { ok: true, code: x.code, text };
     } catch (e) {
@@ -164,10 +172,9 @@ async function parseRateInner(bank: BankDefinition) {
     baseDate: deferredDeposit?.baseDate ?? installmentSavings?.baseDate ?? null,
   };
 
-  const filename = `rate_${id}.json`;
-  const fp_output = path.resolve(rateDataDir, filename);
+  const fp_output = createInterestRateJsonFilePath(id);
   const text_output = stringifyJson(data, { maxLength: 60 });
   await fs.writeFile(fp_output, text_output);
 
-  return filename;
+  return fp_output;
 }

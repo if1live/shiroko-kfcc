@@ -7,6 +7,7 @@ import pLimit from "p-limit";
 import fetch from "node-fetch";
 import { productCategories, ProductCategory, RegionSet } from "./constants.js";
 import { BankDefinition } from "./types.js";
+import { createInterestRateHtmlFilePath, createListHtmlFilePath } from "./settings.js";
 
 const agent = new https.Agent({ keepAlive: true });
 
@@ -45,32 +46,25 @@ type RegionCommandOutput =
   | CommandOutput_Failure;
 
 async function executeRegionCommand(
-  command: RegionCommand,
-  destDir: string
+  command: RegionCommand
 ): Promise<RegionCommandOutput> {
   const { r1, r2, url } = command;
-  const filename = `list_${r1}_${r2}.html`;
 
   try {
     const resp = await fetch(url, {
       agent,
     });
     const text = await resp.text();
-
-    const fp = path.resolve(destDir, filename);
+    const fp = createListHtmlFilePath(r1, r2);
     await fs.writeFile(fp, text);
 
-    return { ok: true, value: filename };
+    return { ok: true, value: path.basename(fp) };
   } catch (e) {
     return { ok: false, error: e as Error };
   }
 }
 
-export async function fetchRegions(
-  regions: RegionSet[],
-  concurrency: number,
-  destDir: string
-) {
+export async function fetchRegions(regions: RegionSet[], concurrency: number) {
   const commands = regions.flatMap((x) => buildRegionCommands(x));
   const limit = pLimit(concurrency);
 
@@ -78,7 +72,7 @@ export async function fetchRegions(
     limit(async () => {
       const { r1, r2 } = command;
 
-      const output = await executeRegionCommand(command, destDir);
+      const output = await executeRegionCommand(command);
       if (output.ok) {
         const { value: filename } = output;
         console.log(`OK: ${r1} ${r2} -> ${filename}`);
@@ -111,11 +105,10 @@ async function fetchInterestRate(bank: BankDefinition, destDir: string) {
   const id = bank.gmgoCd;
 
   const execute = async (category: ProductCategory) => {
-    const filename = `${id}_${category.hangul}.html`;
     const text = await fetchInterestRateByGubun(id, category.code);
-    const fp = path.resolve(destDir, filename);
+    const fp = createInterestRateHtmlFilePath(id, category.hangul);
     await fs.writeFile(fp, text);
-    console.log(`fetch ${filename}`);
+    console.log(`fetch ${path.basename(fp)}`);
   };
 
   // TODO: 멀쩡한 재시도? http 요청을 너무 많이 보내니까 가끔 실패한다

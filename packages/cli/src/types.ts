@@ -84,8 +84,20 @@ export interface BankSnapshot {
   installmentSavings: InterestRateSnapshot | null;
 }
 
-// 데이터 크기를 줄이려고 깡배열로 다룸
-export type InterestRateRow = [
+export const reportFields = [
+  "gmgoCd",
+  "gmgoNm",
+  "location",
+  "MG더뱅킹정기예금",
+  "MG더뱅킹정기적금",
+  "MG더뱅킹자유적금",
+  "기준일",
+] as const;
+
+export type ReportFieldRow = typeof reportFields;
+
+// 데이터 크기를 줄이려고 깡배열로 취급
+export type ReportRecordRow = [
   // 금고 코드
   string,
   // 금고 이름
