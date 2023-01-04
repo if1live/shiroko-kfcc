@@ -13,23 +13,21 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
 jobs:
-  schedule:
+  deploy:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
       - uses: actions/setup-node@v3
         with:
           node-version: 18
@@ -57,6 +55,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
+      - name: git config
+        run: |
+          git config --local user.name '${{github.actor}}'
+          git config --local user.email 'github-action-${{github.actor}}@users.noreply.github.com'
+
       - name: check
         working-directory: packages/cli
         run: pnpm build
@@ -70,7 +73,17 @@ jobs:
           pnpm cli -- rate:parse
           pnpm cli -- report:write
 
-      - name: deploy
-        working-directory: packages/cli
+      - name: preapre
         run: |
-          ls -alh data_summary
+          bash ./scripts/prepare_snapshot.sh
+
+      # https://github.com/peaceiris/actions-gh-pages
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        # If you're changing the branch from main,
+        # also change the `main` in `refs/heads/main`
+        # below accordingly.
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
