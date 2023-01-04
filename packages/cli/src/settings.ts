@@ -3,8 +3,8 @@ import { allRegions, RegionSet } from "./constants.js";
 
 
 // 테스트 목적으로 범위를 좁게 설정하고 싶을때
-export const targetRegions: RegionSet[] = [allRegions[allRegions.length - 1]];
-// const targetRegions: RegionSet[] = allRegions;
+// export const targetRegions: RegionSet[] = [allRegions[allRegions.length - 1]];
+export const targetRegions: RegionSet[] = allRegions;
 
 /**
  * @summary html cache dir for region data
