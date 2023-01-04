@@ -6,11 +6,26 @@ on:
     # 적당히 다음날 아침에 보면 새로운 금리가 반영되어있는걸 원한다
     # https://support.toss.im/faq/129?from=5&page=1 은행 점검시간 적당히 피해서 설정
     # UTC 16:00 = KST 01:00
+    # https://crontab.guru/
     - cron: '0 16 * * *'
-    - cron: '32 4 * * *'
+    # - cron: '*/10 * * * *'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  main:
+  schedule:
     runs-on: ubuntu-latest
 
     steps:
@@ -46,7 +61,7 @@ jobs:
         working-directory: packages/cli
         run: pnpm build
 
-      - name: schedule
+      - name: worker
         working-directory: packages/cli
         run: |
           pnpm cli -- region:fetch
@@ -54,4 +69,8 @@ jobs:
           pnpm cli -- rate:fetch
           pnpm cli -- rate:parse
           pnpm cli -- report:write
+
+      - name: deploy
+        working-directory: packages/cli
+        run: |
           ls -alh data_summary
