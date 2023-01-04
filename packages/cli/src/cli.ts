@@ -101,6 +101,8 @@ async function parseRegion() {
       const text = await fs.readFile(fp, "utf8");
 
       const results = parseListHtml(text);
+      console.log(`parse ${r1} ${r2}`);
+
       banks_tmp = [...banks_tmp, ...results];
     }
   }
@@ -121,10 +123,14 @@ async function parseRegion() {
 
 async function parseRate(banks: BankDefinition[]) {
   const entries = _.uniqBy(banks, (x) => x.gmgoCd);
-  for (const entry of entries) {
-    const filename = await parseRateInner(entry);
-    console.log(`parse ${entry.gmgoCd} -> ${filename}`);
-  }
+  const limit = pLimit(10);
+  const tasks = entries.map((entry) =>
+    limit(async () => {
+      const filename = await parseRateInner(entry);
+      console.log(`parse ${entry.gmgoCd} -> ${filename}`);
+    })
+  );
+  await Promise.all(tasks);
 }
 
 async function parseRateInner(bank: BankDefinition) {
