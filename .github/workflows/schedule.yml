@@ -94,5 +94,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           commit_message: 'deploy: ${{ env.current_datetime }}'
+          publish_branch: interest-rate
           publish_dir: ./output
-          keep_files: true
