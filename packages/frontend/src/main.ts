@@ -1,4 +1,5 @@
 import { Grid, html, Row } from "gridjs";
+import { TCell } from "gridjs/dist/src/types";
 import "./style.css";
 import "gridjs/dist/theme/mermaid.css";
 import {
@@ -66,16 +67,25 @@ function formatRate(cell: string | null, _row: Row) {
   return `${cell} %`;
 }
 
+function selectGmgo(cell: TCell, _rowIndex: number, cellIndex: number): string {
+  const allowedIndexList = [
+    1, // 금고 이름
+    2, // 금고 지역
+  ];
+  return allowedIndexList.includes(cellIndex) ? `${cell}` : "";
+}
+
 function formatBaseDate(cell: string, row: Row) {
   const id = row.cells[0].data as string;
   const url = `https://github.com/if1live/shiroko-kfcc/blob/interest-rate/details/rate_${id}.json`;
   return html(`<div>
-    <a href=${url} target="_blank">${cell}</a>
+  <a href=${url} target="_blank">${cell}</a>
   </div>`);
 }
 
 function initializeGrid(entries: CompactEntry[]) {
   const grid = new Grid({
+    data: entries as any,
     columns: [
       {
         id: "gmgoCd",
@@ -107,7 +117,10 @@ function initializeGrid(entries: CompactEntry[]) {
       },
     ],
     sort: true,
-    data: entries as any,
+    search: {
+      enabled: true,
+      selector: selectGmgo,
+    },
     pagination: {
       enabled: true,
       limit: 20,
