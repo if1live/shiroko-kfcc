@@ -7,7 +7,7 @@
     "r2": "화천군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/06",
+    "baseDate": "2023/01/07",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -59,7 +59,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/06",
+    "baseDate": "2023/01/07",
     "products": [
       {
         "title": "정기적금",
@@ -126,9 +126,9 @@
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "5.00"}]
       }
     ]
   },
-  "baseDate": "2023/01/06"
+  "baseDate": "2023/01/07"
 }
