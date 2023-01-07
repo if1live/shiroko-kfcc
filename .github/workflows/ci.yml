@@ -48,6 +48,10 @@ jobs:
         run: |
           pnpm build
 
+      - name: post-process
+        run: |
+          bash ./scripts/replace_datetime.sh
+
       # https://github.com/peaceiris/actions-gh-pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
@@ -58,4 +62,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./packages/frontend/dist/
-
