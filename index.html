@@ -1,138 +1,109 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="utf-8" />
 
-    <title>Shiroko - MG새마을금고를 털!자</title>
+<head>
+  <meta charset="utf-8">
 
-    <meta name="description" content="Shiroko - MG새마을금고 금리 조회" />
-    <meta
-      name="keywords"
-      content="MG새마을금고, 새마을금고, 금리, 이율, 예금, 적금, shiroko, 시로코, 털자, 가자"
-    />
+  <title>Shiroko - MG새마을금고를 털!자</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Shiroko - MG새마을금고 금리 조회">
+  <meta name="keywords" content="MG새마을금고, 새마을금고, 금리, 이율, 예금, 적금, shiroko, 시로코, 털자, 가자, 내놔">
 
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://if1live.github.io/shiroko-kfcc/" />
-    <meta property="og:title" content="Shiroko - MG새마을금고를 털!자" />
-    <meta
-      property="og:image"
-      content="https://if1live.github.io/shiroko-kfcc/shiroko-square.jpg"
-    />
-    <meta property="og:description" content="MG새마을금고 금리 조회" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="icon" href="/shiroko-kfcc/favicon.ico" sizes="any" />
-    <link rel="apple-touch-icon" href="icon.png" />
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://if1live.github.io/shiroko-kfcc/">
+  <meta property="og:title" content="Shiroko - MG새마을금고를 털!자">
+  <meta property="og:image" content="https://if1live.github.io/shiroko-kfcc/shiroko-square.jpg">
+  <meta property="og:description" content="MG새마을금고 금리 조회">
 
-    <link
-      async
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/semantic-ui@2/dist/semantic.min.css"
-    />
+  <link rel="icon" href="/shiroko-kfcc/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="icon.png">
 
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-B2W58Y4ZM2"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2/dist/semantic.min.css">
 
-      gtag("config", "G-B2W58Y4ZM2");
-    </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B2W58Y4ZM2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-    <!-- google adsense -->
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3043297488880636"
-      crossorigin="anonymous"
-    ></script>
-    <script type="module" crossorigin src="/shiroko-kfcc/assets/index-12be0655.js"></script>
-    <link rel="stylesheet" href="/shiroko-kfcc/assets/index-a4103434.css">
-  </head>
+    gtag("config", "G-B2W58Y4ZM2");
+  </script>
 
-  <body>
-    <!-- Following Menu -->
-    <div class="ui large top fixed hidden menu">
-      <div class="ui container">
-        <a class="item active">Shiroko</a>
-        <a class="item button-rateA" data-label="MG더뱅킹정기예금">정기예금</a>
-        <a class="item button-rateB" data-label="MG더뱅킹정기적금">정기적금</a>
-        <a class="item button-rateC" data-label="MG더뱅킹자유적금">자유적금</a>
-        <a
-          class="item"
-          href="https://github.com/if1live/shiroko-kfcc/blob/interest-rate/summary/report_euckr.csv"
-          target="_blank"
-        >
-          금고
-        </a>
-      </div>
-    </div>
+  <!-- google adsense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3043297488880636"
+    crossorigin="anonymous"></script>
+  <script type="module" crossorigin src="/shiroko-kfcc/assets/index-12be0655.js"></script>
+  <link rel="stylesheet" href="/shiroko-kfcc/assets/index-a4103434.css">
+</head>
 
-    <div id="app" class="ui container">
-      <h1 class="ui header">
-        <img class="ui image" src="/shiroko-kfcc/shiroko-square.jpg" />
-        <div class="content">MG새마을금고 금리</div>
-      </h1>
-
-      <h2 class="ui header" id="header-name">MG더뱅킹어쩌고이름</h2>
-
-      <p>
-        우대 금리가 적용되지 않은 기본값입니다.
-        <a href="https://www.kfcc.co.kr/map/main.do">금고위치안내</a>에서 조회한
-        결과와 MG더뱅킹 앱에서 보이는 것은 다를 수 있습니다. 직장금고는 해당
-        직장소속 임직원만 이용이 가능하며 일반회원은 이용 할 수 없습니다.
-      </p>
-
-      <!-- shiroko-수평-A -->
-      <ins
-        class="adsbygoogle"
-        style="display: block"
-        data-ad-client="ca-pub-3043297488880636"
-        data-ad-slot="6500749618"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
-
-      <div id="wrapper"></div>
-
-      <!-- shiroko-수평-B -->
-      <ins
-        class="adsbygoogle"
-        style="display: block"
-        data-ad-client="ca-pub-3043297488880636"
-        data-ad-slot="1533958427"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
-    </div>
-
+<body>
+  <!-- Following Menu -->
+  <div class="ui large top fixed hidden menu">
     <div class="ui container">
-      <footer>
-        <a href="https://github.com/if1live/shiroko-kfcc">github</a>
-        |
-        <a href="https://twitter.com/if1live">twitter</a>
-        |
-        <a href="https://github.com/if1live/shiroko-kfcc/tree/interest-rate">
-          data
-        </a>
-      </footer>
+      <a class="item active">Shiroko</a>
+      <a class="item button-rateA" data-label="MG더뱅킹정기예금">정기예금</a>
+      <a class="item button-rateB" data-label="MG더뱅킹정기적금">정기적금</a>
+      <a class="item button-rateC" data-label="MG더뱅킹자유적금">자유적금</a>
+      <a class="item" href="https://github.com/if1live/shiroko-kfcc/blob/interest-rate/summary/report_euckr.csv"
+        target="_blank">
+        금고
+      </a>
     </div>
+  </div>
 
-    <script>
-      // How do you use multiple adsense units on one page?
-      // https://stackoverflow.com/a/25096254/3553314
-      [].forEach.call(document.querySelectorAll(".adsbygoogle"), function () {
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      });
-    </script>
+  <div id="app" class="ui container">
+    <h1 class="ui header">
+      <img class="ui image" alt="shiroko" src="/shiroko-kfcc/shiroko-square.jpg">
+      <span class="content">MG새마을금고 금리</span>
+    </h1>
 
-    
-  </body>
+    <h2 class="ui header" id="header-name">MG더뱅킹어쩌고이름</h2>
+
+    <p>
+      우대 금리가 적용되지 않은 기본값입니다.
+      <a href="https://www.kfcc.co.kr/map/main.do">금고위치안내</a>에서 조회한
+      결과와 MG더뱅킹 앱에서 보이는 것은 다를 수 있습니다. 직장금고는 해당
+      직장소속 임직원만 이용이 가능하며 일반회원은 이용 할 수 없습니다.
+    </p>
+
+    <!-- shiroko-수평-A -->
+    <ins class="adsbygoogle" style="display: block" data-ad-client="ca-pub-3043297488880636" data-ad-slot="6500749618"
+      data-ad-format="auto" data-full-width-responsive="true"></ins>
+
+    <div id="wrapper"></div>
+
+    <!-- shiroko-수평-B -->
+    <ins class="adsbygoogle" style="display: block" data-ad-client="ca-pub-3043297488880636" data-ad-slot="1533958427"
+      data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </div>
+
+  <div class="ui container">
+    <footer>
+      <a href="https://github.com/if1live/shiroko-kfcc">github</a>
+      |
+      <a href="https://twitter.com/if1live">twitter</a>
+      |
+      <a href="https://github.com/if1live/shiroko-kfcc/tree/interest-rate">
+        data
+      </a>
+    </footer>
+  </div>
+
+  <script>
+    // How do you use multiple adsense units on one page?
+    // https://stackoverflow.com/a/25096254/3553314
+    [].forEach.call(document.querySelectorAll(".adsbygoogle"), function () {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    });
+  </script>
+
+  
+</body>
+
 </html>
