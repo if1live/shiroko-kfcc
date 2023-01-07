@@ -96,3 +96,17 @@ jobs:
           commit_message: 'deploy: ${{ env.current_datetime }}'
           publish_branch: interest-rate
           publish_dir: ./output
+
+      # 데이터 갱신된 날짜를 index.html에도 반영하고 싶다
+      - name: frontend
+        run: |
+          (cd ./packages/frontend && pnpm build)
+          bash ./scripts/replace_datetime.sh
+
+      - name: Deploy frontend
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./packages/frontend/dist/
