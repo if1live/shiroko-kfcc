@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build --base=/shiroko-kfcc/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "echo TODO: test"
   },
   "dependencies": {
     "gridjs": "^5.1.0"

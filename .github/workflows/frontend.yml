@@ -1,24 +1,20 @@
-name: schedule
+name: frontend
 
 on:
-  schedule:
-    # KST 00:00 에 날짜 바뀔떄는 은행 점검 중이라서 제대로 작동하지 않는다.
-    # 적당히 다음날 아침에 보면 새로운 금리가 반영되어있는걸 원한다
-    # https://support.toss.im/faq/129?from=5&page=1 은행 점검시간 적당히 피해서 설정
-    # UTC 16:00 = KST 01:00
-    # https://crontab.guru/
-    - cron: '0 16 * * *'
-    # - cron: '*/10 * * * *'
+  workflow_call:
 
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+  workflow_run:
+    workflows: [schedule, ci]
+    types: [completed]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write
+        contents: write
 
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
@@ -60,23 +56,6 @@ jobs:
           git config --local user.name '${{github.actor}}'
           git config --local user.email 'github-action-${{github.actor}}@users.noreply.github.com'
 
-      - name: check
-        working-directory: packages/cli
-        run: pnpm build
-
-      - name: worker
-        working-directory: packages/cli
-        run: |
-          pnpm cli -- region:fetch
-          pnpm cli -- region:parse
-          pnpm cli -- rate:fetch
-          pnpm cli -- rate:parse
-          pnpm cli -- report:write
-
-      - name: preapre
-        run: |
-          bash ./scripts/prepare_snapshot.sh
-
       # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#environment-files
       - name: date
         run: |
@@ -84,15 +63,17 @@ jobs:
           current_datetime=$(date --rfc-email)
           echo "current_datetime=${current_datetime}" >> $GITHUB_ENV
 
-      # https://github.com/peaceiris/actions-gh-pages
+      # 데이터 갱신된 날짜를 index.html에도 반영하고 싶다
+      - name: build
+        run: |
+          (cd ./packages/frontend && pnpm build)
+          bash ./scripts/replace_datetime.sh
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        # If you're changing the branch from main,
-        # also change the `main` in `refs/heads/main`
-        # below accordingly.
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           commit_message: 'deploy: ${{ env.current_datetime }}'
-          publish_branch: interest-rate
-          publish_dir: ./output
+          publish_branch: gh-pages
+          publish_dir: ./packages/frontend/dist/
