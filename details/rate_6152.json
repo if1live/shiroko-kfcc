@@ -7,7 +7,7 @@
     "r2": "창원시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/08",
+    "baseDate": "2023/01/09",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -68,7 +68,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/08",
+    "baseDate": "2023/01/09",
     "products": [
       {
         "title": "정기적금",
@@ -78,6 +78,10 @@
           {"duration": 24, "rate": "5.00"},
           {"duration": 36, "rate": "5.00"}
         ]
+      },
+      {
+        "title": "정기적금 (특별한시판매)",
+        "entries": [{"duration": 10, "rate": "5.70"}]
       },
       {
         "title": "MG New정기적금",
@@ -140,5 +144,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/08"
+  "baseDate": "2023/01/09"
 }

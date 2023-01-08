@@ -7,7 +7,7 @@
     "r2": "남구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/08",
+    "baseDate": "2023/01/09",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -15,7 +15,7 @@
           {"duration": 1, "rate": "2.10"},
           {"duration": 3, "rate": "2.40"},
           {"duration": 6, "rate": "2.80"},
-          {"duration": 12, "rate": "4.80"}
+          {"duration": 12, "rate": "5.30"}
         ]
       },
       {
@@ -35,7 +35,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/08",
+    "baseDate": "2023/01/09",
     "products": [
       {
         "title": "정기적금",
@@ -50,9 +50,9 @@
         "entries": [
           {"duration": 1, "rate": "0.10"},
           {"duration": 6, "rate": "0.10"},
-          {"duration": 12, "rate": "3.80"},
-          {"duration": 24, "rate": "3.80"},
-          {"duration": 36, "rate": "3.80"}
+          {"duration": 12, "rate": "5.30"},
+          {"duration": 24, "rate": "5.30"},
+          {"duration": 36, "rate": "5.30"}
         ]
       },
       {
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/08"
+  "baseDate": "2023/01/09"
 }

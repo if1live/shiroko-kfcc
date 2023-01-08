@@ -7,18 +7,18 @@
     "r2": "남구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/08",
+    "baseDate": "2023/01/09",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 1, "rate": "3.00"},
           {"duration": 2, "rate": "3.00"},
-          {"duration": 3, "rate": "5.00"},
-          {"duration": 6, "rate": "5.50"},
-          {"duration": 7, "rate": "5.50"},
-          {"duration": 12, "rate": "5.70"},
-          {"duration": 15, "rate": "4.80"},
+          {"duration": 3, "rate": "4.80"},
+          {"duration": 6, "rate": "5.20"},
+          {"duration": 7, "rate": "5.20"},
+          {"duration": 12, "rate": "5.50"},
+          {"duration": 15, "rate": "5.50"},
           {"duration": 24, "rate": "4.50"},
           {"duration": 36, "rate": "3.50"}
         ]
@@ -27,9 +27,9 @@
         "title": "Block예금",
         "entries": [
           {"duration": 0, "rate": "3.00"},
-          {"duration": 3, "rate": "5.00"},
-          {"duration": 6, "rate": "5.50"},
-          {"duration": 12, "rate": "5.70"},
+          {"duration": 3, "rate": "4.80"},
+          {"duration": 6, "rate": "5.20"},
+          {"duration": 12, "rate": "5.50"},
           {"duration": 24, "rate": "4.50"},
           {"duration": 36, "rate": "3.50"}
         ]
@@ -38,10 +38,10 @@
         "title": "자유자재정기예금Ⅱ",
         "entries": [
           {"duration": 1, "rate": "3.00"},
-          {"duration": 3, "rate": "5.00"},
-          {"duration": 6, "rate": "5.50"},
-          {"duration": 9, "rate": "5.50"},
-          {"duration": 12, "rate": "5.70"},
+          {"duration": 3, "rate": "4.80"},
+          {"duration": 6, "rate": "5.20"},
+          {"duration": 9, "rate": "5.20"},
+          {"duration": 12, "rate": "5.50"},
           {"duration": 18, "rate": "4.80"},
           {"duration": 24, "rate": "4.50"},
           {"duration": 30, "rate": "4.50"},
@@ -57,16 +57,16 @@
         "entries": [
           {"duration": 1, "rate": "3.00"},
           {"duration": 2, "rate": "3.00"},
-          {"duration": 3, "rate": "5.00"},
-          {"duration": 4, "rate": "5.00"},
-          {"duration": 5, "rate": "5.00"},
+          {"duration": 3, "rate": "4.80"},
+          {"duration": 4, "rate": "4.80"},
+          {"duration": 5, "rate": "4.80"},
           {"duration": 6, "rate": "5.20"},
           {"duration": 7, "rate": "5.20"},
           {"duration": 8, "rate": "5.20"},
           {"duration": 9, "rate": "5.20"},
           {"duration": 10, "rate": "5.20"},
           {"duration": 11, "rate": "5.20"},
-          {"duration": 12, "rate": "5.70"}
+          {"duration": 12, "rate": "5.50"}
         ]
       },
       {
@@ -76,7 +76,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/08",
+    "baseDate": "2023/01/09",
     "products": [
       {
         "title": "정기적금",
@@ -143,5 +143,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/08"
+  "baseDate": "2023/01/09"
 }

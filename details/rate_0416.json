@@ -7,7 +7,7 @@
     "r2": "서대문구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/08",
+    "baseDate": "2023/01/09",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -23,22 +23,22 @@
           {"duration": 9, "rate": "4.80"},
           {"duration": 10, "rate": "4.80"},
           {"duration": 11, "rate": "4.80"},
-          {"duration": 12, "rate": "5.10"},
-          {"duration": 13, "rate": "5.20"},
-          {"duration": 15, "rate": "5.30"},
-          {"duration": 24, "rate": "4.80"},
-          {"duration": 36, "rate": "4.60"}
+          {"duration": 12, "rate": "4.90"},
+          {"duration": 13, "rate": "5.00"},
+          {"duration": 15, "rate": "5.10"},
+          {"duration": 24, "rate": "4.60"},
+          {"duration": 36, "rate": "4.40"}
         ]
       },
       {
         "title": "Block예금",
         "entries": [
-          {"duration": 0, "rate": "0.10"},
-          {"duration": 3, "rate": "1.00"},
-          {"duration": 6, "rate": "1.00"},
-          {"duration": 12, "rate": "5.20"},
-          {"duration": 24, "rate": "4.90"},
-          {"duration": 36, "rate": "4.70"}
+          {"duration": 0, "rate": "0.01"},
+          {"duration": 3, "rate": "4.50"},
+          {"duration": 6, "rate": "4.80"},
+          {"duration": 12, "rate": "5.05"},
+          {"duration": 24, "rate": "4.80"},
+          {"duration": 36, "rate": "4.60"}
         ]
       },
       {
@@ -48,11 +48,11 @@
           {"duration": 3, "rate": "4.20"},
           {"duration": 6, "rate": "4.50"},
           {"duration": 9, "rate": "4.50"},
-          {"duration": 12, "rate": "4.95"},
-          {"duration": 18, "rate": "4.80"},
-          {"duration": 24, "rate": "4.80"},
+          {"duration": 12, "rate": "4.75"},
+          {"duration": 18, "rate": "4.75"},
+          {"duration": 24, "rate": "4.60"},
           {"duration": 30, "rate": "4.60"},
-          {"duration": 36, "rate": "4.60"}
+          {"duration": 36, "rate": "4.40"}
         ]
       },
       {
@@ -69,32 +69,32 @@
           {"duration": 9, "rate": "4.80"},
           {"duration": 10, "rate": "4.80"},
           {"duration": 11, "rate": "4.80"},
-          {"duration": 12, "rate": "5.30"}
+          {"duration": 12, "rate": "5.10"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "5.25"}]
+        "entries": [{"duration": 12, "rate": "5.05"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/08",
+    "baseDate": "2023/01/09",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "4.50"},
-          {"duration": 12, "rate": "5.00"},
-          {"duration": 24, "rate": "4.80"},
+          {"duration": 12, "rate": "4.80"},
+          {"duration": 24, "rate": "4.60"},
           {"duration": 36, "rate": "4.60"}
         ]
       },
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.50"},
-          {"duration": 24, "rate": "4.30"},
+          {"duration": 12, "rate": "4.30"},
+          {"duration": 24, "rate": "4.10"},
           {"duration": 36, "rate": "4.10"}
         ]
       },
@@ -103,18 +103,18 @@
         "entries": [
           {"duration": 1, "rate": "1.10"},
           {"duration": 6, "rate": "4.50"},
-          {"duration": 12, "rate": "5.00"},
-          {"duration": 24, "rate": "4.80"},
-          {"duration": 36, "rate": "4.80"}
+          {"duration": 12, "rate": "4.70"},
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 36, "rate": "4.50"}
         ]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "4.70"}]
+        "entries": [{"duration": 12, "rate": "4.40"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "4.60"}]
+        "entries": [{"duration": 12, "rate": "4.40"}]
       },
       {
         "title": "꿈모아상호부금",
@@ -127,5 +127,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/08"
+  "baseDate": "2023/01/09"
 }

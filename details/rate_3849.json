@@ -7,14 +7,14 @@
     "r2": "용인시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/08",
+    "baseDate": "2023/01/09",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 1, "rate": "0.50"},
           {"duration": 3, "rate": "2.30"},
-          {"duration": 6, "rate": "5.30"},
+          {"duration": 6, "rate": "4.80"},
           {"duration": 12, "rate": "5.00"},
           {"duration": 24, "rate": "4.10"},
           {"duration": 36, "rate": "4.10"}
@@ -34,12 +34,12 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "0.00"},
-          {"duration": 6, "rate": "4.60"},
-          {"duration": 9, "rate": "4.60"},
+          {"duration": 1, "rate": "0.50"},
+          {"duration": 3, "rate": "2.30"},
+          {"duration": 6, "rate": "4.80"},
+          {"duration": 9, "rate": "4.80"},
           {"duration": 12, "rate": "5.00"},
-          {"duration": 18, "rate": "5.00"},
+          {"duration": 18, "rate": "4.10"},
           {"duration": 24, "rate": "4.10"},
           {"duration": 30, "rate": "4.10"},
           {"duration": 36, "rate": "4.10"}
@@ -57,12 +57,12 @@
           {"duration": 3, "rate": "2.30"},
           {"duration": 4, "rate": "2.30"},
           {"duration": 5, "rate": "2.30"},
-          {"duration": 6, "rate": "4.60"},
-          {"duration": 7, "rate": "4.60"},
-          {"duration": 8, "rate": "4.60"},
-          {"duration": 9, "rate": "4.60"},
-          {"duration": 10, "rate": "4.60"},
-          {"duration": 11, "rate": "4.60"},
+          {"duration": 6, "rate": "4.80"},
+          {"duration": 7, "rate": "4.80"},
+          {"duration": 8, "rate": "4.80"},
+          {"duration": 9, "rate": "4.80"},
+          {"duration": 10, "rate": "4.80"},
+          {"duration": 11, "rate": "4.80"},
           {"duration": 12, "rate": "5.00"}
         ]
       },
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/08",
+    "baseDate": "2023/01/09",
     "products": [
       {
         "title": "정기적금",
@@ -131,5 +131,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/08"
+  "baseDate": "2023/01/09"
 }

@@ -7,7 +7,7 @@
     "r2": "서구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/08",
+    "baseDate": "2023/01/09",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -23,6 +23,14 @@
         ]
       },
       {
+        "title": "정기예탁금<만기(회전주기)지급식> (특별한시판매)",
+        "entries": [
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 6, "rate": "5.20"},
+          {"duration": 12, "rate": "6.00"}
+        ]
+      },
+      {
         "title": "Block예금",
         "entries": [
           {"duration": 0, "rate": "0.60"},
@@ -35,7 +43,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.69"}]
+        "entries": [{"duration": 12, "rate": "5.80"}]
       },
       {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
@@ -57,7 +65,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/08",
+    "baseDate": "2023/01/09",
     "products": [
       {
         "title": "정기적금",
@@ -96,5 +104,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/08"
+  "baseDate": "2023/01/09"
 }
