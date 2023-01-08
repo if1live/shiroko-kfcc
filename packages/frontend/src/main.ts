@@ -104,7 +104,7 @@ function initializeGrid(entries: CompactEntry[]) {
       { id: "location", name: "지역", sort: false, formatter: formatLocation },
       {
         id: "rate",
-        name: "금리 (1년)",
+        name: "12개월",
         formatter: formatRate,
         width: "20%",
       },
@@ -128,7 +128,10 @@ function initializeGrid(entries: CompactEntry[]) {
     },
     style: {
       td: {
-        padding: "5px 24px",
+        padding: "5px 15px",
+      },
+      footer: {
+        padding: "5px 4px",
       },
     },
   });
