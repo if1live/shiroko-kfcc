@@ -7,22 +7,22 @@
     "r2": "광진구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/09",
+    "baseDate": "2023/01/10",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 1, "rate": "2.20"},
-          {"duration": 3, "rate": "3.80"},
+          {"duration": 3, "rate": "3.50"},
           {"duration": 5, "rate": "4.50"},
           {"duration": 6, "rate": "4.80"},
           {"duration": 12, "rate": "5.30"},
-          {"duration": 13, "rate": "5.60"},
+          {"duration": 13, "rate": "5.40"},
           {"duration": 14, "rate": "4.80"},
           {"duration": 24, "rate": "4.70"},
-          {"duration": 36, "rate": "4.50"},
-          {"duration": 48, "rate": "4.50"},
-          {"duration": 60, "rate": "4.50"}
+          {"duration": 36, "rate": "4.20"},
+          {"duration": 48, "rate": "4.20"},
+          {"duration": 60, "rate": "4.20"}
         ]
       },
       {
@@ -63,7 +63,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/09",
+    "baseDate": "2023/01/10",
     "products": [
       {
         "title": "정기적금",
@@ -88,7 +88,7 @@
           {"duration": 1, "rate": "1.70"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.70"},
-          {"duration": 12, "rate": "5.80"},
+          {"duration": 12, "rate": "5.50"},
           {"duration": 13, "rate": "3.70"},
           {"duration": 24, "rate": "3.70"},
           {"duration": 36, "rate": "3.70"}
@@ -108,5 +108,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/09"
+  "baseDate": "2023/01/10"
 }

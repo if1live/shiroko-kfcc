@@ -7,7 +7,7 @@
     "r2": "광양시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/09",
+    "baseDate": "2023/01/10",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -18,15 +18,6 @@
           {"duration": 12, "rate": "5.20"},
           {"duration": 24, "rate": "5.10"},
           {"duration": 36, "rate": "4.95"}
-        ]
-      },
-      {
-        "title": "정기예탁금<만기(회전주기)지급식> (특별한시판매)",
-        "entries": [
-          {"duration": 3, "rate": "0.00"},
-          {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "0.00"},
-          {"duration": 24, "rate": "5.51"}
         ]
       },
       {
@@ -53,7 +44,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/09",
+    "baseDate": "2023/01/10",
     "products": [
       {
         "title": "정기적금",
@@ -116,5 +107,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/09"
+  "baseDate": "2023/01/10"
 }
