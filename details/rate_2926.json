@@ -7,7 +7,7 @@
     "r2": "영암군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/10",
+    "baseDate": "2023/01/11",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -57,7 +57,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/10",
+    "baseDate": "2023/01/11",
     "products": [
       {
         "title": "정기적금",
@@ -65,7 +65,8 @@
           {"duration": 6, "rate": "1.20"},
           {"duration": 12, "rate": "5.00"},
           {"duration": 24, "rate": "5.00"},
-          {"duration": 36, "rate": "5.00"}
+          {"duration": 36, "rate": "5.00"},
+          {"duration": 37, "rate": "4.50"}
         ]
       },
       {
@@ -93,5 +94,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/10"
+  "baseDate": "2023/01/11"
 }
