@@ -7,17 +7,17 @@
     "r2": "송파구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/11",
+    "baseDate": "2023/01/12",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 1, "rate": "2.00"},
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "4.50"},
+          {"duration": 6, "rate": "3.50"},
           {"duration": 12, "rate": "5.10"},
-          {"duration": 24, "rate": "5.20"},
-          {"duration": 36, "rate": "5.20"}
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 36, "rate": "4.50"}
         ]
       },
       {
@@ -25,10 +25,10 @@
         "entries": [
           {"duration": 0, "rate": "2.00"},
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "4.50"},
+          {"duration": 6, "rate": "3.50"},
           {"duration": 12, "rate": "5.10"},
-          {"duration": 24, "rate": "5.20"},
-          {"duration": 36, "rate": "5.20"}
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 36, "rate": "4.50"}
         ]
       },
       {
@@ -36,13 +36,13 @@
         "entries": [
           {"duration": 1, "rate": "2.00"},
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "4.50"},
-          {"duration": 9, "rate": "4.50"},
+          {"duration": 6, "rate": "3.50"},
+          {"duration": 9, "rate": "3.50"},
           {"duration": 12, "rate": "5.10"},
           {"duration": 18, "rate": "5.10"},
-          {"duration": 24, "rate": "5.20"},
-          {"duration": 30, "rate": "5.20"},
-          {"duration": 36, "rate": "5.20"}
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 30, "rate": "4.50"},
+          {"duration": 36, "rate": "4.50"}
         ]
       },
       {
@@ -57,19 +57,19 @@
           {"duration": 3, "rate": "3.00"},
           {"duration": 4, "rate": "3.00"},
           {"duration": 5, "rate": "3.00"},
-          {"duration": 6, "rate": "4.50"},
-          {"duration": 7, "rate": "4.50"},
-          {"duration": 8, "rate": "4.50"},
-          {"duration": 9, "rate": "4.50"},
-          {"duration": 10, "rate": "4.50"},
-          {"duration": 11, "rate": "4.50"},
+          {"duration": 6, "rate": "3.50"},
+          {"duration": 7, "rate": "3.50"},
+          {"duration": 8, "rate": "3.50"},
+          {"duration": 9, "rate": "3.50"},
+          {"duration": 10, "rate": "3.50"},
+          {"duration": 11, "rate": "3.50"},
           {"duration": 12, "rate": "5.10"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/11",
+    "baseDate": "2023/01/12",
     "products": [
       {
         "title": "정기적금",
@@ -132,5 +132,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/11"
+  "baseDate": "2023/01/12"
 }
