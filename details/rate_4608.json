@@ -7,7 +7,7 @@
     "r2": "청주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/12",
+    "baseDate": "2023/01/13",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -48,7 +48,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.50"}]
+        "entries": [{"duration": 12, "rate": "5.00"}]
       },
       {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
@@ -70,25 +70,27 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/12",
+    "baseDate": "2023/01/13",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "3.00"},
           {"duration": 12, "rate": "5.60"},
-          {"duration": 24, "rate": "5.70"},
-          {"duration": 36, "rate": "5.80"},
-          {"duration": 48, "rate": "5.80"},
-          {"duration": 60, "rate": "5.80"}
+          {"duration": 13, "rate": "4.50"},
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 36, "rate": "4.50"},
+          {"duration": 48, "rate": "4.50"},
+          {"duration": 60, "rate": "4.50"}
         ]
       },
       {
         "title": "MG New정기적금",
         "entries": [
           {"duration": 12, "rate": "5.60"},
-          {"duration": 24, "rate": "5.70"},
-          {"duration": 36, "rate": "5.80"}
+          {"duration": 13, "rate": "4.50"},
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 36, "rate": "4.50"}
         ]
       },
       {
@@ -133,11 +135,12 @@
         "entries": [
           {"duration": 6, "rate": "3.00"},
           {"duration": 12, "rate": "5.60"},
-          {"duration": 24, "rate": "5.70"},
-          {"duration": 36, "rate": "5.80"}
+          {"duration": 13, "rate": "4.50"},
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 36, "rate": "4.50"}
         ]
       }
     ]
   },
-  "baseDate": "2023/01/12"
+  "baseDate": "2023/01/13"
 }

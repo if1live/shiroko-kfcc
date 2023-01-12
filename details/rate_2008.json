@@ -7,7 +7,7 @@
     "r2": "남구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/12",
+    "baseDate": "2023/01/13",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -67,7 +67,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/12",
+    "baseDate": "2023/01/13",
     "products": [
       {
         "title": "정기적금",
@@ -124,5 +124,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/12"
+  "baseDate": "2023/01/13"
 }

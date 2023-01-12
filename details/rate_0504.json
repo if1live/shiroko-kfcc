@@ -7,7 +7,7 @@
     "r2": "동대문구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/12",
+    "baseDate": "2023/01/13",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -39,15 +39,15 @@
           {"duration": 6, "rate": "4.00"},
           {"duration": 9, "rate": "4.00"},
           {"duration": 12, "rate": "5.40"},
-          {"duration": 18, "rate": "5.40"},
-          {"duration": 24, "rate": "5.40"},
-          {"duration": 30, "rate": "5.40"},
-          {"duration": 36, "rate": "5.40"}
+          {"duration": 18, "rate": "4.00"},
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 30, "rate": "4.00"},
+          {"duration": 36, "rate": "4.00"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.50"}]
+        "entries": [{"duration": 12, "rate": "5.00"}]
       },
       {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/12",
+    "baseDate": "2023/01/13",
     "products": [
       {
         "title": "정기적금",
@@ -131,5 +131,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/12"
+  "baseDate": "2023/01/13"
 }
