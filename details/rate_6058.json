@@ -7,7 +7,7 @@
     "r2": "창원시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/15",
+    "baseDate": "2023/01/16",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -15,7 +15,7 @@
           {"duration": 1, "rate": "0.00"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "5.10"},
+          {"duration": 12, "rate": "4.80"},
           {"duration": 13, "rate": "4.20"},
           {"duration": 24, "rate": "4.20"},
           {"duration": 37, "rate": "0.00"}
@@ -39,7 +39,7 @@
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "3.00"},
           {"duration": 9, "rate": "3.00"},
-          {"duration": 12, "rate": "5.00"},
+          {"duration": 12, "rate": "4.80"},
           {"duration": 18, "rate": "4.20"},
           {"duration": 24, "rate": "4.20"},
           {"duration": 30, "rate": "4.20"},
@@ -64,23 +64,23 @@
           {"duration": 9, "rate": "3.00"},
           {"duration": 10, "rate": "3.00"},
           {"duration": 11, "rate": "3.00"},
-          {"duration": 12, "rate": "5.10"}
+          {"duration": 12, "rate": "4.80"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "4.20"}]
+        "entries": [{"duration": 12, "rate": "4.80"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/15",
+    "baseDate": "2023/01/16",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "5.10"},
+          {"duration": 12, "rate": "4.80"},
           {"duration": 13, "rate": "4.20"},
           {"duration": 24, "rate": "4.20"},
           {"duration": 36, "rate": "4.20"},
@@ -110,7 +110,7 @@
         "entries": [
           {"duration": 1, "rate": "0.00"},
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "5.00"},
+          {"duration": 12, "rate": "4.70"},
           {"duration": 13, "rate": "4.10"},
           {"duration": 24, "rate": "4.10"},
           {"duration": 36, "rate": "4.10"}
@@ -118,7 +118,7 @@
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "4.10"}]
+        "entries": [{"duration": 12, "rate": "4.70"}]
       },
       {
         "title": "MG더뱅킹자유적금",
@@ -147,5 +147,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/15"
+  "baseDate": "2023/01/16"
 }

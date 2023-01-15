@@ -7,27 +7,27 @@
     "r2": "김천시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/15",
+    "baseDate": "2023/01/16",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
-          {"duration": 1, "rate": "0.80"},
-          {"duration": 3, "rate": "1.00"},
-          {"duration": 6, "rate": "1.20"},
-          {"duration": 12, "rate": "5.00"},
-          {"duration": 24, "rate": "3.50"},
-          {"duration": 36, "rate": "3.00"}
+          {"duration": 1, "rate": "2.50"},
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 6, "rate": "3.80"},
+          {"duration": 12, "rate": "4.80"},
+          {"duration": 24, "rate": "3.90"},
+          {"duration": 36, "rate": "4.00"}
         ]
       },
       {
         "title": "Block예금",
         "entries": [
-          {"duration": 0, "rate": "0.10"},
-          {"duration": 3, "rate": "0.10"},
-          {"duration": 6, "rate": "0.10"},
-          {"duration": 12, "rate": "5.50"},
-          {"duration": 24, "rate": "4.50"},
+          {"duration": 0, "rate": "1.00"},
+          {"duration": 3, "rate": "1.20"},
+          {"duration": 6, "rate": "1.60"},
+          {"duration": 12, "rate": "5.60"},
+          {"duration": 24, "rate": "3.90"},
           {"duration": 36, "rate": "4.00"}
         ]
       },
@@ -45,7 +45,7 @@
           {"duration": 9, "rate": "0.90"},
           {"duration": 10, "rate": "0.90"},
           {"duration": 11, "rate": "0.90"},
-          {"duration": 12, "rate": "4.89"}
+          {"duration": 12, "rate": "4.70"}
         ]
       },
       {
@@ -55,15 +55,15 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/15",
+    "baseDate": "2023/01/16",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "5.00"},
-          {"duration": 24, "rate": "4.00"},
-          {"duration": 36, "rate": "4.00"}
+          {"duration": 12, "rate": "4.80"},
+          {"duration": 24, "rate": "4.90"},
+          {"duration": 36, "rate": "5.00"}
         ]
       },
       {
@@ -71,10 +71,10 @@
         "entries": [
           {"duration": 1, "rate": "0.70"},
           {"duration": 3, "rate": "0.80"},
-          {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "3.50"},
+          {"duration": 6, "rate": "1.70"},
+          {"duration": 12, "rate": "3.40"},
           {"duration": 24, "rate": "3.50"},
-          {"duration": 36, "rate": "3.50"}
+          {"duration": 36, "rate": "3.60"}
         ]
       },
       {
@@ -91,5 +91,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/15"
+  "baseDate": "2023/01/16"
 }
