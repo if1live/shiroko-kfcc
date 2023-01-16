@@ -7,20 +7,20 @@
     "r2": "전주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/16",
+    "baseDate": "2023/01/17",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 1, "rate": "0.40"},
           {"duration": 3, "rate": "1.10"},
-          {"duration": 4, "rate": "5.50"},
-          {"duration": 6, "rate": "5.50"},
-          {"duration": 9, "rate": "5.50"},
+          {"duration": 4, "rate": "5.30"},
+          {"duration": 6, "rate": "5.30"},
+          {"duration": 9, "rate": "5.30"},
           {"duration": 10, "rate": "5.00"},
-          {"duration": 12, "rate": "5.30"},
+          {"duration": 12, "rate": "5.10"},
           {"duration": 13, "rate": "2.50"},
-          {"duration": 15, "rate": "5.00"},
+          {"duration": 15, "rate": "4.80"},
           {"duration": 19, "rate": "2.50"},
           {"duration": 24, "rate": "2.80"},
           {"duration": 36, "rate": "2.50"}
@@ -53,7 +53,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.50"}]
+        "entries": [{"duration": 12, "rate": "5.30"}]
       },
       {
         "title": "MG주거래우대정기예금",
@@ -62,7 +62,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/16",
+    "baseDate": "2023/01/17",
     "products": [
       {
         "title": "정기적금",
@@ -135,5 +135,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/16"
+  "baseDate": "2023/01/17"
 }
