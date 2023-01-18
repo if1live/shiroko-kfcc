@@ -7,7 +7,7 @@
     "r2": "시흥시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/18",
+    "baseDate": "2023/01/19",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -16,9 +16,9 @@
           {"duration": 3, "rate": "3.55"},
           {"duration": 6, "rate": "3.80"},
           {"duration": 12, "rate": "5.00"},
-          {"duration": 18, "rate": "5.00"},
-          {"duration": 24, "rate": "5.10"},
-          {"duration": 36, "rate": "5.10"}
+          {"duration": 18, "rate": "4.00"},
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
@@ -28,8 +28,8 @@
           {"duration": 3, "rate": "3.55"},
           {"duration": 6, "rate": "3.80"},
           {"duration": 12, "rate": "5.00"},
-          {"duration": 24, "rate": "5.10"},
-          {"duration": 36, "rate": "5.10"}
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
@@ -40,10 +40,10 @@
           {"duration": 6, "rate": "3.80"},
           {"duration": 9, "rate": "3.80"},
           {"duration": 12, "rate": "5.00"},
-          {"duration": 18, "rate": "5.00"},
-          {"duration": 24, "rate": "5.10"},
-          {"duration": 30, "rate": "5.10"},
-          {"duration": 36, "rate": "5.10"}
+          {"duration": 18, "rate": "4.00"},
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 30, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
@@ -70,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/18",
+    "baseDate": "2023/01/19",
     "products": [
       {
         "title": "정기적금",
@@ -100,7 +100,7 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "4.80"}]
+        "entries": [{"duration": 12, "rate": "4.60"}]
       },
       {
         "title": "일일자유적금",
@@ -116,5 +116,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/18"
+  "baseDate": "2023/01/19"
 }
