@@ -7,40 +7,40 @@
     "r2": "수원시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/19",
+    "baseDate": "2023/01/20",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 1, "rate": "0.00"},
-          {"duration": 2, "rate": "4.25"},
-          {"duration": 3, "rate": "4.30"},
-          {"duration": 6, "rate": "4.55"},
-          {"duration": 12, "rate": "4.90"},
-          {"duration": 13, "rate": "4.55"}
+          {"duration": 2, "rate": "3.75"},
+          {"duration": 3, "rate": "3.80"},
+          {"duration": 6, "rate": "4.05"},
+          {"duration": 12, "rate": "4.40"},
+          {"duration": 13, "rate": "4.05"}
         ]
       },
       {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
         "entries": [
-          {"duration": 1, "rate": "3.90"},
-          {"duration": 2, "rate": "4.25"},
-          {"duration": 3, "rate": "4.30"},
-          {"duration": 4, "rate": "4.30"},
-          {"duration": 5, "rate": "4.30"},
-          {"duration": 6, "rate": "4.55"},
-          {"duration": 7, "rate": "4.55"},
-          {"duration": 8, "rate": "4.55"},
-          {"duration": 9, "rate": "4.55"},
-          {"duration": 10, "rate": "4.55"},
-          {"duration": 11, "rate": "4.55"},
-          {"duration": 12, "rate": "4.90"}
+          {"duration": 1, "rate": "3.40"},
+          {"duration": 2, "rate": "3.75"},
+          {"duration": 3, "rate": "3.80"},
+          {"duration": 4, "rate": "3.80"},
+          {"duration": 5, "rate": "3.80"},
+          {"duration": 6, "rate": "4.05"},
+          {"duration": 7, "rate": "4.05"},
+          {"duration": 8, "rate": "4.05"},
+          {"duration": 9, "rate": "4.05"},
+          {"duration": 10, "rate": "4.05"},
+          {"duration": 11, "rate": "4.05"},
+          {"duration": 12, "rate": "4.40"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/19",
+    "baseDate": "2023/01/20",
     "products": [
       {
         "title": "정기적금",
@@ -99,5 +99,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/19"
+  "baseDate": "2023/01/20"
 }

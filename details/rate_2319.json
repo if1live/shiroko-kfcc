@@ -7,7 +7,7 @@
     "r2": "부평구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/19",
+    "baseDate": "2023/01/20",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -17,8 +17,7 @@
           {"duration": 6, "rate": "4.80"},
           {"duration": 12, "rate": "5.50"},
           {"duration": 13, "rate": "5.60"},
-          {"duration": 14, "rate": "5.50"},
-          {"duration": 23, "rate": "5.50"},
+          {"duration": 14, "rate": "5.00"},
           {"duration": 24, "rate": "5.00"},
           {"duration": 36, "rate": "5.00"}
         ]
@@ -76,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/19",
+    "baseDate": "2023/01/20",
     "products": [
       {
         "title": "정기적금",
@@ -119,6 +118,7 @@
           {"duration": 3, "rate": "4.00"},
           {"duration": 6, "rate": "4.60"},
           {"duration": 12, "rate": "5.50"},
+          {"duration": 13, "rate": "5.00"},
           {"duration": 24, "rate": "5.00"},
           {"duration": 36, "rate": "5.00"}
         ]
@@ -165,5 +165,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/19"
+  "baseDate": "2023/01/20"
 }

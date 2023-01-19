@@ -7,16 +7,14 @@
     "r2": "금천구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/19",
+    "baseDate": "2023/01/20",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 1, "rate": "1.00"},
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "5.10"},
-          {"duration": 8, "rate": "5.15"},
-          {"duration": 9, "rate": "3.50"},
+          {"duration": 6, "rate": "4.50"},
           {"duration": 12, "rate": "5.00"},
           {"duration": 24, "rate": "3.90"},
           {"duration": 36, "rate": "4.00"},
@@ -77,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/19",
+    "baseDate": "2023/01/20",
     "products": [
       {
         "title": "정기적금",
@@ -137,5 +135,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/19"
+  "baseDate": "2023/01/20"
 }
