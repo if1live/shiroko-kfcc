@@ -7,7 +7,7 @@
     "r2": "성남시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/20",
+    "baseDate": "2023/01/21",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -80,7 +80,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/20",
+    "baseDate": "2023/01/21",
     "products": [
       {
         "title": "정기적금",
@@ -173,5 +173,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/20"
+  "baseDate": "2023/01/21"
 }

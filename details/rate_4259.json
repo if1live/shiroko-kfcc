@@ -7,7 +7,7 @@
     "r2": "양양군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/20",
+    "baseDate": "2023/01/21",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -52,6 +52,28 @@
         "entries": [{"duration": 12, "rate": "5.10"}]
       },
       {
+        "title": "MG기업정기예금(A)",
+        "entries": [
+          {"duration": 1, "rate": "0.50"},
+          {"duration": 3, "rate": "4.00"},
+          {"duration": 6, "rate": "4.30"},
+          {"duration": 12, "rate": "5.10"},
+          {"duration": 18, "rate": "4.50"},
+          {"duration": 24, "rate": "4.50"}
+        ]
+      },
+      {
+        "title": "MG기업정기예금(B)",
+        "entries": [
+          {"duration": 1, "rate": "0.50"},
+          {"duration": 3, "rate": "4.00"},
+          {"duration": 6, "rate": "4.30"},
+          {"duration": 12, "rate": "5.10"},
+          {"duration": 18, "rate": "4.50"},
+          {"duration": 24, "rate": "4.50"}
+        ]
+      },
+      {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 1, "rate": "0.50"},
@@ -75,7 +97,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/20",
+    "baseDate": "2023/01/21",
     "products": [
       {
         "title": "정기적금",
@@ -167,5 +189,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/20"
+  "baseDate": "2023/01/21"
 }

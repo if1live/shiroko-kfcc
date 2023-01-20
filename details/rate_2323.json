@@ -7,7 +7,7 @@
     "r2": "부평구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/20",
+    "baseDate": "2023/01/21",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -48,7 +48,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.69"}]
+        "entries": [{"duration": 12, "rate": "5.20"}]
       },
       {
         "title": "MG기업정기예금(A)",
@@ -96,7 +96,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/20",
+    "baseDate": "2023/01/21",
     "products": [
       {
         "title": "정기적금",
@@ -126,8 +126,8 @@
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
-          {"duration": 6, "rate": "4.67"},
-          {"duration": 12, "rate": "6.22"}
+          {"duration": 6, "rate": "4.40"},
+          {"duration": 12, "rate": "5.00"}
         ]
       },
       {
@@ -157,7 +157,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "5.41"}]
+        "entries": [{"duration": 12, "rate": "4.50"}]
       },
       {
         "title": "일일자유적금",
@@ -186,5 +186,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/20"
+  "baseDate": "2023/01/21"
 }

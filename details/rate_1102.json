@@ -7,7 +7,7 @@
     "r2": "서초구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/20",
+    "baseDate": "2023/01/21",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -15,7 +15,7 @@
           {"duration": 1, "rate": "1.40"},
           {"duration": 3, "rate": "3.20"},
           {"duration": 6, "rate": "4.20"},
-          {"duration": 12, "rate": "5.20"},
+          {"duration": 12, "rate": "4.80"},
           {"duration": 24, "rate": "4.80"},
           {"duration": 36, "rate": "4.80"}
         ]
@@ -26,7 +26,7 @@
           {"duration": 0, "rate": "1.40"},
           {"duration": 3, "rate": "3.20"},
           {"duration": 6, "rate": "4.20"},
-          {"duration": 12, "rate": "5.20"},
+          {"duration": 12, "rate": "4.80"},
           {"duration": 24, "rate": "4.80"},
           {"duration": 36, "rate": "4.80"}
         ]
@@ -38,7 +38,7 @@
           {"duration": 3, "rate": "3.20"},
           {"duration": 6, "rate": "4.20"},
           {"duration": 9, "rate": "4.20"},
-          {"duration": 12, "rate": "5.20"},
+          {"duration": 12, "rate": "4.80"},
           {"duration": 18, "rate": "4.80"},
           {"duration": 24, "rate": "4.80"},
           {"duration": 30, "rate": "4.80"},
@@ -47,7 +47,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.90"}]
+        "entries": [{"duration": 12, "rate": "4.50"}]
       },
       {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
@@ -63,17 +63,17 @@
           {"duration": 9, "rate": "4.20"},
           {"duration": 10, "rate": "4.20"},
           {"duration": 11, "rate": "4.20"},
-          {"duration": 12, "rate": "5.20"}
+          {"duration": 12, "rate": "4.80"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "5.20"}]
+        "entries": [{"duration": 12, "rate": "4.80"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/20",
+    "baseDate": "2023/01/21",
     "products": [
       {
         "title": "정기적금",
@@ -120,5 +120,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/20"
+  "baseDate": "2023/01/21"
 }
