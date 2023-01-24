@@ -7,17 +7,17 @@
     "r2": "안산시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/24",
+    "baseDate": "2023/01/25",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 1, "rate": "1.00"},
-          {"duration": 3, "rate": "4.10"},
-          {"duration": 6, "rate": "4.20"},
-          {"duration": 12, "rate": "5.20"},
-          {"duration": 24, "rate": "4.50"},
-          {"duration": 36, "rate": "4.50"}
+          {"duration": 3, "rate": "4.00"},
+          {"duration": 6, "rate": "4.10"},
+          {"duration": 12, "rate": "5.00"},
+          {"duration": 24, "rate": "4.30"},
+          {"duration": 36, "rate": "4.30"}
         ]
       },
       {
@@ -73,14 +73,14 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/24",
+    "baseDate": "2023/01/25",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "5.00"},
-          {"duration": 24, "rate": "4.50"},
-          {"duration": 36, "rate": "4.50"}
+          {"duration": 12, "rate": "4.80"},
+          {"duration": 24, "rate": "4.30"},
+          {"duration": 36, "rate": "4.30"}
         ]
       },
       {
@@ -159,5 +159,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/24"
+  "baseDate": "2023/01/25"
 }
