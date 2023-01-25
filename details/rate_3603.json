@@ -7,14 +7,14 @@
     "r2": "안양시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/25",
+    "baseDate": "2023/01/26",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 3, "rate": "4.00"},
           {"duration": 6, "rate": "4.50"},
-          {"duration": 12, "rate": "5.30"},
+          {"duration": 12, "rate": "5.00"},
           {"duration": 24, "rate": "4.55"},
           {"duration": 36, "rate": "3.80"},
           {"duration": 48, "rate": "3.80"},
@@ -27,7 +27,7 @@
           {"duration": 0, "rate": "0.80"},
           {"duration": 3, "rate": "4.00"},
           {"duration": 6, "rate": "4.50"},
-          {"duration": 12, "rate": "5.30"},
+          {"duration": 12, "rate": "5.00"},
           {"duration": 24, "rate": "4.55"},
           {"duration": 36, "rate": "3.80"}
         ]
@@ -39,7 +39,7 @@
           {"duration": 3, "rate": "4.00"},
           {"duration": 6, "rate": "4.50"},
           {"duration": 9, "rate": "4.50"},
-          {"duration": 12, "rate": "5.30"},
+          {"duration": 12, "rate": "5.00"},
           {"duration": 18, "rate": "4.55"},
           {"duration": 24, "rate": "4.55"},
           {"duration": 30, "rate": "3.80"},
@@ -64,13 +64,13 @@
           {"duration": 9, "rate": "4.50"},
           {"duration": 10, "rate": "4.50"},
           {"duration": 11, "rate": "4.50"},
-          {"duration": 12, "rate": "5.30"}
+          {"duration": 12, "rate": "5.00"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/25",
+    "baseDate": "2023/01/26",
     "products": [
       {
         "title": "정기적금",
@@ -157,5 +157,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/25"
+  "baseDate": "2023/01/26"
 }

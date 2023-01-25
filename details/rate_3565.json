@@ -7,7 +7,7 @@
     "r2": "성남시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/25",
+    "baseDate": "2023/01/26",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -17,7 +17,7 @@
           {"duration": 6, "rate": "5.50"},
           {"duration": 7, "rate": "5.50"},
           {"duration": 8, "rate": "5.35"},
-          {"duration": 12, "rate": "5.30"},
+          {"duration": 12, "rate": "5.00"},
           {"duration": 13, "rate": "4.00"},
           {"duration": 24, "rate": "4.00"},
           {"duration": 36, "rate": "4.00"}
@@ -66,7 +66,7 @@
           {"duration": 9, "rate": "5.35"},
           {"duration": 10, "rate": "5.35"},
           {"duration": 11, "rate": "5.35"},
-          {"duration": 12, "rate": "5.30"}
+          {"duration": 12, "rate": "5.00"}
         ]
       },
       {
@@ -76,7 +76,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/25",
+    "baseDate": "2023/01/26",
     "products": [
       {
         "title": "정기적금",
@@ -170,5 +170,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/25"
+  "baseDate": "2023/01/26"
 }
