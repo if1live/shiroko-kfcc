@@ -7,7 +7,7 @@
     "r2": "양천구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/26",
+    "baseDate": "2023/01/27",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -55,8 +55,8 @@
         "entries": [
           {"duration": 1, "rate": "1.10"},
           {"duration": 3, "rate": "2.00"},
-          {"duration": 6, "rate": "5.00"},
-          {"duration": 12, "rate": "5.50"},
+          {"duration": 6, "rate": "4.00"},
+          {"duration": 12, "rate": "5.20"},
           {"duration": 18, "rate": "3.00"},
           {"duration": 24, "rate": "3.00"}
         ]
@@ -66,8 +66,8 @@
         "entries": [
           {"duration": 1, "rate": "1.10"},
           {"duration": 3, "rate": "2.00"},
-          {"duration": 6, "rate": "5.00"},
-          {"duration": 12, "rate": "5.50"},
+          {"duration": 6, "rate": "4.00"},
+          {"duration": 12, "rate": "5.20"},
           {"duration": 18, "rate": "3.00"},
           {"duration": 24, "rate": "3.00"}
         ]
@@ -96,7 +96,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/26",
+    "baseDate": "2023/01/27",
     "products": [
       {
         "title": "정기적금",
@@ -186,5 +186,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/26"
+  "baseDate": "2023/01/27"
 }

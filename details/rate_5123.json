@@ -7,7 +7,7 @@
     "r2": "익산시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/26",
+    "baseDate": "2023/01/27",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -45,17 +45,13 @@
         ]
       },
       {
-        "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.78"}]
-      },
-      {
         "title": "MG주거래우대정기예금",
         "entries": [{"duration": 12, "rate": "5.50"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/26",
+    "baseDate": "2023/01/27",
     "products": [
       {
         "title": "정기적금",
@@ -68,13 +64,6 @@
       {
         "title": "우리아기첫걸음정기적금",
         "entries": [{"duration": 12, "rate": "3.00"}]
-      },
-      {
-        "title": "MG더뱅킹정기적금",
-        "entries": [
-          {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "6.22"}
-        ]
       },
       {
         "title": "자유적립적금",
@@ -92,10 +81,6 @@
         "entries": [{"duration": 12, "rate": "5.50"}]
       },
       {
-        "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "5.55"}]
-      },
-      {
         "title": "꿈모아상호부금",
         "entries": [
           {"duration": 6, "rate": "0.10"},
@@ -106,5 +91,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/26"
+  "baseDate": "2023/01/27"
 }

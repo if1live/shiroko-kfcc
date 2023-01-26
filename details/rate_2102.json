@@ -7,7 +7,7 @@
     "r2": "달서구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/26",
+    "baseDate": "2023/01/27",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -16,8 +16,8 @@
           {"duration": 3, "rate": "2.80"},
           {"duration": 6, "rate": "4.80"},
           {"duration": 12, "rate": "5.30"},
-          {"duration": 24, "rate": "5.30"},
-          {"duration": 36, "rate": "5.30"}
+          {"duration": 24, "rate": "5.10"},
+          {"duration": 36, "rate": "5.00"}
         ]
       },
       {
@@ -27,8 +27,8 @@
           {"duration": 3, "rate": "2.80"},
           {"duration": 6, "rate": "4.80"},
           {"duration": 12, "rate": "5.30"},
-          {"duration": 24, "rate": "5.30"},
-          {"duration": 36, "rate": "5.30"}
+          {"duration": 24, "rate": "5.10"},
+          {"duration": 36, "rate": "5.00"}
         ]
       },
       {
@@ -47,7 +47,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.69"}]
+        "entries": [{"duration": 12, "rate": "5.30"}]
       },
       {
         "title": "MG기업정기예금(A)",
@@ -95,7 +95,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/26",
+    "baseDate": "2023/01/27",
     "products": [
       {
         "title": "정기적금",
@@ -175,5 +175,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/26"
+  "baseDate": "2023/01/27"
 }

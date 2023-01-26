@@ -7,15 +7,15 @@
     "r2": "서구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/26",
+    "baseDate": "2023/01/27",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 1, "rate": "2.00"},
-          {"duration": 3, "rate": "4.00"},
-          {"duration": 6, "rate": "5.00"},
-          {"duration": 12, "rate": "5.40"},
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 6, "rate": "4.00"},
+          {"duration": 12, "rate": "5.20"},
           {"duration": 24, "rate": "4.80"},
           {"duration": 36, "rate": "4.80"},
           {"duration": 48, "rate": "1.90"},
@@ -49,7 +49,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.50"}]
+        "entries": [{"duration": 12, "rate": "5.40"}]
       },
       {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
@@ -65,19 +65,19 @@
           {"duration": 9, "rate": "2.00"},
           {"duration": 10, "rate": "2.00"},
           {"duration": 11, "rate": "2.00"},
-          {"duration": 12, "rate": "5.40"}
+          {"duration": 12, "rate": "5.20"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/26",
+    "baseDate": "2023/01/27",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "1.30"},
-          {"duration": 12, "rate": "5.40"},
+          {"duration": 12, "rate": "5.20"},
           {"duration": 24, "rate": "5.00"},
           {"duration": 36, "rate": "4.80"},
           {"duration": 48, "rate": "2.00"},
@@ -109,7 +109,7 @@
           {"duration": 1, "rate": "0.00"},
           {"duration": 3, "rate": "0.00"},
           {"duration": 6, "rate": "1.30"},
-          {"duration": 12, "rate": "5.30"},
+          {"duration": 12, "rate": "5.20"},
           {"duration": 24, "rate": "3.20"},
           {"duration": 36, "rate": "3.20"},
           {"duration": 48, "rate": "3.20"},
@@ -150,5 +150,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/26"
+  "baseDate": "2023/01/27"
 }
