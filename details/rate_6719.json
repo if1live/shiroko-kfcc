@@ -7,7 +7,7 @@
     "r2": "제주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/27",
+    "baseDate": "2023/01/28",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -33,7 +33,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.35"}]
+        "entries": [{"duration": 12, "rate": "5.00"}]
       },
       {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
@@ -55,7 +55,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/27",
+    "baseDate": "2023/01/28",
     "products": [
       {
         "title": "정기적금",
@@ -108,5 +108,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/27"
+  "baseDate": "2023/01/28"
 }
