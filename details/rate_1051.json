@@ -7,7 +7,7 @@
     "r2": "송파구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/29",
+    "baseDate": "2023/01/30",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -16,8 +16,8 @@
           {"duration": 3, "rate": "0.50"},
           {"duration": 6, "rate": "4.10"},
           {"duration": 12, "rate": "4.70"},
-          {"duration": 24, "rate": "4.80"},
-          {"duration": 36, "rate": "4.60"}
+          {"duration": 24, "rate": "4.60"},
+          {"duration": 36, "rate": "4.50"}
         ]
       },
       {
@@ -28,10 +28,10 @@
           {"duration": 6, "rate": "4.00"},
           {"duration": 9, "rate": "4.00"},
           {"duration": 12, "rate": "4.60"},
-          {"duration": 18, "rate": "4.60"},
-          {"duration": 24, "rate": "4.70"},
-          {"duration": 30, "rate": "4.70"},
-          {"duration": 36, "rate": "4.50"}
+          {"duration": 18, "rate": "4.50"},
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 30, "rate": "4.40"},
+          {"duration": 36, "rate": "4.40"}
         ]
       },
       {
@@ -62,22 +62,22 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/29",
+    "baseDate": "2023/01/30",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 12, "rate": "4.80"},
-          {"duration": 24, "rate": "4.90"},
-          {"duration": 36, "rate": "5.00"}
+          {"duration": 24, "rate": "4.60"},
+          {"duration": 36, "rate": "4.50"}
         ]
       },
       {
         "title": "MG New정기적금",
         "entries": [
           {"duration": 12, "rate": "4.80"},
-          {"duration": 24, "rate": "4.90"},
-          {"duration": 36, "rate": "5.00"}
+          {"duration": 24, "rate": "4.60"},
+          {"duration": 36, "rate": "4.50"}
         ]
       },
       {
@@ -98,8 +98,8 @@
           {"duration": 3, "rate": "0.80"},
           {"duration": 6, "rate": "1.10"},
           {"duration": 12, "rate": "4.80"},
-          {"duration": 24, "rate": "4.90"},
-          {"duration": 36, "rate": "5.00"}
+          {"duration": 24, "rate": "4.60"},
+          {"duration": 36, "rate": "4.60"}
         ]
       },
       {
@@ -124,5 +124,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/29"
+  "baseDate": "2023/01/30"
 }

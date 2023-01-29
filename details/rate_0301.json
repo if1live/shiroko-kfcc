@@ -7,44 +7,44 @@
     "r2": "용산구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/29",
+    "baseDate": "2023/01/30",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
-          {"duration": 1, "rate": "1.52"},
-          {"duration": 3, "rate": "3.02"},
-          {"duration": 6, "rate": "4.02"},
-          {"duration": 12, "rate": "5.32"},
-          {"duration": 13, "rate": "4.42"},
-          {"duration": 24, "rate": "4.42"}
+          {"duration": 1, "rate": "1.22"},
+          {"duration": 3, "rate": "2.72"},
+          {"duration": 6, "rate": "3.72"},
+          {"duration": 12, "rate": "5.02"},
+          {"duration": 13, "rate": "4.12"},
+          {"duration": 24, "rate": "4.12"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.02"}]
+        "entries": [{"duration": 12, "rate": "4.72"}]
       },
       {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
         "entries": [
-          {"duration": 1, "rate": "1.52"},
-          {"duration": 2, "rate": "1.52"},
-          {"duration": 3, "rate": "3.02"},
-          {"duration": 4, "rate": "3.02"},
-          {"duration": 5, "rate": "3.02"},
-          {"duration": 6, "rate": "4.02"},
-          {"duration": 7, "rate": "4.02"},
-          {"duration": 8, "rate": "4.02"},
-          {"duration": 9, "rate": "4.02"},
-          {"duration": 10, "rate": "4.02"},
-          {"duration": 11, "rate": "4.02"},
-          {"duration": 12, "rate": "5.32"}
+          {"duration": 1, "rate": "1.22"},
+          {"duration": 2, "rate": "1.22"},
+          {"duration": 3, "rate": "2.72"},
+          {"duration": 4, "rate": "2.72"},
+          {"duration": 5, "rate": "2.72"},
+          {"duration": 6, "rate": "3.72"},
+          {"duration": 7, "rate": "3.72"},
+          {"duration": 8, "rate": "3.72"},
+          {"duration": 9, "rate": "3.72"},
+          {"duration": 10, "rate": "3.72"},
+          {"duration": 11, "rate": "3.72"},
+          {"duration": 12, "rate": "5.02"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/29",
+    "baseDate": "2023/01/30",
     "products": [
       {
         "title": "정기적금",
@@ -94,5 +94,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/29"
+  "baseDate": "2023/01/30"
 }

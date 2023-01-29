@@ -7,7 +7,7 @@
     "r2": "광양시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/29",
+    "baseDate": "2023/01/30",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -15,14 +15,14 @@
           {"duration": 1, "rate": "1.50"},
           {"duration": 3, "rate": "4.10"},
           {"duration": 6, "rate": "4.30"},
-          {"duration": 12, "rate": "4.95"},
-          {"duration": 24, "rate": "4.85"},
-          {"duration": 36, "rate": "4.75"}
+          {"duration": 12, "rate": "4.75"},
+          {"duration": 24, "rate": "4.65"},
+          {"duration": 36, "rate": "4.55"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.75"}]
+        "entries": [{"duration": 12, "rate": "4.55"}]
       },
       {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
@@ -38,13 +38,13 @@
           {"duration": 9, "rate": "4.30"},
           {"duration": 10, "rate": "4.30"},
           {"duration": 11, "rate": "4.30"},
-          {"duration": 12, "rate": "4.95"}
+          {"duration": 12, "rate": "4.75"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/29",
+    "baseDate": "2023/01/30",
     "products": [
       {
         "title": "정기적금",
@@ -107,5 +107,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/29"
+  "baseDate": "2023/01/30"
 }
