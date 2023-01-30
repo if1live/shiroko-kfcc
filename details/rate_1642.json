@@ -7,13 +7,13 @@
     "r2": "기장군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/30",
+    "baseDate": "2023/01/31",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 3, "rate": "3.70"},
-          {"duration": 6, "rate": "4.05"},
+          {"duration": 6, "rate": "4.35"},
           {"duration": 12, "rate": "4.55"},
           {"duration": 24, "rate": "4.05"},
           {"duration": 36, "rate": "4.05"},
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/30",
+    "baseDate": "2023/01/31",
     "products": [
       {
         "title": "정기적금",
@@ -162,5 +162,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/30"
+  "baseDate": "2023/01/31"
 }

@@ -7,7 +7,7 @@
     "r2": "동구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/01/30",
+    "baseDate": "2023/01/31",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -47,7 +47,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.50"}]
+        "entries": [{"duration": 12, "rate": "5.00"}]
       },
       {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
@@ -69,7 +69,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/01/30",
+    "baseDate": "2023/01/31",
     "products": [
       {
         "title": "정기적금",
@@ -109,7 +109,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "5.10"}]
+        "entries": [{"duration": 12, "rate": "4.50"}]
       },
       {
         "title": "꿈모아상호부금",
@@ -120,5 +120,5 @@
       }
     ]
   },
-  "baseDate": "2023/01/30"
+  "baseDate": "2023/01/31"
 }
