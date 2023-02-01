@@ -7,14 +7,14 @@
     "r2": "중랑구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/01",
+    "baseDate": "2023/02/02",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "4.00"},
-          {"duration": 12, "rate": "5.10"},
+          {"duration": 6, "rate": "3.80"},
+          {"duration": 12, "rate": "4.80"},
           {"duration": 24, "rate": "4.50"},
           {"duration": 36, "rate": "4.50"}
         ]
@@ -22,17 +22,17 @@
       {
         "title": "Block예금",
         "entries": [
-          {"duration": 0, "rate": "1.70"},
-          {"duration": 3, "rate": "1.70"},
-          {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "3.30"},
-          {"duration": 24, "rate": "3.30"},
-          {"duration": 36, "rate": "3.30"}
+          {"duration": 0, "rate": "3.00"},
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 6, "rate": "3.80"},
+          {"duration": 12, "rate": "4.80"},
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 36, "rate": "4.50"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.10"}]
+        "entries": [{"duration": 12, "rate": "4.80"}]
       },
       {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
@@ -42,41 +42,41 @@
           {"duration": 3, "rate": "3.00"},
           {"duration": 4, "rate": "3.00"},
           {"duration": 5, "rate": "3.00"},
-          {"duration": 6, "rate": "4.00"},
-          {"duration": 7, "rate": "4.00"},
-          {"duration": 8, "rate": "4.00"},
-          {"duration": 9, "rate": "4.00"},
-          {"duration": 10, "rate": "4.00"},
-          {"duration": 11, "rate": "4.00"},
-          {"duration": 12, "rate": "5.10"}
+          {"duration": 6, "rate": "3.80"},
+          {"duration": 7, "rate": "3.80"},
+          {"duration": 8, "rate": "3.80"},
+          {"duration": 9, "rate": "3.80"},
+          {"duration": 10, "rate": "3.80"},
+          {"duration": 11, "rate": "3.80"},
+          {"duration": 12, "rate": "4.80"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.30"}]
+        "entries": [{"duration": 12, "rate": "4.80"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/01",
+    "baseDate": "2023/02/02",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "5.00"},
-          {"duration": 24, "rate": "4.00"},
-          {"duration": 36, "rate": "4.00"},
-          {"duration": 48, "rate": "4.00"},
-          {"duration": 60, "rate": "4.00"}
+          {"duration": 12, "rate": "4.50"},
+          {"duration": 24, "rate": "4.60"},
+          {"duration": 36, "rate": "4.70"},
+          {"duration": 48, "rate": "4.70"},
+          {"duration": 60, "rate": "4.70"}
         ]
       },
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "2.80"},
-          {"duration": 24, "rate": "2.90"},
-          {"duration": 36, "rate": "3.00"}
+          {"duration": 12, "rate": "4.50"},
+          {"duration": 24, "rate": "4.60"},
+          {"duration": 36, "rate": "4.70"}
         ]
       },
       {
@@ -85,7 +85,7 @@
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "2.00"}]
+        "entries": [{"duration": 12, "rate": "2.50"}]
       },
       {
         "title": "자유적립적금",
@@ -93,9 +93,9 @@
           {"duration": 1, "rate": "0.30"},
           {"duration": 3, "rate": "0.80"},
           {"duration": 6, "rate": "1.20"},
-          {"duration": 12, "rate": "2.50"},
-          {"duration": 24, "rate": "2.60"},
-          {"duration": 36, "rate": "2.70"}
+          {"duration": 12, "rate": "3.00"},
+          {"duration": 24, "rate": "3.10"},
+          {"duration": 36, "rate": "3.20"}
         ]
       },
       {
@@ -129,5 +129,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/01"
+  "baseDate": "2023/02/02"
 }

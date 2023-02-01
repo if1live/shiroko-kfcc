@@ -7,12 +7,12 @@
     "r2": "진주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/01",
+    "baseDate": "2023/02/02",
     "products": []
   },
   "installmentSavings": {
-    "baseDate": "2023/02/01",
+    "baseDate": "2023/02/02",
     "products": []
   },
-  "baseDate": "2023/02/01"
+  "baseDate": "2023/02/02"
 }

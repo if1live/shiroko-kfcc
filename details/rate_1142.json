@@ -7,7 +7,7 @@
     "r2": "광진구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/01",
+    "baseDate": "2023/02/02",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -17,7 +17,7 @@
           {"duration": 6, "rate": "4.00"},
           {"duration": 7, "rate": "4.50"},
           {"duration": 8, "rate": "4.50"},
-          {"duration": 12, "rate": "5.10"},
+          {"duration": 12, "rate": "4.90"},
           {"duration": 13, "rate": "4.50"},
           {"duration": 14, "rate": "4.50"},
           {"duration": 24, "rate": "4.50"},
@@ -68,7 +68,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/01",
+    "baseDate": "2023/02/02",
     "products": [
       {
         "title": "정기적금",
@@ -128,5 +128,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/01"
+  "baseDate": "2023/02/02"
 }
