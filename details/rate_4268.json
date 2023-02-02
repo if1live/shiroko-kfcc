@@ -7,14 +7,14 @@
     "r2": "동해시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/02",
+    "baseDate": "2023/02/03",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 3, "rate": "1.50"},
           {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "4.65"},
+          {"duration": 12, "rate": "4.45"},
           {"duration": 24, "rate": "3.80"},
           {"duration": 36, "rate": "3.80"}
         ]
@@ -25,7 +25,7 @@
           {"duration": 0, "rate": "0.05"},
           {"duration": 3, "rate": "1.50"},
           {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "4.65"},
+          {"duration": 12, "rate": "4.45"},
           {"duration": 24, "rate": "3.80"},
           {"duration": 36, "rate": "3.80"}
         ]
@@ -37,7 +37,7 @@
           {"duration": 3, "rate": "1.50"},
           {"duration": 6, "rate": "3.50"},
           {"duration": 9, "rate": "3.50"},
-          {"duration": 12, "rate": "4.65"},
+          {"duration": 12, "rate": "4.45"},
           {"duration": 18, "rate": "4.65"},
           {"duration": 24, "rate": "3.80"},
           {"duration": 30, "rate": "3.80"},
@@ -58,17 +58,17 @@
           {"duration": 9, "rate": "3.50"},
           {"duration": 10, "rate": "3.50"},
           {"duration": 11, "rate": "3.50"},
-          {"duration": 12, "rate": "4.65"}
+          {"duration": 12, "rate": "4.45"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "4.65"}]
+        "entries": [{"duration": 12, "rate": "4.45"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/02",
+    "baseDate": "2023/02/03",
     "products": [
       {
         "title": "정기적금",
@@ -144,5 +144,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/02"
+  "baseDate": "2023/02/03"
 }
