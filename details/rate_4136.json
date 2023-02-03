@@ -7,7 +7,7 @@
     "r2": "가평군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/03",
+    "baseDate": "2023/02/04",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -18,14 +18,6 @@
           {"duration": 12, "rate": "5.00"},
           {"duration": 24, "rate": "4.50"},
           {"duration": 36, "rate": "4.60"}
-        ]
-      },
-      {
-        "title": "정기예탁금<만기(회전주기)지급식> (특별한시판매)",
-        "entries": [
-          {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "4.20"},
-          {"duration": 12, "rate": "5.50"}
         ]
       },
       {
@@ -81,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/03",
+    "baseDate": "2023/02/04",
     "products": [
       {
         "title": "정기적금",
@@ -169,5 +161,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/03"
+  "baseDate": "2023/02/04"
 }

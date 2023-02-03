@@ -7,7 +7,7 @@
     "r2": "동해시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/03",
+    "baseDate": "2023/02/04",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -38,7 +38,7 @@
           {"duration": 6, "rate": "3.50"},
           {"duration": 9, "rate": "3.50"},
           {"duration": 12, "rate": "4.45"},
-          {"duration": 18, "rate": "4.65"},
+          {"duration": 18, "rate": "4.45"},
           {"duration": 24, "rate": "3.80"},
           {"duration": 30, "rate": "3.80"},
           {"duration": 36, "rate": "3.80"}
@@ -68,7 +68,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/03",
+    "baseDate": "2023/02/04",
     "products": [
       {
         "title": "정기적금",
@@ -144,5 +144,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/03"
+  "baseDate": "2023/02/04"
 }
