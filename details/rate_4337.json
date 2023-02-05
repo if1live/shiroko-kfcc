@@ -7,7 +7,7 @@
     "r2": "횡성군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/05",
+    "baseDate": "2023/02/06",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -17,10 +17,10 @@
           {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "3.00"},
           {"duration": 9, "rate": "3.50"},
-          {"duration": 12, "rate": "5.05"},
+          {"duration": 12, "rate": "4.89"},
           {"duration": 13, "rate": "4.50"},
-          {"duration": 24, "rate": "4.59"},
-          {"duration": 36, "rate": "4.32"},
+          {"duration": 24, "rate": "4.41"},
+          {"duration": 36, "rate": "4.23"},
           {"duration": 48, "rate": "4.15"},
           {"duration": 60, "rate": "4.07"}
         ]
@@ -68,7 +68,7 @@
           {"duration": 9, "rate": "0.90"},
           {"duration": 10, "rate": "0.90"},
           {"duration": 11, "rate": "0.90"},
-          {"duration": 12, "rate": "5.25"}
+          {"duration": 12, "rate": "5.03"}
         ]
       },
       {
@@ -78,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/05",
+    "baseDate": "2023/02/06",
     "products": [
       {
         "title": "정기적금",
@@ -89,13 +89,13 @@
           {"duration": 9, "rate": "1.30"},
           {"duration": 10, "rate": "1.30"},
           {"duration": 11, "rate": "1.30"},
-          {"duration": 12, "rate": "5.20"},
+          {"duration": 12, "rate": "4.90"},
           {"duration": 18, "rate": "4.50"},
           {"duration": 24, "rate": "4.50"},
           {"duration": 30, "rate": "4.50"},
-          {"duration": 36, "rate": "4.50"},
-          {"duration": 48, "rate": "4.50"},
-          {"duration": 60, "rate": "4.50"}
+          {"duration": 36, "rate": "4.30"},
+          {"duration": 48, "rate": "4.00"},
+          {"duration": 60, "rate": "3.70"}
         ]
       },
       {
@@ -131,15 +131,13 @@
           {"duration": 1, "rate": "0.50"},
           {"duration": 3, "rate": "0.80"},
           {"duration": 6, "rate": "1.20"},
-          {"duration": 12, "rate": "5.10"},
+          {"duration": 12, "rate": "4.90"},
           {"duration": 13, "rate": "4.50"},
           {"duration": 18, "rate": "4.50"},
           {"duration": 24, "rate": "4.50"},
           {"duration": 30, "rate": "4.50"},
           {"duration": 32, "rate": "4.50"},
-          {"duration": 36, "rate": "4.50"},
-          {"duration": 48, "rate": "4.50"},
-          {"duration": 60, "rate": "4.50"}
+          {"duration": 36, "rate": "4.50"}
         ]
       },
       {
@@ -177,5 +175,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/05"
+  "baseDate": "2023/02/06"
 }

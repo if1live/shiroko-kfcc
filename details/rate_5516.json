@@ -7,7 +7,7 @@
     "r2": "구미시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/05",
+    "baseDate": "2023/02/06",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -15,8 +15,8 @@
           {"duration": 1, "rate": "0.60"},
           {"duration": 3, "rate": "0.90"},
           {"duration": 6, "rate": "2.20"},
-          {"duration": 12, "rate": "4.90"},
-          {"duration": 24, "rate": "4.50"},
+          {"duration": 12, "rate": "4.60"},
+          {"duration": 24, "rate": "4.00"},
           {"duration": 36, "rate": "3.00"}
         ]
       },
@@ -26,8 +26,8 @@
           {"duration": 0, "rate": "0.60"},
           {"duration": 3, "rate": "0.90"},
           {"duration": 6, "rate": "2.20"},
-          {"duration": 12, "rate": "5.20"},
-          {"duration": 24, "rate": "3.50"},
+          {"duration": 12, "rate": "4.90"},
+          {"duration": 24, "rate": "4.00"},
           {"duration": 36, "rate": "3.00"}
         ]
       },
@@ -38,10 +38,10 @@
           {"duration": 3, "rate": "0.00"},
           {"duration": 6, "rate": "2.20"},
           {"duration": 9, "rate": "2.20"},
-          {"duration": 12, "rate": "5.30"},
-          {"duration": 18, "rate": "3.50"},
-          {"duration": 24, "rate": "3.50"},
-          {"duration": 30, "rate": "3.50"},
+          {"duration": 12, "rate": "4.90"},
+          {"duration": 18, "rate": "4.90"},
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 30, "rate": "4.00"},
           {"duration": 36, "rate": "3.00"}
         ]
       },
@@ -63,13 +63,13 @@
           {"duration": 9, "rate": "2.20"},
           {"duration": 10, "rate": "2.20"},
           {"duration": 11, "rate": "2.20"},
-          {"duration": 12, "rate": "5.10"}
+          {"duration": 12, "rate": "4.80"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/05",
+    "baseDate": "2023/02/06",
     "products": [
       {
         "title": "정기적금",
@@ -94,22 +94,22 @@
           {"duration": 1, "rate": "0.60"},
           {"duration": 3, "rate": "0.80"},
           {"duration": 6, "rate": "2.20"},
-          {"duration": 12, "rate": "4.90"},
-          {"duration": 24, "rate": "3.50"},
-          {"duration": 36, "rate": "3.50"}
+          {"duration": 12, "rate": "4.60"},
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 36, "rate": "4.00"}
         ]
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "4.90"}]
+        "entries": [{"duration": 12, "rate": "4.60"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "5.10"}]
+        "entries": [{"duration": 12, "rate": "4.60"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "4.90"}]
+        "entries": [{"duration": 12, "rate": "4.60"}]
       },
       {
         "title": "일일자유적금",
@@ -134,5 +134,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/05"
+  "baseDate": "2023/02/06"
 }

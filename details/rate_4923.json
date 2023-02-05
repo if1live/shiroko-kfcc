@@ -7,7 +7,7 @@
     "r2": "장수군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/05",
+    "baseDate": "2023/02/06",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -55,7 +55,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/05",
+    "baseDate": "2023/02/06",
     "products": [
       {
         "title": "정기적금",
@@ -110,5 +110,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/05"
+  "baseDate": "2023/02/06"
 }
