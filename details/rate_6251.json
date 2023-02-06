@@ -7,7 +7,7 @@
     "r2": "동구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/06",
+    "baseDate": "2023/02/07",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -40,7 +40,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/06",
+    "baseDate": "2023/02/07",
     "products": [
       {
         "title": "정기적금",
@@ -71,8 +71,16 @@
           {"duration": 24, "rate": "4.75"},
           {"duration": 36, "rate": "4.80"}
         ]
+      },
+      {
+        "title": "꿈모아상호부금",
+        "entries": [
+          {"duration": 12, "rate": "7.55"},
+          {"duration": 24, "rate": "7.55"},
+          {"duration": 36, "rate": "7.55"}
+        ]
       }
     ]
   },
-  "baseDate": "2023/02/06"
+  "baseDate": "2023/02/07"
 }
