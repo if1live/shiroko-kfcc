@@ -7,7 +7,7 @@
     "r2": "용산구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/07",
+    "baseDate": "2023/02/08",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -16,6 +16,7 @@
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "4.70"},
           {"duration": 12, "rate": "5.00"},
+          {"duration": 13, "rate": "4.70"},
           {"duration": 24, "rate": "4.65"},
           {"duration": 36, "rate": "4.65"}
         ]
@@ -47,7 +48,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.30"}]
+        "entries": [{"duration": 12, "rate": "5.20"}]
       },
       {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
@@ -73,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/07",
+    "baseDate": "2023/02/08",
     "products": [
       {
         "title": "정기적금",
@@ -153,5 +154,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/07"
+  "baseDate": "2023/02/08"
 }
