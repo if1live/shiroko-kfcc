@@ -7,27 +7,27 @@
     "r2": "성동구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/08",
+    "baseDate": "2023/02/09",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
-          {"duration": 3, "rate": "4.00"},
-          {"duration": 6, "rate": "5.00"},
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 6, "rate": "4.00"},
           {"duration": 12, "rate": "5.30"},
-          {"duration": 18, "rate": "5.00"},
-          {"duration": 24, "rate": "5.00"}
+          {"duration": 18, "rate": "4.50"},
+          {"duration": 24, "rate": "4.50"}
         ]
       },
       {
         "title": "Block예금",
         "entries": [
           {"duration": 0, "rate": "2.50"},
-          {"duration": 3, "rate": "4.00"},
-          {"duration": 6, "rate": "5.00"},
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 6, "rate": "4.00"},
           {"duration": 12, "rate": "5.30"},
-          {"duration": 24, "rate": "5.00"},
-          {"duration": 36, "rate": "5.00"}
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 36, "rate": "4.50"}
         ]
       },
       {
@@ -39,22 +39,22 @@
         "entries": [
           {"duration": 1, "rate": "2.50"},
           {"duration": 2, "rate": "2.50"},
-          {"duration": 3, "rate": "4.00"},
-          {"duration": 4, "rate": "4.00"},
-          {"duration": 5, "rate": "4.00"},
-          {"duration": 6, "rate": "5.00"},
-          {"duration": 7, "rate": "5.00"},
-          {"duration": 8, "rate": "5.00"},
-          {"duration": 9, "rate": "5.00"},
-          {"duration": 10, "rate": "5.00"},
-          {"duration": 11, "rate": "5.00"},
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 4, "rate": "3.00"},
+          {"duration": 5, "rate": "3.00"},
+          {"duration": 6, "rate": "4.00"},
+          {"duration": 7, "rate": "4.00"},
+          {"duration": 8, "rate": "4.00"},
+          {"duration": 9, "rate": "4.00"},
+          {"duration": 10, "rate": "4.00"},
+          {"duration": 11, "rate": "4.00"},
           {"duration": 12, "rate": "5.30"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/08",
+    "baseDate": "2023/02/09",
     "products": [
       {
         "title": "정기적금",
@@ -92,5 +92,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/08"
+  "baseDate": "2023/02/09"
 }
