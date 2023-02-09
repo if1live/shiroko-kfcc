@@ -7,17 +7,17 @@
     "r2": "중구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/09",
+    "baseDate": "2023/02/10",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "4.00"},
-          {"duration": 9, "rate": "4.00"},
-          {"duration": 10, "rate": "4.00"},
-          {"duration": 11, "rate": "4.00"},
-          {"duration": 12, "rate": "5.20"},
+          {"duration": 6, "rate": "3.50"},
+          {"duration": 9, "rate": "3.50"},
+          {"duration": 10, "rate": "3.50"},
+          {"duration": 11, "rate": "3.50"},
+          {"duration": 12, "rate": "5.00"},
           {"duration": 13, "rate": "2.96"},
           {"duration": 18, "rate": "2.96"},
           {"duration": 24, "rate": "2.96"},
@@ -42,7 +42,7 @@
           {"duration": 3, "rate": "1.50"},
           {"duration": 6, "rate": "2.00"},
           {"duration": 9, "rate": "2.00"},
-          {"duration": 12, "rate": "5.20"},
+          {"duration": 12, "rate": "4.90"},
           {"duration": 18, "rate": "3.00"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 30, "rate": "3.00"},
@@ -61,13 +61,13 @@
           {"duration": 3, "rate": "3.00"},
           {"duration": 4, "rate": "1.50"},
           {"duration": 5, "rate": "1.50"},
-          {"duration": 6, "rate": "4.00"},
+          {"duration": 6, "rate": "3.50"},
           {"duration": 7, "rate": "2.00"},
           {"duration": 8, "rate": "2.00"},
           {"duration": 9, "rate": "2.00"},
           {"duration": 10, "rate": "2.00"},
           {"duration": 11, "rate": "2.00"},
-          {"duration": 12, "rate": "5.08"}
+          {"duration": 12, "rate": "4.89"}
         ]
       },
       {
@@ -77,7 +77,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/09",
+    "baseDate": "2023/02/10",
     "products": [
       {
         "title": "정기적금",
@@ -134,5 +134,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/09"
+  "baseDate": "2023/02/10"
 }
