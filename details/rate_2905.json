@@ -7,7 +7,7 @@
     "r2": "나주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/10",
+    "baseDate": "2023/02/11",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -44,15 +44,11 @@
           {"duration": 30, "rate": "5.00"},
           {"duration": 36, "rate": "4.90"}
         ]
-      },
-      {
-        "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.30"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/10",
+    "baseDate": "2023/02/11",
     "products": [
       {
         "title": "정기적금",
@@ -92,5 +88,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/10"
+  "baseDate": "2023/02/11"
 }
