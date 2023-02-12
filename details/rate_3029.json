@@ -7,7 +7,7 @@
     "r2": "대덕구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/12",
+    "baseDate": "2023/02/13",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -15,7 +15,7 @@
           {"duration": 1, "rate": "2.00"},
           {"duration": 3, "rate": "3.50"},
           {"duration": 6, "rate": "4.70"},
-          {"duration": 12, "rate": "5.10"},
+          {"duration": 12, "rate": "4.90"},
           {"duration": 24, "rate": "4.70"},
           {"duration": 36, "rate": "4.70"}
         ]
@@ -26,7 +26,7 @@
           {"duration": 0, "rate": "1.70"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "3.80"},
-          {"duration": 12, "rate": "5.10"},
+          {"duration": 12, "rate": "4.90"},
           {"duration": 24, "rate": "4.70"},
           {"duration": 36, "rate": "4.70"}
         ]
@@ -38,8 +38,8 @@
           {"duration": 3, "rate": "3.50"},
           {"duration": 6, "rate": "4.70"},
           {"duration": 9, "rate": "4.70"},
-          {"duration": 12, "rate": "5.10"},
-          {"duration": 18, "rate": "5.10"},
+          {"duration": 12, "rate": "4.90"},
+          {"duration": 18, "rate": "4.90"},
           {"duration": 24, "rate": "4.70"},
           {"duration": 30, "rate": "4.70"},
           {"duration": 36, "rate": "4.70"}
@@ -47,7 +47,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.10"}]
+        "entries": [{"duration": 12, "rate": "4.90"}]
       },
       {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
@@ -63,13 +63,13 @@
           {"duration": 9, "rate": "4.70"},
           {"duration": 10, "rate": "4.70"},
           {"duration": 11, "rate": "4.70"},
-          {"duration": 12, "rate": "5.10"}
+          {"duration": 12, "rate": "4.90"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/12",
+    "baseDate": "2023/02/13",
     "products": [
       {
         "title": "정기적금",
@@ -105,7 +105,7 @@
           {"duration": 1, "rate": "1.40"},
           {"duration": 3, "rate": "1.70"},
           {"duration": 6, "rate": "4.70"},
-          {"duration": 12, "rate": "5.10"},
+          {"duration": 12, "rate": "4.90"},
           {"duration": 24, "rate": "4.70"},
           {"duration": 36, "rate": "4.70"}
         ]
@@ -133,5 +133,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/12"
+  "baseDate": "2023/02/13"
 }

@@ -7,7 +7,7 @@
     "r2": "제주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/12",
+    "baseDate": "2023/02/13",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -50,6 +50,28 @@
         "entries": [{"duration": 12, "rate": "4.80"}]
       },
       {
+        "title": "MG기업정기예금(A)",
+        "entries": [
+          {"duration": 1, "rate": "3.30"},
+          {"duration": 3, "rate": "3.50"},
+          {"duration": 6, "rate": "3.70"},
+          {"duration": 12, "rate": "4.80"},
+          {"duration": 18, "rate": "4.80"},
+          {"duration": 24, "rate": "4.80"}
+        ]
+      },
+      {
+        "title": "MG기업정기예금(B)",
+        "entries": [
+          {"duration": 1, "rate": "3.30"},
+          {"duration": 3, "rate": "3.50"},
+          {"duration": 6, "rate": "3.70"},
+          {"duration": 12, "rate": "4.80"},
+          {"duration": 18, "rate": "4.80"},
+          {"duration": 24, "rate": "4.80"}
+        ]
+      },
+      {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 1, "rate": "3.30"},
@@ -73,7 +95,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/12",
+    "baseDate": "2023/02/13",
     "products": [
       {
         "title": "정기적금",
@@ -162,5 +184,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/12"
+  "baseDate": "2023/02/13"
 }

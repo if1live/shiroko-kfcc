@@ -7,7 +7,7 @@
     "r2": "중랑구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/12",
+    "baseDate": "2023/02/13",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -15,7 +15,7 @@
           {"duration": 1, "rate": "2.00"},
           {"duration": 3, "rate": "3.00"},
           {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "4.90"},
+          {"duration": 12, "rate": "4.70"},
           {"duration": 13, "rate": "4.30"},
           {"duration": 24, "rate": "4.30"},
           {"duration": 36, "rate": "4.00"}
@@ -50,7 +50,7 @@
           {"duration": 9, "rate": "3.50"},
           {"duration": 10, "rate": "3.50"},
           {"duration": 11, "rate": "3.50"},
-          {"duration": 12, "rate": "4.90"}
+          {"duration": 12, "rate": "4.70"}
         ]
       },
       {
@@ -60,7 +60,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/12",
+    "baseDate": "2023/02/13",
     "products": [
       {
         "title": "정기적금",
@@ -79,7 +79,7 @@
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "2.00"}]
+        "entries": [{"duration": 12, "rate": "1.00"}]
       },
       {
         "title": "MG더뱅킹정기적금",
@@ -133,5 +133,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/12"
+  "baseDate": "2023/02/13"
 }
