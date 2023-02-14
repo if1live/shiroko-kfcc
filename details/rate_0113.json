@@ -7,7 +7,7 @@
     "r2": "종로구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/14",
+    "baseDate": "2023/02/15",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -52,13 +52,13 @@
           {"duration": 9, "rate": "2.40"},
           {"duration": 10, "rate": "2.40"},
           {"duration": 11, "rate": "2.40"},
-          {"duration": 12, "rate": "5.10"}
+          {"duration": 12, "rate": "4.90"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/14",
+    "baseDate": "2023/02/15",
     "products": [
       {
         "title": "정기적금",
@@ -99,5 +99,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/14"
+  "baseDate": "2023/02/15"
 }
