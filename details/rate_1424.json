@@ -7,14 +7,14 @@
     "r2": "사하구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/15",
+    "baseDate": "2023/02/16",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
           {"duration": 3, "rate": "1.00"},
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "4.80"},
+          {"duration": 12, "rate": "4.50"},
           {"duration": 13, "rate": "3.10"},
           {"duration": 18, "rate": "3.10"},
           {"duration": 19, "rate": "3.10"},
@@ -54,7 +54,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/15",
+    "baseDate": "2023/02/16",
     "products": [
       {
         "title": "정기적금",
@@ -83,5 +83,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/15"
+  "baseDate": "2023/02/16"
 }
