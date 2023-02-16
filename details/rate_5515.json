@@ -7,7 +7,7 @@
     "r2": "구미시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/16",
+    "baseDate": "2023/02/17",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/16",
+    "baseDate": "2023/02/17",
     "products": [
       {
         "title": "정기적금",
@@ -136,9 +136,9 @@
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 12, "rate": "4.20"},
-          {"duration": 24, "rate": "4.20"},
-          {"duration": 36, "rate": "4.20"}
+          {"duration": 12, "rate": "4.10"},
+          {"duration": 24, "rate": "4.10"},
+          {"duration": 36, "rate": "4.10"}
         ]
       },
       {
@@ -147,5 +147,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/16"
+  "baseDate": "2023/02/17"
 }

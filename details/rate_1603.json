@@ -7,7 +7,7 @@
     "r2": "동래구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/16",
+    "baseDate": "2023/02/17",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -47,7 +47,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/16",
+    "baseDate": "2023/02/17",
     "products": [
       {
         "title": "정기적금",
@@ -87,5 +87,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/16"
+  "baseDate": "2023/02/17"
 }
