@@ -7,7 +7,7 @@
     "r2": "전주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/17",
+    "baseDate": "2023/02/18",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -85,7 +85,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/17",
+    "baseDate": "2023/02/18",
     "products": [
       {
         "title": "정기적금",
@@ -148,9 +148,9 @@
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 12, "rate": "4.60"},
-          {"duration": 24, "rate": "4.70"},
-          {"duration": 36, "rate": "4.40"}
+          {"duration": 12, "rate": "4.50"},
+          {"duration": 24, "rate": "4.40"},
+          {"duration": 36, "rate": "4.20"}
         ]
       },
       {
@@ -159,5 +159,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/17"
+  "baseDate": "2023/02/18"
 }
