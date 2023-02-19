@@ -7,44 +7,44 @@
     "r2": "해운대구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/19",
+    "baseDate": "2023/02/20",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
         "entries": [
-          {"duration": 1, "rate": "1.40"},
-          {"duration": 3, "rate": "1.80"},
-          {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "4.60"},
-          {"duration": 24, "rate": "4.60"},
-          {"duration": 36, "rate": "4.60"},
-          {"duration": 48, "rate": "4.60"},
-          {"duration": 60, "rate": "4.60"}
+          {"duration": 1, "rate": "1.20"},
+          {"duration": 3, "rate": "1.60"},
+          {"duration": 6, "rate": "3.30"},
+          {"duration": 12, "rate": "4.50"},
+          {"duration": 24, "rate": "4.55"},
+          {"duration": 36, "rate": "4.55"},
+          {"duration": 48, "rate": "4.55"},
+          {"duration": 60, "rate": "4.55"}
         ]
       },
       {
         "title": "Block예금",
         "entries": [
-          {"duration": 0, "rate": "1.40"},
-          {"duration": 3, "rate": "1.80"},
-          {"duration": 6, "rate": "2.90"},
-          {"duration": 12, "rate": "4.30"},
-          {"duration": 24, "rate": "4.40"},
-          {"duration": 36, "rate": "4.40"}
+          {"duration": 0, "rate": "1.20"},
+          {"duration": 3, "rate": "1.60"},
+          {"duration": 6, "rate": "2.70"},
+          {"duration": 12, "rate": "4.10"},
+          {"duration": 24, "rate": "4.15"},
+          {"duration": 36, "rate": "4.15"}
         ]
       },
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "1.40"},
-          {"duration": 3, "rate": "1.80"},
-          {"duration": 6, "rate": "2.90"},
-          {"duration": 9, "rate": "3.15"},
-          {"duration": 12, "rate": "4.30"},
-          {"duration": 18, "rate": "4.30"},
-          {"duration": 24, "rate": "4.40"},
-          {"duration": 30, "rate": "4.40"},
-          {"duration": 36, "rate": "4.40"}
+          {"duration": 1, "rate": "1.20"},
+          {"duration": 3, "rate": "1.60"},
+          {"duration": 6, "rate": "2.70"},
+          {"duration": 9, "rate": "2.95"},
+          {"duration": 12, "rate": "4.10"},
+          {"duration": 18, "rate": "4.10"},
+          {"duration": 24, "rate": "4.15"},
+          {"duration": 30, "rate": "4.15"},
+          {"duration": 36, "rate": "4.15"}
         ]
       },
       {
@@ -54,28 +54,28 @@
       {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
         "entries": [
-          {"duration": 1, "rate": "1.40"},
-          {"duration": 2, "rate": "1.60"},
-          {"duration": 3, "rate": "1.80"},
-          {"duration": 4, "rate": "2.10"},
-          {"duration": 5, "rate": "2.40"},
-          {"duration": 6, "rate": "3.50"},
-          {"duration": 7, "rate": "3.50"},
-          {"duration": 8, "rate": "3.50"},
-          {"duration": 9, "rate": "3.50"},
-          {"duration": 10, "rate": "3.50"},
-          {"duration": 11, "rate": "3.50"},
-          {"duration": 12, "rate": "4.60"}
+          {"duration": 1, "rate": "1.20"},
+          {"duration": 2, "rate": "1.40"},
+          {"duration": 3, "rate": "1.60"},
+          {"duration": 4, "rate": "1.90"},
+          {"duration": 5, "rate": "2.20"},
+          {"duration": 6, "rate": "3.30"},
+          {"duration": 7, "rate": "3.30"},
+          {"duration": 8, "rate": "3.30"},
+          {"duration": 9, "rate": "3.30"},
+          {"duration": 10, "rate": "3.30"},
+          {"duration": 11, "rate": "3.30"},
+          {"duration": 12, "rate": "4.50"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "4.30"}]
+        "entries": [{"duration": 12, "rate": "4.10"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/19",
+    "baseDate": "2023/02/20",
     "products": [
       {
         "title": "정기적금",
@@ -163,5 +163,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/19"
+  "baseDate": "2023/02/20"
 }

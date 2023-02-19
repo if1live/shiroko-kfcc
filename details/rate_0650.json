@@ -7,7 +7,7 @@
     "r2": "노원구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/19",
+    "baseDate": "2023/02/20",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -52,7 +52,28 @@
         "title": "MG더뱅킹정기예금",
         "entries": [{"duration": 12, "rate": "4.50"}]
       },
-      {"title": "MG기업정기예금(A)", "entries": []},
+      {
+        "title": "MG기업정기예금(A)",
+        "entries": [
+          {"duration": 1, "rate": "2.00"},
+          {"duration": 3, "rate": "3.50"},
+          {"duration": 6, "rate": "4.00"},
+          {"duration": 12, "rate": "4.70"},
+          {"duration": 18, "rate": "4.00"},
+          {"duration": 24, "rate": "4.00"}
+        ]
+      },
+      {
+        "title": "MG기업정기예금(B)",
+        "entries": [
+          {"duration": 1, "rate": "2.00"},
+          {"duration": 3, "rate": "3.50"},
+          {"duration": 6, "rate": "4.00"},
+          {"duration": 12, "rate": "4.70"},
+          {"duration": 18, "rate": "4.00"},
+          {"duration": 24, "rate": "4.00"}
+        ]
+      },
       {
         "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
         "entries": [
@@ -77,7 +98,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/19",
+    "baseDate": "2023/02/20",
     "products": [
       {
         "title": "정기적금",
@@ -140,5 +161,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/19"
+  "baseDate": "2023/02/20"
 }

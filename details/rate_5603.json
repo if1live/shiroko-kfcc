@@ -7,7 +7,7 @@
     "r2": "영천시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/19",
+    "baseDate": "2023/02/20",
     "products": [
       {
         "title": "정기예탁금<만기(회전주기)지급식>",
@@ -15,8 +15,8 @@
           {"duration": 2, "rate": "0.30"},
           {"duration": 3, "rate": "3.00"},
           {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "4.90"},
-          {"duration": 24, "rate": "4.60"}
+          {"duration": 12, "rate": "4.80"},
+          {"duration": 24, "rate": "4.00"}
         ]
       },
       {
@@ -58,13 +58,13 @@
           {"duration": 9, "rate": "3.50"},
           {"duration": 10, "rate": "3.50"},
           {"duration": 11, "rate": "3.50"},
-          {"duration": 12, "rate": "5.30"}
+          {"duration": 12, "rate": "4.60"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/19",
+    "baseDate": "2023/02/20",
     "products": [
       {
         "title": "정기적금",
@@ -108,5 +108,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/19"
+  "baseDate": "2023/02/20"
 }
