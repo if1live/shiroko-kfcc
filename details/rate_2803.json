@@ -7,21 +7,21 @@
     "r2": "목포시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/20",
+    "baseDate": "2023/02/21, 세금공제전, 연이율",
     "products": [
       {
-        "title": "정기예탁금<만기(회전주기)지급식>",
+        "title": "정기예탁금",
         "entries": [
-          {"duration": 2, "rate": "1.30"},
-          {"duration": 3, "rate": "1.50"},
-          {"duration": 6, "rate": "3.50"},
-          {"duration": 7, "rate": "3.50"},
-          {"duration": 12, "rate": "4.50"},
-          {"duration": 13, "rate": "4.00"},
-          {"duration": 24, "rate": "4.00"},
-          {"duration": 25, "rate": "3.50"},
-          {"duration": 36, "rate": "3.50"},
-          {"duration": 48, "rate": "3.50"}
+          {"duration": null, "rate": "1.30"},
+          {"duration": null, "rate": "1.50"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "4.50"},
+          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"}
         ]
       },
       {
@@ -60,7 +60,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/20",
+    "baseDate": "2023/02/21, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기적금",
@@ -147,5 +147,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/20"
+  "baseDate": "2023/02/21, 세금공제전, 연이율"
 }

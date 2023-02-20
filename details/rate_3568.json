@@ -7,12 +7,12 @@
     "r2": "진주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/20",
+    "baseDate": "2023/02/21, 세금공제전, 연이율",
     "products": []
   },
   "installmentSavings": {
-    "baseDate": "2023/02/20",
+    "baseDate": "2023/02/21, 세금공제전, 연이율",
     "products": []
   },
-  "baseDate": "2023/02/20"
+  "baseDate": "2023/02/21, 세금공제전, 연이율"
 }

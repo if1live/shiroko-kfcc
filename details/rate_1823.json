@@ -7,33 +7,33 @@
     "r2": "중구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/20",
+    "baseDate": "2023/02/21, 세금공제전, 연이율",
     "products": [
       {
-        "title": "정기예탁금<만기(회전주기)지급식>",
+        "title": "정기예탁금",
         "entries": [
-          {"duration": 3, "rate": "2.50"},
-          {"duration": 6, "rate": "4.30"},
-          {"duration": 12, "rate": "4.60"},
-          {"duration": 24, "rate": "3.78"},
-          {"duration": 36, "rate": "3.88"}
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "4.30"},
+          {"duration": null, "rate": "4.60"},
+          {"duration": null, "rate": "3.78"},
+          {"duration": null, "rate": "3.88"}
         ]
       },
       {
-        "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
+        "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": 1, "rate": "0.14"},
-          {"duration": 2, "rate": "0.14"},
-          {"duration": 3, "rate": "0.95"},
-          {"duration": 4, "rate": "0.95"},
-          {"duration": 5, "rate": "0.95"},
-          {"duration": 6, "rate": "1.00"},
-          {"duration": 7, "rate": "1.00"},
-          {"duration": 8, "rate": "1.00"},
-          {"duration": 9, "rate": "1.00"},
-          {"duration": 10, "rate": "1.00"},
-          {"duration": 11, "rate": "1.00"},
-          {"duration": 12, "rate": "4.60"}
+          {"duration": null, "rate": "0.14"},
+          {"duration": null, "rate": "0.14"},
+          {"duration": null, "rate": "0.95"},
+          {"duration": null, "rate": "0.95"},
+          {"duration": null, "rate": "0.95"},
+          {"duration": null, "rate": "1.00"},
+          {"duration": null, "rate": "1.00"},
+          {"duration": null, "rate": "1.00"},
+          {"duration": null, "rate": "1.00"},
+          {"duration": null, "rate": "1.00"},
+          {"duration": null, "rate": "1.00"},
+          {"duration": null, "rate": "4.60"}
         ]
       },
       {
@@ -43,7 +43,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/20",
+    "baseDate": "2023/02/21, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기적금",
@@ -82,5 +82,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/20"
+  "baseDate": "2023/02/21, 세금공제전, 연이율"
 }

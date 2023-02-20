@@ -7,17 +7,17 @@
     "r2": "강서구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/20",
+    "baseDate": "2023/02/21, 세금공제전, 연이율",
     "products": [
       {
-        "title": "정기예탁금<만기(회전주기)지급식>",
+        "title": "정기예탁금",
         "entries": [
-          {"duration": 1, "rate": "1.00"},
-          {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "3.40"},
-          {"duration": 12, "rate": "3.70"},
-          {"duration": 24, "rate": "3.70"},
-          {"duration": 25, "rate": "0.10"}
+          {"duration": null, "rate": "1.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "0.10"}
         ]
       },
       {
@@ -50,26 +50,26 @@
         "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
-        "title": "꿈드림회전정기예탁금<만기(회전주기)지급식>",
+        "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": 1, "rate": "1.00"},
-          {"duration": 2, "rate": "1.00"},
-          {"duration": 3, "rate": "3.00"},
-          {"duration": 4, "rate": "3.00"},
-          {"duration": 5, "rate": "3.00"},
-          {"duration": 6, "rate": "3.40"},
-          {"duration": 7, "rate": "3.40"},
-          {"duration": 8, "rate": "3.40"},
-          {"duration": 9, "rate": "3.40"},
-          {"duration": 10, "rate": "3.40"},
-          {"duration": 11, "rate": "3.40"},
-          {"duration": 12, "rate": "3.70"}
+          {"duration": null, "rate": "1.00"},
+          {"duration": null, "rate": "1.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.70"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/20",
+    "baseDate": "2023/02/21, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기적금",
@@ -145,5 +145,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/20"
+  "baseDate": "2023/02/21, 세금공제전, 연이율"
 }
