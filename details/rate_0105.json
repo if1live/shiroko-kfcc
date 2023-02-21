@@ -7,15 +7,15 @@
     "r2": "종로구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/21, 세금공제전, 연이율",
+    "baseDate": "2023/02/22, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.70"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "4.50"},
           {"duration": null, "rate": "4.00"},
           {"duration": null, "rate": "4.00"}
         ]
@@ -25,8 +25,8 @@
         "entries": [
           {"duration": 0, "rate": "0.10"},
           {"duration": 3, "rate": "3.30"},
-          {"duration": 6, "rate": "4.00"},
-          {"duration": 12, "rate": "4.70"},
+          {"duration": 6, "rate": "3.80"},
+          {"duration": 12, "rate": "4.50"},
           {"duration": 24, "rate": "4.00"},
           {"duration": 36, "rate": "4.00"}
         ]
@@ -43,23 +43,23 @@
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.70"}
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "4.50"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "4.70"}]
+        "entries": [{"duration": 12, "rate": "4.50"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/21, 세금공제전, 연이율",
+    "baseDate": "2023/02/22, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기적금",
@@ -121,5 +121,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/21, 세금공제전, 연이율"
+  "baseDate": "2023/02/22, 세금공제전, 연이율"
 }

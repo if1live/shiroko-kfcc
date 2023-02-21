@@ -7,7 +7,7 @@
     "r2": "태안군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/21, 세금공제전, 연이율",
+    "baseDate": "2023/02/22, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기예탁금",
@@ -72,7 +72,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/21, 세금공제전, 연이율",
+    "baseDate": "2023/02/22, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기적금",
@@ -106,13 +106,12 @@
       {
         "title": "자유적립적금",
         "entries": [
-          {"duration": 1, "rate": "1.00"},
-          {"duration": 3, "rate": "3.80"},
-          {"duration": 6, "rate": "4.00"},
-          {"duration": 12, "rate": "4.50"},
-          {"duration": 23, "rate": "4.50"},
-          {"duration": 24, "rate": "4.50"},
-          {"duration": 36, "rate": "4.50"}
+          {"duration": 1, "rate": "0.50"},
+          {"duration": 3, "rate": "3.50"},
+          {"duration": 6, "rate": "3.80"},
+          {"duration": 12, "rate": "5.00"},
+          {"duration": 24, "rate": "4.30"},
+          {"duration": 36, "rate": "4.30"}
         ]
       },
       {
@@ -133,5 +132,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/21, 세금공제전, 연이율"
+  "baseDate": "2023/02/22, 세금공제전, 연이율"
 }
