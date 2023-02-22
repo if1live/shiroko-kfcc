@@ -7,7 +7,7 @@
     "r2": "성동구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/22, 세금공제전, 연이율",
+    "baseDate": "2023/02/23, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/22, 세금공제전, 연이율",
+    "baseDate": "2023/02/23, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기적금",
@@ -117,7 +117,8 @@
           {"duration": 12, "rate": "4.60"},
           {"duration": 13, "rate": "4.40"},
           {"duration": 24, "rate": "4.10"},
-          {"duration": 36, "rate": "4.10"}
+          {"duration": 25, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
@@ -151,5 +152,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/22, 세금공제전, 연이율"
+  "baseDate": "2023/02/23, 세금공제전, 연이율"
 }
