@@ -7,16 +7,16 @@
     "r2": "군산시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/23, 세금공제전, 연이율",
+    "baseDate": "2023/02/24, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "4.70"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"}
+          {"duration": null, "rate": "4.60"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.00"}
         ]
       },
       {
@@ -48,7 +48,7 @@
           {"duration": null, "rate": "0.80"},
           {"duration": null, "rate": "0.80"},
           {"duration": null, "rate": "0.80"},
-          {"duration": null, "rate": "4.70"}
+          {"duration": null, "rate": "4.60"}
         ]
       },
       {
@@ -58,7 +58,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/23, 세금공제전, 연이율",
+    "baseDate": "2023/02/24, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기적금",
@@ -125,5 +125,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/23, 세금공제전, 연이율"
+  "baseDate": "2023/02/24, 세금공제전, 연이율"
 }

@@ -7,14 +7,14 @@
     "r2": "용산구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/23, 세금공제전, 연이율",
+    "baseDate": "2023/02/24, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.20"},
           {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "5.02"},
+          {"duration": null, "rate": "4.83"},
           {"duration": null, "rate": "4.40"},
           {"duration": null, "rate": "4.40"},
           {"duration": null, "rate": "4.40"}
@@ -26,7 +26,7 @@
           {"duration": 0, "rate": "1.00"},
           {"duration": 3, "rate": "1.20"},
           {"duration": 6, "rate": "1.50"},
-          {"duration": 12, "rate": "5.02"},
+          {"duration": 12, "rate": "4.83"},
           {"duration": 24, "rate": "4.40"},
           {"duration": 36, "rate": "4.40"}
         ]
@@ -38,7 +38,7 @@
           {"duration": 3, "rate": "1.05"},
           {"duration": 6, "rate": "1.35"},
           {"duration": 9, "rate": "1.35"},
-          {"duration": 12, "rate": "4.87"},
+          {"duration": 12, "rate": "4.68"},
           {"duration": 18, "rate": "4.25"},
           {"duration": 24, "rate": "4.25"},
           {"duration": 30, "rate": "4.25"},
@@ -47,7 +47,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.00"}]
+        "entries": [{"duration": 12, "rate": "4.83"}]
       },
       {
         "title": "MG기업정기예금(A)",
@@ -55,7 +55,7 @@
           {"duration": 1, "rate": "1.20"},
           {"duration": 3, "rate": "1.20"},
           {"duration": 6, "rate": "1.50"},
-          {"duration": 12, "rate": "5.02"},
+          {"duration": 12, "rate": "4.83"},
           {"duration": 18, "rate": "4.40"},
           {"duration": 24, "rate": "4.40"}
         ]
@@ -66,7 +66,7 @@
           {"duration": 1, "rate": "1.20"},
           {"duration": 3, "rate": "1.20"},
           {"duration": 6, "rate": "1.50"},
-          {"duration": 12, "rate": "5.02"},
+          {"duration": 12, "rate": "4.83"},
           {"duration": 18, "rate": "4.40"},
           {"duration": 24, "rate": "4.40"}
         ]
@@ -85,20 +85,20 @@
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "5.02"}
+          {"duration": null, "rate": "4.83"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/23, 세금공제전, 연이율",
+    "baseDate": "2023/02/24, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.10"},
-          {"duration": 24, "rate": "3.20"},
-          {"duration": 36, "rate": "3.30"}
+          {"duration": 12, "rate": "4.20"},
+          {"duration": 24, "rate": "4.40"},
+          {"duration": 36, "rate": "4.40"}
         ]
       },
       {
@@ -121,9 +121,9 @@
         "entries": [
           {"duration": 1, "rate": "0.00"},
           {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "3.10"},
-          {"duration": 24, "rate": "3.20"},
-          {"duration": 36, "rate": "3.30"}
+          {"duration": 12, "rate": "4.20"},
+          {"duration": 24, "rate": "4.40"},
+          {"duration": 36, "rate": "4.40"}
         ]
       },
       {
@@ -152,5 +152,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/23, 세금공제전, 연이율"
+  "baseDate": "2023/02/24, 세금공제전, 연이율"
 }

@@ -7,7 +7,7 @@
     "r2": "부여군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/23, 세금공제전, 연이율",
+    "baseDate": "2023/02/24, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기예탁금",
@@ -19,7 +19,7 @@
           {"duration": null, "rate": "3.42"},
           {"duration": null, "rate": "3.39"},
           {"duration": null, "rate": "3.33"},
-          {"duration": null, "rate": "3.15"}
+          {"duration": null, "rate": "3.23"}
         ]
       },
       {
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/23, 세금공제전, 연이율",
+    "baseDate": "2023/02/24, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기적금",
@@ -167,5 +167,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/23, 세금공제전, 연이율"
+  "baseDate": "2023/02/24, 세금공제전, 연이율"
 }
