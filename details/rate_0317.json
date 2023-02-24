@@ -7,7 +7,7 @@
     "r2": "용산구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/24, 세금공제전, 연이율",
+    "baseDate": "2023/02/25, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기예탁금",
@@ -48,7 +48,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.00"}]
+        "entries": [{"duration": 12, "rate": "4.70"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/24, 세금공제전, 연이율",
+    "baseDate": "2023/02/25, 세금공제전, 연이율",
     "products": [
       {
         "title": "정기적금",
@@ -133,7 +133,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "5.38"}]
+        "entries": [{"duration": 12, "rate": "4.50"}]
       },
       {
         "title": "My꿈모아자유적금",
@@ -141,5 +141,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/24, 세금공제전, 연이율"
+  "baseDate": "2023/02/25, 세금공제전, 연이율"
 }
