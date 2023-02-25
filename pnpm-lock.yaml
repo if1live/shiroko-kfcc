@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 importers:
 
@@ -39,7 +39,7 @@ importers:
       '@types/node': 18.11.18
       expect: 29.3.1
       mocha: 10.2.0
-      ts-node: 10.9.1_b21d5d5db7a4e527ef6164ab47f157dc
+      ts-node: 10.9.1_wiov2xnxutssp33bmsvup4kx3q
       typescript: 4.9.4
 
   packages/frontend:
@@ -1386,7 +1386,7 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /ts-node/10.9.1_b21d5d5db7a4e527ef6164ab47f157dc:
+  /ts-node/10.9.1_wiov2xnxutssp33bmsvup4kx3q:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
