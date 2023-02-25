@@ -133,8 +133,13 @@ describe("parseRate", () => {
 });
 
 describe("parseBaseDate", () => {
-  it("ok", () => {
+  it("조회기준일(2023/01/03)", () => {
     const actual = parseBaseDate("조회기준일(2023/01/03)");
     expect(actual).toBe("2023/01/03");
+  });
+
+  it("조회기준일(2023/02/25), 세금공제전, 연이율", () => {
+    const actual = parseBaseDate("조회기준일(2023/02/25), 세금공제전, 연이율");
+    expect(actual).toBe("2023/02/25");
   });
 });

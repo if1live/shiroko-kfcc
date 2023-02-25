@@ -51,6 +51,7 @@ export function parseInterestRateHtml(text: string): InterestRateSnapshot {
   const elem_baseDate = root.querySelector(".base-date");
   const baseDateRaw = elem_baseDate?.textContent ?? "<blank>";
   // "조회기준일(2022/02/13)"
+  // "조회기준일(2023/02/25), 세금공제전, 연이율"
   // console.log(baseDate_text);
 
   const elems_table = root.querySelectorAll(".tblWrap");
@@ -106,5 +107,10 @@ export function parseRate(input: string): string | null {
 }
 
 export function parseBaseDate(input: string): string {
-  return input.replace("조회기준일", "").replace("(", "").replace(")", "");
+  const re = /\d{4}\/\d{2}\/\d{2}/;
+  const m = re.exec(input);
+  if (!m) {
+    return "";
+  }
+  return m[0];
 }
