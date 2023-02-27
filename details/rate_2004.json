@@ -7,7 +7,7 @@
     "r2": "남구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/27",
+    "baseDate": "2023/02/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -39,18 +39,18 @@
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": null, "rate": "0.60"},
-          {"duration": null, "rate": "0.60"},
-          {"duration": null, "rate": "1.00"},
-          {"duration": null, "rate": "1.00"},
-          {"duration": null, "rate": "1.00"},
-          {"duration": null, "rate": "1.20"},
-          {"duration": null, "rate": "1.20"},
-          {"duration": null, "rate": "1.20"},
-          {"duration": null, "rate": "1.20"},
-          {"duration": null, "rate": "1.20"},
-          {"duration": null, "rate": "1.20"},
-          {"duration": null, "rate": "5.00"}
+          {"duration": 1, "rate": "0.60"},
+          {"duration": 2, "rate": "0.60"},
+          {"duration": 3, "rate": "1.00"},
+          {"duration": 4, "rate": "1.00"},
+          {"duration": 5, "rate": "1.00"},
+          {"duration": 6, "rate": "1.20"},
+          {"duration": 7, "rate": "1.20"},
+          {"duration": 8, "rate": "1.20"},
+          {"duration": 9, "rate": "1.20"},
+          {"duration": 10, "rate": "1.20"},
+          {"duration": 11, "rate": "1.20"},
+          {"duration": 12, "rate": "5.00"}
         ]
       },
       {
@@ -60,7 +60,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/27",
+    "baseDate": "2023/02/28",
     "products": [
       {
         "title": "정기적금",
@@ -92,5 +92,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/27"
+  "baseDate": "2023/02/28"
 }

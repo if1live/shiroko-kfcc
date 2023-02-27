@@ -2,12 +2,12 @@
   "id": "4230",
   "bank": {
     "gmgoCd": "4230",
-    "gmgoNm": "북삼",
+    "gmgoNm": "동해남부",
     "r1": "강원",
     "r2": "동해시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/27",
+    "baseDate": "2023/02/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -95,7 +95,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/27",
+    "baseDate": "2023/02/28",
     "products": [
       {
         "title": "정기적금",
@@ -184,5 +184,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/27"
+  "baseDate": "2023/02/28"
 }

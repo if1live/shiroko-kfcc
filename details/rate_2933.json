@@ -7,7 +7,7 @@
     "r2": "영암군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/27",
+    "baseDate": "2023/02/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -22,24 +22,24 @@
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": null, "rate": "0.80"},
-          {"duration": null, "rate": "0.80"},
-          {"duration": null, "rate": "1.00"},
-          {"duration": null, "rate": "1.00"},
-          {"duration": null, "rate": "1.00"},
-          {"duration": null, "rate": "1.15"},
-          {"duration": null, "rate": "1.15"},
-          {"duration": null, "rate": "1.15"},
-          {"duration": null, "rate": "1.30"},
-          {"duration": null, "rate": "1.30"},
-          {"duration": null, "rate": "1.30"},
-          {"duration": null, "rate": "1.30"}
+          {"duration": 1, "rate": "0.80"},
+          {"duration": 2, "rate": "0.80"},
+          {"duration": 3, "rate": "1.00"},
+          {"duration": 4, "rate": "1.00"},
+          {"duration": 5, "rate": "1.00"},
+          {"duration": 6, "rate": "1.15"},
+          {"duration": 7, "rate": "1.15"},
+          {"duration": 8, "rate": "1.15"},
+          {"duration": 9, "rate": "1.30"},
+          {"duration": 10, "rate": "1.30"},
+          {"duration": 11, "rate": "1.30"},
+          {"duration": 12, "rate": "1.30"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/27",
+    "baseDate": "2023/02/28",
     "products": [
       {
         "title": "정기적금",
@@ -63,5 +63,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/27"
+  "baseDate": "2023/02/28"
 }

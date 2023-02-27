@@ -7,7 +7,7 @@
     "r2": "예천군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/27",
+    "baseDate": "2023/02/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -52,24 +52,24 @@
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": null, "rate": "0.40"},
-          {"duration": null, "rate": "0.70"},
-          {"duration": null, "rate": "1.10"},
-          {"duration": null, "rate": "1.40"},
-          {"duration": null, "rate": "1.80"},
-          {"duration": null, "rate": "2.10"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.90"},
-          {"duration": null, "rate": "5.00"}
+          {"duration": 1, "rate": "0.40"},
+          {"duration": 2, "rate": "0.70"},
+          {"duration": 3, "rate": "1.10"},
+          {"duration": 4, "rate": "1.40"},
+          {"duration": 5, "rate": "1.80"},
+          {"duration": 6, "rate": "2.10"},
+          {"duration": 7, "rate": "2.50"},
+          {"duration": 8, "rate": "2.80"},
+          {"duration": 9, "rate": "3.20"},
+          {"duration": 10, "rate": "3.50"},
+          {"duration": 11, "rate": "3.90"},
+          {"duration": 12, "rate": "5.00"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/27",
+    "baseDate": "2023/02/28",
     "products": [
       {
         "title": "정기적금",
@@ -82,10 +82,6 @@
           {"duration": 48, "rate": "4.80"},
           {"duration": 60, "rate": "4.80"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "MG New정기적금",
@@ -139,5 +135,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/27"
+  "baseDate": "2023/02/28"
 }
