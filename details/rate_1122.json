@@ -7,7 +7,7 @@
     "r2": "송파구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/28",
+    "baseDate": "2023/03/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -21,7 +21,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/28",
+    "baseDate": "2023/03/01",
     "products": [
       {
         "title": "정기적금",
@@ -31,10 +31,6 @@
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.80"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 11, "rate": "6.50"}]
       },
       {
         "title": "자유적립적금",
@@ -48,5 +44,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/28"
+  "baseDate": "2023/03/01"
 }

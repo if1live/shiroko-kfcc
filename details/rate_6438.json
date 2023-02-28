@@ -7,7 +7,7 @@
     "r2": "사천시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/02/28",
+    "baseDate": "2023/03/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -70,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/02/28",
+    "baseDate": "2023/03/01",
     "products": [
       {
         "title": "정기적금",
@@ -85,10 +85,6 @@
         ]
       },
       {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 12, "rate": "4.50"}]
-      },
-      {
         "title": "MG New정기적금",
         "entries": [
           {"duration": 12, "rate": "3.85"},
@@ -98,7 +94,7 @@
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "4.20"}]
+        "entries": [{"duration": 12, "rate": "3.90"}]
       },
       {
         "title": "자유적립적금",
@@ -147,5 +143,5 @@
       }
     ]
   },
-  "baseDate": "2023/02/28"
+  "baseDate": "2023/03/01"
 }
