@@ -2,12 +2,12 @@
   "id": "4039",
   "bank": {
     "gmgoCd": "4039",
-    "gmgoNm": "중앙",
+    "gmgoNm": "동두천중앙",
     "r1": "경기",
     "r2": "동두천"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/02",
+    "baseDate": "2023/03/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/02",
+    "baseDate": "2023/03/03",
     "products": [
       {
         "title": "정기적금",
@@ -151,5 +151,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/02"
+  "baseDate": "2023/03/03"
 }
