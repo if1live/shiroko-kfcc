@@ -7,7 +7,7 @@
     "r2": "남구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/05",
+    "baseDate": "2023/03/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -75,38 +75,38 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/05",
+    "baseDate": "2023/03/06",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "4.80"},
-          {"duration": 24, "rate": "4.50"},
-          {"duration": 36, "rate": "4.50"}
+          {"duration": 12, "rate": "4.50"},
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.80"},
-          {"duration": 24, "rate": "4.50"},
-          {"duration": 36, "rate": "4.50"}
+          {"duration": 12, "rate": "4.50"},
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "4.50"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "4.30"}]
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "4.80"}
+          {"duration": 12, "rate": "4.50"}
         ]
       },
       {
@@ -165,5 +165,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/05"
+  "baseDate": "2023/03/06"
 }
