@@ -7,7 +7,7 @@
     "r2": "삼척시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/06",
+    "baseDate": "2023/03/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -45,6 +45,28 @@
         ]
       },
       {
+        "title": "MG기업정기예금(A)",
+        "entries": [
+          {"duration": 1, "rate": "2.30"},
+          {"duration": 3, "rate": "2.30"},
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 12, "rate": "3.90"},
+          {"duration": 18, "rate": "3.90"},
+          {"duration": 24, "rate": "4.00"}
+        ]
+      },
+      {
+        "title": "MG기업정기예금(B)",
+        "entries": [
+          {"duration": 1, "rate": "2.30"},
+          {"duration": 3, "rate": "2.30"},
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 12, "rate": "3.90"},
+          {"duration": 18, "rate": "3.90"},
+          {"duration": 24, "rate": "4.00"}
+        ]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.30"},
@@ -68,7 +90,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/06",
+    "baseDate": "2023/03/07",
     "products": [
       {
         "title": "정기적금",
@@ -132,5 +154,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/06"
+  "baseDate": "2023/03/07"
 }

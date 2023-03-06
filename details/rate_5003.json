@@ -7,17 +7,17 @@
     "r2": "정읍시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/06",
+    "baseDate": "2023/03/07",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "4.90"},
           {"duration": null, "rate": "4.70"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "3.90"}
+          {"duration": null, "rate": "4.50"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.70"}
         ]
       },
       {
@@ -25,15 +25,15 @@
         "entries": [
           {"duration": 0, "rate": "1.50"},
           {"duration": 3, "rate": "1.50"},
-          {"duration": 6, "rate": "4.90"},
-          {"duration": 12, "rate": "4.70"},
-          {"duration": 24, "rate": "4.00"},
-          {"duration": 36, "rate": "3.90"}
+          {"duration": 6, "rate": "4.70"},
+          {"duration": 12, "rate": "4.50"},
+          {"duration": 24, "rate": "3.80"},
+          {"duration": 36, "rate": "3.70"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.70"}]
+        "entries": [{"duration": 12, "rate": "4.50"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -43,23 +43,23 @@
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "4.90"},
+          {"duration": null, "rate": "4.70"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "4.70"}
+          {"duration": null, "rate": "4.50"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "4.70"}]
+        "entries": [{"duration": 12, "rate": "4.50"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/06",
+    "baseDate": "2023/03/07",
     "products": [
       {
         "title": "정기적금",
@@ -112,5 +112,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/06"
+  "baseDate": "2023/03/07"
 }
