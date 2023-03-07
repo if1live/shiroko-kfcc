@@ -7,7 +7,7 @@
     "r2": "군포시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/07",
+    "baseDate": "2023/03/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -35,8 +35,8 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "0.00"},
+          {"duration": 1, "rate": "1.50"},
+          {"duration": 3, "rate": "3.50"},
           {"duration": 6, "rate": "4.00"},
           {"duration": 9, "rate": "4.00"},
           {"duration": 12, "rate": "4.60"},
@@ -96,7 +96,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/07",
+    "baseDate": "2023/03/08",
     "products": [
       {
         "title": "정기적금",
@@ -188,5 +188,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/07"
+  "baseDate": "2023/03/08"
 }
