@@ -2,12 +2,12 @@
   "id": "0624",
   "bank": {
     "gmgoCd": "0624",
-    "gmgoNm": "장위2동",
+    "gmgoNm": "서울북부",
     "r1": "서울",
     "r2": "성북구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/08",
+    "baseDate": "2023/03/09",
     "products": [
       {
         "title": "정기예탁금",
@@ -68,7 +68,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/08",
+    "baseDate": "2023/03/09",
     "products": [
       {
         "title": "정기적금",
@@ -126,5 +126,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/08"
+  "baseDate": "2023/03/09"
 }
