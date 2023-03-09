@@ -2,12 +2,12 @@
   "id": "4202",
   "bank": {
     "gmgoCd": "4202",
-    "gmgoNm": "홍제",
+    "gmgoNm": "새강릉",
     "r1": "강원",
     "r2": "강릉시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/09",
+    "baseDate": "2023/03/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/09",
+    "baseDate": "2023/03/10",
     "products": [
       {
         "title": "정기적금",
@@ -167,5 +167,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/09"
+  "baseDate": "2023/03/10"
 }
