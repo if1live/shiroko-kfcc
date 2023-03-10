@@ -2,12 +2,12 @@
   "id": "0413",
   "bank": {
     "gmgoCd": "0413",
-    "gmgoNm": "홍은동",
+    "gmgoNm": "홍은",
     "r1": "서울",
     "r2": "서대문구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/10",
+    "baseDate": "2023/03/11",
     "products": [
       {
         "title": "정기예탁금",
@@ -94,7 +94,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/10",
+    "baseDate": "2023/03/11",
     "products": [
       {
         "title": "정기적금",
@@ -149,5 +149,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/10"
+  "baseDate": "2023/03/11"
 }

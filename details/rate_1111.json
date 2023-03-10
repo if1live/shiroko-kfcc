@@ -7,7 +7,7 @@
     "r2": "강남구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/10",
+    "baseDate": "2023/03/11",
     "products": [
       {
         "title": "정기예탁금",
@@ -64,13 +64,13 @@
           {"duration": 9, "rate": "3.80"},
           {"duration": 10, "rate": "3.80"},
           {"duration": 11, "rate": "3.80"},
-          {"duration": 12, "rate": "4.60"}
+          {"duration": 12, "rate": "4.50"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/10",
+    "baseDate": "2023/03/11",
     "products": [
       {
         "title": "정기적금",
@@ -125,5 +125,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/10"
+  "baseDate": "2023/03/11"
 }
