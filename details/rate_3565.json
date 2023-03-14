@@ -7,7 +7,7 @@
     "r2": "성남시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/14",
+    "baseDate": "2023/03/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -29,7 +29,7 @@
           {"duration": 0, "rate": "1.00"},
           {"duration": 3, "rate": "1.90"},
           {"duration": 6, "rate": "3.70"},
-          {"duration": 12, "rate": "4.70"},
+          {"duration": 12, "rate": "4.50"},
           {"duration": 24, "rate": "3.90"},
           {"duration": 36, "rate": "3.90"}
         ]
@@ -50,7 +50,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.50"}]
+        "entries": [{"duration": 12, "rate": "4.30"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -76,7 +76,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/14",
+    "baseDate": "2023/03/15",
     "products": [
       {
         "title": "정기적금",
@@ -170,5 +170,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/14"
+  "baseDate": "2023/03/15"
 }
