@@ -7,7 +7,7 @@
     "r2": "평택시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/15",
+    "baseDate": "2023/03/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -40,7 +40,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/15",
+    "baseDate": "2023/03/16",
     "products": [
       {
         "title": "정기적금",
@@ -52,7 +52,7 @@
       },
       {
         "title": "MG New정기적금",
-        "entries": [{"duration": 12, "rate": "8.00"}]
+        "entries": [{"duration": 12, "rate": "7.00"}]
       },
       {
         "title": "MG더뱅킹정기적금",
@@ -77,5 +77,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/15"
+  "baseDate": "2023/03/16"
 }
