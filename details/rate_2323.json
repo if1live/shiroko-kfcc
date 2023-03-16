@@ -7,7 +7,7 @@
     "r2": "부평구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/16",
+    "baseDate": "2023/03/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -64,12 +64,12 @@
       {
         "title": "MG기업정기예금(B)",
         "entries": [
-          {"duration": 1, "rate": "2.20"},
-          {"duration": 3, "rate": "3.90"},
-          {"duration": 6, "rate": "4.50"},
-          {"duration": 12, "rate": "5.00"},
-          {"duration": 18, "rate": "4.00"},
-          {"duration": 24, "rate": "4.00"}
+          {"duration": 1, "rate": "1.50"},
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 6, "rate": "3.50"},
+          {"duration": 12, "rate": "4.10"},
+          {"duration": 18, "rate": "3.50"},
+          {"duration": 24, "rate": "3.50"}
         ]
       },
       {
@@ -96,7 +96,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/16",
+    "baseDate": "2023/03/17",
     "products": [
       {
         "title": "정기적금",
@@ -186,5 +186,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/16"
+  "baseDate": "2023/03/17"
 }

@@ -7,7 +7,7 @@
     "r2": "안성시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/16",
+    "baseDate": "2023/03/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -70,12 +70,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "4.70"}]
+        "entries": [{"duration": 12, "rate": "4.55"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/16",
+    "baseDate": "2023/03/17",
     "products": [
       {
         "title": "정기적금",
@@ -167,5 +167,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/16"
+  "baseDate": "2023/03/17"
 }
