@@ -2,12 +2,12 @@
   "id": "4337",
   "bank": {
     "gmgoCd": "4337",
-    "gmgoNm": "삼일",
+    "gmgoNm": "횡성중앙",
     "r1": "강원",
     "r2": "횡성군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/20",
+    "baseDate": "2023/03/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -78,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/20",
+    "baseDate": "2023/03/21",
     "products": [
       {
         "title": "정기적금",
@@ -171,5 +171,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/20"
+  "baseDate": "2023/03/21"
 }
