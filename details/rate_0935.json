@@ -2,12 +2,12 @@
   "id": "0935",
   "bank": {
     "gmgoCd": "0935",
-    "gmgoNm": "독산1동",
+    "gmgoNm": "금천중앙",
     "r1": "서울",
     "r2": "금천구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/22",
+    "baseDate": "2023/03/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/22",
+    "baseDate": "2023/03/23",
     "products": [
       {
         "title": "정기적금",
@@ -140,5 +140,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/22"
+  "baseDate": "2023/03/23"
 }
