@@ -83,6 +83,56 @@ function formatBaseDate(cell: string, row: Row) {
   </div>`);
 }
 
+function formatGongsi(cell: string, row: Row) {
+  const id = row.cells[0].data as string;
+  const now = new Date();
+
+  const year = now.getUTCFullYear();
+  const month = now.getUTCMonth() + 1;
+
+  type YearMonth = [number, number];
+  type EntryList = [YearMonth, YearMonth];
+
+  // 상반기에는 작년 정보를 제공
+  const entries_firstHalf: EntryList = [
+    [year - 1, 12],
+    [year - 1, 6],
+  ];
+
+  // 하반기는 올해의 6월 공시가 있을수도 있다
+  const entries_secondHalf: EntryList = [
+    [year, 6],
+    [year - 1, 12],
+  ];
+
+  const [first, second] = month < 6 ? entries_firstHalf : entries_secondHalf;
+
+  return html(`<div>
+  ${createGongsiForm(id, first[0], first[1])}
+  ${createGongsiForm(id, second[0], second[1])}
+  </div>`);
+}
+
+function createGongsiForm(id: string, year: number, month: number) {
+  const y = `${year}`;
+  const m = `${month}`.padStart(2, "0");
+
+  return `
+  <form method="post" action="https://www.kfcc.co.kr/gumgo/gum0301_view_new.do" target="_blank">
+    <input type="hidden" name="procGbcd" value="1">
+    <input type="hidden" name="pageNo" value="">
+    <input type="hidden" name="gongsiGmgoid" value="">
+    <input type="hidden" name="gmgocd" value="${id}">
+    <input type="hidden" name="hpageBrwsUm" value="1">
+    <input type="hidden" name="gongsiDate" value="">
+    <input type="hidden" name="strd_yymm" value="${y}${m}">
+    <input type="hidden" name="gonsiYear" value="${y}">
+    <input type="hidden" name="gonsiMonth" value="${m}">
+    <input type="submit" class="button ui mini" value="${y}/${m}">
+  </form>
+  `;
+}
+
 function initializeGrid(entries: CompactEntry[]) {
   const grid = new Grid({
     data: entries as any,
@@ -114,6 +164,13 @@ function initializeGrid(entries: CompactEntry[]) {
         name: "기준일",
         formatter: formatBaseDate,
         width: "5%",
+      },
+      {
+        id: "gongsi",
+        name: "정기공시",
+        sort: false,
+        formatter: formatGongsi,
+        width: "10%",
       },
     ],
     sort: true,
