@@ -7,7 +7,7 @@
     "r2": "양평군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/26",
+    "baseDate": "2023/03/27",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,17 +73,17 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/26",
+    "baseDate": "2023/03/27",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "4.50"},
-          {"duration": 24, "rate": "4.60"},
-          {"duration": 36, "rate": "4.70"},
-          {"duration": 48, "rate": "4.70"},
-          {"duration": 60, "rate": "4.70"}
+          {"duration": 12, "rate": "5.00"},
+          {"duration": 24, "rate": "5.10"},
+          {"duration": 36, "rate": "5.20"},
+          {"duration": 48, "rate": "5.20"},
+          {"duration": 60, "rate": "5.20"}
         ]
       },
       {
@@ -150,5 +150,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/26"
+  "baseDate": "2023/03/27"
 }
