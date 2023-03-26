@@ -83,7 +83,7 @@ function formatBaseDate(cell: string, row: Row) {
   </div>`);
 }
 
-function formatGongsi(cell: string, row: Row) {
+function formatGongsi(_cell: string, row: Row) {
   const id = row.cells[0].data as string;
   const now = new Date();
 
