@@ -2,12 +2,12 @@
   "id": "6116",
   "bank": {
     "gmgoCd": "6116",
-    "gmgoNm": "SNT중공업(주)",
+    "gmgoNm": "SNT다이내믹스(주)",
     "r1": "경남",
     "r2": "창원시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/27",
+    "baseDate": "2023/03/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -58,7 +58,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/27",
+    "baseDate": "2023/03/28",
     "products": [
       {
         "title": "정기적금",
@@ -129,5 +129,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/27"
+  "baseDate": "2023/03/28"
 }
