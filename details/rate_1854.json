@@ -2,12 +2,12 @@
   "id": "1854",
   "bank": {
     "gmgoCd": "1854",
-    "gmgoNm": "대봉",
+    "gmgoNm": "중대구",
     "r1": "대구",
     "r2": "중구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/03/29",
+    "baseDate": "2023/03/30",
     "products": [
       {
         "title": "정기예탁금",
@@ -64,7 +64,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/03/29",
+    "baseDate": "2023/03/30",
     "products": [
       {
         "title": "정기적금",
@@ -139,5 +139,5 @@
       }
     ]
   },
-  "baseDate": "2023/03/29"
+  "baseDate": "2023/03/30"
 }
