@@ -7,7 +7,7 @@
     "r2": "청주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/04/02",
+    "baseDate": "2023/04/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -50,13 +50,13 @@
           {"duration": 9, "rate": "2.10"},
           {"duration": 10, "rate": "2.10"},
           {"duration": 11, "rate": "2.10"},
-          {"duration": 12, "rate": "4.60"}
+          {"duration": 12, "rate": "4.50"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/04/02",
+    "baseDate": "2023/04/03",
     "products": [
       {
         "title": "정기적금",
@@ -107,5 +107,5 @@
       }
     ]
   },
-  "baseDate": "2023/04/02"
+  "baseDate": "2023/04/03"
 }
