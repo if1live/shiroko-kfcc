@@ -7,7 +7,7 @@
     "r2": "동작구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/04/03",
+    "baseDate": "2023/04/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/04/03",
+    "baseDate": "2023/04/04",
     "products": [
       {
         "title": "정기적금",
@@ -82,6 +82,10 @@
           {"duration": 24, "rate": "4.10"},
           {"duration": 36, "rate": "4.20"}
         ]
+      },
+      {
+        "title": "정기적금 (특별한시판매)",
+        "entries": [{"duration": 12, "rate": "10.00"}]
       },
       {
         "title": "우리아기첫걸음정기적금",
@@ -118,5 +122,5 @@
       }
     ]
   },
-  "baseDate": "2023/04/03"
+  "baseDate": "2023/04/04"
 }

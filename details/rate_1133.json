@@ -7,7 +7,7 @@
     "r2": "광진구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/04/03",
+    "baseDate": "2023/04/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -49,7 +49,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.50"}]
+        "entries": [{"duration": 12, "rate": "4.80"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -71,7 +71,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/04/03",
+    "baseDate": "2023/04/04",
     "products": [
       {
         "title": "정기적금",
@@ -82,6 +82,10 @@
           {"duration": 48, "rate": "4.20"},
           {"duration": 60, "rate": "4.20"}
         ]
+      },
+      {
+        "title": "정기적금 (특별한시판매)",
+        "entries": [{"duration": 24, "rate": "10.00"}]
       },
       {
         "title": "MG New정기적금",
@@ -135,5 +139,5 @@
       }
     ]
   },
-  "baseDate": "2023/04/03"
+  "baseDate": "2023/04/04"
 }

@@ -7,7 +7,7 @@
     "r2": "달서구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/04/03",
+    "baseDate": "2023/04/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -50,13 +50,30 @@
         "entries": [{"duration": 12, "rate": "4.50"}]
       },
       {
+        "title": "꿈드림회전정기예탁금",
+        "entries": [
+          {"duration": 1, "rate": "1.80"},
+          {"duration": 2, "rate": "1.80"},
+          {"duration": 3, "rate": "2.00"},
+          {"duration": 4, "rate": "2.00"},
+          {"duration": 5, "rate": "2.00"},
+          {"duration": 6, "rate": "3.70"},
+          {"duration": 7, "rate": "3.70"},
+          {"duration": 8, "rate": "3.70"},
+          {"duration": 9, "rate": "3.70"},
+          {"duration": 10, "rate": "3.70"},
+          {"duration": 11, "rate": "3.70"},
+          {"duration": 12, "rate": "4.50"}
+        ]
+      },
+      {
         "title": "MG주거래우대정기예금",
         "entries": [{"duration": 12, "rate": "1.60"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/04/03",
+    "baseDate": "2023/04/04",
     "products": [
       {
         "title": "정기적금",
@@ -96,5 +113,5 @@
       }
     ]
   },
-  "baseDate": "2023/04/03"
+  "baseDate": "2023/04/04"
 }

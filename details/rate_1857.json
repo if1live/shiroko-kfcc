@@ -1,0 +1,12 @@
+{
+  "id": "1857",
+  "bank": {
+    "gmgoCd": "1857",
+    "gmgoNm": "더조은",
+    "r1": "대구",
+    "r2": "서구"
+  },
+  "deferredDeposit": null,
+  "installmentSavings": null,
+  "baseDate": null
+}
