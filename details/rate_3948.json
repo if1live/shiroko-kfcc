@@ -7,7 +7,7 @@
     "r2": "안성시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/04/04",
+    "baseDate": "2023/04/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -36,8 +36,8 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "0.00"},
+          {"duration": 1, "rate": "2.50"},
+          {"duration": 3, "rate": "3.20"},
           {"duration": 6, "rate": "3.60"},
           {"duration": 9, "rate": "3.60"},
           {"duration": 12, "rate": "4.35"},
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/04/04",
+    "baseDate": "2023/04/05",
     "products": [
       {
         "title": "정기적금",
@@ -98,7 +98,7 @@
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "5.00"}]
+        "entries": [{"duration": 12, "rate": "4.50"}]
       },
       {
         "title": "MG뛰어라정기적금",
@@ -121,7 +121,7 @@
           {"duration": 24, "rate": "4.10"},
           {"duration": 36, "rate": "4.10"},
           {"duration": 48, "rate": "4.10"},
-          {"duration": 60, "rate": "4.30"}
+          {"duration": 60, "rate": "4.10"}
         ]
       },
       {
@@ -167,5 +167,5 @@
       }
     ]
   },
-  "baseDate": "2023/04/04"
+  "baseDate": "2023/04/05"
 }
