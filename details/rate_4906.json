@@ -7,7 +7,7 @@
     "r2": "남원시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/04/05",
+    "baseDate": "2023/04/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -54,7 +54,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/04/05",
+    "baseDate": "2023/04/06",
     "products": [
       {
         "title": "정기적금",
@@ -120,5 +120,5 @@
       }
     ]
   },
-  "baseDate": "2023/04/05"
+  "baseDate": "2023/04/06"
 }
