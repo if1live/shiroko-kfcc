@@ -7,7 +7,7 @@
     "r2": "진주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/04/09",
+    "baseDate": "2023/04/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -38,11 +38,11 @@
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 9, "rate": "2.80"},
-          {"duration": 12, "rate": "4.20"},
-          {"duration": 18, "rate": "4.20"},
-          {"duration": 24, "rate": "4.20"},
-          {"duration": 30, "rate": "4.20"},
-          {"duration": 36, "rate": "4.20"}
+          {"duration": 12, "rate": "4.10"},
+          {"duration": 18, "rate": "4.00"},
+          {"duration": 24, "rate": "3.80"},
+          {"duration": 30, "rate": "3.80"},
+          {"duration": 36, "rate": "3.60"}
         ]
       },
       {
@@ -63,17 +63,17 @@
           {"duration": 9, "rate": "2.50"},
           {"duration": 10, "rate": "2.50"},
           {"duration": 11, "rate": "2.50"},
-          {"duration": 12, "rate": "4.20"}
+          {"duration": 12, "rate": "4.10"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "4.20"}]
+        "entries": [{"duration": 12, "rate": "4.10"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/04/09",
+    "baseDate": "2023/04/10",
     "products": [
       {
         "title": "정기적금",
@@ -149,5 +149,5 @@
       }
     ]
   },
-  "baseDate": "2023/04/09"
+  "baseDate": "2023/04/10"
 }
