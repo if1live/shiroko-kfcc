@@ -7,7 +7,7 @@
     "r2": "양천구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/04/12",
+    "baseDate": "2023/04/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -96,7 +96,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/04/12",
+    "baseDate": "2023/04/13",
     "products": [
       {
         "title": "정기적금",
@@ -107,10 +107,6 @@
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.60"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 12, "rate": "10.00"}]
       },
       {
         "title": "MG New정기적금",
@@ -190,5 +186,5 @@
       }
     ]
   },
-  "baseDate": "2023/04/12"
+  "baseDate": "2023/04/13"
 }

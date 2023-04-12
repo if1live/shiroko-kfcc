@@ -2,12 +2,12 @@
   "id": "1442",
   "bank": {
     "gmgoCd": "1442",
-    "gmgoNm": "남천동",
+    "gmgoNm": "남천",
     "r1": "부산",
     "r2": "수영구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/04/12",
+    "baseDate": "2023/04/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -64,7 +64,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/04/12",
+    "baseDate": "2023/04/13",
     "products": [
       {
         "title": "정기적금",
@@ -104,5 +104,5 @@
       }
     ]
   },
-  "baseDate": "2023/04/12"
+  "baseDate": "2023/04/13"
 }
