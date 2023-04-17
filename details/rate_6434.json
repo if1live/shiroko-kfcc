@@ -7,7 +7,7 @@
     "r2": "사천시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/04/17",
+    "baseDate": "2023/04/18",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,9 +15,9 @@
           {"duration": null, "rate": "0.30"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "4.30"},
-          {"duration": null, "rate": "4.30"},
-          {"duration": null, "rate": "4.30"}
+          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "3.50"}
         ]
       },
       {
@@ -26,9 +26,9 @@
           {"duration": 0, "rate": "0.30"},
           {"duration": 3, "rate": "3.00"},
           {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "4.30"},
-          {"duration": 24, "rate": "4.30"},
-          {"duration": 36, "rate": "4.30"}
+          {"duration": 12, "rate": "4.00"},
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
@@ -45,13 +45,13 @@
           {"duration": 9, "rate": "3.50"},
           {"duration": 10, "rate": "3.50"},
           {"duration": 11, "rate": "3.50"},
-          {"duration": 12, "rate": "4.30"}
+          {"duration": 12, "rate": "4.00"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/04/17",
+    "baseDate": "2023/04/18",
     "products": [
       {
         "title": "정기적금",
@@ -91,5 +91,5 @@
       }
     ]
   },
-  "baseDate": "2023/04/17"
+  "baseDate": "2023/04/18"
 }

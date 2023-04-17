@@ -2,12 +2,12 @@
   "id": "1518",
   "bank": {
     "gmgoCd": "1518",
-    "gmgoNm": "개금2동",
+    "gmgoNm": "새희망",
     "r1": "부산",
     "r2": "부산진구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/04/17",
+    "baseDate": "2023/04/18",
     "products": [
       {
         "title": "정기예탁금",
@@ -54,7 +54,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/04/17",
+    "baseDate": "2023/04/18",
     "products": [
       {
         "title": "정기적금",
@@ -134,5 +134,5 @@
       }
     ]
   },
-  "baseDate": "2023/04/17"
+  "baseDate": "2023/04/18"
 }
