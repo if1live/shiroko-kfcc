@@ -7,7 +7,7 @@
     "r2": "전주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/04/20",
+    "baseDate": "2023/04/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -22,6 +22,7 @@
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"}
         ]
       },
@@ -78,7 +79,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/04/20",
+    "baseDate": "2023/04/21",
     "products": [
       {
         "title": "정기적금",
@@ -149,5 +150,5 @@
       }
     ]
   },
-  "baseDate": "2023/04/20"
+  "baseDate": "2023/04/21"
 }

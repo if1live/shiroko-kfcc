@@ -7,7 +7,7 @@
     "r2": "창원시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/04/20",
+    "baseDate": "2023/04/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -46,7 +46,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/04/20",
+    "baseDate": "2023/04/21",
     "products": [
       {
         "title": "정기적금",
@@ -56,6 +56,10 @@
           {"duration": 36, "rate": "3.00"},
           {"duration": 37, "rate": "3.00"}
         ]
+      },
+      {
+        "title": "정기적금 (특별한시판매)",
+        "entries": [{"duration": 12, "rate": "4.20"}]
       },
       {
         "title": "MG더뱅킹정기적금",
@@ -105,5 +109,5 @@
       }
     ]
   },
-  "baseDate": "2023/04/20"
+  "baseDate": "2023/04/21"
 }
