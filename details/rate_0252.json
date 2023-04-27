@@ -7,14 +7,14 @@
     "r2": "중구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/04/27",
+    "baseDate": "2023/04/28",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "4.60"},
+          {"duration": null, "rate": "4.90"},
           {"duration": null, "rate": "4.00"},
           {"duration": null, "rate": "4.10"}
         ]
@@ -54,7 +54,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/04/27",
+    "baseDate": "2023/04/28",
     "products": [
       {
         "title": "정기적금",
@@ -98,5 +98,5 @@
       }
     ]
   },
-  "baseDate": "2023/04/27"
+  "baseDate": "2023/04/28"
 }
