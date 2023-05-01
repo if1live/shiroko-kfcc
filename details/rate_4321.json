@@ -7,7 +7,7 @@
     "r2": "원주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/01",
+    "baseDate": "2023/05/02",
     "products": [
       {
         "title": "정기예탁금",
@@ -92,7 +92,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/01",
+    "baseDate": "2023/05/02",
     "products": [
       {
         "title": "정기적금",
@@ -126,7 +126,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "4.10"}
+          {"duration": 12, "rate": "5.60"}
         ]
       },
       {
@@ -184,5 +184,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/01"
+  "baseDate": "2023/05/02"
 }
