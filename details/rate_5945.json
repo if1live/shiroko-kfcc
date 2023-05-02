@@ -7,7 +7,7 @@
     "r2": "청송군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/02",
+    "baseDate": "2023/05/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -38,7 +38,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/02",
+    "baseDate": "2023/05/03",
     "products": [
       {
         "title": "정기적금",
@@ -49,8 +49,12 @@
           {"duration": 36, "rate": "4.00"},
           {"duration": 48, "rate": "4.00"},
           {"duration": 50, "rate": "4.00"},
-          {"duration": 60, "rate": "4.00"}
+          {"duration": 60, "rate": "6.00"}
         ]
+      },
+      {
+        "title": "MG New정기적금",
+        "entries": [{"duration": 36, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -71,5 +75,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/02"
+  "baseDate": "2023/05/03"
 }

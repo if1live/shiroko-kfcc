@@ -7,7 +7,7 @@
     "r2": "김천시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/02",
+    "baseDate": "2023/05/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -28,7 +28,7 @@
           {"duration": 0, "rate": "1.00"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "4.70"},
+          {"duration": 12, "rate": "4.60"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.60"}
         ]
@@ -52,12 +52,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "4.50"}]
+        "entries": [{"duration": 12, "rate": "4.40"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/02",
+    "baseDate": "2023/05/03",
     "products": [
       {
         "title": "정기적금",
@@ -93,5 +93,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/02"
+  "baseDate": "2023/05/03"
 }
