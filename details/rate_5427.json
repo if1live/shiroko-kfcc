@@ -2,12 +2,12 @@
   "id": "5427",
   "bank": {
     "gmgoCd": "5427",
-    "gmgoNm": "낙동",
+    "gmgoNm": "새상주",
     "r1": "경북",
     "r2": "상주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/08",
+    "baseDate": "2023/05/09",
     "products": [
       {
         "title": "정기예탁금",
@@ -56,7 +56,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/08",
+    "baseDate": "2023/05/09",
     "products": [
       {
         "title": "정기적금",
@@ -146,5 +146,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/08"
+  "baseDate": "2023/05/09"
 }
