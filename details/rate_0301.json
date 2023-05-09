@@ -7,17 +7,17 @@
     "r2": "용산구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/09",
+    "baseDate": "2023/05/10",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.02"},
-          {"duration": null, "rate": "2.42"},
-          {"duration": null, "rate": "3.42"},
-          {"duration": null, "rate": "4.52"},
-          {"duration": null, "rate": "4.02"},
-          {"duration": null, "rate": "4.02"}
+          {"duration": null, "rate": "2.22"},
+          {"duration": null, "rate": "3.22"},
+          {"duration": null, "rate": "4.32"},
+          {"duration": null, "rate": "3.82"},
+          {"duration": null, "rate": "3.82"}
         ]
       },
       {
@@ -29,22 +29,22 @@
         "entries": [
           {"duration": null, "rate": "1.02"},
           {"duration": null, "rate": "1.02"},
-          {"duration": null, "rate": "2.42"},
-          {"duration": null, "rate": "2.42"},
-          {"duration": null, "rate": "2.42"},
-          {"duration": null, "rate": "3.42"},
-          {"duration": null, "rate": "3.42"},
-          {"duration": null, "rate": "3.42"},
-          {"duration": null, "rate": "3.42"},
-          {"duration": null, "rate": "3.42"},
-          {"duration": null, "rate": "3.42"},
-          {"duration": null, "rate": "4.52"}
+          {"duration": null, "rate": "2.22"},
+          {"duration": null, "rate": "2.22"},
+          {"duration": null, "rate": "2.22"},
+          {"duration": null, "rate": "3.22"},
+          {"duration": null, "rate": "3.22"},
+          {"duration": null, "rate": "3.22"},
+          {"duration": null, "rate": "3.22"},
+          {"duration": null, "rate": "3.22"},
+          {"duration": null, "rate": "3.22"},
+          {"duration": null, "rate": "4.32"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/09",
+    "baseDate": "2023/05/10",
     "products": [
       {
         "title": "정기적금",
@@ -94,5 +94,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/09"
+  "baseDate": "2023/05/10"
 }
