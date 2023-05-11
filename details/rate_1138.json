@@ -7,7 +7,7 @@
     "r2": "광진구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/10",
+    "baseDate": "2023/05/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -45,11 +45,28 @@
           {"duration": 30, "rate": "0.00"},
           {"duration": 36, "rate": "0.00"}
         ]
+      },
+      {
+        "title": "꿈드림회전정기예탁금",
+        "entries": [
+          {"duration": 1, "rate": "1.30"},
+          {"duration": 2, "rate": "2.00"},
+          {"duration": 3, "rate": "2.50"},
+          {"duration": 4, "rate": "2.50"},
+          {"duration": 5, "rate": "2.50"},
+          {"duration": 6, "rate": "3.60"},
+          {"duration": 7, "rate": "3.60"},
+          {"duration": 8, "rate": "3.60"},
+          {"duration": 9, "rate": "3.60"},
+          {"duration": 10, "rate": "3.60"},
+          {"duration": 11, "rate": "3.60"},
+          {"duration": 12, "rate": "4.30"}
+        ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/10",
+    "baseDate": "2023/05/12",
     "products": [
       {
         "title": "정기적금",
@@ -87,5 +104,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/10"
+  "baseDate": "2023/05/12"
 }
