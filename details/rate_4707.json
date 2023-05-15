@@ -7,7 +7,7 @@
     "r2": "충주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/15",
+    "baseDate": "2023/05/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -51,6 +51,10 @@
         ]
       },
       {
+        "title": "MG더뱅킹정기예금",
+        "entries": [{"duration": 12, "rate": "4.40"}]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.00"},
@@ -74,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/15",
+    "baseDate": "2023/05/16",
     "products": [
       {
         "title": "정기적금",
@@ -96,6 +100,13 @@
         "entries": [{"duration": 12, "rate": "4.40"}]
       },
       {
+        "title": "MG더뱅킹정기적금",
+        "entries": [
+          {"duration": 6, "rate": "0.00"},
+          {"duration": 12, "rate": "4.40"}
+        ]
+      },
+      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "1.00"},
@@ -113,6 +124,10 @@
       },
       {
         "title": "MG주거래우대자유적금",
+        "entries": [{"duration": 12, "rate": "4.40"}]
+      },
+      {
+        "title": "MG더뱅킹자유적금",
         "entries": [{"duration": 12, "rate": "4.40"}]
       },
       {
@@ -142,5 +157,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/15"
+  "baseDate": "2023/05/16"
 }

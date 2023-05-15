@@ -7,7 +7,7 @@
     "r2": "광진구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/15",
+    "baseDate": "2023/05/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -69,7 +69,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/15",
+    "baseDate": "2023/05/16",
     "products": [
       {
         "title": "정기적금",
@@ -83,8 +83,8 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "6.00"},
-          {"duration": 24, "rate": "8.00"}
+          {"duration": 12, "rate": "4.20"},
+          {"duration": 24, "rate": "4.50"}
         ]
       },
       {
@@ -149,5 +149,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/15"
+  "baseDate": "2023/05/16"
 }
