@@ -7,7 +7,7 @@
     "r2": "당진시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/19",
+    "baseDate": "2023/05/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -92,7 +92,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/19",
+    "baseDate": "2023/05/20",
     "products": [
       {
         "title": "정기적금",
@@ -103,10 +103,6 @@
           {"duration": 25, "rate": "3.80"},
           {"duration": 49, "rate": "3.00"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 12, "rate": "7.00"}]
       },
       {
         "title": "MG New정기적금",
@@ -183,5 +179,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/19"
+  "baseDate": "2023/05/20"
 }
