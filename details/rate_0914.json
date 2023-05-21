@@ -7,7 +7,7 @@
     "r2": "동작구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/21",
+    "baseDate": "2023/05/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -20,6 +20,16 @@
           {"duration": null, "rate": "4.00"},
           {"duration": null, "rate": "4.00"},
           {"duration": null, "rate": "3.80"}
+        ]
+      },
+      {
+        "title": "정기예탁금 (특별한시판매)",
+        "entries": [
+          {"duration": 1, "rate": "1.70"},
+          {"duration": 3, "rate": "3.50"},
+          {"duration": 6, "rate": "4.00"},
+          {"duration": 12, "rate": "5.00"},
+          {"duration": 13, "rate": "4.00"}
         ]
       },
       {
@@ -75,7 +85,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/21",
+    "baseDate": "2023/05/22",
     "products": [
       {
         "title": "정기적금",
@@ -105,6 +115,10 @@
         ]
       },
       {
+        "title": "MG희망나눔 깡총적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
+      },
+      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "1.40"},
@@ -121,5 +135,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/21"
+  "baseDate": "2023/05/22"
 }

@@ -7,7 +7,7 @@
     "r2": "창원시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/21",
+    "baseDate": "2023/05/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -39,7 +39,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/21",
+    "baseDate": "2023/05/22",
     "products": [
       {
         "title": "정기적금",
@@ -51,6 +51,10 @@
           {"duration": 48, "rate": "3.70"},
           {"duration": 60, "rate": "3.70"}
         ]
+      },
+      {
+        "title": "MG희망나눔 깡총적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -80,5 +84,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/21"
+  "baseDate": "2023/05/22"
 }

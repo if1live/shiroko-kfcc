@@ -7,7 +7,7 @@
     "r2": "진천군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/21",
+    "baseDate": "2023/05/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -70,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/21",
+    "baseDate": "2023/05/22",
     "products": [
       {
         "title": "정기적금",
@@ -104,6 +104,7 @@
           {"duration": 12, "rate": "4.80"}
         ]
       },
+      {"title": "MG희망나눔 깡총적금", "entries": []},
       {
         "title": "자유적립적금",
         "entries": [
@@ -148,5 +149,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/21"
+  "baseDate": "2023/05/22"
 }

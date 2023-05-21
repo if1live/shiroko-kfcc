@@ -7,7 +7,7 @@
     "r2": "청주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/21",
+    "baseDate": "2023/05/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -59,7 +59,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/21",
+    "baseDate": "2023/05/22",
     "products": [
       {
         "title": "정기적금",
@@ -89,6 +89,10 @@
           {"duration": 6, "rate": "3.00"},
           {"duration": 12, "rate": "4.20"}
         ]
+      },
+      {
+        "title": "MG희망나눔 깡총적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -145,5 +149,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/21"
+  "baseDate": "2023/05/22"
 }
