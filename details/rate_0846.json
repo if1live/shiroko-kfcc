@@ -7,7 +7,7 @@
     "r2": "영등포구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/22",
+    "baseDate": "2023/05/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -104,7 +104,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/22",
+    "baseDate": "2023/05/23",
     "products": [
       {
         "title": "정기적금",
@@ -154,7 +154,7 @@
           {"duration": 1, "rate": "0.10"},
           {"duration": 3, "rate": "2.70"},
           {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "4.50"},
+          {"duration": 12, "rate": "4.20"},
           {"duration": 24, "rate": "4.20"},
           {"duration": 36, "rate": "4.30"},
           {"duration": 48, "rate": "4.30"},
@@ -163,15 +163,15 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "4.50"}]
+        "entries": [{"duration": 12, "rate": "4.20"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "4.50"}]
+        "entries": [{"duration": 12, "rate": "4.20"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "4.50"}]
+        "entries": [{"duration": 12, "rate": "4.20"}]
       },
       {
         "title": "MG더뱅킹자유적금",
@@ -186,5 +186,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/22"
+  "baseDate": "2023/05/23"
 }

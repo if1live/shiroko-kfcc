@@ -7,7 +7,7 @@
     "r2": "남양주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/22",
+    "baseDate": "2023/05/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -51,7 +51,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/22",
+    "baseDate": "2023/05/23",
     "products": [
       {
         "title": "정기적금",
@@ -83,6 +83,10 @@
         "entries": [{"duration": 12, "rate": "4.50"}]
       },
       {
+        "title": "MG희망나눔 깡총적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
+      },
+      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "2.00"},
@@ -104,5 +108,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/22"
+  "baseDate": "2023/05/23"
 }

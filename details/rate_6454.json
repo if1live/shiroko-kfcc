@@ -7,12 +7,12 @@
     "r2": "하동군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/22",
+    "baseDate": "2023/05/23",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "1.20"},
+          {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.85"},
@@ -40,7 +40,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/22",
+    "baseDate": "2023/05/23",
     "products": [
       {
         "title": "정기적금",
@@ -88,5 +88,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/22"
+  "baseDate": "2023/05/23"
 }
