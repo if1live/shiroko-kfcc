@@ -7,7 +7,7 @@
     "r2": "보은군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/23",
+    "baseDate": "2023/05/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -55,7 +55,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/23",
+    "baseDate": "2023/05/24",
     "products": [
       {
         "title": "정기적금",
@@ -80,6 +80,10 @@
           {"duration": 6, "rate": "1.30"},
           {"duration": 12, "rate": "2.00"}
         ]
+      },
+      {
+        "title": "MG희망나눔 깡총적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -115,5 +119,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/23"
+  "baseDate": "2023/05/24"
 }

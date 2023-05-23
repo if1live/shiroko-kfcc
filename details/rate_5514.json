@@ -7,7 +7,7 @@
     "r2": "구미시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/23",
+    "baseDate": "2023/05/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -62,19 +62,19 @@
           {"duration": 9, "rate": "3.50"},
           {"duration": 10, "rate": "3.50"},
           {"duration": 11, "rate": "3.50"},
-          {"duration": 12, "rate": "4.00"}
+          {"duration": 12, "rate": "3.80"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/23",
+    "baseDate": "2023/05/24",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "4.00"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 24, "rate": "3.60"},
           {"duration": 36, "rate": "3.70"},
           {"duration": 48, "rate": "3.70"},
@@ -105,12 +105,16 @@
         ]
       },
       {
+        "title": "MG희망나눔 깡총적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
+      },
+      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.50"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "4.00"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 24, "rate": "3.60"},
           {"duration": 36, "rate": "3.70"},
           {"duration": 48, "rate": "3.70"},
@@ -155,5 +159,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/23"
+  "baseDate": "2023/05/24"
 }
