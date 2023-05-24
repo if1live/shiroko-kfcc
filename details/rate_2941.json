@@ -7,7 +7,7 @@
     "r2": "영광군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/05/24",
+    "baseDate": "2023/05/25",
     "products": [
       {
         "title": "정기예탁금",
@@ -77,7 +77,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/05/24",
+    "baseDate": "2023/05/25",
     "products": [
       {
         "title": "정기적금",
@@ -109,5 +109,5 @@
       }
     ]
   },
-  "baseDate": "2023/05/24"
+  "baseDate": "2023/05/25"
 }
