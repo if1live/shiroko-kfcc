@@ -7,7 +7,7 @@
     "r2": "성동구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/06/02",
+    "baseDate": "2023/06/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,11 +16,11 @@
           {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "4.82"},
-          {"duration": null, "rate": "4.20"},
-          {"duration": null, "rate": "4.20"},
-          {"duration": null, "rate": "4.20"},
-          {"duration": null, "rate": "4.20"},
+          {"duration": null, "rate": "4.50"},
+          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "4.00"},
           {"duration": null, "rate": "3.50"}
         ]
       },
@@ -53,7 +53,7 @@
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "4.82"}
+          {"duration": null, "rate": "4.50"}
         ]
       },
       {
@@ -63,7 +63,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/06/02",
+    "baseDate": "2023/06/03",
     "products": [
       {
         "title": "정기적금",
@@ -148,5 +148,5 @@
       }
     ]
   },
-  "baseDate": "2023/06/02"
+  "baseDate": "2023/06/03"
 }

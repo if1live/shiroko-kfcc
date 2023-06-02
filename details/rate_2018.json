@@ -7,7 +7,7 @@
     "r2": "수성구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/06/02",
+    "baseDate": "2023/06/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -44,7 +44,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/06/02",
+    "baseDate": "2023/06/03",
     "products": [
       {
         "title": "정기적금",
@@ -54,10 +54,6 @@
           {"duration": 24, "rate": "4.60"},
           {"duration": 36, "rate": "4.60"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 12, "rate": "5.50"}]
       },
       {
         "title": "MG희망나눔 깡총적금",
@@ -87,5 +83,5 @@
       }
     ]
   },
-  "baseDate": "2023/06/02"
+  "baseDate": "2023/06/03"
 }
