@@ -7,7 +7,7 @@
     "r2": "광진구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/06/05",
+    "baseDate": "2023/06/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -61,7 +61,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/06/05",
+    "baseDate": "2023/06/06",
     "products": [
       {
         "title": "정기적금",
@@ -72,6 +72,10 @@
           {"duration": 48, "rate": "3.70"},
           {"duration": 60, "rate": "3.70"}
         ]
+      },
+      {
+        "title": "정기적금 (특별한시판매)",
+        "entries": [{"duration": 12, "rate": "10.00"}]
       },
       {
         "title": "우리아기첫걸음정기적금",
@@ -115,5 +119,5 @@
       }
     ]
   },
-  "baseDate": "2023/06/05"
+  "baseDate": "2023/06/06"
 }
