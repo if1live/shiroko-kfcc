@@ -7,7 +7,7 @@
     "r2": "홍성군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/06/07",
+    "baseDate": "2023/06/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/06/07",
+    "baseDate": "2023/06/08",
     "products": [
       {
         "title": "정기적금",
@@ -153,5 +153,5 @@
       }
     ]
   },
-  "baseDate": "2023/06/07"
+  "baseDate": "2023/06/08"
 }
