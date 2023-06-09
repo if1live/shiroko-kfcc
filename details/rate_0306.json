@@ -7,7 +7,7 @@
     "r2": "용산구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/06/09",
+    "baseDate": "2023/06/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/06/09",
+    "baseDate": "2023/06/10",
     "products": [
       {
         "title": "정기적금",
@@ -91,9 +91,9 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.40"},
-          {"duration": 24, "rate": "4.50"},
-          {"duration": 36, "rate": "4.60"}
+          {"duration": 12, "rate": "4.60"},
+          {"duration": 24, "rate": "4.70"},
+          {"duration": 36, "rate": "4.80"}
         ]
       },
       {
@@ -170,5 +170,5 @@
       }
     ]
   },
-  "baseDate": "2023/06/09"
+  "baseDate": "2023/06/10"
 }
