@@ -7,7 +7,7 @@
     "r2": "파주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/06/12",
+    "baseDate": "2023/06/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -53,10 +53,10 @@
         "entries": [
           {"duration": 1, "rate": "0.00"},
           {"duration": 3, "rate": "2.00"},
-          {"duration": 6, "rate": "4.39"},
-          {"duration": 12, "rate": "4.39"},
-          {"duration": 18, "rate": "4.39"},
-          {"duration": 24, "rate": "4.10"}
+          {"duration": 6, "rate": "4.17"},
+          {"duration": 12, "rate": "4.17"},
+          {"duration": 18, "rate": "4.17"},
+          {"duration": 24, "rate": "4.07"}
         ]
       },
       {
@@ -83,7 +83,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/06/12",
+    "baseDate": "2023/06/13",
     "products": [
       {
         "title": "정기적금",
@@ -167,5 +167,5 @@
       }
     ]
   },
-  "baseDate": "2023/06/12"
+  "baseDate": "2023/06/13"
 }

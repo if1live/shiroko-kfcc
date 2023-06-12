@@ -7,7 +7,7 @@
     "r2": "영덕군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/06/12",
+    "baseDate": "2023/06/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -77,7 +77,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/06/12",
+    "baseDate": "2023/06/13",
     "products": [
       {
         "title": "정기적금",
@@ -167,5 +167,5 @@
       }
     ]
   },
-  "baseDate": "2023/06/12"
+  "baseDate": "2023/06/13"
 }
