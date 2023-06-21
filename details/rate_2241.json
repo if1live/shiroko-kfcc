@@ -7,7 +7,7 @@
     "r2": "미추홀구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/06/21",
+    "baseDate": "2023/06/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/06/21",
+    "baseDate": "2023/06/22",
     "products": [
       {
         "title": "정기적금",
@@ -85,10 +85,6 @@
           {"duration": 48, "rate": "4.20"},
           {"duration": 60, "rate": "4.20"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 12, "rate": "9.00"}]
       },
       {
         "title": "MG New정기적금",
@@ -173,5 +169,5 @@
       }
     ]
   },
-  "baseDate": "2023/06/21"
+  "baseDate": "2023/06/22"
 }
