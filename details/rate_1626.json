@@ -7,7 +7,7 @@
     "r2": "해운대구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/06/22",
+    "baseDate": "2023/06/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -36,14 +36,14 @@
         "title": "자유자재정기예금Ⅱ",
         "entries": [
           {"duration": 1, "rate": "0.10"},
-          {"duration": 3, "rate": "3.50"},
-          {"duration": 6, "rate": "3.60"},
-          {"duration": 9, "rate": "3.60"},
-          {"duration": 12, "rate": "4.45"},
-          {"duration": 18, "rate": "3.60"},
-          {"duration": 24, "rate": "3.60"},
-          {"duration": 30, "rate": "3.60"},
-          {"duration": 36, "rate": "3.60"}
+          {"duration": 3, "rate": "2.90"},
+          {"duration": 6, "rate": "3.20"},
+          {"duration": 9, "rate": "3.20"},
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 18, "rate": "3.50"},
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 30, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
@@ -70,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/06/22",
+    "baseDate": "2023/06/23",
     "products": [
       {
         "title": "정기적금",
@@ -143,5 +143,5 @@
       }
     ]
   },
-  "baseDate": "2023/06/22"
+  "baseDate": "2023/06/23"
 }
