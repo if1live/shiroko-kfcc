@@ -7,7 +7,7 @@
     "r2": "부산진구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/06/23",
+    "baseDate": "2023/06/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/06/23",
+    "baseDate": "2023/06/24",
     "products": [
       {
         "title": "정기적금",
@@ -128,7 +128,7 @@
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "4.00"}]
+        "entries": [{"duration": 12, "rate": "3.90"}]
       },
       {
         "title": "MG주거래우대자유적금",
@@ -165,5 +165,5 @@
       }
     ]
   },
-  "baseDate": "2023/06/23"
+  "baseDate": "2023/06/24"
 }
