@@ -7,7 +7,7 @@
     "r2": "서구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/06/25",
+    "baseDate": "2023/06/26",
     "products": [
       {
         "title": "정기예탁금",
@@ -96,7 +96,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/06/25",
+    "baseDate": "2023/06/26",
     "products": [
       {
         "title": "정기적금",
@@ -106,7 +106,7 @@
           {"duration": 13, "rate": "4.00"},
           {"duration": 24, "rate": "4.00"},
           {"duration": 36, "rate": "4.00"},
-          {"duration": 60, "rate": "4.00"}
+          {"duration": 60, "rate": "6.00"}
         ]
       },
       {
@@ -193,5 +193,5 @@
       }
     ]
   },
-  "baseDate": "2023/06/25"
+  "baseDate": "2023/06/26"
 }
