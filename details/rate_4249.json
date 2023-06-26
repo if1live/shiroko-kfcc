@@ -7,7 +7,7 @@
     "r2": "속초시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/06/26",
+    "baseDate": "2023/06/27",
     "products": [
       {
         "title": "정기예탁금",
@@ -58,7 +58,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/06/26",
+    "baseDate": "2023/06/27",
     "products": [
       {
         "title": "정기적금",
@@ -73,20 +73,20 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "5.50"},
+          {"duration": 12, "rate": "4.30"},
           {"duration": 24, "rate": "4.40"},
           {"duration": 36, "rate": "4.50"}
         ]
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "5.50"}]
+        "entries": [{"duration": 12, "rate": "4.30"}]
       },
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "5.30"}
+          {"duration": 12, "rate": "4.30"}
         ]
       },
       {
@@ -98,7 +98,7 @@
         "entries": [
           {"duration": 1, "rate": "0.10"},
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "5.50"},
+          {"duration": 12, "rate": "4.30"},
           {"duration": 24, "rate": "4.40"},
           {"duration": 36, "rate": "4.50"},
           {"duration": 48, "rate": "4.50"},
@@ -107,15 +107,15 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "5.50"}]
+        "entries": [{"duration": 12, "rate": "4.30"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "5.50"}]
+        "entries": [{"duration": 12, "rate": "4.30"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "5.50"}]
+        "entries": [{"duration": 12, "rate": "4.30"}]
       },
       {
         "title": "일일자유적금",
@@ -133,12 +133,12 @@
         "title": "꿈모아상호부금",
         "entries": [
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "5.50"},
+          {"duration": 12, "rate": "4.30"},
           {"duration": 24, "rate": "4.40"},
           {"duration": 36, "rate": "4.50"}
         ]
       }
     ]
   },
-  "baseDate": "2023/06/26"
+  "baseDate": "2023/06/27"
 }
