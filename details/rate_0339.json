@@ -7,7 +7,7 @@
     "r2": "은평구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/07/02",
+    "baseDate": "2023/07/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/07/02",
+    "baseDate": "2023/07/03",
     "products": [
       {
         "title": "정기적금",
@@ -81,6 +81,13 @@
           {"duration": 12, "rate": "4.00"},
           {"duration": 24, "rate": "4.00"},
           {"duration": 36, "rate": "4.00"}
+        ]
+      },
+      {
+        "title": "정기적금 (특별한시판매)",
+        "entries": [
+          {"duration": 8, "rate": "8.00"},
+          {"duration": 9, "rate": "0.00"}
         ]
       },
       {
@@ -164,5 +171,5 @@
       }
     ]
   },
-  "baseDate": "2023/07/02"
+  "baseDate": "2023/07/03"
 }

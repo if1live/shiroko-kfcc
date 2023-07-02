@@ -7,7 +7,7 @@
     "r2": "북구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/07/02",
+    "baseDate": "2023/07/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -53,7 +53,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/07/02",
+    "baseDate": "2023/07/03",
     "products": [
       {
         "title": "정기적금",
@@ -65,6 +65,10 @@
           {"duration": 48, "rate": "4.00"},
           {"duration": 60, "rate": "4.00"}
         ]
+      },
+      {
+        "title": "정기적금 (특별한시판매)",
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "우리아기첫걸음정기적금",
@@ -106,5 +110,5 @@
       }
     ]
   },
-  "baseDate": "2023/07/02"
+  "baseDate": "2023/07/03"
 }
