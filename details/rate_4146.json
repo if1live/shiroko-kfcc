@@ -7,7 +7,7 @@
     "r2": "양주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/07/04",
+    "baseDate": "2023/07/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -28,6 +28,20 @@
           {"duration": 6, "rate": "3.50"},
           {"duration": 12, "rate": "4.00"},
           {"duration": 24, "rate": "3.80"},
+          {"duration": 36, "rate": "3.80"}
+        ]
+      },
+      {
+        "title": "자유자재정기예금Ⅱ",
+        "entries": [
+          {"duration": 1, "rate": "0.10"},
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 6, "rate": "3.50"},
+          {"duration": 9, "rate": "3.50"},
+          {"duration": 12, "rate": "4.00"},
+          {"duration": 18, "rate": "3.80"},
+          {"duration": 24, "rate": "3.80"},
+          {"duration": 30, "rate": "3.80"},
           {"duration": 36, "rate": "3.80"}
         ]
       },
@@ -59,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/07/04",
+    "baseDate": "2023/07/05",
     "products": [
       {
         "title": "정기적금",
@@ -151,5 +165,5 @@
       }
     ]
   },
-  "baseDate": "2023/07/04"
+  "baseDate": "2023/07/05"
 }
