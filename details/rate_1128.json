@@ -7,11 +7,11 @@
     "r2": "강남구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/07/05",
+    "baseDate": "2023/07/06",
     "products": []
   },
   "installmentSavings": {
-    "baseDate": "2023/07/05",
+    "baseDate": "2023/07/06",
     "products": [
       {
         "title": "자유적립적금",
@@ -28,5 +28,5 @@
       }
     ]
   },
-  "baseDate": "2023/07/05"
+  "baseDate": "2023/07/06"
 }
