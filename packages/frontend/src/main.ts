@@ -113,12 +113,46 @@ function formatGongsi(_cell: string, row: Row) {
   </div>`);
 }
 
+function formatGongsi_full(_cell: string, row: Row) {
+  const id = row.cells[0].data as string;
+  const now = new Date();
+
+  const year = now.getUTCFullYear();
+  const month = now.getUTCMonth() + 1;
+
+  type YearMonth = [number, number];
+  type EntryList = [YearMonth, YearMonth, YearMonth];
+
+  // 상반기에는 작년 정보를 제공
+  const entries_firstHalf: EntryList = [
+    [year - 1, 12],
+    [year - 1, 6],
+    [year - 2, 12],
+  ];
+
+  // 하반기는 올해의 6월 공시가 있을수도 있다
+  const entries_secondHalf: EntryList = [
+    [year, 6],
+    [year - 1, 12],
+    [year - 1, 6],
+  ];
+
+  const [first, second, third] =
+    month < 6 ? entries_firstHalf : entries_secondHalf;
+
+  return html(`<div>
+  ${createGongsiForm(id, first[0], first[1])}
+  ${createGongsiForm(id, second[0], second[1])}
+  ${createGongsiForm(id, third[0], third[1])}
+  </div>`);
+}
+
 function createGongsiForm(id: string, year: number, month: number) {
   const y = `${year}`;
   const m = `${month}`.padStart(2, "0");
 
   return `
-  <form method="post" action="https://www.kfcc.co.kr/gumgo/gum0301_view_new.do" target="_blank">
+  <form method="post" action="https://www.kfcc.co.kr/gumgo/gum0301_view_new.do" target="_blank" style="display: inline-block;">
     <input type="hidden" name="procGbcd" value="1">
     <input type="hidden" name="pageNo" value="">
     <input type="hidden" name="gongsiGmgoid" value="">
@@ -133,7 +167,49 @@ function createGongsiForm(id: string, year: number, month: number) {
   `;
 }
 
-function initializeGrid(entries: CompactEntry[]) {
+const wrapper_interest = document.getElementById("wrapper-interest")!;
+const wrapper_finance = document.getElementById("wrapper-finance")!;
+
+function initializeGrid_finance(entries: CompactEntry[]) {
+  const grid = new Grid({
+    data: entries as any,
+    columns: [
+      {
+        id: "gmgoCd",
+        name: "금고ID",
+        sort: false,
+      },
+      {
+        id: "label",
+        name: "이름",
+        sort: false,
+        formatter: formatGmgo,
+      },
+      { id: "location", name: "지역", sort: false, formatter: formatLocation },
+      { id: "baseDate", name: "기준일", formatter: formatBaseDate },
+      {
+        id: "gongsi",
+        name: "정기공시",
+        sort: false,
+        formatter: formatGongsi_full,
+      },
+    ],
+    sort: true,
+    search: {
+      enabled: true,
+      selector: selectGmgo,
+    },
+    pagination: {
+      enabled: true,
+      limit: 20,
+      summary: false,
+    },
+  });
+  grid.render(wrapper_finance);
+  return grid;
+}
+
+function initializeGrid_interest(entries: CompactEntry[]) {
   const grid = new Grid({
     data: entries as any,
     columns: [
@@ -192,39 +268,87 @@ function initializeGrid(entries: CompactEntry[]) {
       },
     },
   });
-  grid.render(document.getElementById("wrapper")!);
+  grid.render(wrapper_interest);
   return grid;
 }
 
 // 빈데이터라도 상관없으니 일단 렌더링. 데이터 불러오면 이어서 작업
-const grid = initializeGrid([]);
+const grid_interest = initializeGrid_interest([]);
+const grid_finance = initializeGrid_finance([]);
+
+function selectGrid(tag: "interest" | "finance") {
+  switch (tag) {
+    case "interest": {
+      wrapper_interest.style.display = "block";
+      wrapper_finance.style.display = "none";
+      return grid_interest;
+    }
+    case "finance": {
+      wrapper_interest.style.display = "none";
+      wrapper_finance.style.display = "block";
+      return grid_finance;
+    }
+  }
+}
+
+function configure_title(haugul: string) {
+  const headerElement = document.querySelector<HTMLElement>("#header-name")!;
+  headerElement.textContent = haugul;
+}
+
+function configure_menu(key: string) {
+  const menuItemElements = document.querySelectorAll(".menu a.item");
+  for (const elem of Array.from(menuItemElements)) {
+    elem.classList.remove("active");
+  }
+  const activeMenuItem = document.querySelector(`.button-${key}`);
+  activeMenuItem?.classList.add("active");
+}
 
 async function main() {
   const naiveEntries = await fetchReportJson();
 
   const renderPage = (key: keyof InterestRateEntry, hangul: string) => {
+    const grid = selectGrid("interest");
     const entries = filterByCategory(naiveEntries, key);
+
     grid.updateConfig({ data: entries as any });
     grid.forceRender();
 
-    const headerElement = document.querySelector<HTMLElement>("#header-name")!;
-    headerElement.textContent = hangul;
+    configure_title(hangul);
+    configure_menu(key);
+  };
 
-    const menuItemElements = document.querySelectorAll(".menu a.item");
-    for (const elem of Array.from(menuItemElements)) {
-      elem.classList.remove("active");
-    }
-    const activeMenuItem = document.querySelector(`.button-${key}`);
-    activeMenuItem?.classList.add("active");
+  const renderFinance = (hangul: string) => {
+    const grid = selectGrid("finance");
+    const entries = naiveEntries.map((entry): CompactEntry => {
+      return {
+        gmgoCd: entry.gmgoCd,
+        label: entry.label,
+        location: entry.location,
+        baseDate: entry.baseDate,
+        rate: "",
+      };
+    });
+
+    grid.updateConfig({ data: entries as any });
+    grid.forceRender();
+
+    configure_title(hangul);
+    configure_menu("finance");
   };
 
   const setupCategoryButton = (
     element: HTMLElement,
-    key: keyof InterestRateEntry
+    key: keyof InterestRateEntry | "finance"
   ) => {
     element.addEventListener("click", () => {
       const label = element.dataset.label ?? "<BLANK>";
-      renderPage(key, label);
+      if (key === "finance") {
+        renderFinance(label);
+      } else {
+        renderPage(key, label);
+      }
     });
   };
 
@@ -241,6 +365,11 @@ async function main() {
   setupCategoryButton(
     document.querySelector<HTMLElement>(".button-rateC")!,
     "rateC"
+  );
+
+  setupCategoryButton(
+    document.querySelector<HTMLElement>(".button-finance")!,
+    "finance"
   );
 
   // 초기 화면
