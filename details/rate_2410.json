@@ -7,7 +7,7 @@
     "r2": "동구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/07/10",
+    "baseDate": "2023/07/11",
     "products": [
       {
         "title": "정기예탁금",
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/07/10",
+    "baseDate": "2023/07/11",
     "products": [
       {
         "title": "정기적금",
@@ -127,15 +127,15 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "4.40"}]
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "4.40"}]
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "4.40"}]
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "MG더뱅킹자유적금",
@@ -155,5 +155,5 @@
       }
     ]
   },
-  "baseDate": "2023/07/10"
+  "baseDate": "2023/07/11"
 }
