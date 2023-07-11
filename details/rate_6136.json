@@ -7,15 +7,15 @@
     "r2": "김해시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/07/11",
+    "baseDate": "2023/07/12",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.90"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"}
@@ -26,24 +26,24 @@
         "entries": [
           {"duration": 0, "rate": "0.10"},
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "3.90"},
+          {"duration": 6, "rate": "3.20"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.70"}]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.70"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/07/11",
+    "baseDate": "2023/07/12",
     "products": [
       {
         "title": "정기적금",
@@ -86,7 +86,7 @@
           {"duration": 1, "rate": "0.10"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.20"},
-          {"duration": 12, "rate": "3.90"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 13, "rate": "3.00"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
@@ -98,5 +98,5 @@
       }
     ]
   },
-  "baseDate": "2023/07/11"
+  "baseDate": "2023/07/12"
 }

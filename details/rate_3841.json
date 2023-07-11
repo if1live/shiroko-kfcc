@@ -2,12 +2,12 @@
   "id": "3841",
   "bank": {
     "gmgoCd": "3841",
-    "gmgoNm": "쌍용자동차",
+    "gmgoNm": "케이지모빌리티",
     "r1": "경기",
     "r2": "평택시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/07/11",
+    "baseDate": "2023/07/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -40,7 +40,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/07/11",
+    "baseDate": "2023/07/12",
     "products": [
       {
         "title": "정기적금",
@@ -81,5 +81,5 @@
       }
     ]
   },
-  "baseDate": "2023/07/11"
+  "baseDate": "2023/07/12"
 }

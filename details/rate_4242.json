@@ -7,7 +7,7 @@
     "r2": "속초시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/07/11",
+    "baseDate": "2023/07/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -46,6 +46,10 @@
         ]
       },
       {
+        "title": "MG더뱅킹정기예금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.30"},
@@ -65,7 +69,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/07/11",
+    "baseDate": "2023/07/12",
     "products": [
       {
         "title": "정기적금",
@@ -91,6 +95,13 @@
         "entries": [{"duration": 12, "rate": "1.50"}]
       },
       {
+        "title": "MG더뱅킹정기적금",
+        "entries": [
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 12, "rate": "4.30"}
+        ]
+      },
+      {
         "title": "MG희망나눔 깡총적금",
         "entries": [{"duration": 12, "rate": "6.00"}]
       },
@@ -107,6 +118,10 @@
       },
       {
         "title": "MG주거래우대자유적금",
+        "entries": [{"duration": 12, "rate": "4.30"}]
+      },
+      {
+        "title": "MG더뱅킹자유적금",
         "entries": [{"duration": 12, "rate": "4.30"}]
       },
       {
@@ -132,5 +147,5 @@
       }
     ]
   },
-  "baseDate": "2023/07/11"
+  "baseDate": "2023/07/12"
 }
