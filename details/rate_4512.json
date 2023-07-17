@@ -7,7 +7,7 @@
     "r2": "청주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/07/17",
+    "baseDate": "2023/07/18",
     "products": [
       {
         "title": "정기예탁금",
@@ -48,7 +48,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.40"}]
+        "entries": [{"duration": 12, "rate": "4.20"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -70,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/07/17",
+    "baseDate": "2023/07/18",
     "products": [
       {
         "title": "정기적금",
@@ -101,8 +101,8 @@
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
-          {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "4.40"}
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 12, "rate": "4.20"}
         ]
       },
       {
@@ -136,9 +136,9 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "4.40"}]
+        "entries": [{"duration": 12, "rate": "4.20"}]
       }
     ]
   },
-  "baseDate": "2023/07/17"
+  "baseDate": "2023/07/18"
 }
