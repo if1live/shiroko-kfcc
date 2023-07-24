@@ -7,7 +7,7 @@
     "r2": "달서구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/07/24",
+    "baseDate": "2023/07/25",
     "products": [
       {
         "title": "정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/07/24",
+    "baseDate": "2023/07/25",
     "products": [
       {
         "title": "정기적금",
@@ -90,7 +90,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "5.00"},
+          {"duration": 12, "rate": "4.00"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.50"}
         ]
@@ -160,5 +160,5 @@
       }
     ]
   },
-  "baseDate": "2023/07/24"
+  "baseDate": "2023/07/25"
 }

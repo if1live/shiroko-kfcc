@@ -7,7 +7,7 @@
     "r2": "삼척시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/07/24",
+    "baseDate": "2023/07/25",
     "products": [
       {
         "title": "정기예탁금",
@@ -26,7 +26,7 @@
           {"duration": 0, "rate": "0.90"},
           {"duration": 3, "rate": "1.20"},
           {"duration": 6, "rate": "1.50"},
-          {"duration": 12, "rate": "3.91"},
+          {"duration": 12, "rate": "4.50"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
@@ -69,7 +69,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/07/24",
+    "baseDate": "2023/07/25",
     "products": [
       {
         "title": "정기적금",
@@ -148,5 +148,5 @@
       }
     ]
   },
-  "baseDate": "2023/07/24"
+  "baseDate": "2023/07/25"
 }
