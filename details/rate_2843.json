@@ -7,7 +7,7 @@
     "r2": "신안군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/07/27",
+    "baseDate": "2023/07/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -33,10 +33,10 @@
         "entries": [
           {"duration": 0, "rate": "2.10"},
           {"duration": 3, "rate": "2.50"},
-          {"duration": 6, "rate": "4.00"},
-          {"duration": 12, "rate": "3.80"},
-          {"duration": 24, "rate": "3.90"},
-          {"duration": 36, "rate": "4.00"}
+          {"duration": 6, "rate": "3.50"},
+          {"duration": 12, "rate": "4.20"},
+          {"duration": 24, "rate": "4.20"},
+          {"duration": 36, "rate": "4.20"}
         ]
       },
       {
@@ -46,7 +46,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/07/27",
+    "baseDate": "2023/07/28",
     "products": [
       {
         "title": "정기적금",
@@ -93,5 +93,5 @@
       }
     ]
   },
-  "baseDate": "2023/07/27"
+  "baseDate": "2023/07/28"
 }
