@@ -7,7 +7,7 @@
     "r2": "평택시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/07/30",
+    "baseDate": "2023/07/31",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "3.78"},
-          {"duration": null, "rate": "4.03"},
+          {"duration": null, "rate": "4.41"},
           {"duration": null, "rate": "3.58"},
           {"duration": null, "rate": "3.58"},
           {"duration": null, "rate": "3.62"}
@@ -27,7 +27,7 @@
           {"duration": 0, "rate": "1.50"},
           {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "3.78"},
-          {"duration": 12, "rate": "4.03"},
+          {"duration": 12, "rate": "4.41"},
           {"duration": 24, "rate": "3.58"},
           {"duration": 36, "rate": "3.62"}
         ]
@@ -39,7 +39,7 @@
           {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "3.78"},
           {"duration": 9, "rate": "3.78"},
-          {"duration": 12, "rate": "4.03"},
+          {"duration": 12, "rate": "4.41"},
           {"duration": 18, "rate": "3.58"},
           {"duration": 24, "rate": "3.58"},
           {"duration": 30, "rate": "3.58"},
@@ -48,7 +48,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.03"}]
+        "entries": [{"duration": 12, "rate": "4.41"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -64,17 +64,17 @@
           {"duration": null, "rate": "3.78"},
           {"duration": null, "rate": "3.78"},
           {"duration": null, "rate": "3.78"},
-          {"duration": null, "rate": "4.03"}
+          {"duration": null, "rate": "4.41"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "4.03"}]
+        "entries": [{"duration": 12, "rate": "4.41"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/07/30",
+    "baseDate": "2023/07/31",
     "products": [
       {
         "title": "정기적금",
@@ -166,5 +166,5 @@
       }
     ]
   },
-  "baseDate": "2023/07/30"
+  "baseDate": "2023/07/31"
 }
