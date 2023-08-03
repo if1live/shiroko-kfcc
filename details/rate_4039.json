@@ -7,7 +7,7 @@
     "r2": "동두천"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/03",
+    "baseDate": "2023/08/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/03",
+    "baseDate": "2023/08/04",
     "products": [
       {
         "title": "정기적금",
@@ -84,6 +84,13 @@
           {"duration": 12, "rate": "4.50"},
           {"duration": 24, "rate": "4.20"},
           {"duration": 36, "rate": "4.20"}
+        ]
+      },
+      {
+        "title": "정기적금 (특별한시판매)",
+        "entries": [
+          {"duration": 12, "rate": "5.30"},
+          {"duration": 18, "rate": "5.70"}
         ]
       },
       {
@@ -155,5 +162,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/03"
+  "baseDate": "2023/08/04"
 }
