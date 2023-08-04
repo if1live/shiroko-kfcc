@@ -7,7 +7,7 @@
     "r2": "동대문구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/04",
+    "baseDate": "2023/08/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -49,7 +49,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.40"}]
+        "entries": [{"duration": 12, "rate": "5.00"}]
       },
       {
         "title": "MG기업정기예금(A)",
@@ -97,7 +97,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/04",
+    "baseDate": "2023/08/05",
     "products": [
       {
         "title": "정기적금",
@@ -128,7 +128,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "3.80"},
-          {"duration": 12, "rate": "4.40"}
+          {"duration": 12, "rate": "5.00"}
         ]
       },
       {
@@ -161,7 +161,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "4.20"}]
+        "entries": [{"duration": 12, "rate": "5.00"}]
       },
       {
         "title": "일일자유적금",
@@ -190,5 +190,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/04"
+  "baseDate": "2023/08/05"
 }

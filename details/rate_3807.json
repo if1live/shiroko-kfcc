@@ -7,7 +7,7 @@
     "r2": "수원시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/04",
+    "baseDate": "2023/08/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -95,7 +95,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/04",
+    "baseDate": "2023/08/05",
     "products": [
       {
         "title": "정기적금",
@@ -160,6 +160,18 @@
         "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
+        "title": "일일자유적금",
+        "entries": [
+          {"duration": 0, "rate": "2.50"},
+          {"duration": 1, "rate": "2.50"},
+          {"duration": 2, "rate": "2.50"},
+          {"duration": 3, "rate": "2.50"},
+          {"duration": 4, "rate": "2.50"},
+          {"duration": 5, "rate": "2.50"},
+          {"duration": 6, "rate": "4.10"}
+        ]
+      },
+      {
         "title": "꿈모아상호부금",
         "entries": [
           {"duration": 6, "rate": "4.10"},
@@ -170,5 +182,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/04"
+  "baseDate": "2023/08/05"
 }

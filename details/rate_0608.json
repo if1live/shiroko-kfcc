@@ -7,7 +7,7 @@
     "r2": "성북구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/04",
+    "baseDate": "2023/08/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -47,7 +47,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.80"}]
+        "entries": [{"duration": 12, "rate": "5.10"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/04",
+    "baseDate": "2023/08/05",
     "products": [
       {
         "title": "정기적금",
@@ -100,7 +100,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "4.10"},
-          {"duration": 12, "rate": "5.00"}
+          {"duration": 12, "rate": "5.30"}
         ]
       },
       {
@@ -151,5 +151,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/04"
+  "baseDate": "2023/08/05"
 }

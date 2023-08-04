@@ -7,7 +7,7 @@
     "r2": "옥천군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/04",
+    "baseDate": "2023/08/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -20,14 +20,6 @@
           {"duration": null, "rate": "4.40"},
           {"duration": null, "rate": "4.40"},
           {"duration": null, "rate": "4.40"}
-        ]
-      },
-      {
-        "title": "정기예탁금 (특별한시판매)",
-        "entries": [
-          {"duration": 3, "rate": "1.00"},
-          {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "4.40"}
         ]
       },
       {
@@ -44,7 +36,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/04",
+    "baseDate": "2023/08/05",
     "products": [
       {
         "title": "정기적금",
@@ -131,5 +123,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/04"
+  "baseDate": "2023/08/05"
 }
