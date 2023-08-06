@@ -7,7 +7,7 @@
     "r2": "증평군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/06",
+    "baseDate": "2023/08/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -32,7 +32,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.40"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -48,17 +48,17 @@
           {"duration": 9, "rate": "1.00"},
           {"duration": 10, "rate": "1.00"},
           {"duration": 11, "rate": "1.00"},
-          {"duration": 12, "rate": "3.90"}
+          {"duration": 12, "rate": "3.70"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.90"}]
+        "entries": [{"duration": 12, "rate": "3.70"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/06",
+    "baseDate": "2023/08/07",
     "products": [
       {
         "title": "정기적금",
@@ -125,5 +125,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/06"
+  "baseDate": "2023/08/07"
 }
