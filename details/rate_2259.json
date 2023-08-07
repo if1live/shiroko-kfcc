@@ -7,7 +7,7 @@
     "r2": "미추홀구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/07",
+    "baseDate": "2023/08/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -97,7 +97,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/07",
+    "baseDate": "2023/08/08",
     "products": [
       {
         "title": "정기적금",
@@ -155,6 +155,10 @@
         "entries": [{"duration": 12, "rate": "1.50"}]
       },
       {
+        "title": "MG더뱅킹자유적금",
+        "entries": [{"duration": 12, "rate": "5.00"}]
+      },
+      {
         "title": "일일자유적금",
         "entries": [
           {"duration": 0, "rate": "0.00"},
@@ -181,5 +185,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/07"
+  "baseDate": "2023/08/08"
 }

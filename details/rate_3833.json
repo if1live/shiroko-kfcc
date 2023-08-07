@@ -7,7 +7,7 @@
     "r2": "평택시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/07",
+    "baseDate": "2023/08/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -23,9 +23,9 @@
       {
         "title": "정기예탁금 (특별한시판매)",
         "entries": [
-          {"duration": 3, "rate": "0.00"},
-          {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "5.00"}
+          {"duration": null, "rate": "0.00"},
+          {"duration": null, "rate": "0.00"},
+          {"duration": null, "rate": "5.00"}
         ]
       },
       {
@@ -103,7 +103,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/07",
+    "baseDate": "2023/08/08",
     "products": [
       {
         "title": "정기적금",
@@ -201,5 +201,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/07"
+  "baseDate": "2023/08/08"
 }

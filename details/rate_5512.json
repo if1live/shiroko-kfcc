@@ -7,14 +7,14 @@
     "r2": "구미시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/07",
+    "baseDate": "2023/08/08",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": 3, "rate": "1.80"},
           {"duration": 6, "rate": "3.40"},
-          {"duration": 12, "rate": "3.60"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 24, "rate": "3.40"},
           {"duration": 36, "rate": "3.20"}
         ]
@@ -25,7 +25,7 @@
           {"duration": 0, "rate": "0.90"},
           {"duration": 3, "rate": "1.80"},
           {"duration": 6, "rate": "2.20"},
-          {"duration": 12, "rate": "3.90"},
+          {"duration": 12, "rate": "4.20"},
           {"duration": 24, "rate": "0.10"},
           {"duration": 36, "rate": "0.10"}
         ]
@@ -48,22 +48,22 @@
           {"duration": 9, "rate": "2.20"},
           {"duration": 10, "rate": "2.20"},
           {"duration": 11, "rate": "2.20"},
-          {"duration": 12, "rate": "3.60"}
+          {"duration": 12, "rate": "3.80"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/07",
+    "baseDate": "2023/08/08",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.60"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 24, "rate": "3.40"},
           {"duration": 36, "rate": "3.20"}
         ]
@@ -74,7 +74,7 @@
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "MG더뱅킹정기적금",
@@ -93,14 +93,14 @@
           {"duration": 1, "rate": "0.00"},
           {"duration": 3, "rate": "1.80"},
           {"duration": 6, "rate": "2.20"},
-          {"duration": 12, "rate": "3.60"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 24, "rate": "3.40"},
           {"duration": 36, "rate": "3.40"}
         ]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "MG더뱅킹자유적금",
@@ -127,5 +127,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/07"
+  "baseDate": "2023/08/08"
 }
