@@ -7,7 +7,7 @@
     "r2": "양산시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/08",
+    "baseDate": "2023/08/09",
     "products": [
       {
         "title": "정기예탁금",
@@ -18,8 +18,10 @@
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "3.20"}
+          {"duration": null, "rate": "5.00"},
+          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "4.00"}
         ]
       },
       {
@@ -29,8 +31,8 @@
           {"duration": 3, "rate": "3.60"},
           {"duration": 6, "rate": "3.80"},
           {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "3.60"},
-          {"duration": 36, "rate": "3.20"}
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 36, "rate": "4.00"}
         ]
       },
       {
@@ -41,10 +43,10 @@
           {"duration": 6, "rate": "3.80"},
           {"duration": 9, "rate": "3.80"},
           {"duration": 12, "rate": "4.00"},
-          {"duration": 18, "rate": "3.60"},
-          {"duration": 24, "rate": "3.60"},
-          {"duration": 30, "rate": "3.60"},
-          {"duration": 36, "rate": "3.20"}
+          {"duration": 18, "rate": "4.00"},
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 30, "rate": "4.00"},
+          {"duration": 36, "rate": "4.00"}
         ]
       },
       {
@@ -75,14 +77,14 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/08",
+    "baseDate": "2023/08/09",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "3.80"},
-          {"duration": 36, "rate": "3.60"},
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 36, "rate": "4.50"},
           {"duration": 37, "rate": "1.00"}
         ]
       },
@@ -113,8 +115,8 @@
           {"duration": 3, "rate": "3.60"},
           {"duration": 6, "rate": "3.80"},
           {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "3.60"},
-          {"duration": 36, "rate": "3.60"}
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 36, "rate": "4.50"}
         ]
       },
       {
@@ -146,8 +148,8 @@
         "entries": [
           {"duration": 6, "rate": "3.80"},
           {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "3.60"},
-          {"duration": 36, "rate": "3.20"}
+          {"duration": 24, "rate": "4.50"},
+          {"duration": 36, "rate": "4.50"}
         ]
       },
       {
@@ -156,5 +158,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/08"
+  "baseDate": "2023/08/09"
 }
