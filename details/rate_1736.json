@@ -7,7 +7,7 @@
     "r2": "사상구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/09",
+    "baseDate": "2023/08/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -70,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/09",
+    "baseDate": "2023/08/10",
     "products": [
       {
         "title": "정기적금",
@@ -119,8 +119,12 @@
       {
         "title": "MG주거래우대자유적금",
         "entries": [{"duration": 12, "rate": "2.00"}]
+      },
+      {
+        "title": "My꿈모아자유적금",
+        "entries": [{"duration": 12, "rate": "5.00"}]
       }
     ]
   },
-  "baseDate": "2023/08/09"
+  "baseDate": "2023/08/10"
 }
