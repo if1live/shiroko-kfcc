@@ -7,7 +7,7 @@
     "r2": "김해시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/10",
+    "baseDate": "2023/08/11",
     "products": [
       {
         "title": "정기예탁금",
@@ -36,7 +36,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.90"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "MG주거래우대정기예금",
@@ -45,7 +45,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/10",
+    "baseDate": "2023/08/11",
     "products": [
       {
         "title": "정기적금",
@@ -100,5 +100,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/10"
+  "baseDate": "2023/08/11"
 }
