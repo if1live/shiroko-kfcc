@@ -7,7 +7,7 @@
     "r2": "광주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/13",
+    "baseDate": "2023/08/14",
     "products": [
       {
         "title": "정기예탁금",
@@ -19,6 +19,14 @@
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.30"}
+        ]
+      },
+      {
+        "title": "정기예탁금 (특별한시판매)",
+        "entries": [
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "5.10"}
         ]
       },
       {
@@ -70,13 +78,13 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/13",
+    "baseDate": "2023/08/14",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "4.50"},
+          {"duration": 12, "rate": "5.30"},
           {"duration": 24, "rate": "3.30"},
           {"duration": 36, "rate": "3.30"},
           {"duration": 48, "rate": "3.30"},
@@ -144,5 +152,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/13"
+  "baseDate": "2023/08/14"
 }
