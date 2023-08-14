@@ -7,7 +7,7 @@
     "r2": "남양주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/14",
+    "baseDate": "2023/08/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -23,9 +23,9 @@
       {
         "title": "정기예탁금 (특별한시판매)",
         "entries": [
-          {"duration": null, "rate": "0.00"},
-          {"duration": null, "rate": "0.00"},
-          {"duration": null, "rate": "5.10"}
+          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "4.20"},
+          {"duration": null, "rate": "5.53"}
         ]
       },
       {
@@ -77,7 +77,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/14",
+    "baseDate": "2023/08/15",
     "products": [
       {
         "title": "정기적금",
@@ -161,5 +161,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/14"
+  "baseDate": "2023/08/15"
 }
