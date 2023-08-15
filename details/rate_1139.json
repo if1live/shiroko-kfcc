@@ -7,22 +7,19 @@
     "r2": "광진구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/15",
+    "baseDate": "2023/08/16",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "4.10"},
-          {"duration": null, "rate": "4.10"},
+          {"duration": null, "rate": "1.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "4.30"},
-          {"duration": null, "rate": "4.10"},
+          {"duration": null, "rate": "4.50"},
           {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "3.90"},
-          {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "3.70"}
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.80"}
         ]
       },
       {
@@ -46,24 +43,24 @@
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": 1, "rate": "1.50"},
-          {"duration": 2, "rate": "1.50"},
-          {"duration": 3, "rate": "2.50"},
-          {"duration": 4, "rate": "2.50"},
-          {"duration": 5, "rate": "2.50"},
+          {"duration": 1, "rate": "1.70"},
+          {"duration": 2, "rate": "1.70"},
+          {"duration": 3, "rate": "2.70"},
+          {"duration": 4, "rate": "2.70"},
+          {"duration": 5, "rate": "2.70"},
           {"duration": 6, "rate": "3.80"},
           {"duration": 7, "rate": "3.80"},
           {"duration": 8, "rate": "3.80"},
           {"duration": 9, "rate": "3.80"},
           {"duration": 10, "rate": "3.80"},
           {"duration": 11, "rate": "3.80"},
-          {"duration": 12, "rate": "4.30"}
+          {"duration": 12, "rate": "4.50"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/15",
+    "baseDate": "2023/08/16",
     "products": [
       {
         "title": "정기적금",
@@ -112,5 +109,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/15"
+  "baseDate": "2023/08/16"
 }
