@@ -7,7 +7,7 @@
     "r2": "문경시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/16",
+    "baseDate": "2023/08/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -18,6 +18,15 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "3.65"},
           {"duration": null, "rate": "3.30"}
+        ]
+      },
+      {
+        "title": "정기예탁금 (특별한시판매)",
+        "entries": [
+          {"duration": 3, "rate": "1.70"},
+          {"duration": 6, "rate": "2.00"},
+          {"duration": 9, "rate": "2.00"},
+          {"duration": 12, "rate": "4.20"}
         ]
       },
       {
@@ -69,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/16",
+    "baseDate": "2023/08/17",
     "products": [
       {
         "title": "정기적금",
@@ -141,5 +150,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/16"
+  "baseDate": "2023/08/17"
 }

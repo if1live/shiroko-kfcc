@@ -7,7 +7,7 @@
     "r2": "동구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/16",
+    "baseDate": "2023/08/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -48,7 +48,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.23"}]
+        "entries": [{"duration": 12, "rate": "4.80"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/16",
+    "baseDate": "2023/08/17",
     "products": [
       {
         "title": "정기적금",
@@ -108,8 +108,8 @@
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
-          {"duration": 6, "rate": "5.11"},
-          {"duration": 12, "rate": "5.11"}
+          {"duration": 6, "rate": "4.90"},
+          {"duration": 12, "rate": "4.90"}
         ]
       },
       {
@@ -138,7 +138,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "일일자유적금",
@@ -167,5 +167,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/16"
+  "baseDate": "2023/08/17"
 }
