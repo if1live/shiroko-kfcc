@@ -7,7 +7,7 @@
     "r2": "영등포구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/17",
+    "baseDate": "2023/08/18",
     "products": [
       {
         "title": "정기예탁금",
@@ -47,6 +47,10 @@
         ]
       },
       {
+        "title": "MG더뱅킹정기예금",
+        "entries": [{"duration": 12, "rate": "5.00"}]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.10"},
@@ -66,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/17",
+    "baseDate": "2023/08/18",
     "products": [
       {
         "title": "정기적금",
@@ -135,5 +139,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/17"
+  "baseDate": "2023/08/18"
 }
