@@ -7,7 +7,7 @@
     "r2": "무안군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/20",
+    "baseDate": "2023/08/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -18,7 +18,7 @@
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "5.10"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
@@ -105,7 +105,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/20",
+    "baseDate": "2023/08/21",
     "products": [
       {
         "title": "정기적금",
@@ -198,5 +198,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/20"
+  "baseDate": "2023/08/21"
 }

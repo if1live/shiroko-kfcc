@@ -7,7 +7,7 @@
     "r2": "구미시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/20",
+    "baseDate": "2023/08/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -62,13 +62,13 @@
           {"duration": 9, "rate": "3.00"},
           {"duration": 10, "rate": "3.00"},
           {"duration": 11, "rate": "3.00"},
-          {"duration": 12, "rate": "3.80"}
+          {"duration": 12, "rate": "3.90"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/20",
+    "baseDate": "2023/08/21",
     "products": [
       {
         "title": "정기적금",
@@ -158,5 +158,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/20"
+  "baseDate": "2023/08/21"
 }
