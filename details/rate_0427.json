@@ -7,14 +7,14 @@
     "r2": "마포구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/21",
+    "baseDate": "2023/08/22",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "4.50"},
           {"duration": null, "rate": "4.20"},
           {"duration": null, "rate": "4.20"},
           {"duration": null, "rate": "4.20"}
@@ -58,7 +58,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/21",
+    "baseDate": "2023/08/22",
     "products": [
       {
         "title": "정기적금",
@@ -123,5 +123,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/21"
+  "baseDate": "2023/08/22"
 }
