@@ -7,12 +7,12 @@
     "r2": "중구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/23",
+    "baseDate": "2023/08/24",
     "products": []
   },
   "installmentSavings": {
-    "baseDate": "2023/08/23",
+    "baseDate": "2023/08/24",
     "products": []
   },
-  "baseDate": "2023/08/23"
+  "baseDate": "2023/08/24"
 }

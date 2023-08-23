@@ -7,16 +7,16 @@
     "r2": "경주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/23",
+    "baseDate": "2023/08/24",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "4.60"},
-          {"duration": null, "rate": "4.70"},
-          {"duration": null, "rate": "3.52"}
+          {"duration": null, "rate": "4.15"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"}
         ]
       },
       {
@@ -25,23 +25,23 @@
           {"duration": 0, "rate": "1.00"},
           {"duration": 3, "rate": "1.00"},
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "4.12"},
-          {"duration": 24, "rate": "3.52"},
-          {"duration": 36, "rate": "3.42"}
+          {"duration": 12, "rate": "4.15"},
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "1.00"},
-          {"duration": 3, "rate": "1.00"},
+          {"duration": 1, "rate": "0.00"},
+          {"duration": 3, "rate": "0.00"},
           {"duration": 6, "rate": "2.00"},
           {"duration": 9, "rate": "2.00"},
-          {"duration": 12, "rate": "4.27"},
-          {"duration": 18, "rate": "3.67"},
-          {"duration": 24, "rate": "3.67"},
-          {"duration": 30, "rate": "3.57"},
-          {"duration": 36, "rate": "3.57"}
+          {"duration": 12, "rate": "4.15"},
+          {"duration": 18, "rate": "3.50"},
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 30, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
@@ -62,17 +62,17 @@
           {"duration": 9, "rate": "2.00"},
           {"duration": 10, "rate": "2.00"},
           {"duration": 11, "rate": "2.00"},
-          {"duration": 12, "rate": "4.12"}
+          {"duration": 12, "rate": "4.15"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "4.17"}]
+        "entries": [{"duration": 12, "rate": "4.15"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/23",
+    "baseDate": "2023/08/24",
     "products": [
       {
         "title": "정기적금",
@@ -146,5 +146,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/23"
+  "baseDate": "2023/08/24"
 }
