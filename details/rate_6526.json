@@ -2,12 +2,12 @@
   "id": "6526",
   "bank": {
     "gmgoCd": "6526",
-    "gmgoNm": "대우조선해양㈜",
+    "gmgoNm": "한화오션(주)",
     "r1": "경남",
     "r2": "거제시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/24",
+    "baseDate": "2023/08/25",
     "products": [
       {
         "title": "정기예탁금",
@@ -54,7 +54,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/24",
+    "baseDate": "2023/08/25",
     "products": [
       {
         "title": "정기적금",
@@ -121,5 +121,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/24"
+  "baseDate": "2023/08/25"
 }
