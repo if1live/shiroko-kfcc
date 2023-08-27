@@ -7,7 +7,7 @@
     "r2": "중구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/27",
+    "baseDate": "2023/08/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -55,7 +55,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/27",
+    "baseDate": "2023/08/28",
     "products": [
       {
         "title": "정기적금",
@@ -80,7 +80,7 @@
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "4.50"}]
+        "entries": [{"duration": 12, "rate": "5.50"}]
       },
       {
         "title": "MG희망나눔 깡총적금",
@@ -106,5 +106,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/27"
+  "baseDate": "2023/08/28"
 }

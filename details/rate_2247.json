@@ -7,7 +7,7 @@
     "r2": "미추홀구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/27",
+    "baseDate": "2023/08/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -51,6 +51,17 @@
         "entries": [{"duration": 12, "rate": "5.23"}]
       },
       {
+        "title": "MG기업정기예금(A)",
+        "entries": [
+          {"duration": 1, "rate": "0.10"},
+          {"duration": 3, "rate": "2.00"},
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 12, "rate": "5.13"},
+          {"duration": 18, "rate": "4.00"},
+          {"duration": 24, "rate": "3.70"}
+        ]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.10"},
@@ -74,7 +85,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/27",
+    "baseDate": "2023/08/28",
     "products": [
       {
         "title": "정기적금",
@@ -169,5 +180,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/27"
+  "baseDate": "2023/08/28"
 }
