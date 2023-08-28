@@ -7,7 +7,7 @@
     "r2": "여주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/28",
+    "baseDate": "2023/08/29",
     "products": [
       {
         "title": "정기예탁금",
@@ -61,7 +61,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/28",
+    "baseDate": "2023/08/29",
     "products": [
       {
         "title": "정기적금",
@@ -128,7 +128,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "2.98"}]
+        "entries": [{"duration": 12, "rate": "4.50"}]
       },
       {
         "title": "일일자유적금",
@@ -157,5 +157,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/28"
+  "baseDate": "2023/08/29"
 }

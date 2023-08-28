@@ -7,7 +7,7 @@
     "r2": "제주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/28",
+    "baseDate": "2023/08/29",
     "products": [
       {
         "title": "정기예탁금",
@@ -49,7 +49,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.50"}]
+        "entries": [{"duration": 12, "rate": "5.23"}]
       },
       {
         "title": "MG기업정기예금(A)",
@@ -97,7 +97,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/28",
+    "baseDate": "2023/08/29",
     "products": [
       {
         "title": "정기적금",
@@ -192,5 +192,5 @@
       }
     ]
   },
-  "baseDate": "2023/08/28"
+  "baseDate": "2023/08/29"
 }
