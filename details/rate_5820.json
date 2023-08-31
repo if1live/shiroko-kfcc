@@ -7,7 +7,7 @@
     "r2": "안동시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/08/31",
+    "baseDate": "2023/09/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,27 +16,19 @@
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "4.10"},
-          {"duration": null, "rate": "4.10"}
-        ]
-      },
-      {
-        "title": "정기예탁금 (특별한시판매)",
-        "entries": [
-          {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "4.10"}
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.70"}
         ]
       },
       {
         "title": "Block예금",
         "entries": [
-          {"duration": 0, "rate": "0.10"},
-          {"duration": 3, "rate": "2.50"},
-          {"duration": 6, "rate": "2.80"},
-          {"duration": 12, "rate": "4.10"},
-          {"duration": 24, "rate": "4.10"},
-          {"duration": 36, "rate": "4.10"}
+          {"duration": 0, "rate": "1.80"},
+          {"duration": 3, "rate": "2.20"},
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 24, "rate": "3.70"},
+          {"duration": 36, "rate": "3.70"}
         ]
       },
       {
@@ -46,11 +38,11 @@
           {"duration": 3, "rate": "2.20"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 9, "rate": "2.70"},
-          {"duration": 12, "rate": "4.10"},
-          {"duration": 18, "rate": "4.10"},
-          {"duration": 24, "rate": "4.10"},
-          {"duration": 30, "rate": "4.10"},
-          {"duration": 36, "rate": "4.10"}
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 18, "rate": "3.70"},
+          {"duration": 24, "rate": "3.70"},
+          {"duration": 30, "rate": "3.70"},
+          {"duration": 36, "rate": "3.70"}
         ]
       },
       {
@@ -71,17 +63,17 @@
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "4.10"}
+          {"duration": null, "rate": "3.80"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "4.10"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/08/31",
+    "baseDate": "2023/09/01",
     "products": [
       {
         "title": "정기적금",
@@ -123,22 +115,22 @@
         "entries": [
           {"duration": 1, "rate": "1.80"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "4.10"},
-          {"duration": 24, "rate": "4.10"},
-          {"duration": 36, "rate": "4.10"}
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 24, "rate": "3.70"},
+          {"duration": 36, "rate": "3.70"}
         ]
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "4.10"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "4.10"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "4.10"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "MG더뱅킹자유적금",
@@ -159,16 +151,16 @@
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 12, "rate": "4.10"},
-          {"duration": 24, "rate": "4.10"},
-          {"duration": 36, "rate": "4.10"}
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 24, "rate": "3.70"},
+          {"duration": 36, "rate": "3.70"}
         ]
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "4.10"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       }
     ]
   },
-  "baseDate": "2023/08/31"
+  "baseDate": "2023/09/01"
 }
