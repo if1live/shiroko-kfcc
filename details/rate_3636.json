@@ -7,7 +7,7 @@
     "r2": "부천시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/09/01",
+    "baseDate": "2023/09/02",
     "products": [
       {
         "title": "정기예탁금",
@@ -39,11 +39,11 @@
           {"duration": 3, "rate": "0.50"},
           {"duration": 6, "rate": "0.80"},
           {"duration": 9, "rate": "0.80"},
-          {"duration": 12, "rate": "4.30"},
-          {"duration": 18, "rate": "3.80"},
-          {"duration": 24, "rate": "3.80"},
-          {"duration": 30, "rate": "3.80"},
-          {"duration": 36, "rate": "3.90"}
+          {"duration": 12, "rate": "4.50"},
+          {"duration": 18, "rate": "4.10"},
+          {"duration": 24, "rate": "4.10"},
+          {"duration": 30, "rate": "4.10"},
+          {"duration": 36, "rate": "4.20"}
         ]
       },
       {
@@ -70,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/09/01",
+    "baseDate": "2023/09/02",
     "products": [
       {
         "title": "정기적금",
@@ -158,5 +158,5 @@
       }
     ]
   },
-  "baseDate": "2023/09/01"
+  "baseDate": "2023/09/02"
 }
