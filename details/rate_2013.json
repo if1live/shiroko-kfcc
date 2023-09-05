@@ -7,7 +7,7 @@
     "r2": "남구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/09/05",
+    "baseDate": "2023/09/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -37,14 +37,14 @@
         "title": "자유자재정기예금Ⅱ",
         "entries": [
           {"duration": 1, "rate": "1.00"},
-          {"duration": 3, "rate": "2.50"},
-          {"duration": 6, "rate": "2.50"},
-          {"duration": 9, "rate": "2.50"},
-          {"duration": 12, "rate": "3.00"},
-          {"duration": 18, "rate": "2.40"},
-          {"duration": 24, "rate": "2.40"},
-          {"duration": 30, "rate": "2.40"},
-          {"duration": 36, "rate": "2.40"}
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 6, "rate": "3.50"},
+          {"duration": 9, "rate": "3.50"},
+          {"duration": 12, "rate": "4.50"},
+          {"duration": 18, "rate": "4.50"},
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 30, "rate": "4.00"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
@@ -71,7 +71,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/09/05",
+    "baseDate": "2023/09/06",
     "products": [
       {
         "title": "정기적금",
@@ -119,5 +119,5 @@
       }
     ]
   },
-  "baseDate": "2023/09/05"
+  "baseDate": "2023/09/06"
 }
