@@ -7,7 +7,7 @@
     "r2": "경주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/09/06",
+    "baseDate": "2023/09/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -72,14 +72,14 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/09/06",
+    "baseDate": "2023/09/07",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "2.00"},
-          {"duration": 11, "rate": "7.00"},
-          {"duration": 12, "rate": "3.81"},
+          {"duration": 12, "rate": "4.41"},
+          {"duration": 24, "rate": "3.81"},
           {"duration": 36, "rate": "3.71"}
         ]
       },
@@ -146,5 +146,5 @@
       }
     ]
   },
-  "baseDate": "2023/09/06"
+  "baseDate": "2023/09/07"
 }

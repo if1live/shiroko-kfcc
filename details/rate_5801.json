@@ -7,7 +7,7 @@
     "r2": "안동시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/09/06",
+    "baseDate": "2023/09/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -72,7 +72,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/09/06",
+    "baseDate": "2023/09/07",
     "products": [
       {
         "title": "정기적금",
@@ -114,11 +114,11 @@
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "3.80"},
-          {"duration": 6, "rate": "3.90"},
-          {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "4.10"},
-          {"duration": 36, "rate": "4.20"}
+          {"duration": 3, "rate": "3.20"},
+          {"duration": 6, "rate": "3.50"},
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 24, "rate": "3.60"},
+          {"duration": 36, "rate": "3.60"}
         ]
       },
       {
@@ -135,7 +135,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "4.20"}]
+        "entries": [{"duration": 12, "rate": "3.90"}]
       },
       {
         "title": "꿈모아상호부금",
@@ -148,5 +148,5 @@
       }
     ]
   },
-  "baseDate": "2023/09/06"
+  "baseDate": "2023/09/07"
 }

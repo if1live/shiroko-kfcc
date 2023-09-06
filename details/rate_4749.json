@@ -7,7 +7,7 @@
     "r2": "충주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/09/06",
+    "baseDate": "2023/09/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/09/06",
+    "baseDate": "2023/09/07",
     "products": [
       {
         "title": "정기적금",
@@ -137,5 +137,5 @@
       }
     ]
   },
-  "baseDate": "2023/09/06"
+  "baseDate": "2023/09/07"
 }
