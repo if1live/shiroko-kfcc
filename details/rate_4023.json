@@ -7,7 +7,7 @@
     "r2": "동두천"
   },
   "deferredDeposit": {
-    "baseDate": "2023/09/14",
+    "baseDate": "2023/09/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -48,7 +48,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.30"}]
+        "entries": [{"duration": 12, "rate": "5.00"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/09/14",
+    "baseDate": "2023/09/15",
     "products": [
       {
         "title": "정기적금",
@@ -84,6 +84,10 @@
           {"duration": 24, "rate": "4.20"},
           {"duration": 36, "rate": "4.20"}
         ]
+      },
+      {
+        "title": "정기적금 (특별한시판매)",
+        "entries": [{"duration": 6, "rate": "9.00"}]
       },
       {
         "title": "MG New정기적금",
@@ -166,5 +170,5 @@
       }
     ]
   },
-  "baseDate": "2023/09/14"
+  "baseDate": "2023/09/15"
 }
