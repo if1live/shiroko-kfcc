@@ -7,7 +7,7 @@
     "r2": "당진시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/09/15",
+    "baseDate": "2023/09/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -38,7 +38,7 @@
           {"duration": 1, "rate": "1.00"},
           {"duration": 3, "rate": "1.80"},
           {"duration": 6, "rate": "4.00"},
-          {"duration": 9, "rate": "4.00"},
+          {"duration": 9, "rate": "3.50"},
           {"duration": 12, "rate": "4.50"},
           {"duration": 18, "rate": "3.60"},
           {"duration": 24, "rate": "3.60"},
@@ -92,7 +92,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/09/15",
+    "baseDate": "2023/09/16",
     "products": [
       {
         "title": "정기적금",
@@ -183,5 +183,5 @@
       }
     ]
   },
-  "baseDate": "2023/09/15"
+  "baseDate": "2023/09/16"
 }
