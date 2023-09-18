@@ -7,7 +7,7 @@
     "r2": "광양시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/09/18",
+    "baseDate": "2023/09/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -22,7 +22,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "5.30"}]
+        "entries": [{"duration": 12, "rate": "4.20"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -44,7 +44,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/09/18",
+    "baseDate": "2023/09/19",
     "products": [
       {
         "title": "정기적금",
@@ -74,8 +74,8 @@
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
-          {"duration": 6, "rate": "4.00"},
-          {"duration": 12, "rate": "4.50"}
+          {"duration": 6, "rate": "3.75"},
+          {"duration": 12, "rate": "4.20"}
         ]
       },
       {
@@ -111,5 +111,5 @@
       }
     ]
   },
-  "baseDate": "2023/09/18"
+  "baseDate": "2023/09/19"
 }
