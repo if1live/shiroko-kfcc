@@ -7,17 +7,17 @@
     "r2": "구례군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/09/19",
+    "baseDate": "2023/09/20",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.00"},
           {"duration": null, "rate": "1.12"},
-          {"duration": null, "rate": "1.22"},
-          {"duration": null, "rate": "3.62"},
-          {"duration": null, "rate": "3.02"},
-          {"duration": null, "rate": "2.88"},
+          {"duration": null, "rate": "2.49"},
+          {"duration": null, "rate": "3.83"},
+          {"duration": null, "rate": "3.48"},
+          {"duration": null, "rate": "3.24"},
           {"duration": null, "rate": "0.00"}
         ]
       },
@@ -35,15 +35,15 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/09/19",
+    "baseDate": "2023/09/20",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "3.50"},
-          {"duration": 24, "rate": "3.30"},
-          {"duration": 36, "rate": "3.10"},
+          {"duration": 12, "rate": "4.00"},
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 36, "rate": "4.00"},
           {"duration": 37, "rate": "0.00"}
         ]
       },
@@ -73,5 +73,5 @@
       }
     ]
   },
-  "baseDate": "2023/09/19"
+  "baseDate": "2023/09/20"
 }
