@@ -7,14 +7,14 @@
     "r2": "수원시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/09/25",
+    "baseDate": "2023/09/26",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": 1, "rate": "0.00"},
           {"duration": 2, "rate": "3.25"},
-          {"duration": 3, "rate": "4.30"},
+          {"duration": 3, "rate": "3.30"},
           {"duration": 6, "rate": "3.55"},
           {"duration": 12, "rate": "3.90"},
           {"duration": 13, "rate": "3.90"}
@@ -40,7 +40,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/09/25",
+    "baseDate": "2023/09/26",
     "products": [
       {
         "title": "정기적금",
@@ -106,5 +106,5 @@
       }
     ]
   },
-  "baseDate": "2023/09/25"
+  "baseDate": "2023/09/26"
 }
