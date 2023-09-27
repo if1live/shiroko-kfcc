@@ -7,7 +7,7 @@
     "r2": "용산구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/09/27",
+    "baseDate": "2023/09/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -19,15 +19,6 @@
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.70"}
-        ]
-      },
-      {
-        "title": "정기예탁금 (특별한시판매)",
-        "entries": [
-          {"duration": 3, "rate": "2.00"},
-          {"duration": 6, "rate": "3.00"},
-          {"duration": 9, "rate": "3.00"},
-          {"duration": 12, "rate": "5.00"}
         ]
       },
       {
@@ -83,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/09/27",
+    "baseDate": "2023/09/28",
     "products": [
       {
         "title": "정기적금",
@@ -93,10 +84,6 @@
           {"duration": 24, "rate": "4.60"},
           {"duration": 36, "rate": "4.70"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 16, "rate": "5.80"}]
       },
       {
         "title": "우리아기첫걸음정기적금",
@@ -145,5 +132,5 @@
       }
     ]
   },
-  "baseDate": "2023/09/27"
+  "baseDate": "2023/09/28"
 }
