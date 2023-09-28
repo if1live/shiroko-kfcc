@@ -7,7 +7,7 @@
     "r2": "동구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/09/28",
+    "baseDate": "2023/09/29",
     "products": [
       {
         "title": "정기예탁금",
@@ -19,10 +19,6 @@
           {"duration": null, "rate": "3.90"},
           {"duration": null, "rate": "3.90"}
         ]
-      },
-      {
-        "title": "MG공동구매정기예금 (특별한시판매)",
-        "entries": [{"duration": 12, "rate": "4.70"}]
       },
       {
         "title": "자유자재정기예금Ⅱ",
@@ -49,7 +45,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/09/28",
+    "baseDate": "2023/09/29",
     "products": [
       {
         "title": "정기적금",
@@ -129,5 +125,5 @@
       }
     ]
   },
-  "baseDate": "2023/09/28"
+  "baseDate": "2023/09/29"
 }
