@@ -7,7 +7,7 @@
     "r2": "송파구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/10/02",
+    "baseDate": "2023/10/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -55,7 +55,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/10/02",
+    "baseDate": "2023/10/03",
     "products": [
       {
         "title": "정기적금",
@@ -116,5 +116,5 @@
       }
     ]
   },
-  "baseDate": "2023/10/02"
+  "baseDate": "2023/10/03"
 }
