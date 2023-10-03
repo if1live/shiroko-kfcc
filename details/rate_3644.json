@@ -7,7 +7,7 @@
     "r2": "부천시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/10/03",
+    "baseDate": "2023/10/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -54,7 +54,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/10/03",
+    "baseDate": "2023/10/04",
     "products": [
       {
         "title": "정기적금",
@@ -65,10 +65,6 @@
           {"duration": 24, "rate": "4.30"},
           {"duration": 36, "rate": "4.40"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "MG New정기적금",
@@ -127,5 +123,5 @@
       }
     ]
   },
-  "baseDate": "2023/10/03"
+  "baseDate": "2023/10/04"
 }
