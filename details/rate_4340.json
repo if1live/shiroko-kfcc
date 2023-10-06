@@ -7,7 +7,7 @@
     "r2": "평창군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/10/06",
+    "baseDate": "2023/10/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -18,15 +18,6 @@
           {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "2.80"}
-        ]
-      },
-      {
-        "title": "정기예탁금 (특별한시판매)",
-        "entries": [
-          {"duration": null, "rate": "0.50"},
-          {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "4.08"}
         ]
       },
       {
@@ -64,7 +55,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/10/06",
+    "baseDate": "2023/10/07",
     "products": [
       {
         "title": "정기적금",
@@ -73,10 +64,6 @@
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.00"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 24, "rate": "5.10"}]
       },
       {
         "title": "우리아기첫걸음정기적금",
@@ -111,5 +98,5 @@
       }
     ]
   },
-  "baseDate": "2023/10/06"
+  "baseDate": "2023/10/07"
 }
