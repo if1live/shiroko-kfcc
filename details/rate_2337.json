@@ -7,7 +7,7 @@
     "r2": "계양구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/10/09",
+    "baseDate": "2023/10/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/10/09",
+    "baseDate": "2023/10/10",
     "products": [
       {
         "title": "정기적금",
@@ -87,6 +87,10 @@
           {"duration": 48, "rate": "4.00"},
           {"duration": 60, "rate": "4.00"}
         ]
+      },
+      {
+        "title": "정기적금 (특별한시판매)",
+        "entries": [{"duration": 12, "rate": "7.00"}]
       },
       {
         "title": "MG New정기적금",
@@ -162,5 +166,5 @@
       }
     ]
   },
-  "baseDate": "2023/10/09"
+  "baseDate": "2023/10/10"
 }

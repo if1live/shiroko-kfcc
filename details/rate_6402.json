@@ -7,7 +7,7 @@
     "r2": "진주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/10/09",
+    "baseDate": "2023/10/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -26,9 +26,9 @@
           {"duration": 0, "rate": "0.10"},
           {"duration": 3, "rate": "3.20"},
           {"duration": 6, "rate": "3.40"},
-          {"duration": 12, "rate": "4.20"},
-          {"duration": 24, "rate": "3.70"},
-          {"duration": 36, "rate": "3.30"}
+          {"duration": 12, "rate": "3.90"},
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
@@ -55,7 +55,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/10/09",
+    "baseDate": "2023/10/10",
     "products": [
       {
         "title": "정기적금",
@@ -125,5 +125,5 @@
       }
     ]
   },
-  "baseDate": "2023/10/09"
+  "baseDate": "2023/10/10"
 }
