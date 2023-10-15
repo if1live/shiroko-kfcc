@@ -7,7 +7,7 @@
     "r2": "부산진구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/10/15",
+    "baseDate": "2023/10/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -37,7 +37,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/10/15",
+    "baseDate": "2023/10/16",
     "products": [
       {
         "title": "정기적금",
@@ -46,6 +46,10 @@
           {"duration": 24, "rate": "3.90"},
           {"duration": 36, "rate": "3.90"}
         ]
+      },
+      {
+        "title": "정기적금 (특별한시판매)",
+        "entries": [{"duration": 12, "rate": "8.00"}]
       },
       {
         "title": "MG더뱅킹정기적금",
@@ -79,5 +83,5 @@
       }
     ]
   },
-  "baseDate": "2023/10/15"
+  "baseDate": "2023/10/16"
 }
