@@ -7,7 +7,7 @@
     "r2": "경산시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/10/18",
+    "baseDate": "2023/10/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -57,7 +57,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.10"}]
+        "entries": [{"duration": 12, "rate": "4.70"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -79,7 +79,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/10/18",
+    "baseDate": "2023/10/19",
     "products": [
       {
         "title": "정기적금",
@@ -110,7 +110,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "4.10"},
-          {"duration": 12, "rate": "4.60"}
+          {"duration": 12, "rate": "4.70"}
         ]
       },
       {
@@ -171,5 +171,5 @@
       }
     ]
   },
-  "baseDate": "2023/10/18"
+  "baseDate": "2023/10/19"
 }

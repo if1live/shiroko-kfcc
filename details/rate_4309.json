@@ -7,7 +7,7 @@
     "r2": "원주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/10/18",
+    "baseDate": "2023/10/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -99,7 +99,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/10/18",
+    "baseDate": "2023/10/19",
     "products": [
       {
         "title": "정기적금",
@@ -112,10 +112,6 @@
           {"duration": 48, "rate": "4.50"},
           {"duration": 60, "rate": "4.50"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 9, "rate": "9.00"}]
       },
       {
         "title": "MG New정기적금",
@@ -201,5 +197,5 @@
       }
     ]
   },
-  "baseDate": "2023/10/18"
+  "baseDate": "2023/10/19"
 }

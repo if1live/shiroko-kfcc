@@ -7,7 +7,7 @@
     "r2": "홍성군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/10/18",
+    "baseDate": "2023/10/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/10/18",
+    "baseDate": "2023/10/19",
     "products": [
       {
         "title": "정기적금",
@@ -84,6 +84,10 @@
           {"duration": 24, "rate": "4.00"},
           {"duration": 36, "rate": "3.60"}
         ]
+      },
+      {
+        "title": "정기적금 (특별한시판매)",
+        "entries": [{"duration": 12, "rate": "5.50"}]
       },
       {
         "title": "MG New정기적금",
@@ -154,5 +158,5 @@
       }
     ]
   },
-  "baseDate": "2023/10/18"
+  "baseDate": "2023/10/19"
 }
