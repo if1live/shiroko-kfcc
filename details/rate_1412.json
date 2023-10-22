@@ -7,7 +7,7 @@
     "r2": "남구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/10/22",
+    "baseDate": "2023/10/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/10/22",
+    "baseDate": "2023/10/23",
     "products": [
       {
         "title": "정기적금",
@@ -87,7 +87,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "2.10"},
+          {"duration": 12, "rate": "4.60"},
           {"duration": 24, "rate": "2.20"},
           {"duration": 36, "rate": "2.30"}
         ]
@@ -165,5 +165,5 @@
       }
     ]
   },
-  "baseDate": "2023/10/22"
+  "baseDate": "2023/10/23"
 }

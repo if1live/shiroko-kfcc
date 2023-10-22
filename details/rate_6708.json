@@ -7,7 +7,7 @@
     "r2": "서귀포시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/10/22",
+    "baseDate": "2023/10/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -18,7 +18,7 @@
           {"duration": 4, "rate": "3.00"},
           {"duration": 6, "rate": "4.00"},
           {"duration": 7, "rate": "4.00"},
-          {"duration": 12, "rate": "4.30"},
+          {"duration": 12, "rate": "4.60"},
           {"duration": 13, "rate": "3.50"},
           {"duration": 24, "rate": "4.00"},
           {"duration": 36, "rate": "3.50"}
@@ -51,12 +51,12 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.40"}]
+        "entries": [{"duration": 12, "rate": "4.70"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/10/22",
+    "baseDate": "2023/10/23",
     "products": [
       {
         "title": "정기적금",
@@ -95,11 +95,11 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "1.80"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "1.80"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "일일자유적금",
@@ -124,5 +124,5 @@
       }
     ]
   },
-  "baseDate": "2023/10/22"
+  "baseDate": "2023/10/23"
 }
