@@ -7,7 +7,7 @@
     "r2": "전주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/10/23",
+    "baseDate": "2023/10/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -68,12 +68,12 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/10/23",
+    "baseDate": "2023/10/24",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.80"},
+          {"duration": 12, "rate": "4.60"},
           {"duration": 24, "rate": "4.50"},
           {"duration": 36, "rate": "4.20"}
         ]
@@ -81,7 +81,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.70"},
+          {"duration": 12, "rate": "4.60"},
           {"duration": 24, "rate": "4.50"},
           {"duration": 36, "rate": "4.20"}
         ]
@@ -92,13 +92,13 @@
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "4.70"}]
+        "entries": [{"duration": 12, "rate": "4.60"}]
       },
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "4.70"}
+          {"duration": 12, "rate": "4.60"}
         ]
       },
       {
@@ -111,26 +111,26 @@
           {"duration": 1, "rate": "0.10"},
           {"duration": 3, "rate": "0.10"},
           {"duration": 6, "rate": "1.00"},
-          {"duration": 12, "rate": "4.70"},
+          {"duration": 12, "rate": "4.50"},
           {"duration": 24, "rate": "4.00"},
           {"duration": 36, "rate": "4.00"}
         ]
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "4.70"}]
+        "entries": [{"duration": 12, "rate": "4.60"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "4.70"}]
+        "entries": [{"duration": 12, "rate": "4.60"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "4.70"}]
+        "entries": [{"duration": 12, "rate": "4.60"}]
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "4.70"}]
+        "entries": [{"duration": 12, "rate": "4.60"}]
       },
       {
         "title": "꿈모아상호부금",
@@ -146,5 +146,5 @@
       }
     ]
   },
-  "baseDate": "2023/10/23"
+  "baseDate": "2023/10/24"
 }
