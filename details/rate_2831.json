@@ -7,14 +7,14 @@
     "r2": "무안군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/10/30",
+    "baseDate": "2023/10/31",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.10"},
-          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.50"}
         ]
       },
@@ -36,7 +36,7 @@
           {"duration": 3, "rate": "1.00"},
           {"duration": 6, "rate": "2.10"},
           {"duration": 9, "rate": "2.10"},
-          {"duration": 12, "rate": "3.60"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 18, "rate": "3.30"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 30, "rate": "0.00"},
@@ -45,12 +45,12 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.00"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/10/30",
+    "baseDate": "2023/10/31",
     "products": [
       {
         "title": "정기적금",
@@ -112,5 +112,5 @@
       }
     ]
   },
-  "baseDate": "2023/10/30"
+  "baseDate": "2023/10/31"
 }
