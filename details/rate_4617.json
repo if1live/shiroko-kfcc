@@ -7,7 +7,7 @@
     "r2": "옥천군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/10/31",
+    "baseDate": "2023/11/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -36,7 +36,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/10/31",
+    "baseDate": "2023/11/01",
     "products": [
       {
         "title": "정기적금",
@@ -115,5 +115,5 @@
       }
     ]
   },
-  "baseDate": "2023/10/31"
+  "baseDate": "2023/11/01"
 }
