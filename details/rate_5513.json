@@ -7,7 +7,7 @@
     "r2": "구미시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/02",
+    "baseDate": "2023/11/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -86,7 +86,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/02",
+    "baseDate": "2023/11/03",
     "products": [
       {
         "title": "정기적금",
@@ -115,7 +115,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "3.80"}
+          {"duration": 12, "rate": "4.55"}
         ]
       },
       {
@@ -149,7 +149,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "4.55"}]
       },
       {
         "title": "일일자유적금",
@@ -174,5 +174,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/02"
+  "baseDate": "2023/11/03"
 }
