@@ -7,7 +7,7 @@
     "r2": "제주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/03",
+    "baseDate": "2023/11/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -107,7 +107,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/03",
+    "baseDate": "2023/11/04",
     "products": [
       {
         "title": "정기적금",
@@ -206,5 +206,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/03"
+  "baseDate": "2023/11/04"
 }

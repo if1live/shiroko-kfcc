@@ -7,7 +7,7 @@
     "r2": "충주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/03",
+    "baseDate": "2023/11/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -82,7 +82,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/03",
+    "baseDate": "2023/11/04",
     "products": [
       {
         "title": "정기적금",
@@ -91,10 +91,6 @@
           {"duration": 24, "rate": "3.10"},
           {"duration": 36, "rate": "3.10"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 12, "rate": "5.20"}]
       },
       {
         "title": "MG New정기적금",
@@ -169,5 +165,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/03"
+  "baseDate": "2023/11/04"
 }

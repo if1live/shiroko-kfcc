@@ -7,7 +7,7 @@
     "r2": "상주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/03",
+    "baseDate": "2023/11/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -51,7 +51,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/03",
+    "baseDate": "2023/11/04",
     "products": [
       {
         "title": "정기적금",
@@ -91,16 +91,6 @@
         ]
       },
       {
-        "title": "자유적립적금 (특별한시판매)",
-        "entries": [
-          {"duration": 1, "rate": "1.00"},
-          {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "6.60"},
-          {"duration": 24, "rate": "3.50"},
-          {"duration": 36, "rate": "3.50"}
-        ]
-      },
-      {
         "title": "MG월복리자유적금",
         "entries": [{"duration": 12, "rate": "4.00"}]
       },
@@ -126,5 +116,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/03"
+  "baseDate": "2023/11/04"
 }
