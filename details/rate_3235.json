@@ -7,7 +7,7 @@
     "r2": "공주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/05",
+    "baseDate": "2023/11/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,6 +16,7 @@
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "4.00"},
           {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "4.20"},
           {"duration": null, "rate": "4.00"},
           {"duration": null, "rate": "4.00"},
           {"duration": null, "rate": "3.50"}
@@ -96,7 +97,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/05",
+    "baseDate": "2023/11/06",
     "products": [
       {
         "title": "정기적금",
@@ -179,5 +180,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/05"
+  "baseDate": "2023/11/06"
 }

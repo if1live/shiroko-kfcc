@@ -7,7 +7,7 @@
     "r2": "밀양시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/05",
+    "baseDate": "2023/11/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -93,7 +93,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/05",
+    "baseDate": "2023/11/06",
     "products": [
       {
         "title": "정기적금",
@@ -144,5 +144,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/05"
+  "baseDate": "2023/11/06"
 }
