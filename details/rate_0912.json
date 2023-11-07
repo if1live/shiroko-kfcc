@@ -7,7 +7,7 @@
     "r2": "동작구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/07",
+    "baseDate": "2023/11/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -70,12 +70,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "4.70"}]
+        "entries": [{"duration": 12, "rate": "4.50"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/07",
+    "baseDate": "2023/11/08",
     "products": [
       {
         "title": "정기적금",
@@ -154,5 +154,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/07"
+  "baseDate": "2023/11/08"
 }
