@@ -7,7 +7,7 @@
     "r2": "울진군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/09",
+    "baseDate": "2023/11/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -66,7 +66,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/09",
+    "baseDate": "2023/11/10",
     "products": [
       {
         "title": "정기적금",
@@ -117,10 +117,22 @@
         "entries": [{"duration": 12, "rate": "4.30"}]
       },
       {
+        "title": "일일자유적금",
+        "entries": [
+          {"duration": 0, "rate": "1.00"},
+          {"duration": 1, "rate": "1.00"},
+          {"duration": 2, "rate": "1.00"},
+          {"duration": 3, "rate": "1.00"},
+          {"duration": 4, "rate": "2.00"},
+          {"duration": 5, "rate": "2.00"},
+          {"duration": 6, "rate": "2.50"}
+        ]
+      },
+      {
         "title": "My꿈모아자유적금",
         "entries": [{"duration": 12, "rate": "4.30"}]
       }
     ]
   },
-  "baseDate": "2023/11/09"
+  "baseDate": "2023/11/10"
 }
