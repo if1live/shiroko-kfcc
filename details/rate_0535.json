@@ -7,7 +7,7 @@
     "r2": "중랑구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/12",
+    "baseDate": "2023/11/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -95,13 +95,13 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/12",
+    "baseDate": "2023/11/13",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "4.80"},
+          {"duration": 12, "rate": "4.50"},
           {"duration": 18, "rate": "4.00"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.50"}
@@ -123,7 +123,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "5.00"}
+          {"duration": 12, "rate": "4.50"}
         ]
       },
       {
@@ -186,5 +186,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/12"
+  "baseDate": "2023/11/13"
 }

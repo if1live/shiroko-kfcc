@@ -7,18 +7,19 @@
     "r2": "정읍시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/12",
+    "baseDate": "2023/11/13",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "4.70"},
+          {"duration": null, "rate": "4.50"},
           {"duration": null, "rate": "4.80"},
           {"duration": null, "rate": "4.30"},
           {"duration": null, "rate": "4.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.20"}
+          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "4.00"}
         ]
       },
       {
@@ -26,10 +27,10 @@
         "entries": [
           {"duration": 0, "rate": "1.00"},
           {"duration": 3, "rate": "2.00"},
-          {"duration": 6, "rate": "4.70"},
+          {"duration": 6, "rate": "4.50"},
           {"duration": 12, "rate": "4.30"},
-          {"duration": 24, "rate": "3.30"},
-          {"duration": 36, "rate": "3.20"}
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 36, "rate": "4.00"}
         ]
       },
       {
@@ -37,13 +38,13 @@
         "entries": [
           {"duration": 1, "rate": "0.30"},
           {"duration": 3, "rate": "2.00"},
-          {"duration": 6, "rate": "4.70"},
+          {"duration": 6, "rate": "4.50"},
           {"duration": 9, "rate": "4.30"},
           {"duration": 12, "rate": "4.30"},
-          {"duration": 18, "rate": "3.30"},
-          {"duration": 24, "rate": "3.30"},
-          {"duration": 30, "rate": "3.20"},
-          {"duration": 36, "rate": "3.20"}
+          {"duration": 18, "rate": "4.00"},
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 30, "rate": "4.00"},
+          {"duration": 36, "rate": "4.00"}
         ]
       },
       {
@@ -85,7 +86,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/12",
+    "baseDate": "2023/11/13",
     "products": [
       {
         "title": "정기적금",
@@ -170,5 +171,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/12"
+  "baseDate": "2023/11/13"
 }

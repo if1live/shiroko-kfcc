@@ -7,7 +7,7 @@
     "r2": "원주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/12",
+    "baseDate": "2023/11/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -35,8 +35,8 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "0.00"},
+          {"duration": 1, "rate": "0.45"},
+          {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "3.30"},
           {"duration": 9, "rate": "3.30"},
           {"duration": 12, "rate": "4.60"},
@@ -70,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/12",
+    "baseDate": "2023/11/13",
     "products": [
       {
         "title": "정기적금",
@@ -151,5 +151,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/12"
+  "baseDate": "2023/11/13"
 }
