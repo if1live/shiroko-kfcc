@@ -7,15 +7,14 @@
     "r2": "김해시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/13",
+    "baseDate": "2023/11/14",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": 1, "rate": "0.40"},
           {"duration": 3, "rate": "2.00"},
-          {"duration": 6, "rate": "4.50"},
-          {"duration": 7, "rate": "2.80"},
+          {"duration": 6, "rate": "4.00"},
           {"duration": 12, "rate": "4.30"},
           {"duration": 13, "rate": "3.50"},
           {"duration": 24, "rate": "3.50"},
@@ -29,7 +28,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/13",
+    "baseDate": "2023/11/14",
     "products": [
       {
         "title": "정기적금",
@@ -87,5 +86,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/13"
+  "baseDate": "2023/11/14"
 }
