@@ -7,7 +7,7 @@
     "r2": "공주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/15",
+    "baseDate": "2023/11/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -20,15 +20,6 @@
           {"duration": null, "rate": "4.30"},
           {"duration": null, "rate": "3.70"},
           {"duration": null, "rate": "3.50"}
-        ]
-      },
-      {
-        "title": "정기예탁금 (특별한시판매)",
-        "entries": [
-          {"duration": null, "rate": "0.00"},
-          {"duration": null, "rate": "0.00"},
-          {"duration": null, "rate": "4.70"},
-          {"duration": null, "rate": "0.00"}
         ]
       },
       {
@@ -106,7 +97,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/15",
+    "baseDate": "2023/11/16",
     "products": [
       {
         "title": "정기적금",
@@ -121,10 +112,6 @@
           {"duration": 48, "rate": "4.00"},
           {"duration": 60, "rate": "4.00"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "MG New정기적금",
@@ -159,6 +146,7 @@
           {"duration": 1, "rate": "0.50"},
           {"duration": 5, "rate": "0.50"},
           {"duration": 6, "rate": "1.30"},
+          {"duration": 10, "rate": "4.20"},
           {"duration": 12, "rate": "3.80"},
           {"duration": 18, "rate": "3.70"},
           {"duration": 24, "rate": "3.70"},
@@ -220,5 +208,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/15"
+  "baseDate": "2023/11/16"
 }
