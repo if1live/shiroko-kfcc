@@ -7,7 +7,7 @@
     "r2": "구로구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/21",
+    "baseDate": "2023/11/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -26,8 +26,8 @@
           {"duration": 0, "rate": "0.10"},
           {"duration": 3, "rate": "0.10"},
           {"duration": 6, "rate": "0.10"},
-          {"duration": 12, "rate": "5.00"},
-          {"duration": 24, "rate": "5.10"},
+          {"duration": 12, "rate": "4.30"},
+          {"duration": 24, "rate": "4.30"},
           {"duration": 36, "rate": "4.30"}
         ]
       },
@@ -51,7 +51,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/21",
+    "baseDate": "2023/11/22",
     "products": [
       {
         "title": "정기적금",
@@ -112,5 +112,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/21"
+  "baseDate": "2023/11/22"
 }

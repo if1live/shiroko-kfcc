@@ -7,13 +7,13 @@
     "r2": "영광군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/21",
+    "baseDate": "2023/11/22",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.00"},
-          {"duration": null, "rate": "1.00"},
+          {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.60"},
@@ -78,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/21",
+    "baseDate": "2023/11/22",
     "products": [
       {
         "title": "정기적금",
@@ -121,5 +121,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/21"
+  "baseDate": "2023/11/22"
 }
