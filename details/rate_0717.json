@@ -7,7 +7,7 @@
     "r2": "강서구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/22",
+    "baseDate": "2023/11/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -98,25 +98,15 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/22",
+    "baseDate": "2023/11/23",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.80"},
-          {"duration": 24, "rate": "3.80"},
-          {"duration": 36, "rate": "3.80"},
-          {"duration": 48, "rate": "3.80"},
-          {"duration": 60, "rate": "3.80"}
-        ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [
-          {"duration": 12, "rate": "5.00"},
-          {"duration": 24, "rate": "5.10"},
-          {"duration": 36, "rate": "5.20"},
+          {"duration": 12, "rate": "4.20"},
+          {"duration": 24, "rate": "4.20"},
+          {"duration": 36, "rate": "4.20"},
           {"duration": 37, "rate": "3.80"}
         ]
       },
@@ -200,5 +190,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/22"
+  "baseDate": "2023/11/23"
 }
