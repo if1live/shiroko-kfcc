@@ -7,7 +7,7 @@
     "r2": "영등포구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/26",
+    "baseDate": "2023/11/27",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "4.50"},
+          {"duration": null, "rate": "4.30"},
           {"duration": null, "rate": "4.00"},
           {"duration": null, "rate": "4.00"},
           {"duration": null, "rate": "4.00"},
@@ -61,13 +61,13 @@
           {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "4.50"}
+          {"duration": null, "rate": "4.30"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/26",
+    "baseDate": "2023/11/27",
     "products": [
       {
         "title": "정기적금",
@@ -76,10 +76,6 @@
           {"duration": 24, "rate": "4.80"},
           {"duration": 36, "rate": "4.50"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 36, "rate": "6.00"}]
       },
       {
         "title": "MG New정기적금",
@@ -103,10 +99,10 @@
           {"duration": 1, "rate": "0.00"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.40"},
-          {"duration": 12, "rate": "4.30"},
-          {"duration": 13, "rate": "4.30"},
-          {"duration": 24, "rate": "4.30"},
-          {"duration": 36, "rate": "4.30"}
+          {"duration": 12, "rate": "4.10"},
+          {"duration": 13, "rate": "4.10"},
+          {"duration": 24, "rate": "3.80"},
+          {"duration": 36, "rate": "3.80"}
         ]
       },
       {
@@ -115,5 +111,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/26"
+  "baseDate": "2023/11/27"
 }
