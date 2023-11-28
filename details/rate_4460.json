@@ -7,7 +7,7 @@
     "r2": "춘천시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/28",
+    "baseDate": "2023/11/29",
     "products": [
       {
         "title": "정기예탁금",
@@ -69,7 +69,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/28",
+    "baseDate": "2023/11/29",
     "products": [
       {
         "title": "정기적금",
@@ -160,5 +160,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/28"
+  "baseDate": "2023/11/29"
 }
