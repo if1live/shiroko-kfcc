@@ -7,7 +7,7 @@
     "r2": "성북구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/29",
+    "baseDate": "2023/11/30",
     "products": [
       {
         "title": "정기예탁금",
@@ -47,7 +47,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.54"}]
+        "entries": [{"duration": 12, "rate": "4.50"}]
       },
       {
         "title": "MG기업정기예금(A)",
@@ -95,7 +95,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/29",
+    "baseDate": "2023/11/30",
     "products": [
       {
         "title": "정기적금",
@@ -128,7 +128,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "5.13"}
+          {"duration": 12, "rate": "4.50"}
         ]
       },
       {
@@ -193,5 +193,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/29"
+  "baseDate": "2023/11/30"
 }
