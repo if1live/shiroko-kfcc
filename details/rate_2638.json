@@ -7,7 +7,7 @@
     "r2": "여수시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/30",
+    "baseDate": "2023/12/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/30",
+    "baseDate": "2023/12/01",
     "products": [
       {
         "title": "정기적금",
@@ -85,10 +85,6 @@
           {"duration": 48, "rate": "3.00"},
           {"duration": 60, "rate": "3.00"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 15, "rate": "5.00"}]
       },
       {
         "title": "MG New정기적금",
@@ -169,5 +165,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/30"
+  "baseDate": "2023/12/01"
 }

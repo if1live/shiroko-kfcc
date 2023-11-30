@@ -7,7 +7,7 @@
     "r2": "광산구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/11/30",
+    "baseDate": "2023/12/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -61,13 +61,13 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/11/30",
+    "baseDate": "2023/12/01",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "6.00"},
+          {"duration": 12, "rate": "5.50"},
           {"duration": 24, "rate": "5.00"},
           {"duration": 36, "rate": "4.70"},
           {"duration": 48, "rate": "3.50"},
@@ -82,7 +82,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "5.82"}
+          {"duration": 12, "rate": "5.32"}
         ]
       },
       {
@@ -121,5 +121,5 @@
       }
     ]
   },
-  "baseDate": "2023/11/30"
+  "baseDate": "2023/12/01"
 }
