@@ -7,7 +7,7 @@
     "r2": "합천군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/03",
+    "baseDate": "2023/12/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -19,15 +19,6 @@
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.10"}
-        ]
-      },
-      {
-        "title": "정기예탁금 (특별한시판매)",
-        "entries": [
-          {"duration": 3, "rate": "1.00"},
-          {"duration": 6, "rate": "2.60"},
-          {"duration": 12, "rate": "3.80"},
-          {"duration": 16, "rate": "4.00"}
         ]
       },
       {
@@ -69,7 +60,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/03",
+    "baseDate": "2023/12/04",
     "products": [
       {
         "title": "정기적금",
@@ -124,5 +115,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/03"
+  "baseDate": "2023/12/04"
 }

@@ -7,7 +7,7 @@
     "r2": "달성군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/03",
+    "baseDate": "2023/12/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "0.50"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "4.70"},
+          {"duration": null, "rate": "4.20"},
           {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.30"}
@@ -59,7 +59,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/03",
+    "baseDate": "2023/12/04",
     "products": [
       {
         "title": "정기적금",
@@ -111,5 +111,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/03"
+  "baseDate": "2023/12/04"
 }
