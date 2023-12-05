@@ -7,7 +7,7 @@
     "r2": "안양시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/05",
+    "baseDate": "2023/12/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -60,14 +60,12 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/05",
+    "baseDate": "2023/12/06",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 12, "rate": "4.30"},
-          {"duration": 16, "rate": "5.50"},
-          {"duration": 17, "rate": "4.30"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.50"},
           {"duration": 48, "rate": "3.50"},
@@ -155,5 +153,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/05"
+  "baseDate": "2023/12/06"
 }

@@ -7,13 +7,14 @@
     "r2": "정읍시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/05",
+    "baseDate": "2023/12/06",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.30"},
           {"duration": null, "rate": "1.50"},
+          {"duration": null, "rate": "4.95"},
           {"duration": null, "rate": "4.50"},
           {"duration": null, "rate": "4.30"},
           {"duration": null, "rate": "4.30"},
@@ -41,7 +42,7 @@
         "entries": [
           {"duration": 1, "rate": "0.30"},
           {"duration": 3, "rate": "1.50"},
-          {"duration": 6, "rate": "4.50"},
+          {"duration": 6, "rate": "4.95"},
           {"duration": 9, "rate": "4.30"},
           {"duration": 12, "rate": "4.30"},
           {"duration": 18, "rate": "3.80"},
@@ -62,7 +63,7 @@
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "4.50"},
+          {"duration": null, "rate": "4.95"},
           {"duration": null, "rate": "4.50"},
           {"duration": null, "rate": "4.50"},
           {"duration": null, "rate": "4.30"},
@@ -78,7 +79,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/05",
+    "baseDate": "2023/12/06",
     "products": [
       {
         "title": "정기적금",
@@ -161,5 +162,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/05"
+  "baseDate": "2023/12/06"
 }
