@@ -30,12 +30,13 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 18
+          # 특별히 손본게 없는데 18.19.0 부터 github actions에서 터지길래 버전 고정
+          node-version: 18.18.2
 
       - uses: pnpm/action-setup@v2
         id: pnpm-install
         with:
-          version: 8
+          version: 8.11.0
           run_install: false
 
       - name: Get pnpm store directory
