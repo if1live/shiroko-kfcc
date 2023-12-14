@@ -7,7 +7,7 @@
     "r2": "보은군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/08",
+    "baseDate": "2023/12/14",
     "products": [
       {
         "title": "정기예탁금",
@@ -51,12 +51,12 @@
       {
         "title": "MG기업정기예금(B)",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "3.70"},
-          {"duration": 6, "rate": "4.50"},
-          {"duration": 12, "rate": "4.90"},
-          {"duration": 18, "rate": "4.90"},
-          {"duration": 24, "rate": "0.00"}
+          {"duration": 1, "rate": "1.00"},
+          {"duration": 3, "rate": "1.00"},
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 12, "rate": "3.70"},
+          {"duration": 18, "rate": "3.00"},
+          {"duration": 24, "rate": "3.00"}
         ]
       },
       {
@@ -66,7 +66,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/08",
+    "baseDate": "2023/12/14",
     "products": [
       {
         "title": "정기적금",
@@ -130,5 +130,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/08"
+  "baseDate": "2023/12/14"
 }
