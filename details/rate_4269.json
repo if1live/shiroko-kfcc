@@ -2,12 +2,12 @@
   "id": "4269",
   "bank": {
     "gmgoCd": "4269",
-    "gmgoNm": "속초중앙",
+    "gmgoNm": "중앙",
     "r1": "강원",
     "r2": "속초시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/14",
+    "baseDate": "2023/12/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -83,7 +83,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/14",
+    "baseDate": "2023/12/15",
     "products": [
       {
         "title": "정기적금",
@@ -183,5 +183,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/14"
+  "baseDate": "2023/12/15"
 }

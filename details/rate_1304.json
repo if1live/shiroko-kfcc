@@ -7,7 +7,7 @@
     "r2": "동구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/14",
+    "baseDate": "2023/12/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -57,7 +57,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/14",
+    "baseDate": "2023/12/15",
     "products": [
       {
         "title": "정기적금",
@@ -68,10 +68,6 @@
           {"duration": 36, "rate": "3.80"},
           {"duration": 60, "rate": "0.00"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 15, "rate": "8.00"}]
       },
       {
         "title": "MG더뱅킹정기적금",
@@ -105,5 +101,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/14"
+  "baseDate": "2023/12/15"
 }
