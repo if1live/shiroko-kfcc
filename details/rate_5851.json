@@ -7,7 +7,7 @@
     "r2": "문경시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/16",
+    "baseDate": "2023/12/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -69,7 +69,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/16",
+    "baseDate": "2023/12/17",
     "products": [
       {
         "title": "정기적금",
@@ -141,5 +141,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/16"
+  "baseDate": "2023/12/17"
 }
