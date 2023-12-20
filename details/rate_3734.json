@@ -7,7 +7,7 @@
     "r2": "김포시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/20",
+    "baseDate": "2023/12/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -95,14 +95,13 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/20",
+    "baseDate": "2023/12/21",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "1.80"},
-          {"duration": 12, "rate": "5.50"},
-          {"duration": 18, "rate": "5.00"},
+          {"duration": 12, "rate": "4.50"},
           {"duration": 24, "rate": "4.00"},
           {"duration": 36, "rate": "4.30"}
         ]
@@ -110,24 +109,24 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "5.50"},
+          {"duration": 12, "rate": "4.50"},
           {"duration": 24, "rate": "4.00"},
           {"duration": 36, "rate": "4.30"}
         ]
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "5.50"}]
+        "entries": [{"duration": 12, "rate": "4.50"}]
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "5.50"}]
+        "entries": [{"duration": 12, "rate": "4.50"}]
       },
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "1.80"},
-          {"duration": 12, "rate": "5.50"}
+          {"duration": 12, "rate": "4.50"}
         ]
       },
       {
@@ -187,5 +186,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/20"
+  "baseDate": "2023/12/21"
 }

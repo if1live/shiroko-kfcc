@@ -7,14 +7,14 @@
     "r2": "청주시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/20",
+    "baseDate": "2023/12/21",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": 3, "rate": "1.50"},
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "4.40"},
+          {"duration": 12, "rate": "4.20"},
           {"duration": 13, "rate": "3.60"},
           {"duration": 24, "rate": "3.60"},
           {"duration": 36, "rate": "3.40"},
@@ -25,12 +25,12 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/20",
+    "baseDate": "2023/12/21",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.40"},
+          {"duration": 12, "rate": "4.20"},
           {"duration": 24, "rate": "3.60"},
           {"duration": 36, "rate": "3.40"},
           {"duration": 48, "rate": "3.40"},
@@ -47,7 +47,7 @@
           {"duration": 1, "rate": "0.40"},
           {"duration": 3, "rate": "0.70"},
           {"duration": 6, "rate": "1.40"},
-          {"duration": 12, "rate": "4.20"},
+          {"duration": 12, "rate": "4.00"},
           {"duration": 24, "rate": "3.40"},
           {"duration": 36, "rate": "3.40"},
           {"duration": 48, "rate": "3.40"},
@@ -76,5 +76,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/20"
+  "baseDate": "2023/12/21"
 }

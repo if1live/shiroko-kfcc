@@ -7,7 +7,7 @@
     "r2": "익산시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/20",
+    "baseDate": "2023/12/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -50,12 +50,12 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.30"}]
+        "entries": [{"duration": 12, "rate": "4.00"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/20",
+    "baseDate": "2023/12/21",
     "products": [
       {
         "title": "정기적금",
@@ -129,5 +129,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/20"
+  "baseDate": "2023/12/21"
 }

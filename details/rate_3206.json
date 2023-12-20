@@ -7,7 +7,7 @@
     "r2": "천안시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/20",
+    "baseDate": "2023/12/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -99,7 +99,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/20",
+    "baseDate": "2023/12/21",
     "products": [
       {
         "title": "정기적금",
@@ -109,10 +109,6 @@
           {"duration": 24, "rate": "4.50"},
           {"duration": 36, "rate": "4.50"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 12, "rate": "5.50"}]
       },
       {
         "title": "MG New정기적금",
@@ -195,5 +191,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/20"
+  "baseDate": "2023/12/21"
 }
