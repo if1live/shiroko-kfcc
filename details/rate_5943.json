@@ -7,7 +7,7 @@
     "r2": "예천군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/21",
+    "baseDate": "2023/12/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -47,7 +47,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -68,12 +68,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/21",
+    "baseDate": "2023/12/22",
     "products": [
       {
         "title": "정기적금",
@@ -133,5 +133,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/21"
+  "baseDate": "2023/12/22"
 }

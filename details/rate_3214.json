@@ -7,14 +7,14 @@
     "r2": "천안시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/21",
+    "baseDate": "2023/12/22",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "4.50"},
+          {"duration": null, "rate": "4.20"},
           {"duration": null, "rate": "4.20"},
           {"duration": null, "rate": "3.70"},
           {"duration": null, "rate": "3.70"},
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/21",
+    "baseDate": "2023/12/22",
     "products": [
       {
         "title": "정기적금",
@@ -128,11 +128,11 @@
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "4.10"}]
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "4.10"}]
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "꿈모아상호부금",
@@ -149,5 +149,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/21"
+  "baseDate": "2023/12/22"
 }

@@ -7,15 +7,15 @@
     "r2": "남구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/21",
+    "baseDate": "2023/12/22",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "4.70"},
+          {"duration": null, "rate": "4.50"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.80"}
@@ -50,7 +50,7 @@
           {"duration": 9, "rate": "1.20"},
           {"duration": 10, "rate": "1.20"},
           {"duration": 11, "rate": "1.20"},
-          {"duration": 12, "rate": "4.70"}
+          {"duration": 12, "rate": "4.50"}
         ]
       },
       {
@@ -60,21 +60,21 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/21",
+    "baseDate": "2023/12/22",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.70"},
-          {"duration": 24, "rate": "4.80"},
-          {"duration": 36, "rate": "4.80"}
+          {"duration": 12, "rate": "4.50"},
+          {"duration": 24, "rate": "4.60"},
+          {"duration": 36, "rate": "4.70"}
         ]
       },
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "4.80"}
+          {"duration": 12, "rate": "4.60"}
         ]
       },
       {
@@ -87,7 +87,7 @@
           {"duration": 1, "rate": "1.30"},
           {"duration": 3, "rate": "1.50"},
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "3.60"},
+          {"duration": 12, "rate": "3.50"},
           {"duration": 24, "rate": "1.50"},
           {"duration": 36, "rate": "1.50"},
           {"duration": 48, "rate": "1.50"},
@@ -96,5 +96,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/21"
+  "baseDate": "2023/12/22"
 }
