@@ -7,13 +7,14 @@
     "r2": "성동구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/25",
+    "baseDate": "2023/12/26",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "4.50"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "4.30"},
           {"duration": null, "rate": "3.80"},
@@ -58,7 +59,7 @@
           {"duration": 3, "rate": "2.40"},
           {"duration": 4, "rate": "2.40"},
           {"duration": 5, "rate": "2.40"},
-          {"duration": 6, "rate": "3.50"},
+          {"duration": 6, "rate": "4.50"},
           {"duration": 7, "rate": "3.10"},
           {"duration": 8, "rate": "3.10"},
           {"duration": 9, "rate": "3.10"},
@@ -74,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/25",
+    "baseDate": "2023/12/26",
     "products": [
       {
         "title": "정기적금",
@@ -156,5 +157,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/25"
+  "baseDate": "2023/12/26"
 }
