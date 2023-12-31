@@ -7,7 +7,7 @@
     "r2": "부산진구"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/31",
+    "baseDate": "2024/01/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "0.50"},
           {"duration": null, "rate": "1.70"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "4.30"},
+          {"duration": null, "rate": "4.10"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
@@ -40,7 +40,7 @@
           {"duration": 3, "rate": "1.70"},
           {"duration": 6, "rate": "2.00"},
           {"duration": 9, "rate": "2.00"},
-          {"duration": 12, "rate": "4.30"},
+          {"duration": 12, "rate": "4.10"},
           {"duration": 18, "rate": "3.50"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 30, "rate": "3.50"},
@@ -83,7 +83,7 @@
           {"duration": 9, "rate": "2.00"},
           {"duration": 10, "rate": "2.00"},
           {"duration": 11, "rate": "2.00"},
-          {"duration": 12, "rate": "4.30"}
+          {"duration": 12, "rate": "4.10"}
         ]
       },
       {
@@ -93,7 +93,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/31",
+    "baseDate": "2024/01/01",
     "products": [
       {
         "title": "정기적금",
@@ -116,10 +116,6 @@
       {
         "title": "우리아기첫걸음정기적금",
         "entries": [{"duration": 12, "rate": "4.10"}]
-      },
-      {
-        "title": "MG희망나눔 깡총적금",
-        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -173,5 +169,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/31"
+  "baseDate": "2024/01/01"
 }

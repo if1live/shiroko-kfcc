@@ -7,7 +7,7 @@
     "r2": "서귀포시"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/31",
+    "baseDate": "2024/01/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -38,7 +38,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/31",
+    "baseDate": "2024/01/01",
     "products": [
       {
         "title": "정기적금",
@@ -49,10 +49,6 @@
           {"duration": 36, "rate": "4.00"},
           {"duration": 48, "rate": "4.00"}
         ]
-      },
-      {
-        "title": "MG희망나눔 깡총적금",
-        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -87,5 +83,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/31"
+  "baseDate": "2024/01/01"
 }

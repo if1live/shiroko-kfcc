@@ -7,7 +7,7 @@
     "r2": "음성군"
   },
   "deferredDeposit": {
-    "baseDate": "2023/12/31",
+    "baseDate": "2024/01/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,9 +15,9 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "4.20"},
-          {"duration": null, "rate": "4.20"},
-          {"duration": null, "rate": "4.20"},
+          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "4.10"},
           {"duration": null, "rate": "4.20"}
         ]
       },
@@ -96,7 +96,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2023/12/31",
+    "baseDate": "2024/01/01",
     "products": [
       {
         "title": "정기적금",
@@ -132,10 +132,6 @@
           {"duration": 6, "rate": "2.60"},
           {"duration": 12, "rate": "3.80"}
         ]
-      },
-      {
-        "title": "MG희망나눔 깡총적금",
-        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -196,5 +192,5 @@
       }
     ]
   },
-  "baseDate": "2023/12/31"
+  "baseDate": "2024/01/01"
 }
