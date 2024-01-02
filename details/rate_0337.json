@@ -7,7 +7,7 @@
     "r2": "은평구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/02",
+    "baseDate": "2024/01/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -47,7 +47,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.50"}]
+        "entries": [{"duration": 12, "rate": "4.40"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/02",
+    "baseDate": "2024/01/03",
     "products": [
       {
         "title": "정기적금",
@@ -131,7 +131,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "4.40"}]
+        "entries": [{"duration": 12, "rate": "4.30"}]
       },
       {
         "title": "일일자유적금",
@@ -160,5 +160,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/02"
+  "baseDate": "2024/01/03"
 }
