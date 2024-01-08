@@ -7,7 +7,7 @@
     "r2": "통영시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/08",
+    "baseDate": "2024/01/09",
     "products": [
       {
         "title": "정기예탁금",
@@ -25,7 +25,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/08",
+    "baseDate": "2024/01/09",
     "products": [
       {
         "title": "정기적금",
@@ -77,5 +77,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/08"
+  "baseDate": "2024/01/09"
 }

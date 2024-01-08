@@ -7,7 +7,7 @@
     "r2": "송파구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/08",
+    "baseDate": "2024/01/09",
     "products": [
       {
         "title": "정기예탁금",
@@ -17,11 +17,22 @@
           {"duration": null, "rate": "2.05"},
           {"duration": null, "rate": "2.05"}
         ]
+      },
+      {
+        "title": "Block예금",
+        "entries": [
+          {"duration": 0, "rate": "0.10"},
+          {"duration": 3, "rate": "1.80"},
+          {"duration": 6, "rate": "1.90"},
+          {"duration": 12, "rate": "5.00"},
+          {"duration": 24, "rate": "2.05"},
+          {"duration": 36, "rate": "2.05"}
+        ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/08",
+    "baseDate": "2024/01/09",
     "products": [
       {
         "title": "정기적금",
@@ -51,5 +62,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/08"
+  "baseDate": "2024/01/09"
 }
