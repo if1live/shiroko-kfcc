@@ -7,7 +7,7 @@
     "r2": "서구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/10",
+    "baseDate": "2024/01/11",
     "products": [
       {
         "title": "정기예탁금",
@@ -96,7 +96,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/10",
+    "baseDate": "2024/01/11",
     "products": [
       {
         "title": "정기적금",
@@ -112,9 +112,9 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.50"},
-          {"duration": 24, "rate": "4.00"},
-          {"duration": 36, "rate": "4.00"}
+          {"duration": 12, "rate": "4.20"},
+          {"duration": 24, "rate": "4.20"},
+          {"duration": 36, "rate": "4.20"}
         ]
       },
       {
@@ -184,5 +184,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/10"
+  "baseDate": "2024/01/11"
 }
