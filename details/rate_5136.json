@@ -7,7 +7,7 @@
     "r2": "익산시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/11",
+    "baseDate": "2024/01/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -76,7 +76,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/11",
+    "baseDate": "2024/01/12",
     "products": [
       {
         "title": "정기적금",
@@ -135,5 +135,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/11"
+  "baseDate": "2024/01/12"
 }
