@@ -7,7 +7,7 @@
     "r2": "연수구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/12",
+    "baseDate": "2024/01/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -91,7 +91,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/12",
+    "baseDate": "2024/01/13",
     "products": [
       {
         "title": "정기적금",
@@ -148,5 +148,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/12"
+  "baseDate": "2024/01/13"
 }
