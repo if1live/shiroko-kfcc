@@ -7,7 +7,7 @@
     "r2": "양산시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/15",
+    "baseDate": "2024/01/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -70,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/15",
+    "baseDate": "2024/01/16",
     "products": [
       {
         "title": "정기적금",
@@ -136,12 +136,12 @@
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 12, "rate": "4.00"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 24, "rate": "3.60"},
           {"duration": 36, "rate": "3.60"}
         ]
       }
     ]
   },
-  "baseDate": "2024/01/15"
+  "baseDate": "2024/01/16"
 }
