@@ -7,7 +7,7 @@
     "r2": "거제시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/16",
+    "baseDate": "2024/01/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,9 @@
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "5.00"},
           {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"}
         ]
@@ -42,7 +44,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/16",
+    "baseDate": "2024/01/17",
     "products": [
       {
         "title": "정기적금",
@@ -72,6 +74,7 @@
           {"duration": 1, "rate": "0.90"},
           {"duration": 6, "rate": "2.70"},
           {"duration": 12, "rate": "3.40"},
+          {"duration": 13, "rate": "3.20"},
           {"duration": 24, "rate": "3.30"},
           {"duration": 36, "rate": "3.30"}
         ]
@@ -106,5 +109,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/16"
+  "baseDate": "2024/01/17"
 }

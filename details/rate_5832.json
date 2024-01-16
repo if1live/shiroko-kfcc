@@ -7,7 +7,7 @@
     "r2": "영주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/16",
+    "baseDate": "2024/01/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -32,7 +32,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/16",
+    "baseDate": "2024/01/17",
     "products": [
       {
         "title": "정기적금",
@@ -63,5 +63,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/16"
+  "baseDate": "2024/01/17"
 }

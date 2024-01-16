@@ -7,14 +7,14 @@
     "r2": "영암군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/16",
+    "baseDate": "2024/01/17",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "4.30"},
+          {"duration": null, "rate": "4.20"},
           {"duration": null, "rate": "4.00"},
           {"duration": null, "rate": "4.10"},
           {"duration": null, "rate": "4.00"},
@@ -26,7 +26,7 @@
         "entries": [
           {"duration": 0, "rate": "2.80"},
           {"duration": 3, "rate": "3.20"},
-          {"duration": 6, "rate": "4.30"},
+          {"duration": 6, "rate": "4.10"},
           {"duration": 12, "rate": "4.10"},
           {"duration": 24, "rate": "4.00"},
           {"duration": 36, "rate": "4.00"}
@@ -35,15 +35,15 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "2.80"},
-          {"duration": 3, "rate": "3.20"},
-          {"duration": 6, "rate": "4.30"},
+          {"duration": 1, "rate": "0.00"},
+          {"duration": 3, "rate": "0.00"},
+          {"duration": 6, "rate": "4.20"},
           {"duration": 9, "rate": "4.00"},
           {"duration": 12, "rate": "4.10"},
           {"duration": 18, "rate": "4.10"},
           {"duration": 24, "rate": "4.00"},
-          {"duration": 30, "rate": "0.00"},
-          {"duration": 36, "rate": "0.00"}
+          {"duration": 30, "rate": "4.00"},
+          {"duration": 36, "rate": "4.00"}
         ]
       },
       {
@@ -58,10 +58,10 @@
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "4.30"},
-          {"duration": null, "rate": "4.30"},
-          {"duration": null, "rate": "4.30"},
-          {"duration": null, "rate": "4.30"},
+          {"duration": null, "rate": "4.20"},
+          {"duration": null, "rate": "4.20"},
+          {"duration": null, "rate": "4.20"},
+          {"duration": null, "rate": "4.20"},
           {"duration": null, "rate": "4.00"},
           {"duration": null, "rate": "4.00"},
           {"duration": null, "rate": "4.10"}
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/16",
+    "baseDate": "2024/01/17",
     "products": [
       {
         "title": "정기적금",
@@ -141,5 +141,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/16"
+  "baseDate": "2024/01/17"
 }
