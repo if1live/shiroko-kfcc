@@ -7,7 +7,7 @@
     "r2": "여수시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/18",
+    "baseDate": "2024/01/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -70,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/18",
+    "baseDate": "2024/01/19",
     "products": [
       {
         "title": "정기적금",
@@ -130,7 +130,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "4.50"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "꿈모아상호부금",
@@ -147,5 +147,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/18"
+  "baseDate": "2024/01/19"
 }

@@ -7,7 +7,7 @@
     "r2": "서구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/18",
+    "baseDate": "2024/01/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -37,15 +37,15 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "0.70"},
-          {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "4.30"},
-          {"duration": 9, "rate": "4.50"},
-          {"duration": 12, "rate": "4.50"},
-          {"duration": 18, "rate": "4.50"},
-          {"duration": 24, "rate": "4.00"},
-          {"duration": 30, "rate": "4.00"},
-          {"duration": 36, "rate": "3.70"}
+          {"duration": 1, "rate": "1.70"},
+          {"duration": 3, "rate": "2.70"},
+          {"duration": 6, "rate": "3.70"},
+          {"duration": 9, "rate": "3.70"},
+          {"duration": 12, "rate": "4.00"},
+          {"duration": 18, "rate": "4.00"},
+          {"duration": 24, "rate": "3.70"},
+          {"duration": 30, "rate": "3.70"},
+          {"duration": 36, "rate": "3.40"}
         ]
       },
       {
@@ -72,7 +72,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/18",
+    "baseDate": "2024/01/19",
     "products": [
       {
         "title": "정기적금",
@@ -151,5 +151,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/18"
+  "baseDate": "2024/01/19"
 }
