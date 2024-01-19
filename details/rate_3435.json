@@ -7,7 +7,7 @@
     "r2": "태안군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/19",
+    "baseDate": "2024/01/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -72,7 +72,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/19",
+    "baseDate": "2024/01/20",
     "products": [
       {
         "title": "정기적금",
@@ -132,5 +132,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/19"
+  "baseDate": "2024/01/20"
 }

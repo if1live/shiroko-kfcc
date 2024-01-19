@@ -7,7 +7,7 @@
     "r2": "제주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/19",
+    "baseDate": "2024/01/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -72,12 +72,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "4.60"}]
+        "entries": [{"duration": 12, "rate": "4.30"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/19",
+    "baseDate": "2024/01/20",
     "products": [
       {
         "title": "정기적금",
@@ -153,5 +153,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/19"
+  "baseDate": "2024/01/20"
 }
