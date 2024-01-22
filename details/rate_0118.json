@@ -7,7 +7,7 @@
     "r2": "종로구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/22",
+    "baseDate": "2024/01/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -100,7 +100,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/22",
+    "baseDate": "2024/01/23",
     "products": [
       {
         "title": "정기적금",
@@ -132,7 +132,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "5.00"}
+          {"duration": 12, "rate": "4.50"}
         ]
       },
       {
@@ -189,5 +189,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/22"
+  "baseDate": "2024/01/23"
 }
