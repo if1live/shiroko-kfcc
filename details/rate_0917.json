@@ -7,7 +7,7 @@
     "r2": "동작구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/23",
+    "baseDate": "2024/01/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/23",
+    "baseDate": "2024/01/24",
     "products": [
       {
         "title": "정기적금",
@@ -82,10 +82,6 @@
           {"duration": 24, "rate": "4.50"},
           {"duration": 36, "rate": "4.60"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "MG New정기적금",
@@ -151,5 +147,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/23"
+  "baseDate": "2024/01/24"
 }

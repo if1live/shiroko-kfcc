@@ -7,14 +7,14 @@
     "r2": "양구군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/23",
+    "baseDate": "2024/01/24",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.05"},
-          {"duration": null, "rate": "1.05"},
-          {"duration": null, "rate": "1.35"},
+          {"duration": null, "rate": "2.35"},
+          {"duration": null, "rate": "2.35"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.70"},
           {"duration": null, "rate": "2.60"}
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/23",
+    "baseDate": "2024/01/24",
     "products": [
       {
         "title": "정기적금",
@@ -142,5 +142,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/23"
+  "baseDate": "2024/01/24"
 }
