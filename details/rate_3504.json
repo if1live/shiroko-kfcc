@@ -7,22 +7,24 @@
     "r2": "성남시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/28",
+    "baseDate": "2024/01/29",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.95"},
           {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "3.90"},
-          {"duration": null, "rate": "3.90"}
+          {"duration": null, "rate": "4.05"},
+          {"duration": null, "rate": "4.10"},
+          {"duration": null, "rate": "4.15"},
+          {"duration": null, "rate": "4.20"},
+          {"duration": null, "rate": "4.25"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"}
         ]
       },
       {
@@ -31,7 +33,7 @@
           {"duration": 0, "rate": "0.50"},
           {"duration": 3, "rate": "3.05"},
           {"duration": 6, "rate": "3.55"},
-          {"duration": 12, "rate": "4.00"},
+          {"duration": 12, "rate": "3.95"},
           {"duration": 24, "rate": "4.00"},
           {"duration": 36, "rate": "4.00"}
         ]
@@ -43,11 +45,11 @@
           {"duration": 3, "rate": "3.05"},
           {"duration": 6, "rate": "3.55"},
           {"duration": 9, "rate": "3.55"},
-          {"duration": 12, "rate": "4.00"},
-          {"duration": 18, "rate": "4.00"},
-          {"duration": 24, "rate": "4.00"},
-          {"duration": 30, "rate": "4.00"},
-          {"duration": 36, "rate": "4.00"}
+          {"duration": 12, "rate": "3.95"},
+          {"duration": 18, "rate": "4.05"},
+          {"duration": 24, "rate": "4.05"},
+          {"duration": 30, "rate": "4.05"},
+          {"duration": 36, "rate": "4.10"}
         ]
       },
       {
@@ -62,23 +64,23 @@
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"}
+          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.95"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "4.00"}]
+        "entries": [{"duration": 12, "rate": "3.95"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/28",
+    "baseDate": "2024/01/29",
     "products": [
       {
         "title": "정기적금",
@@ -167,5 +169,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/28"
+  "baseDate": "2024/01/29"
 }
