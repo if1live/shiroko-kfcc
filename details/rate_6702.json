@@ -7,12 +7,12 @@
     "r2": "서귀포시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/29",
+    "baseDate": "2024/01/30",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "1.00"},
+          {"duration": null, "rate": "0.50"},
           {"duration": null, "rate": "1.10"},
           {"duration": null, "rate": "1.20"},
           {"duration": null, "rate": "3.50"},
@@ -79,7 +79,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/29",
+    "baseDate": "2024/01/30",
     "products": [
       {
         "title": "정기적금",
@@ -172,5 +172,5 @@
       }
     ]
   },
-  "baseDate": "2024/01/29"
+  "baseDate": "2024/01/30"
 }

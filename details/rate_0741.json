@@ -7,42 +7,42 @@
     "r2": "대덕구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/29",
+    "baseDate": "2024/01/30",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": 3, "rate": "1.80"},
           {"duration": 6, "rate": "1.90"},
-          {"duration": 12, "rate": "1.30"},
-          {"duration": 24, "rate": "1.40"},
-          {"duration": 36, "rate": "1.50"}
+          {"duration": 12, "rate": "2.00"},
+          {"duration": 24, "rate": "2.10"},
+          {"duration": 36, "rate": "2.20"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/29",
+    "baseDate": "2024/01/30",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "1.50"},
-          {"duration": 24, "rate": "1.60"},
-          {"duration": 36, "rate": "1.70"}
+          {"duration": 12, "rate": "2.30"},
+          {"duration": 24, "rate": "2.40"},
+          {"duration": 36, "rate": "2.50"}
         ]
       },
       {
         "title": "자유적립적금",
         "entries": [
-          {"duration": 1, "rate": "0.10"},
-          {"duration": 6, "rate": "1.00"},
-          {"duration": 12, "rate": "1.50"},
-          {"duration": 24, "rate": "1.60"},
-          {"duration": 36, "rate": "1.70"}
+          {"duration": 1, "rate": "1.50"},
+          {"duration": 6, "rate": "2.00"},
+          {"duration": 12, "rate": "2.30"},
+          {"duration": 24, "rate": "2.40"},
+          {"duration": 36, "rate": "2.50"}
         ]
       }
     ]
   },
-  "baseDate": "2024/01/29"
+  "baseDate": "2024/01/30"
 }

@@ -7,17 +7,17 @@
     "r2": "사천시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/01/29",
+    "baseDate": "2024/01/30",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.95"},
-          {"duration": null, "rate": "3.45"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.85"},
-          {"duration": null, "rate": "3.95"},
-          {"duration": null, "rate": "3.95"},
+          {"duration": null, "rate": "3.25"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.75"},
+          {"duration": null, "rate": "3.78"},
+          {"duration": null, "rate": "3.78"},
           {"duration": null, "rate": "3.25"},
           {"duration": null, "rate": "3.30"}
         ]
@@ -26,9 +26,9 @@
         "title": "Block예금",
         "entries": [
           {"duration": 0, "rate": "0.10"},
-          {"duration": 3, "rate": "3.45"},
-          {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "3.85"},
+          {"duration": 3, "rate": "3.25"},
+          {"duration": 6, "rate": "3.30"},
+          {"duration": 12, "rate": "3.75"},
           {"duration": 24, "rate": "3.25"},
           {"duration": 36, "rate": "3.30"}
         ]
@@ -37,11 +37,11 @@
         "title": "자유자재정기예금Ⅱ",
         "entries": [
           {"duration": 1, "rate": "2.75"},
-          {"duration": 3, "rate": "3.25"},
-          {"duration": 6, "rate": "3.30"},
-          {"duration": 9, "rate": "3.30"},
-          {"duration": 12, "rate": "3.75"},
-          {"duration": 18, "rate": "3.85"},
+          {"duration": 3, "rate": "3.05"},
+          {"duration": 6, "rate": "3.10"},
+          {"duration": 9, "rate": "3.10"},
+          {"duration": 12, "rate": "3.65"},
+          {"duration": 18, "rate": "3.68"},
           {"duration": 24, "rate": "3.15"},
           {"duration": 30, "rate": "3.15"},
           {"duration": 36, "rate": "3.20"}
@@ -52,16 +52,16 @@
         "entries": [
           {"duration": null, "rate": "2.95"},
           {"duration": null, "rate": "2.95"},
-          {"duration": null, "rate": "3.45"},
-          {"duration": null, "rate": "3.45"},
-          {"duration": null, "rate": "3.45"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.85"}
+          {"duration": null, "rate": "3.25"},
+          {"duration": null, "rate": "3.25"},
+          {"duration": null, "rate": "3.25"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.75"}
         ]
       },
       {
@@ -71,7 +71,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/01/29",
+    "baseDate": "2024/01/30",
     "products": [
       {
         "title": "정기적금",
@@ -110,9 +110,9 @@
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.00"},
-          {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "3.85"},
-          {"duration": 18, "rate": "3.95"},
+          {"duration": 6, "rate": "3.30"},
+          {"duration": 12, "rate": "3.75"},
+          {"duration": 18, "rate": "3.78"},
           {"duration": 24, "rate": "3.25"},
           {"duration": 36, "rate": "3.30"},
           {"duration": 48, "rate": "3.30"},
@@ -125,7 +125,7 @@
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.85"}]
+        "entries": [{"duration": 12, "rate": "3.75"}]
       },
       {
         "title": "일일자유적금",
@@ -149,9 +149,9 @@
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "3.85"}]
+        "entries": [{"duration": 12, "rate": "3.75"}]
       }
     ]
   },
-  "baseDate": "2024/01/29"
+  "baseDate": "2024/01/30"
 }
