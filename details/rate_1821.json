@@ -7,7 +7,7 @@
     "r2": "달서구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/01",
+    "baseDate": "2024/02/02",
     "products": [
       {
         "title": "정기예탁금",
@@ -30,7 +30,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/01",
+    "baseDate": "2024/02/02",
     "products": [
       {
         "title": "정기적금",
@@ -41,10 +41,6 @@
           {"duration": 48, "rate": "0.00"},
           {"duration": 60, "rate": "0.00"}
         ]
-      },
-      {
-        "title": "정기적금 (특별한시판매)",
-        "entries": [{"duration": 12, "rate": "10.00"}]
       },
       {
         "title": "우리아기첫걸음정기적금",
@@ -65,5 +61,5 @@
       }
     ]
   },
-  "baseDate": "2024/02/01"
+  "baseDate": "2024/02/02"
 }

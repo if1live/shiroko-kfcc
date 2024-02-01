@@ -7,12 +7,12 @@
     "r2": "서구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/01",
+    "baseDate": "2024/02/02",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": 3, "rate": "3.80"},
+          {"duration": 3, "rate": "3.00"},
           {"duration": 6, "rate": "3.80"},
           {"duration": 12, "rate": "4.10"},
           {"duration": 24, "rate": "3.80"},
@@ -23,7 +23,7 @@
         "title": "Block예금",
         "entries": [
           {"duration": 0, "rate": "0.20"},
-          {"duration": 3, "rate": "3.80"},
+          {"duration": 3, "rate": "3.00"},
           {"duration": 6, "rate": "3.80"},
           {"duration": 12, "rate": "4.10"},
           {"duration": 24, "rate": "3.80"},
@@ -34,7 +34,7 @@
         "title": "자유자재정기예금Ⅱ",
         "entries": [
           {"duration": 1, "rate": "0.20"},
-          {"duration": 3, "rate": "3.80"},
+          {"duration": 3, "rate": "3.00"},
           {"duration": 6, "rate": "3.80"},
           {"duration": 9, "rate": "3.80"},
           {"duration": 12, "rate": "4.10"},
@@ -53,9 +53,9 @@
         "entries": [
           {"duration": 1, "rate": "0.20"},
           {"duration": 2, "rate": "0.20"},
-          {"duration": 3, "rate": "3.80"},
-          {"duration": 4, "rate": "3.80"},
-          {"duration": 5, "rate": "3.80"},
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 4, "rate": "3.00"},
+          {"duration": 5, "rate": "3.00"},
           {"duration": 6, "rate": "3.80"},
           {"duration": 7, "rate": "3.80"},
           {"duration": 8, "rate": "3.80"},
@@ -72,7 +72,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/01",
+    "baseDate": "2024/02/02",
     "products": [
       {
         "title": "정기적금",
@@ -139,5 +139,5 @@
       }
     ]
   },
-  "baseDate": "2024/02/01"
+  "baseDate": "2024/02/02"
 }
