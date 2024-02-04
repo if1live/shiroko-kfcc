@@ -7,7 +7,7 @@
     "r2": "공주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/04",
+    "baseDate": "2024/02/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -57,8 +57,8 @@
           {"duration": 3, "rate": "3.20"},
           {"duration": 6, "rate": "3.50"},
           {"duration": 12, "rate": "3.90"},
-          {"duration": 18, "rate": "4.10"},
-          {"duration": 24, "rate": "4.00"}
+          {"duration": 18, "rate": "4.00"},
+          {"duration": 24, "rate": "3.50"}
         ]
       },
       {
@@ -68,8 +68,8 @@
           {"duration": 3, "rate": "3.20"},
           {"duration": 6, "rate": "3.50"},
           {"duration": 12, "rate": "3.90"},
-          {"duration": 18, "rate": "4.10"},
-          {"duration": 24, "rate": "4.00"}
+          {"duration": 18, "rate": "4.00"},
+          {"duration": 24, "rate": "3.50"}
         ]
       },
       {
@@ -96,7 +96,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/04",
+    "baseDate": "2024/02/05",
     "products": [
       {
         "title": "정기적금",
@@ -142,7 +142,7 @@
           {"duration": 24, "rate": "3.90"},
           {"duration": 36, "rate": "3.90"},
           {"duration": 48, "rate": "3.90"},
-          {"duration": 60, "rate": "4.00"}
+          {"duration": 60, "rate": "3.90"}
         ]
       },
       {
@@ -164,16 +164,16 @@
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 12, "rate": "4.10"},
+          {"duration": 12, "rate": "3.90"},
           {"duration": 24, "rate": "4.00"},
           {"duration": 36, "rate": "3.50"}
         ]
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "4.10"}]
+        "entries": [{"duration": 12, "rate": "3.90"}]
       }
     ]
   },
-  "baseDate": "2024/02/04"
+  "baseDate": "2024/02/05"
 }
