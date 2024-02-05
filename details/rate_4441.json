@@ -7,14 +7,14 @@
     "r2": "홍천군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/05",
+    "baseDate": "2024/02/06",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.90"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.50"},
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/05",
+    "baseDate": "2024/02/06",
     "products": [
       {
         "title": "정기적금",
@@ -163,5 +163,5 @@
       }
     ]
   },
-  "baseDate": "2024/02/05"
+  "baseDate": "2024/02/06"
 }

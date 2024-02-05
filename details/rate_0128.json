@@ -7,7 +7,7 @@
     "r2": "종로구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/05",
+    "baseDate": "2024/02/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -22,8 +22,8 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/05",
+    "baseDate": "2024/02/06",
     "products": []
   },
-  "baseDate": "2024/02/05"
+  "baseDate": "2024/02/06"
 }
