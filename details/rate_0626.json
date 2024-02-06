@@ -7,12 +7,12 @@
     "r2": "성북구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/06",
+    "baseDate": "2024/02/07",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.50"},
@@ -26,7 +26,7 @@
       {
         "title": "Block예금",
         "entries": [
-          {"duration": 0, "rate": "2.50"},
+          {"duration": 0, "rate": "2.00"},
           {"duration": 3, "rate": "3.00"},
           {"duration": 6, "rate": "3.80"},
           {"duration": 12, "rate": "4.20"},
@@ -37,7 +37,7 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "2.50"},
+          {"duration": 1, "rate": "2.00"},
           {"duration": 3, "rate": "3.00"},
           {"duration": 6, "rate": "3.80"},
           {"duration": 9, "rate": "3.50"},
@@ -55,7 +55,7 @@
       {
         "title": "MG기업정기예금(A)",
         "entries": [
-          {"duration": 1, "rate": "2.50"},
+          {"duration": 1, "rate": "2.00"},
           {"duration": 3, "rate": "3.00"},
           {"duration": 6, "rate": "3.80"},
           {"duration": 12, "rate": "4.20"},
@@ -66,8 +66,8 @@
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": 1, "rate": "2.50"},
-          {"duration": 2, "rate": "2.50"},
+          {"duration": 1, "rate": "2.00"},
+          {"duration": 2, "rate": "2.00"},
           {"duration": 3, "rate": "3.00"},
           {"duration": 4, "rate": "3.00"},
           {"duration": 5, "rate": "3.00"},
@@ -87,7 +87,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/06",
+    "baseDate": "2024/02/07",
     "products": [
       {
         "title": "정기적금",
@@ -154,5 +154,5 @@
       }
     ]
   },
-  "baseDate": "2024/02/06"
+  "baseDate": "2024/02/07"
 }
