@@ -7,7 +7,7 @@
     "r2": "용산구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/11",
+    "baseDate": "2024/02/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/11",
+    "baseDate": "2024/02/12",
     "products": [
       {
         "title": "정기적금",
@@ -132,5 +132,5 @@
       }
     ]
   },
-  "baseDate": "2024/02/11"
+  "baseDate": "2024/02/12"
 }
