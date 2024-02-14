@@ -7,7 +7,7 @@
     "r2": "영도구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/14",
+    "baseDate": "2024/02/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -35,15 +35,15 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "0.00"},
-          {"duration": 6, "rate": "0.50"},
-          {"duration": 9, "rate": "1.50"},
-          {"duration": 12, "rate": "2.00"},
-          {"duration": 18, "rate": "2.00"},
-          {"duration": 24, "rate": "3.90"},
-          {"duration": 30, "rate": "4.00"},
-          {"duration": 36, "rate": "4.00"}
+          {"duration": 1, "rate": "0.50"},
+          {"duration": 3, "rate": "1.50"},
+          {"duration": 6, "rate": "2.70"},
+          {"duration": 9, "rate": "2.70"},
+          {"duration": 12, "rate": "3.90"},
+          {"duration": 18, "rate": "3.80"},
+          {"duration": 24, "rate": "3.80"},
+          {"duration": 30, "rate": "3.80"},
+          {"duration": 36, "rate": "3.80"}
         ]
       },
       {
@@ -58,19 +58,19 @@
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "3.90"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/14",
+    "baseDate": "2024/02/15",
     "products": [
       {
         "title": "정기적금",
@@ -139,5 +139,5 @@
       }
     ]
   },
-  "baseDate": "2024/02/14"
+  "baseDate": "2024/02/15"
 }
