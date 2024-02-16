@@ -7,7 +7,7 @@
     "r2": "달서구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/16",
+    "baseDate": "2024/02/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "4.30"},
+          {"duration": null, "rate": "4.00"},
           {"duration": null, "rate": "3.70"},
           {"duration": null, "rate": "3.70"},
           {"duration": null, "rate": "3.50"},
@@ -50,7 +50,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.30"}]
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "MG기업정기예금(B)",
@@ -77,17 +77,17 @@
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "4.30"}
+          {"duration": null, "rate": "4.00"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "4.00"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/16",
+    "baseDate": "2024/02/17",
     "products": [
       {
         "title": "정기적금",
@@ -178,5 +178,5 @@
       }
     ]
   },
-  "baseDate": "2024/02/16"
+  "baseDate": "2024/02/17"
 }

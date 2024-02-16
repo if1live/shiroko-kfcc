@@ -7,7 +7,7 @@
     "r2": "순창군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/16",
+    "baseDate": "2024/02/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -55,7 +55,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.20"}]
+        "entries": [{"duration": 12, "rate": "3.70"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -81,7 +81,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/16",
+    "baseDate": "2024/02/17",
     "products": [
       {
         "title": "정기적금",
@@ -112,7 +112,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "4.00"}
+          {"duration": 12, "rate": "3.70"}
         ]
       },
       {
@@ -151,5 +151,5 @@
       }
     ]
   },
-  "baseDate": "2024/02/16"
+  "baseDate": "2024/02/17"
 }
