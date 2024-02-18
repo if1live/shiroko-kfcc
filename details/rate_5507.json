@@ -7,7 +7,7 @@
     "r2": "구미시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/18",
+    "baseDate": "2024/02/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -47,7 +47,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.00"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/18",
+    "baseDate": "2024/02/19",
     "products": [
       {
         "title": "정기적금",
@@ -94,7 +94,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "1.90"},
-          {"duration": 12, "rate": "4.00"}
+          {"duration": 12, "rate": "3.80"}
         ]
       },
       {
@@ -120,7 +120,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "4.00"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "일일자유적금",
@@ -149,5 +149,5 @@
       }
     ]
   },
-  "baseDate": "2024/02/18"
+  "baseDate": "2024/02/19"
 }

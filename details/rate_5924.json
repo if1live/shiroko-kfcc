@@ -7,7 +7,7 @@
     "r2": "예천군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/18",
+    "baseDate": "2024/02/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,12 +16,12 @@
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.10"},
           {"duration": null, "rate": "2.10"},
-          {"duration": null, "rate": "3.90"},
-          {"duration": null, "rate": "3.90"},
-          {"duration": null, "rate": "3.90"},
-          {"duration": null, "rate": "3.90"},
-          {"duration": null, "rate": "3.90"},
-          {"duration": null, "rate": "3.90"}
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.80"}
         ]
       },
       {
@@ -30,9 +30,9 @@
           {"duration": 0, "rate": "1.10"},
           {"duration": 3, "rate": "2.10"},
           {"duration": 6, "rate": "2.10"},
-          {"duration": 12, "rate": "3.90"},
-          {"duration": 24, "rate": "3.90"},
-          {"duration": 36, "rate": "3.90"}
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 24, "rate": "3.80"},
+          {"duration": 36, "rate": "3.80"}
         ]
       },
       {
@@ -42,11 +42,11 @@
           {"duration": 3, "rate": "2.10"},
           {"duration": 6, "rate": "2.10"},
           {"duration": 9, "rate": "2.10"},
-          {"duration": 12, "rate": "3.90"},
-          {"duration": 18, "rate": "3.90"},
-          {"duration": 24, "rate": "3.90"},
-          {"duration": 30, "rate": "3.90"},
-          {"duration": 36, "rate": "3.90"}
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 18, "rate": "3.80"},
+          {"duration": 24, "rate": "3.80"},
+          {"duration": 30, "rate": "3.80"},
+          {"duration": 36, "rate": "3.80"}
         ]
       },
       {
@@ -67,13 +67,13 @@
           {"duration": 9, "rate": "2.10"},
           {"duration": 10, "rate": "2.10"},
           {"duration": 11, "rate": "2.10"},
-          {"duration": 12, "rate": "3.90"}
+          {"duration": 12, "rate": "3.80"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/18",
+    "baseDate": "2024/02/19",
     "products": [
       {
         "title": "정기적금",
@@ -109,11 +109,11 @@
           {"duration": 1, "rate": "1.10"},
           {"duration": 3, "rate": "2.10"},
           {"duration": 6, "rate": "2.10"},
-          {"duration": 12, "rate": "3.90"},
-          {"duration": 24, "rate": "3.90"},
-          {"duration": 36, "rate": "3.90"},
-          {"duration": 48, "rate": "3.90"},
-          {"duration": 60, "rate": "3.90"}
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 24, "rate": "3.80"},
+          {"duration": 36, "rate": "3.80"},
+          {"duration": 48, "rate": "3.80"},
+          {"duration": 60, "rate": "3.80"}
         ]
       },
       {
@@ -139,5 +139,5 @@
       }
     ]
   },
-  "baseDate": "2024/02/18"
+  "baseDate": "2024/02/19"
 }
