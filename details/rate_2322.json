@@ -7,7 +7,7 @@
     "r2": "부평구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/19",
+    "baseDate": "2024/02/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/19",
+    "baseDate": "2024/02/20",
     "products": [
       {
         "title": "정기적금",
@@ -115,8 +115,8 @@
       {
         "title": "자유적립적금",
         "entries": [
-          {"duration": 1, "rate": "2.00"},
-          {"duration": 3, "rate": "3.00"},
+          {"duration": 1, "rate": "1.50"},
+          {"duration": 3, "rate": "2.80"},
           {"duration": 6, "rate": "3.30"},
           {"duration": 12, "rate": "4.10"},
           {"duration": 13, "rate": "3.50"},
@@ -168,5 +168,5 @@
       }
     ]
   },
-  "baseDate": "2024/02/19"
+  "baseDate": "2024/02/20"
 }
