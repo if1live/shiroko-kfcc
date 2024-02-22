@@ -7,7 +7,7 @@
     "r2": "부산진구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/22",
+    "baseDate": "2024/02/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -86,7 +86,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/22",
+    "baseDate": "2024/02/23",
     "products": [
       {
         "title": "정기적금",
@@ -146,14 +146,13 @@
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.60"},
-          {"duration": 13, "rate": "3.50"},
-          {"duration": 24, "rate": "3.50"},
-          {"duration": 36, "rate": "3.50"}
+          {"duration": 6, "rate": "1.00"},
+          {"duration": 12, "rate": "1.00"},
+          {"duration": 24, "rate": "1.00"},
+          {"duration": 36, "rate": "1.00"}
         ]
       }
     ]
   },
-  "baseDate": "2024/02/22"
+  "baseDate": "2024/02/23"
 }
