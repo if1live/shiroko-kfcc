@@ -7,7 +7,7 @@
     "r2": "영암군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/25",
+    "baseDate": "2024/02/26",
     "products": [
       {
         "title": "정기예탁금",
@@ -55,7 +55,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/25",
+    "baseDate": "2024/02/26",
     "products": [
       {
         "title": "정기적금",
@@ -102,5 +102,5 @@
       }
     ]
   },
-  "baseDate": "2024/02/25"
+  "baseDate": "2024/02/26"
 }
