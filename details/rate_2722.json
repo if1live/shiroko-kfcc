@@ -7,7 +7,7 @@
     "r2": "고흥군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/26",
+    "baseDate": "2024/02/27",
     "products": [
       {
         "title": "정기예탁금",
@@ -23,7 +23,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/26",
+    "baseDate": "2024/02/27",
     "products": [
       {
         "title": "정기적금",
@@ -59,11 +59,11 @@
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 12, "rate": "7.00"},
-          {"duration": 36, "rate": "7.00"}
+          {"duration": 12, "rate": "4.00"},
+          {"duration": 36, "rate": "3.50"}
         ]
       }
     ]
   },
-  "baseDate": "2024/02/26"
+  "baseDate": "2024/02/27"
 }
