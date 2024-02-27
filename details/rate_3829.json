@@ -7,12 +7,12 @@
     "r2": "용인시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/27",
+    "baseDate": "2024/02/28",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "3.01"},
+          {"duration": null, "rate": "2.95"},
           {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.00"},
@@ -64,7 +64,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/27",
+    "baseDate": "2024/02/28",
     "products": [
       {
         "title": "정기적금",
@@ -95,5 +95,5 @@
       }
     ]
   },
-  "baseDate": "2024/02/27"
+  "baseDate": "2024/02/28"
 }
