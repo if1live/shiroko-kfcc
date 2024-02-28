@@ -7,7 +7,7 @@
     "r2": "창원시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/02/28",
+    "baseDate": "2024/02/29",
     "products": [
       {
         "title": "정기예탁금",
@@ -62,7 +62,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/02/28",
+    "baseDate": "2024/02/29",
     "products": [
       {
         "title": "정기적금",
@@ -119,5 +119,5 @@
       }
     ]
   },
-  "baseDate": "2024/02/28"
+  "baseDate": "2024/02/29"
 }
