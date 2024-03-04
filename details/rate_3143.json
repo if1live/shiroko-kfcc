@@ -7,7 +7,7 @@
     "r2": "유성구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/04",
+    "baseDate": "2024/03/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -70,13 +70,13 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/04",
+    "baseDate": "2024/03/05",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 6, "rate": "1.80"},
-          {"duration": 12, "rate": "5.00"},
+          {"duration": 6, "rate": "2.00"},
+          {"duration": 12, "rate": "4.50"},
           {"duration": 24, "rate": "4.10"},
           {"duration": 36, "rate": "4.20"},
           {"duration": 48, "rate": "2.70"},
@@ -86,7 +86,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "5.00"},
+          {"duration": 12, "rate": "4.50"},
           {"duration": 24, "rate": "4.10"},
           {"duration": 36, "rate": "4.20"}
         ]
@@ -95,7 +95,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "4.00"}
+          {"duration": 12, "rate": "4.50"}
         ]
       },
       {
@@ -142,5 +142,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/04"
+  "baseDate": "2024/03/05"
 }
