@@ -7,7 +7,7 @@
     "r2": "광산구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/11",
+    "baseDate": "2024/03/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -18,7 +18,7 @@
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.70"},
           {"duration": null, "rate": "3.60"}
         ]
       },
@@ -71,7 +71,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/11",
+    "baseDate": "2024/03/12",
     "products": [
       {
         "title": "정기적금",
@@ -106,11 +106,11 @@
           {"duration": 1, "rate": "0.30"},
           {"duration": 3, "rate": "0.80"},
           {"duration": 6, "rate": "1.20"},
-          {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "3.90"},
-          {"duration": 36, "rate": "3.90"},
-          {"duration": 48, "rate": "3.90"},
-          {"duration": 60, "rate": "3.90"}
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 24, "rate": "3.70"},
+          {"duration": 36, "rate": "3.70"},
+          {"duration": 48, "rate": "3.70"},
+          {"duration": 60, "rate": "3.70"}
         ]
       },
       {
@@ -144,5 +144,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/11"
+  "baseDate": "2024/03/12"
 }
