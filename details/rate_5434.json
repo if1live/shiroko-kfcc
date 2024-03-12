@@ -7,7 +7,7 @@
     "r2": "김천시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/12",
+    "baseDate": "2024/03/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,7 +16,6 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "4.10"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.90"}
         ]
@@ -81,7 +80,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/12",
+    "baseDate": "2024/03/13",
     "products": [
       {
         "title": "정기적금",
@@ -143,5 +142,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/12"
+  "baseDate": "2024/03/13"
 }
