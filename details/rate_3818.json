@@ -2,12 +2,12 @@
   "id": "3818",
   "bank": {
     "gmgoCd": "3818",
-    "gmgoNm": "곡선",
+    "gmgoNm": "남수원",
     "r1": "경기",
     "r2": "수원시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/13",
+    "baseDate": "2024/03/14",
     "products": [
       {
         "title": "정기예탁금",
@@ -99,7 +99,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/13",
+    "baseDate": "2024/03/14",
     "products": [
       {
         "title": "정기적금",
@@ -187,5 +187,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/13"
+  "baseDate": "2024/03/14"
 }

@@ -7,7 +7,7 @@
     "r2": "금정구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/13",
+    "baseDate": "2024/03/14",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,13 +15,13 @@
           {"duration": null, "rate": "0.50"},
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
-          {"duration": null, "rate": "4.00"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.80"}
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.60"}
         ]
       },
       {
@@ -77,7 +77,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/13",
+    "baseDate": "2024/03/14",
     "products": [
       {
         "title": "정기적금",
@@ -128,7 +128,7 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
+        "entries": [{"duration": 12, "rate": "2.80"}]
       },
       {
         "title": "Smart 자유적립적금",
@@ -169,5 +169,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/13"
+  "baseDate": "2024/03/14"
 }
