@@ -7,7 +7,7 @@
     "r2": "서산시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/14",
+    "baseDate": "2024/03/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -94,7 +94,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/14",
+    "baseDate": "2024/03/15",
     "products": [
       {
         "title": "정기적금",
@@ -170,5 +170,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/14"
+  "baseDate": "2024/03/15"
 }
