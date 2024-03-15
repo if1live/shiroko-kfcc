@@ -2,12 +2,12 @@
   "id": "3704",
   "bank": {
     "gmgoCd": "3704",
-    "gmgoNm": "광명제일",
+    "gmgoNm": "제일",
     "r1": "경기",
     "r2": "광명시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/15",
+    "baseDate": "2024/03/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/15",
+    "baseDate": "2024/03/16",
     "products": [
       {
         "title": "정기적금",
@@ -148,5 +148,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/15"
+  "baseDate": "2024/03/16"
 }
