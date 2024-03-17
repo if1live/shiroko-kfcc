@@ -7,13 +7,13 @@
     "r2": "부평구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/17",
+    "baseDate": "2024/03/18",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.00"},
@@ -26,7 +26,7 @@
         "title": "Block예금",
         "entries": [
           {"duration": 0, "rate": "1.50"},
-          {"duration": 3, "rate": "3.00"},
+          {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "3.60"},
           {"duration": 12, "rate": "3.80"},
           {"duration": 24, "rate": "3.00"},
@@ -37,7 +37,7 @@
         "title": "자유자재정기예금Ⅱ",
         "entries": [
           {"duration": 1, "rate": "1.50"},
-          {"duration": 3, "rate": "3.00"},
+          {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "3.60"},
           {"duration": 9, "rate": "3.20"},
           {"duration": 12, "rate": "3.80"},
@@ -56,7 +56,7 @@
         "entries": [
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "3.60"},
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/17",
+    "baseDate": "2024/03/18",
     "products": [
       {
         "title": "정기적금",
@@ -112,7 +112,7 @@
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "2.80"},
+          {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "3.60"},
           {"duration": 12, "rate": "3.80"},
           {"duration": 24, "rate": "3.20"},
@@ -141,7 +141,7 @@
           {"duration": 0, "rate": "0.00"},
           {"duration": 1, "rate": "1.50"},
           {"duration": 2, "rate": "1.50"},
-          {"duration": 3, "rate": "2.80"},
+          {"duration": 3, "rate": "2.50"},
           {"duration": 4, "rate": "2.80"},
           {"duration": 5, "rate": "2.80"},
           {"duration": 6, "rate": "3.20"}
@@ -162,5 +162,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/17"
+  "baseDate": "2024/03/18"
 }

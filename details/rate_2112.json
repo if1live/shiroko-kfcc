@@ -7,7 +7,7 @@
     "r2": "달서구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/17",
+    "baseDate": "2024/03/18",
     "products": [
       {
         "title": "정기예탁금",
@@ -87,7 +87,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/17",
+    "baseDate": "2024/03/18",
     "products": [
       {
         "title": "정기적금",
@@ -178,5 +178,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/17"
+  "baseDate": "2024/03/18"
 }

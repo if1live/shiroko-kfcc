@@ -7,16 +7,16 @@
     "r2": "해운대구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/17",
+    "baseDate": "2024/03/18",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.90"},
           {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.90"},
           {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "3.70"}
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"}
         ]
       },
       {
@@ -32,7 +32,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -54,7 +54,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/17",
+    "baseDate": "2024/03/18",
     "products": [
       {
         "title": "정기적금",
@@ -103,5 +103,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/17"
+  "baseDate": "2024/03/18"
 }
