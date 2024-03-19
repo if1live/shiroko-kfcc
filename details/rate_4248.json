@@ -7,12 +7,12 @@
     "r2": "속초시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/19",
+    "baseDate": "2024/03/20",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.80"},
@@ -52,7 +52,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/19",
+    "baseDate": "2024/03/20",
     "products": [
       {
         "title": "정기적금",
@@ -129,5 +129,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/19"
+  "baseDate": "2024/03/20"
 }

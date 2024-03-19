@@ -7,7 +7,7 @@
     "r2": "안동시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/19",
+    "baseDate": "2024/03/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/19",
+    "baseDate": "2024/03/20",
     "products": [
       {
         "title": "정기적금",
@@ -148,7 +148,7 @@
         "title": "꿈모아상호부금",
         "entries": [
           {"duration": 12, "rate": "3.80"},
-          {"duration": 24, "rate": "3.70"},
+          {"duration": 24, "rate": "7.00"},
           {"duration": 36, "rate": "3.70"}
         ]
       },
@@ -158,5 +158,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/19"
+  "baseDate": "2024/03/20"
 }

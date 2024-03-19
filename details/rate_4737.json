@@ -7,7 +7,7 @@
     "r2": "음성군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/19",
+    "baseDate": "2024/03/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/19",
+    "baseDate": "2024/03/20",
     "products": [
       {
         "title": "정기적금",
@@ -88,9 +88,9 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.80"},
-          {"duration": 24, "rate": "4.30"},
-          {"duration": 36, "rate": "4.30"}
+          {"duration": 12, "rate": "4.20"},
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 36, "rate": "3.70"}
         ]
       },
       {
@@ -156,5 +156,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/19"
+  "baseDate": "2024/03/20"
 }

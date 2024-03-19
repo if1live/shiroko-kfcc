@@ -7,7 +7,7 @@
     "r2": "서귀포시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/19",
+    "baseDate": "2024/03/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -34,7 +34,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/19",
+    "baseDate": "2024/03/20",
     "products": [
       {
         "title": "정기적금",
@@ -47,7 +47,7 @@
       },
       {
         "title": "MG New정기적금",
-        "entries": [{"duration": 12, "rate": "4.10"}]
+        "entries": [{"duration": 12, "rate": "3.90"}]
       },
       {
         "title": "우리아기첫걸음정기적금",
@@ -94,5 +94,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/19"
+  "baseDate": "2024/03/20"
 }

@@ -7,7 +7,7 @@
     "r2": "종로구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/19",
+    "baseDate": "2024/03/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -71,11 +71,11 @@
       {
         "title": "MG기업정기예금(B)",
         "entries": [
-          {"duration": 1, "rate": "3.50"},
-          {"duration": 3, "rate": "3.80"},
-          {"duration": 6, "rate": "4.00"},
+          {"duration": 1, "rate": "3.30"},
+          {"duration": 3, "rate": "3.50"},
+          {"duration": 6, "rate": "3.80"},
           {"duration": 12, "rate": "4.10"},
-          {"duration": 18, "rate": "4.10"},
+          {"duration": 18, "rate": "4.20"},
           {"duration": 24, "rate": "3.50"}
         ]
       },
@@ -103,7 +103,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/19",
+    "baseDate": "2024/03/20",
     "products": [
       {
         "title": "정기적금",
@@ -192,5 +192,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/19"
+  "baseDate": "2024/03/20"
 }
