@@ -2,12 +2,12 @@
   "id": "3214",
   "bank": {
     "gmgoCd": "3214",
-    "gmgoNm": "천안북부",
+    "gmgoNm": "천안미래",
     "r1": "충남",
     "r2": "천안시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/21",
+    "baseDate": "2024/03/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/21",
+    "baseDate": "2024/03/22",
     "products": [
       {
         "title": "정기적금",
@@ -144,5 +144,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/21"
+  "baseDate": "2024/03/22"
 }
