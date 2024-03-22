@@ -2,12 +2,12 @@
   "id": "1627",
   "bank": {
     "gmgoCd": "1627",
-    "gmgoNm": "송정동",
+    "gmgoNm": "부산동부",
     "r1": "부산",
     "r2": "해운대구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/22",
+    "baseDate": "2024/03/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -65,7 +65,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/22",
+    "baseDate": "2024/03/23",
     "products": [
       {
         "title": "정기적금",
@@ -129,5 +129,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/22"
+  "baseDate": "2024/03/23"
 }
