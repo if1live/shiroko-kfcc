@@ -1,10 +1,10 @@
 {
-  "id": "1210",
+  "id": "1537",
   "bank": {
-    "gmgoCd": "1210",
-    "gmgoNm": "중구중앙",
+    "gmgoCd": "1537",
+    "gmgoNm": "전포1동",
     "r1": "부산",
-    "r2": "중구"
+    "r2": "부산진구"
   },
   "deferredDeposit": null,
   "installmentSavings": null,
