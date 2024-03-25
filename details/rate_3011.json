@@ -7,7 +7,7 @@
     "r2": "동구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/25",
+    "baseDate": "2024/03/26",
     "products": [
       {
         "title": "정기예탁금",
@@ -68,7 +68,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/25",
+    "baseDate": "2024/03/26",
     "products": [
       {
         "title": "정기적금",
@@ -104,18 +104,18 @@
           {"duration": 1, "rate": "0.00"},
           {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "3.90"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.50"}
         ]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.90"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.40"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "My꿈모아자유적금",
@@ -123,5 +123,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/25"
+  "baseDate": "2024/03/26"
 }

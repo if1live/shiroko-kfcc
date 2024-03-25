@@ -7,7 +7,7 @@
     "r2": "보령시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/25",
+    "baseDate": "2024/03/26",
     "products": [
       {
         "title": "정기예탁금",
@@ -40,7 +40,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/25",
+    "baseDate": "2024/03/26",
     "products": [
       {
         "title": "정기적금",
@@ -77,5 +77,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/25"
+  "baseDate": "2024/03/26"
 }
