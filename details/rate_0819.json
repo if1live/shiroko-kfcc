@@ -7,7 +7,7 @@
     "r2": "영등포구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/26",
+    "baseDate": "2024/03/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -52,6 +52,17 @@
         "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
+        "title": "MG기업정기예금(A)",
+        "entries": [
+          {"duration": 1, "rate": "1.00"},
+          {"duration": 3, "rate": "3.50"},
+          {"duration": 6, "rate": "3.70"},
+          {"duration": 12, "rate": "4.00"},
+          {"duration": 18, "rate": "3.90"},
+          {"duration": 24, "rate": "3.90"}
+        ]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": 1, "rate": "1.50"},
@@ -75,7 +86,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/26",
+    "baseDate": "2024/03/28",
     "products": [
       {
         "title": "정기적금",
@@ -123,7 +134,15 @@
         ]
       },
       {
+        "title": "MG월복리자유적금",
+        "entries": [{"duration": 12, "rate": "3.80"}]
+      },
+      {
         "title": "Smart 자유적립적금",
+        "entries": [{"duration": 12, "rate": "3.80"}]
+      },
+      {
+        "title": "MG주거래우대자유적금",
         "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
@@ -141,5 +160,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/26"
+  "baseDate": "2024/03/28"
 }

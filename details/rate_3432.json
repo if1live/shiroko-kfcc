@@ -2,12 +2,12 @@
   "id": "3432",
   "bank": {
     "gmgoCd": "3432",
-    "gmgoNm": "안면",
+    "gmgoNm": "안면도",
     "r1": "충남",
     "r2": "태안군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/26",
+    "baseDate": "2024/03/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -66,7 +66,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/26",
+    "baseDate": "2024/03/28",
     "products": [
       {
         "title": "정기적금",
@@ -126,5 +126,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/26"
+  "baseDate": "2024/03/28"
 }
