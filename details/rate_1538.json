@@ -1,0 +1,12 @@
+{
+  "id": "1538",
+  "bank": {
+    "gmgoCd": "1538",
+    "gmgoNm": "부산중앙",
+    "r1": "부산",
+    "r2": "부산진구"
+  },
+  "deferredDeposit": null,
+  "installmentSavings": null,
+  "baseDate": null
+}
