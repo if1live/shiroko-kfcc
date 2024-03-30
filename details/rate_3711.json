@@ -7,7 +7,7 @@
     "r2": "과천시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/30",
+    "baseDate": "2024/03/31",
     "products": [
       {
         "title": "정기예탁금",
@@ -28,7 +28,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/30",
+    "baseDate": "2024/03/31",
     "products": [
       {
         "title": "정기적금",
@@ -60,5 +60,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/30"
+  "baseDate": "2024/03/31"
 }
