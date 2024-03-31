@@ -7,7 +7,7 @@
     "r2": "남구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/31",
+    "baseDate": "2024/04/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -65,7 +65,7 @@
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "4.00"}
+          {"duration": null, "rate": "3.90"}
         ]
       },
       {
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/31",
+    "baseDate": "2024/04/01",
     "products": [
       {
         "title": "정기적금",
@@ -106,11 +106,15 @@
         ]
       },
       {
+        "title": "MG희망나눔 용용적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
+      },
+      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "1.50"},
           {"duration": 6, "rate": "2.10"},
-          {"duration": 12, "rate": "4.00"},
+          {"duration": 12, "rate": "3.90"},
           {"duration": 24, "rate": "3.70"},
           {"duration": 36, "rate": "3.70"}
         ]
@@ -157,5 +161,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/31"
+  "baseDate": "2024/04/01"
 }

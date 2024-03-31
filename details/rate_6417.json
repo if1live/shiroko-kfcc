@@ -7,7 +7,7 @@
     "r2": "진주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/31",
+    "baseDate": "2024/04/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -77,13 +77,13 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/31",
+    "baseDate": "2024/04/01",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "1.20"},
-          {"duration": 12, "rate": "3.70"},
+          {"duration": 12, "rate": "4.10"},
           {"duration": 13, "rate": "3.60"},
           {"duration": 19, "rate": "3.50"},
           {"duration": 24, "rate": "3.40"},
@@ -114,6 +114,10 @@
           {"duration": 6, "rate": "1.00"},
           {"duration": 12, "rate": "1.20"}
         ]
+      },
+      {
+        "title": "MG희망나눔 용용적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -172,5 +176,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/31"
+  "baseDate": "2024/04/01"
 }

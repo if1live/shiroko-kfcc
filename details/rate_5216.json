@@ -7,7 +7,7 @@
     "r2": "포항시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/31",
+    "baseDate": "2024/04/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/31",
+    "baseDate": "2024/04/01",
     "products": [
       {
         "title": "정기적금",
@@ -105,6 +105,10 @@
           {"duration": 6, "rate": "2.00"},
           {"duration": 12, "rate": "3.60"}
         ]
+      },
+      {
+        "title": "MG희망나눔 용용적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -147,5 +151,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/31"
+  "baseDate": "2024/04/01"
 }

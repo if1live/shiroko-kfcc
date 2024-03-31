@@ -7,13 +7,13 @@
     "r2": "성북구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/03/31",
+    "baseDate": "2024/04/01",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.70"},
           {"duration": null, "rate": "3.90"},
           {"duration": null, "rate": "3.50"},
@@ -25,7 +25,7 @@
         "title": "Block예금",
         "entries": [
           {"duration": 0, "rate": "3.00"},
-          {"duration": 3, "rate": "3.00"},
+          {"duration": 3, "rate": "3.30"},
           {"duration": 6, "rate": "3.70"},
           {"duration": 12, "rate": "3.90"},
           {"duration": 24, "rate": "3.50"},
@@ -36,7 +36,7 @@
         "title": "자유자재정기예금Ⅱ",
         "entries": [
           {"duration": 1, "rate": "3.00"},
-          {"duration": 3, "rate": "3.00"},
+          {"duration": 3, "rate": "3.30"},
           {"duration": 6, "rate": "3.70"},
           {"duration": 9, "rate": "3.70"},
           {"duration": 12, "rate": "3.90"},
@@ -55,9 +55,9 @@
         "entries": [
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.70"},
           {"duration": null, "rate": "3.70"},
           {"duration": null, "rate": "3.70"},
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/03/31",
+    "baseDate": "2024/04/01",
     "products": [
       {
         "title": "정기적금",
@@ -103,6 +103,10 @@
           {"duration": 6, "rate": "1.20"},
           {"duration": 12, "rate": "2.30"}
         ]
+      },
+      {
+        "title": "MG희망나눔 용용적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -149,5 +153,5 @@
       }
     ]
   },
-  "baseDate": "2024/03/31"
+  "baseDate": "2024/04/01"
 }
