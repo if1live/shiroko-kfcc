@@ -7,7 +7,7 @@
     "r2": "고창군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/01",
+    "baseDate": "2024/04/02",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/01",
+    "baseDate": "2024/04/02",
     "products": [
       {
         "title": "정기적금",
@@ -108,6 +108,10 @@
           {"duration": 6, "rate": "1.30"},
           {"duration": 12, "rate": "4.50"}
         ]
+      },
+      {
+        "title": "MG희망나눔 용용적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -163,5 +167,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/01"
+  "baseDate": "2024/04/02"
 }

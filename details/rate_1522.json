@@ -7,7 +7,7 @@
     "r2": "부산진구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/01",
+    "baseDate": "2024/04/02",
     "products": [
       {
         "title": "정기예탁금",
@@ -65,12 +65,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/01",
+    "baseDate": "2024/04/02",
     "products": [
       {
         "title": "정기적금",
@@ -97,5 +97,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/01"
+  "baseDate": "2024/04/02"
 }

@@ -7,7 +7,7 @@
     "r2": "해운대구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/01",
+    "baseDate": "2024/04/02",
     "products": [
       {
         "title": "정기예탁금",
@@ -97,14 +97,14 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/01",
+    "baseDate": "2024/04/02",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "4.00"},
-          {"duration": 36, "rate": "4.00"}
+          {"duration": 12, "rate": "3.90"},
+          {"duration": 24, "rate": "3.90"},
+          {"duration": 36, "rate": "3.90"}
         ]
       },
       {
@@ -171,5 +171,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/01"
+  "baseDate": "2024/04/02"
 }

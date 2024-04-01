@@ -2,12 +2,12 @@
   "id": "6118",
   "bank": {
     "gmgoCd": "6118",
-    "gmgoNm": "테크윈",
+    "gmgoNm": "한화에어로스페이스",
     "r1": "경남",
     "r2": "창원시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/01",
+    "baseDate": "2024/04/02",
     "products": [
       {
         "title": "정기예탁금",
@@ -50,7 +50,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/01",
+    "baseDate": "2024/04/02",
     "products": [
       {
         "title": "정기적금",
@@ -73,5 +73,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/01"
+  "baseDate": "2024/04/02"
 }
