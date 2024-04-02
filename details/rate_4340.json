@@ -7,7 +7,7 @@
     "r2": "평창군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/02",
+    "baseDate": "2024/04/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -54,7 +54,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/02",
+    "baseDate": "2024/04/03",
     "products": [
       {
         "title": "정기적금",
@@ -67,6 +67,10 @@
       {
         "title": "우리아기첫걸음정기적금",
         "entries": [{"duration": 12, "rate": "0.40"}]
+      },
+      {
+        "title": "MG희망나눔 용용적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -93,5 +97,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/02"
+  "baseDate": "2024/04/03"
 }

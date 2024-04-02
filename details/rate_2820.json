@@ -7,41 +7,41 @@
     "r2": "목포시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/02",
+    "baseDate": "2024/04/03",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.65"},
-          {"duration": null, "rate": "3.51"},
-          {"duration": null, "rate": "3.46"}
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.20"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/02",
+    "baseDate": "2024/04/03",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "3.70"},
-          {"duration": 24, "rate": "3.40"},
-          {"duration": 36, "rate": "3.40"}
+          {"duration": 6, "rate": "2.90"},
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 36, "rate": "3.30"}
         ]
       },
       {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.30"},
-          {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "3.70"},
-          {"duration": 24, "rate": "3.40"},
-          {"duration": 36, "rate": "3.40"}
+          {"duration": 6, "rate": "2.90"},
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 36, "rate": "3.30"}
         ]
       },
       {
@@ -55,5 +55,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/02"
+  "baseDate": "2024/04/03"
 }

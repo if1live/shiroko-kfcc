@@ -7,7 +7,7 @@
     "r2": "동구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/02",
+    "baseDate": "2024/04/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -53,7 +53,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/02",
+    "baseDate": "2024/04/03",
     "products": [
       {
         "title": "정기적금",
@@ -77,6 +77,10 @@
           {"duration": 6, "rate": "0.90"},
           {"duration": 12, "rate": "2.50"}
         ]
+      },
+      {
+        "title": "MG희망나눔 용용적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -108,5 +112,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/02"
+  "baseDate": "2024/04/03"
 }
