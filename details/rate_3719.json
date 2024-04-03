@@ -7,7 +7,7 @@
     "r2": "군포시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/03",
+    "baseDate": "2024/04/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/03",
+    "baseDate": "2024/04/04",
     "products": [
       {
         "title": "정기적금",
@@ -162,5 +162,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/03"
+  "baseDate": "2024/04/04"
 }
