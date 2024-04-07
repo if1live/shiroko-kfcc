@@ -7,7 +7,7 @@
     "r2": "해운대구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/07",
+    "baseDate": "2024/04/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,10 +15,10 @@
           {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.80"}
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"}
         ]
       },
       {
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/07",
+    "baseDate": "2024/04/08",
     "products": [
       {
         "title": "정기적금",
@@ -106,14 +106,14 @@
       {
         "title": "자유적립적금",
         "entries": [
-          {"duration": 1, "rate": "2.30"},
-          {"duration": 3, "rate": "2.70"},
-          {"duration": 6, "rate": "3.10"},
-          {"duration": 12, "rate": "3.50"},
-          {"duration": 24, "rate": "3.60"},
-          {"duration": 36, "rate": "3.70"},
-          {"duration": 48, "rate": "3.70"},
-          {"duration": 60, "rate": "3.70"}
+          {"duration": 1, "rate": "0.05"},
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 6, "rate": "3.30"},
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"},
+          {"duration": 48, "rate": "3.50"},
+          {"duration": 60, "rate": "3.50"}
         ]
       },
       {
@@ -127,13 +127,13 @@
       {
         "title": "일일자유적금",
         "entries": [
-          {"duration": 0, "rate": "0.10"},
-          {"duration": 1, "rate": "0.10"},
-          {"duration": 2, "rate": "0.10"},
-          {"duration": 3, "rate": "0.80"},
-          {"duration": 4, "rate": "0.80"},
-          {"duration": 5, "rate": "0.80"},
-          {"duration": 6, "rate": "1.10"}
+          {"duration": 0, "rate": "1.50"},
+          {"duration": 1, "rate": "2.10"},
+          {"duration": 2, "rate": "2.10"},
+          {"duration": 3, "rate": "2.50"},
+          {"duration": 4, "rate": "2.50"},
+          {"duration": 5, "rate": "2.50"},
+          {"duration": 6, "rate": "3.00"}
         ]
       },
       {
@@ -151,5 +151,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/07"
+  "baseDate": "2024/04/08"
 }

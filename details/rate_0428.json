@@ -7,7 +7,7 @@
     "r2": "마포구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/07",
+    "baseDate": "2024/04/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -96,7 +96,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/07",
+    "baseDate": "2024/04/08",
     "products": [
       {
         "title": "정기적금",
@@ -111,7 +111,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.50"},
+          {"duration": 12, "rate": "5.00"},
           {"duration": 13, "rate": "4.20"},
           {"duration": 24, "rate": "4.20"},
           {"duration": 25, "rate": "4.00"},
@@ -177,5 +177,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/07"
+  "baseDate": "2024/04/08"
 }
