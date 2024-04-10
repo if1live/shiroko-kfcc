@@ -7,7 +7,7 @@
     "r2": "여수시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/10",
+    "baseDate": "2024/04/11",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/10",
+    "baseDate": "2024/04/11",
     "products": [
       {
         "title": "정기적금",
@@ -141,5 +141,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/10"
+  "baseDate": "2024/04/11"
 }
