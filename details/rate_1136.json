@@ -7,13 +7,14 @@
     "r2": "광진구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/11",
+    "baseDate": "2024/04/12",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.90"},
           {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.60"}
@@ -61,7 +62,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/11",
+    "baseDate": "2024/04/12",
     "products": [
       {
         "title": "정기적금",
@@ -115,5 +116,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/11"
+  "baseDate": "2024/04/12"
 }
