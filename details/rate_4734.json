@@ -7,7 +7,7 @@
     "r2": "음성군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/16",
+    "baseDate": "2024/04/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -98,7 +98,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/16",
+    "baseDate": "2024/04/17",
     "products": [
       {
         "title": "정기적금",
@@ -157,19 +157,19 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "4.00"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "4.00"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "4.00"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "4.00"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "꿈모아상호부금",
@@ -188,5 +188,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/16"
+  "baseDate": "2024/04/17"
 }

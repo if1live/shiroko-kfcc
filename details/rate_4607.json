@@ -2,12 +2,12 @@
   "id": "4607",
   "bank": {
     "gmgoCd": "4607",
-    "gmgoNm": "오미",
+    "gmgoNm": "청주서부",
     "r1": "충북",
     "r2": "청주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/16",
+    "baseDate": "2024/04/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -56,7 +56,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/16",
+    "baseDate": "2024/04/17",
     "products": [
       {
         "title": "정기적금",
@@ -103,5 +103,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/16"
+  "baseDate": "2024/04/17"
 }
