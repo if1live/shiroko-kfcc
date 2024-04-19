@@ -7,7 +7,7 @@
     "r2": "공주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/19",
+    "baseDate": "2024/04/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -54,7 +54,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/19",
+    "baseDate": "2024/04/20",
     "products": [
       {
         "title": "정기적금",
@@ -104,11 +104,11 @@
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "4.30"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "4.30"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "MG더뱅킹자유적금",
@@ -132,5 +132,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/19"
+  "baseDate": "2024/04/20"
 }
