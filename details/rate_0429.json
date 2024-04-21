@@ -7,7 +7,7 @@
     "r2": "마포구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/21",
+    "baseDate": "2024/04/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -62,7 +62,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/21",
+    "baseDate": "2024/04/22",
     "products": [
       {
         "title": "정기적금",
@@ -92,7 +92,7 @@
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "5.00"}]
+        "entries": [{"duration": 12, "rate": "4.70"}]
       },
       {
         "title": "MG주거래우대자유적금",
@@ -113,9 +113,9 @@
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 12, "rate": "4.30"},
-          {"duration": 24, "rate": "4.20"},
-          {"duration": 36, "rate": "4.20"}
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 24, "rate": "3.90"},
+          {"duration": 36, "rate": "3.80"}
         ]
       },
       {
@@ -124,5 +124,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/21"
+  "baseDate": "2024/04/22"
 }

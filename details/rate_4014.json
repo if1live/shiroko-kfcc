@@ -7,43 +7,43 @@
     "r2": "의정부"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/21",
+    "baseDate": "2024/04/22",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.00"},
           {"duration": null, "rate": "0.00"},
+          {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "3.70"}
+          {"duration": null, "rate": "3.65"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"}
         ]
       },
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
           {"duration": 1, "rate": "1.00"},
-          {"duration": 3, "rate": "3.40"},
-          {"duration": 6, "rate": "3.70"},
-          {"duration": 9, "rate": "3.70"},
-          {"duration": 12, "rate": "3.80"},
-          {"duration": 18, "rate": "3.70"},
-          {"duration": 24, "rate": "3.70"},
-          {"duration": 30, "rate": "3.70"},
-          {"duration": 36, "rate": "3.70"}
+          {"duration": 3, "rate": "3.20"},
+          {"duration": 6, "rate": "3.40"},
+          {"duration": 9, "rate": "3.40"},
+          {"duration": 12, "rate": "3.65"},
+          {"duration": 18, "rate": "3.50"},
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 30, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.65"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/21",
+    "baseDate": "2024/04/22",
     "products": [
       {
         "title": "정기적금",
@@ -131,5 +131,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/21"
+  "baseDate": "2024/04/22"
 }
