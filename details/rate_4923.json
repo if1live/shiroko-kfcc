@@ -7,7 +7,7 @@
     "r2": "장수군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/22",
+    "baseDate": "2024/04/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -45,7 +45,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.90"}]
+        "entries": [{"duration": 12, "rate": "3.70"}]
       },
       {
         "title": "MG주거래우대정기예금",
@@ -54,7 +54,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/22",
+    "baseDate": "2024/04/23",
     "products": [
       {
         "title": "정기적금",
@@ -113,5 +113,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/22"
+  "baseDate": "2024/04/23"
 }
