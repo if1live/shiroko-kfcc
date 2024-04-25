@@ -7,7 +7,7 @@
     "r2": "횡성군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/25",
+    "baseDate": "2024/04/26",
     "products": [
       {
         "title": "정기예탁금",
@@ -20,8 +20,9 @@
           {"duration": null, "rate": "4.13"},
           {"duration": null, "rate": "3.82"},
           {"duration": null, "rate": "3.51"},
-          {"duration": null, "rate": "3.46"},
-          {"duration": null, "rate": "3.40"}
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "2.50"}
         ]
       },
       {
@@ -77,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/25",
+    "baseDate": "2024/04/26",
     "products": [
       {
         "title": "정기적금",
@@ -163,5 +164,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/25"
+  "baseDate": "2024/04/26"
 }
