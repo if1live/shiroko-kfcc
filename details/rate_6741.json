@@ -7,7 +7,7 @@
     "r2": "서귀포시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/28",
+    "baseDate": "2024/04/29",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,8 +15,8 @@
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.90"},
-          {"duration": null, "rate": "3.90"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"}
@@ -28,8 +28,8 @@
           {"duration": 1, "rate": "1.00"},
           {"duration": 3, "rate": "3.00"},
           {"duration": 6, "rate": "3.30"},
-          {"duration": 9, "rate": "3.90"},
-          {"duration": 12, "rate": "3.90"},
+          {"duration": 9, "rate": "3.80"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 18, "rate": "3.50"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 30, "rate": "3.50"},
@@ -38,7 +38,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -51,23 +51,23 @@
           {"duration": 6, "rate": "3.30"},
           {"duration": 7, "rate": "3.30"},
           {"duration": 8, "rate": "3.30"},
-          {"duration": 9, "rate": "3.90"},
-          {"duration": 10, "rate": "3.90"},
-          {"duration": 11, "rate": "3.90"},
-          {"duration": 12, "rate": "3.90"}
+          {"duration": 9, "rate": "3.80"},
+          {"duration": 10, "rate": "3.80"},
+          {"duration": 11, "rate": "3.80"},
+          {"duration": 12, "rate": "3.80"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/28",
+    "baseDate": "2024/04/29",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "1.60"},
-          {"duration": 10, "rate": "3.90"},
-          {"duration": 12, "rate": "4.00"},
+          {"duration": 10, "rate": "3.80"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.50"},
           {"duration": 48, "rate": "3.50"},
@@ -77,7 +77,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.00"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.50"}
         ]
@@ -90,7 +90,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "1.00"},
-          {"duration": 12, "rate": "3.40"}
+          {"duration": 12, "rate": "3.30"}
         ]
       },
       {
@@ -103,7 +103,7 @@
           {"duration": 1, "rate": "1.00"},
           {"duration": 3, "rate": "1.00"},
           {"duration": 6, "rate": "1.60"},
-          {"duration": 12, "rate": "3.90"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.50"},
           {"duration": 48, "rate": "3.50"},
@@ -112,11 +112,11 @@
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.90"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.90"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "MG더뱅킹자유적금",
@@ -128,7 +128,7 @@
           {"duration": 9, "rate": "1.60"},
           {"duration": 10, "rate": "1.60"},
           {"duration": 11, "rate": "1.60"},
-          {"duration": 12, "rate": "3.90"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 22, "rate": "3.50"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.50"}
@@ -136,5 +136,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/28"
+  "baseDate": "2024/04/29"
 }
