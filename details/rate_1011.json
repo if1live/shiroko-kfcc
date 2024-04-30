@@ -7,18 +7,18 @@
     "r2": "성동구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/30",
+    "baseDate": "2024/05/01",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.50"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.90"},
-          {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "3.60"}
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"}
         ]
       },
       {
@@ -30,22 +30,22 @@
         "entries": [
           {"duration": null, "rate": "0.50"},
           {"duration": null, "rate": "0.50"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.90"}
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.80"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/30",
+    "baseDate": "2024/05/01",
     "products": [
       {
         "title": "정기적금",
@@ -95,5 +95,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/30"
+  "baseDate": "2024/05/01"
 }

@@ -7,7 +7,7 @@
     "r2": "괴산군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/04/30",
+    "baseDate": "2024/05/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -47,11 +47,15 @@
           {"duration": 30, "rate": "2.00"},
           {"duration": 36, "rate": "2.00"}
         ]
+      },
+      {
+        "title": "MG더뱅킹정기예금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/04/30",
+    "baseDate": "2024/05/01",
     "products": [
       {
         "title": "정기적금",
@@ -91,5 +95,5 @@
       }
     ]
   },
-  "baseDate": "2024/04/30"
+  "baseDate": "2024/05/01"
 }
