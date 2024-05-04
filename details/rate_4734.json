@@ -7,7 +7,7 @@
     "r2": "음성군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/04",
+    "baseDate": "2024/05/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -98,7 +98,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/04",
+    "baseDate": "2024/05/05",
     "products": [
       {
         "title": "정기적금",
@@ -188,5 +188,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/04"
+  "baseDate": "2024/05/05"
 }
