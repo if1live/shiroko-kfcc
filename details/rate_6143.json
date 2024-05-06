@@ -7,7 +7,7 @@
     "r2": "김해시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/06",
+    "baseDate": "2024/05/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,8 +15,8 @@
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"}
         ]
@@ -28,7 +28,7 @@
           {"duration": 3, "rate": "2.80"},
           {"duration": 6, "rate": "3.30"},
           {"duration": 12, "rate": "3.70"},
-          {"duration": 24, "rate": "3.50"},
+          {"duration": 24, "rate": "3.30"},
           {"duration": 36, "rate": "3.00"}
         ]
       },
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/06",
+    "baseDate": "2024/05/07",
     "products": [
       {
         "title": "정기적금",
@@ -122,8 +122,8 @@
           {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "2.80"},
           {"duration": 12, "rate": "3.70"},
-          {"duration": 13, "rate": "3.50"},
-          {"duration": 24, "rate": "3.50"},
+          {"duration": 13, "rate": "3.30"},
+          {"duration": 24, "rate": "3.30"},
           {"duration": 25, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
@@ -161,8 +161,8 @@
         "entries": [
           {"duration": 6, "rate": "2.50"},
           {"duration": 12, "rate": "3.70"},
-          {"duration": 13, "rate": "3.50"},
-          {"duration": 24, "rate": "3.50"},
+          {"duration": 13, "rate": "3.30"},
+          {"duration": 24, "rate": "3.30"},
           {"duration": 25, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
@@ -173,5 +173,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/06"
+  "baseDate": "2024/05/07"
 }
