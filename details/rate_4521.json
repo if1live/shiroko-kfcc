@@ -7,7 +7,7 @@
     "r2": "청주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/07",
+    "baseDate": "2024/05/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -44,12 +44,12 @@
       {
         "title": "MG기업정기예금(B)",
         "entries": [
-          {"duration": 1, "rate": "0.40"},
-          {"duration": 3, "rate": "3.20"},
-          {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "4.00"},
-          {"duration": 18, "rate": "3.40"},
-          {"duration": 24, "rate": "3.40"}
+          {"duration": 1, "rate": "0.20"},
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 6, "rate": "3.30"},
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 18, "rate": "3.20"},
+          {"duration": 24, "rate": "3.20"}
         ]
       },
       {
@@ -76,7 +76,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/07",
+    "baseDate": "2024/05/08",
     "products": [
       {
         "title": "정기적금",
@@ -124,5 +124,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/07"
+  "baseDate": "2024/05/08"
 }
