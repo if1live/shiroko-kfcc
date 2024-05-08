@@ -7,69 +7,69 @@
     "r2": "송파구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/08",
+    "baseDate": "2024/05/09",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "1.90"},
+          {"duration": null, "rate": "2.30"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.65"},
           {"duration": null, "rate": "3.60"}
         ]
       },
       {
         "title": "Block예금",
         "entries": [
-          {"duration": 0, "rate": "2.00"},
-          {"duration": 3, "rate": "2.50"},
-          {"duration": 6, "rate": "3.10"},
-          {"duration": 12, "rate": "3.70"},
-          {"duration": 24, "rate": "3.60"},
-          {"duration": 36, "rate": "3.50"}
+          {"duration": 0, "rate": "1.90"},
+          {"duration": 3, "rate": "2.30"},
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 24, "rate": "3.65"},
+          {"duration": 36, "rate": "3.60"}
         ]
       },
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "2.00"},
-          {"duration": 3, "rate": "2.50"},
-          {"duration": 6, "rate": "3.10"},
-          {"duration": 9, "rate": "3.10"},
-          {"duration": 12, "rate": "3.70"},
-          {"duration": 18, "rate": "3.70"},
-          {"duration": 24, "rate": "3.60"},
-          {"duration": 30, "rate": "3.60"},
-          {"duration": 36, "rate": "3.50"}
+          {"duration": 1, "rate": "1.90"},
+          {"duration": 3, "rate": "2.30"},
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 9, "rate": "3.00"},
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 18, "rate": "3.60"},
+          {"duration": 24, "rate": "3.65"},
+          {"duration": 30, "rate": "3.65"},
+          {"duration": 36, "rate": "3.60"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": 1, "rate": "2.00"},
-          {"duration": 2, "rate": "2.00"},
-          {"duration": 3, "rate": "2.50"},
-          {"duration": 4, "rate": "2.50"},
-          {"duration": 5, "rate": "2.50"},
-          {"duration": 6, "rate": "3.30"},
-          {"duration": 7, "rate": "3.30"},
-          {"duration": 8, "rate": "3.30"},
-          {"duration": 9, "rate": "3.30"},
-          {"duration": 10, "rate": "3.30"},
-          {"duration": 11, "rate": "3.30"},
-          {"duration": 12, "rate": "3.80"}
+          {"duration": 1, "rate": "1.90"},
+          {"duration": 2, "rate": "1.90"},
+          {"duration": 3, "rate": "2.30"},
+          {"duration": 4, "rate": "2.30"},
+          {"duration": 5, "rate": "2.30"},
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 7, "rate": "3.00"},
+          {"duration": 8, "rate": "3.00"},
+          {"duration": 9, "rate": "3.00"},
+          {"duration": 10, "rate": "3.00"},
+          {"duration": 11, "rate": "3.00"},
+          {"duration": 12, "rate": "3.60"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/08",
+    "baseDate": "2024/05/09",
     "products": [
       {
         "title": "정기적금",
@@ -94,7 +94,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "2.40"},
-          {"duration": 12, "rate": "4.00"}
+          {"duration": 12, "rate": "3.50"}
         ]
       },
       {
@@ -116,7 +116,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.90"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "일일자유적금",
@@ -132,5 +132,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/08"
+  "baseDate": "2024/05/09"
 }
