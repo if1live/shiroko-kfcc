@@ -4,10 +4,10 @@
     "gmgoCd": "2421",
     "gmgoNm": "푸른",
     "r1": "광주",
-    "r2": "남구"
+    "r2": "서구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/09",
+    "baseDate": "2024/05/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/09",
+    "baseDate": "2024/05/10",
     "products": [
       {
         "title": "정기적금",
@@ -138,5 +138,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/09"
+  "baseDate": "2024/05/10"
 }

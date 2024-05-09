@@ -7,7 +7,7 @@
     "r2": "남해군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/09",
+    "baseDate": "2024/05/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -70,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/09",
+    "baseDate": "2024/05/10",
     "products": [
       {
         "title": "정기적금",
@@ -134,5 +134,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/09"
+  "baseDate": "2024/05/10"
 }

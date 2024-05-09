@@ -7,13 +7,13 @@
     "r2": "충주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/09",
+    "baseDate": "2024/05/10",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.40"},
@@ -97,7 +97,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/09",
+    "baseDate": "2024/05/10",
     "products": [
       {
         "title": "정기적금",
@@ -178,5 +178,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/09"
+  "baseDate": "2024/05/10"
 }
