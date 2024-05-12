@@ -7,14 +7,14 @@
     "r2": "사상구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/12",
+    "baseDate": "2024/05/13",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
@@ -34,12 +34,12 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.20"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/12",
+    "baseDate": "2024/05/13",
     "products": [
       {
         "title": "정기적금",
@@ -102,5 +102,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/12"
+  "baseDate": "2024/05/13"
 }

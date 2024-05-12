@@ -7,18 +7,18 @@
     "r2": "관악구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/12",
+    "baseDate": "2024/05/13",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "3.90"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.70"}
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.30"}
         ]
       },
       {
@@ -26,10 +26,10 @@
         "entries": [
           {"duration": 0, "rate": "1.00"},
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "3.60"},
-          {"duration": 12, "rate": "3.90"},
-          {"duration": 24, "rate": "3.80"},
-          {"duration": 36, "rate": "3.70"}
+          {"duration": 6, "rate": "3.30"},
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 24, "rate": "3.40"},
+          {"duration": 36, "rate": "3.30"}
         ]
       },
       {
@@ -37,13 +37,13 @@
         "entries": [
           {"duration": 1, "rate": "1.00"},
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "3.55"},
-          {"duration": 9, "rate": "3.85"},
-          {"duration": 12, "rate": "3.85"},
-          {"duration": 18, "rate": "3.75"},
-          {"duration": 24, "rate": "3.75"},
-          {"duration": 30, "rate": "3.75"},
-          {"duration": 36, "rate": "3.65"}
+          {"duration": 6, "rate": "3.25"},
+          {"duration": 9, "rate": "3.40"},
+          {"duration": 12, "rate": "3.55"},
+          {"duration": 18, "rate": "3.35"},
+          {"duration": 24, "rate": "3.35"},
+          {"duration": 30, "rate": "3.25"},
+          {"duration": 36, "rate": "3.25"}
         ]
       },
       {
@@ -52,31 +52,31 @@
           {"duration": null, "rate": "0.90"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.90"}
+          {"duration": null, "rate": "3.60"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/12",
+    "baseDate": "2024/05/13",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.30"},
-          {"duration": 13, "rate": "4.20"},
-          {"duration": 24, "rate": "3.90"},
-          {"duration": 36, "rate": "3.80"},
-          {"duration": 48, "rate": "3.60"},
-          {"duration": 60, "rate": "3.60"}
+          {"duration": 12, "rate": "4.00"},
+          {"duration": 13, "rate": "3.80"},
+          {"duration": 24, "rate": "3.80"},
+          {"duration": 36, "rate": "3.50"},
+          {"duration": 48, "rate": "3.20"},
+          {"duration": 60, "rate": "3.20"}
         ]
       },
       {
@@ -92,17 +92,17 @@
         "entries": [
           {"duration": 1, "rate": "0.70"},
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "3.60"},
-          {"duration": 12, "rate": "3.80"},
-          {"duration": 24, "rate": "3.70"},
-          {"duration": 36, "rate": "3.70"},
-          {"duration": 48, "rate": "3.70"},
-          {"duration": 60, "rate": "3.70"}
+          {"duration": 6, "rate": "3.30"},
+          {"duration": 12, "rate": "3.55"},
+          {"duration": 24, "rate": "3.20"},
+          {"duration": 36, "rate": "3.20"},
+          {"duration": 48, "rate": "3.20"},
+          {"duration": 60, "rate": "3.20"}
         ]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.55"}]
       },
       {
         "title": "일일자유적금",
@@ -111,22 +111,22 @@
           {"duration": 1, "rate": "1.50"},
           {"duration": 2, "rate": "2.00"},
           {"duration": 3, "rate": "3.00"},
-          {"duration": 4, "rate": "3.25"},
-          {"duration": 5, "rate": "3.50"},
-          {"duration": 6, "rate": "3.60"}
+          {"duration": 4, "rate": "3.10"},
+          {"duration": 5, "rate": "3.20"},
+          {"duration": 6, "rate": "3.30"}
         ]
       },
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 6, "rate": "3.60"},
-          {"duration": 12, "rate": "4.30"},
-          {"duration": 13, "rate": "4.20"},
-          {"duration": 24, "rate": "3.90"},
-          {"duration": 36, "rate": "3.80"}
+          {"duration": 6, "rate": "3.30"},
+          {"duration": 12, "rate": "4.00"},
+          {"duration": 13, "rate": "3.80"},
+          {"duration": 24, "rate": "3.80"},
+          {"duration": 36, "rate": "3.50"}
         ]
       }
     ]
   },
-  "baseDate": "2024/05/12"
+  "baseDate": "2024/05/13"
 }
