@@ -7,7 +7,7 @@
     "r2": "전주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/15",
+    "baseDate": "2024/05/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,7 +16,7 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.70"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.00"}
@@ -28,9 +28,9 @@
           {"duration": 0, "rate": "1.50"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "3.40"},
-          {"duration": 12, "rate": "3.80"},
+          {"duration": 12, "rate": "3.70"},
           {"duration": 24, "rate": "3.30"},
-          {"duration": 36, "rate": "3.30"}
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
@@ -40,16 +40,16 @@
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "3.40"},
           {"duration": 9, "rate": "3.50"},
-          {"duration": 12, "rate": "3.80"},
+          {"duration": 12, "rate": "3.70"},
           {"duration": 18, "rate": "3.50"},
           {"duration": 24, "rate": "3.30"},
           {"duration": 30, "rate": "3.30"},
-          {"duration": 36, "rate": "3.30"}
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -65,17 +65,17 @@
           {"duration": 9, "rate": "3.50"},
           {"duration": 10, "rate": "3.50"},
           {"duration": 11, "rate": "3.50"},
-          {"duration": 12, "rate": "3.80"}
+          {"duration": 12, "rate": "3.70"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.70"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/15",
+    "baseDate": "2024/05/16",
     "products": [
       {
         "title": "정기적금",
@@ -155,5 +155,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/15"
+  "baseDate": "2024/05/16"
 }

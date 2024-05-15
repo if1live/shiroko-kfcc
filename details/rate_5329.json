@@ -7,14 +7,14 @@
     "r2": "영덕군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/15",
+    "baseDate": "2024/05/16",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.80"},
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/15",
+    "baseDate": "2024/05/16",
     "products": [
       {
         "title": "정기적금",
@@ -165,5 +165,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/15"
+  "baseDate": "2024/05/16"
 }
