@@ -7,7 +7,7 @@
     "r2": "가평군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/17",
+    "baseDate": "2024/05/18",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,8 +16,8 @@
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.90"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.80"}
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.50"}
         ]
       },
       {
@@ -27,8 +27,8 @@
           {"duration": 3, "rate": "1.10"},
           {"duration": 6, "rate": "2.90"},
           {"duration": 12, "rate": "3.70"},
-          {"duration": 24, "rate": "3.50"},
-          {"duration": 36, "rate": "3.50"}
+          {"duration": 24, "rate": "3.40"},
+          {"duration": 36, "rate": "3.30"}
         ]
       },
       {
@@ -40,9 +40,9 @@
           {"duration": 9, "rate": "2.70"},
           {"duration": 12, "rate": "3.50"},
           {"duration": 18, "rate": "3.50"},
-          {"duration": 24, "rate": "3.30"},
-          {"duration": 30, "rate": "3.30"},
-          {"duration": 36, "rate": "3.30"}
+          {"duration": 24, "rate": "3.20"},
+          {"duration": 30, "rate": "3.20"},
+          {"duration": 36, "rate": "3.10"}
         ]
       },
       {
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/17",
+    "baseDate": "2024/05/18",
     "products": [
       {
         "title": "정기적금",
@@ -118,8 +118,8 @@
           {"duration": 3, "rate": "1.20"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 12, "rate": "3.50"},
-          {"duration": 24, "rate": "3.50"},
-          {"duration": 36, "rate": "3.50"}
+          {"duration": 24, "rate": "3.40"},
+          {"duration": 36, "rate": "3.40"}
         ]
       },
       {
@@ -155,8 +155,8 @@
         "entries": [
           {"duration": 6, "rate": "1.20"},
           {"duration": 12, "rate": "3.50"},
-          {"duration": 24, "rate": "3.60"},
-          {"duration": 36, "rate": "3.70"}
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
@@ -165,5 +165,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/17"
+  "baseDate": "2024/05/18"
 }
