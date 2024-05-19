@@ -7,7 +7,7 @@
     "r2": "달성군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/19",
+    "baseDate": "2024/05/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "0.50"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.70"},
           {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.30"}
@@ -53,13 +53,13 @@
           {"duration": 9, "rate": "3.30"},
           {"duration": 10, "rate": "3.30"},
           {"duration": 11, "rate": "3.30"},
-          {"duration": 12, "rate": "3.80"}
+          {"duration": 12, "rate": "3.70"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/19",
+    "baseDate": "2024/05/20",
     "products": [
       {
         "title": "정기적금",
@@ -111,5 +111,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/19"
+  "baseDate": "2024/05/20"
 }
