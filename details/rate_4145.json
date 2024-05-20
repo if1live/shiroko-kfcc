@@ -7,7 +7,7 @@
     "r2": "파주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/20",
+    "baseDate": "2024/05/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -49,7 +49,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.55"}]
+        "entries": [{"duration": 12, "rate": "3.77"}]
       },
       {
         "title": "MG기업정기예금(A)",
@@ -86,7 +86,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/20",
+    "baseDate": "2024/05/21",
     "products": [
       {
         "title": "정기적금",
@@ -171,5 +171,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/20"
+  "baseDate": "2024/05/21"
 }

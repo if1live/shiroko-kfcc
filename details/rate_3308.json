@@ -7,7 +7,7 @@
     "r2": "아산시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/20",
+    "baseDate": "2024/05/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -71,7 +71,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/20",
+    "baseDate": "2024/05/21",
     "products": [
       {
         "title": "정기적금",
@@ -113,5 +113,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/20"
+  "baseDate": "2024/05/21"
 }
