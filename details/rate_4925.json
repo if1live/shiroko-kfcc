@@ -7,7 +7,7 @@
     "r2": "장수군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/22",
+    "baseDate": "2024/05/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,10 +15,10 @@
           {"duration": null, "rate": "1.30"},
           {"duration": null, "rate": "1.90"},
           {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"}
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.60"}
         ]
       },
       {
@@ -53,7 +53,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/22",
+    "baseDate": "2024/05/23",
     "products": [
       {
         "title": "정기적금",
@@ -97,5 +97,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/22"
+  "baseDate": "2024/05/23"
 }
