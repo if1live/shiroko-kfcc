@@ -7,7 +7,7 @@
     "r2": "달서구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/23",
+    "baseDate": "2024/05/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -52,23 +52,23 @@
       {
         "title": "MG기업정기예금(A)",
         "entries": [
-          {"duration": 1, "rate": "1.50"},
-          {"duration": 3, "rate": "2.00"},
-          {"duration": 6, "rate": "3.80"},
-          {"duration": 12, "rate": "4.00"},
-          {"duration": 18, "rate": "4.00"},
-          {"duration": 24, "rate": "4.00"}
+          {"duration": 1, "rate": "2.00"},
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 6, "rate": "3.40"},
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 18, "rate": "3.40"},
+          {"duration": 24, "rate": "3.40"}
         ]
       },
       {
         "title": "MG기업정기예금(B)",
         "entries": [
-          {"duration": 1, "rate": "1.20"},
-          {"duration": 3, "rate": "2.00"},
-          {"duration": 6, "rate": "3.80"},
-          {"duration": 12, "rate": "4.00"},
-          {"duration": 18, "rate": "4.00"},
-          {"duration": 24, "rate": "4.00"}
+          {"duration": 1, "rate": "2.00"},
+          {"duration": 3, "rate": "3.00"},
+          {"duration": 6, "rate": "3.40"},
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 18, "rate": "3.40"},
+          {"duration": 24, "rate": "3.40"}
         ]
       },
       {
@@ -95,7 +95,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/23",
+    "baseDate": "2024/05/24",
     "products": [
       {
         "title": "정기적금",
@@ -179,5 +179,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/23"
+  "baseDate": "2024/05/24"
 }

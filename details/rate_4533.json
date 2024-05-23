@@ -7,7 +7,7 @@
     "r2": "청주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/23",
+    "baseDate": "2024/05/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -51,7 +51,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/23",
+    "baseDate": "2024/05/24",
     "products": [
       {
         "title": "정기적금",
@@ -66,7 +66,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.40"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 24, "rate": "3.70"},
           {"duration": 36, "rate": "3.50"}
         ]
@@ -97,5 +97,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/23"
+  "baseDate": "2024/05/24"
 }
