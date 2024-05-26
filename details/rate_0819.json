@@ -7,7 +7,7 @@
     "r2": "영등포구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/26",
+    "baseDate": "2024/05/27",
     "products": [
       {
         "title": "정기예탁금",
@@ -85,7 +85,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/26",
+    "baseDate": "2024/05/27",
     "products": [
       {
         "title": "정기적금",
@@ -163,5 +163,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/26"
+  "baseDate": "2024/05/27"
 }
