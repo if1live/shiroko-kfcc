@@ -7,7 +7,7 @@
     "r2": "가평군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/27",
+    "baseDate": "2024/05/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/27",
+    "baseDate": "2024/05/28",
     "products": [
       {
         "title": "정기적금",
@@ -165,5 +165,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/27"
+  "baseDate": "2024/05/28"
 }
