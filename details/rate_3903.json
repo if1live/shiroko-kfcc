@@ -7,7 +7,7 @@
     "r2": "안산시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/28",
+    "baseDate": "2024/05/29",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/28",
+    "baseDate": "2024/05/29",
     "products": [
       {
         "title": "정기적금",
@@ -163,5 +163,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/28"
+  "baseDate": "2024/05/29"
 }
