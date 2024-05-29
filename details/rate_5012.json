@@ -7,7 +7,7 @@
     "r2": "고창군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/29",
+    "baseDate": "2024/05/30",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/29",
+    "baseDate": "2024/05/30",
     "products": [
       {
         "title": "정기적금",
@@ -167,5 +167,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/29"
+  "baseDate": "2024/05/30"
 }
