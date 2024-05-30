@@ -7,7 +7,7 @@
     "r2": "의성군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/30",
+    "baseDate": "2024/05/31",
     "products": [
       {
         "title": "정기예탁금",
@@ -48,7 +48,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/30",
+    "baseDate": "2024/05/31",
     "products": [
       {
         "title": "정기적금",
@@ -83,5 +83,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/30"
+  "baseDate": "2024/05/31"
 }
