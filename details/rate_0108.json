@@ -7,14 +7,14 @@
     "r2": "종로구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/05/31",
+    "baseDate": "2024/06/01",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.90"}
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.70"}
         ]
       },
       {
@@ -30,29 +30,29 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.65"}]
+        "entries": [{"duration": 12, "rate": "3.45"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.80"},
           {"duration": null, "rate": "0.80"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.90"}
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.70"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/05/31",
+    "baseDate": "2024/06/01",
     "products": [
       {
         "title": "정기적금",
@@ -97,5 +97,5 @@
       }
     ]
   },
-  "baseDate": "2024/05/31"
+  "baseDate": "2024/06/01"
 }
