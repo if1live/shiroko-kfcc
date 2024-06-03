@@ -7,7 +7,7 @@
     "r2": "달서구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/03",
+    "baseDate": "2024/06/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -39,12 +39,12 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.86"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/03",
+    "baseDate": "2024/06/04",
     "products": [
       {
         "title": "정기적금",
@@ -79,5 +79,5 @@
       }
     ]
   },
-  "baseDate": "2024/06/03"
+  "baseDate": "2024/06/04"
 }
