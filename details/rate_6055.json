@@ -7,7 +7,7 @@
     "r2": "의령군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/04",
+    "baseDate": "2024/06/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -53,12 +53,12 @@
       {
         "title": "MG기업정기예금(A)",
         "entries": [
-          {"duration": 1, "rate": "0.20"},
+          {"duration": 1, "rate": "0.10"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "4.10"},
-          {"duration": 18, "rate": "4.00"},
-          {"duration": 24, "rate": "4.00"}
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 18, "rate": "3.60"},
+          {"duration": 24, "rate": "3.60"}
         ]
       },
       {
@@ -81,7 +81,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/04",
+    "baseDate": "2024/06/05",
     "products": [
       {
         "title": "정기적금",
@@ -142,5 +142,5 @@
       }
     ]
   },
-  "baseDate": "2024/06/04"
+  "baseDate": "2024/06/05"
 }

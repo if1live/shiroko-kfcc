@@ -7,7 +7,7 @@
     "r2": "공주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/04",
+    "baseDate": "2024/06/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -54,7 +54,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/04",
+    "baseDate": "2024/06/05",
     "products": [
       {
         "title": "정기적금",
@@ -128,9 +128,9 @@
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "4.30"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       }
     ]
   },
-  "baseDate": "2024/06/04"
+  "baseDate": "2024/06/05"
 }
