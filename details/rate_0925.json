@@ -7,7 +7,7 @@
     "r2": "관악구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/06",
+    "baseDate": "2024/06/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,24 +73,24 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/06",
+    "baseDate": "2024/06/07",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "4.10"},
-          {"duration": 36, "rate": "4.20"},
-          {"duration": 48, "rate": "4.20"},
-          {"duration": 60, "rate": "4.20"}
+          {"duration": 24, "rate": "3.90"},
+          {"duration": 36, "rate": "3.90"},
+          {"duration": 48, "rate": "3.90"},
+          {"duration": 60, "rate": "3.90"}
         ]
       },
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "4.10"},
-          {"duration": 36, "rate": "4.20"}
+          {"duration": 12, "rate": "3.70"},
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
@@ -134,5 +134,5 @@
       }
     ]
   },
-  "baseDate": "2024/06/06"
+  "baseDate": "2024/06/07"
 }
