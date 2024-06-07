@@ -7,7 +7,7 @@
     "r2": "여수시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/07",
+    "baseDate": "2024/06/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -66,11 +66,15 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "3.80"}
         ]
+      },
+      {
+        "title": "MG주거래우대정기예금",
+        "entries": [{"duration": 12, "rate": "3.80"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/07",
+    "baseDate": "2024/06/08",
     "products": [
       {
         "title": "정기적금",
@@ -151,5 +155,5 @@
       }
     ]
   },
-  "baseDate": "2024/06/07"
+  "baseDate": "2024/06/08"
 }
