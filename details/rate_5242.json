@@ -7,43 +7,43 @@
     "r2": "포항시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/09",
+    "baseDate": "2024/06/10",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.00"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "3.40"}
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.30"}
         ]
       },
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": 1, "rate": "2.50"},
-          {"duration": 2, "rate": "2.50"},
-          {"duration": 3, "rate": "2.50"},
-          {"duration": 4, "rate": "2.50"},
-          {"duration": 5, "rate": "2.50"},
-          {"duration": 6, "rate": "2.50"},
-          {"duration": 7, "rate": "2.50"},
-          {"duration": 8, "rate": "2.50"},
-          {"duration": 9, "rate": "2.50"},
-          {"duration": 10, "rate": "2.50"},
-          {"duration": 11, "rate": "2.50"},
-          {"duration": 12, "rate": "3.80"}
+          {"duration": 1, "rate": "2.40"},
+          {"duration": 2, "rate": "2.40"},
+          {"duration": 3, "rate": "2.40"},
+          {"duration": 4, "rate": "2.40"},
+          {"duration": 5, "rate": "2.40"},
+          {"duration": 6, "rate": "2.40"},
+          {"duration": 7, "rate": "2.40"},
+          {"duration": 8, "rate": "2.40"},
+          {"duration": 9, "rate": "2.40"},
+          {"duration": 10, "rate": "2.40"},
+          {"duration": 11, "rate": "2.40"},
+          {"duration": 12, "rate": "3.70"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.40"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/09",
+    "baseDate": "2024/06/10",
     "products": [
       {
         "title": "정기적금",
@@ -80,5 +80,5 @@
       }
     ]
   },
-  "baseDate": "2024/06/09"
+  "baseDate": "2024/06/10"
 }
