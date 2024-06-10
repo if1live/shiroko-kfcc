@@ -7,7 +7,7 @@
     "r2": "옥천군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/10",
+    "baseDate": "2024/06/11",
     "products": [
       {
         "title": "정기예탁금",
@@ -32,11 +32,28 @@
           {"duration": 24, "rate": "3.40"},
           {"duration": 36, "rate": "3.50"}
         ]
+      },
+      {
+        "title": "꿈드림회전정기예탁금",
+        "entries": [
+          {"duration": 1, "rate": "0.50"},
+          {"duration": 2, "rate": "1.00"},
+          {"duration": 3, "rate": "1.50"},
+          {"duration": 4, "rate": "2.00"},
+          {"duration": 5, "rate": "2.50"},
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 7, "rate": "3.00"},
+          {"duration": 8, "rate": "3.00"},
+          {"duration": 9, "rate": "3.50"},
+          {"duration": 10, "rate": "3.50"},
+          {"duration": 11, "rate": "3.50"},
+          {"duration": 12, "rate": "3.80"}
+        ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/10",
+    "baseDate": "2024/06/11",
     "products": [
       {
         "title": "정기적금",
@@ -115,5 +132,5 @@
       }
     ]
   },
-  "baseDate": "2024/06/10"
+  "baseDate": "2024/06/11"
 }
