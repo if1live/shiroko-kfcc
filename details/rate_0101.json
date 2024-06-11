@@ -7,7 +7,7 @@
     "r2": "종로구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/11",
+    "baseDate": "2024/06/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -29,13 +29,27 @@
         ]
       },
       {
+        "title": "자유자재정기예금Ⅱ",
+        "entries": [
+          {"duration": 1, "rate": "0.00"},
+          {"duration": 3, "rate": "0.00"},
+          {"duration": 6, "rate": "0.00"},
+          {"duration": 9, "rate": "0.00"},
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 18, "rate": "0.00"},
+          {"duration": 24, "rate": "0.00"},
+          {"duration": 30, "rate": "0.00"},
+          {"duration": 36, "rate": "0.00"}
+        ]
+      },
+      {
         "title": "MG더뱅킹정기예금",
         "entries": [{"duration": 12, "rate": "3.80"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/11",
+    "baseDate": "2024/06/12",
     "products": [
       {
         "title": "정기적금",
@@ -47,7 +61,7 @@
       },
       {
         "title": "MG New정기적금",
-        "entries": [{"duration": 12, "rate": "0.10"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "우리아기첫걸음정기적금",
@@ -101,5 +115,5 @@
       }
     ]
   },
-  "baseDate": "2024/06/11"
+  "baseDate": "2024/06/12"
 }
