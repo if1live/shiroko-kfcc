@@ -7,7 +7,7 @@
     "r2": "안양시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/14",
+    "baseDate": "2024/06/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -36,7 +36,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.40"}]
       },
       {
         "title": "MG주거래우대정기예금",
@@ -45,7 +45,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/14",
+    "baseDate": "2024/06/15",
     "products": [
       {
         "title": "정기적금",
@@ -65,7 +65,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "4.50"}
+          {"duration": 12, "rate": "4.10"}
         ]
       },
       {
@@ -95,7 +95,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "1.50"}]
       },
       {
         "title": "일일자유적금",
@@ -124,5 +124,5 @@
       }
     ]
   },
-  "baseDate": "2024/06/14"
+  "baseDate": "2024/06/15"
 }
