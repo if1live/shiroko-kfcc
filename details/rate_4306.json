@@ -7,7 +7,7 @@
     "r2": "원주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/21",
+    "baseDate": "2024/06/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -95,7 +95,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/21",
+    "baseDate": "2024/06/22",
     "products": [
       {
         "title": "정기적금",
@@ -187,5 +187,5 @@
       }
     ]
   },
-  "baseDate": "2024/06/21"
+  "baseDate": "2024/06/22"
 }
