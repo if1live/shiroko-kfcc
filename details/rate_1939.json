@@ -7,7 +7,7 @@
     "r2": "북구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/24",
+    "baseDate": "2024/06/25",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "1.20"},
           {"duration": null, "rate": "1.80"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.65"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.40"}
         ]
@@ -38,7 +38,7 @@
           {"duration": 3, "rate": "1.80"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 9, "rate": "2.50"},
-          {"duration": 12, "rate": "3.75"},
+          {"duration": 12, "rate": "3.70"},
           {"duration": 18, "rate": "3.60"},
           {"duration": 24, "rate": "3.60"},
           {"duration": 30, "rate": "3.50"},
@@ -47,7 +47,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.78"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -68,12 +68,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "3.65"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/24",
+    "baseDate": "2024/06/25",
     "products": [
       {
         "title": "정기적금",
@@ -121,7 +121,7 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
         "title": "Smart 자유적립적금",
@@ -138,9 +138,9 @@
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 12, "rate": "3.70"},
-          {"duration": 24, "rate": "3.70"},
-          {"duration": 36, "rate": "3.70"}
+          {"duration": 12, "rate": "3.65"},
+          {"duration": 24, "rate": "3.65"},
+          {"duration": 36, "rate": "3.65"}
         ]
       },
       {
@@ -149,5 +149,5 @@
       }
     ]
   },
-  "baseDate": "2024/06/24"
+  "baseDate": "2024/06/25"
 }

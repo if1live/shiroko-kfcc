@@ -7,7 +7,7 @@
     "r2": "속초시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/24",
+    "baseDate": "2024/06/25",
     "products": [
       {
         "title": "정기예탁금",
@@ -52,7 +52,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/24",
+    "baseDate": "2024/06/25",
     "products": [
       {
         "title": "정기적금",
@@ -66,14 +66,14 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.30"},
-          {"duration": 24, "rate": "4.40"},
-          {"duration": 36, "rate": "4.50"}
+          {"duration": 12, "rate": "4.00"},
+          {"duration": 24, "rate": "4.10"},
+          {"duration": 36, "rate": "4.10"}
         ]
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "2.30"}]
+        "entries": [{"duration": 12, "rate": "2.00"}]
       },
       {
         "title": "MG뛰어라정기적금",
@@ -96,7 +96,7 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "4.30"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "Smart 자유적립적금",
@@ -133,5 +133,5 @@
       }
     ]
   },
-  "baseDate": "2024/06/24"
+  "baseDate": "2024/06/25"
 }
