@@ -7,7 +7,7 @@
     "r2": "강서구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/26",
+    "baseDate": "2024/06/27",
     "products": [
       {
         "title": "정기예탁금",
@@ -93,7 +93,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/26",
+    "baseDate": "2024/06/27",
     "products": [
       {
         "title": "정기적금",
@@ -180,5 +180,5 @@
       }
     ]
   },
-  "baseDate": "2024/06/26"
+  "baseDate": "2024/06/27"
 }

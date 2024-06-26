@@ -7,17 +7,17 @@
     "r2": "광진구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/26",
+    "baseDate": "2024/06/27",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.00"},
-          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.90"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.80"}
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"}
         ]
       },
       {
@@ -47,7 +47,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "4.00"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -69,12 +69,12 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/26",
+    "baseDate": "2024/06/27",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.30"},
+          {"duration": 12, "rate": "4.10"},
           {"duration": 24, "rate": "4.10"},
           {"duration": 36, "rate": "4.10"},
           {"duration": 60, "rate": "4.10"}
@@ -88,9 +88,9 @@
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "1.10"},
-          {"duration": 3, "rate": "1.20"},
-          {"duration": 6, "rate": "1.25"},
-          {"duration": 12, "rate": "4.10"},
+          {"duration": 3, "rate": "2.00"},
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 12, "rate": "3.80"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.50"},
           {"duration": 48, "rate": "3.50"},
@@ -103,9 +103,9 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "4.00"}]
+        "entries": [{"duration": 12, "rate": "3.20"}]
       }
     ]
   },
-  "baseDate": "2024/06/26"
+  "baseDate": "2024/06/27"
 }

@@ -7,7 +7,7 @@
     "r2": "구로구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/26",
+    "baseDate": "2024/06/27",
     "products": [
       {
         "title": "정기예탁금",
@@ -39,7 +39,7 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
+          {"duration": 1, "rate": "0.10"},
           {"duration": 3, "rate": "2.05"},
           {"duration": 6, "rate": "3.15"},
           {"duration": 9, "rate": "3.15"},
@@ -78,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/26",
+    "baseDate": "2024/06/27",
     "products": [
       {
         "title": "정기적금",
@@ -150,5 +150,5 @@
       }
     ]
   },
-  "baseDate": "2024/06/26"
+  "baseDate": "2024/06/27"
 }
