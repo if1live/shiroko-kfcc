@@ -1,0 +1,12 @@
+{
+  "id": "0655",
+  "bank": {
+    "gmgoCd": "0655",
+    "gmgoNm": "서울누리",
+    "r1": "서울",
+    "r2": "성북구"
+  },
+  "deferredDeposit": null,
+  "installmentSavings": null,
+  "baseDate": null
+}
