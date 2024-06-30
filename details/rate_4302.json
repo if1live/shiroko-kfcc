@@ -7,7 +7,7 @@
     "r2": "원주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/30",
+    "baseDate": "2024/07/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -18,7 +18,7 @@
           {"duration": null, "rate": "1.90"},
           {"duration": null, "rate": "1.90"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.95"},
+          {"duration": null, "rate": "3.86"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.80"},
@@ -32,7 +32,7 @@
           {"duration": 0, "rate": "0.10"},
           {"duration": 3, "rate": "1.90"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.95"},
+          {"duration": 12, "rate": "3.86"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.80"}
         ]
@@ -44,7 +44,7 @@
           {"duration": 3, "rate": "1.90"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 9, "rate": "2.50"},
-          {"duration": 12, "rate": "3.95"},
+          {"duration": 12, "rate": "3.86"},
           {"duration": 18, "rate": "3.50"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 30, "rate": "3.50"},
@@ -69,17 +69,17 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.95"}
+          {"duration": null, "rate": "3.86"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.95"}]
+        "entries": [{"duration": 12, "rate": "3.86"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/30",
+    "baseDate": "2024/07/01",
     "products": [
       {
         "title": "정기적금",
@@ -180,5 +180,5 @@
       }
     ]
   },
-  "baseDate": "2024/06/30"
+  "baseDate": "2024/07/01"
 }

@@ -7,7 +7,7 @@
     "r2": "사천시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/30",
+    "baseDate": "2024/07/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,6 +16,7 @@
           {"duration": null, "rate": "3.25"},
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.25"},
@@ -71,7 +72,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/30",
+    "baseDate": "2024/07/01",
     "products": [
       {
         "title": "정기적금",
@@ -87,11 +88,7 @@
       },
       {
         "title": "MG New정기적금",
-        "entries": [
-          {"duration": 12, "rate": "3.75"},
-          {"duration": 24, "rate": "3.65"},
-          {"duration": 36, "rate": "3.70"}
-        ]
+        "entries": [{"duration": 12, "rate": "5.00"}]
       },
       {
         "title": "우리아기첫걸음정기적금",
@@ -120,7 +117,7 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "1.65"}]
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "Smart 자유적립적금",
@@ -152,5 +149,5 @@
       }
     ]
   },
-  "baseDate": "2024/06/30"
+  "baseDate": "2024/07/01"
 }

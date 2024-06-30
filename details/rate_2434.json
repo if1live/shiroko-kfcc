@@ -7,7 +7,7 @@
     "r2": "광산구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/06/30",
+    "baseDate": "2024/07/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -22,7 +22,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/06/30",
+    "baseDate": "2024/07/01",
     "products": [
       {
         "title": "정기적금",
@@ -46,5 +46,5 @@
       }
     ]
   },
-  "baseDate": "2024/06/30"
+  "baseDate": "2024/07/01"
 }
