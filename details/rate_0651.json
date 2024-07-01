@@ -7,7 +7,7 @@
     "r2": "도봉구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/01",
+    "baseDate": "2024/07/02",
     "products": [
       {
         "title": "정기예탁금",
@@ -63,7 +63,7 @@
           {"duration": 9, "rate": "2.90"},
           {"duration": 10, "rate": "2.90"},
           {"duration": 11, "rate": "2.90"},
-          {"duration": 12, "rate": "3.60"}
+          {"duration": 12, "rate": "3.70"}
         ]
       },
       {
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/01",
+    "baseDate": "2024/07/02",
     "products": [
       {
         "title": "정기적금",
@@ -153,5 +153,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/01"
+  "baseDate": "2024/07/02"
 }

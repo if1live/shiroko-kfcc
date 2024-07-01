@@ -7,13 +7,13 @@
     "r2": "통영시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/01",
+    "baseDate": "2024/07/02",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
+          {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.00"},
@@ -63,7 +63,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/01",
+    "baseDate": "2024/07/02",
     "products": [
       {
         "title": "정기적금",
@@ -148,5 +148,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/01"
+  "baseDate": "2024/07/02"
 }
