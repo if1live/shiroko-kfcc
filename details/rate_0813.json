@@ -7,7 +7,7 @@
     "r2": "영등포구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/02",
+    "baseDate": "2024/07/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -41,7 +41,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/02",
+    "baseDate": "2024/07/03",
     "products": [
       {
         "title": "정기적금",
@@ -59,7 +59,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "5.00"}
+          {"duration": 12, "rate": "3.50"}
         ]
       },
       {
@@ -94,5 +94,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/02"
+  "baseDate": "2024/07/03"
 }
