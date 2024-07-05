@@ -7,7 +7,7 @@
     "r2": "제주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/03",
+    "baseDate": "2024/07/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,9 +15,9 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "0.00"}
         ]
       },
@@ -50,13 +50,13 @@
           {"duration": 9, "rate": "3.40"},
           {"duration": 10, "rate": "3.40"},
           {"duration": 11, "rate": "3.40"},
-          {"duration": 12, "rate": "3.80"}
+          {"duration": 12, "rate": "3.70"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/03",
+    "baseDate": "2024/07/06",
     "products": [
       {
         "title": "정기적금",
@@ -97,5 +97,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/03"
+  "baseDate": "2024/07/06"
 }

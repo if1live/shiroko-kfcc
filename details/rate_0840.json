@@ -6,45 +6,7 @@
     "r1": "서울",
     "r2": "강남구"
   },
-  "deferredDeposit": {
-    "baseDate": "2024/07/03",
-    "products": [
-      {
-        "title": "정기예탁금",
-        "entries": [
-          {"duration": null, "rate": "0.20"},
-          {"duration": null, "rate": "0.20"},
-          {"duration": null, "rate": "1.15"},
-          {"duration": null, "rate": "0.20"}
-        ]
-      }
-    ]
-  },
-  "installmentSavings": {
-    "baseDate": "2024/07/03",
-    "products": [
-      {
-        "title": "정기적금",
-        "entries": [
-          {"duration": 12, "rate": "1.50"},
-          {"duration": 24, "rate": "1.50"},
-          {"duration": 36, "rate": "1.50"},
-          {"duration": 37, "rate": "0.20"}
-        ]
-      },
-      {
-        "title": "자유적립적금",
-        "entries": [
-          {"duration": 1, "rate": "0.20"},
-          {"duration": 6, "rate": "0.20"},
-          {"duration": 12, "rate": "0.20"},
-          {"duration": 24, "rate": "0.20"},
-          {"duration": 36, "rate": "0.20"},
-          {"duration": 48, "rate": "0.20"},
-          {"duration": 60, "rate": "0.20"}
-        ]
-      }
-    ]
-  },
-  "baseDate": "2024/07/03"
+  "deferredDeposit": null,
+  "installmentSavings": null,
+  "baseDate": null
 }

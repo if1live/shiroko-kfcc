@@ -7,7 +7,7 @@
     "r2": "포항시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/03",
+    "baseDate": "2024/07/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -35,7 +35,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.63"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -57,12 +57,12 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/03",
+    "baseDate": "2024/07/06",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.80"},
+          {"duration": 12, "rate": "3.63"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "2.80"}
         ]
@@ -70,7 +70,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.80"},
+          {"duration": 12, "rate": "3.63"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "2.80"}
         ]
@@ -79,7 +79,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "1.50"},
-          {"duration": 12, "rate": "3.80"}
+          {"duration": 12, "rate": "3.63"}
         ]
       },
       {
@@ -92,22 +92,22 @@
           {"duration": 1, "rate": "0.10"},
           {"duration": 3, "rate": "0.50"},
           {"duration": 6, "rate": "1.50"},
-          {"duration": 12, "rate": "3.80"},
+          {"duration": 12, "rate": "3.63"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.63"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.63"}]
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.63"}]
       },
       {
         "title": "일일자유적금",
@@ -123,5 +123,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/03"
+  "baseDate": "2024/07/06"
 }

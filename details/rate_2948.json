@@ -7,7 +7,7 @@
     "r2": "장흥군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/03",
+    "baseDate": "2024/07/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -33,7 +33,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -54,12 +54,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.70"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/03",
+    "baseDate": "2024/07/06",
     "products": [
       {
         "title": "정기적금",
@@ -91,8 +91,8 @@
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
-          {"duration": 6, "rate": "3.10"},
-          {"duration": 12, "rate": "3.90"}
+          {"duration": 6, "rate": "2.80"},
+          {"duration": 12, "rate": "3.60"}
         ]
       },
       {
@@ -116,7 +116,7 @@
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "MG주거래우대자유적금",
@@ -124,7 +124,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "꿈모아상호부금",
@@ -137,5 +137,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/03"
+  "baseDate": "2024/07/06"
 }

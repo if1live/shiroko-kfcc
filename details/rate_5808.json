@@ -7,7 +7,7 @@
     "r2": "안동시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/03",
+    "baseDate": "2024/07/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -56,12 +56,12 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/03",
+    "baseDate": "2024/07/06",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.00"},
+          {"duration": 12, "rate": "3.70"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.50"}
         ]
@@ -69,7 +69,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "5.00"},
+          {"duration": 12, "rate": "3.70"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.50"}
         ]
@@ -86,7 +86,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "4.00"}
+          {"duration": 12, "rate": "3.70"}
         ]
       },
       {
@@ -141,5 +141,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/03"
+  "baseDate": "2024/07/06"
 }

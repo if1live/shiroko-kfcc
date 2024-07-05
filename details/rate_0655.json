@@ -6,7 +6,13 @@
     "r1": "서울",
     "r2": "성북구"
   },
-  "deferredDeposit": null,
-  "installmentSavings": null,
-  "baseDate": null
+  "deferredDeposit": {
+    "baseDate": "2024/07/06",
+    "products": []
+  },
+  "installmentSavings": {
+    "baseDate": "2024/07/06",
+    "products": []
+  },
+  "baseDate": "2024/07/06"
 }
