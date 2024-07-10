@@ -7,7 +7,7 @@
     "r2": "창원시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/10",
+    "baseDate": "2024/07/11",
     "products": [
       {
         "title": "정기예탁금",
@@ -39,6 +39,17 @@
         "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
+        "title": "MG기업정기예금(A)",
+        "entries": [
+          {"duration": 1, "rate": "1.80"},
+          {"duration": 3, "rate": "2.10"},
+          {"duration": 6, "rate": "2.20"},
+          {"duration": 12, "rate": "3.25"},
+          {"duration": 18, "rate": "3.00"},
+          {"duration": 24, "rate": "2.80"}
+        ]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": 1, "rate": "1.80"},
@@ -62,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/10",
+    "baseDate": "2024/07/11",
     "products": [
       {
         "title": "정기적금",
@@ -145,5 +156,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/10"
+  "baseDate": "2024/07/11"
 }
