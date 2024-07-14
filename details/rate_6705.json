@@ -7,7 +7,7 @@
     "r2": "서귀포시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/14",
+    "baseDate": "2024/07/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,11 +15,11 @@
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"}
@@ -78,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/14",
+    "baseDate": "2024/07/15",
     "products": [
       {
         "title": "정기적금",
@@ -122,7 +122,7 @@
         "entries": [
           {"duration": 1, "rate": "0.00"},
           {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "3.80"},
+          {"duration": 12, "rate": "3.60"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
@@ -150,7 +150,7 @@
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 12, "rate": "3.80"},
+          {"duration": 12, "rate": "3.60"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
@@ -161,5 +161,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/14"
+  "baseDate": "2024/07/15"
 }

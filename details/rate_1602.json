@@ -7,7 +7,7 @@
     "r2": "동래구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/14",
+    "baseDate": "2024/07/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "1.60"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"}
         ]
@@ -26,7 +26,7 @@
           {"duration": 0, "rate": "1.00"},
           {"duration": 3, "rate": "3.00"},
           {"duration": 6, "rate": "3.40"},
-          {"duration": 12, "rate": "3.70"},
+          {"duration": 12, "rate": "3.60"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.50"}
         ]
@@ -49,17 +49,17 @@
           {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.70"}
+          {"duration": null, "rate": "3.60"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/14",
+    "baseDate": "2024/07/15",
     "products": [
       {
         "title": "정기적금",
@@ -134,5 +134,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/14"
+  "baseDate": "2024/07/15"
 }

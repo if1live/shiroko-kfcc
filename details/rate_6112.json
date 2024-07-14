@@ -7,17 +7,17 @@
     "r2": "창원시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/14",
+    "baseDate": "2024/07/15",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.75"},
-          {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.00"}
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "2.80"}
         ]
       },
       {
@@ -38,13 +38,13 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/14",
+    "baseDate": "2024/07/15",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "3.40"},
-          {"duration": 12, "rate": "3.75"},
+          {"duration": 12, "rate": "3.60"},
           {"duration": 24, "rate": "3.20"},
           {"duration": 36, "rate": "3.20"}
         ]
@@ -52,7 +52,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.75"},
+          {"duration": 12, "rate": "3.60"},
           {"duration": 24, "rate": "3.20"},
           {"duration": 36, "rate": "3.20"}
         ]
@@ -66,16 +66,16 @@
         "entries": [
           {"duration": 1, "rate": "2.00"},
           {"duration": 6, "rate": "3.40"},
-          {"duration": 12, "rate": "3.75"},
+          {"duration": 12, "rate": "3.60"},
           {"duration": 24, "rate": "3.20"},
           {"duration": 36, "rate": "3.20"}
         ]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.75"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       }
     ]
   },
-  "baseDate": "2024/07/14"
+  "baseDate": "2024/07/15"
 }
