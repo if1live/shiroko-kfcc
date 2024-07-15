@@ -7,7 +7,7 @@
     "r2": "순천시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/15",
+    "baseDate": "2024/07/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -68,17 +68,17 @@
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.40"}
+          {"duration": null, "rate": "3.55"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.40"}]
+        "entries": [{"duration": 12, "rate": "3.55"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/15",
+    "baseDate": "2024/07/16",
     "products": [
       {
         "title": "정기적금",
@@ -168,5 +168,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/15"
+  "baseDate": "2024/07/16"
 }

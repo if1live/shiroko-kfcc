@@ -7,7 +7,7 @@
     "r2": "광산구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/15",
+    "baseDate": "2024/07/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -57,7 +57,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/15",
+    "baseDate": "2024/07/16",
     "products": [
       {
         "title": "정기적금",
@@ -118,8 +118,12 @@
           {"duration": 24, "rate": "3.40"},
           {"duration": 36, "rate": "3.40"}
         ]
+      },
+      {
+        "title": "My꿈모아자유적금",
+        "entries": [{"duration": 12, "rate": "3.60"}]
       }
     ]
   },
-  "baseDate": "2024/07/15"
+  "baseDate": "2024/07/16"
 }
