@@ -7,7 +7,7 @@
     "r2": "양산시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/17",
+    "baseDate": "2024/07/18",
     "products": [
       {
         "title": "정기예탁금",
@@ -42,14 +42,14 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/17",
+    "baseDate": "2024/07/18",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "3.80"},
-          {"duration": 36, "rate": "3.80"}
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
@@ -60,7 +60,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "4.00"}
+          {"duration": 12, "rate": "3.60"}
         ]
       },
       {
@@ -75,5 +75,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/17"
+  "baseDate": "2024/07/18"
 }
