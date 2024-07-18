@@ -7,7 +7,7 @@
     "r2": "동래구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/18",
+    "baseDate": "2024/07/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -63,13 +63,13 @@
           {"duration": 9, "rate": "2.20"},
           {"duration": 10, "rate": "2.20"},
           {"duration": 11, "rate": "2.20"},
-          {"duration": 12, "rate": "3.60"}
+          {"duration": 12, "rate": "3.50"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/18",
+    "baseDate": "2024/07/19",
     "products": [
       {
         "title": "정기적금",
@@ -140,5 +140,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/18"
+  "baseDate": "2024/07/19"
 }
