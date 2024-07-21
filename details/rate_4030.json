@@ -7,20 +7,20 @@
     "r2": "고양시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/21",
+    "baseDate": "2024/07/22",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "3.25"},
-          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.75"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.85"},
-          {"duration": null, "rate": "3.90"},
-          {"duration": null, "rate": "3.90"},
-          {"duration": null, "rate": "3.90"}
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.60"}
         ]
       },
       {
@@ -28,10 +28,10 @@
         "entries": [
           {"duration": 0, "rate": "1.50"},
           {"duration": 3, "rate": "3.25"},
-          {"duration": 6, "rate": "3.70"},
+          {"duration": 6, "rate": "3.50"},
           {"duration": 12, "rate": "3.75"},
-          {"duration": 24, "rate": "3.85"},
-          {"duration": 36, "rate": "3.90"}
+          {"duration": 24, "rate": "3.60"},
+          {"duration": 36, "rate": "3.60"}
         ]
       },
       {
@@ -39,13 +39,13 @@
         "entries": [
           {"duration": 1, "rate": "1.50"},
           {"duration": 3, "rate": "3.25"},
-          {"duration": 6, "rate": "3.70"},
-          {"duration": 9, "rate": "3.70"},
+          {"duration": 6, "rate": "3.50"},
+          {"duration": 9, "rate": "3.50"},
           {"duration": 12, "rate": "3.75"},
-          {"duration": 18, "rate": "3.80"},
-          {"duration": 24, "rate": "3.85"},
-          {"duration": 30, "rate": "3.85"},
-          {"duration": 36, "rate": "3.90"}
+          {"duration": 18, "rate": "3.60"},
+          {"duration": 24, "rate": "3.60"},
+          {"duration": 30, "rate": "3.60"},
+          {"duration": 36, "rate": "3.60"}
         ]
       },
       {
@@ -57,10 +57,10 @@
         "entries": [
           {"duration": 1, "rate": "1.50"},
           {"duration": 3, "rate": "3.25"},
-          {"duration": 6, "rate": "3.70"},
+          {"duration": 6, "rate": "3.50"},
           {"duration": 12, "rate": "3.75"},
-          {"duration": 18, "rate": "3.80"},
-          {"duration": 24, "rate": "3.85"}
+          {"duration": 18, "rate": "3.60"},
+          {"duration": 24, "rate": "3.60"}
         ]
       },
       {
@@ -68,10 +68,10 @@
         "entries": [
           {"duration": 1, "rate": "1.55"},
           {"duration": 3, "rate": "3.30"},
-          {"duration": 6, "rate": "3.75"},
+          {"duration": 6, "rate": "3.55"},
           {"duration": 12, "rate": "3.80"},
-          {"duration": 18, "rate": "3.85"},
-          {"duration": 24, "rate": "3.90"}
+          {"duration": 18, "rate": "3.65"},
+          {"duration": 24, "rate": "3.65"}
         ]
       },
       {
@@ -82,12 +82,12 @@
           {"duration": null, "rate": "3.25"},
           {"duration": null, "rate": "3.25"},
           {"duration": null, "rate": "3.25"},
-          {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.75"}
         ]
       },
@@ -98,7 +98,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/21",
+    "baseDate": "2024/07/22",
     "products": [
       {
         "title": "정기적금",
@@ -182,5 +182,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/21"
+  "baseDate": "2024/07/22"
 }

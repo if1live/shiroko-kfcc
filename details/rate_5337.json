@@ -7,19 +7,19 @@
     "r2": "울릉군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/21",
+    "baseDate": "2024/07/22",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.65"},
-          {"duration": null, "rate": "3.65"},
-          {"duration": null, "rate": "3.65"},
-          {"duration": null, "rate": "3.65"},
-          {"duration": null, "rate": "3.65"}
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "3.25"},
+          {"duration": null, "rate": "3.45"},
+          {"duration": null, "rate": "3.55"},
+          {"duration": null, "rate": "3.55"},
+          {"duration": null, "rate": "3.55"},
+          {"duration": null, "rate": "3.55"},
+          {"duration": null, "rate": "3.55"}
         ]
       },
       {
@@ -39,7 +39,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/21",
+    "baseDate": "2024/07/22",
     "products": [
       {
         "title": "정기적금",
@@ -69,7 +69,7 @@
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "3.65"}]
       },
       {
         "title": "일일자유적금",
@@ -94,5 +94,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/21"
+  "baseDate": "2024/07/22"
 }

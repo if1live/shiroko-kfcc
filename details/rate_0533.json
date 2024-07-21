@@ -7,14 +7,14 @@
     "r2": "중랑구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/21",
+    "baseDate": "2024/07/22",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.00"}
         ]
@@ -24,8 +24,8 @@
         "entries": [
           {"duration": 0, "rate": "0.50"},
           {"duration": 3, "rate": "2.30"},
-          {"duration": 6, "rate": "3.30"},
-          {"duration": 12, "rate": "3.70"},
+          {"duration": 6, "rate": "3.20"},
+          {"duration": 12, "rate": "3.60"},
           {"duration": 24, "rate": "3.30"},
           {"duration": 36, "rate": "3.00"}
         ]
@@ -33,15 +33,15 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "1.50"},
+          {"duration": 1, "rate": "1.00"},
           {"duration": 3, "rate": "2.30"},
-          {"duration": 6, "rate": "3.30"},
-          {"duration": 9, "rate": "3.30"},
-          {"duration": 12, "rate": "3.70"},
+          {"duration": 6, "rate": "3.20"},
+          {"duration": 9, "rate": "3.20"},
+          {"duration": 12, "rate": "3.60"},
           {"duration": 18, "rate": "3.30"},
           {"duration": 24, "rate": "3.30"},
-          {"duration": 30, "rate": "3.30"},
-          {"duration": 36, "rate": "3.30"}
+          {"duration": 30, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
@@ -56,23 +56,23 @@
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.70"}
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.60"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/21",
+    "baseDate": "2024/07/22",
     "products": [
       {
         "title": "정기적금",
@@ -113,22 +113,22 @@
         "entries": [
           {"duration": 1, "rate": "1.00"},
           {"duration": 6, "rate": "1.50"},
-          {"duration": 12, "rate": "3.70"},
+          {"duration": 12, "rate": "3.60"},
           {"duration": 24, "rate": "3.30"},
           {"duration": 36, "rate": "3.30"}
         ]
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "일일자유적금",
@@ -153,5 +153,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/21"
+  "baseDate": "2024/07/22"
 }
