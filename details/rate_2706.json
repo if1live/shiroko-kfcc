@@ -7,15 +7,15 @@
     "r2": "광양시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/22",
+    "baseDate": "2024/07/23",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.55"},
-          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.45"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.10"}
         ]
       },
@@ -26,11 +26,11 @@
           {"duration": 3, "rate": "2.30"},
           {"duration": 6, "rate": "2.80"},
           {"duration": 9, "rate": "2.80"},
-          {"duration": 12, "rate": "3.35"},
-          {"duration": 18, "rate": "3.30"},
-          {"duration": 24, "rate": "3.30"},
-          {"duration": 30, "rate": "3.30"},
-          {"duration": 36, "rate": "3.30"}
+          {"duration": 12, "rate": "3.25"},
+          {"duration": 18, "rate": "3.10"},
+          {"duration": 24, "rate": "3.10"},
+          {"duration": 30, "rate": "3.10"},
+          {"duration": 36, "rate": "3.10"}
         ]
       },
       {
@@ -47,13 +47,13 @@
           {"duration": 9, "rate": "3.00"},
           {"duration": 10, "rate": "3.00"},
           {"duration": 11, "rate": "3.00"},
-          {"duration": 12, "rate": "3.55"}
+          {"duration": 12, "rate": "3.45"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/22",
+    "baseDate": "2024/07/23",
     "products": [
       {
         "title": "정기적금",
@@ -119,5 +119,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/22"
+  "baseDate": "2024/07/23"
 }
