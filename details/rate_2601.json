@@ -7,7 +7,7 @@
     "r2": "여수시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/23",
+    "baseDate": "2024/07/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -36,7 +36,7 @@
           {"duration": null, "rate": "0.10"},
           {"duration": null, "rate": "0.10"},
           {"duration": null, "rate": "0.10"},
-          {"duration": null, "rate": "0.10"}
+          {"duration": null, "rate": "3.60"}
         ]
       },
       {
@@ -46,7 +46,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/23",
+    "baseDate": "2024/07/24",
     "products": [
       {
         "title": "정기적금",
@@ -94,5 +94,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/23"
+  "baseDate": "2024/07/24"
 }
