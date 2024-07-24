@@ -7,7 +7,7 @@
     "r2": "김제시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/24",
+    "baseDate": "2024/07/25",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,9 +15,9 @@
           {"duration": null, "rate": "0.30"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.90"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.80"},
-          {"duration": null, "rate": "3.80"}
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"}
         ]
       },
       {
@@ -38,14 +38,14 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/24",
+    "baseDate": "2024/07/25",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "4.50"},
-          {"duration": 36, "rate": "4.00"}
+          {"duration": 12, "rate": "3.90"},
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
@@ -65,9 +65,9 @@
           {"duration": 1, "rate": "0.10"},
           {"duration": 3, "rate": "0.10"},
           {"duration": 6, "rate": "1.00"},
-          {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "4.00"},
-          {"duration": 36, "rate": "4.00"}
+          {"duration": 12, "rate": "3.90"},
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
@@ -80,5 +80,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/24"
+  "baseDate": "2024/07/25"
 }
