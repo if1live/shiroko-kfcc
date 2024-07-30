@@ -7,7 +7,7 @@
     "r2": "미추홀구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/30",
+    "baseDate": "2024/07/31",
     "products": [
       {
         "title": "정기예탁금",
@@ -57,7 +57,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/30",
+    "baseDate": "2024/07/31",
     "products": [
       {
         "title": "정기적금",
@@ -132,5 +132,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/30"
+  "baseDate": "2024/07/31"
 }

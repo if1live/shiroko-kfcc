@@ -7,7 +7,7 @@
     "r2": "광진구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/30",
+    "baseDate": "2024/07/31",
     "products": [
       {
         "title": "정기예탁금",
@@ -17,13 +17,13 @@
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"}
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"}
         ]
       },
       {
@@ -33,11 +33,11 @@
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 9, "rate": "2.50"},
-          {"duration": 12, "rate": "3.70"},
-          {"duration": 18, "rate": "3.50"},
-          {"duration": 24, "rate": "3.50"},
-          {"duration": 30, "rate": "3.50"},
-          {"duration": 36, "rate": "3.50"}
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 18, "rate": "3.40"},
+          {"duration": 24, "rate": "3.40"},
+          {"duration": 30, "rate": "3.40"},
+          {"duration": 36, "rate": "3.40"}
         ]
       },
       {
@@ -58,7 +58,7 @@
           {"duration": 9, "rate": "1.20"},
           {"duration": 10, "rate": "1.20"},
           {"duration": 11, "rate": "1.20"},
-          {"duration": 12, "rate": "3.75"}
+          {"duration": 12, "rate": "3.65"}
         ]
       },
       {
@@ -68,7 +68,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/30",
+    "baseDate": "2024/07/31",
     "products": [
       {
         "title": "정기적금",
@@ -132,5 +132,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/30"
+  "baseDate": "2024/07/31"
 }
