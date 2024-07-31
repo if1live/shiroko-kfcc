@@ -7,7 +7,7 @@
     "r2": "거제시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/07/31",
+    "baseDate": "2024/08/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -55,7 +55,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/07/31",
+    "baseDate": "2024/08/01",
     "products": [
       {
         "title": "정기적금",
@@ -106,7 +106,7 @@
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.40"}]
+        "entries": [{"duration": 12, "rate": "4.50"}]
       },
       {
         "title": "일일자유적금",
@@ -122,5 +122,5 @@
       }
     ]
   },
-  "baseDate": "2024/07/31"
+  "baseDate": "2024/08/01"
 }
