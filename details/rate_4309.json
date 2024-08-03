@@ -7,7 +7,7 @@
     "r2": "원주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/03",
+    "baseDate": "2024/08/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -99,7 +99,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/03",
+    "baseDate": "2024/08/04",
     "products": [
       {
         "title": "정기적금",
@@ -161,7 +161,7 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.70"}]
       },
       {
         "title": "Smart 자유적립적금",
@@ -203,5 +203,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/03"
+  "baseDate": "2024/08/04"
 }
