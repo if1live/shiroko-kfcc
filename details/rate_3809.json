@@ -7,15 +7,15 @@
     "r2": "수원시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/04",
+    "baseDate": "2024/08/05",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.40"},
@@ -28,9 +28,9 @@
         "entries": [
           {"duration": 1, "rate": "2.20"},
           {"duration": 3, "rate": "2.70"},
-          {"duration": 6, "rate": "3.20"},
-          {"duration": 9, "rate": "3.20"},
-          {"duration": 12, "rate": "3.40"},
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 9, "rate": "3.00"},
+          {"duration": 12, "rate": "3.30"},
           {"duration": 18, "rate": "3.20"},
           {"duration": 24, "rate": "3.10"},
           {"duration": 30, "rate": "3.00"},
@@ -39,15 +39,15 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.40"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "MG기업정기예금(A)",
         "entries": [
           {"duration": 1, "rate": "2.40"},
           {"duration": 3, "rate": "2.90"},
-          {"duration": 6, "rate": "3.40"},
-          {"duration": 12, "rate": "3.60"},
+          {"duration": 6, "rate": "3.20"},
+          {"duration": 12, "rate": "3.50"},
           {"duration": 18, "rate": "3.40"},
           {"duration": 24, "rate": "3.30"}
         ]
@@ -57,8 +57,8 @@
         "entries": [
           {"duration": 1, "rate": "2.40"},
           {"duration": 3, "rate": "2.90"},
-          {"duration": 6, "rate": "3.40"},
-          {"duration": 12, "rate": "3.60"},
+          {"duration": 6, "rate": "3.20"},
+          {"duration": 12, "rate": "3.50"},
           {"duration": 18, "rate": "3.40"},
           {"duration": 24, "rate": "3.30"}
         ]
@@ -71,23 +71,23 @@
           {"duration": 3, "rate": "3.00"},
           {"duration": 4, "rate": "3.00"},
           {"duration": 5, "rate": "3.00"},
-          {"duration": 6, "rate": "3.50"},
-          {"duration": 7, "rate": "3.50"},
-          {"duration": 8, "rate": "3.50"},
-          {"duration": 9, "rate": "3.50"},
-          {"duration": 10, "rate": "3.50"},
-          {"duration": 11, "rate": "3.50"},
-          {"duration": 12, "rate": "3.70"}
+          {"duration": 6, "rate": "3.30"},
+          {"duration": 7, "rate": "3.30"},
+          {"duration": 8, "rate": "3.30"},
+          {"duration": 9, "rate": "3.30"},
+          {"duration": 10, "rate": "3.30"},
+          {"duration": 11, "rate": "3.30"},
+          {"duration": 12, "rate": "3.60"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.40"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/04",
+    "baseDate": "2024/08/05",
     "products": [
       {
         "title": "정기적금",
@@ -129,7 +129,7 @@
         "entries": [
           {"duration": 1, "rate": "2.50"},
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "3.50"},
+          {"duration": 6, "rate": "3.30"},
           {"duration": 12, "rate": "3.60"},
           {"duration": 13, "rate": "3.30"},
           {"duration": 24, "rate": "3.30"},
@@ -156,8 +156,8 @@
           {"duration": 2, "rate": "2.70"},
           {"duration": 3, "rate": "2.90"},
           {"duration": 4, "rate": "3.10"},
-          {"duration": 5, "rate": "3.30"},
-          {"duration": 6, "rate": "3.50"}
+          {"duration": 5, "rate": "3.20"},
+          {"duration": 6, "rate": "3.30"}
         ]
       },
       {
@@ -170,5 +170,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/04"
+  "baseDate": "2024/08/05"
 }

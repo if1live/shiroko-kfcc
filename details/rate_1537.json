@@ -7,7 +7,7 @@
     "r2": "부산진구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/04",
+    "baseDate": "2024/08/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -60,7 +60,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/04",
+    "baseDate": "2024/08/05",
     "products": [
       {
         "title": "정기적금",
@@ -84,6 +84,10 @@
       {
         "title": "우리아기첫걸음정기적금",
         "entries": [{"duration": 12, "rate": "2.00"}]
+      },
+      {
+        "title": "MG뛰어라정기적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "MG더뱅킹정기적금",
@@ -146,5 +150,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/04"
+  "baseDate": "2024/08/05"
 }

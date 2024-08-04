@@ -7,21 +7,22 @@
     "r2": "구례군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/04",
+    "baseDate": "2024/08/05",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.70"},
           {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.45"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"}
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "2.90"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.45"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -43,19 +44,19 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/04",
+    "baseDate": "2024/08/05",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.70"},
-          {"duration": 24, "rate": "3.70"},
-          {"duration": 36, "rate": "3.70"}
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 36, "rate": "3.30"}
         ]
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
         "title": "MG희망나눔 용용적금",
@@ -64,26 +65,26 @@
       {
         "title": "자유적립적금",
         "entries": [
-          {"duration": 1, "rate": "0.10"},
-          {"duration": 6, "rate": "0.50"},
-          {"duration": 12, "rate": "3.70"},
-          {"duration": 24, "rate": "3.70"},
-          {"duration": 36, "rate": "3.70"}
+          {"duration": 1, "rate": "1.50"},
+          {"duration": 6, "rate": "2.00"},
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 36, "rate": "3.30"}
         ]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "1.60"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 12, "rate": "3.70"},
-          {"duration": 24, "rate": "3.70"},
-          {"duration": 36, "rate": "3.70"}
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 36, "rate": "3.30"}
         ]
       }
     ]
   },
-  "baseDate": "2024/08/04"
+  "baseDate": "2024/08/05"
 }
