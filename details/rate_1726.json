@@ -7,7 +7,7 @@
     "r2": "연제구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/05",
+    "baseDate": "2024/08/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -34,8 +34,8 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "0.00"},
+          {"duration": 1, "rate": "0.30"},
+          {"duration": 3, "rate": "1.70"},
           {"duration": 6, "rate": "2.90"},
           {"duration": 9, "rate": "2.90"},
           {"duration": 12, "rate": "3.50"},
@@ -69,7 +69,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/05",
+    "baseDate": "2024/08/06",
     "products": [
       {
         "title": "정기적금",
@@ -140,5 +140,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/05"
+  "baseDate": "2024/08/06"
 }

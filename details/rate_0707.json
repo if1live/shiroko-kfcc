@@ -7,7 +7,7 @@
     "r2": "양천구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/05",
+    "baseDate": "2024/08/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -79,7 +79,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/05",
+    "baseDate": "2024/08/06",
     "products": [
       {
         "title": "정기적금",
@@ -145,5 +145,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/05"
+  "baseDate": "2024/08/06"
 }
