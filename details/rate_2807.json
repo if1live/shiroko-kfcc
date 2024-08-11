@@ -7,15 +7,15 @@
     "r2": "목포시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/11",
+    "baseDate": "2024/08/12",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.45"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"}
         ]
@@ -51,7 +51,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/11",
+    "baseDate": "2024/08/12",
     "products": [
       {
         "title": "정기적금",
@@ -95,5 +95,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/11"
+  "baseDate": "2024/08/12"
 }

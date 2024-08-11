@@ -7,16 +7,15 @@
     "r2": "달서구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/11",
+    "baseDate": "2024/08/12",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.40"}
         ]
@@ -26,8 +25,8 @@
         "entries": [
           {"duration": 0, "rate": "2.00"},
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "3.40"},
-          {"duration": 12, "rate": "3.60"},
+          {"duration": 6, "rate": "3.50"},
+          {"duration": 12, "rate": "3.50"},
           {"duration": 24, "rate": "3.40"},
           {"duration": 36, "rate": "3.40"}
         ]
@@ -37,10 +36,10 @@
         "entries": [
           {"duration": 1, "rate": "2.00"},
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "3.40"},
-          {"duration": 9, "rate": "3.40"},
-          {"duration": 12, "rate": "3.60"},
-          {"duration": 18, "rate": "3.40"},
+          {"duration": 6, "rate": "3.50"},
+          {"duration": 9, "rate": "3.50"},
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 18, "rate": "3.50"},
           {"duration": 24, "rate": "3.40"},
           {"duration": 30, "rate": "3.40"},
           {"duration": 36, "rate": "3.40"}
@@ -48,16 +47,16 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
         "title": "MG기업정기예금(A)",
         "entries": [
           {"duration": 1, "rate": "2.00"},
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "3.40"},
-          {"duration": 12, "rate": "3.60"},
-          {"duration": 18, "rate": "3.40"},
+          {"duration": 6, "rate": "3.50"},
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 18, "rate": "3.50"},
           {"duration": 24, "rate": "3.40"}
         ]
       },
@@ -66,9 +65,9 @@
         "entries": [
           {"duration": 1, "rate": "2.00"},
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "3.40"},
-          {"duration": 12, "rate": "3.60"},
-          {"duration": 18, "rate": "3.40"},
+          {"duration": 6, "rate": "3.50"},
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 18, "rate": "3.50"},
           {"duration": 24, "rate": "3.40"}
         ]
       },
@@ -80,31 +79,31 @@
           {"duration": 3, "rate": "3.00"},
           {"duration": 4, "rate": "3.00"},
           {"duration": 5, "rate": "3.00"},
-          {"duration": 6, "rate": "3.40"},
-          {"duration": 7, "rate": "3.40"},
-          {"duration": 8, "rate": "3.40"},
-          {"duration": 9, "rate": "3.40"},
-          {"duration": 10, "rate": "3.40"},
-          {"duration": 11, "rate": "3.40"},
-          {"duration": 12, "rate": "3.60"}
+          {"duration": 6, "rate": "3.50"},
+          {"duration": 7, "rate": "3.50"},
+          {"duration": 8, "rate": "3.50"},
+          {"duration": 9, "rate": "3.50"},
+          {"duration": 10, "rate": "3.50"},
+          {"duration": 11, "rate": "3.50"},
+          {"duration": 12, "rate": "3.50"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/11",
+    "baseDate": "2024/08/12",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "4.50"},
-          {"duration": 24, "rate": "4.30"},
-          {"duration": 36, "rate": "4.00"}
+          {"duration": 12, "rate": "4.30"},
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 36, "rate": "3.80"}
         ]
       },
       {
@@ -131,8 +130,8 @@
         "entries": [
           {"duration": 1, "rate": "2.00"},
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "3.40"},
-          {"duration": 12, "rate": "3.60"},
+          {"duration": 6, "rate": "3.50"},
+          {"duration": 12, "rate": "3.50"},
           {"duration": 24, "rate": "3.40"},
           {"duration": 36, "rate": "3.40"}
         ]
@@ -180,5 +179,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/11"
+  "baseDate": "2024/08/12"
 }

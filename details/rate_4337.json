@@ -7,21 +7,21 @@
     "r2": "횡성군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/11",
+    "baseDate": "2024/08/12",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.75"},
           {"duration": null, "rate": "0.75"},
-          {"duration": null, "rate": "1.60"},
-          {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "3.78"},
-          {"duration": null, "rate": "3.39"},
-          {"duration": null, "rate": "3.39"},
-          {"duration": null, "rate": "3.15"},
-          {"duration": null, "rate": "3.15"},
-          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "1.50"},
+          {"duration": null, "rate": "1.90"},
+          {"duration": null, "rate": "3.64"},
+          {"duration": null, "rate": "3.25"},
+          {"duration": null, "rate": "3.25"},
+          {"duration": null, "rate": "3.02"},
+          {"duration": null, "rate": "3.02"},
+          {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"}
         ]
       },
@@ -52,7 +52,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.78"}]
+        "entries": [{"duration": 12, "rate": "3.64"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -68,7 +68,7 @@
           {"duration": null, "rate": "0.90"},
           {"duration": null, "rate": "0.90"},
           {"duration": null, "rate": "0.90"},
-          {"duration": null, "rate": "3.78"}
+          {"duration": null, "rate": "3.64"}
         ]
       },
       {
@@ -78,15 +78,15 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/11",
+    "baseDate": "2024/08/12",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 6, "rate": "3.20"},
-          {"duration": 12, "rate": "4.50"},
-          {"duration": 13, "rate": "3.90"},
-          {"duration": 36, "rate": "3.90"},
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 12, "rate": "4.30"},
+          {"duration": 13, "rate": "3.70"},
+          {"duration": 36, "rate": "3.70"},
           {"duration": 37, "rate": "1.00"}
         ]
       },
@@ -122,11 +122,11 @@
         "entries": [
           {"duration": 1, "rate": "0.50"},
           {"duration": 3, "rate": "0.80"},
-          {"duration": 6, "rate": "3.20"},
-          {"duration": 12, "rate": "3.85"},
-          {"duration": 13, "rate": "3.60"},
-          {"duration": 24, "rate": "3.60"},
-          {"duration": 36, "rate": "3.60"}
+          {"duration": 6, "rate": "0.80"},
+          {"duration": 12, "rate": "3.70"},
+          {"duration": 13, "rate": "3.50"},
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
@@ -164,5 +164,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/11"
+  "baseDate": "2024/08/12"
 }

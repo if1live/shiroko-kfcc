@@ -7,7 +7,7 @@
     "r2": "대덕구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/11",
+    "baseDate": "2024/08/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -70,9 +70,9 @@
           {"duration": 1, "rate": "2.00"},
           {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "3.30"},
-          {"duration": 12, "rate": "3.90"},
-          {"duration": 18, "rate": "3.80"},
-          {"duration": 24, "rate": "3.80"}
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 18, "rate": "3.60"},
+          {"duration": 24, "rate": "3.60"}
         ]
       },
       {
@@ -99,7 +99,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/11",
+    "baseDate": "2024/08/12",
     "products": [
       {
         "title": "정기적금",
@@ -184,5 +184,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/11"
+  "baseDate": "2024/08/12"
 }
