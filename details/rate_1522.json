@@ -7,14 +7,14 @@
     "r2": "부산진구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/12",
+    "baseDate": "2024/08/13",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "3.55"},
+          {"duration": null, "rate": "3.45"},
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.20"},
@@ -27,7 +27,7 @@
           {"duration": 0, "rate": "0.30"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.40"},
-          {"duration": 12, "rate": "3.55"},
+          {"duration": 12, "rate": "3.45"},
           {"duration": 24, "rate": "3.20"},
           {"duration": 36, "rate": "3.20"}
         ]
@@ -39,7 +39,7 @@
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.40"},
           {"duration": 9, "rate": "2.40"},
-          {"duration": 12, "rate": "3.55"},
+          {"duration": 12, "rate": "3.45"},
           {"duration": 18, "rate": "3.20"},
           {"duration": 24, "rate": "3.20"},
           {"duration": 30, "rate": "3.20"},
@@ -60,24 +60,24 @@
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "3.60"}
+          {"duration": null, "rate": "3.50"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.40"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/12",
+    "baseDate": "2024/08/13",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 12, "rate": "4.00"},
           {"duration": 24, "rate": "3.70"},
-          {"duration": 36, "rate": "3.70"}
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
@@ -90,12 +90,12 @@
           {"duration": 1, "rate": "0.00"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.40"},
-          {"duration": 12, "rate": "3.55"},
+          {"duration": 12, "rate": "3.45"},
           {"duration": 24, "rate": "3.20"},
           {"duration": 36, "rate": "3.20"}
         ]
       }
     ]
   },
-  "baseDate": "2024/08/12"
+  "baseDate": "2024/08/13"
 }

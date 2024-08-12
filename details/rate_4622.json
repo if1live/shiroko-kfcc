@@ -7,7 +7,7 @@
     "r2": "영동군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/12",
+    "baseDate": "2024/08/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -35,11 +35,11 @@
         "entries": [
           {"duration": 1, "rate": "0.00"},
           {"duration": 3, "rate": "0.00"},
-          {"duration": 6, "rate": "0.00"},
-          {"duration": 9, "rate": "0.00"},
-          {"duration": 12, "rate": "2.00"},
-          {"duration": 18, "rate": "2.00"},
-          {"duration": 24, "rate": "3.50"},
+          {"duration": 6, "rate": "2.00"},
+          {"duration": 9, "rate": "2.00"},
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 18, "rate": "3.50"},
+          {"duration": 24, "rate": "3.40"},
           {"duration": 30, "rate": "3.40"},
           {"duration": 36, "rate": "3.40"}
         ]
@@ -51,7 +51,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/12",
+    "baseDate": "2024/08/13",
     "products": [
       {
         "title": "정기적금",
@@ -100,5 +100,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/12"
+  "baseDate": "2024/08/13"
 }
