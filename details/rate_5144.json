@@ -7,16 +7,16 @@
     "r2": "김제시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/18",
+    "baseDate": "2024/08/19",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.15"},
           {"duration": null, "rate": "0.75"},
-          {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "0.00"},
           {"duration": null, "rate": "0.00"}
         ]
@@ -48,7 +48,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.40"}]
       },
       {
         "title": "MG주거래우대정기예금",
@@ -57,7 +57,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/18",
+    "baseDate": "2024/08/19",
     "products": [
       {
         "title": "정기적금",
@@ -116,5 +116,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/18"
+  "baseDate": "2024/08/19"
 }

@@ -7,7 +7,7 @@
     "r2": "목포시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/18",
+    "baseDate": "2024/08/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -36,22 +36,22 @@
         "entries": [
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.45"},
-          {"duration": null, "rate": "2.45"},
-          {"duration": null, "rate": "2.45"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.70"}
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.50"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/18",
+    "baseDate": "2024/08/19",
     "products": [
       {
         "title": "정기적금",
@@ -95,5 +95,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/18"
+  "baseDate": "2024/08/19"
 }

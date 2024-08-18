@@ -7,19 +7,19 @@
     "r2": "김해시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/18",
+    "baseDate": "2024/08/19",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"}
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.20"}
         ]
       },
       {
@@ -27,10 +27,10 @@
         "entries": [
           {"duration": 0, "rate": "2.00"},
           {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "3.40"},
-          {"duration": 12, "rate": "3.50"},
-          {"duration": 24, "rate": "3.40"},
-          {"duration": 36, "rate": "3.30"}
+          {"duration": 6, "rate": "3.30"},
+          {"duration": 12, "rate": "3.40"},
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 36, "rate": "3.20"}
         ]
       },
       {
@@ -59,13 +59,13 @@
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.50"}
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.40"}
         ]
       },
       {
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/18",
+    "baseDate": "2024/08/19",
     "products": [
       {
         "title": "정기적금",
@@ -109,7 +109,7 @@
         "entries": [
           {"duration": 1, "rate": "0.30"},
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "3.40"},
+          {"duration": 12, "rate": "3.30"},
           {"duration": 13, "rate": "3.00"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
@@ -157,5 +157,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/18"
+  "baseDate": "2024/08/19"
 }

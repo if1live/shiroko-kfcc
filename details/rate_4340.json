@@ -7,14 +7,14 @@
     "r2": "평창군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/18",
+    "baseDate": "2024/08/19",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.50"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.00"}
         ]
@@ -54,7 +54,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/18",
+    "baseDate": "2024/08/19",
     "products": [
       {
         "title": "정기적금",
@@ -97,5 +97,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/18"
+  "baseDate": "2024/08/19"
 }
