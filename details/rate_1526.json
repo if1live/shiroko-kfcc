@@ -2,12 +2,12 @@
   "id": "1526",
   "bank": {
     "gmgoCd": "1526",
-    "gmgoNm": "가야동",
+    "gmgoNm": "우리부산",
     "r1": "부산",
     "r2": "부산진구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/22",
+    "baseDate": "2024/08/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -69,7 +69,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/22",
+    "baseDate": "2024/08/23",
     "products": [
       {
         "title": "정기적금",
@@ -149,5 +149,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/22"
+  "baseDate": "2024/08/23"
 }
