@@ -7,14 +7,14 @@
     "r2": "무주군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/25",
+    "baseDate": "2024/08/26",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.80"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"}
         ]
@@ -51,7 +51,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/25",
+    "baseDate": "2024/08/26",
     "products": [
       {
         "title": "정기적금",
@@ -90,5 +90,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/25"
+  "baseDate": "2024/08/26"
 }
