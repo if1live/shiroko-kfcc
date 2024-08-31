@@ -7,7 +7,7 @@
     "r2": "전주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/08/31",
+    "baseDate": "2024/09/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,8 +16,8 @@
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.50"}
+          {"duration": null, "rate": "3.45"},
+          {"duration": null, "rate": "3.45"}
         ]
       },
       {
@@ -40,9 +40,9 @@
           {"duration": 9, "rate": "3.30"},
           {"duration": 12, "rate": "3.60"},
           {"duration": 18, "rate": "3.60"},
-          {"duration": 24, "rate": "3.50"},
-          {"duration": 30, "rate": "3.50"},
-          {"duration": 36, "rate": "3.50"}
+          {"duration": 24, "rate": "3.45"},
+          {"duration": 30, "rate": "3.45"},
+          {"duration": 36, "rate": "3.45"}
         ]
       },
       {
@@ -57,7 +57,7 @@
           {"duration": 6, "rate": "3.30"},
           {"duration": 12, "rate": "3.60"},
           {"duration": 18, "rate": "3.60"},
-          {"duration": 24, "rate": "3.50"}
+          {"duration": 24, "rate": "3.45"}
         ]
       },
       {
@@ -67,7 +67,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/08/31",
+    "baseDate": "2024/09/01",
     "products": [
       {
         "title": "정기적금",
@@ -145,5 +145,5 @@
       }
     ]
   },
-  "baseDate": "2024/08/31"
+  "baseDate": "2024/09/01"
 }
