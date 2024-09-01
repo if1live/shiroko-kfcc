@@ -7,7 +7,7 @@
     "r2": "고양시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/01",
+    "baseDate": "2024/09/02",
     "products": [
       {
         "title": "정기예탁금",
@@ -40,6 +40,28 @@
         "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
+        "title": "MG기업정기예금(A)",
+        "entries": [
+          {"duration": 1, "rate": "2.10"},
+          {"duration": 3, "rate": "2.80"},
+          {"duration": 6, "rate": "3.30"},
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 18, "rate": "3.50"},
+          {"duration": 24, "rate": "3.50"}
+        ]
+      },
+      {
+        "title": "MG기업정기예금(B)",
+        "entries": [
+          {"duration": 1, "rate": "2.10"},
+          {"duration": 3, "rate": "2.80"},
+          {"duration": 6, "rate": "3.30"},
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 18, "rate": "3.50"},
+          {"duration": 24, "rate": "3.50"}
+        ]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.10"},
@@ -63,7 +85,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/01",
+    "baseDate": "2024/09/02",
     "products": [
       {
         "title": "정기적금",
@@ -159,5 +181,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/01"
+  "baseDate": "2024/09/02"
 }
