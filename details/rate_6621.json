@@ -7,7 +7,7 @@
     "r2": "제주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/03",
+    "baseDate": "2024/09/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -35,7 +35,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/03",
+    "baseDate": "2024/09/04",
     "products": [
       {
         "title": "정기적금",
@@ -47,6 +47,10 @@
           {"duration": 48, "rate": "3.90"},
           {"duration": 60, "rate": "3.90"}
         ]
+      },
+      {
+        "title": "MG희망나눔 용용적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -84,5 +88,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/03"
+  "baseDate": "2024/09/04"
 }
