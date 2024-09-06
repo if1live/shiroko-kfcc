@@ -2,12 +2,12 @@
   "id": "0604",
   "bank": {
     "gmgoCd": "0604",
-    "gmgoNm": "삼선",
+    "gmgoNm": "서울미래",
     "r1": "서울",
     "r2": "성북구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/06",
+    "baseDate": "2024/09/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/06",
+    "baseDate": "2024/09/07",
     "products": [
       {
         "title": "정기적금",
@@ -172,5 +172,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/06"
+  "baseDate": "2024/09/07"
 }

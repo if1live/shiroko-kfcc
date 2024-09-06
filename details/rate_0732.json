@@ -2,12 +2,12 @@
   "id": "0732",
   "bank": {
     "gmgoCd": "0732",
-    "gmgoNm": "고척1동",
+    "gmgoNm": "구로중앙",
     "r1": "서울",
     "r2": "구로구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/06",
+    "baseDate": "2024/09/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/06",
+    "baseDate": "2024/09/07",
     "products": [
       {
         "title": "정기적금",
@@ -163,5 +163,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/06"
+  "baseDate": "2024/09/07"
 }

@@ -7,7 +7,7 @@
     "r2": "산청군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/06",
+    "baseDate": "2024/09/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/06",
+    "baseDate": "2024/09/07",
     "products": [
       {
         "title": "정기적금",
@@ -120,5 +120,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/06"
+  "baseDate": "2024/09/07"
 }
