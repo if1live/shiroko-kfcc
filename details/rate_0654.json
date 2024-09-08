@@ -7,13 +7,13 @@
     "r2": "성북구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/08",
+    "baseDate": "2024/09/09",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.20"},
@@ -27,7 +27,7 @@
         "title": "Block예금",
         "entries": [
           {"duration": 0, "rate": "3.00"},
-          {"duration": 3, "rate": "3.20"},
+          {"duration": 3, "rate": "3.00"},
           {"duration": 6, "rate": "3.30"},
           {"duration": 12, "rate": "3.60"},
           {"duration": 24, "rate": "3.20"},
@@ -57,9 +57,9 @@
         "entries": [
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.30"},
@@ -76,7 +76,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/08",
+    "baseDate": "2024/09/09",
     "products": [
       {
         "title": "정기적금",
@@ -155,5 +155,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/08"
+  "baseDate": "2024/09/09"
 }

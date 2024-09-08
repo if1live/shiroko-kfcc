@@ -7,7 +7,7 @@
     "r2": "영등포구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/08",
+    "baseDate": "2024/09/09",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,9 +15,9 @@
           {"duration": null, "rate": "1.80"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"}
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.10"}
         ]
       },
       {
@@ -26,9 +26,9 @@
           {"duration": 0, "rate": "1.40"},
           {"duration": 3, "rate": "1.90"},
           {"duration": 6, "rate": "2.20"},
-          {"duration": 12, "rate": "3.50"},
-          {"duration": 24, "rate": "3.20"},
-          {"duration": 36, "rate": "3.20"}
+          {"duration": 12, "rate": "3.40"},
+          {"duration": 24, "rate": "3.10"},
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
@@ -38,16 +38,16 @@
           {"duration": 3, "rate": "1.40"},
           {"duration": 6, "rate": "2.20"},
           {"duration": 9, "rate": "2.20"},
-          {"duration": 12, "rate": "3.60"},
-          {"duration": 18, "rate": "3.60"},
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 18, "rate": "3.50"},
           {"duration": 24, "rate": "3.20"},
           {"duration": 30, "rate": "3.20"},
-          {"duration": 36, "rate": "3.20"}
+          {"duration": 36, "rate": "3.10"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.51"}]
+        "entries": [{"duration": 12, "rate": "3.41"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -63,20 +63,20 @@
           {"duration": 9, "rate": "2.20"},
           {"duration": 10, "rate": "2.20"},
           {"duration": 11, "rate": "2.20"},
-          {"duration": 12, "rate": "3.50"}
+          {"duration": 12, "rate": "3.40"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/08",
+    "baseDate": "2024/09/09",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "3.60"},
-          {"duration": 36, "rate": "3.60"}
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 36, "rate": "3.30"}
         ]
       },
       {
@@ -100,9 +100,9 @@
           {"duration": 1, "rate": "1.40"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.30"},
-          {"duration": 12, "rate": "3.50"},
-          {"duration": 24, "rate": "3.20"},
-          {"duration": 36, "rate": "3.20"}
+          {"duration": 12, "rate": "3.30"},
+          {"duration": 24, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
@@ -111,5 +111,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/08"
+  "baseDate": "2024/09/09"
 }
