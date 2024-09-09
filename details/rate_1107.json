@@ -7,7 +7,7 @@
     "r2": "구로구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/09",
+    "baseDate": "2024/09/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,8 +15,8 @@
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.05"},
-          {"duration": null, "rate": "3.35"},
-          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.25"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.35"},
           {"duration": null, "rate": "3.35"},
           {"duration": null, "rate": "3.35"},
@@ -29,8 +29,8 @@
           {"duration": 1, "rate": "2.70"},
           {"duration": 3, "rate": "3.00"},
           {"duration": 6, "rate": "3.05"},
-          {"duration": 9, "rate": "3.35"},
-          {"duration": 12, "rate": "3.40"},
+          {"duration": 9, "rate": "3.25"},
+          {"duration": 12, "rate": "3.30"},
           {"duration": 18, "rate": "3.35"},
           {"duration": 24, "rate": "3.35"},
           {"duration": 30, "rate": "3.35"},
@@ -48,20 +48,20 @@
           {"duration": null, "rate": "3.05"},
           {"duration": null, "rate": "3.05"},
           {"duration": null, "rate": "3.05"},
-          {"duration": null, "rate": "3.35"},
-          {"duration": null, "rate": "3.35"},
-          {"duration": null, "rate": "3.35"},
-          {"duration": null, "rate": "3.40"}
+          {"duration": null, "rate": "3.25"},
+          {"duration": null, "rate": "3.25"},
+          {"duration": null, "rate": "3.25"},
+          {"duration": null, "rate": "3.30"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.40"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/09",
+    "baseDate": "2024/09/10",
     "products": [
       {
         "title": "정기적금",
@@ -116,5 +116,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/09"
+  "baseDate": "2024/09/10"
 }
