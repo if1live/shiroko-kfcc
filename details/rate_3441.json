@@ -7,7 +7,7 @@
     "r2": "당진시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/11",
+    "baseDate": "2024/09/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -65,7 +65,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/11",
+    "baseDate": "2024/09/12",
     "products": [
       {
         "title": "정기적금",
@@ -91,7 +91,7 @@
           {"duration": 1, "rate": "0.50"},
           {"duration": 3, "rate": "0.50"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.55"},
+          {"duration": 12, "rate": "3.40"},
           {"duration": 24, "rate": "3.20"},
           {"duration": 36, "rate": "3.20"},
           {"duration": 48, "rate": "3.20"},
@@ -100,7 +100,7 @@
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.55"}]
+        "entries": [{"duration": 12, "rate": "3.40"}]
       },
       {
         "title": "일일자유적금",
@@ -125,5 +125,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/11"
+  "baseDate": "2024/09/12"
 }
