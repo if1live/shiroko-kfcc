@@ -7,7 +7,7 @@
     "r2": "과천시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/13",
+    "baseDate": "2024/09/14",
     "products": [
       {
         "title": "정기예탁금",
@@ -28,7 +28,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/13",
+    "baseDate": "2024/09/14",
     "products": [
       {
         "title": "정기적금",
@@ -47,6 +47,10 @@
         "entries": [{"duration": 12, "rate": "4.20"}]
       },
       {
+        "title": "MG희망나눔 용용적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
+      },
+      {
         "title": "MG월복리자유적금",
         "entries": [{"duration": 12, "rate": "4.00"}]
       },
@@ -60,5 +64,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/13"
+  "baseDate": "2024/09/14"
 }
