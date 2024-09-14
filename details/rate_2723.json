@@ -7,7 +7,7 @@
     "r2": "고흥군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/14",
+    "baseDate": "2024/09/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -49,7 +49,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/14",
+    "baseDate": "2024/09/15",
     "products": [
       {
         "title": "정기적금",
@@ -100,5 +100,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/14"
+  "baseDate": "2024/09/15"
 }
