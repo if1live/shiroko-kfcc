@@ -7,14 +7,14 @@
     "r2": "경주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/15",
+    "baseDate": "2024/09/16",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.70"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
@@ -27,7 +27,7 @@
           {"duration": 0, "rate": "0.10"},
           {"duration": 3, "rate": "0.70"},
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "3.50"},
+          {"duration": 12, "rate": "3.40"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "2.50"}
         ]
@@ -46,13 +46,13 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "3.50"}
+          {"duration": null, "rate": "3.40"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/15",
+    "baseDate": "2024/09/16",
     "products": [
       {
         "title": "정기적금",
@@ -81,24 +81,24 @@
           {"duration": 1, "rate": "0.10"},
           {"duration": 3, "rate": "0.70"},
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "3.50"},
+          {"duration": 12, "rate": "3.40"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.40"}]
       },
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 12, "rate": "3.50"},
+          {"duration": 12, "rate": "3.40"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "2.50"}
         ]
       }
     ]
   },
-  "baseDate": "2024/09/15"
+  "baseDate": "2024/09/16"
 }
