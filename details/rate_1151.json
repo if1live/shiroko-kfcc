@@ -7,7 +7,7 @@
     "r2": "강남구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/18",
+    "baseDate": "2024/09/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -63,10 +63,10 @@
       {
         "title": "MG기업정기예금(B)",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
+          {"duration": 1, "rate": "3.47"},
           {"duration": 3, "rate": "0.00"},
-          {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "3.30"},
+          {"duration": 6, "rate": "3.53"},
+          {"duration": 12, "rate": "0.00"},
           {"duration": 18, "rate": "0.00"},
           {"duration": 24, "rate": "0.00"}
         ]
@@ -91,7 +91,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/18",
+    "baseDate": "2024/09/19",
     "products": [
       {
         "title": "정기적금",
@@ -142,5 +142,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/18"
+  "baseDate": "2024/09/19"
 }

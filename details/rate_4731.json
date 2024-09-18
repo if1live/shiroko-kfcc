@@ -7,7 +7,7 @@
     "r2": "괴산군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/18",
+    "baseDate": "2024/09/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -66,7 +66,7 @@
           {"duration": 9, "rate": "3.20"},
           {"duration": 10, "rate": "3.20"},
           {"duration": 11, "rate": "3.20"},
-          {"duration": 12, "rate": "3.60"}
+          {"duration": 12, "rate": "3.70"}
         ]
       },
       {
@@ -76,7 +76,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/18",
+    "baseDate": "2024/09/19",
     "products": [
       {
         "title": "정기적금",
@@ -160,5 +160,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/18"
+  "baseDate": "2024/09/19"
 }
