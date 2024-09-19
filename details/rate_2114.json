@@ -7,7 +7,7 @@
     "r2": "달서구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/19",
+    "baseDate": "2024/09/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -34,8 +34,8 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "0.00"},
+          {"duration": 1, "rate": "2.00"},
+          {"duration": 3, "rate": "3.00"},
           {"duration": 6, "rate": "3.30"},
           {"duration": 9, "rate": "3.30"},
           {"duration": 12, "rate": "3.40"},
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/19",
+    "baseDate": "2024/09/20",
     "products": [
       {
         "title": "정기적금",
@@ -152,5 +152,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/19"
+  "baseDate": "2024/09/20"
 }
