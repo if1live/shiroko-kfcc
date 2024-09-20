@@ -7,7 +7,7 @@
     "r2": "금산군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/20",
+    "baseDate": "2024/09/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -48,7 +48,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/20",
+    "baseDate": "2024/09/21",
     "products": [
       {
         "title": "정기적금",
@@ -109,7 +109,7 @@
           {"duration": 3, "rate": "3.00"},
           {"duration": 4, "rate": "3.00"},
           {"duration": 5, "rate": "3.30"},
-          {"duration": 6, "rate": "3.60"}
+          {"duration": 6, "rate": "3.40"}
         ]
       },
       {
@@ -126,5 +126,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/20"
+  "baseDate": "2024/09/21"
 }
