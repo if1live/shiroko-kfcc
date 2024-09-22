@@ -7,14 +7,14 @@
     "r2": "진주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/22",
+    "baseDate": "2024/09/23",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.70"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"}
         ]
@@ -25,7 +25,7 @@
           {"duration": 0, "rate": "0.01"},
           {"duration": 3, "rate": "1.60"},
           {"duration": 6, "rate": "2.10"},
-          {"duration": 12, "rate": "3.30"},
+          {"duration": 12, "rate": "3.20"},
           {"duration": 24, "rate": "2.90"},
           {"duration": 36, "rate": "2.90"}
         ]
@@ -37,7 +37,7 @@
           {"duration": 3, "rate": "1.70"},
           {"duration": 6, "rate": "2.20"},
           {"duration": 9, "rate": "2.20"},
-          {"duration": 12, "rate": "3.40"},
+          {"duration": 12, "rate": "3.30"},
           {"duration": 18, "rate": "3.00"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 30, "rate": "3.00"},
@@ -50,7 +50,7 @@
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "1.70"},
-          {"duration": null, "rate": "1.90"},
+          {"duration": null, "rate": "1.70"},
           {"duration": null, "rate": "1.70"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
@@ -58,13 +58,13 @@
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "3.40"}
+          {"duration": null, "rate": "3.30"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/22",
+    "baseDate": "2024/09/23",
     "products": [
       {
         "title": "정기적금",
@@ -92,22 +92,22 @@
           {"duration": 1, "rate": "1.00"},
           {"duration": 3, "rate": "1.70"},
           {"duration": 6, "rate": "2.20"},
-          {"duration": 12, "rate": "3.40"},
+          {"duration": 12, "rate": "3.30"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "2.70"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "2.90"}]
+        "entries": [{"duration": 12, "rate": "2.80"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "2.80"}]
+        "entries": [{"duration": 12, "rate": "2.70"}]
       },
       {
         "title": "꿈모아상호부금",
@@ -120,9 +120,9 @@
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "3.20"}]
+        "entries": [{"duration": 12, "rate": "3.10"}]
       }
     ]
   },
-  "baseDate": "2024/09/22"
+  "baseDate": "2024/09/23"
 }
