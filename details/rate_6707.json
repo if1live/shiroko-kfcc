@@ -7,7 +7,7 @@
     "r2": "서귀포시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/23",
+    "baseDate": "2024/09/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,9 +15,9 @@
           {"duration": null, "rate": "0.50"},
           {"duration": null, "rate": "0.50"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"}
@@ -48,13 +48,13 @@
           {"duration": null, "rate": "0.80"},
           {"duration": null, "rate": "0.80"},
           {"duration": null, "rate": "0.80"},
-          {"duration": null, "rate": "3.60"}
+          {"duration": null, "rate": "3.40"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/23",
+    "baseDate": "2024/09/24",
     "products": [
       {
         "title": "정기적금",
@@ -73,7 +73,7 @@
         "entries": [
           {"duration": 1, "rate": "0.30"},
           {"duration": 6, "rate": "0.80"},
-          {"duration": 12, "rate": "3.60"},
+          {"duration": 12, "rate": "3.40"},
           {"duration": 13, "rate": "2.50"},
           {"duration": 24, "rate": "2.50"},
           {"duration": 36, "rate": "2.50"},
@@ -96,5 +96,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/23"
+  "baseDate": "2024/09/24"
 }

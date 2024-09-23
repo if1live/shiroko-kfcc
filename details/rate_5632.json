@@ -7,7 +7,7 @@
     "r2": "경산시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/23",
+    "baseDate": "2024/09/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -72,7 +72,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/23",
+    "baseDate": "2024/09/24",
     "products": [
       {
         "title": "정기적금",
@@ -120,5 +120,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/23"
+  "baseDate": "2024/09/24"
 }
