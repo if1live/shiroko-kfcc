@@ -7,12 +7,12 @@
     "r2": "성북구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/25",
+    "baseDate": "2024/09/26",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.40"},
@@ -94,7 +94,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/25",
+    "baseDate": "2024/09/26",
     "products": [
       {
         "title": "정기적금",
@@ -192,5 +192,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/25"
+  "baseDate": "2024/09/26"
 }
