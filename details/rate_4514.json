@@ -7,7 +7,7 @@
     "r2": "청주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/27",
+    "baseDate": "2024/09/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/27",
+    "baseDate": "2024/09/28",
     "products": [
       {
         "title": "정기적금",
@@ -170,5 +170,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/27"
+  "baseDate": "2024/09/28"
 }

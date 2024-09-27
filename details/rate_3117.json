@@ -7,7 +7,7 @@
     "r2": "중구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/27",
+    "baseDate": "2024/09/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -19,9 +19,9 @@
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "2.70"}
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "2.60"}
         ]
       },
       {
@@ -31,8 +31,8 @@
           {"duration": 3, "rate": "2.70"},
           {"duration": 6, "rate": "3.00"},
           {"duration": 12, "rate": "3.50"},
-          {"duration": 24, "rate": "3.30"},
-          {"duration": 36, "rate": "2.70"}
+          {"duration": 24, "rate": "3.00"},
+          {"duration": 36, "rate": "2.60"}
         ]
       },
       {
@@ -77,13 +77,13 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/27",
+    "baseDate": "2024/09/28",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "4.20"},
+          {"duration": 12, "rate": "4.00"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.00"}
         ]
@@ -98,7 +98,7 @@
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "5.00"}]
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "MG뛰어라정기적금",
@@ -108,7 +108,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "4.10"}
+          {"duration": 12, "rate": "4.00"}
         ]
       },
       {
@@ -157,5 +157,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/27"
+  "baseDate": "2024/09/28"
 }
