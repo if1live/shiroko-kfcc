@@ -7,7 +7,7 @@
     "r2": "서초구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/30",
+    "baseDate": "2024/10/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -64,7 +64,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -86,7 +86,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/30",
+    "baseDate": "2024/10/01",
     "products": [
       {
         "title": "정기적금",
@@ -132,9 +132,9 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "2.70"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       }
     ]
   },
-  "baseDate": "2024/09/30"
+  "baseDate": "2024/10/01"
 }

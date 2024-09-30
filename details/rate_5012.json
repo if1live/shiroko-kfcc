@@ -7,7 +7,7 @@
     "r2": "고창군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/09/30",
+    "baseDate": "2024/10/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -34,8 +34,8 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "0.00"},
+          {"duration": 1, "rate": "0.40"},
+          {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "3.30"},
           {"duration": 9, "rate": "3.30"},
           {"duration": 12, "rate": "3.40"},
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/09/30",
+    "baseDate": "2024/10/01",
     "products": [
       {
         "title": "정기적금",
@@ -167,5 +167,5 @@
       }
     ]
   },
-  "baseDate": "2024/09/30"
+  "baseDate": "2024/10/01"
 }
