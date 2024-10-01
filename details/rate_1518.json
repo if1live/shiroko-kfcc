@@ -7,14 +7,14 @@
     "r2": "부산진구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/01",
+    "baseDate": "2024/10/02",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.20"}
         ]
@@ -48,13 +48,13 @@
           {"duration": 9, "rate": "2.70"},
           {"duration": 10, "rate": "2.70"},
           {"duration": 11, "rate": "2.70"},
-          {"duration": 12, "rate": "3.40"}
+          {"duration": 12, "rate": "3.20"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/01",
+    "baseDate": "2024/10/02",
     "products": [
       {
         "title": "정기적금",
@@ -138,5 +138,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/01"
+  "baseDate": "2024/10/02"
 }
