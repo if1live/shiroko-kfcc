@@ -7,17 +7,17 @@
     "r2": "남구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/02",
+    "baseDate": "2024/10/03",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.30"}
+          {"duration": null, "rate": "3.00"}
         ]
       },
       {
@@ -36,7 +36,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.40"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -52,20 +52,20 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "3.50"}
+          {"duration": null, "rate": "3.30"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/02",
+    "baseDate": "2024/10/03",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "4.20"},
-          {"duration": 36, "rate": "3.70"}
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 36, "rate": "3.50"}
         ]
       },
       {
@@ -85,9 +85,9 @@
           {"duration": 1, "rate": "1.30"},
           {"duration": 3, "rate": "1.50"},
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "3.60"},
-          {"duration": 24, "rate": "3.50"},
-          {"duration": 36, "rate": "3.50"}
+          {"duration": 12, "rate": "3.40"},
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 36, "rate": "3.30"}
         ]
       },
       {
@@ -125,5 +125,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/02"
+  "baseDate": "2024/10/03"
 }
