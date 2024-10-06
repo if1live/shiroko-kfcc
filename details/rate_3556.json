@@ -7,7 +7,7 @@
     "r2": "이천시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/06",
+    "baseDate": "2024/10/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -24,11 +24,11 @@
         "title": "자유자재정기예금Ⅱ",
         "entries": [
           {"duration": 1, "rate": "2.80"},
-          {"duration": 3, "rate": "3.20"},
+          {"duration": 3, "rate": "3.59"},
           {"duration": 6, "rate": "3.20"},
           {"duration": 9, "rate": "3.20"},
           {"duration": 12, "rate": "3.35"},
-          {"duration": 18, "rate": "3.05"},
+          {"duration": 18, "rate": "3.35"},
           {"duration": 24, "rate": "3.05"},
           {"duration": 30, "rate": "3.05"},
           {"duration": 36, "rate": "3.05"}
@@ -58,7 +58,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/06",
+    "baseDate": "2024/10/07",
     "products": [
       {
         "title": "정기적금",
@@ -121,5 +121,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/06"
+  "baseDate": "2024/10/07"
 }
