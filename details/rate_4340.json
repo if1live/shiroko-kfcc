@@ -7,16 +7,18 @@
     "r2": "평창군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/10",
+    "baseDate": "2024/10/11",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.50"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.00"}
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "2.80"}
         ]
       },
       {
@@ -54,14 +56,14 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/10",
+    "baseDate": "2024/10/11",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.60"},
-          {"duration": 24, "rate": "3.40"},
-          {"duration": 36, "rate": "3.20"}
+          {"duration": 12, "rate": "3.40"},
+          {"duration": 24, "rate": "3.20"},
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
@@ -78,8 +80,8 @@
           {"duration": 1, "rate": "0.10"},
           {"duration": 6, "rate": "1.50"},
           {"duration": 12, "rate": "3.20"},
-          {"duration": 24, "rate": "3.00"},
-          {"duration": 36, "rate": "3.00"}
+          {"duration": 24, "rate": "2.80"},
+          {"duration": 36, "rate": "2.80"}
         ]
       },
       {
@@ -97,5 +99,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/10"
+  "baseDate": "2024/10/11"
 }
