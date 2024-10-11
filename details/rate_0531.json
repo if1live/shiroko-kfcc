@@ -2,12 +2,12 @@
   "id": "0531",
   "bank": {
     "gmgoCd": "0531",
-    "gmgoNm": "상봉",
+    "gmgoNm": "서울상봉",
     "r1": "서울",
     "r2": "중랑구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/11",
+    "baseDate": "2024/10/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/11",
+    "baseDate": "2024/10/12",
     "products": [
       {
         "title": "정기적금",
@@ -148,5 +148,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/11"
+  "baseDate": "2024/10/12"
 }
