@@ -7,17 +7,17 @@
     "r2": "청주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/12",
+    "baseDate": "2024/10/13",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.70"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.65"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"}
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "3.25"},
+          {"duration": null, "rate": "2.85"},
+          {"duration": null, "rate": "2.85"}
         ]
       },
       {
@@ -51,16 +51,16 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/12",
+    "baseDate": "2024/10/13",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "3.70"},
-          {"duration": 18, "rate": "3.70"},
-          {"duration": 24, "rate": "3.40"},
-          {"duration": 36, "rate": "3.40"}
+          {"duration": 6, "rate": "2.70"},
+          {"duration": 12, "rate": "3.25"},
+          {"duration": 18, "rate": "2.90"},
+          {"duration": 24, "rate": "2.90"},
+          {"duration": 36, "rate": "2.90"}
         ]
       },
       {
@@ -80,16 +80,16 @@
         "entries": [
           {"duration": 1, "rate": "1.00"},
           {"duration": 3, "rate": "2.00"},
-          {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "3.50"},
-          {"duration": 18, "rate": "3.50"},
-          {"duration": 24, "rate": "3.60"},
-          {"duration": 36, "rate": "3.60"}
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 12, "rate": "3.20"},
+          {"duration": 18, "rate": "2.80"},
+          {"duration": 24, "rate": "2.80"},
+          {"duration": 36, "rate": "2.80"}
         ]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.20"}]
       },
       {
         "title": "MG주거래우대자유적금",
@@ -97,5 +97,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/12"
+  "baseDate": "2024/10/13"
 }
