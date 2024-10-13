@@ -7,17 +7,17 @@
     "r2": "마포구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/13",
+    "baseDate": "2024/10/14",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.30"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"}
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.20"}
         ]
       },
       {
@@ -25,10 +25,10 @@
         "entries": [
           {"duration": 0, "rate": "2.00"},
           {"duration": 3, "rate": "2.30"},
-          {"duration": 6, "rate": "3.30"},
-          {"duration": 12, "rate": "3.40"},
-          {"duration": 24, "rate": "3.30"},
-          {"duration": 36, "rate": "3.30"}
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 12, "rate": "3.30"},
+          {"duration": 24, "rate": "3.20"},
+          {"duration": 36, "rate": "3.20"}
         ]
       },
       {
@@ -36,18 +36,18 @@
         "entries": [
           {"duration": 1, "rate": "2.00"},
           {"duration": 3, "rate": "2.30"},
-          {"duration": 6, "rate": "3.30"},
-          {"duration": 9, "rate": "3.30"},
-          {"duration": 12, "rate": "3.40"},
-          {"duration": 18, "rate": "3.30"},
-          {"duration": 24, "rate": "3.30"},
-          {"duration": 30, "rate": "3.30"},
-          {"duration": 36, "rate": "0.00"}
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 9, "rate": "3.00"},
+          {"duration": 12, "rate": "3.30"},
+          {"duration": 18, "rate": "3.20"},
+          {"duration": 24, "rate": "3.20"},
+          {"duration": 30, "rate": "3.20"},
+          {"duration": 36, "rate": "3.20"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.20"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -57,53 +57,53 @@
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.40"}
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.30"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.40"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/13",
+    "baseDate": "2024/10/14",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "4.10"},
-          {"duration": 36, "rate": "4.20"}
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 24, "rate": "3.70"},
+          {"duration": 36, "rate": "3.80"}
         ]
       },
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "4.10"},
-          {"duration": 36, "rate": "4.20"}
+          {"duration": 12, "rate": "3.60"},
+          {"duration": 24, "rate": "3.70"},
+          {"duration": 36, "rate": "3.80"}
         ]
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "4.00"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "4.00"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "3.80"}
+          {"duration": 12, "rate": "3.50"}
         ]
       },
       {
@@ -115,41 +115,41 @@
         "entries": [
           {"duration": 1, "rate": "0.00"},
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "3.50"},
-          {"duration": 24, "rate": "3.60"},
-          {"duration": 36, "rate": "3.70"}
+          {"duration": 12, "rate": "3.30"},
+          {"duration": 24, "rate": "3.20"},
+          {"duration": 36, "rate": "3.20"}
         ]
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.30"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "꿈모아상호부금",
         "entries": [
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "3.50"},
-          {"duration": 24, "rate": "3.60"},
-          {"duration": 36, "rate": "3.70"}
+          {"duration": 12, "rate": "3.30"},
+          {"duration": 24, "rate": "3.20"},
+          {"duration": 36, "rate": "3.20"}
         ]
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       }
     ]
   },
-  "baseDate": "2024/10/13"
+  "baseDate": "2024/10/14"
 }
