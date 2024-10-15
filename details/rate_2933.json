@@ -2,12 +2,12 @@
   "id": "2933",
   "bank": {
     "gmgoCd": "2933",
-    "gmgoNm": "현대삼호중공업㈜",
+    "gmgoNm": "HD현대삼호(주)",
     "r1": "전남",
     "r2": "영암군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/15",
+    "baseDate": "2024/10/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -39,7 +39,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/15",
+    "baseDate": "2024/10/16",
     "products": [
       {
         "title": "정기적금",
@@ -63,5 +63,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/15"
+  "baseDate": "2024/10/16"
 }

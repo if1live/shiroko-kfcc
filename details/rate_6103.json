@@ -7,7 +7,7 @@
     "r2": "창원시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/15",
+    "baseDate": "2024/10/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/15",
+    "baseDate": "2024/10/16",
     "products": [
       {
         "title": "정기적금",
@@ -120,22 +120,22 @@
           {"duration": 1, "rate": "2.30"},
           {"duration": 3, "rate": "2.80"},
           {"duration": 6, "rate": "2.90"},
-          {"duration": 12, "rate": "3.50"},
-          {"duration": 24, "rate": "3.40"},
-          {"duration": 36, "rate": "3.40"}
+          {"duration": 12, "rate": "3.30"},
+          {"duration": 24, "rate": "3.20"},
+          {"duration": 36, "rate": "3.20"}
         ]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "일일자유적금",
@@ -160,5 +160,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/15"
+  "baseDate": "2024/10/16"
 }
