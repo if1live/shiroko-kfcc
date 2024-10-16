@@ -7,7 +7,7 @@
     "r2": "구미시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/16",
+    "baseDate": "2024/10/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -69,7 +69,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/16",
+    "baseDate": "2024/10/17",
     "products": [
       {
         "title": "정기적금",
@@ -85,7 +85,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "8.00"},
+          {"duration": 12, "rate": "4.00"},
           {"duration": 24, "rate": "3.60"},
           {"duration": 36, "rate": "3.60"}
         ]
@@ -160,5 +160,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/16"
+  "baseDate": "2024/10/17"
 }

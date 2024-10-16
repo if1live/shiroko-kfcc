@@ -7,7 +7,7 @@
     "r2": "시흥시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/16",
+    "baseDate": "2024/10/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -47,10 +47,6 @@
         ]
       },
       {
-        "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
-      },
-      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": 1, "rate": "2.40"},
@@ -70,7 +66,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/16",
+    "baseDate": "2024/10/17",
     "products": [
       {
         "title": "정기적금",
@@ -120,5 +116,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/16"
+  "baseDate": "2024/10/17"
 }

@@ -7,7 +7,7 @@
     "r2": "김해시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/16",
+    "baseDate": "2024/10/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/16",
+    "baseDate": "2024/10/17",
     "products": [
       {
         "title": "정기적금",
@@ -123,11 +123,11 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "3.20"}]
+        "entries": [{"duration": 12, "rate": "3.10"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.20"}]
+        "entries": [{"duration": 12, "rate": "3.10"}]
       },
       {
         "title": "MG주거래우대자유적금",
@@ -164,5 +164,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/16"
+  "baseDate": "2024/10/17"
 }
