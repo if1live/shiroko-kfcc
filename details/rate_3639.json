@@ -7,7 +7,7 @@
     "r2": "부천시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/18",
+    "baseDate": "2024/10/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -72,7 +72,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/18",
+    "baseDate": "2024/10/19",
     "products": [
       {
         "title": "정기적금",
@@ -165,5 +165,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/18"
+  "baseDate": "2024/10/19"
 }
