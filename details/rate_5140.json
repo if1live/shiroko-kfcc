@@ -7,7 +7,7 @@
     "r2": "김제시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/20",
+    "baseDate": "2024/10/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -52,7 +52,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/20",
+    "baseDate": "2024/10/21",
     "products": [
       {
         "title": "정기적금",
@@ -82,6 +82,10 @@
           {"duration": 6, "rate": "3.00"},
           {"duration": 12, "rate": "3.30"}
         ]
+      },
+      {
+        "title": "MG+신용카드 적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "자유적립적금",
@@ -115,5 +119,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/20"
+  "baseDate": "2024/10/21"
 }

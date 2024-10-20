@@ -7,7 +7,7 @@
     "r2": "은평구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/20",
+    "baseDate": "2024/10/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -52,18 +52,18 @@
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.60"}
+          {"duration": null, "rate": "1.52"},
+          {"duration": null, "rate": "1.52"},
+          {"duration": null, "rate": "2.52"},
+          {"duration": null, "rate": "2.52"},
+          {"duration": null, "rate": "2.52"},
+          {"duration": null, "rate": "3.02"},
+          {"duration": null, "rate": "3.02"},
+          {"duration": null, "rate": "3.02"},
+          {"duration": null, "rate": "3.02"},
+          {"duration": null, "rate": "3.02"},
+          {"duration": null, "rate": "3.02"},
+          {"duration": null, "rate": "3.62"}
         ]
       },
       {
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/20",
+    "baseDate": "2024/10/21",
     "products": [
       {
         "title": "정기적금",
@@ -142,5 +142,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/20"
+  "baseDate": "2024/10/21"
 }

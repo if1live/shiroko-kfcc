@@ -7,7 +7,7 @@
     "r2": "순창군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/20",
+    "baseDate": "2024/10/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -54,7 +54,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/20",
+    "baseDate": "2024/10/21",
     "products": [
       {
         "title": "정기적금",
@@ -68,6 +68,10 @@
       {
         "title": "우리아기첫걸음정기적금",
         "entries": [{"duration": 12, "rate": "1.80"}]
+      },
+      {
+        "title": "MG+신용카드 적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "자유적립적금",
@@ -85,5 +89,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/20"
+  "baseDate": "2024/10/21"
 }

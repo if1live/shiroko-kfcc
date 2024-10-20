@@ -7,7 +7,7 @@
     "r2": "용산구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/20",
+    "baseDate": "2024/10/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -95,7 +95,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/20",
+    "baseDate": "2024/10/21",
     "products": [
       {
         "title": "정기적금",
@@ -116,6 +116,10 @@
           {"duration": 6, "rate": "3.50"},
           {"duration": 12, "rate": "4.10"}
         ]
+      },
+      {
+        "title": "MG+신용카드 적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "자유적립적금",
@@ -150,5 +154,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/20"
+  "baseDate": "2024/10/21"
 }

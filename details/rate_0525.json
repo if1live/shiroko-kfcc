@@ -7,7 +7,7 @@
     "r2": "동대문구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/20",
+    "baseDate": "2024/10/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -27,7 +27,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/20",
+    "baseDate": "2024/10/21",
     "products": [
       {
         "title": "정기적금",
@@ -44,6 +44,10 @@
           {"duration": 24, "rate": "2.30"},
           {"duration": 36, "rate": "2.40"}
         ]
+      },
+      {
+        "title": "MG+신용카드 적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "자유적립적금",
@@ -73,5 +77,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/20"
+  "baseDate": "2024/10/21"
 }

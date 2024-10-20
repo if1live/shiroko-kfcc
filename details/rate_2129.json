@@ -7,7 +7,7 @@
     "r2": "달성군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/20",
+    "baseDate": "2024/10/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -37,7 +37,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/20",
+    "baseDate": "2024/10/21",
     "products": [
       {
         "title": "정기적금",
@@ -64,6 +64,10 @@
         "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
+        "title": "MG+신용카드 적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
+      },
+      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.00"},
@@ -79,5 +83,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/20"
+  "baseDate": "2024/10/21"
 }
