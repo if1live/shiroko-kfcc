@@ -7,7 +7,7 @@
     "r2": "종로구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/21",
+    "baseDate": "2024/10/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -82,18 +82,18 @@
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": 1, "rate": "2.50"},
-          {"duration": 2, "rate": "2.50"},
-          {"duration": 3, "rate": "3.00"},
-          {"duration": 4, "rate": "3.00"},
-          {"duration": 5, "rate": "3.00"},
-          {"duration": 6, "rate": "3.40"},
-          {"duration": 7, "rate": "3.40"},
-          {"duration": 8, "rate": "3.40"},
-          {"duration": 9, "rate": "3.40"},
-          {"duration": 10, "rate": "3.40"},
-          {"duration": 11, "rate": "3.40"},
-          {"duration": 12, "rate": "3.70"}
+          {"duration": 1, "rate": "2.40"},
+          {"duration": 2, "rate": "2.40"},
+          {"duration": 3, "rate": "2.80"},
+          {"duration": 4, "rate": "2.80"},
+          {"duration": 5, "rate": "2.80"},
+          {"duration": 6, "rate": "3.30"},
+          {"duration": 7, "rate": "3.30"},
+          {"duration": 8, "rate": "3.30"},
+          {"duration": 9, "rate": "3.30"},
+          {"duration": 10, "rate": "3.30"},
+          {"duration": 11, "rate": "3.30"},
+          {"duration": 12, "rate": "3.60"}
         ]
       },
       {
@@ -103,7 +103,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/21",
+    "baseDate": "2024/10/22",
     "products": [
       {
         "title": "정기적금",
@@ -201,5 +201,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/21"
+  "baseDate": "2024/10/22"
 }

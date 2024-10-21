@@ -7,7 +7,7 @@
     "r2": ""
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/21",
+    "baseDate": "2024/10/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -61,7 +61,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/21",
+    "baseDate": "2024/10/22",
     "products": [
       {
         "title": "정기적금",
@@ -91,6 +91,10 @@
         ]
       },
       {
+        "title": "MG+신용카드 적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
+      },
+      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "1.20"},
@@ -116,5 +120,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/21"
+  "baseDate": "2024/10/22"
 }
