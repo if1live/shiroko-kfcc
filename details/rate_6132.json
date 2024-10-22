@@ -7,7 +7,7 @@
     "r2": "창원시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/22",
+    "baseDate": "2024/10/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -26,7 +26,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/22",
+    "baseDate": "2024/10/23",
     "products": [
       {
         "title": "정기적금",
@@ -48,6 +48,10 @@
         "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
+        "title": "MG+신용카드 적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
+      },
+      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.50"},
@@ -63,5 +67,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/22"
+  "baseDate": "2024/10/23"
 }
