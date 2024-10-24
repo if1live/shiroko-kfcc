@@ -7,7 +7,7 @@
     "r2": "청주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/24",
+    "baseDate": "2024/10/25",
     "products": [
       {
         "title": "정기예탁금",
@@ -51,7 +51,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/24",
+    "baseDate": "2024/10/25",
     "products": [
       {
         "title": "정기적금",
@@ -97,9 +97,9 @@
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.20"}]
       }
     ]
   },
-  "baseDate": "2024/10/24"
+  "baseDate": "2024/10/25"
 }

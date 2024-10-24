@@ -6,7 +6,13 @@
     "r1": "대구",
     "r2": "북구"
   },
-  "deferredDeposit": null,
-  "installmentSavings": null,
-  "baseDate": null
+  "deferredDeposit": {
+    "baseDate": "2024/10/25",
+    "products": []
+  },
+  "installmentSavings": {
+    "baseDate": "2024/10/25",
+    "products": []
+  },
+  "baseDate": "2024/10/25"
 }
