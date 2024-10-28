@@ -7,19 +7,19 @@
     "r2": "나주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/28",
+    "baseDate": "2024/10/29",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.40"}
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.20"}
         ]
       },
       {
@@ -39,7 +39,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/28",
+    "baseDate": "2024/10/29",
     "products": [
       {
         "title": "정기적금",
@@ -100,5 +100,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/28"
+  "baseDate": "2024/10/29"
 }
