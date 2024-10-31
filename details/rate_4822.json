@@ -7,7 +7,7 @@
     "r2": "전주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/10/31",
+    "baseDate": "2024/11/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -40,7 +40,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/10/31",
+    "baseDate": "2024/11/01",
     "products": [
       {
         "title": "정기적금",
@@ -62,6 +62,10 @@
       {
         "title": "우리아기첫걸음정기적금",
         "entries": [{"duration": 12, "rate": "3.70"}]
+      },
+      {
+        "title": "MG+신용카드 적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "자유적립적금",
@@ -88,5 +92,5 @@
       }
     ]
   },
-  "baseDate": "2024/10/31"
+  "baseDate": "2024/11/01"
 }
