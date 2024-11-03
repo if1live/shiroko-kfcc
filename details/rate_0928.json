@@ -7,54 +7,54 @@
     "r2": "관악구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/11/03",
+    "baseDate": "2024/11/04",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "3.45"},
-          {"duration": null, "rate": "3.45"},
-          {"duration": null, "rate": "3.45"}
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"}
         ]
       },
       {
         "title": "Block예금",
         "entries": [
-          {"duration": 0, "rate": "2.60"},
+          {"duration": 0, "rate": "2.40"},
           {"duration": 3, "rate": "2.90"},
           {"duration": 6, "rate": "3.20"},
-          {"duration": 12, "rate": "3.50"},
-          {"duration": 24, "rate": "3.45"},
-          {"duration": 36, "rate": "3.45"}
+          {"duration": 12, "rate": "3.40"},
+          {"duration": 24, "rate": "3.40"},
+          {"duration": 36, "rate": "3.40"}
         ]
       },
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "2.60"},
+          {"duration": 1, "rate": "2.40"},
           {"duration": 3, "rate": "2.90"},
           {"duration": 6, "rate": "3.20"},
           {"duration": 9, "rate": "3.20"},
-          {"duration": 12, "rate": "3.50"},
-          {"duration": 18, "rate": "3.45"},
-          {"duration": 24, "rate": "3.45"},
-          {"duration": 30, "rate": "3.45"},
-          {"duration": 36, "rate": "3.45"}
+          {"duration": 12, "rate": "3.40"},
+          {"duration": 18, "rate": "3.40"},
+          {"duration": 24, "rate": "3.40"},
+          {"duration": 30, "rate": "0.00"},
+          {"duration": 36, "rate": "0.00"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.20"}]
+        "entries": [{"duration": 12, "rate": "3.10"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "2.90"},
@@ -64,13 +64,13 @@
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.50"}
+          {"duration": null, "rate": "3.40"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/11/03",
+    "baseDate": "2024/11/04",
     "products": [
       {
         "title": "정기적금",
@@ -102,27 +102,27 @@
       {
         "title": "자유적립적금",
         "entries": [
-          {"duration": 1, "rate": "2.60"},
+          {"duration": 1, "rate": "2.40"},
           {"duration": 3, "rate": "2.90"},
           {"duration": 6, "rate": "3.20"},
-          {"duration": 12, "rate": "3.50"},
-          {"duration": 24, "rate": "3.45"},
-          {"duration": 36, "rate": "3.45"}
+          {"duration": 12, "rate": "3.40"},
+          {"duration": 24, "rate": "3.40"},
+          {"duration": 36, "rate": "3.40"}
         ]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.40"}]
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.20"}]
+        "entries": [{"duration": 12, "rate": "3.10"}]
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.40"}]
       }
     ]
   },
-  "baseDate": "2024/11/03"
+  "baseDate": "2024/11/04"
 }
