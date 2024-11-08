@@ -7,7 +7,7 @@
     "r2": "전주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/11/08",
+    "baseDate": "2024/11/09",
     "products": [
       {
         "title": "정기예탁금",
@@ -55,26 +55,26 @@
         "entries": [
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "1.00"},
-          {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.60"}
+          {"duration": null, "rate": "1.80"},
+          {"duration": null, "rate": "1.80"},
+          {"duration": null, "rate": "1.80"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "1.80"},
+          {"duration": null, "rate": "1.80"},
+          {"duration": null, "rate": "1.80"},
+          {"duration": null, "rate": "1.80"},
+          {"duration": null, "rate": "1.80"},
+          {"duration": null, "rate": "3.50"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/11/08",
+    "baseDate": "2024/11/09",
     "products": [
       {
         "title": "정기적금",
@@ -154,5 +154,5 @@
       }
     ]
   },
-  "baseDate": "2024/11/08"
+  "baseDate": "2024/11/09"
 }
