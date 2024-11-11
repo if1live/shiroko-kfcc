@@ -7,7 +7,7 @@
     "r2": "광명시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/11/11",
+    "baseDate": "2024/11/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -52,6 +52,17 @@
         "entries": [{"duration": 12, "rate": "2.70"}]
       },
       {
+        "title": "MG기업정기예금(B)",
+        "entries": [
+          {"duration": 1, "rate": "1.00"},
+          {"duration": 3, "rate": "2.70"},
+          {"duration": 6, "rate": "3.30"},
+          {"duration": 12, "rate": "3.00"},
+          {"duration": 18, "rate": "3.00"},
+          {"duration": 24, "rate": "3.00"}
+        ]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.20"},
@@ -75,7 +86,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/11/11",
+    "baseDate": "2024/11/12",
     "products": [
       {
         "title": "정기적금",
@@ -171,5 +182,5 @@
       }
     ]
   },
-  "baseDate": "2024/11/11"
+  "baseDate": "2024/11/12"
 }

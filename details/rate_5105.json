@@ -7,14 +7,14 @@
     "r2": "군산시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/11/11",
+    "baseDate": "2024/11/12",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "0.00"}
         ]
@@ -48,7 +48,7 @@
           {"duration": null, "rate": "0.80"},
           {"duration": null, "rate": "0.80"},
           {"duration": null, "rate": "0.80"},
-          {"duration": null, "rate": "3.40"}
+          {"duration": null, "rate": "3.30"}
         ]
       },
       {
@@ -58,7 +58,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/11/11",
+    "baseDate": "2024/11/12",
     "products": [
       {
         "title": "정기적금",
@@ -133,5 +133,5 @@
       }
     ]
   },
-  "baseDate": "2024/11/11"
+  "baseDate": "2024/11/12"
 }
