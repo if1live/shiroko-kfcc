@@ -7,13 +7,13 @@
     "r2": "해남군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/11/12",
+    "baseDate": "2024/11/13",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.90"},
-          {"duration": null, "rate": "0.90"},
+          {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
@@ -41,7 +41,7 @@
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.90"},
-          {"duration": null, "rate": "0.90"},
+          {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
@@ -57,7 +57,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/11/12",
+    "baseDate": "2024/11/13",
     "products": [
       {
         "title": "정기적금",
@@ -111,5 +111,5 @@
       }
     ]
   },
-  "baseDate": "2024/11/12"
+  "baseDate": "2024/11/13"
 }
