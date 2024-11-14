@@ -7,7 +7,7 @@
     "r2": "남양주시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/11/14",
+    "baseDate": "2024/11/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -69,7 +69,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/11/14",
+    "baseDate": "2024/11/15",
     "products": [
       {
         "title": "정기적금",
@@ -145,9 +145,9 @@
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       }
     ]
   },
-  "baseDate": "2024/11/14"
+  "baseDate": "2024/11/15"
 }
