@@ -7,26 +7,26 @@
     "r2": "창원시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/11/19",
+    "baseDate": "2024/11/20",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.00"},
-          {"duration": null, "rate": "3.05"},
-          {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "3.15"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.27"},
           {"duration": null, "rate": "3.25"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.15"}
+          {"duration": null, "rate": "3.35"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.47"},
+          {"duration": null, "rate": "3.44"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.30"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/11/19",
+    "baseDate": "2024/11/20",
     "products": [
       {
         "title": "정기적금",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "baseDate": "2024/11/19"
+  "baseDate": "2024/11/20"
 }
