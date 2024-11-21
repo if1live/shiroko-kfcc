@@ -2,12 +2,12 @@
   "id": "6250",
   "bank": {
     "gmgoCd": "6250",
-    "gmgoNm": "(주)현대미포조선",
+    "gmgoNm": "HD현대미포",
     "r1": "울산",
     "r2": "동구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/11/21",
+    "baseDate": "2024/11/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -39,7 +39,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/11/21",
+    "baseDate": "2024/11/22",
     "products": [
       {
         "title": "정기적금",
@@ -71,5 +71,5 @@
       }
     ]
   },
-  "baseDate": "2024/11/21"
+  "baseDate": "2024/11/22"
 }

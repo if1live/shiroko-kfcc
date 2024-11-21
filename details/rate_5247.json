@@ -7,14 +7,14 @@
     "r2": "포항시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/11/21",
+    "baseDate": "2024/11/22",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "2.90"}
@@ -26,7 +26,7 @@
           {"duration": 0, "rate": "0.20"},
           {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "3.20"},
-          {"duration": 12, "rate": "3.50"},
+          {"duration": 12, "rate": "3.40"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "2.90"}
         ]
@@ -38,7 +38,7 @@
           {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "3.20"},
           {"duration": 9, "rate": "3.20"},
-          {"duration": 12, "rate": "3.50"},
+          {"duration": 12, "rate": "3.40"},
           {"duration": 18, "rate": "3.00"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 30, "rate": "2.90"},
@@ -51,7 +51,7 @@
           {"duration": 1, "rate": "0.20"},
           {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "3.20"},
-          {"duration": 12, "rate": "3.50"},
+          {"duration": 12, "rate": "3.40"},
           {"duration": 18, "rate": "3.00"},
           {"duration": 24, "rate": "3.00"}
         ]
@@ -70,21 +70,21 @@
           {"duration": 9, "rate": "3.20"},
           {"duration": 10, "rate": "3.20"},
           {"duration": 11, "rate": "3.20"},
-          {"duration": 12, "rate": "3.50"}
+          {"duration": 12, "rate": "3.40"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/11/21",
+    "baseDate": "2024/11/22",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "1.20"},
-          {"duration": 12, "rate": "3.50"},
-          {"duration": 24, "rate": "3.40"},
-          {"duration": 36, "rate": "3.30"}
+          {"duration": 12, "rate": "3.40"},
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 36, "rate": "3.20"}
         ]
       },
       {
@@ -104,11 +104,11 @@
         "entries": [
           {"duration": 1, "rate": "0.70"},
           {"duration": 6, "rate": "1.20"},
-          {"duration": 12, "rate": "3.50"},
-          {"duration": 24, "rate": "3.40"},
-          {"duration": 36, "rate": "3.40"},
-          {"duration": 48, "rate": "3.40"},
-          {"duration": 60, "rate": "3.40"}
+          {"duration": 12, "rate": "3.40"},
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 36, "rate": "3.30"},
+          {"duration": 48, "rate": "3.30"},
+          {"duration": 60, "rate": "3.30"}
         ]
       },
       {
@@ -150,5 +150,5 @@
       }
     ]
   },
-  "baseDate": "2024/11/21"
+  "baseDate": "2024/11/22"
 }
