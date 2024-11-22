@@ -7,7 +7,7 @@
     "r2": "수성구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/11/22",
+    "baseDate": "2024/11/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -71,7 +71,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/11/22",
+    "baseDate": "2024/11/23",
     "products": [
       {
         "title": "정기적금",
@@ -82,10 +82,6 @@
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "1.00"}
         ]
-      },
-      {
-        "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "MG더뱅킹정기적금",
@@ -120,5 +116,5 @@
       }
     ]
   },
-  "baseDate": "2024/11/22"
+  "baseDate": "2024/11/23"
 }
