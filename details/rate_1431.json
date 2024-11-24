@@ -7,7 +7,7 @@
     "r2": "사하구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/11/24",
+    "baseDate": "2024/11/25",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.45"},
+          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.30"}
         ]
@@ -26,9 +26,9 @@
           {"duration": 0, "rate": "1.00"},
           {"duration": 3, "rate": "1.00"},
           {"duration": 6, "rate": "1.10"},
-          {"duration": 12, "rate": "3.45"},
-          {"duration": 24, "rate": "3.25"},
-          {"duration": 36, "rate": "3.15"}
+          {"duration": 12, "rate": "3.40"},
+          {"duration": 24, "rate": "3.20"},
+          {"duration": 36, "rate": "3.10"}
         ]
       },
       {
@@ -38,11 +38,11 @@
           {"duration": 3, "rate": "1.00"},
           {"duration": 6, "rate": "1.10"},
           {"duration": 9, "rate": "1.10"},
-          {"duration": 12, "rate": "3.45"},
-          {"duration": 18, "rate": "3.45"},
-          {"duration": 24, "rate": "3.25"},
-          {"duration": 30, "rate": "3.25"},
-          {"duration": 36, "rate": "3.15"}
+          {"duration": 12, "rate": "3.40"},
+          {"duration": 18, "rate": "3.40"},
+          {"duration": 24, "rate": "3.20"},
+          {"duration": 30, "rate": "3.20"},
+          {"duration": 36, "rate": "3.10"}
         ]
       },
       {
@@ -59,13 +59,13 @@
           {"duration": null, "rate": "1.10"},
           {"duration": null, "rate": "1.10"},
           {"duration": null, "rate": "1.10"},
-          {"duration": null, "rate": "3.45"}
+          {"duration": null, "rate": "3.40"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/11/24",
+    "baseDate": "2024/11/25",
     "products": [
       {
         "title": "정기적금",
@@ -153,5 +153,5 @@
       }
     ]
   },
-  "baseDate": "2024/11/24"
+  "baseDate": "2024/11/25"
 }
