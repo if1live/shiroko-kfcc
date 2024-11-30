@@ -7,7 +7,7 @@
     "r2": "제천시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/11/30",
+    "baseDate": "2024/12/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -37,11 +37,11 @@
           {"duration": 3, "rate": "2.40"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 9, "rate": "2.60"},
-          {"duration": 12, "rate": "3.20"},
-          {"duration": 18, "rate": "3.20"},
-          {"duration": 24, "rate": "3.10"},
-          {"duration": 30, "rate": "3.10"},
-          {"duration": 36, "rate": "3.10"}
+          {"duration": 12, "rate": "3.00"},
+          {"duration": 18, "rate": "2.90"},
+          {"duration": 24, "rate": "2.90"},
+          {"duration": 30, "rate": "2.90"},
+          {"duration": 36, "rate": "2.90"}
         ]
       },
       {
@@ -90,7 +90,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/11/30",
+    "baseDate": "2024/12/01",
     "products": [
       {
         "title": "정기적금",
@@ -181,5 +181,5 @@
       }
     ]
   },
-  "baseDate": "2024/11/30"
+  "baseDate": "2024/12/01"
 }
