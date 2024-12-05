@@ -7,7 +7,7 @@
     "r2": "보성군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/12/05",
+    "baseDate": "2024/12/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -38,13 +38,13 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.60"}
+          {"duration": null, "rate": "3.40"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/12/05",
+    "baseDate": "2024/12/06",
     "products": [
       {
         "title": "정기적금",
@@ -100,5 +100,5 @@
       }
     ]
   },
-  "baseDate": "2024/12/05"
+  "baseDate": "2024/12/06"
 }
