@@ -7,14 +7,14 @@
     "r2": "용산구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/12/15",
+    "baseDate": "2024/12/16",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.22"},
           {"duration": null, "rate": "3.22"},
-          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.52"},
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.10"}
@@ -26,7 +26,7 @@
           {"duration": 0, "rate": "1.00"},
           {"duration": 3, "rate": "2.22"},
           {"duration": 6, "rate": "3.22"},
-          {"duration": 12, "rate": "3.60"},
+          {"duration": 12, "rate": "3.52"},
           {"duration": 24, "rate": "3.30"},
           {"duration": 36, "rate": "3.10"}
         ]
@@ -38,7 +38,7 @@
           {"duration": 3, "rate": "2.07"},
           {"duration": 6, "rate": "3.07"},
           {"duration": 9, "rate": "3.07"},
-          {"duration": 12, "rate": "3.45"},
+          {"duration": 12, "rate": "3.37"},
           {"duration": 18, "rate": "3.15"},
           {"duration": 24, "rate": "3.15"},
           {"duration": 30, "rate": "2.95"},
@@ -47,7 +47,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
         "title": "MG기업정기예금(A)",
@@ -55,7 +55,7 @@
           {"duration": 1, "rate": "1.00"},
           {"duration": 3, "rate": "2.22"},
           {"duration": 6, "rate": "3.22"},
-          {"duration": 12, "rate": "3.60"},
+          {"duration": 12, "rate": "3.52"},
           {"duration": 18, "rate": "3.30"},
           {"duration": 24, "rate": "3.30"}
         ]
@@ -66,7 +66,7 @@
           {"duration": 1, "rate": "1.00"},
           {"duration": 3, "rate": "2.22"},
           {"duration": 6, "rate": "3.22"},
-          {"duration": 12, "rate": "3.60"},
+          {"duration": 12, "rate": "3.52"},
           {"duration": 18, "rate": "3.30"},
           {"duration": 24, "rate": "3.30"}
         ]
@@ -85,13 +85,13 @@
           {"duration": null, "rate": "3.22"},
           {"duration": null, "rate": "3.22"},
           {"duration": null, "rate": "3.22"},
-          {"duration": null, "rate": "3.72"}
+          {"duration": null, "rate": "3.62"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/12/15",
+    "baseDate": "2024/12/16",
     "products": [
       {
         "title": "정기적금",
@@ -156,5 +156,5 @@
       }
     ]
   },
-  "baseDate": "2024/12/15"
+  "baseDate": "2024/12/16"
 }

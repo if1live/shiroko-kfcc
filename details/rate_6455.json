@@ -7,7 +7,7 @@
     "r2": "산청군"
   },
   "deferredDeposit": {
-    "baseDate": "2024/12/15",
+    "baseDate": "2024/12/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,9 +15,9 @@
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.20"}
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "2.90"}
         ]
       },
       {
@@ -26,28 +26,28 @@
           {"duration": 0, "rate": "1.00"},
           {"duration": 3, "rate": "2.70"},
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "3.40"},
-          {"duration": 24, "rate": "3.20"},
-          {"duration": 36, "rate": "3.20"}
+          {"duration": 12, "rate": "3.20"},
+          {"duration": 24, "rate": "2.90"},
+          {"duration": 36, "rate": "2.90"}
         ]
       },
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "1.00"},
-          {"duration": 3, "rate": "2.70"},
+          {"duration": 1, "rate": "0.00"},
+          {"duration": 3, "rate": "0.00"},
           {"duration": 6, "rate": "3.00"},
           {"duration": 9, "rate": "3.00"},
-          {"duration": 12, "rate": "3.40"},
-          {"duration": 18, "rate": "3.40"},
-          {"duration": 24, "rate": "3.20"},
-          {"duration": 30, "rate": "3.20"},
-          {"duration": 36, "rate": "3.20"}
+          {"duration": 12, "rate": "3.20"},
+          {"duration": 18, "rate": "3.20"},
+          {"duration": 24, "rate": "2.90"},
+          {"duration": 30, "rate": "2.90"},
+          {"duration": 36, "rate": "2.90"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.40"}]
+        "entries": [{"duration": 12, "rate": "3.20"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -63,17 +63,17 @@
           {"duration": 9, "rate": "3.00"},
           {"duration": 10, "rate": "3.00"},
           {"duration": 11, "rate": "3.00"},
-          {"duration": 12, "rate": "3.40"}
+          {"duration": 12, "rate": "3.20"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.40"}]
+        "entries": [{"duration": 12, "rate": "3.20"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/12/15",
+    "baseDate": "2024/12/16",
     "products": [
       {
         "title": "정기적금",
@@ -109,9 +109,9 @@
           {"duration": 1, "rate": "1.00"},
           {"duration": 6, "rate": "2.00"},
           {"duration": 12, "rate": "3.20"},
-          {"duration": 24, "rate": "3.10"},
-          {"duration": 36, "rate": "3.10"},
-          {"duration": 48, "rate": "3.10"}
+          {"duration": 24, "rate": "2.90"},
+          {"duration": 36, "rate": "2.90"},
+          {"duration": 48, "rate": "2.90"}
         ]
       },
       {
@@ -124,5 +124,5 @@
       }
     ]
   },
-  "baseDate": "2024/12/15"
+  "baseDate": "2024/12/16"
 }
