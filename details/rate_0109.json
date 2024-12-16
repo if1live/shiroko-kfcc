@@ -7,7 +7,7 @@
     "r2": "종로구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/12/16",
+    "baseDate": "2024/12/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -36,13 +36,30 @@
         "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
+        "title": "꿈드림회전정기예탁금",
+        "entries": [
+          {"duration": null, "rate": "1.30"},
+          {"duration": null, "rate": "1.30"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.50"}
+        ]
+      },
+      {
         "title": "MG주거래우대정기예금",
         "entries": [{"duration": 12, "rate": "3.30"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/12/16",
+    "baseDate": "2024/12/17",
     "products": [
       {
         "title": "정기적금",
@@ -83,5 +100,5 @@
       }
     ]
   },
-  "baseDate": "2024/12/16"
+  "baseDate": "2024/12/17"
 }

@@ -7,7 +7,7 @@
     "r2": "용산구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/12/16",
+    "baseDate": "2024/12/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/12/16",
+    "baseDate": "2024/12/17",
     "products": [
       {
         "title": "정기적금",
@@ -143,7 +143,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.55"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
         "title": "일일자유적금",
@@ -163,5 +163,5 @@
       }
     ]
   },
-  "baseDate": "2024/12/16"
+  "baseDate": "2024/12/17"
 }
