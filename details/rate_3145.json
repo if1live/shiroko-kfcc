@@ -7,7 +7,7 @@
     "r2": "유성구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/12/20",
+    "baseDate": "2024/12/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -78,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/12/20",
+    "baseDate": "2024/12/21",
     "products": [
       {
         "title": "정기적금",
@@ -154,8 +154,9 @@
           {"duration": 24, "rate": "5.00"},
           {"duration": 36, "rate": "1.70"}
         ]
-      }
+      },
+      {"title": "My꿈모아자유적금", "entries": []}
     ]
   },
-  "baseDate": "2024/12/20"
+  "baseDate": "2024/12/21"
 }
