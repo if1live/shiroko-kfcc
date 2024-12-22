@@ -7,7 +7,7 @@
     "r2": "유성구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/12/22",
+    "baseDate": "2024/12/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -78,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/12/22",
+    "baseDate": "2024/12/23",
     "products": [
       {
         "title": "정기적금",
@@ -127,6 +127,14 @@
         ]
       },
       {
+        "title": "MG월복리자유적금",
+        "entries": [{"duration": 12, "rate": "3.00"}]
+      },
+      {
+        "title": "Smart 자유적립적금",
+        "entries": [{"duration": 12, "rate": "3.00"}]
+      },
+      {
         "title": "MG주거래우대자유적금",
         "entries": [{"duration": 12, "rate": "3.00"}]
       },
@@ -155,8 +163,11 @@
           {"duration": 36, "rate": "1.70"}
         ]
       },
-      {"title": "My꿈모아자유적금", "entries": []}
+      {
+        "title": "My꿈모아자유적금",
+        "entries": [{"duration": 12, "rate": "3.00"}]
+      }
     ]
   },
-  "baseDate": "2024/12/22"
+  "baseDate": "2024/12/23"
 }
