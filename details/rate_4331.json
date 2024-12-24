@@ -7,7 +7,7 @@
     "r2": "태백시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/12/24",
+    "baseDate": "2024/12/25",
     "products": [
       {
         "title": "정기예탁금",
@@ -64,7 +64,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/12/24",
+    "baseDate": "2024/12/25",
     "products": [
       {
         "title": "정기적금",
@@ -94,14 +94,14 @@
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.30"},
-          {"duration": 3, "rate": "2.20"},
-          {"duration": 6, "rate": "2.60"},
-          {"duration": 12, "rate": "3.40"},
-          {"duration": 24, "rate": "3.50"},
-          {"duration": 36, "rate": "3.50"},
-          {"duration": 37, "rate": "3.50"},
-          {"duration": 48, "rate": "3.50"},
-          {"duration": 60, "rate": "3.50"}
+          {"duration": 3, "rate": "2.10"},
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 12, "rate": "3.26"},
+          {"duration": 24, "rate": "3.35"},
+          {"duration": 36, "rate": "3.35"},
+          {"duration": 37, "rate": "3.35"},
+          {"duration": 48, "rate": "3.35"},
+          {"duration": 60, "rate": "3.35"}
         ]
       },
       {
@@ -115,5 +115,5 @@
       }
     ]
   },
-  "baseDate": "2024/12/24"
+  "baseDate": "2024/12/25"
 }
