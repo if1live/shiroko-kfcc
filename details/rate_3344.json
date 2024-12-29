@@ -7,11 +7,12 @@
     "r2": ""
   },
   "deferredDeposit": {
-    "baseDate": "2024/12/29",
+    "baseDate": "2024/12/30",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
+          {"duration": null, "rate": "2.11"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.20"},
@@ -51,7 +52,7 @@
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.90"},
-          {"duration": null, "rate": "0.90"},
+          {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
@@ -67,7 +68,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/12/29",
+    "baseDate": "2024/12/30",
     "products": [
       {
         "title": "정기적금",
@@ -157,5 +158,5 @@
       }
     ]
   },
-  "baseDate": "2024/12/29"
+  "baseDate": "2024/12/30"
 }
