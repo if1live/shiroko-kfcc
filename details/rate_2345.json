@@ -2,12 +2,12 @@
   "id": "2345",
   "bank": {
     "gmgoCd": "2345",
-    "gmgoNm": "서인천",
+    "gmgoNm": "경인아라",
     "r1": "인천",
     "r2": "서구"
   },
   "deferredDeposit": {
-    "baseDate": "2024/12/30",
+    "baseDate": "2024/12/31",
     "products": [
       {
         "title": "정기예탁금",
@@ -99,7 +99,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/12/30",
+    "baseDate": "2024/12/31",
     "products": [
       {
         "title": "정기적금",
@@ -191,5 +191,5 @@
       }
     ]
   },
-  "baseDate": "2024/12/30"
+  "baseDate": "2024/12/31"
 }
