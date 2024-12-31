@@ -7,15 +7,16 @@
     "r2": "사천시"
   },
   "deferredDeposit": {
-    "baseDate": "2024/12/31",
+    "baseDate": "2025/01/01",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.42"},
+          {"duration": null, "rate": "2.38"},
           {"duration": null, "rate": "3.08"},
           {"duration": null, "rate": "3.13"},
           {"duration": null, "rate": "3.23"},
+          {"duration": null, "rate": "3.28"},
           {"duration": null, "rate": "3.23"},
           {"duration": null, "rate": "3.23"},
           {"duration": null, "rate": "3.23"}
@@ -70,7 +71,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2024/12/31",
+    "baseDate": "2025/01/01",
     "products": [
       {
         "title": "정기적금",
@@ -94,7 +95,7 @@
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "0.10"}]
+        "entries": [{"duration": 12, "rate": "4.20"}]
       },
       {
         "title": "MG희망나눔 용용적금",
@@ -151,5 +152,5 @@
       }
     ]
   },
-  "baseDate": "2024/12/31"
+  "baseDate": "2025/01/01"
 }
