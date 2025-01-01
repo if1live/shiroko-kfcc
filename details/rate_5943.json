@@ -7,14 +7,14 @@
     "r2": "예천군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/01/01",
+    "baseDate": "2025/01/02",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.70"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.40"}
         ]
@@ -62,7 +62,7 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.80"}
+          {"duration": null, "rate": "3.20"}
         ]
       },
       {
@@ -72,7 +72,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/01/01",
+    "baseDate": "2025/01/02",
     "products": [
       {
         "title": "정기적금",
@@ -108,7 +108,7 @@
         "entries": [
           {"duration": 1, "rate": "1.50"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "2.80"},
+          {"duration": 12, "rate": "3.00"},
           {"duration": 24, "rate": "2.40"},
           {"duration": 36, "rate": "2.40"}
         ]
@@ -132,5 +132,5 @@
       }
     ]
   },
-  "baseDate": "2025/01/01"
+  "baseDate": "2025/01/02"
 }

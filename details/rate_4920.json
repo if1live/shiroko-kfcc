@@ -7,14 +7,14 @@
     "r2": "무주군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/01/01",
+    "baseDate": "2025/01/02",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.80"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"}
         ]
@@ -51,14 +51,14 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/01/01",
+    "baseDate": "2025/01/02",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.40"},
-          {"duration": 24, "rate": "3.40"},
-          {"duration": 36, "rate": "3.40"}
+          {"duration": 12, "rate": "3.20"},
+          {"duration": 24, "rate": "3.20"},
+          {"duration": 36, "rate": "3.20"}
         ]
       },
       {
@@ -83,9 +83,9 @@
           {"duration": 1, "rate": "0.10"},
           {"duration": 3, "rate": "0.80"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.40"},
-          {"duration": 24, "rate": "3.40"},
-          {"duration": 36, "rate": "3.40"}
+          {"duration": 12, "rate": "3.20"},
+          {"duration": 24, "rate": "3.20"},
+          {"duration": 36, "rate": "3.20"}
         ]
       },
       {
@@ -94,5 +94,5 @@
       }
     ]
   },
-  "baseDate": "2025/01/01"
+  "baseDate": "2025/01/02"
 }
