@@ -7,7 +7,7 @@
     "r2": "보은군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/01/08",
+    "baseDate": "2025/01/09",
     "products": [
       {
         "title": "정기예탁금",
@@ -84,7 +84,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/01/08",
+    "baseDate": "2025/01/09",
     "products": [
       {
         "title": "정기적금",
@@ -148,9 +148,9 @@
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       }
     ]
   },
-  "baseDate": "2025/01/08"
+  "baseDate": "2025/01/09"
 }
