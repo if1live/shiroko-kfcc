@@ -7,14 +7,14 @@
     "r2": "동구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/01/14",
+    "baseDate": "2025/01/15",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.00"}
@@ -27,7 +27,7 @@
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.90"},
           {"duration": 9, "rate": "2.90"},
-          {"duration": 12, "rate": "3.40"},
+          {"duration": 12, "rate": "3.50"},
           {"duration": 18, "rate": "3.20"},
           {"duration": 24, "rate": "3.20"},
           {"duration": 30, "rate": "0.00"},
@@ -44,7 +44,7 @@
           {"duration": 1, "rate": "0.00"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.90"},
-          {"duration": 12, "rate": "3.40"},
+          {"duration": 12, "rate": "3.50"},
           {"duration": 18, "rate": "3.20"},
           {"duration": 24, "rate": "3.20"}
         ]
@@ -55,7 +55,7 @@
           {"duration": 1, "rate": "0.00"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.90"},
-          {"duration": 12, "rate": "3.40"},
+          {"duration": 12, "rate": "3.50"},
           {"duration": 18, "rate": "3.20"},
           {"duration": 24, "rate": "3.20"}
         ]
@@ -74,17 +74,17 @@
           {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "3.40"}
+          {"duration": null, "rate": "3.50"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.40"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/01/14",
+    "baseDate": "2025/01/15",
     "products": [
       {
         "title": "정기적금",
@@ -173,5 +173,5 @@
       }
     ]
   },
-  "baseDate": "2025/01/14"
+  "baseDate": "2025/01/15"
 }
