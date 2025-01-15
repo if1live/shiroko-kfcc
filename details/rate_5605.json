@@ -7,7 +7,7 @@
     "r2": "영천시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/01/15",
+    "baseDate": "2025/01/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -33,8 +33,8 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "0.00"},
+          {"duration": 1, "rate": "2.00"},
+          {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.30"},
           {"duration": 9, "rate": "2.30"},
           {"duration": 12, "rate": "3.10"},
@@ -68,7 +68,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/01/15",
+    "baseDate": "2025/01/16",
     "products": [
       {
         "title": "정기적금",
@@ -143,5 +143,5 @@
       }
     ]
   },
-  "baseDate": "2025/01/15"
+  "baseDate": "2025/01/16"
 }
