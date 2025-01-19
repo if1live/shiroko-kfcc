@@ -7,7 +7,7 @@
     "r2": "이천시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/01/19",
+    "baseDate": "2025/01/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,10 @@
           {"duration": null, "rate": "2.75"},
           {"duration": null, "rate": "3.05"},
           {"duration": null, "rate": "3.05"},
-          {"duration": null, "rate": "3.15"},
+          {"duration": null, "rate": "3.35"},
+          {"duration": null, "rate": "3.65"},
+          {"duration": null, "rate": "3.35"},
+          {"duration": null, "rate": "3.35"},
           {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "2.90"}
         ]
@@ -58,7 +61,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/01/19",
+    "baseDate": "2025/01/20",
     "products": [
       {
         "title": "정기적금",
@@ -121,5 +124,5 @@
       }
     ]
   },
-  "baseDate": "2025/01/19"
+  "baseDate": "2025/01/20"
 }

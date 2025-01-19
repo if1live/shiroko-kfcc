@@ -7,7 +7,7 @@
     "r2": "은평구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/01/19",
+    "baseDate": "2025/01/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -61,13 +61,13 @@
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "3.45"},
-          {"duration": null, "rate": "3.45"},
-          {"duration": null, "rate": "3.45"},
-          {"duration": null, "rate": "3.45"},
-          {"duration": null, "rate": "3.45"},
-          {"duration": null, "rate": "3.45"},
-          {"duration": null, "rate": "3.55"}
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.45"}
         ]
       },
       {
@@ -77,7 +77,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/01/19",
+    "baseDate": "2025/01/20",
     "products": [
       {
         "title": "정기적금",
@@ -177,5 +177,5 @@
       }
     ]
   },
-  "baseDate": "2025/01/19"
+  "baseDate": "2025/01/20"
 }
