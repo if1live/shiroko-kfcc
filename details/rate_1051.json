@@ -7,7 +7,7 @@
     "r2": "송파구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/01/24",
+    "baseDate": "2025/01/25",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/01/24",
+    "baseDate": "2025/01/25",
     "products": [
       {
         "title": "정기적금",
@@ -87,9 +87,8 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.20"},
-          {"duration": 13, "rate": "3.25"},
-          {"duration": 25, "rate": "3.20"},
+          {"duration": 12, "rate": "3.30"},
+          {"duration": 24, "rate": "3.25"},
           {"duration": 36, "rate": "3.20"}
         ]
       },
@@ -165,5 +164,5 @@
       }
     ]
   },
-  "baseDate": "2025/01/24"
+  "baseDate": "2025/01/25"
 }
