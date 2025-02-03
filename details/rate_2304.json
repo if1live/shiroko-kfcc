@@ -7,7 +7,7 @@
     "r2": "남동구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/02/03",
+    "baseDate": "2025/02/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -27,9 +27,9 @@
         "title": "Block예금",
         "entries": [
           {"duration": 0, "rate": "0.80"},
-          {"duration": 3, "rate": "2.50"},
-          {"duration": 6, "rate": "2.90"},
-          {"duration": 12, "rate": "3.40"},
+          {"duration": 3, "rate": "2.40"},
+          {"duration": 6, "rate": "2.80"},
+          {"duration": 12, "rate": "3.30"},
           {"duration": 24, "rate": "3.20"},
           {"duration": 36, "rate": "3.20"}
         ]
@@ -41,11 +41,11 @@
           {"duration": 3, "rate": "2.40"},
           {"duration": 6, "rate": "2.80"},
           {"duration": 9, "rate": "2.80"},
-          {"duration": 12, "rate": "3.40"},
+          {"duration": 12, "rate": "3.30"},
           {"duration": 18, "rate": "3.20"},
           {"duration": 24, "rate": "3.20"},
           {"duration": 30, "rate": "3.20"},
-          {"duration": 36, "rate": "0.00"}
+          {"duration": 36, "rate": "3.20"}
         ]
       },
       {
@@ -66,17 +66,17 @@
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.50"}
+          {"duration": null, "rate": "3.40"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.40"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/02/03",
+    "baseDate": "2025/02/04",
     "products": [
       {
         "title": "정기적금",
@@ -150,5 +150,5 @@
       }
     ]
   },
-  "baseDate": "2025/02/03"
+  "baseDate": "2025/02/04"
 }
