@@ -7,7 +7,7 @@
     "r2": "홍성군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/02/05",
+    "baseDate": "2025/02/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -86,7 +86,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/02/05",
+    "baseDate": "2025/02/06",
     "products": [
       {
         "title": "정기적금",
@@ -101,8 +101,7 @@
         "title": "MG New정기적금",
         "entries": [
           {"duration": 12, "rate": "3.60"},
-          {"duration": 24, "rate": "3.50"},
-          {"duration": 36, "rate": "3.50"}
+          {"duration": 24, "rate": "4.50"}
         ]
       },
       {
@@ -166,5 +165,5 @@
       }
     ]
   },
-  "baseDate": "2025/02/05"
+  "baseDate": "2025/02/06"
 }
