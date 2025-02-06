@@ -7,14 +7,14 @@
     "r2": "문경시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/02/06",
+    "baseDate": "2025/02/07",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.30"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "3.26"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "2.90"}
         ]
@@ -72,7 +72,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/02/06",
+    "baseDate": "2025/02/07",
     "products": [
       {
         "title": "정기적금",
@@ -152,5 +152,5 @@
       }
     ]
   },
-  "baseDate": "2025/02/06"
+  "baseDate": "2025/02/07"
 }
