@@ -7,18 +7,18 @@
     "r2": "동래구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/02/12",
+    "baseDate": "2025/02/13",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.10"},
           {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "3.50"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"}
         ]
@@ -39,7 +39,7 @@
         "entries": [
           {"duration": 1, "rate": "0.80"},
           {"duration": 3, "rate": "2.30"},
-          {"duration": 6, "rate": "3.00"},
+          {"duration": 6, "rate": "2.70"},
           {"duration": 9, "rate": "2.30"},
           {"duration": 12, "rate": "3.20"},
           {"duration": 18, "rate": "2.50"},
@@ -60,7 +60,7 @@
           {"duration": 3, "rate": "2.60"},
           {"duration": 4, "rate": "2.60"},
           {"duration": 5, "rate": "2.60"},
-          {"duration": 6, "rate": "3.30"},
+          {"duration": 6, "rate": "3.00"},
           {"duration": 7, "rate": "2.60"},
           {"duration": 8, "rate": "2.60"},
           {"duration": 9, "rate": "2.60"},
@@ -76,7 +76,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/02/12",
+    "baseDate": "2025/02/13",
     "products": [
       {
         "title": "정기적금",
@@ -121,21 +121,21 @@
           {"duration": 3, "rate": "2.10"},
           {"duration": 6, "rate": "2.40"},
           {"duration": 12, "rate": "3.00"},
-          {"duration": 24, "rate": "2.70"},
-          {"duration": 36, "rate": "2.70"}
+          {"duration": 24, "rate": "2.50"},
+          {"duration": 36, "rate": "2.50"}
         ]
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
+        "entries": [{"duration": 12, "rate": "2.70"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "2.80"}]
+        "entries": [{"duration": 12, "rate": "2.50"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
+        "entries": [{"duration": 12, "rate": "2.50"}]
       },
       {
         "title": "MG더뱅킹자유적금",
@@ -164,5 +164,5 @@
       }
     ]
   },
-  "baseDate": "2025/02/12"
+  "baseDate": "2025/02/13"
 }
