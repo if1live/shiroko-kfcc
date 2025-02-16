@@ -7,7 +7,7 @@
     "r2": "영등포구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/02/16",
+    "baseDate": "2025/02/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -97,7 +97,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/02/16",
+    "baseDate": "2025/02/17",
     "products": [
       {
         "title": "정기적금",
@@ -113,7 +113,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.80"},
+          {"duration": 12, "rate": "7.00"},
           {"duration": 24, "rate": "3.70"},
           {"duration": 36, "rate": "3.70"}
         ]
@@ -175,5 +175,5 @@
       }
     ]
   },
-  "baseDate": "2025/02/16"
+  "baseDate": "2025/02/17"
 }
