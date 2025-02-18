@@ -7,7 +7,7 @@
     "r2": "진도군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/02/18",
+    "baseDate": "2025/02/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "0.01"},
           {"duration": null, "rate": "0.01"},
           {"duration": null, "rate": "0.01"},
-          {"duration": null, "rate": "3.42"},
+          {"duration": null, "rate": "3.25"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"}
         ]
@@ -23,10 +23,10 @@
       {
         "title": "Block예금",
         "entries": [
-          {"duration": 0, "rate": "0.01"},
-          {"duration": 3, "rate": "0.01"},
-          {"duration": 6, "rate": "0.01"},
-          {"duration": 12, "rate": "3.65"},
+          {"duration": 0, "rate": "0.00"},
+          {"duration": 3, "rate": "0.00"},
+          {"duration": 6, "rate": "0.00"},
+          {"duration": 12, "rate": "3.25"},
           {"duration": 24, "rate": "2.00"},
           {"duration": 36, "rate": "2.00"}
         ]
@@ -42,7 +42,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/02/18",
+    "baseDate": "2025/02/19",
     "products": [
       {
         "title": "정기적금",
@@ -76,5 +76,5 @@
       }
     ]
   },
-  "baseDate": "2025/02/18"
+  "baseDate": "2025/02/19"
 }
