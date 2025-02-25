@@ -7,14 +7,14 @@
     "r2": "남구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/02/25",
+    "baseDate": "2025/02/26",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
@@ -39,7 +39,7 @@
           {"duration": 3, "rate": "0.00"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 9, "rate": "2.50"},
-          {"duration": 12, "rate": "3.50"},
+          {"duration": 12, "rate": "3.40"},
           {"duration": 18, "rate": "2.50"},
           {"duration": 24, "rate": "2.50"},
           {"duration": 30, "rate": "2.50"},
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/02/25",
+    "baseDate": "2025/02/26",
     "products": [
       {
         "title": "정기적금",
@@ -106,5 +106,5 @@
       }
     ]
   },
-  "baseDate": "2025/02/25"
+  "baseDate": "2025/02/26"
 }
