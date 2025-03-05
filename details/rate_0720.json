@@ -7,7 +7,7 @@
     "r2": "강서구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/03/05",
+    "baseDate": "2025/03/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/03/05",
+    "baseDate": "2025/03/06",
     "products": [
       {
         "title": "정기적금",
@@ -119,7 +119,7 @@
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "3.25"}]
       },
       {
         "title": "MG주거래우대자유적금",
@@ -156,5 +156,5 @@
       }
     ]
   },
-  "baseDate": "2025/03/05"
+  "baseDate": "2025/03/06"
 }

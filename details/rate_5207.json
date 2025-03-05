@@ -7,14 +7,14 @@
     "r2": "포항시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/03/05",
+    "baseDate": "2025/03/06",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.00"}
         ]
       },
@@ -24,7 +24,7 @@
           {"duration": 0, "rate": "0.50"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.40"},
+          {"duration": 12, "rate": "3.30"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
@@ -32,13 +32,13 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/03/05",
+    "baseDate": "2025/03/06",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.40"},
+          {"duration": 12, "rate": "3.30"},
           {"duration": 24, "rate": "3.00"}
         ]
       },
@@ -48,12 +48,12 @@
           {"duration": 1, "rate": "0.50"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.40"},
+          {"duration": 12, "rate": "3.30"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
       }
     ]
   },
-  "baseDate": "2025/03/05"
+  "baseDate": "2025/03/06"
 }
