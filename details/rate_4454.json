@@ -7,7 +7,7 @@
     "r2": "인제군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/03/09",
+    "baseDate": "2025/03/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -27,7 +27,7 @@
           {"duration": 0, "rate": "0.10"},
           {"duration": 3, "rate": "0.30"},
           {"duration": 6, "rate": "1.80"},
-          {"duration": 12, "rate": "3.32"},
+          {"duration": 12, "rate": "3.56"},
           {"duration": 24, "rate": "3.22"},
           {"duration": 36, "rate": "3.12"}
         ]
@@ -70,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/03/09",
+    "baseDate": "2025/03/10",
     "products": [
       {
         "title": "정기적금",
@@ -154,5 +154,5 @@
       }
     ]
   },
-  "baseDate": "2025/03/09"
+  "baseDate": "2025/03/10"
 }
