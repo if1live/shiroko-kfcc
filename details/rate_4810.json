@@ -7,15 +7,15 @@
     "r2": "전주시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/03/12",
+    "baseDate": "2025/03/13",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "1.30"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"}
@@ -34,12 +34,12 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.10"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/03/12",
+    "baseDate": "2025/03/13",
     "products": [
       {
         "title": "정기적금",
@@ -72,5 +72,5 @@
       }
     ]
   },
-  "baseDate": "2025/03/12"
+  "baseDate": "2025/03/13"
 }

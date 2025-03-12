@@ -7,7 +7,7 @@
     "r2": "의정부"
   },
   "deferredDeposit": {
-    "baseDate": "2025/03/12",
+    "baseDate": "2025/03/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -61,7 +61,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/03/12",
+    "baseDate": "2025/03/13",
     "products": [
       {
         "title": "정기적금",
@@ -121,7 +121,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "일일자유적금",
@@ -129,10 +129,10 @@
           {"duration": 0, "rate": "0.00"},
           {"duration": 1, "rate": "0.00"},
           {"duration": 2, "rate": "0.00"},
-          {"duration": 3, "rate": "2.80"},
-          {"duration": 4, "rate": "2.80"},
-          {"duration": 5, "rate": "2.80"},
-          {"duration": 6, "rate": "3.20"}
+          {"duration": 3, "rate": "1.50"},
+          {"duration": 4, "rate": "1.50"},
+          {"duration": 5, "rate": "1.50"},
+          {"duration": 6, "rate": "2.00"}
         ]
       },
       {
@@ -149,5 +149,5 @@
       }
     ]
   },
-  "baseDate": "2025/03/12"
+  "baseDate": "2025/03/13"
 }
