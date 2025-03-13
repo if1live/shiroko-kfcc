@@ -1,0 +1,12 @@
+{
+  "id": "2138",
+  "bank": {
+    "gmgoCd": "2138",
+    "gmgoNm": "성서",
+    "r1": "대구",
+    "r2": "달서구"
+  },
+  "deferredDeposit": null,
+  "installmentSavings": null,
+  "baseDate": null
+}
