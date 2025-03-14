@@ -7,7 +7,7 @@
     "r2": "구로구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/03/14",
+    "baseDate": "2025/03/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -68,7 +68,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/03/14",
+    "baseDate": "2025/03/15",
     "products": [
       {
         "title": "정기적금",
@@ -106,7 +106,7 @@
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.30"}]
+        "entries": [{"duration": 12, "rate": "3.20"}]
       },
       {
         "title": "일일자유적금",
@@ -135,5 +135,5 @@
       }
     ]
   },
-  "baseDate": "2025/03/14"
+  "baseDate": "2025/03/15"
 }
