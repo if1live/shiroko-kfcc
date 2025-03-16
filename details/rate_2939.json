@@ -7,18 +7,18 @@
     "r2": "영광군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/03/16",
+    "baseDate": "2025/03/17",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
+          {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"}
         ]
@@ -27,72 +27,72 @@
         "title": "Block예금",
         "entries": [
           {"duration": 0, "rate": "2.00"},
-          {"duration": 3, "rate": "2.90"},
-          {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "3.30"},
+          {"duration": 3, "rate": "2.80"},
+          {"duration": 6, "rate": "2.90"},
+          {"duration": 12, "rate": "3.20"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.20"}]
+        "entries": [{"duration": 12, "rate": "3.10"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": 1, "rate": "2.00"},
           {"duration": 2, "rate": "2.00"},
-          {"duration": 3, "rate": "2.90"},
-          {"duration": 4, "rate": "2.90"},
-          {"duration": 5, "rate": "2.90"},
+          {"duration": 3, "rate": "2.80"},
+          {"duration": 4, "rate": "2.80"},
+          {"duration": 5, "rate": "2.80"},
           {"duration": 6, "rate": "2.90"},
-          {"duration": 7, "rate": "3.00"},
-          {"duration": 8, "rate": "3.00"},
-          {"duration": 9, "rate": "3.00"},
-          {"duration": 10, "rate": "3.00"},
-          {"duration": 11, "rate": "3.00"},
-          {"duration": 12, "rate": "3.30"}
+          {"duration": 7, "rate": "2.90"},
+          {"duration": 8, "rate": "2.90"},
+          {"duration": 9, "rate": "2.90"},
+          {"duration": 10, "rate": "2.90"},
+          {"duration": 11, "rate": "2.90"},
+          {"duration": 12, "rate": "3.20"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.30"}]
+        "entries": [{"duration": 12, "rate": "3.20"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/03/16",
+    "baseDate": "2025/03/17",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.60"},
-          {"duration": 24, "rate": "3.40"},
-          {"duration": 36, "rate": "3.40"}
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 36, "rate": "3.30"}
         ]
       },
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.60"},
-          {"duration": 24, "rate": "3.40"},
-          {"duration": 36, "rate": "3.40"}
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 36, "rate": "3.30"}
         ]
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
-          {"duration": 6, "rate": "3.30"},
-          {"duration": 12, "rate": "3.50"}
+          {"duration": 6, "rate": "3.20"},
+          {"duration": 12, "rate": "3.40"}
         ]
       },
       {
@@ -103,36 +103,36 @@
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "2.00"},
-          {"duration": 6, "rate": "3.40"},
-          {"duration": 7, "rate": "3.00"},
-          {"duration": 12, "rate": "3.30"},
-          {"duration": 13, "rate": "3.20"},
+          {"duration": 6, "rate": "2.90"},
+          {"duration": 7, "rate": "2.90"},
+          {"duration": 12, "rate": "3.20"},
+          {"duration": 13, "rate": "3.00"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.30"}]
+        "entries": [{"duration": 12, "rate": "3.20"}]
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.20"}]
+        "entries": [{"duration": 12, "rate": "3.10"}]
       },
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 6, "rate": "3.20"},
-          {"duration": 12, "rate": "3.60"},
-          {"duration": 24, "rate": "3.40"},
-          {"duration": 36, "rate": "3.40"}
+          {"duration": 6, "rate": "2.90"},
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 36, "rate": "3.30"}
         ]
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "3.40"}]
+        "entries": [{"duration": 12, "rate": "3.20"}]
       }
     ]
   },
-  "baseDate": "2025/03/16"
+  "baseDate": "2025/03/17"
 }
