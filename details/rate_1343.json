@@ -1,0 +1,12 @@
+{
+  "id": "1343",
+  "bank": {
+    "gmgoCd": "1343",
+    "gmgoNm": "초량",
+    "r1": "부산",
+    "r2": "동구"
+  },
+  "deferredDeposit": null,
+  "installmentSavings": null,
+  "baseDate": null
+}
