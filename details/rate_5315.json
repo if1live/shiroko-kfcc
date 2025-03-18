@@ -2,12 +2,12 @@
   "id": "5315",
   "bank": {
     "gmgoCd": "5315",
-    "gmgoNm": "현곡",
+    "gmgoNm": "더존",
     "r1": "경북",
     "r2": "경주시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/03/18",
+    "baseDate": "2025/03/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/03/18",
+    "baseDate": "2025/03/19",
     "products": [
       {
         "title": "정기적금",
@@ -126,5 +126,5 @@
       }
     ]
   },
-  "baseDate": "2025/03/18"
+  "baseDate": "2025/03/19"
 }

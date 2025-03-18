@@ -7,7 +7,7 @@
     "r2": "해운대구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/03/18",
+    "baseDate": "2025/03/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -76,18 +76,18 @@
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": 1, "rate": "0.60"},
-          {"duration": 2, "rate": "0.60"},
-          {"duration": 3, "rate": "1.40"},
-          {"duration": 4, "rate": "1.40"},
-          {"duration": 5, "rate": "1.40"},
-          {"duration": 6, "rate": "2.45"},
-          {"duration": 7, "rate": "2.45"},
-          {"duration": 8, "rate": "2.45"},
-          {"duration": 9, "rate": "2.45"},
-          {"duration": 10, "rate": "2.45"},
-          {"duration": 11, "rate": "2.45"},
-          {"duration": 12, "rate": "3.15"}
+          {"duration": null, "rate": "0.60"},
+          {"duration": null, "rate": "0.60"},
+          {"duration": null, "rate": "1.40"},
+          {"duration": null, "rate": "1.40"},
+          {"duration": null, "rate": "1.40"},
+          {"duration": null, "rate": "2.45"},
+          {"duration": null, "rate": "2.45"},
+          {"duration": null, "rate": "2.45"},
+          {"duration": null, "rate": "2.45"},
+          {"duration": null, "rate": "2.45"},
+          {"duration": null, "rate": "2.45"},
+          {"duration": null, "rate": "3.15"}
         ]
       },
       {
@@ -97,7 +97,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/03/18",
+    "baseDate": "2025/03/19",
     "products": [
       {
         "title": "정기적금",
@@ -171,5 +171,5 @@
       }
     ]
   },
-  "baseDate": "2025/03/18"
+  "baseDate": "2025/03/19"
 }
