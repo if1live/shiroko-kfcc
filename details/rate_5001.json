@@ -7,7 +7,7 @@
     "r2": "정읍시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/03/21",
+    "baseDate": "2025/03/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -76,7 +76,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/03/21",
+    "baseDate": "2025/03/22",
     "products": [
       {
         "title": "정기적금",
@@ -143,7 +143,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.10"}]
       },
       {
         "title": "꿈모아상호부금",
@@ -161,5 +161,5 @@
       }
     ]
   },
-  "baseDate": "2025/03/21"
+  "baseDate": "2025/03/22"
 }
