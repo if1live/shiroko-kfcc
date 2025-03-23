@@ -7,12 +7,12 @@
     "r2": "달서구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/03/23",
+    "baseDate": "2025/03/24",
     "products": []
   },
   "installmentSavings": {
-    "baseDate": "2025/03/23",
+    "baseDate": "2025/03/24",
     "products": []
   },
-  "baseDate": "2025/03/23"
+  "baseDate": "2025/03/24"
 }

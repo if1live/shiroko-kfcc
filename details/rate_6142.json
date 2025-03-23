@@ -7,18 +7,18 @@
     "r2": "김해시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/03/23",
+    "baseDate": "2025/03/24",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": 1, "rate": "0.40"},
           {"duration": 3, "rate": "2.00"},
-          {"duration": 6, "rate": "3.10"},
-          {"duration": 12, "rate": "3.30"},
-          {"duration": 13, "rate": "3.10"},
-          {"duration": 24, "rate": "3.10"},
-          {"duration": 36, "rate": "3.10"}
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 12, "rate": "3.20"},
+          {"duration": 13, "rate": "2.90"},
+          {"duration": 24, "rate": "2.90"},
+          {"duration": 36, "rate": "2.80"}
         ]
       },
       {
@@ -28,16 +28,16 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/03/23",
+    "baseDate": "2025/03/24",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "1.50"},
-          {"duration": 12, "rate": "4.10"},
-          {"duration": 13, "rate": "3.80"},
-          {"duration": 24, "rate": "3.80"},
-          {"duration": 36, "rate": "3.80"}
+          {"duration": 12, "rate": "4.00"},
+          {"duration": 13, "rate": "3.50"},
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 36, "rate": "3.20"}
         ]
       },
       {
@@ -57,7 +57,7 @@
           {"duration": 1, "rate": "0.00"},
           {"duration": 3, "rate": "0.00"},
           {"duration": 6, "rate": "1.50"},
-          {"duration": 12, "rate": "3.30"},
+          {"duration": 12, "rate": "3.10"},
           {"duration": 13, "rate": "2.80"},
           {"duration": 24, "rate": "2.80"},
           {"duration": 36, "rate": "2.80"}
@@ -82,5 +82,5 @@
       }
     ]
   },
-  "baseDate": "2025/03/23"
+  "baseDate": "2025/03/24"
 }
