@@ -7,7 +7,7 @@
     "r2": "홍성군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/03/28",
+    "baseDate": "2025/03/29",
     "products": [
       {
         "title": "정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/03/28",
+    "baseDate": "2025/03/29",
     "products": [
       {
         "title": "정기적금",
@@ -135,7 +135,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.10"}]
+        "entries": [{"duration": 12, "rate": "3.40"}]
       },
       {
         "title": "꿈모아상호부금",
@@ -147,5 +147,5 @@
       }
     ]
   },
-  "baseDate": "2025/03/28"
+  "baseDate": "2025/03/29"
 }
