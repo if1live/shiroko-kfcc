@@ -7,7 +7,7 @@
     "r2": "부산진구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/03/31",
+    "baseDate": "2025/04/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,9 +15,9 @@
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "2.10"},
           {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.35"},
-          {"duration": null, "rate": "3.40"}
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.30"}
         ]
       },
       {
@@ -51,7 +51,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/03/31",
+    "baseDate": "2025/04/01",
     "products": [
       {
         "title": "정기적금",
@@ -61,10 +61,6 @@
           {"duration": 24, "rate": "3.40"},
           {"duration": 36, "rate": "3.30"}
         ]
-      },
-      {
-        "title": "MG+신용카드 적금",
-        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "자유적립적금",
@@ -103,5 +99,5 @@
       }
     ]
   },
-  "baseDate": "2025/03/31"
+  "baseDate": "2025/04/01"
 }

@@ -1,0 +1,12 @@
+{
+  "id": "4630",
+  "bank": {
+    "gmgoCd": "4630",
+    "gmgoNm": "서청주",
+    "r1": "충북",
+    "r2": "청주시"
+  },
+  "deferredDeposit": null,
+  "installmentSavings": null,
+  "baseDate": null
+}

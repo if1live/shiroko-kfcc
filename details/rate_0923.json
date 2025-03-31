@@ -7,7 +7,7 @@
     "r2": "관악구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/03/31",
+    "baseDate": "2025/04/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -70,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/03/31",
+    "baseDate": "2025/04/01",
     "products": [
       {
         "title": "정기적금",
@@ -79,10 +79,6 @@
           {"duration": 24, "rate": "4.00"},
           {"duration": 36, "rate": "4.00"}
         ]
-      },
-      {
-        "title": "MG+신용카드 적금",
-        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "자유적립적금",
@@ -113,5 +109,5 @@
       }
     ]
   },
-  "baseDate": "2025/03/31"
+  "baseDate": "2025/04/01"
 }
