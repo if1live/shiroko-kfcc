@@ -7,7 +7,7 @@
     "r2": "순천시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/03",
+    "baseDate": "2025/04/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -72,7 +72,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/03",
+    "baseDate": "2025/04/04",
     "products": [
       {
         "title": "정기적금",
@@ -153,7 +153,7 @@
         "entries": [
           {"duration": 12, "rate": "3.20"},
           {"duration": 24, "rate": "2.80"},
-          {"duration": 36, "rate": "2.80"}
+          {"duration": 36, "rate": "3.40"}
         ]
       },
       {
@@ -162,5 +162,5 @@
       }
     ]
   },
-  "baseDate": "2025/04/03"
+  "baseDate": "2025/04/04"
 }
