@@ -7,7 +7,7 @@
     "r2": "평택시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/06",
+    "baseDate": "2025/04/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -95,7 +95,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/06",
+    "baseDate": "2025/04/07",
     "products": [
       {
         "title": "정기적금",
@@ -130,6 +130,10 @@
           {"duration": 6, "rate": "3.50"},
           {"duration": 12, "rate": "3.70"}
         ]
+      },
+      {
+        "title": "MG희망나눔아기뱀적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -185,5 +189,5 @@
       }
     ]
   },
-  "baseDate": "2025/04/06"
+  "baseDate": "2025/04/07"
 }

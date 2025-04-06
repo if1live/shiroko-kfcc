@@ -7,14 +7,14 @@
     "r2": "동구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/06",
+    "baseDate": "2025/04/07",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "3.10"}
@@ -63,13 +63,13 @@
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.50"}
+          {"duration": null, "rate": "3.40"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/06",
+    "baseDate": "2025/04/07",
     "products": [
       {
         "title": "정기적금",
@@ -101,6 +101,10 @@
         ]
       },
       {
+        "title": "MG희망나눔아기뱀적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
+      },
+      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "1.00"},
@@ -119,5 +123,5 @@
       }
     ]
   },
-  "baseDate": "2025/04/06"
+  "baseDate": "2025/04/07"
 }
