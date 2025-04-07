@@ -7,7 +7,7 @@
     "r2": "제주시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/07",
+    "baseDate": "2025/04/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -48,7 +48,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/07",
+    "baseDate": "2025/04/08",
     "products": [
       {
         "title": "정기적금",
@@ -77,6 +77,10 @@
         ]
       },
       {
+        "title": "MG희망나눔아기뱀적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
+      },
+      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "1.00"},
@@ -101,5 +105,5 @@
       }
     ]
   },
-  "baseDate": "2025/04/07"
+  "baseDate": "2025/04/08"
 }
