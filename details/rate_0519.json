@@ -2,12 +2,12 @@
   "id": "0519",
   "bank": {
     "gmgoCd": "0519",
-    "gmgoNm": "이문.휘경동",
+    "gmgoNm": "우리누리",
     "r1": "서울",
     "r2": "동대문구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/09",
+    "baseDate": "2025/04/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -97,7 +97,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/09",
+    "baseDate": "2025/04/10",
     "products": [
       {
         "title": "정기적금",
@@ -190,5 +190,5 @@
       }
     ]
   },
-  "baseDate": "2025/04/09"
+  "baseDate": "2025/04/10"
 }
