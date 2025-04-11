@@ -7,16 +7,16 @@
     "r2": "북구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/11",
+    "baseDate": "2025/04/12",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.35"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"}
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "3.25"},
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.80"}
         ]
       },
       {
@@ -38,13 +38,13 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.30"}
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "3.20"}
         ]
       },
       {
@@ -54,16 +54,16 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/11",
+    "baseDate": "2025/04/12",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "3.50"},
-          {"duration": 36, "rate": "3.50"},
-          {"duration": 48, "rate": "3.50"},
-          {"duration": 60, "rate": "3.50"}
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 24, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"},
+          {"duration": 48, "rate": "3.00"},
+          {"duration": 60, "rate": "3.00"}
         ]
       },
       {
@@ -101,5 +101,5 @@
       }
     ]
   },
-  "baseDate": "2025/04/11"
+  "baseDate": "2025/04/12"
 }
