@@ -7,7 +7,7 @@
     "r2": "금산군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/13",
+    "baseDate": "2025/04/14",
     "products": [
       {
         "title": "정기예탁금",
@@ -43,7 +43,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/13",
+    "baseDate": "2025/04/14",
     "products": [
       {
         "title": "정기적금",
@@ -66,6 +66,10 @@
       {
         "title": "우리아기첫걸음정기적금",
         "entries": [{"duration": 12, "rate": "2.20"}]
+      },
+      {
+        "title": "MG희망나눔아기뱀적금",
+        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -105,5 +109,5 @@
       }
     ]
   },
-  "baseDate": "2025/04/13"
+  "baseDate": "2025/04/14"
 }
