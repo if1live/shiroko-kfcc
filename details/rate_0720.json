@@ -7,7 +7,7 @@
     "r2": "강서구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/18",
+    "baseDate": "2025/04/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/18",
+    "baseDate": "2025/04/19",
     "products": [
       {
         "title": "정기적금",
@@ -100,7 +100,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "1.20"},
-          {"duration": 12, "rate": "4.00"}
+          {"duration": 12, "rate": "3.40"}
         ]
       },
       {
@@ -156,5 +156,5 @@
       }
     ]
   },
-  "baseDate": "2025/04/18"
+  "baseDate": "2025/04/19"
 }

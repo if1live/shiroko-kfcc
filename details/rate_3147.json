@@ -7,7 +7,7 @@
     "r2": "유성구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/18",
+    "baseDate": "2025/04/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -39,11 +39,28 @@
       {
         "title": "MG더뱅킹정기예금",
         "entries": [{"duration": 12, "rate": "3.10"}]
+      },
+      {
+        "title": "꿈드림회전정기예탁금",
+        "entries": [
+          {"duration": 1, "rate": "0.40"},
+          {"duration": 2, "rate": "0.40"},
+          {"duration": 3, "rate": "1.10"},
+          {"duration": 4, "rate": "1.10"},
+          {"duration": 5, "rate": "1.10"},
+          {"duration": 6, "rate": "1.20"},
+          {"duration": 7, "rate": "1.20"},
+          {"duration": 8, "rate": "1.20"},
+          {"duration": 9, "rate": "1.20"},
+          {"duration": 10, "rate": "1.20"},
+          {"duration": 11, "rate": "1.20"},
+          {"duration": 12, "rate": "1.70"}
+        ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/18",
+    "baseDate": "2025/04/19",
     "products": [
       {
         "title": "정기적금",
@@ -114,5 +131,5 @@
       }
     ]
   },
-  "baseDate": "2025/04/18"
+  "baseDate": "2025/04/19"
 }
