@@ -7,17 +7,17 @@
     "r2": "부산진구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/21",
+    "baseDate": "2025/04/22",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.10"},
+          {"duration": null, "rate": "1.30"},
+          {"duration": null, "rate": "1.40"},
+          {"duration": null, "rate": "1.60"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "3.05"},
-          {"duration": null, "rate": "3.10"},
-          {"duration": null, "rate": "3.20"}
+          {"duration": null, "rate": "2.30"},
+          {"duration": null, "rate": "2.40"}
         ]
       },
       {
@@ -54,29 +54,29 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/21",
+    "baseDate": "2025/04/22",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 6, "rate": "2.70"},
-          {"duration": 12, "rate": "3.50"},
-          {"duration": 24, "rate": "3.60"},
-          {"duration": 36, "rate": "3.70"}
+          {"duration": 6, "rate": "1.90"},
+          {"duration": 12, "rate": "2.70"},
+          {"duration": 24, "rate": "2.80"},
+          {"duration": 36, "rate": "2.90"}
         ]
       },
       {
         "title": "자유적립적금",
         "entries": [
-          {"duration": 1, "rate": "1.20"},
-          {"duration": 3, "rate": "1.70"},
-          {"duration": 6, "rate": "2.20"},
-          {"duration": 12, "rate": "3.00"},
-          {"duration": 24, "rate": "3.10"},
-          {"duration": 36, "rate": "3.20"}
+          {"duration": 1, "rate": "0.40"},
+          {"duration": 3, "rate": "0.90"},
+          {"duration": 6, "rate": "1.40"},
+          {"duration": 12, "rate": "2.20"},
+          {"duration": 24, "rate": "2.30"},
+          {"duration": 36, "rate": "2.40"}
         ]
       }
     ]
   },
-  "baseDate": "2025/04/21"
+  "baseDate": "2025/04/22"
 }

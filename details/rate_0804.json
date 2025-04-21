@@ -7,14 +7,14 @@
     "r2": "영등포구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/21",
+    "baseDate": "2025/04/22",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.30"}
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "3.20"}
         ]
       },
       {
@@ -22,10 +22,10 @@
         "entries": [
           {"duration": 0, "rate": "1.60"},
           {"duration": 3, "rate": "2.50"},
-          {"duration": 6, "rate": "3.00"},
+          {"duration": 6, "rate": "2.90"},
           {"duration": 12, "rate": "5.20"},
-          {"duration": 24, "rate": "3.10"},
-          {"duration": 36, "rate": "3.10"}
+          {"duration": 24, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
@@ -33,13 +33,13 @@
         "entries": [
           {"duration": 1, "rate": "1.60"},
           {"duration": 3, "rate": "2.50"},
-          {"duration": 6, "rate": "3.00"},
-          {"duration": 9, "rate": "3.00"},
-          {"duration": 12, "rate": "3.30"},
-          {"duration": 18, "rate": "3.10"},
-          {"duration": 24, "rate": "3.10"},
-          {"duration": 30, "rate": "3.10"},
-          {"duration": 36, "rate": "3.10"}
+          {"duration": 6, "rate": "2.90"},
+          {"duration": 9, "rate": "2.90"},
+          {"duration": 12, "rate": "3.20"},
+          {"duration": 18, "rate": "3.00"},
+          {"duration": 24, "rate": "3.00"},
+          {"duration": 30, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
@@ -54,19 +54,19 @@
           {"duration": 3, "rate": "2.50"},
           {"duration": 4, "rate": "2.50"},
           {"duration": 5, "rate": "2.50"},
-          {"duration": 6, "rate": "3.00"},
-          {"duration": 7, "rate": "3.00"},
-          {"duration": 8, "rate": "3.00"},
-          {"duration": 9, "rate": "3.00"},
-          {"duration": 10, "rate": "3.00"},
-          {"duration": 11, "rate": "3.00"},
-          {"duration": 12, "rate": "3.32"}
+          {"duration": 6, "rate": "2.90"},
+          {"duration": 7, "rate": "2.90"},
+          {"duration": 8, "rate": "2.90"},
+          {"duration": 9, "rate": "2.90"},
+          {"duration": 10, "rate": "2.90"},
+          {"duration": 11, "rate": "2.90"},
+          {"duration": 12, "rate": "3.22"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/21",
+    "baseDate": "2025/04/22",
     "products": [
       {
         "title": "정기적금",
@@ -93,21 +93,21 @@
         "entries": [
           {"duration": 1, "rate": "1.60"},
           {"duration": 3, "rate": "2.50"},
-          {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "3.30"},
-          {"duration": 24, "rate": "3.10"},
-          {"duration": 36, "rate": "3.10"}
+          {"duration": 6, "rate": "2.90"},
+          {"duration": 12, "rate": "3.20"},
+          {"duration": 24, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.30"}]
+        "entries": [{"duration": 12, "rate": "3.20"}]
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "3.30"}]
+        "entries": [{"duration": 12, "rate": "3.20"}]
       }
     ]
   },
-  "baseDate": "2025/04/21"
+  "baseDate": "2025/04/22"
 }
