@@ -7,7 +7,7 @@
     "r2": "안동시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/22",
+    "baseDate": "2025/04/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,37 +73,37 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/22",
+    "baseDate": "2025/04/23",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.50"},
-          {"duration": 24, "rate": "4.50"},
-          {"duration": 36, "rate": "4.50"}
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 24, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.50"},
-          {"duration": 24, "rate": "4.50"},
-          {"duration": 36, "rate": "4.50"}
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 24, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "4.50"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "4.50"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
-          {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "3.90"}
+          {"duration": 6, "rate": "0.10"},
+          {"duration": 12, "rate": "3.50"}
         ]
       },
       {
@@ -152,8 +152,8 @@
         "title": "꿈모아상호부금",
         "entries": [
           {"duration": 12, "rate": "3.00"},
-          {"duration": 24, "rate": "2.90"},
-          {"duration": 36, "rate": "2.90"}
+          {"duration": 24, "rate": "7.00"},
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
@@ -162,5 +162,5 @@
       }
     ]
   },
-  "baseDate": "2025/04/22"
+  "baseDate": "2025/04/23"
 }

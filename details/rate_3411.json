@@ -7,29 +7,29 @@
     "r2": "서산시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/22",
+    "baseDate": "2025/04/23",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "2.30"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "3.40"},
-          {"duration": null, "rate": "3.30"}
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.60"}
         ]
       },
       {
         "title": "Block예금",
         "entries": [
-          {"duration": 0, "rate": "0.10"},
-          {"duration": 3, "rate": "2.30"},
+          {"duration": 0, "rate": "1.00"},
+          {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "3.20"},
           {"duration": 12, "rate": "3.70"},
-          {"duration": 24, "rate": "3.40"},
-          {"duration": 36, "rate": "3.30"}
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 36, "rate": "3.60"}
         ]
       },
       {
@@ -37,9 +37,9 @@
         "entries": [
           {"duration": 1, "rate": "0.10"},
           {"duration": 2, "rate": "0.10"},
-          {"duration": 3, "rate": "2.30"},
-          {"duration": 4, "rate": "2.30"},
-          {"duration": 5, "rate": "2.30"},
+          {"duration": 3, "rate": "2.50"},
+          {"duration": 4, "rate": "2.50"},
+          {"duration": 5, "rate": "2.50"},
           {"duration": 6, "rate": "3.20"},
           {"duration": 7, "rate": "3.20"},
           {"duration": 8, "rate": "3.20"},
@@ -52,7 +52,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/22",
+    "baseDate": "2025/04/23",
     "products": [
       {
         "title": "정기적금",
@@ -91,5 +91,5 @@
       }
     ]
   },
-  "baseDate": "2025/04/22"
+  "baseDate": "2025/04/23"
 }
