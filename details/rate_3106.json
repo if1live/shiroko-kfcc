@@ -7,7 +7,7 @@
     "r2": "중구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/28",
+    "baseDate": "2025/04/29",
     "products": [
       {
         "title": "정기예탁금",
@@ -23,17 +23,17 @@
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.25"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "3.00"}
         ]
       },
@@ -56,15 +56,15 @@
           {"duration": 6, "rate": "3.00"},
           {"duration": 9, "rate": "3.00"},
           {"duration": 12, "rate": "3.25"},
-          {"duration": 18, "rate": "3.20"},
-          {"duration": 24, "rate": "3.20"},
-          {"duration": 30, "rate": "3.20"},
+          {"duration": 18, "rate": "3.10"},
+          {"duration": 24, "rate": "3.10"},
+          {"duration": 30, "rate": "3.10"},
           {"duration": 36, "rate": "3.00"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.25"}]
+        "entries": [{"duration": 12, "rate": "3.20"}]
       },
       {
         "title": "MG기업정기예금(A)",
@@ -72,8 +72,8 @@
           {"duration": 1, "rate": "1.00"},
           {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "3.40"},
-          {"duration": 18, "rate": "3.20"},
+          {"duration": 12, "rate": "3.25"},
+          {"duration": 18, "rate": "3.10"},
           {"duration": 24, "rate": "3.00"}
         ]
       },
@@ -101,7 +101,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/28",
+    "baseDate": "2025/04/29",
     "products": [
       {
         "title": "정기적금",
@@ -144,17 +144,17 @@
           {"duration": 1, "rate": "1.00"},
           {"duration": 6, "rate": "3.00"},
           {"duration": 12, "rate": "3.20"},
-          {"duration": 13, "rate": "3.20"},
-          {"duration": 14, "rate": "3.20"},
-          {"duration": 15, "rate": "3.20"},
-          {"duration": 16, "rate": "3.20"},
-          {"duration": 17, "rate": "3.20"},
-          {"duration": 18, "rate": "3.20"},
-          {"duration": 19, "rate": "3.20"},
-          {"duration": 20, "rate": "3.20"},
-          {"duration": 21, "rate": "3.20"},
-          {"duration": 22, "rate": "3.20"},
-          {"duration": 23, "rate": "3.20"},
+          {"duration": 13, "rate": "3.00"},
+          {"duration": 14, "rate": "3.00"},
+          {"duration": 15, "rate": "3.00"},
+          {"duration": 16, "rate": "3.00"},
+          {"duration": 17, "rate": "3.00"},
+          {"duration": 18, "rate": "3.00"},
+          {"duration": 19, "rate": "3.00"},
+          {"duration": 20, "rate": "3.00"},
+          {"duration": 21, "rate": "3.00"},
+          {"duration": 22, "rate": "3.00"},
+          {"duration": 23, "rate": "3.00"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
@@ -189,5 +189,5 @@
       }
     ]
   },
-  "baseDate": "2025/04/28"
+  "baseDate": "2025/04/29"
 }
