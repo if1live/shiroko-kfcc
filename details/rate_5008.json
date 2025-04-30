@@ -7,7 +7,7 @@
     "r2": "정읍시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/30",
+    "baseDate": "2025/05/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -36,7 +36,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/30",
+    "baseDate": "2025/05/01",
     "products": [
       {
         "title": "정기적금",
@@ -49,6 +49,14 @@
       {
         "title": "MG희망나눔아기뱀적금",
         "entries": [{"duration": 12, "rate": "6.00"}]
+      },
+      {
+        "title": "MG꿈나무적금",
+        "entries": [
+          {"duration": 12, "rate": "4.20"},
+          {"duration": 24, "rate": "4.10"},
+          {"duration": 36, "rate": "4.00"}
+        ]
       },
       {
         "title": "자유적립적금",
@@ -67,5 +75,5 @@
       }
     ]
   },
-  "baseDate": "2025/04/30"
+  "baseDate": "2025/05/01"
 }

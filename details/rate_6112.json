@@ -7,7 +7,7 @@
     "r2": "창원시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/30",
+    "baseDate": "2025/05/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -38,7 +38,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/30",
+    "baseDate": "2025/05/01",
     "products": [
       {
         "title": "정기적금",
@@ -62,6 +62,15 @@
         "entries": [{"duration": 12, "rate": "1.70"}]
       },
       {
+        "title": "MG꿈나무적금",
+        "entries": [
+          {"duration": 6, "rate": "2.80"},
+          {"duration": 12, "rate": "3.00"},
+          {"duration": 24, "rate": "2.60"},
+          {"duration": 36, "rate": "2.10"}
+        ]
+      },
+      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "1.30"},
@@ -77,5 +86,5 @@
       }
     ]
   },
-  "baseDate": "2025/04/30"
+  "baseDate": "2025/05/01"
 }

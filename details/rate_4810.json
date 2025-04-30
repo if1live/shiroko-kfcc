@@ -7,7 +7,7 @@
     "r2": "전주시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/30",
+    "baseDate": "2025/05/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -39,7 +39,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/30",
+    "baseDate": "2025/05/01",
     "products": [
       {
         "title": "정기적금",
@@ -57,6 +57,17 @@
         "entries": [{"duration": 12, "rate": "3.20"}]
       },
       {
+        "title": "MG꿈나무적금",
+        "entries": [
+          {"duration": 12, "rate": "4.00"},
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 36, "rate": "4.00"},
+          {"duration": 37, "rate": "0.00"},
+          {"duration": 48, "rate": "0.00"},
+          {"duration": 60, "rate": "0.00"}
+        ]
+      },
+      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.10"},
@@ -68,5 +79,5 @@
       }
     ]
   },
-  "baseDate": "2025/04/30"
+  "baseDate": "2025/05/01"
 }

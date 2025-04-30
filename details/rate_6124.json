@@ -7,53 +7,53 @@
     "r2": "창원시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/04/30",
+    "baseDate": "2025/05/01",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": 3, "rate": "3.00"},
-          {"duration": 6, "rate": "3.10"},
-          {"duration": 12, "rate": "3.10"},
-          {"duration": 24, "rate": "3.10"},
-          {"duration": 36, "rate": "3.10"}
+          {"duration": 3, "rate": "2.70"},
+          {"duration": 6, "rate": "2.80"},
+          {"duration": 12, "rate": "2.90"},
+          {"duration": 24, "rate": "2.80"},
+          {"duration": 36, "rate": "2.80"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.10"}]
+        "entries": [{"duration": 12, "rate": "2.90"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": 1, "rate": "0.25"},
           {"duration": 2, "rate": "0.50"},
-          {"duration": 3, "rate": "3.00"},
-          {"duration": 4, "rate": "3.00"},
-          {"duration": 5, "rate": "3.00"},
-          {"duration": 6, "rate": "3.10"},
-          {"duration": 7, "rate": "3.10"},
-          {"duration": 8, "rate": "3.10"},
-          {"duration": 9, "rate": "3.10"},
-          {"duration": 10, "rate": "3.10"},
-          {"duration": 11, "rate": "3.10"},
-          {"duration": 12, "rate": "3.10"}
+          {"duration": 3, "rate": "2.70"},
+          {"duration": 4, "rate": "2.70"},
+          {"duration": 5, "rate": "2.70"},
+          {"duration": 6, "rate": "2.80"},
+          {"duration": 7, "rate": "2.80"},
+          {"duration": 8, "rate": "2.80"},
+          {"duration": 9, "rate": "2.80"},
+          {"duration": 10, "rate": "2.80"},
+          {"duration": 11, "rate": "2.80"},
+          {"duration": 12, "rate": "2.90"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/04/30",
+    "baseDate": "2025/05/01",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 6, "rate": "3.10"},
-          {"duration": 12, "rate": "3.40"},
-          {"duration": 24, "rate": "3.50"},
-          {"duration": 36, "rate": "3.50"},
-          {"duration": 48, "rate": "3.50"},
-          {"duration": 60, "rate": "3.50"}
+          {"duration": 6, "rate": "2.90"},
+          {"duration": 12, "rate": "3.20"},
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 36, "rate": "3.30"},
+          {"duration": 48, "rate": "3.30"},
+          {"duration": 60, "rate": "3.30"}
         ]
       },
       {
@@ -61,30 +61,41 @@
         "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
+        "title": "MG꿈나무적금",
+        "entries": [
+          {"duration": 6, "rate": "2.90"},
+          {"duration": 12, "rate": "3.20"},
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 36, "rate": "3.30"},
+          {"duration": 48, "rate": "3.30"},
+          {"duration": 60, "rate": "3.30"}
+        ]
+      },
+      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.10"},
-          {"duration": 6, "rate": "3.10"},
-          {"duration": 12, "rate": "3.10"},
-          {"duration": 24, "rate": "3.10"},
-          {"duration": 36, "rate": "3.10"},
-          {"duration": 48, "rate": "3.10"},
-          {"duration": 60, "rate": "3.10"}
+          {"duration": 6, "rate": "2.80"},
+          {"duration": 12, "rate": "2.90"},
+          {"duration": 24, "rate": "2.80"},
+          {"duration": 36, "rate": "2.80"},
+          {"duration": 48, "rate": "2.80"},
+          {"duration": 60, "rate": "2.80"}
         ]
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "3.10"}]
+        "entries": [{"duration": 12, "rate": "2.90"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.10"}]
+        "entries": [{"duration": 12, "rate": "2.90"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.10"}]
+        "entries": [{"duration": 12, "rate": "2.90"}]
       }
     ]
   },
-  "baseDate": "2025/04/30"
+  "baseDate": "2025/05/01"
 }
