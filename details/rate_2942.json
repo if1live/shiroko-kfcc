@@ -7,7 +7,7 @@
     "r2": "영광군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/01",
+    "baseDate": "2025/05/02",
     "products": [
       {
         "title": "정기예탁금",
@@ -57,17 +57,17 @@
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": 1, "rate": "0.30"},
-          {"duration": 2, "rate": "0.30"},
-          {"duration": 3, "rate": "0.80"},
-          {"duration": 4, "rate": "0.80"},
-          {"duration": 5, "rate": "0.80"},
-          {"duration": 6, "rate": "0.90"},
-          {"duration": 7, "rate": "0.90"},
-          {"duration": 8, "rate": "0.90"},
-          {"duration": 9, "rate": "0.90"},
-          {"duration": 10, "rate": "1.00"},
-          {"duration": 11, "rate": "1.00"},
+          {"duration": 1, "rate": "2.00"},
+          {"duration": 2, "rate": "2.00"},
+          {"duration": 3, "rate": "2.00"},
+          {"duration": 4, "rate": "2.50"},
+          {"duration": 5, "rate": "2.50"},
+          {"duration": 6, "rate": "2.80"},
+          {"duration": 7, "rate": "2.80"},
+          {"duration": 8, "rate": "2.80"},
+          {"duration": 9, "rate": "2.80"},
+          {"duration": 10, "rate": "2.80"},
+          {"duration": 11, "rate": "2.80"},
           {"duration": 12, "rate": "3.20"}
         ]
       },
@@ -78,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/01",
+    "baseDate": "2025/05/02",
     "products": [
       {
         "title": "정기적금",
@@ -121,5 +121,5 @@
       }
     ]
   },
-  "baseDate": "2025/05/01"
+  "baseDate": "2025/05/02"
 }
