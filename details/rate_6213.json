@@ -7,7 +7,7 @@
     "r2": "중구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/02",
+    "baseDate": "2025/05/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -26,7 +26,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/02",
+    "baseDate": "2025/05/03",
     "products": [
       {
         "title": "정기적금",
@@ -57,6 +57,14 @@
         "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
+        "title": "MG꿈나무적금",
+        "entries": [
+          {"duration": 12, "rate": "3.00"},
+          {"duration": 24, "rate": "2.60"},
+          {"duration": 36, "rate": "2.60"}
+        ]
+      },
+      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.50"},
@@ -78,5 +86,5 @@
       }
     ]
   },
-  "baseDate": "2025/05/02"
+  "baseDate": "2025/05/03"
 }
