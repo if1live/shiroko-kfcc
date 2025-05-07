@@ -7,7 +7,7 @@
     "r2": "무주군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/07",
+    "baseDate": "2025/05/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -40,10 +40,20 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/07",
+    "baseDate": "2025/05/08",
     "products": [
       {
         "title": "정기적금",
+        "entries": [
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"},
+          {"duration": 48, "rate": "3.50"},
+          {"duration": 60, "rate": "3.50"}
+        ]
+      },
+      {
+        "title": "MG꿈나무적금",
         "entries": [
           {"duration": 12, "rate": "3.50"},
           {"duration": 24, "rate": "3.50"},
@@ -83,5 +93,5 @@
       }
     ]
   },
-  "baseDate": "2025/05/07"
+  "baseDate": "2025/05/08"
 }
