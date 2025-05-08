@@ -7,7 +7,7 @@
     "r2": "영천시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/08",
+    "baseDate": "2025/05/09",
     "products": [
       {
         "title": "정기예탁금",
@@ -49,7 +49,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "1.80"}]
+        "entries": [{"duration": 12, "rate": "2.70"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -65,13 +65,13 @@
           {"duration": null, "rate": "0.10"},
           {"duration": null, "rate": "0.10"},
           {"duration": null, "rate": "0.10"},
-          {"duration": null, "rate": "3.10"}
+          {"duration": null, "rate": "3.00"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/08",
+    "baseDate": "2025/05/09",
     "products": [
       {
         "title": "정기적금",
@@ -93,8 +93,8 @@
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
-          {"duration": 6, "rate": "0.80"},
-          {"duration": 12, "rate": "2.50"}
+          {"duration": 6, "rate": "1.00"},
+          {"duration": 12, "rate": "3.00"}
         ]
       },
       {
@@ -131,7 +131,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "1.20"}]
+        "entries": [{"duration": 12, "rate": "2.50"}]
       },
       {
         "title": "일일자유적금",
@@ -156,5 +156,5 @@
       }
     ]
   },
-  "baseDate": "2025/05/08"
+  "baseDate": "2025/05/09"
 }
