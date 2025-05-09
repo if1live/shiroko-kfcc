@@ -7,7 +7,7 @@
     "r2": "나주시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/09",
+    "baseDate": "2025/05/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -71,7 +71,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/09",
+    "baseDate": "2025/05/10",
     "products": [
       {
         "title": "정기적금",
@@ -80,8 +80,8 @@
           {"duration": 12, "rate": "3.90"},
           {"duration": 24, "rate": "3.70"},
           {"duration": 36, "rate": "3.70"},
-          {"duration": 48, "rate": "4.00"},
-          {"duration": 60, "rate": "4.00"}
+          {"duration": 48, "rate": "3.70"},
+          {"duration": 60, "rate": "3.70"}
         ]
       },
       {
@@ -114,8 +114,8 @@
           {"duration": 12, "rate": "3.90"},
           {"duration": 24, "rate": "3.70"},
           {"duration": 36, "rate": "3.70"},
-          {"duration": 48, "rate": "4.00"},
-          {"duration": 60, "rate": "4.00"}
+          {"duration": 48, "rate": "3.70"},
+          {"duration": 60, "rate": "3.70"}
         ]
       },
       {
@@ -155,5 +155,5 @@
       }
     ]
   },
-  "baseDate": "2025/05/09"
+  "baseDate": "2025/05/10"
 }
