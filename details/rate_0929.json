@@ -7,16 +7,16 @@
     "r2": "관악구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/12",
+    "baseDate": "2025/05/13",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "2.90"}
+          {"duration": 1, "rate": "1.50"},
+          {"duration": 3, "rate": "2.50"},
+          {"duration": 6, "rate": "2.80"},
+          {"duration": 12, "rate": "3.00"},
+          {"duration": 24, "rate": "2.90"}
         ]
       },
       {
@@ -64,7 +64,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/12",
+    "baseDate": "2025/05/13",
     "products": [
       {
         "title": "정기적금",
@@ -125,5 +125,5 @@
       }
     ]
   },
-  "baseDate": "2025/05/12"
+  "baseDate": "2025/05/13"
 }
