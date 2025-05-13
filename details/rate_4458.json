@@ -7,7 +7,7 @@
     "r2": "춘천시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/13",
+    "baseDate": "2025/05/14",
     "products": [
       {
         "title": "정기예탁금",
@@ -64,6 +64,17 @@
         ]
       },
       {
+        "title": "MG기업정기예금(B)",
+        "entries": [
+          {"duration": 1, "rate": "0.30"},
+          {"duration": 3, "rate": "2.50"},
+          {"duration": 6, "rate": "3.10"},
+          {"duration": 12, "rate": "3.30"},
+          {"duration": 18, "rate": "3.10"},
+          {"duration": 24, "rate": "3.10"}
+        ]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.30"},
@@ -87,7 +98,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/13",
+    "baseDate": "2025/05/14",
     "products": [
       {
         "title": "정기적금",
@@ -178,5 +189,5 @@
       }
     ]
   },
-  "baseDate": "2025/05/13"
+  "baseDate": "2025/05/14"
 }
