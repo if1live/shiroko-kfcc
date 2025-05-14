@@ -7,7 +7,7 @@
     "r2": "중랑구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/14",
+    "baseDate": "2025/05/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.60"},
@@ -39,7 +39,7 @@
           {"duration": 1, "rate": "1.50"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.60"},
-          {"duration": 9, "rate": "2.70"},
+          {"duration": 9, "rate": "2.60"},
           {"duration": 12, "rate": "2.90"},
           {"duration": 18, "rate": "2.70"},
           {"duration": 24, "rate": "2.60"},
@@ -81,12 +81,12 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "3.10"}
         ]
       },
@@ -97,7 +97,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/14",
+    "baseDate": "2025/05/15",
     "products": [
       {
         "title": "정기적금",
@@ -200,5 +200,5 @@
       }
     ]
   },
-  "baseDate": "2025/05/14"
+  "baseDate": "2025/05/15"
 }

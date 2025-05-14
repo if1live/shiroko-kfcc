@@ -7,7 +7,7 @@
     "r2": "함양군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/14",
+    "baseDate": "2025/05/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -18,22 +18,11 @@
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"}
         ]
-      },
-      {
-        "title": "Block예금",
-        "entries": [
-          {"duration": 0, "rate": "0.10"},
-          {"duration": 3, "rate": "1.60"},
-          {"duration": 6, "rate": "2.10"},
-          {"duration": 12, "rate": "3.40"},
-          {"duration": 24, "rate": "3.40"},
-          {"duration": 36, "rate": "3.40"}
-        ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/14",
+    "baseDate": "2025/05/15",
     "products": [
       {
         "title": "정기적금",
@@ -75,5 +64,5 @@
       }
     ]
   },
-  "baseDate": "2025/05/14"
+  "baseDate": "2025/05/15"
 }

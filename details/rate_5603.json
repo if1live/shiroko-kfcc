@@ -7,7 +7,7 @@
     "r2": "영천시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/14",
+    "baseDate": "2025/05/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -64,7 +64,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/14",
+    "baseDate": "2025/05/15",
     "products": [
       {
         "title": "정기적금",
@@ -121,5 +121,5 @@
       }
     ]
   },
-  "baseDate": "2025/05/14"
+  "baseDate": "2025/05/15"
 }
