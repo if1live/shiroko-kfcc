@@ -7,7 +7,7 @@
     "r2": "보은군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/15",
+    "baseDate": "2025/05/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -47,7 +47,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.30"}]
+        "entries": [{"duration": 12, "rate": "3.10"}]
       },
       {
         "title": "MG기업정기예금(B)",
@@ -84,7 +84,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/15",
+    "baseDate": "2025/05/16",
     "products": [
       {
         "title": "정기적금",
@@ -157,5 +157,5 @@
       }
     ]
   },
-  "baseDate": "2025/05/15"
+  "baseDate": "2025/05/16"
 }
