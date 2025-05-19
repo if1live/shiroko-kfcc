@@ -7,7 +7,7 @@
     "r2": "연수구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/19",
+    "baseDate": "2025/05/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -49,6 +49,17 @@
         "entries": [{"duration": 12, "rate": "2.70"}]
       },
       {
+        "title": "MG기업정기예금(A)",
+        "entries": [
+          {"duration": 1, "rate": "1.80"},
+          {"duration": 3, "rate": "2.50"},
+          {"duration": 6, "rate": "2.60"},
+          {"duration": 12, "rate": "2.80"},
+          {"duration": 18, "rate": "2.50"},
+          {"duration": 24, "rate": "2.50"}
+        ]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.80"},
@@ -72,7 +83,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/19",
+    "baseDate": "2025/05/20",
     "products": [
       {
         "title": "정기적금",
@@ -173,5 +184,5 @@
       }
     ]
   },
-  "baseDate": "2025/05/19"
+  "baseDate": "2025/05/20"
 }
