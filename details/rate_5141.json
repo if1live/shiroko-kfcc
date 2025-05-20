@@ -7,7 +7,7 @@
     "r2": "김제시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/20",
+    "baseDate": "2025/05/21",
     "products": [
       {
         "title": "정기예탁금",
@@ -33,12 +33,12 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.20"}]
+        "entries": [{"duration": 12, "rate": "3.15"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/20",
+    "baseDate": "2025/05/21",
     "products": [
       {
         "title": "정기적금",
@@ -92,5 +92,5 @@
       }
     ]
   },
-  "baseDate": "2025/05/20"
+  "baseDate": "2025/05/21"
 }
