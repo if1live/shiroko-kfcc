@@ -7,14 +7,14 @@
     "r2": "성주군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/21",
+    "baseDate": "2025/05/22",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.10"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.50"}
         ]
@@ -25,7 +25,7 @@
           {"duration": 0, "rate": "0.50"},
           {"duration": 3, "rate": "2.10"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.10"},
+          {"duration": 12, "rate": "3.00"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.50"}
         ]
@@ -37,8 +37,8 @@
           {"duration": 3, "rate": "2.10"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 9, "rate": "2.50"},
-          {"duration": 12, "rate": "3.10"},
-          {"duration": 18, "rate": "3.10"},
+          {"duration": 12, "rate": "3.00"},
+          {"duration": 18, "rate": "3.00"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 30, "rate": "2.70"},
           {"duration": 36, "rate": "2.50"}
@@ -46,7 +46,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
+        "entries": [{"duration": 12, "rate": "2.90"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -62,19 +62,19 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.10"}
+          {"duration": null, "rate": "3.00"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/21",
+    "baseDate": "2025/05/22",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.10"},
+          {"duration": 12, "rate": "3.00"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.50"}
         ]
@@ -82,24 +82,24 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.10"},
+          {"duration": 12, "rate": "3.00"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.50"}
         ]
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "3.10"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "3.10"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.10"}
+          {"duration": 12, "rate": "3.00"}
         ]
       },
       {
@@ -110,7 +110,7 @@
         "title": "MG꿈나무적금",
         "entries": [
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.10"},
+          {"duration": 12, "rate": "3.00"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.50"}
         ]
@@ -121,18 +121,18 @@
           {"duration": 1, "rate": "1.00"},
           {"duration": 3, "rate": "2.10"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.10"},
+          {"duration": 12, "rate": "3.00"},
           {"duration": 24, "rate": "2.60"},
           {"duration": 36, "rate": "2.60"}
         ]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.10"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
+        "entries": [{"duration": 12, "rate": "2.90"}]
       },
       {
         "title": "일일자유적금",
@@ -150,12 +150,12 @@
         "title": "꿈모아상호부금",
         "entries": [
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.10"},
+          {"duration": 12, "rate": "3.00"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.50"}
         ]
       }
     ]
   },
-  "baseDate": "2025/05/21"
+  "baseDate": "2025/05/22"
 }

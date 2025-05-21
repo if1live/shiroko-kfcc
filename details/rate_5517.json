@@ -7,7 +7,7 @@
     "r2": "구미시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/21",
+    "baseDate": "2025/05/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -45,11 +45,15 @@
           {"duration": 30, "rate": "0.00"},
           {"duration": 36, "rate": "0.00"}
         ]
+      },
+      {
+        "title": "MG더뱅킹정기예금",
+        "entries": [{"duration": 12, "rate": "3.22"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/21",
+    "baseDate": "2025/05/22",
     "products": [
       {
         "title": "정기적금",
@@ -83,5 +87,5 @@
       }
     ]
   },
-  "baseDate": "2025/05/21"
+  "baseDate": "2025/05/22"
 }
