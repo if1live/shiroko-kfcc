@@ -7,18 +7,18 @@
     "r2": "의정부"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/23",
+    "baseDate": "2025/05/24",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.15"},
-          {"duration": null, "rate": "3.00"}
+          {"duration": null, "rate": "2.90"}
         ]
       },
       {
@@ -28,38 +28,38 @@
           {"duration": 3, "rate": "2.60"},
           {"duration": 6, "rate": "2.80"},
           {"duration": 9, "rate": "2.80"},
-          {"duration": 12, "rate": "3.20"},
-          {"duration": 18, "rate": "3.20"},
-          {"duration": 24, "rate": "3.20"},
-          {"duration": 30, "rate": "3.20"},
-          {"duration": 36, "rate": "3.10"}
+          {"duration": 12, "rate": "3.10"},
+          {"duration": 18, "rate": "3.00"},
+          {"duration": 24, "rate": "3.00"},
+          {"duration": 30, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "3.10"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.20"}
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "3.10"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/23",
+    "baseDate": "2025/05/24",
     "products": [
       {
         "title": "정기적금",
@@ -153,5 +153,5 @@
       }
     ]
   },
-  "baseDate": "2025/05/23"
+  "baseDate": "2025/05/24"
 }
