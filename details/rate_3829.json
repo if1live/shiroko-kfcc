@@ -7,7 +7,7 @@
     "r2": "용인시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/05/27",
+    "baseDate": "2025/05/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -34,7 +34,7 @@
         "title": "자유자재정기예금Ⅱ",
         "entries": [
           {"duration": 1, "rate": "1.85"},
-          {"duration": 3, "rate": "2.76"},
+          {"duration": 3, "rate": "2.15"},
           {"duration": 6, "rate": "2.30"},
           {"duration": 9, "rate": "2.30"},
           {"duration": 12, "rate": "2.70"},
@@ -64,7 +64,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/05/27",
+    "baseDate": "2025/05/28",
     "products": [
       {
         "title": "정기적금",
@@ -95,5 +95,5 @@
       }
     ]
   },
-  "baseDate": "2025/05/27"
+  "baseDate": "2025/05/28"
 }
