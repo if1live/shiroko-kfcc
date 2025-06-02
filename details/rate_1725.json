@@ -7,7 +7,7 @@
     "r2": "연제구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/06/02",
+    "baseDate": "2025/06/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -52,8 +52,8 @@
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": null, "rate": "0.50"},
-          {"duration": null, "rate": "0.50"},
+          {"duration": null, "rate": "0.60"},
+          {"duration": null, "rate": "0.60"},
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "1.50"},
@@ -63,7 +63,7 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.75"}
+          {"duration": null, "rate": "2.85"}
         ]
       },
       {
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/06/02",
+    "baseDate": "2025/06/03",
     "products": [
       {
         "title": "정기적금",
@@ -153,5 +153,5 @@
       }
     ]
   },
-  "baseDate": "2025/06/02"
+  "baseDate": "2025/06/03"
 }
