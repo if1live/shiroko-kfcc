@@ -7,7 +7,7 @@
     "r2": "태안군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/06/10",
+    "baseDate": "2025/06/11",
     "products": [
       {
         "title": "정기예탁금",
@@ -35,8 +35,8 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "0.00"},
+          {"duration": 1, "rate": "0.10"},
+          {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.80"},
           {"duration": 9, "rate": "2.80"},
           {"duration": 12, "rate": "3.00"},
@@ -66,7 +66,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/06/10",
+    "baseDate": "2025/06/11",
     "products": [
       {
         "title": "정기적금",
@@ -139,5 +139,5 @@
       }
     ]
   },
-  "baseDate": "2025/06/10"
+  "baseDate": "2025/06/11"
 }

@@ -7,7 +7,7 @@
     "r2": "홍성군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/06/10",
+    "baseDate": "2025/06/11",
     "products": [
       {
         "title": "정기예탁금",
@@ -25,9 +25,9 @@
         "title": "Block예금",
         "entries": [
           {"duration": 0, "rate": "0.30"},
-          {"duration": 3, "rate": "0.60"},
+          {"duration": 3, "rate": "0.30"},
           {"duration": 6, "rate": "2.60"},
-          {"duration": 12, "rate": "3.30"},
+          {"duration": 12, "rate": "3.00"},
           {"duration": 24, "rate": "2.80"},
           {"duration": 36, "rate": "2.70"}
         ]
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/06/10",
+    "baseDate": "2025/06/11",
     "products": [
       {
         "title": "정기적금",
@@ -158,5 +158,5 @@
       }
     ]
   },
-  "baseDate": "2025/06/10"
+  "baseDate": "2025/06/11"
 }
