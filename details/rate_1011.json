@@ -7,18 +7,18 @@
     "r2": "성동구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/06/15",
+    "baseDate": "2025/06/16",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.50"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "3.10"},
-          {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "2.90"}
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.80"}
         ]
       },
       {
@@ -33,24 +33,24 @@
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "3.20"}
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "3.10"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/06/15",
+    "baseDate": "2025/06/16",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.80"},
+          {"duration": 12, "rate": "3.70"},
           {"duration": 13, "rate": "3.50"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 25, "rate": "3.20"},
@@ -60,7 +60,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.80"},
+          {"duration": 12, "rate": "3.70"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.20"}
         ]
@@ -72,7 +72,7 @@
       {
         "title": "MG꿈나무적금",
         "entries": [
-          {"duration": 12, "rate": "3.80"},
+          {"duration": 12, "rate": "3.70"},
           {"duration": 13, "rate": "3.50"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 25, "rate": "3.20"},
@@ -84,9 +84,9 @@
         "entries": [
           {"duration": 1, "rate": "0.10"},
           {"duration": 6, "rate": "0.10"},
-          {"duration": 12, "rate": "3.00"},
-          {"duration": 24, "rate": "3.00"},
-          {"duration": 36, "rate": "3.00"}
+          {"duration": 12, "rate": "2.70"},
+          {"duration": 24, "rate": "2.70"},
+          {"duration": 36, "rate": "2.70"}
         ]
       },
       {
@@ -100,12 +100,12 @@
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 12, "rate": "3.00"},
-          {"duration": 24, "rate": "3.00"},
-          {"duration": 36, "rate": "3.00"}
+          {"duration": 12, "rate": "2.70"},
+          {"duration": 24, "rate": "2.70"},
+          {"duration": 36, "rate": "2.70"}
         ]
       }
     ]
   },
-  "baseDate": "2025/06/15"
+  "baseDate": "2025/06/16"
 }
