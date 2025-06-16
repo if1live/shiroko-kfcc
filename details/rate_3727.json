@@ -7,7 +7,7 @@
     "r2": "의왕시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/06/16",
+    "baseDate": "2025/06/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -98,7 +98,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/06/16",
+    "baseDate": "2025/06/17",
     "products": [
       {
         "title": "정기적금",
@@ -195,5 +195,5 @@
       }
     ]
   },
-  "baseDate": "2025/06/16"
+  "baseDate": "2025/06/17"
 }

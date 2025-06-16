@@ -7,17 +7,17 @@
     "r2": "김제시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/06/16",
+    "baseDate": "2025/06/17",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.30"},
-          {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "3.05"},
-          {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "2.90"}
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.95"},
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.80"}
         ]
       },
       {
@@ -25,10 +25,10 @@
         "entries": [
           {"duration": 0, "rate": "0.10"},
           {"duration": 3, "rate": "0.30"},
-          {"duration": 6, "rate": "2.90"},
-          {"duration": 12, "rate": "3.05"},
-          {"duration": 24, "rate": "2.90"},
-          {"duration": 36, "rate": "2.90"}
+          {"duration": 6, "rate": "2.80"},
+          {"duration": 12, "rate": "2.95"},
+          {"duration": 24, "rate": "2.80"},
+          {"duration": 36, "rate": "2.80"}
         ]
       },
       {
@@ -38,7 +38,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/06/16",
+    "baseDate": "2025/06/17",
     "products": [
       {
         "title": "정기적금",
@@ -76,10 +76,10 @@
         "entries": [
           {"duration": 1, "rate": "0.10"},
           {"duration": 3, "rate": "0.30"},
-          {"duration": 6, "rate": "2.90"},
-          {"duration": 12, "rate": "3.05"},
-          {"duration": 24, "rate": "2.90"},
-          {"duration": 36, "rate": "2.90"}
+          {"duration": 6, "rate": "2.80"},
+          {"duration": 12, "rate": "2.95"},
+          {"duration": 24, "rate": "2.80"},
+          {"duration": 36, "rate": "2.80"}
         ]
       },
       {
@@ -92,5 +92,5 @@
       }
     ]
   },
-  "baseDate": "2025/06/16"
+  "baseDate": "2025/06/17"
 }
