@@ -7,18 +7,18 @@
     "r2": "성남시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/06/17",
+    "baseDate": "2025/06/18",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.60"}
+          {"duration": null, "rate": "2.40"}
         ]
       },
       {
@@ -36,19 +36,19 @@
         "title": "자유자재정기예금Ⅱ",
         "entries": [
           {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "2.50"},
-          {"duration": 6, "rate": "2.70"},
-          {"duration": 9, "rate": "2.70"},
-          {"duration": 12, "rate": "3.00"},
-          {"duration": 18, "rate": "2.70"},
-          {"duration": 24, "rate": "2.70"},
-          {"duration": 30, "rate": "2.70"},
-          {"duration": 36, "rate": "2.60"}
+          {"duration": 3, "rate": "2.30"},
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 9, "rate": "2.50"},
+          {"duration": 12, "rate": "2.70"},
+          {"duration": 18, "rate": "2.50"},
+          {"duration": 24, "rate": "2.40"},
+          {"duration": 30, "rate": "2.40"},
+          {"duration": 36, "rate": "2.30"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.70"}]
+        "entries": [{"duration": 12, "rate": "2.50"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/06/17",
+    "baseDate": "2025/06/18",
     "products": [
       {
         "title": "정기적금",
@@ -169,5 +169,5 @@
       }
     ]
   },
-  "baseDate": "2025/06/17"
+  "baseDate": "2025/06/18"
 }

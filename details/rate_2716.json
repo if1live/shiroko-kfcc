@@ -7,7 +7,7 @@
     "r2": "구례군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/06/17",
+    "baseDate": "2025/06/18",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,10 +15,10 @@
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.10"},
           {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.10"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.75"},
-          {"duration": null, "rate": "2.70"}
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.50"}
         ]
       },
       {
@@ -38,26 +38,26 @@
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "3.10"}
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.90"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/06/17",
+    "baseDate": "2025/06/18",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.20"},
-          {"duration": 24, "rate": "3.10"},
-          {"duration": 36, "rate": "3.00"}
+          {"duration": 12, "rate": "3.00"},
+          {"duration": 24, "rate": "2.90"},
+          {"duration": 36, "rate": "2.90"}
         ]
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "3.20"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "MG희망나눔아기뱀적금",
@@ -66,9 +66,9 @@
       {
         "title": "MG꿈나무적금",
         "entries": [
-          {"duration": 12, "rate": "3.20"},
-          {"duration": 24, "rate": "3.10"},
-          {"duration": 36, "rate": "3.00"}
+          {"duration": 12, "rate": "3.00"},
+          {"duration": 24, "rate": "2.90"},
+          {"duration": 36, "rate": "2.90"}
         ]
       },
       {
@@ -76,9 +76,9 @@
         "entries": [
           {"duration": 1, "rate": "1.00"},
           {"duration": 6, "rate": "1.50"},
-          {"duration": 12, "rate": "3.20"},
-          {"duration": 24, "rate": "3.10"},
-          {"duration": 36, "rate": "3.10"}
+          {"duration": 12, "rate": "3.00"},
+          {"duration": 24, "rate": "2.90"},
+          {"duration": 36, "rate": "2.90"}
         ]
       },
       {
@@ -95,5 +95,5 @@
       }
     ]
   },
-  "baseDate": "2025/06/17"
+  "baseDate": "2025/06/18"
 }
