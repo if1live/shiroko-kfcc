@@ -7,7 +7,7 @@
     "r2": "경주시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/06/19",
+    "baseDate": "2025/06/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -57,7 +57,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/06/19",
+    "baseDate": "2025/06/20",
     "products": [
       {
         "title": "정기적금",
@@ -92,6 +92,7 @@
           {"duration": 3, "rate": "1.80"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 12, "rate": "2.90"},
+          {"duration": 18, "rate": "2.95"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
@@ -137,5 +138,5 @@
       }
     ]
   },
-  "baseDate": "2025/06/19"
+  "baseDate": "2025/06/20"
 }

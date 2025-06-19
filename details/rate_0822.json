@@ -7,35 +7,35 @@
     "r2": "영등포구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/06/19",
+    "baseDate": "2025/06/20",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
+          {"duration": null, "rate": "1.90"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "2.80"}
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.60"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/06/19",
+    "baseDate": "2025/06/20",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.10"},
-          {"duration": 24, "rate": "2.90"},
-          {"duration": 36, "rate": "2.90"}
+          {"duration": 12, "rate": "2.90"},
+          {"duration": 24, "rate": "2.70"},
+          {"duration": 36, "rate": "2.70"}
         ]
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "2.70"}]
+        "entries": [{"duration": 12, "rate": "2.50"}]
       }
     ]
   },
-  "baseDate": "2025/06/19"
+  "baseDate": "2025/06/20"
 }
