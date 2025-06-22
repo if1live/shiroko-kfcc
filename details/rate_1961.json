@@ -7,7 +7,7 @@
     "r2": "북구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/06/22",
+    "baseDate": "2025/06/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,9 +15,9 @@
           {"duration": null, "rate": "0.60"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.80"}
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"}
         ]
       },
       {
@@ -33,7 +33,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.80"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -49,24 +49,24 @@
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "3.00"}
+          {"duration": null, "rate": "2.90"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/06/22",
+    "baseDate": "2025/06/23",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "2.00"},
           {"duration": 9, "rate": "2.00"},
-          {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "3.80"},
-          {"duration": 36, "rate": "3.80"},
-          {"duration": 48, "rate": "3.80"},
-          {"duration": 60, "rate": "3.80"}
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"},
+          {"duration": 48, "rate": "3.50"},
+          {"duration": 60, "rate": "3.50"}
         ]
       },
       {
@@ -101,11 +101,11 @@
         "entries": [
           {"duration": 6, "rate": "2.00"},
           {"duration": 9, "rate": "2.00"},
-          {"duration": 12, "rate": "4.00"},
-          {"duration": 24, "rate": "3.80"},
-          {"duration": 36, "rate": "3.80"},
-          {"duration": 48, "rate": "3.80"},
-          {"duration": 60, "rate": "3.80"}
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 24, "rate": "3.50"},
+          {"duration": 36, "rate": "3.50"},
+          {"duration": 48, "rate": "3.50"},
+          {"duration": 60, "rate": "3.50"}
         ]
       },
       {
@@ -134,5 +134,5 @@
       }
     ]
   },
-  "baseDate": "2025/06/22"
+  "baseDate": "2025/06/23"
 }

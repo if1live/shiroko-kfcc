@@ -7,7 +7,7 @@
     "r2": "부여군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/06/22",
+    "baseDate": "2025/06/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -54,14 +54,14 @@
           {"duration": 2, "rate": "0.40"},
           {"duration": 3, "rate": "0.70"},
           {"duration": 4, "rate": "1.00"},
-          {"duration": 5, "rate": "1.30"},
-          {"duration": 6, "rate": "1.50"},
-          {"duration": 7, "rate": "1.50"},
-          {"duration": 8, "rate": "1.50"},
-          {"duration": 9, "rate": "2.25"},
-          {"duration": 10, "rate": "2.25"},
-          {"duration": 11, "rate": "2.25"},
-          {"duration": 12, "rate": "3.00"}
+          {"duration": 5, "rate": "1.20"},
+          {"duration": 6, "rate": "1.40"},
+          {"duration": 7, "rate": "1.40"},
+          {"duration": 8, "rate": "1.40"},
+          {"duration": 9, "rate": "2.10"},
+          {"duration": 10, "rate": "2.10"},
+          {"duration": 11, "rate": "2.10"},
+          {"duration": 12, "rate": "2.80"}
         ]
       },
       {
@@ -71,7 +71,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/06/22",
+    "baseDate": "2025/06/23",
     "products": [
       {
         "title": "정기적금",
@@ -134,5 +134,5 @@
       }
     ]
   },
-  "baseDate": "2025/06/22"
+  "baseDate": "2025/06/23"
 }
