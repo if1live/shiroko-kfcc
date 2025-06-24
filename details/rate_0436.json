@@ -7,7 +7,7 @@
     "r2": "마포구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/06/24",
+    "baseDate": "2025/06/25",
     "products": [
       {
         "title": "정기예탁금",
@@ -58,7 +58,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/06/24",
+    "baseDate": "2025/06/25",
     "products": [
       {
         "title": "정기적금",
@@ -106,7 +106,7 @@
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "4.00"}]
+        "entries": [{"duration": 12, "rate": "2.45"}]
       },
       {
         "title": "MG더뱅킹자유적금",
@@ -135,5 +135,5 @@
       }
     ]
   },
-  "baseDate": "2025/06/24"
+  "baseDate": "2025/06/25"
 }
