@@ -7,7 +7,7 @@
     "r2": "성북구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/06/25",
+    "baseDate": "2025/06/26",
     "products": [
       {
         "title": "정기예탁금",
@@ -74,12 +74,11 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/06/25",
+    "baseDate": "2025/06/26",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 10, "rate": "4.50"},
           {"duration": 12, "rate": "3.50"},
           {"duration": 24, "rate": "3.20"},
           {"duration": 36, "rate": "3.00"}
@@ -115,7 +114,6 @@
       {
         "title": "MG꿈나무적금",
         "entries": [
-          {"duration": 10, "rate": "4.50"},
           {"duration": 12, "rate": "3.50"},
           {"duration": 24, "rate": "3.20"},
           {"duration": 36, "rate": "3.00"}
@@ -171,5 +169,5 @@
       }
     ]
   },
-  "baseDate": "2025/06/25"
+  "baseDate": "2025/06/26"
 }
