@@ -7,30 +7,30 @@
     "r2": "수원시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/06/26",
+    "baseDate": "2025/06/27",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
+          {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "3.10"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"}
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/06/26",
+    "baseDate": "2025/06/27",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "4.20"},
-          {"duration": 24, "rate": "4.30"},
-          {"duration": 36, "rate": "4.40"}
+          {"duration": 12, "rate": "3.90"},
+          {"duration": 24, "rate": "4.00"},
+          {"duration": 36, "rate": "4.10"}
         ]
       },
       {
@@ -49,5 +49,5 @@
       }
     ]
   },
-  "baseDate": "2025/06/26"
+  "baseDate": "2025/06/27"
 }
