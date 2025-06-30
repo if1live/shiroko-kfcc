@@ -7,7 +7,7 @@
     "r2": "제주시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/06/30",
+    "baseDate": "2025/07/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -45,7 +45,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/06/30",
+    "baseDate": "2025/07/01",
     "products": [
       {
         "title": "정기적금",
@@ -74,17 +74,6 @@
         "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
-        "title": "MG꿈나무적금",
-        "entries": [
-          {"duration": 6, "rate": "3.50"},
-          {"duration": 12, "rate": "4.10"},
-          {"duration": 24, "rate": "3.80"},
-          {"duration": 36, "rate": "3.50"},
-          {"duration": 48, "rate": "3.50"},
-          {"duration": 60, "rate": "3.50"}
-        ]
-      },
-      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "1.00"},
@@ -109,5 +98,5 @@
       }
     ]
   },
-  "baseDate": "2025/06/30"
+  "baseDate": "2025/07/01"
 }
