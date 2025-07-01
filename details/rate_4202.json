@@ -7,7 +7,7 @@
     "r2": "강릉시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/07/01",
+    "baseDate": "2025/07/02",
     "products": [
       {
         "title": "정기예탁금",
@@ -79,7 +79,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/07/01",
+    "baseDate": "2025/07/02",
     "products": [
       {
         "title": "정기적금",
@@ -157,7 +157,7 @@
           {"duration": 3, "rate": "1.80"},
           {"duration": 4, "rate": "1.80"},
           {"duration": 5, "rate": "1.80"},
-          {"duration": 6, "rate": "2.30"}
+          {"duration": 6, "rate": "3.70"}
         ]
       },
       {
@@ -175,5 +175,5 @@
       }
     ]
   },
-  "baseDate": "2025/07/01"
+  "baseDate": "2025/07/02"
 }
