@@ -7,7 +7,7 @@
     "r2": "예산군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/07/04",
+    "baseDate": "2025/07/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -29,6 +29,20 @@
           {"duration": 12, "rate": "2.85"},
           {"duration": 24, "rate": "2.00"},
           {"duration": 36, "rate": "1.50"}
+        ]
+      },
+      {
+        "title": "자유자재정기예금Ⅱ",
+        "entries": [
+          {"duration": 1, "rate": "0.20"},
+          {"duration": 3, "rate": "2.50"},
+          {"duration": 6, "rate": "2.70"},
+          {"duration": 9, "rate": "2.70"},
+          {"duration": 12, "rate": "2.85"},
+          {"duration": 18, "rate": "2.85"},
+          {"duration": 24, "rate": "2.00"},
+          {"duration": 30, "rate": "1.50"},
+          {"duration": 36, "rate": "0.00"}
         ]
       },
       {
@@ -59,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/07/04",
+    "baseDate": "2025/07/05",
     "products": [
       {
         "title": "정기적금",
@@ -79,6 +93,10 @@
           {"duration": 24, "rate": "2.85"},
           {"duration": 36, "rate": "2.85"}
         ]
+      },
+      {
+        "title": "MG뛰어라정기적금",
+        "entries": [{"duration": 12, "rate": "2.85"}]
       },
       {
         "title": "MG더뱅킹정기적금",
@@ -109,6 +127,14 @@
         "entries": [{"duration": 12, "rate": "2.85"}]
       },
       {
+        "title": "Smart 자유적립적금",
+        "entries": [{"duration": 12, "rate": "2.85"}]
+      },
+      {
+        "title": "MG주거래우대자유적금",
+        "entries": [{"duration": 12, "rate": "2.85"}]
+      },
+      {
         "title": "MG더뱅킹자유적금",
         "entries": [{"duration": 12, "rate": "2.35"}]
       },
@@ -123,8 +149,20 @@
           {"duration": 5, "rate": "0.80"},
           {"duration": 6, "rate": "1.00"}
         ]
+      },
+      {
+        "title": "꿈모아상호부금",
+        "entries": [
+          {"duration": 12, "rate": "2.85"},
+          {"duration": 24, "rate": "2.85"},
+          {"duration": 36, "rate": "2.85"}
+        ]
+      },
+      {
+        "title": "My꿈모아자유적금",
+        "entries": [{"duration": 12, "rate": "2.85"}]
       }
     ]
   },
-  "baseDate": "2025/07/04"
+  "baseDate": "2025/07/05"
 }
