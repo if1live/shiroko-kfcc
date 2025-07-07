@@ -7,15 +7,15 @@
     "r2": "북구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/07/07",
+    "baseDate": "2025/07/08",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.60"},
           {"duration": null, "rate": "2.00"},
+          {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.60"}
         ]
@@ -43,19 +43,19 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.90"}
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.80"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/07/07",
+    "baseDate": "2025/07/08",
     "products": [
       {
         "title": "정기적금",
@@ -122,5 +122,5 @@
       }
     ]
   },
-  "baseDate": "2025/07/07"
+  "baseDate": "2025/07/08"
 }

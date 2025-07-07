@@ -7,15 +7,15 @@
     "r2": "아산시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/07/07",
+    "baseDate": "2025/07/08",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.00"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.35"},
+          {"duration": null, "rate": "2.35"},
+          {"duration": null, "rate": "2.35"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.30"}
         ]
@@ -23,24 +23,24 @@
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": 1, "rate": "2.25"},
-          {"duration": 2, "rate": "2.25"},
-          {"duration": 3, "rate": "2.50"},
-          {"duration": 4, "rate": "2.50"},
-          {"duration": 5, "rate": "2.50"},
-          {"duration": 6, "rate": "2.50"},
-          {"duration": 7, "rate": "2.50"},
-          {"duration": 8, "rate": "2.50"},
-          {"duration": 9, "rate": "2.50"},
-          {"duration": 10, "rate": "2.50"},
-          {"duration": 11, "rate": "2.50"},
-          {"duration": 12, "rate": "2.50"}
+          {"duration": 1, "rate": "2.10"},
+          {"duration": 2, "rate": "2.10"},
+          {"duration": 3, "rate": "2.35"},
+          {"duration": 4, "rate": "2.35"},
+          {"duration": 5, "rate": "2.35"},
+          {"duration": 6, "rate": "2.35"},
+          {"duration": 7, "rate": "2.35"},
+          {"duration": 8, "rate": "2.35"},
+          {"duration": 9, "rate": "2.35"},
+          {"duration": 10, "rate": "2.35"},
+          {"duration": 11, "rate": "2.35"},
+          {"duration": 12, "rate": "2.35"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/07/07",
+    "baseDate": "2025/07/08",
     "products": [
       {
         "title": "정기적금",
@@ -63,18 +63,18 @@
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "2.10"},
-          {"duration": 6, "rate": "2.10"},
-          {"duration": 12, "rate": "2.10"},
+          {"duration": 3, "rate": "1.95"},
+          {"duration": 6, "rate": "1.95"},
+          {"duration": 12, "rate": "1.95"},
           {"duration": 24, "rate": "1.90"},
           {"duration": 36, "rate": "1.90"}
         ]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "2.10"}]
+        "entries": [{"duration": 12, "rate": "1.95"}]
       }
     ]
   },
-  "baseDate": "2025/07/07"
+  "baseDate": "2025/07/08"
 }
