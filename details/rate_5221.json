@@ -7,7 +7,7 @@
     "r2": "포항시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/07/08",
+    "baseDate": "2025/07/09",
     "products": [
       {
         "title": "정기예탁금",
@@ -71,7 +71,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/07/08",
+    "baseDate": "2025/07/09",
     "products": [
       {
         "title": "정기적금",
@@ -100,20 +100,20 @@
           {"duration": 1, "rate": "0.00"},
           {"duration": 3, "rate": "0.80"},
           {"duration": 6, "rate": "1.00"},
-          {"duration": 12, "rate": "2.90"},
-          {"duration": 13, "rate": "2.90"},
-          {"duration": 24, "rate": "2.90"},
-          {"duration": 25, "rate": "2.90"},
-          {"duration": 36, "rate": "2.90"}
+          {"duration": 12, "rate": "3.00"},
+          {"duration": 13, "rate": "3.00"},
+          {"duration": 24, "rate": "3.00"},
+          {"duration": 25, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "2.90"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "2.90"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "일일자유적금",
@@ -129,5 +129,5 @@
       }
     ]
   },
-  "baseDate": "2025/07/08"
+  "baseDate": "2025/07/09"
 }
