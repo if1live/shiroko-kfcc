@@ -7,17 +7,17 @@
     "r2": "구미시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/07/09",
+    "baseDate": "2025/07/10",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.10"},
-          {"duration": null, "rate": "1.10"},
+          {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.10"},
-          {"duration": null, "rate": "2.10"}
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"}
         ]
       },
       {
@@ -35,14 +35,14 @@
         "title": "자유자재정기예금Ⅱ",
         "entries": [
           {"duration": 1, "rate": "1.10"},
-          {"duration": 3, "rate": "1.10"},
+          {"duration": 3, "rate": "2.40"},
           {"duration": 6, "rate": "2.40"},
           {"duration": 9, "rate": "2.40"},
           {"duration": 12, "rate": "2.60"},
-          {"duration": 18, "rate": "2.60"},
-          {"duration": 24, "rate": "2.10"},
-          {"duration": 30, "rate": "2.10"},
-          {"duration": 36, "rate": "2.10"}
+          {"duration": 18, "rate": "2.40"},
+          {"duration": 24, "rate": "2.40"},
+          {"duration": 30, "rate": "0.00"},
+          {"duration": 36, "rate": "0.00"}
         ]
       },
       {
@@ -54,9 +54,9 @@
         "entries": [
           {"duration": null, "rate": "0.10"},
           {"duration": null, "rate": "1.10"},
-          {"duration": null, "rate": "1.10"},
-          {"duration": null, "rate": "1.10"},
-          {"duration": null, "rate": "1.10"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
@@ -69,7 +69,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/07/09",
+    "baseDate": "2025/07/10",
     "products": [
       {
         "title": "정기적금",
@@ -144,5 +144,5 @@
       }
     ]
   },
-  "baseDate": "2025/07/09"
+  "baseDate": "2025/07/10"
 }
