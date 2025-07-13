@@ -7,7 +7,7 @@
     "r2": "제주시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/07/13",
+    "baseDate": "2025/07/14",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"}
@@ -50,17 +50,17 @@
           {"duration": null, "rate": "1.40"},
           {"duration": null, "rate": "1.40"},
           {"duration": null, "rate": "1.40"},
-          {"duration": null, "rate": "2.90"}
+          {"duration": null, "rate": "2.80"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "2.90"}]
+        "entries": [{"duration": 12, "rate": "2.80"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/07/13",
+    "baseDate": "2025/07/14",
     "products": [
       {
         "title": "정기적금",
@@ -131,5 +131,5 @@
       }
     ]
   },
-  "baseDate": "2025/07/13"
+  "baseDate": "2025/07/14"
 }
