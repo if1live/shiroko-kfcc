@@ -7,7 +7,7 @@
     "r2": "달서구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/07/14",
+    "baseDate": "2025/07/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,6 +15,7 @@
           {"duration": null, "rate": "1.80"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.60"}
         ]
@@ -72,12 +73,13 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/07/14",
+    "baseDate": "2025/07/15",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 12, "rate": "3.10"},
+          {"duration": 13, "rate": "2.90"},
           {"duration": 24, "rate": "2.90"},
           {"duration": 36, "rate": "2.90"}
         ]
@@ -96,6 +98,7 @@
           {"duration": 1, "rate": "0.00"},
           {"duration": 6, "rate": "1.00"},
           {"duration": 12, "rate": "2.80"},
+          {"duration": 13, "rate": "2.60"},
           {"duration": 24, "rate": "2.60"},
           {"duration": 36, "rate": "2.60"}
         ]
@@ -114,5 +117,5 @@
       }
     ]
   },
-  "baseDate": "2025/07/14"
+  "baseDate": "2025/07/15"
 }
