@@ -7,7 +7,7 @@
     "r2": "북구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/07/16",
+    "baseDate": "2025/07/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -54,12 +54,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "2.80"}]
+        "entries": [{"duration": 12, "rate": "2.70"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/07/16",
+    "baseDate": "2025/07/17",
     "products": [
       {
         "title": "정기적금",
@@ -91,7 +91,7 @@
         "entries": [
           {"duration": 1, "rate": "1.70"},
           {"duration": 6, "rate": "2.40"},
-          {"duration": 12, "rate": "2.80"},
+          {"duration": 12, "rate": "2.70"},
           {"duration": 13, "rate": "2.50"},
           {"duration": 24, "rate": "2.50"},
           {"duration": 36, "rate": "2.50"}
@@ -124,5 +124,5 @@
       }
     ]
   },
-  "baseDate": "2025/07/16"
+  "baseDate": "2025/07/17"
 }

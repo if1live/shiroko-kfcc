@@ -7,7 +7,7 @@
     "r2": "당진시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/07/16",
+    "baseDate": "2025/07/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -34,8 +34,8 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "0.00"},
+          {"duration": 1, "rate": "0.30"},
+          {"duration": 3, "rate": "1.00"},
           {"duration": 6, "rate": "2.40"},
           {"duration": 9, "rate": "2.40"},
           {"duration": 12, "rate": "2.80"},
@@ -65,7 +65,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/07/16",
+    "baseDate": "2025/07/17",
     "products": [
       {
         "title": "정기적금",
@@ -127,5 +127,5 @@
       }
     ]
   },
-  "baseDate": "2025/07/16"
+  "baseDate": "2025/07/17"
 }
