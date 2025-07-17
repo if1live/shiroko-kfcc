@@ -7,7 +7,7 @@
     "r2": "성동구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/07/17",
+    "baseDate": "2025/07/18",
     "products": [
       {
         "title": "정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/07/17",
+    "baseDate": "2025/07/18",
     "products": [
       {
         "title": "정기적금",
@@ -139,7 +139,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "2.80"}]
+        "entries": [{"duration": 12, "rate": "2.70"}]
       },
       {
         "title": "꿈모아상호부금",
@@ -156,5 +156,5 @@
       }
     ]
   },
-  "baseDate": "2025/07/17"
+  "baseDate": "2025/07/18"
 }
