@@ -7,7 +7,7 @@
     "r2": "제주시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/07/27",
+    "baseDate": "2025/07/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/07/27",
+    "baseDate": "2025/07/28",
     "products": [
       {
         "title": "정기적금",
@@ -122,7 +122,7 @@
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
+        "entries": [{"duration": 12, "rate": "2.80"}]
       },
       {
         "title": "MG주거래우대자유적금",
@@ -155,5 +155,5 @@
       }
     ]
   },
-  "baseDate": "2025/07/27"
+  "baseDate": "2025/07/28"
 }

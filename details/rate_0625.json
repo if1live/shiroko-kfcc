@@ -7,40 +7,40 @@
     "r2": "성북구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/07/27",
+    "baseDate": "2025/07/28",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "2.80"}
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "2.70"}
         ]
       },
       {
         "title": "Block예금",
         "entries": [
-          {"duration": 0, "rate": "2.60"},
-          {"duration": 3, "rate": "2.60"},
-          {"duration": 6, "rate": "2.80"},
-          {"duration": 12, "rate": "3.00"},
-          {"duration": 24, "rate": "2.80"},
-          {"duration": 36, "rate": "2.80"}
+          {"duration": 0, "rate": "2.50"},
+          {"duration": 3, "rate": "2.50"},
+          {"duration": 6, "rate": "2.70"},
+          {"duration": 12, "rate": "2.90"},
+          {"duration": 24, "rate": "2.70"},
+          {"duration": 36, "rate": "2.70"}
         ]
       },
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "2.60"},
-          {"duration": 3, "rate": "2.60"},
-          {"duration": 6, "rate": "2.80"},
-          {"duration": 9, "rate": "2.80"},
-          {"duration": 12, "rate": "3.00"},
-          {"duration": 18, "rate": "2.80"},
-          {"duration": 24, "rate": "2.80"},
-          {"duration": 30, "rate": "2.80"},
-          {"duration": 36, "rate": "2.80"}
+          {"duration": 1, "rate": "0.00"},
+          {"duration": 3, "rate": "0.00"},
+          {"duration": 6, "rate": "2.70"},
+          {"duration": 9, "rate": "2.70"},
+          {"duration": 12, "rate": "2.90"},
+          {"duration": 18, "rate": "2.70"},
+          {"duration": 24, "rate": "2.70"},
+          {"duration": 30, "rate": "2.70"},
+          {"duration": 36, "rate": "2.70"}
         ]
       },
       {
@@ -50,24 +50,24 @@
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "3.00"}
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.90"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/07/27",
+    "baseDate": "2025/07/28",
     "products": [
       {
         "title": "정기적금",
@@ -100,12 +100,12 @@
       {
         "title": "자유적립적금",
         "entries": [
-          {"duration": 1, "rate": "2.60"},
-          {"duration": 6, "rate": "2.80"},
-          {"duration": 12, "rate": "3.00"},
-          {"duration": 13, "rate": "2.80"},
-          {"duration": 24, "rate": "2.80"},
-          {"duration": 36, "rate": "2.80"}
+          {"duration": 1, "rate": "2.50"},
+          {"duration": 6, "rate": "2.70"},
+          {"duration": 12, "rate": "2.90"},
+          {"duration": 13, "rate": "2.70"},
+          {"duration": 24, "rate": "2.70"},
+          {"duration": 36, "rate": "2.70"}
         ]
       },
       {
@@ -126,5 +126,5 @@
       }
     ]
   },
-  "baseDate": "2025/07/27"
+  "baseDate": "2025/07/28"
 }
