@@ -7,7 +7,7 @@
     "r2": "종로구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/07/29",
+    "baseDate": "2025/07/30",
     "products": [
       {
         "title": "정기예탁금",
@@ -35,7 +35,7 @@
           {"duration": 3, "rate": "0.00"},
           {"duration": 6, "rate": "0.00"},
           {"duration": 9, "rate": "0.00"},
-          {"duration": 12, "rate": "3.10"},
+          {"duration": 12, "rate": "2.80"},
           {"duration": 18, "rate": "0.00"},
           {"duration": 24, "rate": "0.00"},
           {"duration": 30, "rate": "0.00"},
@@ -65,12 +65,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.20"}]
+        "entries": [{"duration": 12, "rate": "2.90"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/07/29",
+    "baseDate": "2025/07/30",
     "products": [
       {
         "title": "정기적금",
@@ -136,5 +136,5 @@
       }
     ]
   },
-  "baseDate": "2025/07/29"
+  "baseDate": "2025/07/30"
 }
