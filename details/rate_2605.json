@@ -7,7 +7,7 @@
     "r2": "여수시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/08/04",
+    "baseDate": "2025/08/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -76,7 +76,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/08/04",
+    "baseDate": "2025/08/05",
     "products": [
       {
         "title": "정기적금",
@@ -128,7 +128,7 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "3.30"}]
+        "entries": [{"duration": 12, "rate": "2.50"}]
       },
       {
         "title": "Smart 자유적립적금",
@@ -156,5 +156,5 @@
       }
     ]
   },
-  "baseDate": "2025/08/04"
+  "baseDate": "2025/08/05"
 }

@@ -7,7 +7,7 @@
     "r2": "서구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/08/04",
+    "baseDate": "2025/08/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -44,7 +44,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/08/04",
+    "baseDate": "2025/08/05",
     "products": [
       {
         "title": "정기적금",
@@ -96,16 +96,16 @@
       {
         "title": "일일자유적금",
         "entries": [
-          {"duration": 0, "rate": "1.70"},
-          {"duration": 1, "rate": "1.90"},
-          {"duration": 2, "rate": "2.10"},
-          {"duration": 3, "rate": "2.30"},
-          {"duration": 4, "rate": "2.60"},
-          {"duration": 5, "rate": "2.80"},
-          {"duration": 6, "rate": "3.00"}
+          {"duration": 0, "rate": "0.50"},
+          {"duration": 1, "rate": "0.50"},
+          {"duration": 2, "rate": "0.50"},
+          {"duration": 3, "rate": "1.80"},
+          {"duration": 4, "rate": "1.80"},
+          {"duration": 5, "rate": "1.80"},
+          {"duration": 6, "rate": "2.30"}
         ]
       }
     ]
   },
-  "baseDate": "2025/08/04"
+  "baseDate": "2025/08/05"
 }
