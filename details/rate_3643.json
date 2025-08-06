@@ -7,7 +7,7 @@
     "r2": "부천시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/08/06",
+    "baseDate": "2025/08/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -53,7 +53,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/08/06",
+    "baseDate": "2025/08/07",
     "products": [
       {
         "title": "정기적금",
@@ -101,7 +101,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.10"}]
+        "entries": [{"duration": 12, "rate": "2.10"}]
       },
       {
         "title": "일일자유적금",
@@ -117,5 +117,5 @@
       }
     ]
   },
-  "baseDate": "2025/08/06"
+  "baseDate": "2025/08/07"
 }
