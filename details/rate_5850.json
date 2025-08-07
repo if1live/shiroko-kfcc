@@ -7,7 +7,7 @@
     "r2": "영주시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/08/07",
+    "baseDate": "2025/08/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -53,7 +53,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/08/07",
+    "baseDate": "2025/08/08",
     "products": [
       {
         "title": "정기적금",
@@ -86,7 +86,7 @@
           {"duration": 1, "rate": "1.00"},
           {"duration": 3, "rate": "1.00"},
           {"duration": 6, "rate": "1.90"},
-          {"duration": 12, "rate": "2.60"},
+          {"duration": 12, "rate": "2.50"},
           {"duration": 24, "rate": "1.90"},
           {"duration": 25, "rate": "0.10"},
           {"duration": 36, "rate": "0.10"}
@@ -102,5 +102,5 @@
       }
     ]
   },
-  "baseDate": "2025/08/07"
+  "baseDate": "2025/08/08"
 }
