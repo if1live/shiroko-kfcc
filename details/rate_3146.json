@@ -7,7 +7,7 @@
     "r2": "유성구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/08/10",
+    "baseDate": "2025/08/11",
     "products": [
       {
         "title": "정기예탁금",
@@ -69,7 +69,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/08/10",
+    "baseDate": "2025/08/11",
     "products": [
       {
         "title": "정기적금",
@@ -116,13 +116,13 @@
       {
         "title": "일일자유적금",
         "entries": [
-          {"duration": 0, "rate": "0.10"},
-          {"duration": 1, "rate": "0.80"},
-          {"duration": 2, "rate": "0.80"},
-          {"duration": 3, "rate": "1.10"},
-          {"duration": 4, "rate": "1.10"},
-          {"duration": 5, "rate": "1.10"},
-          {"duration": 6, "rate": "1.70"}
+          {"duration": 0, "rate": "4.00"},
+          {"duration": 1, "rate": "4.00"},
+          {"duration": 2, "rate": "4.00"},
+          {"duration": 3, "rate": "4.00"},
+          {"duration": 4, "rate": "4.00"},
+          {"duration": 5, "rate": "4.00"},
+          {"duration": 6, "rate": "4.00"}
         ]
       },
       {
@@ -135,5 +135,5 @@
       }
     ]
   },
-  "baseDate": "2025/08/10"
+  "baseDate": "2025/08/11"
 }
