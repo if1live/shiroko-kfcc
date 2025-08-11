@@ -7,7 +7,7 @@
     "r2": "완주군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/08/11",
+    "baseDate": "2025/08/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -60,7 +60,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/08/11",
+    "baseDate": "2025/08/12",
     "products": [
       {
         "title": "정기적금",
@@ -75,10 +75,10 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.80"},
-          {"duration": 13, "rate": "3.40"},
-          {"duration": 24, "rate": "3.40"},
-          {"duration": 34, "rate": "3.40"}
+          {"duration": 12, "rate": "3.30"},
+          {"duration": 13, "rate": "3.30"},
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 34, "rate": "3.30"}
         ]
       },
       {
@@ -109,7 +109,7 @@
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
+        "entries": [{"duration": 12, "rate": "2.40"}]
       },
       {
         "title": "MG더뱅킹자유적금",
@@ -138,5 +138,5 @@
       }
     ]
   },
-  "baseDate": "2025/08/11"
+  "baseDate": "2025/08/12"
 }
