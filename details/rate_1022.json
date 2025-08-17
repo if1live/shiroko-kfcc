@@ -7,13 +7,13 @@
     "r2": "연수구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/08/17",
+    "baseDate": "2025/08/18",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.60"},
@@ -28,7 +28,7 @@
         "title": "MG기업정기예금(A)",
         "entries": [
           {"duration": 1, "rate": "1.70"},
-          {"duration": 3, "rate": "2.10"},
+          {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.10"},
           {"duration": 12, "rate": "2.30"},
           {"duration": 18, "rate": "2.30"},
@@ -51,22 +51,22 @@
         "entries": [
           {"duration": 1, "rate": "2.00"},
           {"duration": 2, "rate": "2.00"},
-          {"duration": 3, "rate": "2.40"},
-          {"duration": 4, "rate": "2.40"},
-          {"duration": 5, "rate": "2.40"},
+          {"duration": 3, "rate": "2.30"},
+          {"duration": 4, "rate": "2.30"},
+          {"duration": 5, "rate": "2.30"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 7, "rate": "2.50"},
           {"duration": 8, "rate": "2.50"},
           {"duration": 9, "rate": "2.50"},
           {"duration": 10, "rate": "2.50"},
           {"duration": 11, "rate": "2.50"},
-          {"duration": 12, "rate": "2.70"}
+          {"duration": 12, "rate": "2.75"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/08/17",
+    "baseDate": "2025/08/18",
     "products": [
       {
         "title": "정기적금",
@@ -101,7 +101,7 @@
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "2.20"},
+          {"duration": 3, "rate": "2.10"},
           {"duration": 6, "rate": "2.30"},
           {"duration": 12, "rate": "2.50"},
           {"duration": 24, "rate": "2.40"},
@@ -118,5 +118,5 @@
       }
     ]
   },
-  "baseDate": "2025/08/17"
+  "baseDate": "2025/08/18"
 }
