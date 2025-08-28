@@ -7,7 +7,7 @@
     "r2": "진도군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/08/28",
+    "baseDate": "2025/08/29",
     "products": [
       {
         "title": "정기예탁금",
@@ -42,7 +42,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/08/28",
+    "baseDate": "2025/08/29",
     "products": [
       {
         "title": "정기적금",
@@ -51,6 +51,14 @@
           {"duration": 12, "rate": "3.00"},
           {"duration": 24, "rate": "1.50"},
           {"duration": 36, "rate": "1.50"}
+        ]
+      },
+      {
+        "title": "MG New정기적금",
+        "entries": [
+          {"duration": 12, "rate": "5.00"},
+          {"duration": 24, "rate": "1.00"},
+          {"duration": 36, "rate": "1.00"}
         ]
       },
       {
@@ -76,5 +84,5 @@
       }
     ]
   },
-  "baseDate": "2025/08/28"
+  "baseDate": "2025/08/29"
 }
