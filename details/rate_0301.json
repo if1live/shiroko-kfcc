@@ -7,17 +7,17 @@
     "r2": "용산구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/08/31",
+    "baseDate": "2025/09/01",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "2.47"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "2.87"},
-          {"duration": null, "rate": "2.87"}
+          {"duration": null, "rate": "2.37"},
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "2.77"},
+          {"duration": null, "rate": "2.77"}
         ]
       },
       {
@@ -26,7 +26,7 @@
           {"duration": 0, "rate": "0.01"},
           {"duration": 3, "rate": "0.01"},
           {"duration": 6, "rate": "0.01"},
-          {"duration": 12, "rate": "5.50"},
+          {"duration": 12, "rate": "5.40"},
           {"duration": 24, "rate": "0.01"},
           {"duration": 36, "rate": "0.01"}
         ]
@@ -43,26 +43,26 @@
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "2.47"},
-          {"duration": null, "rate": "2.47"},
-          {"duration": null, "rate": "2.47"},
-          {"duration": null, "rate": "2.47"},
-          {"duration": null, "rate": "2.47"},
-          {"duration": null, "rate": "2.47"},
-          {"duration": null, "rate": "3.02"}
+          {"duration": null, "rate": "2.37"},
+          {"duration": null, "rate": "2.37"},
+          {"duration": null, "rate": "2.37"},
+          {"duration": null, "rate": "2.37"},
+          {"duration": null, "rate": "2.37"},
+          {"duration": null, "rate": "2.37"},
+          {"duration": null, "rate": "2.92"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/08/31",
+    "baseDate": "2025/09/01",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.45"},
-          {"duration": 24, "rate": "3.25"},
-          {"duration": 36, "rate": "3.25"}
+          {"duration": 12, "rate": "3.35"},
+          {"duration": 24, "rate": "3.15"},
+          {"duration": 36, "rate": "3.15"}
         ]
       },
       {
@@ -80,11 +80,11 @@
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "1.95"},
-          {"duration": 6, "rate": "2.75"},
-          {"duration": 12, "rate": "2.95"},
-          {"duration": 24, "rate": "2.85"},
-          {"duration": 36, "rate": "2.85"}
+          {"duration": 3, "rate": "1.85"},
+          {"duration": 6, "rate": "2.65"},
+          {"duration": 12, "rate": "2.85"},
+          {"duration": 24, "rate": "2.75"},
+          {"duration": 36, "rate": "2.75"}
         ]
       },
       {
@@ -105,5 +105,5 @@
       }
     ]
   },
-  "baseDate": "2025/08/31"
+  "baseDate": "2025/09/01"
 }
