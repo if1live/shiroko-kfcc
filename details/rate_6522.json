@@ -7,16 +7,16 @@
     "r2": "거제시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/09/01",
+    "baseDate": "2025/09/02",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.30"},
+          {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.00"}
         ]
       },
@@ -33,7 +33,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.90"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       },
       {
         "title": "MG주거래우대정기예금",
@@ -42,7 +42,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/09/01",
+    "baseDate": "2025/09/02",
     "products": [
       {
         "title": "정기적금",
@@ -110,5 +110,5 @@
       }
     ]
   },
-  "baseDate": "2025/09/01"
+  "baseDate": "2025/09/02"
 }
