@@ -7,7 +7,7 @@
     "r2": "남구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/09/04",
+    "baseDate": "2025/09/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -76,7 +76,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/09/04",
+    "baseDate": "2025/09/05",
     "products": [
       {
         "title": "정기적금",
@@ -132,7 +132,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "2.60"}]
+        "entries": [{"duration": 12, "rate": "2.40"}]
       },
       {
         "title": "일일자유적금",
@@ -148,5 +148,5 @@
       }
     ]
   },
-  "baseDate": "2025/09/04"
+  "baseDate": "2025/09/05"
 }
