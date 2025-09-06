@@ -2,12 +2,12 @@
   "id": "1815",
   "bank": {
     "gmgoCd": "1815",
-    "gmgoNm": "남산",
+    "gmgoNm": "남산대신",
     "r1": "대구",
     "r2": "중구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/09/06",
+    "baseDate": "2025/09/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -57,7 +57,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/09/06",
+    "baseDate": "2025/09/07",
     "products": [
       {
         "title": "정기적금",
@@ -117,5 +117,5 @@
       }
     ]
   },
-  "baseDate": "2025/09/06"
+  "baseDate": "2025/09/07"
 }
