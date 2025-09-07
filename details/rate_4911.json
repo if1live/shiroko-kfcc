@@ -7,7 +7,7 @@
     "r2": "완주군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/09/07",
+    "baseDate": "2025/09/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,10 +15,10 @@
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "2.30"}
+          {"duration": null, "rate": "2.00"}
         ]
       },
       {
@@ -27,9 +27,9 @@
           {"duration": 0, "rate": "0.10"},
           {"duration": 3, "rate": "1.40"},
           {"duration": 6, "rate": "1.90"},
-          {"duration": 12, "rate": "2.80"},
+          {"duration": 12, "rate": "2.70"},
           {"duration": 24, "rate": "2.20"},
-          {"duration": 36, "rate": "2.20"}
+          {"duration": 36, "rate": "1.90"}
         ]
       },
       {
@@ -39,16 +39,16 @@
           {"duration": 3, "rate": "1.20"},
           {"duration": 6, "rate": "1.70"},
           {"duration": 9, "rate": "1.70"},
-          {"duration": 12, "rate": "2.60"},
+          {"duration": 12, "rate": "2.50"},
           {"duration": 18, "rate": "2.00"},
           {"duration": 24, "rate": "2.00"},
           {"duration": 30, "rate": "2.00"},
-          {"duration": 36, "rate": "2.00"}
+          {"duration": 36, "rate": "1.70"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.70"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       },
       {
         "title": "MG주거래우대정기예금",
@@ -57,7 +57,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/09/07",
+    "baseDate": "2025/09/08",
     "products": [
       {
         "title": "정기적금",
@@ -136,5 +136,5 @@
       }
     ]
   },
-  "baseDate": "2025/09/07"
+  "baseDate": "2025/09/08"
 }
