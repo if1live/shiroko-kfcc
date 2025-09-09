@@ -7,7 +7,7 @@
     "r2": "부산진구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/09/09",
+    "baseDate": "2025/09/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -34,15 +34,15 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "2.00"},
-          {"duration": 3, "rate": "2.50"},
-          {"duration": 6, "rate": "2.70"},
-          {"duration": 9, "rate": "2.70"},
-          {"duration": 12, "rate": "2.80"},
-          {"duration": 18, "rate": "2.80"},
-          {"duration": 24, "rate": "2.80"},
-          {"duration": 30, "rate": "2.80"},
-          {"duration": 36, "rate": "2.80"}
+          {"duration": 1, "rate": "1.50"},
+          {"duration": 3, "rate": "2.00"},
+          {"duration": 6, "rate": "2.20"},
+          {"duration": 9, "rate": "2.45"},
+          {"duration": 12, "rate": "2.45"},
+          {"duration": 18, "rate": "2.45"},
+          {"duration": 24, "rate": "2.45"},
+          {"duration": 30, "rate": "0.00"},
+          {"duration": 36, "rate": "0.00"}
         ]
       },
       {
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/09/09",
+    "baseDate": "2025/09/10",
     "products": [
       {
         "title": "정기적금",
@@ -160,5 +160,5 @@
       }
     ]
   },
-  "baseDate": "2025/09/09"
+  "baseDate": "2025/09/10"
 }
