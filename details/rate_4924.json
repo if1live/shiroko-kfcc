@@ -7,7 +7,7 @@
     "r2": "장수군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/09/14",
+    "baseDate": "2025/09/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -38,7 +38,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/09/14",
+    "baseDate": "2025/09/15",
     "products": [
       {
         "title": "정기적금",
@@ -55,6 +55,14 @@
       {
         "title": "MG희망나눔아기뱀적금",
         "entries": [{"duration": 12, "rate": "6.00"}]
+      },
+      {
+        "title": "MG한가위적금",
+        "entries": [
+          {"duration": 12, "rate": "2.90"},
+          {"duration": 24, "rate": "2.70"},
+          {"duration": 36, "rate": "2.70"}
+        ]
       },
       {
         "title": "자유적립적금",
@@ -85,5 +93,5 @@
       }
     ]
   },
-  "baseDate": "2025/09/14"
+  "baseDate": "2025/09/15"
 }

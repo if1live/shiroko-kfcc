@@ -7,7 +7,7 @@
     "r2": "논산시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/09/14",
+    "baseDate": "2025/09/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -78,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/09/14",
+    "baseDate": "2025/09/15",
     "products": [
       {
         "title": "정기적금",
@@ -110,6 +110,17 @@
       {
         "title": "MG희망나눔아기뱀적금",
         "entries": [{"duration": 12, "rate": "6.00"}]
+      },
+      {
+        "title": "MG한가위적금",
+        "entries": [
+          {"duration": 6, "rate": "2.20"},
+          {"duration": 12, "rate": "3.00"},
+          {"duration": 13, "rate": "3.00"},
+          {"duration": 24, "rate": "2.90"},
+          {"duration": 36, "rate": "2.90"},
+          {"duration": 37, "rate": "2.80"}
+        ]
       },
       {
         "title": "자유적립적금",
@@ -162,5 +173,5 @@
       }
     ]
   },
-  "baseDate": "2025/09/14"
+  "baseDate": "2025/09/15"
 }

@@ -7,7 +7,7 @@
     "r2": "포항시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/09/14",
+    "baseDate": "2025/09/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -55,7 +55,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/09/14",
+    "baseDate": "2025/09/15",
     "products": [
       {
         "title": "정기적금",
@@ -67,6 +67,14 @@
       },
       {
         "title": "MG New정기적금",
+        "entries": [
+          {"duration": 12, "rate": "2.80"},
+          {"duration": 24, "rate": "2.50"},
+          {"duration": 36, "rate": "2.30"}
+        ]
+      },
+      {
+        "title": "MG한가위적금",
         "entries": [
           {"duration": 12, "rate": "2.80"},
           {"duration": 24, "rate": "2.50"},
@@ -106,5 +114,5 @@
       }
     ]
   },
-  "baseDate": "2025/09/14"
+  "baseDate": "2025/09/15"
 }

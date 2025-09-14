@@ -7,7 +7,7 @@
     "r2": "남동구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/09/14",
+    "baseDate": "2025/09/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -96,7 +96,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/09/14",
+    "baseDate": "2025/09/15",
     "products": [
       {
         "title": "정기적금",
@@ -128,6 +128,15 @@
         "entries": [
           {"duration": 6, "rate": "0.00"},
           {"duration": 12, "rate": "2.60"}
+        ]
+      },
+      {
+        "title": "MG한가위적금",
+        "entries": [
+          {"duration": 12, "rate": "3.10"},
+          {"duration": 24, "rate": "2.90"},
+          {"duration": 36, "rate": "2.90"},
+          {"duration": 37, "rate": "0.00"}
         ]
       },
       {
@@ -186,5 +195,5 @@
       }
     ]
   },
-  "baseDate": "2025/09/14"
+  "baseDate": "2025/09/15"
 }
