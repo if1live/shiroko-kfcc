@@ -7,7 +7,7 @@
     "r2": "홍천군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/09/17",
+    "baseDate": "2025/09/18",
     "products": [
       {
         "title": "정기예탁금",
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/09/17",
+    "baseDate": "2025/09/18",
     "products": [
       {
         "title": "정기적금",
@@ -114,17 +114,6 @@
       {
         "title": "MG희망나눔아기뱀적금",
         "entries": [{"duration": 12, "rate": "6.00"}]
-      },
-      {
-        "title": "MG한가위적금",
-        "entries": [
-          {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "2.90"},
-          {"duration": 24, "rate": "2.80"},
-          {"duration": 36, "rate": "2.70"},
-          {"duration": 48, "rate": "2.70"},
-          {"duration": 60, "rate": "2.70"}
-        ]
       },
       {
         "title": "자유적립적금",
@@ -178,5 +167,5 @@
       }
     ]
   },
-  "baseDate": "2025/09/17"
+  "baseDate": "2025/09/18"
 }
