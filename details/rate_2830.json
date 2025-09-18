@@ -7,7 +7,7 @@
     "r2": "무안군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/09/18",
+    "baseDate": "2025/09/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -100,12 +100,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "2.70"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/09/18",
+    "baseDate": "2025/09/19",
     "products": [
       {
         "title": "정기적금",
@@ -196,5 +196,5 @@
       }
     ]
   },
-  "baseDate": "2025/09/18"
+  "baseDate": "2025/09/19"
 }
