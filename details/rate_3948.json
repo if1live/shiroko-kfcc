@@ -7,7 +7,7 @@
     "r2": "안성시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/09/19",
+    "baseDate": "2025/09/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -36,15 +36,15 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "0.00"},
+          {"duration": 1, "rate": "1.70"},
+          {"duration": 3, "rate": "2.20"},
           {"duration": 6, "rate": "2.40"},
           {"duration": 9, "rate": "2.40"},
           {"duration": 12, "rate": "2.75"},
           {"duration": 18, "rate": "2.75"},
-          {"duration": 24, "rate": "2.56"},
-          {"duration": 30, "rate": "2.56"},
-          {"duration": 36, "rate": "2.48"}
+          {"duration": 24, "rate": "2.50"},
+          {"duration": 30, "rate": "0.00"},
+          {"duration": 36, "rate": "0.00"}
         ]
       },
       {
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/09/19",
+    "baseDate": "2025/09/20",
     "products": [
       {
         "title": "정기적금",
@@ -169,5 +169,5 @@
       }
     ]
   },
-  "baseDate": "2025/09/19"
+  "baseDate": "2025/09/20"
 }
