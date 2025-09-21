@@ -7,7 +7,7 @@
     "r2": "동구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/09/21",
+    "baseDate": "2025/09/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/09/21",
+    "baseDate": "2025/09/22",
     "products": [
       {
         "title": "정기적금",
@@ -89,7 +89,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.40"},
+          {"duration": 12, "rate": "5.00"},
           {"duration": 24, "rate": "3.30"},
           {"duration": 36, "rate": "3.20"}
         ]
@@ -154,5 +154,5 @@
       }
     ]
   },
-  "baseDate": "2025/09/21"
+  "baseDate": "2025/09/22"
 }
