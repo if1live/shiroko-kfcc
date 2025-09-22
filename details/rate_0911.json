@@ -7,7 +7,7 @@
     "r2": "동작구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/09/22",
+    "baseDate": "2025/09/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -48,7 +48,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.83"}]
+        "entries": [{"duration": 12, "rate": "2.90"}]
       },
       {
         "title": "MG기업정기예금(A)",
@@ -96,7 +96,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/09/22",
+    "baseDate": "2025/09/23",
     "products": [
       {
         "title": "정기적금",
@@ -179,5 +179,5 @@
       }
     ]
   },
-  "baseDate": "2025/09/22"
+  "baseDate": "2025/09/23"
 }
