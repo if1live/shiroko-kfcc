@@ -7,7 +7,7 @@
     "r2": "중랑구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/09/25",
+    "baseDate": "2025/09/26",
     "products": [
       {
         "title": "정기예탁금",
@@ -61,7 +61,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/09/25",
+    "baseDate": "2025/09/26",
     "products": [
       {
         "title": "정기적금",
@@ -100,8 +100,8 @@
           {"duration": 3, "rate": "1.20"},
           {"duration": 6, "rate": "1.60"},
           {"duration": 12, "rate": "2.70"},
-          {"duration": 24, "rate": "2.70"},
-          {"duration": 36, "rate": "2.70"}
+          {"duration": 24, "rate": "2.50"},
+          {"duration": 36, "rate": "2.50"}
         ]
       },
       {
@@ -138,5 +138,5 @@
       }
     ]
   },
-  "baseDate": "2025/09/25"
+  "baseDate": "2025/09/26"
 }
