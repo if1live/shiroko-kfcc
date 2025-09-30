@@ -2,12 +2,12 @@
   "id": "1026",
   "bank": {
     "gmgoCd": "1026",
-    "gmgoNm": "풍납",
+    "gmgoNm": "서울중앙",
     "r1": "서울",
     "r2": "송파구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/09/30",
+    "baseDate": "2025/10/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -70,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/09/30",
+    "baseDate": "2025/10/01",
     "products": [
       {
         "title": "정기적금",
@@ -145,5 +145,5 @@
       }
     ]
   },
-  "baseDate": "2025/09/30"
+  "baseDate": "2025/10/01"
 }
