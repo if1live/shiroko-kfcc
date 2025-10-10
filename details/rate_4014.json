@@ -7,7 +7,7 @@
     "r2": "의정부"
   },
   "deferredDeposit": {
-    "baseDate": "2025/10/10",
+    "baseDate": "2025/10/11",
     "products": [
       {
         "title": "정기예탁금",
@@ -22,6 +22,7 @@
           {"duration": null, "rate": "2.50"}
         ]
       },
+      {"title": "Block예금", "entries": []},
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
@@ -60,7 +61,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/10/10",
+    "baseDate": "2025/10/11",
     "products": [
       {
         "title": "정기적금",
@@ -148,5 +149,5 @@
       }
     ]
   },
-  "baseDate": "2025/10/10"
+  "baseDate": "2025/10/11"
 }
