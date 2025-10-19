@@ -7,26 +7,26 @@
     "r2": "안동시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/10/19",
+    "baseDate": "2025/10/20",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.10"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.50"}
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.40"}
         ]
       },
       {
         "title": "Block예금",
         "entries": [
-          {"duration": 0, "rate": "1.80"},
+          {"duration": 0, "rate": "2.10"},
           {"duration": 3, "rate": "2.10"},
           {"duration": 6, "rate": "2.20"},
-          {"duration": 12, "rate": "2.60"},
-          {"duration": 24, "rate": "2.50"},
-          {"duration": 36, "rate": "1.80"}
+          {"duration": 12, "rate": "2.50"},
+          {"duration": 24, "rate": "2.40"},
+          {"duration": 36, "rate": "2.10"}
         ]
       },
       {
@@ -36,21 +36,21 @@
           {"duration": 3, "rate": "2.10"},
           {"duration": 6, "rate": "2.20"},
           {"duration": 9, "rate": "2.20"},
-          {"duration": 12, "rate": "2.60"},
-          {"duration": 18, "rate": "2.60"},
-          {"duration": 24, "rate": "2.50"},
+          {"duration": 12, "rate": "2.50"},
+          {"duration": 18, "rate": "2.50"},
+          {"duration": 24, "rate": "2.40"},
           {"duration": 30, "rate": "1.80"},
           {"duration": 36, "rate": "1.80"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.30"}]
+        "entries": [{"duration": 12, "rate": "2.20"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/10/19",
+    "baseDate": "2025/10/20",
     "products": [
       {
         "title": "정기적금",
@@ -122,5 +122,5 @@
       }
     ]
   },
-  "baseDate": "2025/10/19"
+  "baseDate": "2025/10/20"
 }

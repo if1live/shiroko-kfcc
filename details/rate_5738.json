@@ -7,14 +7,14 @@
     "r2": "칠곡군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/10/19",
+    "baseDate": "2025/10/20",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.20"},
@@ -38,7 +38,7 @@
           {"duration": 1, "rate": "0.10"},
           {"duration": 3, "rate": "2.30"},
           {"duration": 6, "rate": "2.40"},
-          {"duration": 9, "rate": "2.50"},
+          {"duration": 9, "rate": "2.30"},
           {"duration": 12, "rate": "2.70"},
           {"duration": 18, "rate": "2.40"},
           {"duration": 24, "rate": "2.20"},
@@ -59,11 +59,11 @@
           {"duration": 4, "rate": "2.30"},
           {"duration": 5, "rate": "2.30"},
           {"duration": 6, "rate": "2.40"},
-          {"duration": 7, "rate": "2.40"},
-          {"duration": 8, "rate": "2.40"},
-          {"duration": 9, "rate": "2.50"},
-          {"duration": 10, "rate": "2.50"},
-          {"duration": 11, "rate": "2.50"},
+          {"duration": 7, "rate": "2.30"},
+          {"duration": 8, "rate": "2.30"},
+          {"duration": 9, "rate": "2.30"},
+          {"duration": 10, "rate": "2.30"},
+          {"duration": 11, "rate": "2.30"},
           {"duration": 12, "rate": "2.70"}
         ]
       },
@@ -74,36 +74,36 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/10/19",
+    "baseDate": "2025/10/20",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "2.90"},
-          {"duration": 13, "rate": "2.60"},
-          {"duration": 24, "rate": "2.60"},
-          {"duration": 36, "rate": "2.50"},
-          {"duration": 48, "rate": "2.10"},
-          {"duration": 60, "rate": "2.10"}
+          {"duration": 6, "rate": "2.40"},
+          {"duration": 12, "rate": "2.80"},
+          {"duration": 13, "rate": "2.50"},
+          {"duration": 24, "rate": "2.50"},
+          {"duration": 36, "rate": "2.40"},
+          {"duration": 48, "rate": "2.00"},
+          {"duration": 60, "rate": "2.00"}
         ]
       },
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "2.90"},
-          {"duration": 13, "rate": "2.60"},
-          {"duration": 24, "rate": "2.60"},
-          {"duration": 36, "rate": "2.50"}
+          {"duration": 12, "rate": "2.80"},
+          {"duration": 13, "rate": "2.50"},
+          {"duration": 24, "rate": "2.50"},
+          {"duration": 36, "rate": "2.40"}
         ]
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "2.90"}]
+        "entries": [{"duration": 12, "rate": "2.80"}]
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "2.90"}]
+        "entries": [{"duration": 12, "rate": "2.80"}]
       },
       {
         "title": "MG더뱅킹정기적금",
@@ -158,5 +158,5 @@
       }
     ]
   },
-  "baseDate": "2025/10/19"
+  "baseDate": "2025/10/20"
 }
