@@ -7,7 +7,7 @@
     "r2": "양산시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/10/24",
+    "baseDate": "2025/10/25",
     "products": [
       {
         "title": "정기예탁금",
@@ -38,11 +38,28 @@
       {
         "title": "MG더뱅킹정기예금",
         "entries": [{"duration": 12, "rate": "2.60"}]
+      },
+      {
+        "title": "꿈드림회전정기예탁금",
+        "entries": [
+          {"duration": null, "rate": "1.70"},
+          {"duration": null, "rate": "1.70"},
+          {"duration": null, "rate": "2.10"},
+          {"duration": null, "rate": "2.10"},
+          {"duration": null, "rate": "2.10"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.60"}
+        ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/10/24",
+    "baseDate": "2025/10/25",
     "products": [
       {
         "title": "정기적금",
@@ -79,5 +96,5 @@
       }
     ]
   },
-  "baseDate": "2025/10/24"
+  "baseDate": "2025/10/25"
 }
