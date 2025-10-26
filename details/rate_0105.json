@@ -7,7 +7,7 @@
     "r2": "종로구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/10/26",
+    "baseDate": "2025/10/27",
     "products": [
       {
         "title": "정기예탁금",
@@ -54,16 +54,16 @@
         "entries": [
           {"duration": null, "rate": "2.10"},
           {"duration": null, "rate": "2.10"},
+          {"duration": null, "rate": "2.20"},
+          {"duration": null, "rate": "2.20"},
+          {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.90"}
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.80"}
         ]
       },
       {
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/10/26",
+    "baseDate": "2025/10/27",
     "products": [
       {
         "title": "정기적금",
@@ -138,5 +138,5 @@
       }
     ]
   },
-  "baseDate": "2025/10/26"
+  "baseDate": "2025/10/27"
 }

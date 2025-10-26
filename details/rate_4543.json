@@ -7,7 +7,7 @@
     "r2": "청주시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/10/26",
+    "baseDate": "2025/10/27",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"}
         ]
@@ -26,14 +26,14 @@
           {"duration": 0, "rate": "1.00"},
           {"duration": 3, "rate": "1.50"},
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "2.80"},
+          {"duration": 12, "rate": "2.60"},
           {"duration": 24, "rate": "2.50"},
           {"duration": 36, "rate": "2.50"}
         ]
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.70"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -49,13 +49,13 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.90"}
+          {"duration": null, "rate": "2.70"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/10/26",
+    "baseDate": "2025/10/27",
     "products": [
       {
         "title": "정기적금",
@@ -93,22 +93,22 @@
           {"duration": 1, "rate": "1.00"},
           {"duration": 3, "rate": "1.50"},
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "2.80"},
+          {"duration": 12, "rate": "2.60"},
           {"duration": 24, "rate": "2.50"},
           {"duration": 36, "rate": "2.50"}
         ]
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "2.80"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "2.80"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "2.70"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       },
       {
         "title": "일일자유적금",
@@ -124,9 +124,9 @@
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "2.80"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       }
     ]
   },
-  "baseDate": "2025/10/26"
+  "baseDate": "2025/10/27"
 }
