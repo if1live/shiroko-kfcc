@@ -7,17 +7,17 @@
     "r2": "용산구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/10/29",
+    "baseDate": "2025/10/30",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "1.90"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.30"}
         ]
       },
@@ -58,19 +58,19 @@
           {"duration": null, "rate": "1.90"},
           {"duration": null, "rate": "1.90"},
           {"duration": null, "rate": "1.90"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.90"}
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.80"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/10/29",
+    "baseDate": "2025/10/30",
     "products": [
       {
         "title": "정기적금",
@@ -95,7 +95,7 @@
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "2.00"}]
+        "entries": [{"duration": 12, "rate": "1.00"}]
       },
       {
         "title": "MG더뱅킹정기적금",
@@ -117,15 +117,15 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "2.30"}]
+        "entries": [{"duration": 12, "rate": "1.80"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "2.30"}]
+        "entries": [{"duration": 12, "rate": "2.00"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "2.10"}]
+        "entries": [{"duration": 12, "rate": "1.90"}]
       },
       {
         "title": "MG더뱅킹자유적금",
@@ -133,5 +133,5 @@
       }
     ]
   },
-  "baseDate": "2025/10/29"
+  "baseDate": "2025/10/30"
 }
