@@ -7,7 +7,7 @@
     "r2": "진안군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/11/03",
+    "baseDate": "2025/11/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -52,13 +52,30 @@
         "entries": [{"duration": 12, "rate": "1.10"}]
       },
       {
+        "title": "꿈드림회전정기예탁금",
+        "entries": [
+          {"duration": null, "rate": "0.30"},
+          {"duration": null, "rate": "0.30"},
+          {"duration": null, "rate": "0.40"},
+          {"duration": null, "rate": "0.40"},
+          {"duration": null, "rate": "0.50"},
+          {"duration": null, "rate": "0.60"},
+          {"duration": null, "rate": "0.60"},
+          {"duration": null, "rate": "0.70"},
+          {"duration": null, "rate": "1.00"},
+          {"duration": null, "rate": "1.00"},
+          {"duration": null, "rate": "1.00"},
+          {"duration": null, "rate": "2.70"}
+        ]
+      },
+      {
         "title": "MG주거래우대정기예금",
         "entries": [{"duration": 12, "rate": "1.70"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/11/03",
+    "baseDate": "2025/11/04",
     "products": [
       {
         "title": "정기적금",
@@ -134,5 +151,5 @@
       }
     ]
   },
-  "baseDate": "2025/11/03"
+  "baseDate": "2025/11/04"
 }
