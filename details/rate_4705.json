@@ -7,7 +7,7 @@
     "r2": "충주시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/11/11",
+    "baseDate": "2025/11/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -97,7 +97,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/11/11",
+    "baseDate": "2025/11/12",
     "products": [
       {
         "title": "정기적금",
@@ -150,7 +150,7 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "3.20"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       },
       {
         "title": "Smart 자유적립적금",
@@ -158,7 +158,7 @@
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.20"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       },
       {
         "title": "MG더뱅킹자유적금",
@@ -167,16 +167,16 @@
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 12, "rate": "3.20"},
-          {"duration": 24, "rate": "2.80"},
-          {"duration": 36, "rate": "2.80"}
+          {"duration": 12, "rate": "2.60"},
+          {"duration": 24, "rate": "2.20"},
+          {"duration": 36, "rate": "2.20"}
         ]
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "3.20"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       }
     ]
   },
-  "baseDate": "2025/11/11"
+  "baseDate": "2025/11/12"
 }
