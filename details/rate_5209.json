@@ -7,7 +7,7 @@
     "r2": "포항시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/11/12",
+    "baseDate": "2025/11/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -35,12 +35,12 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.30"}]
+        "entries": [{"duration": 12, "rate": "2.84"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/11/12",
+    "baseDate": "2025/11/13",
     "products": [
       {
         "title": "정기적금",
@@ -96,5 +96,5 @@
       }
     ]
   },
-  "baseDate": "2025/11/12"
+  "baseDate": "2025/11/13"
 }
