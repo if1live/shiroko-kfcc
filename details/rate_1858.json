@@ -1,0 +1,12 @@
+{
+  "id": "1858",
+  "bank": {
+    "gmgoCd": "1858",
+    "gmgoNm": "중평",
+    "r1": "대구",
+    "r2": "서구"
+  },
+  "deferredDeposit": null,
+  "installmentSavings": null,
+  "baseDate": null
+}
