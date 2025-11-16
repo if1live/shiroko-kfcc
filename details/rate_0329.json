@@ -7,7 +7,7 @@
     "r2": "은평구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/11/16",
+    "baseDate": "2025/11/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -42,7 +42,7 @@
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.40"},
           {"duration": 9, "rate": "2.40"},
-          {"duration": 12, "rate": "2.70"},
+          {"duration": 12, "rate": "2.67"},
           {"duration": 18, "rate": "2.60"},
           {"duration": 24, "rate": "2.60"},
           {"duration": 30, "rate": "2.60"},
@@ -67,17 +67,17 @@
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.85"}
+          {"duration": null, "rate": "2.82"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "2.80"}]
+        "entries": [{"duration": 12, "rate": "2.75"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/11/16",
+    "baseDate": "2025/11/17",
     "products": [
       {
         "title": "정기적금",
@@ -169,5 +169,5 @@
       }
     ]
   },
-  "baseDate": "2025/11/16"
+  "baseDate": "2025/11/17"
 }

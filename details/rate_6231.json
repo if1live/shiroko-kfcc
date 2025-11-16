@@ -7,7 +7,7 @@
     "r2": "울주군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/11/16",
+    "baseDate": "2025/11/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,6 +15,7 @@
           {"duration": null, "rate": "1.65"},
           {"duration": null, "rate": "1.95"},
           {"duration": null, "rate": "2.25"},
+          {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.55"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.30"},
@@ -54,7 +55,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/11/16",
+    "baseDate": "2025/11/17",
     "products": [
       {
         "title": "정기적금",
@@ -126,5 +127,5 @@
       }
     ]
   },
-  "baseDate": "2025/11/16"
+  "baseDate": "2025/11/17"
 }

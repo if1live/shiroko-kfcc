@@ -7,18 +7,19 @@
     "r2": "북구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/11/16",
+    "baseDate": "2025/11/17",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "1.60"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.30"}
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.40"}
         ]
       },
       {
@@ -35,15 +36,15 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "1.40"},
+          {"duration": 1, "rate": "2.40"},
+          {"duration": 3, "rate": "2.40"},
           {"duration": 6, "rate": "2.60"},
           {"duration": 9, "rate": "2.60"},
-          {"duration": 12, "rate": "2.60"},
-          {"duration": 18, "rate": "2.40"},
-          {"duration": 24, "rate": "2.40"},
-          {"duration": 30, "rate": "2.20"},
-          {"duration": 36, "rate": "2.20"}
+          {"duration": 12, "rate": "2.70"},
+          {"duration": 18, "rate": "2.50"},
+          {"duration": 24, "rate": "2.50"},
+          {"duration": 30, "rate": "2.30"},
+          {"duration": 36, "rate": "2.30"}
         ]
       },
       {
@@ -53,24 +54,24 @@
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": null, "rate": "0.50"},
-          {"duration": null, "rate": "0.50"},
-          {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "1.60"},
-          {"duration": null, "rate": "1.70"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.80"}
+          {"duration": null, "rate": "2.83"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/11/16",
+    "baseDate": "2025/11/17",
     "products": [
       {
         "title": "정기적금",
@@ -124,5 +125,5 @@
       }
     ]
   },
-  "baseDate": "2025/11/16"
+  "baseDate": "2025/11/17"
 }
