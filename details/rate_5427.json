@@ -7,7 +7,7 @@
     "r2": "상주시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/11/17",
+    "baseDate": "2025/11/18",
     "products": [
       {
         "title": "정기예탁금",
@@ -18,7 +18,7 @@
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.70"}
+          {"duration": null, "rate": "2.60"}
         ]
       },
       {
@@ -29,7 +29,7 @@
           {"duration": 6, "rate": "2.10"},
           {"duration": 12, "rate": "2.50"},
           {"duration": 24, "rate": "2.60"},
-          {"duration": 36, "rate": "2.70"}
+          {"duration": 36, "rate": "2.60"}
         ]
       },
       {
@@ -56,7 +56,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/11/17",
+    "baseDate": "2025/11/18",
     "products": [
       {
         "title": "정기적금",
@@ -65,7 +65,7 @@
           {"duration": 9, "rate": "2.30"},
           {"duration": 12, "rate": "2.50"},
           {"duration": 24, "rate": "2.60"},
-          {"duration": 36, "rate": "2.70"}
+          {"duration": 36, "rate": "2.60"}
         ]
       },
       {
@@ -73,7 +73,7 @@
         "entries": [
           {"duration": 12, "rate": "2.50"},
           {"duration": 24, "rate": "2.60"},
-          {"duration": 36, "rate": "2.70"}
+          {"duration": 36, "rate": "2.60"}
         ]
       },
       {
@@ -103,7 +103,7 @@
           {"duration": 9, "rate": "2.30"},
           {"duration": 12, "rate": "2.50"},
           {"duration": 24, "rate": "2.60"},
-          {"duration": 36, "rate": "2.70"}
+          {"duration": 36, "rate": "2.60"}
         ]
       },
       {
@@ -140,8 +140,8 @@
           {"duration": 6, "rate": "2.10"},
           {"duration": 9, "rate": "2.30"},
           {"duration": 12, "rate": "2.60"},
-          {"duration": 24, "rate": "2.70"},
-          {"duration": 36, "rate": "2.80"}
+          {"duration": 24, "rate": "2.60"},
+          {"duration": 36, "rate": "2.60"}
         ]
       },
       {
@@ -150,5 +150,5 @@
       }
     ]
   },
-  "baseDate": "2025/11/17"
+  "baseDate": "2025/11/18"
 }

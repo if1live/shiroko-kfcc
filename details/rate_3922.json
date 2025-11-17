@@ -7,18 +7,20 @@
     "r2": "화성시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/11/17",
+    "baseDate": "2025/11/18",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "1.80"},
-          {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.45"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.55"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.65"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.35"},
-          {"duration": null, "rate": "2.35"}
+          {"duration": null, "rate": "2.50"}
         ]
       },
       {
@@ -86,7 +88,7 @@
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.55"}
+          {"duration": null, "rate": "2.65"}
         ]
       },
       {
@@ -96,7 +98,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/11/17",
+    "baseDate": "2025/11/18",
     "products": [
       {
         "title": "정기적금",
@@ -177,5 +179,5 @@
       }
     ]
   },
-  "baseDate": "2025/11/17"
+  "baseDate": "2025/11/18"
 }
