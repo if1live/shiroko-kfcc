@@ -7,16 +7,16 @@
     "r2": "전주시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/11/20",
+    "baseDate": "2025/11/21",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.52"},
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.76"},
+          {"duration": null, "rate": "2.76"},
           {"duration": null, "rate": "2.00"}
         ]
       },
@@ -54,25 +54,25 @@
         "entries": [
           {"duration": 1, "rate": "1.50"},
           {"duration": 3, "rate": "2.30"},
-          {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "2.70"},
-          {"duration": 18, "rate": "2.60"},
-          {"duration": 24, "rate": "2.60"}
+          {"duration": 6, "rate": "2.52"},
+          {"duration": 12, "rate": "2.80"},
+          {"duration": 18, "rate": "2.76"},
+          {"duration": 24, "rate": "2.76"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "2.70"}]
+        "entries": [{"duration": 12, "rate": "2.80"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/11/20",
+    "baseDate": "2025/11/21",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.10"},
+          {"duration": 12, "rate": "3.30"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "2.90"}
         ]
@@ -80,7 +80,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.10"},
+          {"duration": 12, "rate": "3.30"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "2.90"}
         ]
@@ -91,13 +91,13 @@
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "3.10"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "3.10"}
+          {"duration": 12, "rate": "3.30"}
         ]
       },
       {
@@ -147,5 +147,5 @@
       }
     ]
   },
-  "baseDate": "2025/11/20"
+  "baseDate": "2025/11/21"
 }
