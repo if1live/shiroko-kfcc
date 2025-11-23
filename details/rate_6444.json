@@ -7,7 +7,7 @@
     "r2": "남해군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/11/23",
+    "baseDate": "2025/11/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -64,12 +64,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "2.60"}]
+        "entries": [{"duration": 12, "rate": "2.50"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/11/23",
+    "baseDate": "2025/11/24",
     "products": [
       {
         "title": "정기적금",
@@ -130,5 +130,5 @@
       }
     ]
   },
-  "baseDate": "2025/11/23"
+  "baseDate": "2025/11/24"
 }

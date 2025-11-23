@@ -7,14 +7,14 @@
     "r2": "광명시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/11/23",
+    "baseDate": "2025/11/24",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.10"},
           {"duration": null, "rate": "2.10"},
-          {"duration": null, "rate": "2.30"},
+          {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.70"},
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/11/23",
+    "baseDate": "2025/11/24",
     "products": [
       {
         "title": "정기적금",
@@ -165,5 +165,5 @@
       }
     ]
   },
-  "baseDate": "2025/11/23"
+  "baseDate": "2025/11/24"
 }

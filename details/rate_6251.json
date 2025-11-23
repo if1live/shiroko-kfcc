@@ -7,14 +7,14 @@
     "r2": "동구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/11/23",
+    "baseDate": "2025/11/24",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.65"},
+          {"duration": null, "rate": "2.75"},
           {"duration": null, "rate": "2.55"},
           {"duration": null, "rate": "2.55"},
           {"duration": null, "rate": "2.55"},
@@ -27,7 +27,7 @@
           {"duration": 1, "rate": "0.00"},
           {"duration": 3, "rate": "0.00"},
           {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "2.45"},
+          {"duration": 12, "rate": "2.55"},
           {"duration": 18, "rate": "2.35"},
           {"duration": 24, "rate": "2.35"}
         ]
@@ -46,29 +46,29 @@
           {"duration": 9, "rate": "2.50"},
           {"duration": 10, "rate": "2.50"},
           {"duration": 11, "rate": "2.50"},
-          {"duration": 12, "rate": "2.65"}
+          {"duration": 12, "rate": "2.75"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/11/23",
+    "baseDate": "2025/11/24",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "2.75"},
-          {"duration": 12, "rate": "2.90"},
+          {"duration": 12, "rate": "3.00"},
           {"duration": 18, "rate": "2.80"},
           {"duration": 24, "rate": "2.80"},
           {"duration": 36, "rate": "2.75"},
-          {"duration": 60, "rate": "3.70"}
+          {"duration": 60, "rate": "3.80"}
         ]
       },
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.50"},
+          {"duration": 12, "rate": "4.60"},
           {"duration": 24, "rate": "4.40"},
           {"duration": 36, "rate": "4.35"}
         ]
@@ -83,7 +83,7 @@
           {"duration": 1, "rate": "1.20"},
           {"duration": 3, "rate": "2.40"},
           {"duration": 6, "rate": "2.40"},
-          {"duration": 12, "rate": "2.55"},
+          {"duration": 12, "rate": "2.65"},
           {"duration": 13, "rate": "2.45"},
           {"duration": 24, "rate": "2.45"},
           {"duration": 36, "rate": "2.45"}
@@ -92,12 +92,12 @@
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 12, "rate": "5.70"},
-          {"duration": 24, "rate": "5.70"},
-          {"duration": 36, "rate": "5.70"}
+          {"duration": 12, "rate": "5.80"},
+          {"duration": 24, "rate": "5.80"},
+          {"duration": 36, "rate": "5.80"}
         ]
       }
     ]
   },
-  "baseDate": "2025/11/23"
+  "baseDate": "2025/11/24"
 }
