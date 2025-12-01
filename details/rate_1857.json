@@ -7,14 +7,14 @@
     "r2": "서구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/12/01",
+    "baseDate": "2025/12/02",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.70"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"}
         ]
@@ -62,13 +62,13 @@
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.75"}
+          {"duration": null, "rate": "2.80"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/12/01",
+    "baseDate": "2025/12/02",
     "products": [
       {
         "title": "정기적금",
@@ -131,5 +131,5 @@
       }
     ]
   },
-  "baseDate": "2025/12/01"
+  "baseDate": "2025/12/02"
 }

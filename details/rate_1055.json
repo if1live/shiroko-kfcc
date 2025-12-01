@@ -1,0 +1,12 @@
+{
+  "id": "1055",
+  "bank": {
+    "gmgoCd": "1055",
+    "gmgoNm": "서울성동",
+    "r1": "서울",
+    "r2": "성동구"
+  },
+  "deferredDeposit": null,
+  "installmentSavings": null,
+  "baseDate": null
+}
