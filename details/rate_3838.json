@@ -7,7 +7,7 @@
     "r2": "평택시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/12/06",
+    "baseDate": "2025/12/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -38,7 +38,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/12/06",
+    "baseDate": "2025/12/07",
     "products": [
       {
         "title": "정기적금",
@@ -82,5 +82,5 @@
       }
     ]
   },
-  "baseDate": "2025/12/06"
+  "baseDate": "2025/12/07"
 }
