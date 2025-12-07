@@ -7,7 +7,7 @@
     "r2": "파주시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/12/07",
+    "baseDate": "2025/12/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -84,7 +84,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/12/07",
+    "baseDate": "2025/12/08",
     "products": [
       {
         "title": "정기적금",
@@ -100,7 +100,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "5.12"},
+          {"duration": 12, "rate": "8.03"},
           {"duration": 24, "rate": "2.30"},
           {"duration": 36, "rate": "2.40"}
         ]
@@ -168,5 +168,5 @@
       }
     ]
   },
-  "baseDate": "2025/12/07"
+  "baseDate": "2025/12/08"
 }

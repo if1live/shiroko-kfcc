@@ -7,7 +7,7 @@
     "r2": "송파구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/12/07",
+    "baseDate": "2025/12/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "1.80"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.75"},
+          {"duration": null, "rate": "2.85"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.40"}
         ]
@@ -63,13 +63,13 @@
           {"duration": 9, "rate": "2.50"},
           {"duration": 10, "rate": "2.50"},
           {"duration": 11, "rate": "2.50"},
-          {"duration": 12, "rate": "2.80"}
+          {"duration": 12, "rate": "2.85"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/12/07",
+    "baseDate": "2025/12/08",
     "products": [
       {
         "title": "정기적금",
@@ -132,5 +132,5 @@
       }
     ]
   },
-  "baseDate": "2025/12/07"
+  "baseDate": "2025/12/08"
 }
