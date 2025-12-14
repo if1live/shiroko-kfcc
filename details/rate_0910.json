@@ -7,15 +7,15 @@
     "r2": "동작구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/12/14",
+    "baseDate": "2025/12/15",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "1.80"},
-          {"duration": null, "rate": "2.30"},
+          {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.50"},
@@ -38,13 +38,13 @@
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "1.80"},
-          {"duration": 3, "rate": "2.30"},
-          {"duration": 6, "rate": "2.50"},
-          {"duration": 9, "rate": "2.60"},
-          {"duration": 12, "rate": "2.80"},
+          {"duration": 1, "rate": "2.00"},
+          {"duration": 3, "rate": "2.50"},
+          {"duration": 6, "rate": "2.60"},
+          {"duration": 9, "rate": "2.70"},
+          {"duration": 12, "rate": "2.90"},
           {"duration": 18, "rate": "2.50"},
-          {"duration": 24, "rate": "2.50"},
+          {"duration": 24, "rate": "2.40"},
           {"duration": 30, "rate": "2.40"},
           {"duration": 36, "rate": "2.40"}
         ]
@@ -56,28 +56,28 @@
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": null, "rate": "1.80"},
-          {"duration": null, "rate": "2.10"},
-          {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.00"},
+          {"duration": null, "rate": "2.20"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.80"}
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.90"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "2.80"}]
+        "entries": [{"duration": 12, "rate": "2.90"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/12/14",
+    "baseDate": "2025/12/15",
     "products": [
       {
         "title": "정기적금",
@@ -141,5 +141,5 @@
       }
     ]
   },
-  "baseDate": "2025/12/14"
+  "baseDate": "2025/12/15"
 }

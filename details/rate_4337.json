@@ -7,7 +7,7 @@
     "r2": "횡성군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/12/14",
+    "baseDate": "2025/12/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,7 +16,7 @@
           {"duration": null, "rate": "0.75"},
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "1.80"},
-          {"duration": null, "rate": "2.81"},
+          {"duration": null, "rate": "2.91"},
           {"duration": null, "rate": "2.63"},
           {"duration": null, "rate": "2.63"},
           {"duration": null, "rate": "2.51"},
@@ -68,7 +68,7 @@
           {"duration": null, "rate": "0.90"},
           {"duration": null, "rate": "0.90"},
           {"duration": null, "rate": "0.90"},
-          {"duration": null, "rate": "2.81"}
+          {"duration": null, "rate": "2.91"}
         ]
       },
       {
@@ -78,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/12/14",
+    "baseDate": "2025/12/15",
     "products": [
       {
         "title": "정기적금",
@@ -123,7 +123,7 @@
           {"duration": 1, "rate": "0.50"},
           {"duration": 3, "rate": "0.80"},
           {"duration": 6, "rate": "0.80"},
-          {"duration": 12, "rate": "2.85"},
+          {"duration": 12, "rate": "2.95"},
           {"duration": 13, "rate": "2.70"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 25, "rate": "2.60"},
@@ -165,5 +165,5 @@
       }
     ]
   },
-  "baseDate": "2025/12/14"
+  "baseDate": "2025/12/15"
 }
