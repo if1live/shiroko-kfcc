@@ -7,7 +7,7 @@
     "r2": "칠곡군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/12/15",
+    "baseDate": "2025/12/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -17,6 +17,8 @@
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.20"},
+          {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"}
         ]
@@ -74,7 +76,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/12/15",
+    "baseDate": "2025/12/16",
     "products": [
       {
         "title": "정기적금",
@@ -158,5 +160,5 @@
       }
     ]
   },
-  "baseDate": "2025/12/15"
+  "baseDate": "2025/12/16"
 }

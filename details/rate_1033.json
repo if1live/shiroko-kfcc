@@ -7,7 +7,7 @@
     "r2": "송파구"
   },
   "deferredDeposit": {
-    "baseDate": "2025/12/15",
+    "baseDate": "2025/12/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "1.70"},
           {"duration": null, "rate": "1.90"},
-          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "1.90"},
           {"duration": null, "rate": "1.90"},
           {"duration": null, "rate": "1.90"}
@@ -27,7 +27,7 @@
           {"duration": 0, "rate": "1.50"},
           {"duration": 3, "rate": "1.70"},
           {"duration": 6, "rate": "1.90"},
-          {"duration": 12, "rate": "2.40"},
+          {"duration": 12, "rate": "2.60"},
           {"duration": 24, "rate": "1.90"},
           {"duration": 36, "rate": "1.90"}
         ]
@@ -39,7 +39,7 @@
           {"duration": 3, "rate": "1.70"},
           {"duration": 6, "rate": "1.90"},
           {"duration": 9, "rate": "1.90"},
-          {"duration": 12, "rate": "2.40"},
+          {"duration": 12, "rate": "2.60"},
           {"duration": 18, "rate": "1.90"},
           {"duration": 24, "rate": "1.90"},
           {"duration": 30, "rate": "1.90"},
@@ -48,7 +48,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.40"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -64,17 +64,17 @@
           {"duration": null, "rate": "2.10"},
           {"duration": null, "rate": "2.10"},
           {"duration": null, "rate": "2.10"},
-          {"duration": null, "rate": "2.60"}
+          {"duration": null, "rate": "2.80"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "2.40"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/12/15",
+    "baseDate": "2025/12/16",
     "products": [
       {
         "title": "정기적금",
@@ -113,20 +113,20 @@
           {"duration": 1, "rate": "1.50"},
           {"duration": 3, "rate": "1.70"},
           {"duration": 6, "rate": "1.90"},
-          {"duration": 12, "rate": "2.40"},
+          {"duration": 12, "rate": "2.60"},
           {"duration": 24, "rate": "1.90"},
           {"duration": 36, "rate": "1.90"}
         ]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "2.40"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "2.40"}]
+        "entries": [{"duration": 12, "rate": "2.60"}]
       }
     ]
   },
-  "baseDate": "2025/12/15"
+  "baseDate": "2025/12/16"
 }
