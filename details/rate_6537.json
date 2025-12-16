@@ -7,7 +7,7 @@
     "r2": "고성군"
   },
   "deferredDeposit": {
-    "baseDate": "2025/12/16",
+    "baseDate": "2025/12/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -62,7 +62,7 @@
           {"duration": 9, "rate": "2.00"},
           {"duration": 10, "rate": "2.00"},
           {"duration": 11, "rate": "2.00"},
-          {"duration": 12, "rate": "2.80"}
+          {"duration": 12, "rate": "2.60"}
         ]
       },
       {
@@ -72,7 +72,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/12/16",
+    "baseDate": "2025/12/17",
     "products": [
       {
         "title": "정기적금",
@@ -128,5 +128,5 @@
       }
     ]
   },
-  "baseDate": "2025/12/16"
+  "baseDate": "2025/12/17"
 }
