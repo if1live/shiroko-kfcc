@@ -7,17 +7,17 @@
     "r2": "광양시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/12/22",
+    "baseDate": "2025/12/23",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.80"},
           {"duration": null, "rate": "2.25"},
-          {"duration": null, "rate": "2.45"},
+          {"duration": null, "rate": "2.68"},
           {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.40"}
+          {"duration": null, "rate": "2.75"},
+          {"duration": null, "rate": "2.75"}
         ]
       },
       {
@@ -44,7 +44,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/12/22",
+    "baseDate": "2025/12/23",
     "products": [
       {
         "title": "정기적금",
@@ -107,5 +107,5 @@
       }
     ]
   },
-  "baseDate": "2025/12/22"
+  "baseDate": "2025/12/23"
 }
