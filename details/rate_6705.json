@@ -7,7 +7,7 @@
     "r2": "서귀포시"
   },
   "deferredDeposit": {
-    "baseDate": "2025/12/23",
+    "baseDate": "2025/12/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -80,7 +80,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2025/12/23",
+    "baseDate": "2025/12/24",
     "products": [
       {
         "title": "정기적금",
@@ -163,5 +163,5 @@
       }
     ]
   },
-  "baseDate": "2025/12/23"
+  "baseDate": "2025/12/24"
 }
