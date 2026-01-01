@@ -7,7 +7,7 @@
     "r2": "보은군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/01",
+    "baseDate": "2026/01/02",
     "products": [
       {
         "title": "정기예탁금",
@@ -27,8 +27,8 @@
           {"duration": 3, "rate": "1.00"},
           {"duration": 6, "rate": "1.30"},
           {"duration": 12, "rate": "3.00"},
-          {"duration": 24, "rate": "1.50"},
-          {"duration": 36, "rate": "1.50"}
+          {"duration": 24, "rate": "3.00"},
+          {"duration": 36, "rate": "3.00"}
         ]
       },
       {
@@ -84,7 +84,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/01",
+    "baseDate": "2026/01/02",
     "products": [
       {
         "title": "정기적금",
@@ -148,5 +148,5 @@
       }
     ]
   },
-  "baseDate": "2026/01/01"
+  "baseDate": "2026/01/02"
 }

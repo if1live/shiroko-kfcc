@@ -7,13 +7,15 @@
     "r2": "서대문구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/01",
+    "baseDate": "2026/01/02",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.45"},
           {"duration": null, "rate": "2.15"},
+          {"duration": null, "rate": "2.75"},
+          {"duration": null, "rate": "3.25"},
           {"duration": null, "rate": "2.75"},
           {"duration": null, "rate": "2.75"},
           {"duration": null, "rate": "2.75"}
@@ -94,7 +96,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/01",
+    "baseDate": "2026/01/02",
     "products": [
       {
         "title": "정기적금",
@@ -149,5 +151,5 @@
       }
     ]
   },
-  "baseDate": "2026/01/01"
+  "baseDate": "2026/01/02"
 }
