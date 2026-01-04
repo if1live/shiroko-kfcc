@@ -7,7 +7,7 @@
     "r2": "관악구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/04",
+    "baseDate": "2026/01/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,7 +16,7 @@
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.50"}
@@ -28,7 +28,7 @@
           {"duration": 0, "rate": "2.00"},
           {"duration": 3, "rate": "2.20"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "2.70"},
+          {"duration": 12, "rate": "2.80"},
           {"duration": 24, "rate": "2.60"},
           {"duration": 36, "rate": "2.50"}
         ]
@@ -40,7 +40,7 @@
           {"duration": 3, "rate": "2.20"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 9, "rate": "2.50"},
-          {"duration": 12, "rate": "2.70"},
+          {"duration": 12, "rate": "2.80"},
           {"duration": 18, "rate": "2.60"},
           {"duration": 24, "rate": "2.60"},
           {"duration": 30, "rate": "2.50"},
@@ -65,13 +65,13 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.00"}
+          {"duration": null, "rate": "2.80"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/04",
+    "baseDate": "2026/01/05",
     "products": [
       {
         "title": "정기적금",
@@ -121,5 +121,5 @@
       }
     ]
   },
-  "baseDate": "2026/01/04"
+  "baseDate": "2026/01/05"
 }
