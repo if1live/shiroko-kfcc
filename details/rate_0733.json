@@ -7,7 +7,7 @@
     "r2": "구로구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/06",
+    "baseDate": "2026/01/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -72,7 +72,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/06",
+    "baseDate": "2026/01/07",
     "products": [
       {
         "title": "정기적금",
@@ -131,10 +131,10 @@
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 6, "rate": "2.40"},
-          {"duration": 12, "rate": "2.60"},
-          {"duration": 24, "rate": "2.60"},
-          {"duration": 36, "rate": "2.60"}
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 12, "rate": "2.80"},
+          {"duration": 24, "rate": "2.80"},
+          {"duration": 36, "rate": "2.80"}
         ]
       },
       {
@@ -143,5 +143,5 @@
       }
     ]
   },
-  "baseDate": "2026/01/06"
+  "baseDate": "2026/01/07"
 }

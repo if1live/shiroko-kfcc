@@ -7,7 +7,7 @@
     "r2": "안동시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/06",
+    "baseDate": "2026/01/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -49,7 +49,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.80"}]
+        "entries": [{"duration": 12, "rate": "2.50"}]
       },
       {
         "title": "MG주거래우대정기예금",
@@ -58,7 +58,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/06",
+    "baseDate": "2026/01/07",
     "products": [
       {
         "title": "정기적금",
@@ -146,5 +146,5 @@
       }
     ]
   },
-  "baseDate": "2026/01/06"
+  "baseDate": "2026/01/07"
 }
