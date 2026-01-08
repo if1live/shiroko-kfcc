@@ -7,7 +7,7 @@
     "r2": "수성구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/08",
+    "baseDate": "2026/01/09",
     "products": [
       {
         "title": "정기예탁금",
@@ -89,7 +89,7 @@
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "2.80"}
+          {"duration": null, "rate": "3.20"}
         ]
       },
       {
@@ -99,7 +99,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/08",
+    "baseDate": "2026/01/09",
     "products": [
       {
         "title": "정기적금",
@@ -171,5 +171,5 @@
       }
     ]
   },
-  "baseDate": "2026/01/08"
+  "baseDate": "2026/01/09"
 }
