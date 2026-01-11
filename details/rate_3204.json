@@ -7,7 +7,7 @@
     "r2": "천안시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/11",
+    "baseDate": "2026/01/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,9 +15,9 @@
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.55"},
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.20"},
@@ -52,7 +52,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.83"}]
+        "entries": [{"duration": 12, "rate": "2.70"}]
       },
       {
         "title": "MG기업정기예금(A)",
@@ -90,7 +90,7 @@
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.80"}
+          {"duration": null, "rate": "2.90"}
         ]
       },
       {
@@ -100,7 +100,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/11",
+    "baseDate": "2026/01/12",
     "products": [
       {
         "title": "정기적금",
@@ -196,5 +196,5 @@
       }
     ]
   },
-  "baseDate": "2026/01/11"
+  "baseDate": "2026/01/12"
 }
