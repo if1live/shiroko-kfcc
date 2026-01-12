@@ -7,7 +7,7 @@
     "r2": "성북구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/12",
+    "baseDate": "2026/01/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/12",
+    "baseDate": "2026/01/13",
     "products": [
       {
         "title": "정기적금",
@@ -87,7 +87,7 @@
       },
       {
         "title": "MG New정기적금",
-        "entries": [{"duration": 12, "rate": "5.40"}]
+        "entries": [{"duration": 12, "rate": "1.00"}]
       },
       {
         "title": "우리아기첫걸음정기적금",
@@ -160,5 +160,5 @@
       }
     ]
   },
-  "baseDate": "2026/01/12"
+  "baseDate": "2026/01/13"
 }
