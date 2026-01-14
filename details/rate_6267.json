@@ -7,7 +7,7 @@
     "r2": "양산시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/14",
+    "baseDate": "2026/01/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -53,7 +53,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/14",
+    "baseDate": "2026/01/15",
     "products": [
       {
         "title": "정기적금",
@@ -105,12 +105,12 @@
         "title": "일일자유적금",
         "entries": [
           {"duration": 0, "rate": "0.00"},
-          {"duration": 1, "rate": "2.60"},
-          {"duration": 2, "rate": "2.60"},
-          {"duration": 3, "rate": "2.60"},
-          {"duration": 4, "rate": "2.60"},
-          {"duration": 5, "rate": "2.60"},
-          {"duration": 6, "rate": "2.60"}
+          {"duration": 1, "rate": "2.90"},
+          {"duration": 2, "rate": "2.90"},
+          {"duration": 3, "rate": "2.90"},
+          {"duration": 4, "rate": "2.90"},
+          {"duration": 5, "rate": "2.90"},
+          {"duration": 6, "rate": "2.90"}
         ]
       },
       {
@@ -123,5 +123,5 @@
       }
     ]
   },
-  "baseDate": "2026/01/14"
+  "baseDate": "2026/01/15"
 }
