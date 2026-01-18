@@ -7,7 +7,7 @@
     "r2": "충주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/18",
+    "baseDate": "2026/01/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,6 +16,8 @@
           {"duration": null, "rate": "0.30"},
           {"duration": null, "rate": "1.60"},
           {"duration": null, "rate": "2.10"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "1.90"},
           {"duration": null, "rate": "1.40"}
@@ -64,7 +66,7 @@
           {"duration": null, "rate": "2.10"},
           {"duration": null, "rate": "2.10"},
           {"duration": null, "rate": "2.10"},
-          {"duration": null, "rate": "2.60"}
+          {"duration": null, "rate": "2.70"}
         ]
       },
       {
@@ -74,7 +76,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/18",
+    "baseDate": "2026/01/19",
     "products": [
       {
         "title": "정기적금",
@@ -141,5 +143,5 @@
       }
     ]
   },
-  "baseDate": "2026/01/18"
+  "baseDate": "2026/01/19"
 }
