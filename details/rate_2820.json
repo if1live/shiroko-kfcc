@@ -7,41 +7,41 @@
     "r2": "목포시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/19",
+    "baseDate": "2026/01/20",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.80"},
-          {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.45"},
-          {"duration": null, "rate": "2.48"}
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.56"},
+          {"duration": null, "rate": "2.59"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/19",
+    "baseDate": "2026/01/20",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 6, "rate": "2.20"},
-          {"duration": 12, "rate": "2.60"},
-          {"duration": 24, "rate": "2.50"},
-          {"duration": 36, "rate": "2.50"}
+          {"duration": 6, "rate": "2.40"},
+          {"duration": 12, "rate": "2.80"},
+          {"duration": 24, "rate": "2.60"},
+          {"duration": 36, "rate": "2.60"}
         ]
       },
       {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.30"},
-          {"duration": 6, "rate": "2.20"},
-          {"duration": 12, "rate": "2.60"},
-          {"duration": 24, "rate": "2.50"},
-          {"duration": 36, "rate": "2.50"}
+          {"duration": 6, "rate": "2.40"},
+          {"duration": 12, "rate": "2.80"},
+          {"duration": 24, "rate": "2.60"},
+          {"duration": 36, "rate": "2.60"}
         ]
       },
       {
@@ -55,5 +55,5 @@
       }
     ]
   },
-  "baseDate": "2026/01/19"
+  "baseDate": "2026/01/20"
 }
