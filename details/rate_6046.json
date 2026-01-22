@@ -7,7 +7,7 @@
     "r2": "함안군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/22",
+    "baseDate": "2026/01/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"}
@@ -27,7 +27,7 @@
           {"duration": 0, "rate": "1.00"},
           {"duration": 3, "rate": "1.50"},
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "2.70"},
+          {"duration": 12, "rate": "2.80"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.70"}
         ]
@@ -39,7 +39,7 @@
           {"duration": 3, "rate": "1.50"},
           {"duration": 6, "rate": "2.00"},
           {"duration": 9, "rate": "2.00"},
-          {"duration": 12, "rate": "2.70"},
+          {"duration": 12, "rate": "2.80"},
           {"duration": 18, "rate": "2.70"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 30, "rate": "2.70"},
@@ -48,7 +48,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.70"}]
+        "entries": [{"duration": 12, "rate": "2.80"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -64,23 +64,23 @@
           {"duration": 9, "rate": "2.00"},
           {"duration": 10, "rate": "2.00"},
           {"duration": 11, "rate": "2.00"},
-          {"duration": 12, "rate": "2.70"}
+          {"duration": 12, "rate": "2.80"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "2.70"}]
+        "entries": [{"duration": 12, "rate": "2.80"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/22",
+    "baseDate": "2026/01/23",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "2.10"},
-          {"duration": 12, "rate": "2.80"},
+          {"duration": 12, "rate": "2.90"},
           {"duration": 24, "rate": "2.80"},
           {"duration": 36, "rate": "2.80"}
         ]
@@ -88,20 +88,20 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "2.80"},
+          {"duration": 12, "rate": "2.90"},
           {"duration": 24, "rate": "2.80"},
           {"duration": 36, "rate": "2.80"}
         ]
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "2.80"}]
+        "entries": [{"duration": 12, "rate": "2.90"}]
       },
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
-          {"duration": 6, "rate": "2.10"},
-          {"duration": 12, "rate": "2.80"}
+          {"duration": 6, "rate": "2.00"},
+          {"duration": 12, "rate": "2.90"}
         ]
       },
       {
@@ -113,32 +113,32 @@
         "entries": [
           {"duration": 1, "rate": "1.00"},
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "2.70"},
+          {"duration": 12, "rate": "2.80"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.70"}
         ]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "2.70"}]
+        "entries": [{"duration": 12, "rate": "2.80"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "2.70"}]
+        "entries": [{"duration": 12, "rate": "2.80"}]
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "2.70"}]
+        "entries": [{"duration": 12, "rate": "2.80"}]
       },
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 12, "rate": "2.70"},
+          {"duration": 12, "rate": "2.80"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.70"}
         ]
       }
     ]
   },
-  "baseDate": "2026/01/22"
+  "baseDate": "2026/01/23"
 }
