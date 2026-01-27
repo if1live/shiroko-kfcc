@@ -7,22 +7,22 @@
     "r2": "북구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/27",
+    "baseDate": "2026/01/28",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.40"},
           {"duration": null, "rate": "1.40"},
-          {"duration": null, "rate": "1.80"},
-          {"duration": null, "rate": "1.80"},
-          {"duration": null, "rate": "1.80"},
-          {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "1.90"},
+          {"duration": null, "rate": "1.90"},
+          {"duration": null, "rate": "1.90"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.30"},
@@ -34,9 +34,9 @@
         "title": "Block예금",
         "entries": [
           {"duration": 0, "rate": "1.50"},
-          {"duration": 3, "rate": "1.80"},
-          {"duration": 6, "rate": "2.40"},
-          {"duration": 12, "rate": "2.70"},
+          {"duration": 3, "rate": "1.90"},
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 12, "rate": "3.00"},
           {"duration": 24, "rate": "2.30"},
           {"duration": 36, "rate": "2.20"}
         ]
@@ -64,12 +64,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "2.70"}]
+        "entries": [{"duration": 12, "rate": "2.90"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/27",
+    "baseDate": "2026/01/28",
     "products": [
       {
         "title": "정기적금",
@@ -122,5 +122,5 @@
       }
     ]
   },
-  "baseDate": "2026/01/27"
+  "baseDate": "2026/01/28"
 }
