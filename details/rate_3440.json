@@ -7,7 +7,7 @@
     "r2": "당진시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/28",
+    "baseDate": "2026/01/29",
     "products": [
       {
         "title": "정기예탁금",
@@ -88,11 +88,15 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.75"}
         ]
+      },
+      {
+        "title": "MG주거래우대정기예금",
+        "entries": [{"duration": 12, "rate": "2.90"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/28",
+    "baseDate": "2026/01/29",
     "products": [
       {
         "title": "정기적금",
@@ -184,5 +188,5 @@
       }
     ]
   },
-  "baseDate": "2026/01/28"
+  "baseDate": "2026/01/29"
 }
