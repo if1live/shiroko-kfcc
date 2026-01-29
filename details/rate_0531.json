@@ -7,7 +7,7 @@
     "r2": "중랑구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/29",
+    "baseDate": "2026/01/30",
     "products": [
       {
         "title": "정기예탁금",
@@ -64,17 +64,17 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.95"}
+          {"duration": null, "rate": "3.00"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "2.95"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/29",
+    "baseDate": "2026/01/30",
     "products": [
       {
         "title": "정기적금",
@@ -149,5 +149,5 @@
       }
     ]
   },
-  "baseDate": "2026/01/29"
+  "baseDate": "2026/01/30"
 }
