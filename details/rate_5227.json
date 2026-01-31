@@ -7,7 +7,7 @@
     "r2": "포항시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/31",
+    "baseDate": "2026/02/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -71,7 +71,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/31",
+    "baseDate": "2026/02/01",
     "products": [
       {
         "title": "정기적금",
@@ -83,10 +83,6 @@
           {"duration": 33, "rate": "3.30"},
           {"duration": 34, "rate": "2.70"}
         ]
-      },
-      {
-        "title": "MG희망나눔아기뱀적금",
-        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -122,5 +118,5 @@
       }
     ]
   },
-  "baseDate": "2026/01/31"
+  "baseDate": "2026/02/01"
 }

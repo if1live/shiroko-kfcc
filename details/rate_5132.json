@@ -7,7 +7,7 @@
     "r2": "익산시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/01/31",
+    "baseDate": "2026/02/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -25,7 +25,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/01/31",
+    "baseDate": "2026/02/01",
     "products": [
       {
         "title": "정기적금",
@@ -35,10 +35,6 @@
           {"duration": 36, "rate": "3.40"},
           {"duration": 60, "rate": "3.40"}
         ]
-      },
-      {
-        "title": "MG희망나눔아기뱀적금",
-        "entries": [{"duration": 12, "rate": "6.00"}]
       },
       {
         "title": "자유적립적금",
@@ -56,5 +52,5 @@
       }
     ]
   },
-  "baseDate": "2026/01/31"
+  "baseDate": "2026/02/01"
 }
