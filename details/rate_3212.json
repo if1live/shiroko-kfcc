@@ -7,7 +7,7 @@
     "r2": "천안시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/02",
+    "baseDate": "2026/02/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -17,8 +17,7 @@
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.30"}
         ]
@@ -76,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/02",
+    "baseDate": "2026/02/03",
     "products": [
       {
         "title": "정기적금",
@@ -165,5 +164,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/02"
+  "baseDate": "2026/02/03"
 }
