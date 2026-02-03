@@ -7,7 +7,7 @@
     "r2": "용산구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/03",
+    "baseDate": "2026/02/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "1.75"},
           {"duration": null, "rate": "1.95"},
           {"duration": null, "rate": "2.25"},
-          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "2.15"},
           {"duration": null, "rate": "2.15"},
           {"duration": null, "rate": "2.15"}
@@ -64,7 +64,7 @@
           {"duration": null, "rate": "2.25"},
           {"duration": null, "rate": "2.25"},
           {"duration": null, "rate": "2.25"},
-          {"duration": null, "rate": "2.90"}
+          {"duration": null, "rate": "3.30"}
         ]
       },
       {
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/03",
+    "baseDate": "2026/02/04",
     "products": [
       {
         "title": "정기적금",
@@ -101,7 +101,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "3.88"}
+          {"duration": 12, "rate": "3.46"}
         ]
       },
       {
@@ -132,7 +132,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.11"}]
+        "entries": [{"duration": 12, "rate": "2.85"}]
       },
       {
         "title": "일일자유적금",
@@ -161,5 +161,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/03"
+  "baseDate": "2026/02/04"
 }
