@@ -7,7 +7,7 @@
     "r2": "중구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/04",
+    "baseDate": "2026/02/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,9 @@
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.50"},
@@ -50,7 +52,7 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.50"}]
+        "entries": [{"duration": 12, "rate": "2.70"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -66,7 +68,7 @@
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "2.60"}
+          {"duration": null, "rate": "2.70"}
         ]
       },
       {
@@ -76,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/04",
+    "baseDate": "2026/02/05",
     "products": [
       {
         "title": "정기적금",
@@ -151,5 +153,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/04"
+  "baseDate": "2026/02/05"
 }

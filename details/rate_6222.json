@@ -7,7 +7,7 @@
     "r2": "남구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/04",
+    "baseDate": "2026/02/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -76,13 +76,13 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/04",
+    "baseDate": "2026/02/05",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "2.90"},
+          {"duration": 12, "rate": "3.10"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.40"}
         ]
@@ -90,7 +90,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "2.90"},
+          {"duration": 12, "rate": "3.10"},
           {"duration": 13, "rate": "2.70"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 25, "rate": "2.40"},
@@ -99,7 +99,7 @@
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "2.90"}]
+        "entries": [{"duration": 12, "rate": "3.10"}]
       },
       {
         "title": "MG뛰어라정기적금",
@@ -109,7 +109,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "2.90"}
+          {"duration": 12, "rate": "3.10"}
         ]
       },
       {
@@ -166,5 +166,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/04"
+  "baseDate": "2026/02/05"
 }
