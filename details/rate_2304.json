@@ -7,7 +7,7 @@
     "r2": "남동구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/09",
+    "baseDate": "2026/02/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -75,7 +75,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/09",
+    "baseDate": "2026/02/10",
     "products": [
       {
         "title": "정기적금",
@@ -141,9 +141,9 @@
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "3.20"}]
+        "entries": [{"duration": 12, "rate": "2.40"}]
       }
     ]
   },
-  "baseDate": "2026/02/09"
+  "baseDate": "2026/02/10"
 }
