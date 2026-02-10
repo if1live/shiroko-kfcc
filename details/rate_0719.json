@@ -7,14 +7,14 @@
     "r2": "강서구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/10",
+    "baseDate": "2026/02/11",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"}
@@ -38,7 +38,7 @@
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.10"},
           {"duration": 9, "rate": "2.10"},
-          {"duration": 12, "rate": "2.85"},
+          {"duration": 12, "rate": "2.90"},
           {"duration": 18, "rate": "2.10"},
           {"duration": 24, "rate": "2.10"},
           {"duration": 30, "rate": "2.10"},
@@ -63,7 +63,7 @@
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.90"}
+          {"duration": null, "rate": "3.00"}
         ]
       },
       {
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/10",
+    "baseDate": "2026/02/11",
     "products": [
       {
         "title": "정기적금",
@@ -113,5 +113,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/10"
+  "baseDate": "2026/02/11"
 }
