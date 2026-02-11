@@ -7,7 +7,7 @@
     "r2": "안동시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/11",
+    "baseDate": "2026/02/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,7 +16,7 @@
           {"duration": null, "rate": "1.60"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.30"},
@@ -59,14 +59,14 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/11",
+    "baseDate": "2026/02/12",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 12, "rate": "3.50"},
-          {"duration": 15, "rate": "4.00"},
-          {"duration": 16, "rate": "3.30"},
+          {"duration": 13, "rate": "3.30"},
+          {"duration": 15, "rate": "3.30"},
           {"duration": 24, "rate": "3.30"},
           {"duration": 36, "rate": "3.30"}
         ]
@@ -74,7 +74,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "4.00"},
+          {"duration": 12, "rate": "3.50"},
           {"duration": 13, "rate": "3.30"},
           {"duration": 24, "rate": "3.30"},
           {"duration": 36, "rate": "3.30"}
@@ -143,5 +143,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/11"
+  "baseDate": "2026/02/12"
 }
