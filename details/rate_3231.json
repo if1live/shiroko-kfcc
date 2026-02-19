@@ -7,7 +7,7 @@
     "r2": "공주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/19",
+    "baseDate": "2026/02/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -50,11 +50,28 @@
       {
         "title": "MG더뱅킹정기예금",
         "entries": [{"duration": 12, "rate": "2.70"}]
+      },
+      {
+        "title": "꿈드림회전정기예탁금",
+        "entries": [
+          {"duration": null, "rate": "0.20"},
+          {"duration": null, "rate": "0.20"},
+          {"duration": null, "rate": "2.30"},
+          {"duration": null, "rate": "2.30"},
+          {"duration": null, "rate": "2.30"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.80"}
+        ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/19",
+    "baseDate": "2026/02/20",
     "products": [
       {
         "title": "정기적금",
@@ -128,5 +145,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/19"
+  "baseDate": "2026/02/20"
 }

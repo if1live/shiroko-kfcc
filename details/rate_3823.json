@@ -2,12 +2,12 @@
   "id": "3823",
   "bank": {
     "gmgoCd": "3823",
-    "gmgoNm": "SKC",
+    "gmgoNm": "마이크로웍스",
     "r1": "경기",
     "r2": "수원시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/19",
+    "baseDate": "2026/02/20",
     "products": [
       {
         "title": "정기예탁금",
@@ -22,7 +22,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/19",
+    "baseDate": "2026/02/20",
     "products": [
       {
         "title": "정기적금",
@@ -45,5 +45,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/19"
+  "baseDate": "2026/02/20"
 }
