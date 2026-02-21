@@ -7,7 +7,7 @@
     "r2": "성동구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/21",
+    "baseDate": "2026/02/22",
     "products": [
       {
         "title": "정기예탁금",
@@ -54,13 +54,13 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.10"}
+          {"duration": null, "rate": "3.60"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/21",
+    "baseDate": "2026/02/22",
     "products": [
       {
         "title": "정기적금",
@@ -74,7 +74,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.70"},
+          {"duration": 12, "rate": "7.00"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.00"}
         ]
@@ -99,7 +99,7 @@
         "entries": [
           {"duration": 1, "rate": "0.00"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "2.80"},
+          {"duration": 12, "rate": "3.60"},
           {"duration": 13, "rate": "2.60"},
           {"duration": 24, "rate": "2.50"},
           {"duration": 36, "rate": "2.50"}
@@ -141,5 +141,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/21"
+  "baseDate": "2026/02/22"
 }
