@@ -7,7 +7,7 @@
     "r2": "청도군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/22",
+    "baseDate": "2026/02/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "1.90"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.20"}
@@ -46,13 +46,13 @@
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.70"}
+          {"duration": null, "rate": "2.80"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/22",
+    "baseDate": "2026/02/23",
     "products": [
       {
         "title": "정기적금",
@@ -93,5 +93,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/22"
+  "baseDate": "2026/02/23"
 }
