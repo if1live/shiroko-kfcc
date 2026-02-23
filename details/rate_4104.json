@@ -7,7 +7,7 @@
     "r2": "남양주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/23",
+    "baseDate": "2026/02/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -49,7 +49,11 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.30"}]
+        "entries": [
+          {"duration": 3, "rate": "1.90"},
+          {"duration": 6, "rate": "2.10"},
+          {"duration": 12, "rate": "2.30"}
+        ]
       },
       {
         "title": "MG기업정기예금(A)",
@@ -97,7 +101,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/23",
+    "baseDate": "2026/02/24",
     "products": [
       {
         "title": "정기적금",
@@ -173,5 +177,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/23"
+  "baseDate": "2026/02/24"
 }

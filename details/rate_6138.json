@@ -7,13 +7,13 @@
     "r2": "김해시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/23",
+    "baseDate": "2026/02/24",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.70"},
@@ -50,7 +50,11 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.30"}]
+        "entries": [
+          {"duration": 3, "rate": "2.30"},
+          {"duration": 6, "rate": "2.80"},
+          {"duration": 12, "rate": "2.30"}
+        ]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -76,7 +80,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/23",
+    "baseDate": "2026/02/24",
     "products": [
       {
         "title": "정기적금",
@@ -154,5 +158,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/23"
+  "baseDate": "2026/02/24"
 }

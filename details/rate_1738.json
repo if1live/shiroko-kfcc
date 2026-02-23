@@ -7,7 +7,7 @@
     "r2": "사상구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/23",
+    "baseDate": "2026/02/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -47,7 +47,11 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.75"}]
+        "entries": [
+          {"duration": 3, "rate": "1.80"},
+          {"duration": 6, "rate": "2.30"},
+          {"duration": 12, "rate": "2.75"}
+        ]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -69,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/23",
+    "baseDate": "2026/02/24",
     "products": [
       {
         "title": "정기적금",
@@ -153,5 +157,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/23"
+  "baseDate": "2026/02/24"
 }

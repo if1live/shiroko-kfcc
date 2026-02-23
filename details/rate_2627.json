@@ -7,14 +7,14 @@
     "r2": "순천시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/23",
+    "baseDate": "2026/02/24",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.30"}
@@ -47,7 +47,11 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.70"}]
+        "entries": [
+          {"duration": 3, "rate": "2.30"},
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 12, "rate": "2.80"}
+        ]
       },
       {
         "title": "MG기업정기예금(A)",
@@ -85,7 +89,7 @@
           {"duration": null, "rate": "0.10"},
           {"duration": null, "rate": "0.10"},
           {"duration": null, "rate": "0.10"},
-          {"duration": null, "rate": "2.80"}
+          {"duration": null, "rate": "2.85"}
         ]
       },
       {
@@ -95,12 +99,12 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/23",
+    "baseDate": "2026/02/24",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "2.70"},
+          {"duration": 12, "rate": "2.80"},
           {"duration": 24, "rate": "2.30"},
           {"duration": 36, "rate": "2.30"}
         ]
@@ -124,10 +128,10 @@
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.10"},
-          {"duration": 6, "rate": "0.10"},
-          {"duration": 12, "rate": "2.60"},
-          {"duration": 24, "rate": "2.40"},
-          {"duration": 36, "rate": "2.40"}
+          {"duration": 6, "rate": "2.40"},
+          {"duration": 12, "rate": "2.70"},
+          {"duration": 24, "rate": "2.30"},
+          {"duration": 36, "rate": "2.30"}
         ]
       },
       {
@@ -144,7 +148,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "2.60"}]
+        "entries": [{"duration": 12, "rate": "2.70"}]
       },
       {
         "title": "일일자유적금",
@@ -160,5 +164,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/23"
+  "baseDate": "2026/02/24"
 }

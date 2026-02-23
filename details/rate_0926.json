@@ -7,16 +7,16 @@
     "r2": "관악구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/23",
+    "baseDate": "2026/02/24",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.30"},
+          {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "3.05"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"}
         ]
@@ -24,10 +24,10 @@
       {
         "title": "Block예금",
         "entries": [
-          {"duration": 0, "rate": "2.00"},
-          {"duration": 3, "rate": "2.30"},
-          {"duration": 6, "rate": "2.40"},
-          {"duration": 12, "rate": "2.60"},
+          {"duration": 0, "rate": "2.30"},
+          {"duration": 3, "rate": "2.60"},
+          {"duration": 6, "rate": "2.70"},
+          {"duration": 12, "rate": "3.05"},
           {"duration": 24, "rate": "2.40"},
           {"duration": 36, "rate": "2.40"}
         ]
@@ -52,7 +52,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/23",
+    "baseDate": "2026/02/24",
     "products": [
       {
         "title": "정기적금",
@@ -91,5 +91,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/23"
+  "baseDate": "2026/02/24"
 }
