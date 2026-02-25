@@ -7,7 +7,7 @@
     "r2": "목포시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/25",
+    "baseDate": "2026/02/26",
     "products": [
       {
         "title": "정기예탁금",
@@ -17,7 +17,7 @@
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.30"}
         ]
       },
@@ -35,11 +35,28 @@
       {
         "title": "MG더뱅킹정기예금",
         "entries": [{"duration": 12, "rate": "2.60"}]
+      },
+      {
+        "title": "꿈드림회전정기예탁금",
+        "entries": [
+          {"duration": 1, "rate": "2.30"},
+          {"duration": 2, "rate": "2.30"},
+          {"duration": 3, "rate": "2.30"},
+          {"duration": 4, "rate": "2.30"},
+          {"duration": 5, "rate": "2.30"},
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 7, "rate": "2.50"},
+          {"duration": 8, "rate": "2.50"},
+          {"duration": 9, "rate": "2.50"},
+          {"duration": 10, "rate": "2.50"},
+          {"duration": 11, "rate": "2.50"},
+          {"duration": 12, "rate": "2.80"}
+        ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/25",
+    "baseDate": "2026/02/26",
     "products": [
       {
         "title": "정기적금",
@@ -82,5 +99,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/25"
+  "baseDate": "2026/02/26"
 }
