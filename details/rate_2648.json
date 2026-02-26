@@ -7,7 +7,7 @@
     "r2": "순천시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/26",
+    "baseDate": "2026/02/27",
     "products": [
       {
         "title": "정기예탁금",
@@ -53,8 +53,8 @@
       {
         "title": "MG더뱅킹정기예금",
         "entries": [
-          {"duration": 3, "rate": "0.00"},
-          {"duration": 6, "rate": "0.00"},
+          {"duration": 3, "rate": "2.30"},
+          {"duration": 6, "rate": "2.50"},
           {"duration": 12, "rate": "2.80"}
         ]
       },
@@ -82,7 +82,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/26",
+    "baseDate": "2026/02/27",
     "products": [
       {
         "title": "정기적금",
@@ -168,5 +168,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/26"
+  "baseDate": "2026/02/27"
 }
