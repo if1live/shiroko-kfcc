@@ -7,7 +7,7 @@
     "r2": "서구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/02/27",
+    "baseDate": "2026/02/28",
     "products": [
       {
         "title": "정기예탁금",
@@ -44,7 +44,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/02/27",
+    "baseDate": "2026/02/28",
     "products": [
       {
         "title": "정기적금",
@@ -79,7 +79,7 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "3.80"}]
+        "entries": [{"duration": 12, "rate": "2.40"}]
       },
       {
         "title": "MG주거래우대자유적금",
@@ -103,5 +103,5 @@
       }
     ]
   },
-  "baseDate": "2026/02/27"
+  "baseDate": "2026/02/28"
 }
