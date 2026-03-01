@@ -7,12 +7,12 @@
     "r2": "서구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/01",
+    "baseDate": "2026/03/02",
     "products": []
   },
   "installmentSavings": {
-    "baseDate": "2026/03/01",
+    "baseDate": "2026/03/02",
     "products": []
   },
-  "baseDate": "2026/03/01"
+  "baseDate": "2026/03/02"
 }
