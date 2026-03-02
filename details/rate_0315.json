@@ -7,7 +7,7 @@
     "r2": "용산구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/02",
+    "baseDate": "2026/03/03",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,7 +16,7 @@
           {"duration": null, "rate": "1.85"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "2.55"},
           {"duration": null, "rate": "2.55"},
           {"duration": null, "rate": "2.55"},
@@ -76,7 +76,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/02",
+    "baseDate": "2026/03/03",
     "products": [
       {
         "title": "정기적금",
@@ -156,5 +156,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/02"
+  "baseDate": "2026/03/03"
 }
