@@ -7,7 +7,7 @@
     "r2": "중랑구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/03",
+    "baseDate": "2026/03/04",
     "products": [
       {
         "title": "정기예탁금",
@@ -49,7 +49,11 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.98"}]
+        "entries": [
+          {"duration": 3, "rate": "0.00"},
+          {"duration": 6, "rate": "0.00"},
+          {"duration": 12, "rate": "3.09"}
+        ]
       },
       {
         "title": "MG기업정기예금(A)",
@@ -97,7 +101,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/03",
+    "baseDate": "2026/03/04",
     "products": [
       {
         "title": "정기적금",
@@ -126,7 +130,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.40"}
+          {"duration": 12, "rate": "3.50"}
         ]
       },
       {
@@ -185,5 +189,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/03"
+  "baseDate": "2026/03/04"
 }
