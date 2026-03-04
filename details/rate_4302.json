@@ -7,7 +7,7 @@
     "r2": "원주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/04",
+    "baseDate": "2026/03/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -18,7 +18,7 @@
           {"duration": null, "rate": "1.90"},
           {"duration": null, "rate": "1.90"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.16"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.50"},
@@ -81,7 +81,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/04",
+    "baseDate": "2026/03/05",
     "products": [
       {
         "title": "정기적금",
@@ -180,5 +180,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/04"
+  "baseDate": "2026/03/05"
 }

@@ -7,7 +7,7 @@
     "r2": "부여군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/04",
+    "baseDate": "2026/03/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "0.20"},
           {"duration": null, "rate": "0.60"},
           {"duration": null, "rate": "1.35"},
-          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"},
@@ -71,7 +71,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/04",
+    "baseDate": "2026/03/05",
     "products": [
       {
         "title": "정기적금",
@@ -134,5 +134,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/04"
+  "baseDate": "2026/03/05"
 }

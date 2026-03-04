@@ -7,7 +7,7 @@
     "r2": "수성구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/04",
+    "baseDate": "2026/03/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -51,7 +51,11 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.98"}]
+        "entries": [
+          {"duration": 3, "rate": "1.80"},
+          {"duration": 6, "rate": "2.30"},
+          {"duration": 12, "rate": "3.09"}
+        ]
       },
       {
         "title": "MG기업정기예금(A)",
@@ -99,7 +103,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/04",
+    "baseDate": "2026/03/05",
     "products": [
       {
         "title": "정기적금",
@@ -167,5 +171,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/04"
+  "baseDate": "2026/03/05"
 }
