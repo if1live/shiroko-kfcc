@@ -7,7 +7,7 @@
     "r2": "서초구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/05",
+    "baseDate": "2026/03/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.60"}
@@ -68,7 +68,7 @@
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.95"}
+          {"duration": null, "rate": "3.05"}
         ]
       },
       {
@@ -78,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/05",
+    "baseDate": "2026/03/06",
     "products": [
       {
         "title": "정기적금",
@@ -125,5 +125,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/05"
+  "baseDate": "2026/03/06"
 }

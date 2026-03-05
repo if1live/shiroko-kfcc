@@ -7,7 +7,7 @@
     "r2": "서대문구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/05",
+    "baseDate": "2026/03/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -95,7 +95,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/05",
+    "baseDate": "2026/03/06",
     "products": [
       {
         "title": "정기적금",
@@ -142,7 +142,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
+        "entries": [{"duration": 12, "rate": "2.45"}]
       },
       {
         "title": "My꿈모아자유적금",
@@ -150,5 +150,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/05"
+  "baseDate": "2026/03/06"
 }

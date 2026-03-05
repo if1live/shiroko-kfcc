@@ -7,7 +7,7 @@
     "r2": "광양시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/05",
+    "baseDate": "2026/03/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -18,6 +18,17 @@
           {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "2.75"},
           {"duration": null, "rate": "2.75"}
+        ]
+      },
+      {
+        "title": "Block예금",
+        "entries": [
+          {"duration": 0, "rate": "1.80"},
+          {"duration": 3, "rate": "2.25"},
+          {"duration": 6, "rate": "2.68"},
+          {"duration": 12, "rate": "2.90"},
+          {"duration": 24, "rate": "2.75"},
+          {"duration": 36, "rate": "2.75"}
         ]
       },
       {
@@ -44,7 +55,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/05",
+    "baseDate": "2026/03/06",
     "products": [
       {
         "title": "정기적금",
@@ -107,5 +118,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/05"
+  "baseDate": "2026/03/06"
 }
