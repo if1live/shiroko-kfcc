@@ -7,7 +7,7 @@
     "r2": "익산시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/06",
+    "baseDate": "2026/03/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -48,7 +48,11 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.98"}]
+        "entries": [
+          {"duration": 3, "rate": "0.10"},
+          {"duration": 6, "rate": "0.10"},
+          {"duration": 12, "rate": "3.09"}
+        ]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -70,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/06",
+    "baseDate": "2026/03/07",
     "products": [
       {
         "title": "정기적금",
@@ -106,7 +110,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
+        "entries": [{"duration": 12, "rate": "2.30"}]
       },
       {
         "title": "일일자유적금",
@@ -122,5 +126,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/06"
+  "baseDate": "2026/03/07"
 }
