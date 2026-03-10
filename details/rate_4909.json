@@ -7,7 +7,7 @@
     "r2": "완주군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/10",
+    "baseDate": "2026/03/11",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,8 +15,8 @@
           {"duration": null, "rate": "0.50"},
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "2.79"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.70"}
         ]
       },
@@ -53,7 +53,7 @@
           {"duration": 9, "rate": "2.60"},
           {"duration": 10, "rate": "2.60"},
           {"duration": 11, "rate": "2.60"},
-          {"duration": 12, "rate": "2.90"}
+          {"duration": 12, "rate": "3.00"}
         ]
       },
       {
@@ -63,7 +63,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/10",
+    "baseDate": "2026/03/11",
     "products": [
       {
         "title": "정기적금",
@@ -137,5 +137,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/10"
+  "baseDate": "2026/03/11"
 }
