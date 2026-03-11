@@ -7,14 +7,14 @@
     "r2": "원주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/11",
+    "baseDate": "2026/03/12",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.20"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "3.15"},
+          {"duration": null, "rate": "3.32"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"}
@@ -26,7 +26,7 @@
           {"duration": 0, "rate": "0.10"},
           {"duration": 3, "rate": "1.20"},
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "3.15"},
+          {"duration": 12, "rate": "3.22"},
           {"duration": 24, "rate": "2.00"},
           {"duration": 36, "rate": "2.00"}
         ]
@@ -38,7 +38,7 @@
           {"duration": 3, "rate": "1.20"},
           {"duration": 6, "rate": "2.00"},
           {"duration": 9, "rate": "2.00"},
-          {"duration": 12, "rate": "3.15"},
+          {"duration": 12, "rate": "3.22"},
           {"duration": 18, "rate": "2.00"},
           {"duration": 24, "rate": "2.00"},
           {"duration": 30, "rate": "2.00"},
@@ -47,7 +47,11 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.92"}]
+        "entries": [
+          {"duration": 3, "rate": "0.00"},
+          {"duration": 6, "rate": "0.00"},
+          {"duration": 12, "rate": "3.00"}
+        ]
       },
       {
         "title": "MG기업정기예금(A)",
@@ -55,7 +59,7 @@
           {"duration": 1, "rate": "0.10"},
           {"duration": 3, "rate": "1.20"},
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "3.15"},
+          {"duration": 12, "rate": "3.32"},
           {"duration": 18, "rate": "2.00"},
           {"duration": 24, "rate": "2.00"}
         ]
@@ -66,7 +70,7 @@
           {"duration": 1, "rate": "0.10"},
           {"duration": 3, "rate": "1.20"},
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "3.15"},
+          {"duration": 12, "rate": "3.32"},
           {"duration": 18, "rate": "2.00"},
           {"duration": 24, "rate": "2.00"}
         ]
@@ -85,17 +89,17 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "3.15"}
+          {"duration": null, "rate": "3.42"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.15"}]
+        "entries": [{"duration": 12, "rate": "3.22"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/11",
+    "baseDate": "2026/03/12",
     "products": [
       {
         "title": "정기적금",
@@ -187,5 +191,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/11"
+  "baseDate": "2026/03/12"
 }

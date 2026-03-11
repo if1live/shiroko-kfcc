@@ -7,7 +7,7 @@
     "r2": "군포시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/11",
+    "baseDate": "2026/03/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -58,7 +58,7 @@
         "entries": [
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.70"},
-          {"duration": 12, "rate": "2.98"}
+          {"duration": 12, "rate": "3.40"}
         ]
       },
       {
@@ -85,7 +85,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/11",
+    "baseDate": "2026/03/12",
     "products": [
       {
         "title": "정기적금",
@@ -163,5 +163,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/11"
+  "baseDate": "2026/03/12"
 }

@@ -7,7 +7,7 @@
     "r2": "남원시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/11",
+    "baseDate": "2026/03/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,7 +16,7 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"}
@@ -40,7 +40,7 @@
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.30"},
           {"duration": 9, "rate": "2.30"},
-          {"duration": 12, "rate": "2.70"},
+          {"duration": 12, "rate": "2.80"},
           {"duration": 18, "rate": "2.30"},
           {"duration": 24, "rate": "2.30"},
           {"duration": 30, "rate": "2.30"},
@@ -61,13 +61,13 @@
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.80"}
+          {"duration": null, "rate": "2.90"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/11",
+    "baseDate": "2026/03/12",
     "products": [
       {
         "title": "정기적금",
@@ -95,5 +95,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/11"
+  "baseDate": "2026/03/12"
 }
