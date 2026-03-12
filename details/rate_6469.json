@@ -7,7 +7,7 @@
     "r2": "진주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/12",
+    "baseDate": "2026/03/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -51,12 +51,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.30"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/12",
+    "baseDate": "2026/03/13",
     "products": [
       {
         "title": "정기적금",
@@ -124,5 +124,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/12"
+  "baseDate": "2026/03/13"
 }
