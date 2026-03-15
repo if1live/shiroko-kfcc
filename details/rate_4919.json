@@ -7,7 +7,7 @@
     "r2": "무주군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/15",
+    "baseDate": "2026/03/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,10 +15,10 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.55"},
-          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.60"}
         ]
       },
@@ -40,7 +40,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/15",
+    "baseDate": "2026/03/16",
     "products": [
       {
         "title": "정기적금",
@@ -62,7 +62,7 @@
           {"duration": 24, "rate": "2.50"},
           {"duration": 36, "rate": "2.50"},
           {"duration": 48, "rate": "2.50"},
-          {"duration": 60, "rate": "2.60"}
+          {"duration": 60, "rate": "2.50"}
         ]
       },
       {
@@ -83,5 +83,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/15"
+  "baseDate": "2026/03/16"
 }

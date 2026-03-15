@@ -7,7 +7,7 @@
     "r2": "영월군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/15",
+    "baseDate": "2026/03/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,9 +16,10 @@
           {"duration": null, "rate": "1.80"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "2.60"}
         ]
       },
@@ -57,7 +58,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/15",
+    "baseDate": "2026/03/16",
     "products": [
       {
         "title": "정기적금",
@@ -103,5 +104,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/15"
+  "baseDate": "2026/03/16"
 }
