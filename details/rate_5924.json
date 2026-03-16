@@ -7,7 +7,7 @@
     "r2": "예천군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/16",
+    "baseDate": "2026/03/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,8 +15,8 @@
           {"duration": null, "rate": "1.10"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "2.60"},
@@ -43,7 +43,7 @@
           {"duration": 3, "rate": "1.80"},
           {"duration": 6, "rate": "2.80"},
           {"duration": 9, "rate": "2.80"},
-          {"duration": 12, "rate": "2.80"},
+          {"duration": 12, "rate": "3.10"},
           {"duration": 18, "rate": "2.60"},
           {"duration": 24, "rate": "2.60"},
           {"duration": 30, "rate": "2.60"},
@@ -68,13 +68,13 @@
           {"duration": 9, "rate": "1.80"},
           {"duration": 10, "rate": "1.80"},
           {"duration": 11, "rate": "1.80"},
-          {"duration": 12, "rate": "2.80"}
+          {"duration": 12, "rate": "3.10"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/16",
+    "baseDate": "2026/03/17",
     "products": [
       {
         "title": "정기적금",
@@ -141,5 +141,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/16"
+  "baseDate": "2026/03/17"
 }

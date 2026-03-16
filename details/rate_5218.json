@@ -7,14 +7,16 @@
     "r2": "포항시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/16",
+    "baseDate": "2026/03/17",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "1.80"},
-          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.60"},
@@ -52,12 +54,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/16",
+    "baseDate": "2026/03/17",
     "products": [
       {
         "title": "정기적금",
@@ -114,5 +116,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/16"
+  "baseDate": "2026/03/17"
 }

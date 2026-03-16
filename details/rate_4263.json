@@ -7,7 +7,7 @@
     "r2": "강릉시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/16",
+    "baseDate": "2026/03/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -19,8 +19,9 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "2.90"}
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.80"}
         ]
       },
       {
@@ -30,22 +31,22 @@
           {"duration": 3, "rate": "0.80"},
           {"duration": 6, "rate": "1.00"},
           {"duration": 12, "rate": "2.90"},
-          {"duration": 24, "rate": "2.90"},
-          {"duration": 36, "rate": "2.90"}
+          {"duration": 24, "rate": "2.80"},
+          {"duration": 36, "rate": "2.80"}
         ]
       },
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "0.00"},
+          {"duration": 1, "rate": "0.75"},
+          {"duration": 3, "rate": "0.75"},
           {"duration": 6, "rate": "1.00"},
           {"duration": 9, "rate": "1.00"},
           {"duration": 12, "rate": "2.90"},
-          {"duration": 18, "rate": "2.90"},
-          {"duration": 24, "rate": "2.90"},
-          {"duration": 30, "rate": "2.90"},
-          {"duration": 36, "rate": "2.90"}
+          {"duration": 18, "rate": "2.80"},
+          {"duration": 24, "rate": "2.80"},
+          {"duration": 30, "rate": "2.80"},
+          {"duration": 36, "rate": "2.80"}
         ]
       },
       {
@@ -70,7 +71,7 @@
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "1.00"},
-          {"duration": null, "rate": "2.80"}
+          {"duration": null, "rate": "2.90"}
         ]
       },
       {
@@ -80,7 +81,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/16",
+    "baseDate": "2026/03/17",
     "products": [
       {
         "title": "정기적금",
@@ -172,5 +173,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/16"
+  "baseDate": "2026/03/17"
 }
