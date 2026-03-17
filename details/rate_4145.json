@@ -7,7 +7,7 @@
     "r2": "파주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/17",
+    "baseDate": "2026/03/18",
     "products": [
       {
         "title": "정기예탁금",
@@ -55,12 +55,23 @@
       {
         "title": "MG기업정기예금(A)",
         "entries": [
-          {"duration": 1, "rate": "0.00"},
-          {"duration": 3, "rate": "1.00"},
-          {"duration": 6, "rate": "1.10"},
-          {"duration": 12, "rate": "2.75"},
-          {"duration": 18, "rate": "2.75"},
-          {"duration": 24, "rate": "2.60"}
+          {"duration": 1, "rate": "0.50"},
+          {"duration": 3, "rate": "1.50"},
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 12, "rate": "3.51"},
+          {"duration": 18, "rate": "3.61"},
+          {"duration": 24, "rate": "3.61"}
+        ]
+      },
+      {
+        "title": "MG기업정기예금(B)",
+        "entries": [
+          {"duration": 1, "rate": "0.50"},
+          {"duration": 3, "rate": "1.50"},
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 12, "rate": "3.51"},
+          {"duration": 18, "rate": "3.61"},
+          {"duration": 24, "rate": "3.61"}
         ]
       },
       {
@@ -87,7 +98,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/17",
+    "baseDate": "2026/03/18",
     "products": [
       {
         "title": "정기적금",
@@ -177,5 +188,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/17"
+  "baseDate": "2026/03/18"
 }

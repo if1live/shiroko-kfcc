@@ -7,7 +7,7 @@
     "r2": "안양시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/17",
+    "baseDate": "2026/03/18",
     "products": [
       {
         "title": "정기예탁금",
@@ -40,13 +40,30 @@
         "entries": [{"duration": 12, "rate": "2.50"}]
       },
       {
+        "title": "꿈드림회전정기예탁금",
+        "entries": [
+          {"duration": null, "rate": "0.10"},
+          {"duration": null, "rate": "0.10"},
+          {"duration": null, "rate": "1.00"},
+          {"duration": null, "rate": "1.30"},
+          {"duration": null, "rate": "1.50"},
+          {"duration": null, "rate": "2.00"},
+          {"duration": null, "rate": "2.00"},
+          {"duration": null, "rate": "2.00"},
+          {"duration": null, "rate": "2.10"},
+          {"duration": null, "rate": "2.20"},
+          {"duration": null, "rate": "2.30"},
+          {"duration": null, "rate": "3.40"}
+        ]
+      },
+      {
         "title": "MG주거래우대정기예금",
         "entries": [{"duration": 12, "rate": "1.50"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/17",
+    "baseDate": "2026/03/18",
     "products": [
       {
         "title": "정기적금",
@@ -121,5 +138,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/17"
+  "baseDate": "2026/03/18"
 }
