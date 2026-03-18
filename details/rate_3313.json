@@ -7,7 +7,7 @@
     "r2": "아산시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/18",
+    "baseDate": "2026/03/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -38,7 +38,7 @@
         "entries": [
           {"duration": 3, "rate": "1.50"},
           {"duration": 6, "rate": "2.30"},
-          {"duration": 12, "rate": "2.70"}
+          {"duration": 12, "rate": "3.00"}
         ]
       },
       {
@@ -87,7 +87,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/18",
+    "baseDate": "2026/03/19",
     "products": [
       {
         "title": "정기적금",
@@ -181,5 +181,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/18"
+  "baseDate": "2026/03/19"
 }

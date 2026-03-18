@@ -7,7 +7,7 @@
     "r2": "수원시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/18",
+    "baseDate": "2026/03/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -48,8 +48,8 @@
       {
         "title": "MG더뱅킹정기예금",
         "entries": [
-          {"duration": 3, "rate": "0.00"},
-          {"duration": 6, "rate": "0.00"},
+          {"duration": 3, "rate": "2.20"},
+          {"duration": 6, "rate": "2.50"},
           {"duration": 12, "rate": "3.35"}
         ]
       },
@@ -99,7 +99,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/18",
+    "baseDate": "2026/03/19",
     "products": [
       {
         "title": "정기적금",
@@ -177,5 +177,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/18"
+  "baseDate": "2026/03/19"
 }
