@@ -7,14 +7,14 @@
     "r2": "강서구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/19",
+    "baseDate": "2026/03/20",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"}
@@ -73,7 +73,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/19",
+    "baseDate": "2026/03/20",
     "products": [
       {
         "title": "정기적금",
@@ -113,5 +113,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/19"
+  "baseDate": "2026/03/20"
 }
