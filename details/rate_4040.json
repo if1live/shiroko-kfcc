@@ -7,15 +7,15 @@
     "r2": "의정부"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/20",
+    "baseDate": "2026/03/21",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "2.55"},
           {"duration": null, "rate": "2.55"},
           {"duration": null, "rate": "2.55"},
@@ -39,8 +39,8 @@
           {"duration": 1, "rate": "1.00"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.95"},
-          {"duration": 9, "rate": "2.85"},
-          {"duration": 12, "rate": "2.85"},
+          {"duration": 9, "rate": "2.95"},
+          {"duration": 12, "rate": "2.95"},
           {"duration": 18, "rate": "2.55"},
           {"duration": 24, "rate": "2.55"},
           {"duration": 30, "rate": "2.55"},
@@ -60,22 +60,22 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "3.10"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"}
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.10"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "2.85"}]
+        "entries": [{"duration": 12, "rate": "2.95"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/20",
+    "baseDate": "2026/03/21",
     "products": [
       {
         "title": "정기적금",
@@ -163,5 +163,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/20"
+  "baseDate": "2026/03/21"
 }
