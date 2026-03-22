@@ -7,17 +7,17 @@
     "r2": "익산시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/22",
+    "baseDate": "2026/03/23",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.85"},
+          {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "3.35"},
+          {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.55"},
           {"duration": null, "rate": "2.55"},
           {"duration": null, "rate": "1.80"}
@@ -26,7 +26,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/22",
+    "baseDate": "2026/03/23",
     "products": [
       {
         "title": "정기적금",
@@ -53,5 +53,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/22"
+  "baseDate": "2026/03/23"
 }
