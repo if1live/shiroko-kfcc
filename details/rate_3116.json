@@ -2,12 +2,12 @@
   "id": "3116",
   "bank": {
     "gmgoCd": "3116",
-    "gmgoNm": "태평",
+    "gmgoNm": "대전미래",
     "r1": "대전",
     "r2": "중구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/23",
+    "baseDate": "2026/03/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -47,7 +47,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/23",
+    "baseDate": "2026/03/24",
     "products": [
       {
         "title": "정기적금",
@@ -92,5 +92,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/23"
+  "baseDate": "2026/03/24"
 }

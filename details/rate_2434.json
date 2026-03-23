@@ -7,13 +7,13 @@
     "r2": "광산구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/23",
+    "baseDate": "2026/03/24",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"}
@@ -39,7 +39,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/23",
+    "baseDate": "2026/03/24",
     "products": [
       {
         "title": "정기적금",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/23"
+  "baseDate": "2026/03/24"
 }
