@@ -2,12 +2,12 @@
   "id": "6137",
   "bank": {
     "gmgoCd": "6137",
-    "gmgoNm": "부원",
+    "gmgoNm": "김해시민",
     "r1": "경남",
     "r2": "김해시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/24",
+    "baseDate": "2026/03/25",
     "products": [
       {
         "title": "정기예탁금",
@@ -62,7 +62,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/24",
+    "baseDate": "2026/03/25",
     "products": [
       {
         "title": "정기적금",
@@ -134,5 +134,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/24"
+  "baseDate": "2026/03/25"
 }

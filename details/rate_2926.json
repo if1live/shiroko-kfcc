@@ -7,7 +7,7 @@
     "r2": "영암군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/24",
+    "baseDate": "2026/03/25",
     "products": [
       {
         "title": "정기예탁금",
@@ -18,6 +18,8 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "1.80"}
@@ -51,8 +53,8 @@
       {
         "title": "MG더뱅킹정기예금",
         "entries": [
-          {"duration": 3, "rate": "0.00"},
-          {"duration": 6, "rate": "0.00"},
+          {"duration": 3, "rate": "2.99"},
+          {"duration": 6, "rate": "3.48"},
           {"duration": 12, "rate": "3.20"}
         ]
       },
@@ -76,15 +78,15 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/24",
+    "baseDate": "2026/03/25",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "3.20"},
-          {"duration": 24, "rate": "3.10"},
-          {"duration": 36, "rate": "3.00"},
+          {"duration": 12, "rate": "3.50"},
+          {"duration": 24, "rate": "3.60"},
+          {"duration": 36, "rate": "3.70"},
           {"duration": 37, "rate": "2.50"}
         ]
       },
@@ -113,5 +115,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/24"
+  "baseDate": "2026/03/25"
 }
