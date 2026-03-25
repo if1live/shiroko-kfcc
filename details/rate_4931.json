@@ -7,7 +7,7 @@
     "r2": "순창군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/25",
+    "baseDate": "2026/03/26",
     "products": [
       {
         "title": "정기예탁금",
@@ -17,7 +17,7 @@
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"},
@@ -85,7 +85,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/25",
+    "baseDate": "2026/03/26",
     "products": [
       {
         "title": "정기적금",
@@ -155,5 +155,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/25"
+  "baseDate": "2026/03/26"
 }
