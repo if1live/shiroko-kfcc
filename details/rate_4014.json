@@ -7,7 +7,7 @@
     "r2": "의정부"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/26",
+    "baseDate": "2026/03/27",
     "products": [
       {
         "title": "정기예탁금",
@@ -17,7 +17,6 @@
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.60"},
@@ -42,7 +41,7 @@
           {"duration": 3, "rate": "2.30"},
           {"duration": 6, "rate": "2.40"},
           {"duration": 9, "rate": "2.40"},
-          {"duration": 12, "rate": "2.90"},
+          {"duration": 12, "rate": "3.00"},
           {"duration": 18, "rate": "2.60"},
           {"duration": 24, "rate": "2.60"},
           {"duration": 30, "rate": "2.60"},
@@ -71,13 +70,13 @@
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.90"}
+          {"duration": null, "rate": "3.00"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/26",
+    "baseDate": "2026/03/27",
     "products": [
       {
         "title": "정기적금",
@@ -161,5 +160,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/26"
+  "baseDate": "2026/03/27"
 }

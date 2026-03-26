@@ -7,7 +7,7 @@
     "r2": "남원시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/26",
+    "baseDate": "2026/03/27",
     "products": [
       {
         "title": "정기예탁금",
@@ -28,6 +28,14 @@
           {"duration": 12, "rate": "2.80"},
           {"duration": 24, "rate": "2.80"},
           {"duration": 36, "rate": "2.80"}
+        ]
+      },
+      {
+        "title": "MG더뱅킹정기예금",
+        "entries": [
+          {"duration": 3, "rate": "2.00"},
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 12, "rate": "2.60"}
         ]
       },
       {
@@ -54,7 +62,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/26",
+    "baseDate": "2026/03/27",
     "products": [
       {
         "title": "정기적금",
@@ -120,5 +128,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/26"
+  "baseDate": "2026/03/27"
 }
