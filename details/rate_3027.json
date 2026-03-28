@@ -7,7 +7,7 @@
     "r2": "대덕구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/28",
+    "baseDate": "2026/03/29",
     "products": [
       {
         "title": "정기예탁금",
@@ -102,7 +102,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/28",
+    "baseDate": "2026/03/29",
     "products": [
       {
         "title": "정기적금",
@@ -183,5 +183,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/28"
+  "baseDate": "2026/03/29"
 }
