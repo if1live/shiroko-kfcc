@@ -7,14 +7,14 @@
     "r2": "남원시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/29",
+    "baseDate": "2026/03/30",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"}
         ]
@@ -25,7 +25,7 @@
           {"duration": 0, "rate": "2.00"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "2.80"},
+          {"duration": 12, "rate": "3.00"},
           {"duration": 24, "rate": "2.80"},
           {"duration": 36, "rate": "2.80"}
         ]
@@ -35,7 +35,7 @@
         "entries": [
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "2.60"}
+          {"duration": 12, "rate": "2.70"}
         ]
       },
       {
@@ -52,17 +52,17 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.80"}
+          {"duration": null, "rate": "3.00"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "2.80"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/29",
+    "baseDate": "2026/03/30",
     "products": [
       {
         "title": "정기적금",
@@ -128,5 +128,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/29"
+  "baseDate": "2026/03/30"
 }
