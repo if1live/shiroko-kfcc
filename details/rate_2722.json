@@ -7,14 +7,15 @@
     "r2": "고흥군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/30",
+    "baseDate": "2026/03/31",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "0.40"},
-          {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "2.00"},
+          {"duration": null, "rate": "1.60"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.60"}
@@ -40,7 +41,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/30",
+    "baseDate": "2026/03/31",
     "products": [
       {
         "title": "정기적금",
@@ -82,5 +83,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/30"
+  "baseDate": "2026/03/31"
 }
