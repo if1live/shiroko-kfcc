@@ -7,7 +7,7 @@
     "r2": "임실군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/03/31",
+    "baseDate": "2026/04/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -34,6 +34,14 @@
         ]
       },
       {
+        "title": "MG더뱅킹정기예금",
+        "entries": [
+          {"duration": 3, "rate": "2.00"},
+          {"duration": 6, "rate": "2.30"},
+          {"duration": 12, "rate": "2.80"}
+        ]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.60"},
@@ -57,7 +65,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/03/31",
+    "baseDate": "2026/04/01",
     "products": [
       {
         "title": "정기적금",
@@ -92,5 +100,5 @@
       }
     ]
   },
-  "baseDate": "2026/03/31"
+  "baseDate": "2026/04/01"
 }
