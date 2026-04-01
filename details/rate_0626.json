@@ -2,12 +2,12 @@
   "id": "0626",
   "bank": {
     "gmgoCd": "0626",
-    "gmgoNm": "석관동",
+    "gmgoNm": "서울으뜸",
     "r1": "서울",
     "r2": "성북구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/04/01",
+    "baseDate": "2026/04/02",
     "products": [
       {
         "title": "정기예탁금",
@@ -92,7 +92,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/04/01",
+    "baseDate": "2026/04/02",
     "products": [
       {
         "title": "정기적금",
@@ -160,5 +160,5 @@
       }
     ]
   },
-  "baseDate": "2026/04/01"
+  "baseDate": "2026/04/02"
 }
