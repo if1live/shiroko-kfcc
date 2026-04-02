@@ -7,15 +7,17 @@
     "r2": "춘천시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/04/02",
+    "baseDate": "2026/04/03",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.60"}
         ]
       },
@@ -25,7 +27,7 @@
           {"duration": 0, "rate": "1.00"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "2.80"},
+          {"duration": 12, "rate": "3.10"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.60"}
         ]
@@ -37,8 +39,8 @@
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 9, "rate": "2.50"},
-          {"duration": 12, "rate": "2.80"},
-          {"duration": 18, "rate": "2.80"},
+          {"duration": 12, "rate": "3.10"},
+          {"duration": 18, "rate": "2.70"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 30, "rate": "2.70"},
           {"duration": 36, "rate": "2.60"}
@@ -46,7 +48,11 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.50"}]
+        "entries": [
+          {"duration": 3, "rate": "0.00"},
+          {"duration": 6, "rate": "0.00"},
+          {"duration": 12, "rate": "2.80"}
+        ]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -62,7 +68,7 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.80"}
+          {"duration": null, "rate": "3.10"}
         ]
       },
       {
@@ -72,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/04/02",
+    "baseDate": "2026/04/03",
     "products": [
       {
         "title": "정기적금",
@@ -149,5 +155,5 @@
       }
     ]
   },
-  "baseDate": "2026/04/02"
+  "baseDate": "2026/04/03"
 }
