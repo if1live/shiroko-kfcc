@@ -7,7 +7,7 @@
     "r2": "속초시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/04/05",
+    "baseDate": "2026/04/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -76,7 +76,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/04/05",
+    "baseDate": "2026/04/06",
     "products": [
       {
         "title": "정기적금",
@@ -105,8 +105,8 @@
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
-          {"duration": 6, "rate": "1.50"},
-          {"duration": 12, "rate": "3.60"}
+          {"duration": 6, "rate": "1.00"},
+          {"duration": 12, "rate": "3.20"}
         ]
       },
       {
@@ -151,5 +151,5 @@
       }
     ]
   },
-  "baseDate": "2026/04/05"
+  "baseDate": "2026/04/06"
 }
