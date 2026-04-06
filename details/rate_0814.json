@@ -7,15 +7,15 @@
     "r2": "영등포구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/04/06",
+    "baseDate": "2026/04/07",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.53"},
           {"duration": null, "rate": "2.00"},
+          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "2.79"},
           {"duration": null, "rate": "2.78"}
         ]
@@ -73,12 +73,12 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/04/06",
+    "baseDate": "2026/04/07",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.50"},
+          {"duration": 12, "rate": "4.00"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
@@ -111,5 +111,5 @@
       }
     ]
   },
-  "baseDate": "2026/04/06"
+  "baseDate": "2026/04/07"
 }

@@ -7,7 +7,7 @@
     "r2": "사천시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/04/06",
+    "baseDate": "2026/04/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -70,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/04/06",
+    "baseDate": "2026/04/07",
     "products": [
       {
         "title": "정기적금",
@@ -111,11 +111,11 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "3.13"}]
+        "entries": [{"duration": 12, "rate": "3.40"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
+        "entries": [{"duration": 12, "rate": "2.90"}]
       },
       {
         "title": "MG주거래우대자유적금",
@@ -147,5 +147,5 @@
       }
     ]
   },
-  "baseDate": "2026/04/06"
+  "baseDate": "2026/04/07"
 }
