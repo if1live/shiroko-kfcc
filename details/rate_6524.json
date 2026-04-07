@@ -7,7 +7,7 @@
     "r2": "거제시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/04/07",
+    "baseDate": "2026/04/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -43,7 +43,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/04/07",
+    "baseDate": "2026/04/08",
     "products": [
       {
         "title": "정기적금",
@@ -55,6 +55,10 @@
           {"duration": 48, "rate": "0.50"},
           {"duration": 60, "rate": "0.50"}
         ]
+      },
+      {
+        "title": "MG희망나눔걸음마적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "자유적립적금",
@@ -94,5 +98,5 @@
       }
     ]
   },
-  "baseDate": "2026/04/07"
+  "baseDate": "2026/04/08"
 }

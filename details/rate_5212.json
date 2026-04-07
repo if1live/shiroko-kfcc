@@ -7,7 +7,7 @@
     "r2": "포항시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/04/07",
+    "baseDate": "2026/04/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -19,7 +19,7 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
@@ -42,7 +42,7 @@
         "entries": [
           {"duration": 3, "rate": "0.70"},
           {"duration": 6, "rate": "2.20"},
-          {"duration": 12, "rate": "2.90"}
+          {"duration": 12, "rate": "2.70"}
         ]
       },
       {
@@ -59,13 +59,13 @@
           {"duration": 9, "rate": "2.50"},
           {"duration": 10, "rate": "2.50"},
           {"duration": 11, "rate": "2.50"},
-          {"duration": 12, "rate": "3.20"}
+          {"duration": 12, "rate": "3.00"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/04/07",
+    "baseDate": "2026/04/08",
     "products": [
       {
         "title": "정기적금",
@@ -92,6 +92,10 @@
           {"duration": 6, "rate": "1.10"},
           {"duration": 12, "rate": "2.30"}
         ]
+      },
+      {
+        "title": "MG희망나눔걸음마적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "자유적립적금",
@@ -125,5 +129,5 @@
       }
     ]
   },
-  "baseDate": "2026/04/07"
+  "baseDate": "2026/04/08"
 }

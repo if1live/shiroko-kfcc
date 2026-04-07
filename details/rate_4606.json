@@ -7,7 +7,7 @@
     "r2": "청주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/04/07",
+    "baseDate": "2026/04/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "0.30"},
           {"duration": null, "rate": "1.30"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.20"}
@@ -54,20 +54,20 @@
           {"duration": 9, "rate": "2.10"},
           {"duration": 10, "rate": "2.10"},
           {"duration": 11, "rate": "2.10"},
-          {"duration": 12, "rate": "3.10"}
+          {"duration": 12, "rate": "3.30"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/04/07",
+    "baseDate": "2026/04/08",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.00"},
-          {"duration": 24, "rate": "2.50"},
-          {"duration": 36, "rate": "2.30"}
+          {"duration": 12, "rate": "3.20"},
+          {"duration": 24, "rate": "2.70"},
+          {"duration": 36, "rate": "2.70"}
         ]
       },
       {
@@ -76,6 +76,10 @@
           {"duration": 6, "rate": "0.00"},
           {"duration": 12, "rate": "2.50"}
         ]
+      },
+      {
+        "title": "MG희망나눔걸음마적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
         "title": "자유적립적금",
@@ -109,5 +113,5 @@
       }
     ]
   },
-  "baseDate": "2026/04/07"
+  "baseDate": "2026/04/08"
 }
