@@ -7,7 +7,7 @@
     "r2": "유성구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/04/09",
+    "baseDate": "2026/04/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -80,7 +80,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/04/09",
+    "baseDate": "2026/04/10",
     "products": [
       {
         "title": "정기적금",
@@ -108,6 +108,10 @@
         "entries": [{"duration": 12, "rate": "2.30"}]
       },
       {
+        "title": "MG희망나눔걸음마적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
+      },
+      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "1.00"},
@@ -128,5 +132,5 @@
       }
     ]
   },
-  "baseDate": "2026/04/09"
+  "baseDate": "2026/04/10"
 }

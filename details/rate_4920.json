@@ -7,7 +7,7 @@
     "r2": "무주군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/04/09",
+    "baseDate": "2026/04/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -40,7 +40,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/04/09",
+    "baseDate": "2026/04/10",
     "products": [
       {
         "title": "정기적금",
@@ -59,6 +59,10 @@
         "entries": [{"duration": 12, "rate": "2.00"}]
       },
       {
+        "title": "MG희망나눔걸음마적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
+      },
+      {
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.10"},
@@ -75,5 +79,5 @@
       }
     ]
   },
-  "baseDate": "2026/04/09"
+  "baseDate": "2026/04/10"
 }
