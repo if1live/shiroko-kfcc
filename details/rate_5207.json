@@ -7,14 +7,14 @@
     "r2": "포항시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/04/12",
+    "baseDate": "2026/04/13",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "1.90"},
+          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"}
         ]
@@ -23,9 +23,9 @@
         "title": "Block예금",
         "entries": [
           {"duration": 0, "rate": "0.50"},
-          {"duration": 3, "rate": "2.00"},
-          {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.20"},
+          {"duration": 3, "rate": "1.90"},
+          {"duration": 6, "rate": "2.40"},
+          {"duration": 12, "rate": "3.10"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.70"}
         ]
@@ -33,13 +33,13 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/04/12",
+    "baseDate": "2026/04/13",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.20"},
+          {"duration": 6, "rate": "2.40"},
+          {"duration": 12, "rate": "3.10"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.70"}
         ]
@@ -52,14 +52,14 @@
         "title": "자유적립적금",
         "entries": [
           {"duration": 1, "rate": "0.50"},
-          {"duration": 3, "rate": "2.00"},
-          {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.20"},
+          {"duration": 3, "rate": "1.90"},
+          {"duration": 6, "rate": "2.40"},
+          {"duration": 12, "rate": "3.10"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.70"}
         ]
       }
     ]
   },
-  "baseDate": "2026/04/12"
+  "baseDate": "2026/04/13"
 }
