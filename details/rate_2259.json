@@ -7,7 +7,7 @@
     "r2": "미추홀구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/04/14",
+    "baseDate": "2026/04/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,10 +15,6 @@
           {"duration": null, "rate": "0.10"},
           {"duration": null, "rate": "1.80"},
           {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "3.35"},
-          {"duration": null, "rate": "2.90"},
-          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "2.90"},
@@ -100,7 +96,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/04/14",
+    "baseDate": "2026/04/15",
     "products": [
       {
         "title": "정기적금",
@@ -184,5 +180,5 @@
       }
     ]
   },
-  "baseDate": "2026/04/14"
+  "baseDate": "2026/04/15"
 }
