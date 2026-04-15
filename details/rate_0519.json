@@ -7,7 +7,7 @@
     "r2": "동대문구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/04/15",
+    "baseDate": "2026/04/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -52,7 +52,7 @@
         "entries": [
           {"duration": 3, "rate": "2.39"},
           {"duration": 6, "rate": "2.88"},
-          {"duration": 12, "rate": "3.51"}
+          {"duration": 12, "rate": "3.42"}
         ]
       },
       {
@@ -101,7 +101,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/04/15",
+    "baseDate": "2026/04/16",
     "products": [
       {
         "title": "정기적금",
@@ -194,5 +194,5 @@
       }
     ]
   },
-  "baseDate": "2026/04/15"
+  "baseDate": "2026/04/16"
 }
