@@ -7,7 +7,7 @@
     "r2": "대덕구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/04/24",
+    "baseDate": "2026/04/25",
     "products": [
       {
         "title": "정기예탁금",
@@ -102,7 +102,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/04/24",
+    "baseDate": "2026/04/25",
     "products": [
       {
         "title": "정기적금",
@@ -183,9 +183,9 @@
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "2.80"}]
+        "entries": [{"duration": 12, "rate": "2.00"}]
       }
     ]
   },
-  "baseDate": "2026/04/24"
+  "baseDate": "2026/04/25"
 }
