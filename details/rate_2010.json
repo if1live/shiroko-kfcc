@@ -7,7 +7,7 @@
     "r2": "남구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/04/28",
+    "baseDate": "2026/04/29",
     "products": [
       {
         "title": "정기예탁금",
@@ -69,7 +69,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/04/28",
+    "baseDate": "2026/04/29",
     "products": [
       {
         "title": "정기적금",
@@ -135,8 +135,12 @@
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.70"}
         ]
+      },
+      {
+        "title": "My꿈모아자유적금",
+        "entries": [{"duration": 12, "rate": "2.90"}]
       }
     ]
   },
-  "baseDate": "2026/04/28"
+  "baseDate": "2026/04/29"
 }
