@@ -7,7 +7,7 @@
     "r2": "영암군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/04/30",
+    "baseDate": "2026/05/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -53,9 +53,9 @@
       {
         "title": "MG더뱅킹정기예금",
         "entries": [
-          {"duration": 3, "rate": "2.99"},
-          {"duration": 6, "rate": "3.48"},
-          {"duration": 12, "rate": "3.40"}
+          {"duration": 3, "rate": "2.30"},
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 12, "rate": "2.90"}
         ]
       },
       {
@@ -78,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/04/30",
+    "baseDate": "2026/05/01",
     "products": [
       {
         "title": "정기적금",
@@ -115,5 +115,5 @@
       }
     ]
   },
-  "baseDate": "2026/04/30"
+  "baseDate": "2026/05/01"
 }
