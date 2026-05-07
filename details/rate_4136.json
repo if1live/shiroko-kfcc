@@ -7,13 +7,14 @@
     "r2": "가평군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/05/07",
+    "baseDate": "2026/05/08",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "2.30"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "2.40"},
@@ -71,7 +72,7 @@
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "3.00"}
+          {"duration": null, "rate": "3.10"}
         ]
       },
       {
@@ -81,7 +82,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/05/07",
+    "baseDate": "2026/05/08",
     "products": [
       {
         "title": "정기적금",
@@ -173,5 +174,5 @@
       }
     ]
   },
-  "baseDate": "2026/05/07"
+  "baseDate": "2026/05/08"
 }
