@@ -7,7 +7,7 @@
     "r2": "서천군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/05/08",
+    "baseDate": "2026/05/09",
     "products": [
       {
         "title": "정기예탁금",
@@ -65,7 +65,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/05/08",
+    "baseDate": "2026/05/09",
     "products": [
       {
         "title": "정기적금",
@@ -111,7 +111,7 @@
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "2.90"}]
+        "entries": [{"duration": 12, "rate": "2.70"}]
       },
       {
         "title": "MG주거래우대자유적금",
@@ -128,5 +128,5 @@
       }
     ]
   },
-  "baseDate": "2026/05/08"
+  "baseDate": "2026/05/09"
 }
