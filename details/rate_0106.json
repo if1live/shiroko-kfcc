@@ -7,7 +7,7 @@
     "r2": "종로구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/05/11",
+    "baseDate": "2026/05/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,6 +16,8 @@
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "2.20"},
@@ -41,8 +43,8 @@
           {"duration": 3, "rate": "2.20"},
           {"duration": 6, "rate": "2.40"},
           {"duration": 9, "rate": "2.40"},
-          {"duration": 12, "rate": "3.10"},
-          {"duration": 18, "rate": "3.50"},
+          {"duration": 12, "rate": "3.30"},
+          {"duration": 18, "rate": "2.20"},
           {"duration": 24, "rate": "2.20"},
           {"duration": 30, "rate": "2.20"},
           {"duration": 36, "rate": "2.20"}
@@ -72,11 +74,15 @@
           {"duration": null, "rate": "0.10"},
           {"duration": null, "rate": "3.10"}
         ]
+      },
+      {
+        "title": "MG주거래우대정기예금",
+        "entries": [{"duration": 12, "rate": "3.40"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/05/11",
+    "baseDate": "2026/05/12",
     "products": [
       {
         "title": "정기적금",
@@ -90,7 +96,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.20"},
+          {"duration": 12, "rate": "5.00"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
@@ -125,5 +131,5 @@
       }
     ]
   },
-  "baseDate": "2026/05/11"
+  "baseDate": "2026/05/12"
 }
