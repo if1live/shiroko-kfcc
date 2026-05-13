@@ -7,7 +7,7 @@
     "r2": "남구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/05/13",
+    "baseDate": "2026/05/14",
     "products": [
       {
         "title": "정기예탁금",
@@ -42,7 +42,7 @@
         "entries": [
           {"duration": 3, "rate": "0.00"},
           {"duration": 6, "rate": "3.00"},
-          {"duration": 12, "rate": "3.40"}
+          {"duration": 12, "rate": "3.29"}
         ]
       },
       {
@@ -69,7 +69,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/05/13",
+    "baseDate": "2026/05/14",
     "products": [
       {
         "title": "정기적금",
@@ -95,8 +95,8 @@
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
-          {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "3.30"}
+          {"duration": 6, "rate": "2.80"},
+          {"duration": 12, "rate": "3.50"}
         ]
       },
       {
@@ -125,7 +125,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
+        "entries": [{"duration": 12, "rate": "3.06"}]
       },
       {
         "title": "꿈모아상호부금",
@@ -142,5 +142,5 @@
       }
     ]
   },
-  "baseDate": "2026/05/13"
+  "baseDate": "2026/05/14"
 }
