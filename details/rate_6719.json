@@ -7,7 +7,7 @@
     "r2": "제주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/05/29",
+    "baseDate": "2026/05/30",
     "products": [
       {
         "title": "정기예탁금",
@@ -62,7 +62,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/05/29",
+    "baseDate": "2026/05/30",
     "products": [
       {
         "title": "정기적금",
@@ -77,7 +77,7 @@
       },
       {
         "title": "MG New정기적금",
-        "entries": [{"duration": 12, "rate": "5.00"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "MG희망나눔걸음마적금",
@@ -123,5 +123,5 @@
       }
     ]
   },
-  "baseDate": "2026/05/29"
+  "baseDate": "2026/05/30"
 }

@@ -7,7 +7,7 @@
     "r2": "음성군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/05/29",
+    "baseDate": "2026/05/30",
     "products": [
       {
         "title": "정기예탁금",
@@ -93,7 +93,7 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.80"}
+          {"duration": null, "rate": "3.00"}
         ]
       },
       {
@@ -103,7 +103,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/05/29",
+    "baseDate": "2026/05/30",
     "products": [
       {
         "title": "정기적금",
@@ -189,5 +189,5 @@
       }
     ]
   },
-  "baseDate": "2026/05/29"
+  "baseDate": "2026/05/30"
 }
