@@ -7,15 +7,15 @@
     "r2": "아산시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/05/31",
+    "baseDate": "2026/06/01",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.00"},
-          {"duration": null, "rate": "2.75"},
-          {"duration": null, "rate": "2.75"},
-          {"duration": null, "rate": "2.85"},
+          {"duration": null, "rate": "2.95"},
+          {"duration": null, "rate": "2.95"},
+          {"duration": null, "rate": "3.15"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"}
         ]
@@ -25,22 +25,22 @@
         "entries": [
           {"duration": 1, "rate": "2.40"},
           {"duration": 2, "rate": "2.40"},
-          {"duration": 3, "rate": "5.10"},
-          {"duration": 4, "rate": "2.90"},
-          {"duration": 5, "rate": "2.90"},
-          {"duration": 6, "rate": "2.90"},
-          {"duration": 7, "rate": "2.90"},
-          {"duration": 8, "rate": "2.90"},
-          {"duration": 9, "rate": "2.90"},
-          {"duration": 10, "rate": "2.90"},
-          {"duration": 11, "rate": "2.90"},
-          {"duration": 12, "rate": "3.40"}
+          {"duration": 3, "rate": "3.10"},
+          {"duration": 4, "rate": "3.10"},
+          {"duration": 5, "rate": "3.10"},
+          {"duration": 6, "rate": "3.10"},
+          {"duration": 7, "rate": "3.10"},
+          {"duration": 8, "rate": "3.10"},
+          {"duration": 9, "rate": "3.10"},
+          {"duration": 10, "rate": "3.10"},
+          {"duration": 11, "rate": "3.10"},
+          {"duration": 12, "rate": "3.30"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/05/31",
+    "baseDate": "2026/06/01",
     "products": [
       {
         "title": "정기적금",
@@ -74,9 +74,9 @@
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "2.45"}]
+        "entries": [{"duration": 12, "rate": "2.75"}]
       }
     ]
   },
-  "baseDate": "2026/05/31"
+  "baseDate": "2026/06/01"
 }

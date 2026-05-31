@@ -7,7 +7,7 @@
     "r2": "영등포구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/05/31",
+    "baseDate": "2026/06/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,6 +15,7 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
@@ -102,7 +103,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/05/31",
+    "baseDate": "2026/06/01",
     "products": [
       {
         "title": "정기적금",
@@ -118,7 +119,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "6.60"},
+          {"duration": 12, "rate": "7.00"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.50"}
         ]
@@ -176,5 +177,5 @@
       }
     ]
   },
-  "baseDate": "2026/05/31"
+  "baseDate": "2026/06/01"
 }
