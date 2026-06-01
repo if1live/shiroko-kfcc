@@ -7,7 +7,7 @@
     "r2": "포항시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/01",
+    "baseDate": "2026/06/02",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "0.25"},
           {"duration": null, "rate": "1.80"},
           {"duration": null, "rate": "2.25"},
-          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "2.65"},
           {"duration": null, "rate": "2.35"},
@@ -55,13 +55,13 @@
           {"duration": 9, "rate": "2.25"},
           {"duration": 10, "rate": "2.25"},
           {"duration": 11, "rate": "2.25"},
-          {"duration": 12, "rate": "2.80"}
+          {"duration": 12, "rate": "3.50"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/01",
+    "baseDate": "2026/06/02",
     "products": [
       {
         "title": "정기적금",
@@ -117,5 +117,5 @@
       }
     ]
   },
-  "baseDate": "2026/06/01"
+  "baseDate": "2026/06/02"
 }
