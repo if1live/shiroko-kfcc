@@ -7,7 +7,7 @@
     "r2": "고양시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/04",
+    "baseDate": "2026/06/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -28,7 +28,7 @@
           {"duration": 3, "rate": "2.30"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 9, "rate": "2.50"},
-          {"duration": 12, "rate": "3.60"},
+          {"duration": 12, "rate": "3.40"},
           {"duration": 18, "rate": "3.00"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 30, "rate": "3.00"},
@@ -40,7 +40,7 @@
         "entries": [
           {"duration": 3, "rate": "2.30"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.70"}
+          {"duration": 12, "rate": "3.40"}
         ]
       },
       {
@@ -84,12 +84,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.40"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/04",
+    "baseDate": "2026/06/05",
     "products": [
       {
         "title": "정기적금",
@@ -185,5 +185,5 @@
       }
     ]
   },
-  "baseDate": "2026/06/04"
+  "baseDate": "2026/06/05"
 }

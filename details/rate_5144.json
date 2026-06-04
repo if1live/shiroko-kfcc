@@ -7,7 +7,7 @@
     "r2": "김제시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/04",
+    "baseDate": "2026/06/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -50,7 +50,7 @@
         "entries": [
           {"duration": 3, "rate": "0.00"},
           {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "3.50"}
+          {"duration": 12, "rate": "3.90"}
         ]
       },
       {
@@ -60,7 +60,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/04",
+    "baseDate": "2026/06/05",
     "products": [
       {
         "title": "정기적금",
@@ -120,5 +120,5 @@
       }
     ]
   },
-  "baseDate": "2026/06/04"
+  "baseDate": "2026/06/05"
 }

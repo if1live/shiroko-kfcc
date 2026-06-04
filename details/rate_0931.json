@@ -7,7 +7,7 @@
     "r2": "관악구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/04",
+    "baseDate": "2026/06/05",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.40"}
         ]
@@ -36,7 +36,7 @@
         "entries": [
           {"duration": 3, "rate": "0.00"},
           {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "3.30"}
+          {"duration": 12, "rate": "3.50"}
         ]
       },
       {
@@ -63,7 +63,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/04",
+    "baseDate": "2026/06/05",
     "products": [
       {
         "title": "정기적금",
@@ -150,5 +150,5 @@
       }
     ]
   },
-  "baseDate": "2026/06/04"
+  "baseDate": "2026/06/05"
 }

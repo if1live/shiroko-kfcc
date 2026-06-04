@@ -7,24 +7,24 @@
     "r2": "원주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/04",
+    "baseDate": "2026/06/05",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.50"},
           {"duration": null, "rate": "1.20"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "3.47"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.50"}
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.80"},
+          {"duration": null, "rate": "3.90"},
+          {"duration": null, "rate": "3.90"},
+          {"duration": null, "rate": "3.90"},
+          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "4.00"}
         ]
       },
       {
@@ -32,10 +32,10 @@
         "entries": [
           {"duration": 0, "rate": "0.50"},
           {"duration": 3, "rate": "1.20"},
-          {"duration": 6, "rate": "2.60"},
-          {"duration": 12, "rate": "3.47"},
-          {"duration": 24, "rate": "2.70"},
-          {"duration": 36, "rate": "2.50"}
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 24, "rate": "3.90"},
+          {"duration": 36, "rate": "4.00"}
         ]
       },
       {
@@ -43,13 +43,13 @@
         "entries": [
           {"duration": 1, "rate": "0.50"},
           {"duration": 3, "rate": "1.20"},
-          {"duration": 6, "rate": "2.60"},
-          {"duration": 9, "rate": "2.60"},
-          {"duration": 12, "rate": "3.47"},
-          {"duration": 18, "rate": "2.70"},
-          {"duration": 24, "rate": "2.70"},
-          {"duration": 30, "rate": "2.50"},
-          {"duration": 36, "rate": "2.50"}
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 9, "rate": "3.00"},
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 18, "rate": "3.80"},
+          {"duration": 24, "rate": "3.90"},
+          {"duration": 30, "rate": "3.90"},
+          {"duration": 36, "rate": "4.00"}
         ]
       },
       {
@@ -57,7 +57,7 @@
         "entries": [
           {"duration": 3, "rate": "0.00"},
           {"duration": 6, "rate": "0.00"},
-          {"duration": 12, "rate": "2.90"}
+          {"duration": 12, "rate": "3.70"}
         ]
       },
       {
@@ -65,10 +65,10 @@
         "entries": [
           {"duration": 1, "rate": "0.50"},
           {"duration": 3, "rate": "1.20"},
-          {"duration": 6, "rate": "2.60"},
-          {"duration": 12, "rate": "3.30"},
-          {"duration": 18, "rate": "2.70"},
-          {"duration": 24, "rate": "2.70"}
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 18, "rate": "3.90"},
+          {"duration": 24, "rate": "3.90"}
         ]
       },
       {
@@ -76,10 +76,10 @@
         "entries": [
           {"duration": 1, "rate": "0.50"},
           {"duration": 3, "rate": "1.20"},
-          {"duration": 6, "rate": "2.60"},
-          {"duration": 12, "rate": "3.30"},
-          {"duration": 18, "rate": "2.70"},
-          {"duration": 24, "rate": "2.70"}
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 18, "rate": "3.90"},
+          {"duration": 24, "rate": "3.90"}
         ]
       },
       {
@@ -91,29 +91,29 @@
           {"duration": null, "rate": "1.20"},
           {"duration": null, "rate": "1.20"},
           {"duration": null, "rate": "3.70"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "3.47"}
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.80"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.47"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/04",
+    "baseDate": "2026/06/05",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "3.00"},
           {"duration": 9, "rate": "3.00"},
-          {"duration": 12, "rate": "4.20"},
+          {"duration": 12, "rate": "5.00"},
           {"duration": 13, "rate": "3.50"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 25, "rate": "3.20"},
@@ -125,7 +125,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.70"},
+          {"duration": 12, "rate": "5.00"},
           {"duration": 13, "rate": "3.50"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 25, "rate": "3.20"},
@@ -144,7 +144,7 @@
         "title": "MG더뱅킹정기적금",
         "entries": [
           {"duration": 6, "rate": "2.70"},
-          {"duration": 12, "rate": "3.70"}
+          {"duration": 12, "rate": "4.40"}
         ]
       },
       {
@@ -156,31 +156,31 @@
         "entries": [
           {"duration": 1, "rate": "0.50"},
           {"duration": 3, "rate": "1.20"},
-          {"duration": 6, "rate": "2.60"},
-          {"duration": 9, "rate": "2.60"},
-          {"duration": 12, "rate": "3.00"},
-          {"duration": 13, "rate": "2.60"},
-          {"duration": 24, "rate": "2.60"},
-          {"duration": 36, "rate": "2.60"},
-          {"duration": 48, "rate": "2.60"},
-          {"duration": 60, "rate": "2.60"}
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 9, "rate": "3.00"},
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 13, "rate": "3.90"},
+          {"duration": 24, "rate": "3.90"},
+          {"duration": 36, "rate": "3.90"},
+          {"duration": 48, "rate": "3.90"},
+          {"duration": 60, "rate": "3.90"}
         ]
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
+        "entries": [{"duration": 12, "rate": "3.70"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "2.90"}]
+        "entries": [{"duration": 12, "rate": "3.70"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "2.50"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "일일자유적금",
@@ -197,18 +197,18 @@
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 6, "rate": "2.60"},
-          {"duration": 12, "rate": "3.00"},
-          {"duration": 13, "rate": "2.60"},
-          {"duration": 24, "rate": "2.60"},
-          {"duration": 36, "rate": "2.60"}
+          {"duration": 6, "rate": "3.00"},
+          {"duration": 12, "rate": "3.80"},
+          {"duration": 13, "rate": "3.90"},
+          {"duration": 24, "rate": "3.90"},
+          {"duration": 36, "rate": "3.90"}
         ]
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
+        "entries": [{"duration": 12, "rate": "3.80"}]
       }
     ]
   },
-  "baseDate": "2026/06/04"
+  "baseDate": "2026/06/05"
 }
