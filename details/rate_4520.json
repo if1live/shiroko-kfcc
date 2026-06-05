@@ -7,13 +7,14 @@
     "r2": "청주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/05",
+    "baseDate": "2026/06/06",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.70"},
+          {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "2.70"},
@@ -74,12 +75,12 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/05",
+    "baseDate": "2026/06/06",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.40"},
+          {"duration": 12, "rate": "4.00"},
           {"duration": 24, "rate": "3.20"},
           {"duration": 36, "rate": "3.00"},
           {"duration": 48, "rate": "0.00"},
@@ -143,5 +144,5 @@
       }
     ]
   },
-  "baseDate": "2026/06/05"
+  "baseDate": "2026/06/06"
 }
