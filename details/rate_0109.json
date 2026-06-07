@@ -7,16 +7,17 @@
     "r2": "종로구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/07",
+    "baseDate": "2026/06/08",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.40"},
+          {"duration": null, "rate": "2.20"},
+          {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "2.40"}
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.00"}
         ]
       },
       {
@@ -62,11 +63,12 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/07",
+    "baseDate": "2026/06/08",
     "products": [
       {
         "title": "정기적금",
         "entries": [
+          {"duration": 9, "rate": "8.00"},
           {"duration": 12, "rate": "3.40"},
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.60"}
@@ -108,5 +110,5 @@
       }
     ]
   },
-  "baseDate": "2026/06/07"
+  "baseDate": "2026/06/08"
 }
