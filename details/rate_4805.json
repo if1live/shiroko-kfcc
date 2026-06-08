@@ -7,7 +7,7 @@
     "r2": "전주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/08",
+    "baseDate": "2026/06/09",
     "products": [
       {
         "title": "정기예탁금",
@@ -53,7 +53,7 @@
         "entries": [
           {"duration": 3, "rate": "0.00"},
           {"duration": 6, "rate": "2.80"},
-          {"duration": 12, "rate": "3.90"}
+          {"duration": 12, "rate": "3.91"}
         ]
       },
       {
@@ -87,13 +87,13 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/08",
+    "baseDate": "2026/06/09",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "2.80"},
-          {"duration": 12, "rate": "4.00"},
+          {"duration": 12, "rate": "3.50"},
           {"duration": 13, "rate": "3.00"},
           {"duration": 24, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"},
@@ -105,7 +105,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.00"},
+          {"duration": 12, "rate": "3.10"},
           {"duration": 13, "rate": "2.70"},
           {"duration": 24, "rate": "2.40"},
           {"duration": 36, "rate": "2.40"}
@@ -113,11 +113,11 @@
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "3.30"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "3.30"}]
+        "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
         "title": "MG더뱅킹정기적금",
@@ -181,5 +181,5 @@
       }
     ]
   },
-  "baseDate": "2026/06/08"
+  "baseDate": "2026/06/09"
 }
