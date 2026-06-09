@@ -7,7 +7,7 @@
     "r2": "장수군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/09",
+    "baseDate": "2026/06/10",
     "products": [
       {
         "title": "정기예탁금",
@@ -51,13 +51,30 @@
         "entries": [{"duration": 12, "rate": "2.80"}]
       },
       {
+        "title": "꿈드림회전정기예탁금",
+        "entries": [
+          {"duration": null, "rate": "1.40"},
+          {"duration": null, "rate": "1.40"},
+          {"duration": null, "rate": "2.10"},
+          {"duration": null, "rate": "2.10"},
+          {"duration": null, "rate": "2.10"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "3.00"}
+        ]
+      },
+      {
         "title": "MG주거래우대정기예금",
         "entries": [{"duration": 12, "rate": "2.50"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/09",
+    "baseDate": "2026/06/10",
     "products": [
       {
         "title": "정기적금",
@@ -108,5 +125,5 @@
       }
     ]
   },
-  "baseDate": "2026/06/09"
+  "baseDate": "2026/06/10"
 }
