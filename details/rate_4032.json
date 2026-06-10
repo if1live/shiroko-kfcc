@@ -7,7 +7,7 @@
     "r2": "고양시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/10",
+    "baseDate": "2026/06/11",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,7 +16,7 @@
           {"duration": null, "rate": "1.50"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.60"},
           {"duration": null, "rate": "3.10"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"}
@@ -79,7 +79,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/10",
+    "baseDate": "2026/06/11",
     "products": [
       {
         "title": "정기적금",
@@ -175,5 +175,5 @@
       }
     ]
   },
-  "baseDate": "2026/06/10"
+  "baseDate": "2026/06/11"
 }

@@ -6,9 +6,22 @@
     "r1": "대전",
     "r2": "유성구"
   },
-  "deferredDeposit": null,
+  "deferredDeposit": {
+    "baseDate": "2026/06/11",
+    "products": [
+      {
+        "title": "정기예탁금",
+        "entries": [
+          {"duration": null, "rate": "2.50"},
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "2.80"}
+        ]
+      }
+    ]
+  },
   "installmentSavings": {
-    "baseDate": "2026/06/10",
+    "baseDate": "2026/06/11",
     "products": [
       {
         "title": "정기적금",
@@ -32,5 +45,5 @@
       }
     ]
   },
-  "baseDate": "2026/06/10"
+  "baseDate": "2026/06/11"
 }
