@@ -7,7 +7,7 @@
     "r2": "원주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/14",
+    "baseDate": "2026/06/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -80,7 +80,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/14",
+    "baseDate": "2026/06/15",
     "products": [
       {
         "title": "정기적금",
@@ -96,7 +96,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.70"},
+          {"duration": 12, "rate": "4.20"},
           {"duration": 13, "rate": "2.80"},
           {"duration": 24, "rate": "2.80"},
           {"duration": 25, "rate": "2.50"},
@@ -105,11 +105,11 @@
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "4.20"}]
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "3.70"}]
+        "entries": [{"duration": 12, "rate": "4.20"}]
       },
       {
         "title": "MG더뱅킹정기적금",
@@ -138,11 +138,11 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "2.90"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "2.90"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "MG더뱅킹자유적금",
@@ -163,7 +163,7 @@
       {
         "title": "꿈모아상호부금",
         "entries": [
-          {"duration": 12, "rate": "2.90"},
+          {"duration": 12, "rate": "3.00"},
           {"duration": 13, "rate": "2.20"},
           {"duration": 24, "rate": "2.20"},
           {"duration": 36, "rate": "2.00"}
@@ -171,9 +171,9 @@
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "2.90"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       }
     ]
   },
-  "baseDate": "2026/06/14"
+  "baseDate": "2026/06/15"
 }
