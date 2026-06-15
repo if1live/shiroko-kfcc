@@ -7,7 +7,7 @@
     "r2": "거창군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/15",
+    "baseDate": "2026/06/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -40,7 +40,7 @@
         "entries": [
           {"duration": 3, "rate": "1.60"},
           {"duration": 6, "rate": "1.90"},
-          {"duration": 12, "rate": "2.60"}
+          {"duration": 12, "rate": "2.80"}
         ]
       },
       {
@@ -67,7 +67,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/15",
+    "baseDate": "2026/06/16",
     "products": [
       {
         "title": "정기적금",
@@ -126,5 +126,5 @@
       }
     ]
   },
-  "baseDate": "2026/06/15"
+  "baseDate": "2026/06/16"
 }
