@@ -7,7 +7,7 @@
     "r2": "정읍시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/22",
+    "baseDate": "2026/06/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -56,7 +56,7 @@
         "entries": [
           {"duration": 3, "rate": "1.30"},
           {"duration": 6, "rate": "2.70"},
-          {"duration": 12, "rate": "3.91"}
+          {"duration": 12, "rate": "3.30"}
         ]
       },
       {
@@ -83,7 +83,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/22",
+    "baseDate": "2026/06/23",
     "products": [
       {
         "title": "정기적금",
@@ -140,5 +140,5 @@
       }
     ]
   },
-  "baseDate": "2026/06/22"
+  "baseDate": "2026/06/23"
 }

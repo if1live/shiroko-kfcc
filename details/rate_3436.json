@@ -7,7 +7,7 @@
     "r2": "태안군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/22",
+    "baseDate": "2026/06/23",
     "products": [
       {
         "title": "정기예탁금",
@@ -37,11 +37,11 @@
           {"duration": 3, "rate": "1.70"},
           {"duration": 6, "rate": "1.90"},
           {"duration": 9, "rate": "1.90"},
-          {"duration": 12, "rate": "3.70"},
-          {"duration": 18, "rate": "3.70"},
-          {"duration": 24, "rate": "3.70"},
-          {"duration": 30, "rate": "3.70"},
-          {"duration": 36, "rate": "3.80"}
+          {"duration": 12, "rate": "3.20"},
+          {"duration": 18, "rate": "3.20"},
+          {"duration": 24, "rate": "3.20"},
+          {"duration": 30, "rate": "3.20"},
+          {"duration": 36, "rate": "3.20"}
         ]
       },
       {
@@ -76,7 +76,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/22",
+    "baseDate": "2026/06/23",
     "products": [
       {
         "title": "정기적금",
@@ -157,5 +157,5 @@
       }
     ]
   },
-  "baseDate": "2026/06/22"
+  "baseDate": "2026/06/23"
 }
