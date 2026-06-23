@@ -7,7 +7,7 @@
     "r2": "관악구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/23",
+    "baseDate": "2026/06/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,7 +16,7 @@
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.10"},
+          {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.40"}
@@ -25,22 +25,22 @@
       {
         "title": "Block예금",
         "entries": [
-          {"duration": 0, "rate": "1.83"},
+          {"duration": 0, "rate": "1.85"},
           {"duration": 3, "rate": "2.20"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "2.90"},
-          {"duration": 24, "rate": "2.40"},
+          {"duration": 12, "rate": "3.20"},
+          {"duration": 24, "rate": "2.50"},
           {"duration": 36, "rate": "2.40"}
         ]
       },
       {
         "title": "자유자재정기예금Ⅱ",
         "entries": [
-          {"duration": 1, "rate": "2.00"},
+          {"duration": 1, "rate": "1.85"},
           {"duration": 3, "rate": "2.20"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 9, "rate": "2.50"},
-          {"duration": 12, "rate": "3.10"},
+          {"duration": 12, "rate": "3.20"},
           {"duration": 18, "rate": "2.50"},
           {"duration": 24, "rate": "2.50"},
           {"duration": 30, "rate": "2.40"},
@@ -52,14 +52,14 @@
         "entries": [
           {"duration": 3, "rate": "2.20"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "2.80"}
+          {"duration": 12, "rate": "2.90"}
         ]
       },
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.00"},
+          {"duration": null, "rate": "1.85"},
+          {"duration": null, "rate": "1.85"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
@@ -69,13 +69,13 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.07"}
+          {"duration": null, "rate": "3.20"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/23",
+    "baseDate": "2026/06/24",
     "products": [
       {
         "title": "정기적금",
@@ -129,5 +129,5 @@
       }
     ]
   },
-  "baseDate": "2026/06/23"
+  "baseDate": "2026/06/24"
 }
