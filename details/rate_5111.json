@@ -7,7 +7,7 @@
     "r2": "군산시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/25",
+    "baseDate": "2026/06/26",
     "products": [
       {
         "title": "정기예탁금",
@@ -49,13 +49,21 @@
         ]
       },
       {
+        "title": "MG더뱅킹정기예금",
+        "entries": [
+          {"duration": 3, "rate": "2.00"},
+          {"duration": 6, "rate": "2.50"},
+          {"duration": 12, "rate": "2.60"}
+        ]
+      },
+      {
         "title": "MG주거래우대정기예금",
         "entries": [{"duration": 12, "rate": "2.80"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/25",
+    "baseDate": "2026/06/26",
     "products": [
       {
         "title": "정기적금",
@@ -65,6 +73,15 @@
           {"duration": 24, "rate": "3.50"},
           {"duration": 36, "rate": "3.50"},
           {"duration": 60, "rate": "3.50"}
+        ]
+      },
+      {
+        "title": "MG New정기적금",
+        "entries": [
+          {"duration": 12, "rate": "2.70"},
+          {"duration": 13, "rate": "2.70"},
+          {"duration": 24, "rate": "2.70"},
+          {"duration": 36, "rate": "2.70"}
         ]
       },
       {
@@ -120,5 +137,5 @@
       }
     ]
   },
-  "baseDate": "2026/06/25"
+  "baseDate": "2026/06/26"
 }
