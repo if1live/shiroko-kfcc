@@ -8,7 +8,7 @@
   },
   "deferredDeposit": null,
   "installmentSavings": {
-    "baseDate": "2026/06/27",
+    "baseDate": "2026/06/28",
     "products": [
       {
         "title": "정기적금",
@@ -25,5 +25,5 @@
       }
     ]
   },
-  "baseDate": "2026/06/27"
+  "baseDate": "2026/06/28"
 }
