@@ -7,7 +7,7 @@
     "r2": "연제구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/06/30",
+    "baseDate": "2026/07/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -64,7 +64,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/06/30",
+    "baseDate": "2026/07/01",
     "products": [
       {
         "title": "정기적금",
@@ -95,16 +95,8 @@
           {"duration": 25, "rate": "3.00"},
           {"duration": 36, "rate": "3.00"}
         ]
-      },
-      {
-        "title": "꿈모아상호부금",
-        "entries": [
-          {"duration": 12, "rate": "2.80"},
-          {"duration": 24, "rate": "2.40"},
-          {"duration": 36, "rate": "2.10"}
-        ]
       }
     ]
   },
-  "baseDate": "2026/06/30"
+  "baseDate": "2026/07/01"
 }
