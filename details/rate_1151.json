@@ -7,7 +7,7 @@
     "r2": "강남구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/07/12",
+    "baseDate": "2026/07/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -78,7 +78,7 @@
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.62"},
+          {"duration": null, "rate": "2.66"},
           {"duration": null, "rate": "2.10"},
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.30"},
@@ -95,7 +95,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/07/12",
+    "baseDate": "2026/07/13",
     "products": [
       {
         "title": "정기적금",
@@ -146,5 +146,5 @@
       }
     ]
   },
-  "baseDate": "2026/07/12"
+  "baseDate": "2026/07/13"
 }

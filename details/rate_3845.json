@@ -7,7 +7,7 @@
     "r2": "수원시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/07/12",
+    "baseDate": "2026/07/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -106,7 +106,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/07/12",
+    "baseDate": "2026/07/13",
     "products": [
       {
         "title": "정기적금",
@@ -202,5 +202,5 @@
       }
     ]
   },
-  "baseDate": "2026/07/12"
+  "baseDate": "2026/07/13"
 }
