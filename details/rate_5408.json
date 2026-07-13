@@ -2,12 +2,12 @@
   "id": "5408",
   "bank": {
     "gmgoCd": "5408",
-    "gmgoNm": "대신동",
+    "gmgoNm": "김천대신",
     "r1": "경북",
     "r2": "김천시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/07/13",
+    "baseDate": "2026/07/14",
     "products": [
       {
         "title": "정기예탁금",
@@ -64,7 +64,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/07/13",
+    "baseDate": "2026/07/14",
     "products": [
       {
         "title": "정기적금",
@@ -104,5 +104,5 @@
       }
     ]
   },
-  "baseDate": "2026/07/13"
+  "baseDate": "2026/07/14"
 }
