@@ -7,28 +7,28 @@
     "r2": "과천시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/07/14",
+    "baseDate": "2026/07/15",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.10"},
-          {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "2.20"},
+          {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.50"}
+          {"duration": null, "rate": "2.70"},
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.70"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "2.80"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/07/14",
+    "baseDate": "2026/07/15",
     "products": [
       {
         "title": "정기적금",
@@ -67,5 +67,5 @@
       }
     ]
   },
-  "baseDate": "2026/07/14"
+  "baseDate": "2026/07/15"
 }
