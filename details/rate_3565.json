@@ -7,7 +7,7 @@
     "r2": "성남시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/07/26",
+    "baseDate": "2026/07/27",
     "products": [
       {
         "title": "정기예탁금",
@@ -22,7 +22,7 @@
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.50"},
+          {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.40"}
@@ -46,7 +46,7 @@
           {"duration": 3, "rate": "2.10"},
           {"duration": 6, "rate": "3.00"},
           {"duration": 9, "rate": "3.00"},
-          {"duration": 12, "rate": "3.30"},
+          {"duration": 12, "rate": "3.60"},
           {"duration": 18, "rate": "2.40"},
           {"duration": 24, "rate": "2.40"},
           {"duration": 30, "rate": "2.40"},
@@ -58,7 +58,7 @@
         "entries": [
           {"duration": 3, "rate": "2.39"},
           {"duration": 6, "rate": "2.88"},
-          {"duration": 12, "rate": "3.09"}
+          {"duration": 12, "rate": "3.30"}
         ]
       },
       {
@@ -75,7 +75,7 @@
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.50"}
+          {"duration": null, "rate": "3.80"}
         ]
       },
       {
@@ -85,7 +85,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/07/26",
+    "baseDate": "2026/07/27",
     "products": [
       {
         "title": "정기적금",
@@ -183,5 +183,5 @@
       }
     ]
   },
-  "baseDate": "2026/07/26"
+  "baseDate": "2026/07/27"
 }
