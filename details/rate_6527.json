@@ -7,7 +7,7 @@
     "r2": "거제시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/07/28",
+    "baseDate": "2026/07/29",
     "products": [
       {
         "title": "정기예탁금",
@@ -61,7 +61,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/07/28",
+    "baseDate": "2026/07/29",
     "products": [
       {
         "title": "정기적금",
@@ -93,6 +93,7 @@
           {"duration": 1, "rate": "0.10"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 12, "rate": "2.65"},
+          {"duration": 18, "rate": "2.00"},
           {"duration": 24, "rate": "1.90"},
           {"duration": 36, "rate": "1.90"}
         ]
@@ -103,5 +104,5 @@
       }
     ]
   },
-  "baseDate": "2026/07/28"
+  "baseDate": "2026/07/29"
 }
