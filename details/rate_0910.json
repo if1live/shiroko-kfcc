@@ -7,7 +7,7 @@
     "r2": "동작구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/08/05",
+    "baseDate": "2026/08/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -81,7 +81,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/08/05",
+    "baseDate": "2026/08/06",
     "products": [
       {
         "title": "정기적금",
@@ -138,7 +138,7 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "3.00"}]
+        "entries": [{"duration": 12, "rate": "3.41"}]
       },
       {
         "title": "My꿈모아자유적금",
@@ -146,5 +146,5 @@
       }
     ]
   },
-  "baseDate": "2026/08/05"
+  "baseDate": "2026/08/06"
 }

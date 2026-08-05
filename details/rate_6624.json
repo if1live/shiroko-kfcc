@@ -7,7 +7,7 @@
     "r2": "제주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/08/05",
+    "baseDate": "2026/08/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,8 +16,8 @@
           {"duration": null, "rate": "2.30"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "3.60"},
-          {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.60"}
+          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.30"}
         ]
       },
       {
@@ -27,8 +27,8 @@
           {"duration": 3, "rate": "2.30"},
           {"duration": 6, "rate": "2.50"},
           {"duration": 12, "rate": "3.60"},
-          {"duration": 24, "rate": "2.70"},
-          {"duration": 36, "rate": "2.60"}
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 36, "rate": "3.30"}
         ]
       },
       {
@@ -40,9 +40,9 @@
           {"duration": 9, "rate": "2.50"},
           {"duration": 12, "rate": "3.60"},
           {"duration": 18, "rate": "3.60"},
-          {"duration": 24, "rate": "2.70"},
-          {"duration": 30, "rate": "2.70"},
-          {"duration": 36, "rate": "2.60"}
+          {"duration": 24, "rate": "3.30"},
+          {"duration": 30, "rate": "3.30"},
+          {"duration": 36, "rate": "3.30"}
         ]
       },
       {
@@ -69,7 +69,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/08/05",
+    "baseDate": "2026/08/06",
     "products": [
       {
         "title": "정기적금",
@@ -153,5 +153,5 @@
       }
     ]
   },
-  "baseDate": "2026/08/05"
+  "baseDate": "2026/08/06"
 }

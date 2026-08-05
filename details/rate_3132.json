@@ -7,7 +7,7 @@
     "r2": "서구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/08/05",
+    "baseDate": "2026/08/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -99,7 +99,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/08/05",
+    "baseDate": "2026/08/06",
     "products": [
       {
         "title": "정기적금",
@@ -158,7 +158,7 @@
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.10"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "MG주거래우대자유적금",
@@ -183,5 +183,5 @@
       }
     ]
   },
-  "baseDate": "2026/08/05"
+  "baseDate": "2026/08/06"
 }
