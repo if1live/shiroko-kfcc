@@ -7,7 +7,7 @@
     "r2": "청주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/08/06",
+    "baseDate": "2026/08/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -29,7 +29,7 @@
           {"duration": 0, "rate": "1.00"},
           {"duration": 3, "rate": "1.50"},
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "3.50"},
+          {"duration": 12, "rate": "3.60"},
           {"duration": 24, "rate": "2.50"},
           {"duration": 36, "rate": "2.50"}
         ]
@@ -41,7 +41,7 @@
           {"duration": 3, "rate": "1.50"},
           {"duration": 6, "rate": "2.00"},
           {"duration": 9, "rate": "2.00"},
-          {"duration": 12, "rate": "3.50"},
+          {"duration": 12, "rate": "3.60"},
           {"duration": 18, "rate": "2.50"},
           {"duration": 24, "rate": "2.50"},
           {"duration": 30, "rate": "2.50"},
@@ -76,12 +76,12 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/08/06",
+    "baseDate": "2026/08/08",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "6.00"},
+          {"duration": 12, "rate": "3.60"},
           {"duration": 24, "rate": "2.60"},
           {"duration": 36, "rate": "2.60"},
           {"duration": 48, "rate": "2.60"},
@@ -91,7 +91,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.30"},
+          {"duration": 12, "rate": "3.60"},
           {"duration": 24, "rate": "2.60"},
           {"duration": 36, "rate": "2.60"}
         ]
@@ -121,7 +121,7 @@
           {"duration": 1, "rate": "1.00"},
           {"duration": 3, "rate": "1.50"},
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "3.30"},
+          {"duration": 12, "rate": "3.60"},
           {"duration": 24, "rate": "2.50"},
           {"duration": 36, "rate": "2.50"},
           {"duration": 48, "rate": "2.50"},
@@ -130,15 +130,15 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "3.30"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "3.30"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.30"}]
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "MG더뱅킹자유적금",
@@ -146,5 +146,5 @@
       }
     ]
   },
-  "baseDate": "2026/08/06"
+  "baseDate": "2026/08/08"
 }
