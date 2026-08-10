@@ -7,7 +7,7 @@
     "r2": "노원구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/08/10",
+    "baseDate": "2026/08/11",
     "products": [
       {
         "title": "정기예탁금",
@@ -100,7 +100,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/08/10",
+    "baseDate": "2026/08/11",
     "products": [
       {
         "title": "정기적금",
@@ -167,5 +167,5 @@
       }
     ]
   },
-  "baseDate": "2026/08/10"
+  "baseDate": "2026/08/11"
 }
