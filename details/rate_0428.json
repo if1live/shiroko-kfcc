@@ -7,7 +7,7 @@
     "r2": "마포구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/08/11",
+    "baseDate": "2026/08/12",
     "products": [
       {
         "title": "정기예탁금",
@@ -101,7 +101,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/08/11",
+    "baseDate": "2026/08/12",
     "products": [
       {
         "title": "정기적금",
@@ -180,5 +180,5 @@
       }
     ]
   },
-  "baseDate": "2026/08/11"
+  "baseDate": "2026/08/12"
 }
