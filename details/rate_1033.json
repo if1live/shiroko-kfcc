@@ -7,13 +7,13 @@
     "r2": "송파구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/08/12",
+    "baseDate": "2026/08/13",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.30"},
-          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.00"},
+          {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "3.30"},
           {"duration": null, "rate": "2.80"},
@@ -24,8 +24,8 @@
       {
         "title": "Block예금",
         "entries": [
-          {"duration": 0, "rate": "2.30"},
-          {"duration": 3, "rate": "2.80"},
+          {"duration": 0, "rate": "2.00"},
+          {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "2.90"},
           {"duration": 12, "rate": "3.30"},
           {"duration": 24, "rate": "2.80"},
@@ -78,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/08/12",
+    "baseDate": "2026/08/13",
     "products": [
       {
         "title": "정기적금",
@@ -132,5 +132,5 @@
       }
     ]
   },
-  "baseDate": "2026/08/12"
+  "baseDate": "2026/08/13"
 }
