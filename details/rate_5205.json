@@ -7,15 +7,14 @@
     "r2": "포항시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/08/17",
+    "baseDate": "2026/08/18",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "4.00"},
+          {"duration": null, "rate": "1.00"},
           {"duration": null, "rate": "1.30"},
-          {"duration": null, "rate": "1.30"},
-          {"duration": null, "rate": "3.20"},
+          {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "2.20"}
         ]
       },
@@ -25,7 +24,7 @@
           {"duration": 0, "rate": "0.05"},
           {"duration": 3, "rate": "1.00"},
           {"duration": 6, "rate": "1.30"},
-          {"duration": 12, "rate": "3.20"},
+          {"duration": 12, "rate": "3.50"},
           {"duration": 24, "rate": "2.20"},
           {"duration": 36, "rate": "2.20"}
         ]
@@ -37,7 +36,7 @@
           {"duration": 3, "rate": "1.00"},
           {"duration": 6, "rate": "1.30"},
           {"duration": 9, "rate": "1.30"},
-          {"duration": 12, "rate": "3.20"},
+          {"duration": 12, "rate": "3.50"},
           {"duration": 18, "rate": "2.20"},
           {"duration": 24, "rate": "2.20"},
           {"duration": 30, "rate": "2.20"},
@@ -49,7 +48,7 @@
         "entries": [
           {"duration": 3, "rate": "0.70"},
           {"duration": 6, "rate": "1.00"},
-          {"duration": 12, "rate": "2.90"}
+          {"duration": 12, "rate": "3.20"}
         ]
       },
       {
@@ -66,25 +65,25 @@
           {"duration": null, "rate": "1.30"},
           {"duration": null, "rate": "1.30"},
           {"duration": null, "rate": "1.30"},
-          {"duration": null, "rate": "3.30"}
+          {"duration": null, "rate": "3.60"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/08/17",
+    "baseDate": "2026/08/18",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.00"},
+          {"duration": 12, "rate": "3.50"},
           {"duration": 13, "rate": "2.20"}
         ]
       },
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "2.50"},
+          {"duration": 12, "rate": "3.00"},
           {"duration": 24, "rate": "1.70"},
           {"duration": 36, "rate": "1.70"}
         ]
@@ -92,8 +91,8 @@
       {
         "title": "MG더뱅킹정기적금",
         "entries": [
-          {"duration": 6, "rate": "0.90"},
-          {"duration": 12, "rate": "2.50"}
+          {"duration": 6, "rate": "0.80"},
+          {"duration": 12, "rate": "3.00"}
         ]
       },
       {
@@ -106,7 +105,7 @@
           {"duration": 1, "rate": "0.10"},
           {"duration": 3, "rate": "1.00"},
           {"duration": 6, "rate": "1.30"},
-          {"duration": 12, "rate": "3.00"},
+          {"duration": 12, "rate": "3.50"},
           {"duration": 13, "rate": "2.20"},
           {"duration": 24, "rate": "2.20"},
           {"duration": 36, "rate": "2.20"},
@@ -116,18 +115,18 @@
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "2.50"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "꿈모아상호부금",
         "entries": [
           {"duration": 6, "rate": "1.30"},
-          {"duration": 12, "rate": "3.00"},
+          {"duration": 12, "rate": "3.50"},
           {"duration": 24, "rate": "2.20"},
           {"duration": 36, "rate": "2.20"}
         ]
       }
     ]
   },
-  "baseDate": "2026/08/17"
+  "baseDate": "2026/08/18"
 }
