@@ -7,7 +7,7 @@
     "r2": "제주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/08/18",
+    "baseDate": "2026/08/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,7 +15,7 @@
           {"duration": null, "rate": "0.50"},
           {"duration": null, "rate": "0.80"},
           {"duration": null, "rate": "1.50"},
-          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.70"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"}
@@ -24,10 +24,10 @@
       {
         "title": "Block예금",
         "entries": [
-          {"duration": 0, "rate": "0.50"},
+          {"duration": 0, "rate": "0.10"},
           {"duration": 3, "rate": "0.80"},
           {"duration": 6, "rate": "1.50"},
-          {"duration": 12, "rate": "3.10"},
+          {"duration": 12, "rate": "3.70"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.70"}
         ]
@@ -35,14 +35,14 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/08/18",
+    "baseDate": "2026/08/19",
     "products": [
       {
         "title": "정기적금",
         "entries": [
           {"duration": 6, "rate": "2.00"},
-          {"duration": 12, "rate": "2.80"},
-          {"duration": 24, "rate": "2.80"},
+          {"duration": 12, "rate": "3.70"},
+          {"duration": 24, "rate": "3.40"},
           {"duration": 36, "rate": "2.90"},
           {"duration": 48, "rate": "2.90"},
           {"duration": 60, "rate": "2.90"}
@@ -84,5 +84,5 @@
       }
     ]
   },
-  "baseDate": "2026/08/18"
+  "baseDate": "2026/08/19"
 }
