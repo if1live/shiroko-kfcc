@@ -7,7 +7,7 @@
     "r2": "해운대구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/08/23",
+    "baseDate": "2026/08/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,10 +15,11 @@
           {"duration": null, "rate": "0.00"},
           {"duration": null, "rate": "2.10"},
           {"duration": null, "rate": "2.60"},
+          {"duration": null, "rate": "3.60"},
+          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.30"},
-          {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.00"}
+          {"duration": null, "rate": "3.30"}
         ]
       },
       {
@@ -60,7 +61,7 @@
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "3.30"}
+          {"duration": null, "rate": "3.60"}
         ]
       },
       {
@@ -70,7 +71,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/08/23",
+    "baseDate": "2026/08/24",
     "products": [
       {
         "title": "정기적금",
@@ -146,5 +147,5 @@
       }
     ]
   },
-  "baseDate": "2026/08/23"
+  "baseDate": "2026/08/24"
 }
