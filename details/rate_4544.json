@@ -7,7 +7,7 @@
     "r2": "청주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/08/26",
+    "baseDate": "2026/08/27",
     "products": [
       {
         "title": "정기예탁금",
@@ -78,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/08/26",
+    "baseDate": "2026/08/27",
     "products": [
       {
         "title": "정기적금",
@@ -136,7 +136,7 @@
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "3.60"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "MG더뱅킹자유적금",
@@ -158,5 +158,5 @@
       }
     ]
   },
-  "baseDate": "2026/08/26"
+  "baseDate": "2026/08/27"
 }

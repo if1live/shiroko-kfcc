@@ -7,7 +7,7 @@
     "r2": "군포시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/08/26",
+    "baseDate": "2026/08/27",
     "products": [
       {
         "title": "정기예탁금",
@@ -102,12 +102,12 @@
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "2.90"}]
+        "entries": [{"duration": 12, "rate": "3.29"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/08/26",
+    "baseDate": "2026/08/27",
     "products": [
       {
         "title": "정기적금",
@@ -189,5 +189,5 @@
       }
     ]
   },
-  "baseDate": "2026/08/26"
+  "baseDate": "2026/08/27"
 }
