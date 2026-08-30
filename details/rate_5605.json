@@ -7,7 +7,7 @@
     "r2": "영천시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/08/30",
+    "baseDate": "2026/08/31",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,8 +15,8 @@
           {"duration": null, "rate": "0.00"},
           {"duration": null, "rate": "1.80"},
           {"duration": null, "rate": "2.20"},
+          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.00"}
         ]
       },
@@ -67,13 +67,13 @@
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.70"}
+          {"duration": null, "rate": "2.80"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/08/30",
+    "baseDate": "2026/08/31",
     "products": [
       {
         "title": "정기적금",
@@ -87,7 +87,7 @@
       {
         "title": "MG New정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.20"},
+          {"duration": 12, "rate": "4.60"},
           {"duration": 24, "rate": "2.70"},
           {"duration": 36, "rate": "2.40"}
         ]
@@ -144,5 +144,5 @@
       }
     ]
   },
-  "baseDate": "2026/08/30"
+  "baseDate": "2026/08/31"
 }
