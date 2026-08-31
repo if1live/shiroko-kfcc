@@ -7,7 +7,7 @@
     "r2": "무주군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/08/31",
+    "baseDate": "2026/09/01",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,11 +15,11 @@
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.40"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.70"},
-          {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "2.60"}
+          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "2.80"},
+          {"duration": null, "rate": "2.80"}
         ]
       },
       {
@@ -57,16 +57,16 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/08/31",
+    "baseDate": "2026/09/01",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "2.80"},
-          {"duration": 24, "rate": "2.80"},
-          {"duration": 36, "rate": "2.70"},
-          {"duration": 48, "rate": "2.60"},
-          {"duration": 60, "rate": "2.60"}
+          {"duration": 12, "rate": "3.00"},
+          {"duration": 24, "rate": "3.10"},
+          {"duration": 36, "rate": "3.20"},
+          {"duration": 48, "rate": "3.20"},
+          {"duration": 60, "rate": "3.20"}
         ]
       },
       {
@@ -75,11 +75,11 @@
           {"duration": 1, "rate": "2.50"},
           {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "2.60"},
-          {"duration": 12, "rate": "2.60"},
-          {"duration": 24, "rate": "2.50"},
-          {"duration": 36, "rate": "2.50"},
-          {"duration": 48, "rate": "2.50"},
-          {"duration": 60, "rate": "2.50"}
+          {"duration": 12, "rate": "3.00"},
+          {"duration": 24, "rate": "2.80"},
+          {"duration": 36, "rate": "2.80"},
+          {"duration": 48, "rate": "2.80"},
+          {"duration": 60, "rate": "2.80"}
         ]
       },
       {
@@ -100,5 +100,5 @@
       }
     ]
   },
-  "baseDate": "2026/08/31"
+  "baseDate": "2026/09/01"
 }
