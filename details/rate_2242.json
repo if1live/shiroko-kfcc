@@ -7,7 +7,7 @@
     "r2": "미추홀구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/09/01",
+    "baseDate": "2026/09/02",
     "products": [
       {
         "title": "정기예탁금",
@@ -26,7 +26,7 @@
         "entries": [
           {"duration": 0, "rate": "0.10"},
           {"duration": 3, "rate": "2.50"},
-          {"duration": 6, "rate": "3.90"},
+          {"duration": 6, "rate": "2.70"},
           {"duration": 12, "rate": "3.50"},
           {"duration": 24, "rate": "3.20"},
           {"duration": 36, "rate": "3.10"}
@@ -50,7 +50,7 @@
         "title": "MG더뱅킹정기예금",
         "entries": [
           {"duration": 3, "rate": "0.00"},
-          {"duration": 6, "rate": "0.00"},
+          {"duration": 6, "rate": "3.34"},
           {"duration": 12, "rate": "3.30"}
         ]
       },
@@ -74,7 +74,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/09/01",
+    "baseDate": "2026/09/02",
     "products": [
       {
         "title": "정기적금",
@@ -158,5 +158,5 @@
       }
     ]
   },
-  "baseDate": "2026/09/01"
+  "baseDate": "2026/09/02"
 }

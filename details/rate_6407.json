@@ -2,12 +2,12 @@
   "id": "6407",
   "bank": {
     "gmgoCd": "6407",
-    "gmgoNm": "상봉",
+    "gmgoNm": "참진주",
     "r1": "경남",
     "r2": "진주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/09/01",
+    "baseDate": "2026/09/02",
     "products": [
       {
         "title": "정기예탁금",
@@ -70,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/09/01",
+    "baseDate": "2026/09/02",
     "products": [
       {
         "title": "정기적금",
@@ -133,5 +133,5 @@
       }
     ]
   },
-  "baseDate": "2026/09/01"
+  "baseDate": "2026/09/02"
 }
