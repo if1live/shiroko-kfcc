@@ -7,14 +7,14 @@
     "r2": "진주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/09/02",
+    "baseDate": "2026/09/03",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.80"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "3.00"},
+          {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.60"}
         ]
@@ -47,22 +47,22 @@
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "3.30"}
+          {"duration": null, "rate": "3.40"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/09/02",
+    "baseDate": "2026/09/03",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.00"},
-          {"duration": 24, "rate": "2.80"},
-          {"duration": 36, "rate": "2.80"},
-          {"duration": 48, "rate": "2.80"},
-          {"duration": 60, "rate": "2.80"}
+          {"duration": 12, "rate": "3.20"},
+          {"duration": 24, "rate": "3.20"},
+          {"duration": 36, "rate": "3.20"},
+          {"duration": 48, "rate": "3.20"},
+          {"duration": 60, "rate": "3.20"}
         ]
       },
       {
@@ -116,5 +116,5 @@
       }
     ]
   },
-  "baseDate": "2026/09/02"
+  "baseDate": "2026/09/03"
 }
