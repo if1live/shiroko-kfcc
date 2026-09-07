@@ -7,7 +7,7 @@
     "r2": "천안시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/09/07",
+    "baseDate": "2026/09/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -79,7 +79,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/09/07",
+    "baseDate": "2026/09/08",
     "products": [
       {
         "title": "정기적금",
@@ -123,26 +123,26 @@
           {"duration": 1, "rate": "1.80"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.40"},
-          {"duration": 12, "rate": "2.60"},
+          {"duration": 12, "rate": "3.30"},
           {"duration": 24, "rate": "2.30"},
           {"duration": 36, "rate": "2.30"}
         ]
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "2.60"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "2.60"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "2.60"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "MG더뱅킹자유적금",
-        "entries": [{"duration": 12, "rate": "2.60"}]
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "일일자유적금",
@@ -172,5 +172,5 @@
       }
     ]
   },
-  "baseDate": "2026/09/07"
+  "baseDate": "2026/09/08"
 }
