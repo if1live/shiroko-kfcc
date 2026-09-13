@@ -7,14 +7,14 @@
     "r2": "김해시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/09/13",
+    "baseDate": "2026/09/14",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.30"},
+          {"duration": null, "rate": "3.40"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.50"},
@@ -48,7 +48,11 @@
       },
       {
         "title": "MG더뱅킹정기예금",
-        "entries": [{"duration": 12, "rate": "2.40"}]
+        "entries": [
+          {"duration": 3, "rate": "0.00"},
+          {"duration": 6, "rate": "0.00"},
+          {"duration": 12, "rate": "3.00"}
+        ]
       },
       {
         "title": "꿈드림회전정기예탁금",
@@ -64,7 +68,7 @@
           {"duration": 9, "rate": "2.40"},
           {"duration": 10, "rate": "2.40"},
           {"duration": 11, "rate": "2.40"},
-          {"duration": 12, "rate": "3.35"}
+          {"duration": 12, "rate": "3.45"}
         ]
       },
       {
@@ -74,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/09/13",
+    "baseDate": "2026/09/14",
     "products": [
       {
         "title": "정기적금",
@@ -98,7 +102,7 @@
       },
       {
         "title": "우리아기첫걸음정기적금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "2.00"}]
       },
       {
         "title": "MG뛰어라정기적금",
@@ -173,5 +177,5 @@
       }
     ]
   },
-  "baseDate": "2026/09/13"
+  "baseDate": "2026/09/14"
 }
