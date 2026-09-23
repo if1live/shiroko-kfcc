@@ -7,7 +7,7 @@
     "r2": "강서구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/09/23",
+    "baseDate": "2026/09/24",
     "products": [
       {
         "title": "정기예탁금",
@@ -84,7 +84,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/09/23",
+    "baseDate": "2026/09/24",
     "products": [
       {
         "title": "정기적금",
@@ -157,9 +157,9 @@
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "5.00"}]
+        "entries": [{"duration": 12, "rate": "2.90"}]
       }
     ]
   },
-  "baseDate": "2026/09/23"
+  "baseDate": "2026/09/24"
 }
