@@ -7,7 +7,7 @@
     "r2": "성남시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/05",
+    "baseDate": "2026/10/06",
     "products": [
       {
         "title": "정기예탁금",
@@ -15,10 +15,9 @@
           {"duration": null, "rate": "0.30"},
           {"duration": null, "rate": "2.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.40"},
+          {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "2.20"},
           {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.10"},
           {"duration": null, "rate": "2.10"}
         ]
       },
@@ -40,7 +39,7 @@
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "3.00"},
           {"duration": 9, "rate": "3.00"},
-          {"duration": 12, "rate": "3.40"},
+          {"duration": 12, "rate": "3.70"},
           {"duration": 18, "rate": "2.30"},
           {"duration": 24, "rate": "2.20"},
           {"duration": 30, "rate": "2.10"},
@@ -52,7 +51,7 @@
         "entries": [
           {"duration": 3, "rate": "1.70"},
           {"duration": 6, "rate": "2.70"},
-          {"duration": 12, "rate": "2.98"}
+          {"duration": 12, "rate": "3.20"}
         ]
       },
       {
@@ -69,7 +68,7 @@
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
           {"duration": null, "rate": "3.00"},
-          {"duration": null, "rate": "3.40"}
+          {"duration": null, "rate": "3.80"}
         ]
       },
       {
@@ -79,12 +78,12 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/05",
+    "baseDate": "2026/10/06",
     "products": [
       {
         "title": "정기적금",
         "entries": [
-          {"duration": 12, "rate": "3.00"},
+          {"duration": 12, "rate": "3.50"},
           {"duration": 24, "rate": "2.80"},
           {"duration": 36, "rate": "2.80"},
           {"duration": 48, "rate": "2.60"},
@@ -170,5 +169,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/05"
+  "baseDate": "2026/10/06"
 }
