@@ -7,7 +7,7 @@
     "r2": "성북구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/06",
+    "baseDate": "2026/10/07",
     "products": [
       {
         "title": "정기예탁금",
@@ -68,17 +68,17 @@
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.60"},
           {"duration": null, "rate": "2.60"},
-          {"duration": null, "rate": "3.50"}
+          {"duration": null, "rate": "3.70"}
         ]
       },
       {
         "title": "MG주거래우대정기예금",
-        "entries": [{"duration": 12, "rate": "3.50"}]
+        "entries": [{"duration": 12, "rate": "3.70"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/06",
+    "baseDate": "2026/10/07",
     "products": [
       {
         "title": "정기적금",
@@ -140,5 +140,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/06"
+  "baseDate": "2026/10/07"
 }
