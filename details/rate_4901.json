@@ -7,7 +7,7 @@
     "r2": "남원시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/07",
+    "baseDate": "2026/10/08",
     "products": [
       {
         "title": "정기예탁금",
@@ -27,7 +27,7 @@
           {"duration": 0, "rate": "1.20"},
           {"duration": 3, "rate": "1.50"},
           {"duration": 6, "rate": "2.50"},
-          {"duration": 12, "rate": "3.19"},
+          {"duration": 12, "rate": "3.25"},
           {"duration": 24, "rate": "2.80"},
           {"duration": 36, "rate": "2.80"}
         ]
@@ -68,7 +68,7 @@
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
           {"duration": null, "rate": "2.50"},
-          {"duration": null, "rate": "3.19"}
+          {"duration": null, "rate": "3.25"}
         ]
       },
       {
@@ -78,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/07",
+    "baseDate": "2026/10/08",
     "products": [
       {
         "title": "정기적금",
@@ -162,5 +162,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/07"
+  "baseDate": "2026/10/08"
 }
