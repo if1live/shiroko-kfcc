@@ -7,7 +7,7 @@
     "r2": "대덕구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/08",
+    "baseDate": "2026/10/09",
     "products": [
       {
         "title": "정기예탁금",
@@ -34,9 +34,9 @@
       {
         "title": "MG더뱅킹정기예금",
         "entries": [
-          {"duration": 3, "rate": "2.72"},
+          {"duration": 3, "rate": "2.67"},
           {"duration": 6, "rate": "3.34"},
-          {"duration": 12, "rate": "3.67"}
+          {"duration": 12, "rate": "3.72"}
         ]
       },
       {
@@ -63,7 +63,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/08",
+    "baseDate": "2026/10/09",
     "products": [
       {
         "title": "정기적금",
@@ -153,5 +153,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/08"
+  "baseDate": "2026/10/09"
 }
