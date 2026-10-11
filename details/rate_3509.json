@@ -7,12 +7,12 @@
     "r2": "성남시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/11",
+    "baseDate": "2026/10/12",
     "products": [
       {
         "title": "정기예탁금",
         "entries": [
-          {"duration": null, "rate": "2.10"},
+          {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.80"},
@@ -78,7 +78,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/11",
+    "baseDate": "2026/10/12",
     "products": [
       {
         "title": "정기적금",
@@ -162,5 +162,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/11"
+  "baseDate": "2026/10/12"
 }
