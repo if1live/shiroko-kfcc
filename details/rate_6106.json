@@ -2,12 +2,12 @@
   "id": "6106",
   "bank": {
     "gmgoCd": "6106",
-    "gmgoNm": "양곡",
+    "gmgoNm": "창원한마음",
     "r1": "경남",
     "r2": "창원시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/12",
+    "baseDate": "2026/10/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -77,7 +77,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/12",
+    "baseDate": "2026/10/13",
     "products": [
       {
         "title": "정기적금",
@@ -153,5 +153,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/12"
+  "baseDate": "2026/10/13"
 }

@@ -7,7 +7,7 @@
     "r2": "동작구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/12",
+    "baseDate": "2026/10/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -16,10 +16,10 @@
           {"duration": null, "rate": "2.40"},
           {"duration": null, "rate": "2.80"},
           {"duration": null, "rate": "2.80"},
-          {"duration": null, "rate": "3.59"},
-          {"duration": null, "rate": "3.37"},
-          {"duration": null, "rate": "3.37"},
-          {"duration": null, "rate": "3.37"}
+          {"duration": null, "rate": "3.79"},
+          {"duration": null, "rate": "3.21"},
+          {"duration": null, "rate": "3.21"},
+          {"duration": null, "rate": "3.21"}
         ]
       },
       {
@@ -79,7 +79,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/12",
+    "baseDate": "2026/10/13",
     "products": [
       {
         "title": "정기적금",
@@ -158,5 +158,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/12"
+  "baseDate": "2026/10/13"
 }

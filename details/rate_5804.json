@@ -7,7 +7,7 @@
     "r2": "안동시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/12",
+    "baseDate": "2026/10/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -49,30 +49,34 @@
         "entries": [
           {"duration": 3, "rate": "2.50"},
           {"duration": 6, "rate": "2.90"},
-          {"duration": 12, "rate": "3.30"}
+          {"duration": 12, "rate": "3.40"}
         ]
+      },
+      {
+        "title": "MG우리아이예금",
+        "entries": [{"duration": 12, "rate": "3.40"}]
       },
       {
         "title": "꿈드림회전정기예탁금",
         "entries": [
-          {"duration": null, "rate": "0.50"},
-          {"duration": null, "rate": "0.50"},
-          {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.00"},
-          {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.20"},
-          {"duration": null, "rate": "2.50"}
+          {"duration": null, "rate": "0.00"},
+          {"duration": null, "rate": "0.00"},
+          {"duration": null, "rate": "0.00"},
+          {"duration": null, "rate": "0.00"},
+          {"duration": null, "rate": "0.00"},
+          {"duration": null, "rate": "0.00"},
+          {"duration": null, "rate": "0.00"},
+          {"duration": null, "rate": "0.00"},
+          {"duration": null, "rate": "0.00"},
+          {"duration": null, "rate": "0.00"},
+          {"duration": null, "rate": "0.00"},
+          {"duration": null, "rate": "3.40"}
         ]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/12",
+    "baseDate": "2026/10/13",
     "products": [
       {
         "title": "정기적금",
@@ -91,6 +95,10 @@
       },
       {
         "title": "MG희망나눔걸음마적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
+      },
+      {
+        "title": "MG우리아이적금",
         "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
@@ -113,5 +121,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/12"
+  "baseDate": "2026/10/13"
 }

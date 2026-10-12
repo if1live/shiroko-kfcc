@@ -7,7 +7,7 @@
     "r2": "전주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/12",
+    "baseDate": "2026/10/13",
     "products": [
       {
         "title": "정기예탁금",
@@ -65,6 +65,10 @@
         ]
       },
       {
+        "title": "MG우리아이예금",
+        "entries": [{"duration": 12, "rate": "3.80"}]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": 1, "rate": "0.10"},
@@ -88,7 +92,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/12",
+    "baseDate": "2026/10/13",
     "products": [
       {
         "title": "정기적금",
@@ -123,6 +127,10 @@
       },
       {
         "title": "MG희망나눔걸음마적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
+      },
+      {
+        "title": "MG우리아이적금",
         "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
@@ -168,5 +176,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/12"
+  "baseDate": "2026/10/13"
 }
