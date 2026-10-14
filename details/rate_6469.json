@@ -7,7 +7,7 @@
     "r2": "진주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/14",
+    "baseDate": "2026/10/15",
     "products": [
       {
         "title": "정기예탁금",
@@ -33,6 +33,10 @@
         ]
       },
       {
+        "title": "MG우리아이예금",
+        "entries": [{"duration": 12, "rate": "3.30"}]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.80"},
@@ -56,7 +60,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/14",
+    "baseDate": "2026/10/15",
     "products": [
       {
         "title": "정기적금",
@@ -74,6 +78,10 @@
       {
         "title": "우리아기첫걸음정기적금",
         "entries": [{"duration": 12, "rate": "1.60"}]
+      },
+      {
+        "title": "MG우리아이적금",
+        "entries": [{"duration": 12, "rate": "3.30"}]
       },
       {
         "title": "자유적립적금",
@@ -124,5 +132,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/14"
+  "baseDate": "2026/10/15"
 }
