@@ -7,7 +7,7 @@
     "r2": "익산시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/15",
+    "baseDate": "2026/10/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -22,11 +22,15 @@
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "2.50"}
         ]
+      },
+      {
+        "title": "MG우리아이예금",
+        "entries": [{"duration": 12, "rate": "3.30"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/15",
+    "baseDate": "2026/10/16",
     "products": [
       {
         "title": "정기적금",
@@ -36,6 +40,10 @@
           {"duration": 36, "rate": "3.40"},
           {"duration": 60, "rate": "3.40"}
         ]
+      },
+      {
+        "title": "MG우리아이적금",
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "자유적립적금",
@@ -53,5 +61,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/15"
+  "baseDate": "2026/10/16"
 }

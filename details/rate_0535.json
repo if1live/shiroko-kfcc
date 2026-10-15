@@ -7,7 +7,7 @@
     "r2": "중랑구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/15",
+    "baseDate": "2026/10/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -95,7 +95,7 @@
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.20"},
           {"duration": null, "rate": "3.20"},
-          {"duration": null, "rate": "3.60"}
+          {"duration": null, "rate": "3.70"}
         ]
       },
       {
@@ -105,7 +105,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/15",
+    "baseDate": "2026/10/16",
     "products": [
       {
         "title": "정기적금",
@@ -128,7 +128,7 @@
       },
       {
         "title": "MG뛰어라정기적금",
-        "entries": [{"duration": 12, "rate": "2.50"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "MG더뱅킹정기적금",
@@ -151,7 +151,7 @@
           {"duration": 1, "rate": "1.50"},
           {"duration": 3, "rate": "2.00"},
           {"duration": 6, "rate": "2.30"},
-          {"duration": 12, "rate": "2.50"},
+          {"duration": 12, "rate": "3.00"},
           {"duration": 24, "rate": "2.50"},
           {"duration": 36, "rate": "2.50"},
           {"duration": 48, "rate": "2.50"},
@@ -160,15 +160,15 @@
       },
       {
         "title": "MG월복리자유적금",
-        "entries": [{"duration": 12, "rate": "2.50"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "Smart 자유적립적금",
-        "entries": [{"duration": 12, "rate": "2.50"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "MG주거래우대자유적금",
-        "entries": [{"duration": 12, "rate": "2.50"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       },
       {
         "title": "MG더뱅킹자유적금",
@@ -197,9 +197,9 @@
       },
       {
         "title": "My꿈모아자유적금",
-        "entries": [{"duration": 12, "rate": "2.50"}]
+        "entries": [{"duration": 12, "rate": "3.00"}]
       }
     ]
   },
-  "baseDate": "2026/10/15"
+  "baseDate": "2026/10/16"
 }

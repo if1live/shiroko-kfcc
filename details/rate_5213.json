@@ -7,7 +7,7 @@
     "r2": "포항시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/15",
+    "baseDate": "2026/10/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -43,6 +43,10 @@
         ]
       },
       {
+        "title": "MG우리아이예금",
+        "entries": [{"duration": 12, "rate": "3.50"}]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "1.50"},
@@ -62,7 +66,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/15",
+    "baseDate": "2026/10/16",
     "products": [
       {
         "title": "정기적금",
@@ -75,6 +79,10 @@
           {"duration": 48, "rate": "3.50"},
           {"duration": 60, "rate": "3.50"}
         ]
+      },
+      {
+        "title": "MG우리아이적금",
+        "entries": [{"duration": 12, "rate": "3.50"}]
       },
       {
         "title": "자유적립적금",
@@ -102,5 +110,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/15"
+  "baseDate": "2026/10/16"
 }

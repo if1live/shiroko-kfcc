@@ -7,7 +7,7 @@
     "r2": "부산진구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/15",
+    "baseDate": "2026/10/16",
     "products": [
       {
         "title": "정기예탁금",
@@ -62,7 +62,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/15",
+    "baseDate": "2026/10/16",
     "products": [
       {
         "title": "정기적금",
@@ -85,6 +85,10 @@
       {
         "title": "MG희망나눔걸음마적금",
         "entries": [{"duration": 12, "rate": "4.00"}]
+      },
+      {
+        "title": "MG우리아이적금",
+        "entries": [{"duration": 12, "rate": "3.20"}]
       },
       {
         "title": "자유적립적금",
@@ -130,5 +134,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/15"
+  "baseDate": "2026/10/16"
 }
