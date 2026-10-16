@@ -7,7 +7,7 @@
     "r2": "남양주시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/16",
+    "baseDate": "2026/10/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -57,6 +57,10 @@
         ]
       },
       {
+        "title": "MG우리아이예금",
+        "entries": [{"duration": 12, "rate": "3.40"}]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "2.30"},
@@ -76,7 +80,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/16",
+    "baseDate": "2026/10/17",
     "products": [
       {
         "title": "정기적금",
@@ -113,6 +117,10 @@
       {
         "title": "MG희망나눔걸음마적금",
         "entries": [{"duration": 12, "rate": "4.00"}]
+      },
+      {
+        "title": "MG우리아이적금",
+        "entries": [{"duration": 12, "rate": "3.60"}]
       },
       {
         "title": "자유적립적금",
@@ -155,5 +163,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/16"
+  "baseDate": "2026/10/17"
 }

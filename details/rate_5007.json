@@ -7,7 +7,7 @@
     "r2": "정읍시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/16",
+    "baseDate": "2026/10/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -47,6 +47,10 @@
         ]
       },
       {
+        "title": "MG우리아이예금",
+        "entries": [{"duration": 12, "rate": "3.50"}]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": 1, "rate": "0.50"},
@@ -66,7 +70,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/16",
+    "baseDate": "2026/10/17",
     "products": [
       {
         "title": "정기적금",
@@ -111,5 +115,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/16"
+  "baseDate": "2026/10/17"
 }

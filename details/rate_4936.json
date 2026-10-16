@@ -7,7 +7,7 @@
     "r2": "순창군"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/16",
+    "baseDate": "2026/10/17",
     "products": [
       {
         "title": "정기예탁금",
@@ -31,13 +31,17 @@
         ]
       },
       {
+        "title": "MG우리아이예금",
+        "entries": [{"duration": 12, "rate": "3.30"}]
+      },
+      {
         "title": "MG주거래우대정기예금",
         "entries": [{"duration": 12, "rate": "1.80"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/16",
+    "baseDate": "2026/10/17",
     "products": [
       {
         "title": "정기적금",
@@ -51,6 +55,10 @@
       {
         "title": "우리아기첫걸음정기적금",
         "entries": [{"duration": 12, "rate": "1.80"}]
+      },
+      {
+        "title": "MG우리아이적금",
+        "entries": [{"duration": 12, "rate": "2.80"}]
       },
       {
         "title": "자유적립적금",
@@ -68,5 +76,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/16"
+  "baseDate": "2026/10/17"
 }
