@@ -7,7 +7,7 @@
     "r2": "군산시"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/18",
+    "baseDate": "2026/10/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -18,6 +18,7 @@
           {"duration": null, "rate": "2.70"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "2.90"},
+          {"duration": null, "rate": "3.80"},
           {"duration": null, "rate": "3.50"},
           {"duration": null, "rate": "2.90"},
           {"duration": null, "rate": "2.90"}
@@ -57,13 +58,17 @@
         ]
       },
       {
+        "title": "MG우리아이예금",
+        "entries": [{"duration": 12, "rate": "3.50"}]
+      },
+      {
         "title": "MG주거래우대정기예금",
         "entries": [{"duration": 12, "rate": "2.80"}]
       }
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/18",
+    "baseDate": "2026/10/19",
     "products": [
       {
         "title": "정기적금",
@@ -90,6 +95,10 @@
       },
       {
         "title": "MG희망나눔걸음마적금",
+        "entries": [{"duration": 12, "rate": "4.00"}]
+      },
+      {
+        "title": "MG우리아이적금",
         "entries": [{"duration": 12, "rate": "4.00"}]
       },
       {
@@ -137,5 +146,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/18"
+  "baseDate": "2026/10/19"
 }

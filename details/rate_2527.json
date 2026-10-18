@@ -7,7 +7,7 @@
     "r2": "북구"
   },
   "deferredDeposit": {
-    "baseDate": "2026/10/18",
+    "baseDate": "2026/10/19",
     "products": [
       {
         "title": "정기예탁금",
@@ -39,6 +39,10 @@
         ]
       },
       {
+        "title": "MG우리아이예금",
+        "entries": [{"duration": 12, "rate": "3.30"}]
+      },
+      {
         "title": "꿈드림회전정기예탁금",
         "entries": [
           {"duration": null, "rate": "0.10"},
@@ -58,7 +62,7 @@
     ]
   },
   "installmentSavings": {
-    "baseDate": "2026/10/18",
+    "baseDate": "2026/10/19",
     "products": [
       {
         "title": "정기적금",
@@ -83,6 +87,10 @@
       {
         "title": "MG희망나눔걸음마적금",
         "entries": [{"duration": 12, "rate": "4.00"}]
+      },
+      {
+        "title": "MG우리아이적금",
+        "entries": [{"duration": 12, "rate": "3.10"}]
       },
       {
         "title": "자유적립적금",
@@ -125,5 +133,5 @@
       }
     ]
   },
-  "baseDate": "2026/10/18"
+  "baseDate": "2026/10/19"
 }
